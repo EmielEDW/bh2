@@ -19,7 +19,7 @@ export default function SamenvattingOverzicht() {
       <div className="grid gap-3 md:grid-cols-2">
         {themas.map((t, i) => (
           <Link key={t.slug} href={`/samenvatting/${t.slug}`}>
-            <Card className="h-full transition hover:border-brand-300 hover:shadow-md">
+            <Card className="h-full lift hover:border-brand-300">
               <div className="flex items-baseline gap-2">
                 <span className="text-sm font-bold text-brand-600">
                   {String(i + 1).padStart(2, "0")}

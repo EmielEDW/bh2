@@ -4,83 +4,130 @@
 
 html {
   scroll-behavior: smooth;
+  /* anker-links niet onder de sticky nav verbergen */
+  scroll-padding-top: 5rem;
   -webkit-text-size-adjust: 100%;
 }
 
 body {
-  @apply min-h-screen font-sans text-slate-800 antialiased;
-  /* Subtiele, rustige achtergrond met een vleugje kleur bovenaan */
-  background-color: #f8fafc;
+  @apply min-h-screen font-sans text-slate-700 antialiased;
+  /* Rustige achtergrond met een subtiele kleurzweem bovenaan */
+  background-color: #f7f9fc;
   background-image:
-    radial-gradient(60rem 32rem at 100% -8%, rgba(30, 102, 240, 0.07), transparent 60%),
-    radial-gradient(48rem 28rem at 0% 0%, rgba(56, 189, 248, 0.06), transparent 55%);
+    radial-gradient(56rem 30rem at 100% -10%, rgba(30, 102, 240, 0.06), transparent 60%),
+    radial-gradient(44rem 26rem at -5% 0%, rgba(56, 189, 248, 0.05), transparent 55%);
   background-attachment: fixed;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+  @apply text-slate-900;
+  letter-spacing: -0.01em;
 }
 
 /* Rustige tekstselectie */
 ::selection {
-  background: rgba(30, 102, 240, 0.16);
+  background: rgba(30, 102, 240, 0.15);
 }
 
-/* Nette, consistente focus-ring voor toetsenbordnavigatie */
+/* Nette focus-ring voor toetsenbordnavigatie */
 :focus-visible {
   outline: 2px solid theme("colors.brand.500");
   outline-offset: 2px;
-  border-radius: 4px;
+  border-radius: 6px;
 }
 
-/* Markdown-content (samenvattingen) */
+@layer components {
+  /* Subtiele hover-lift voor klikbare kaarten */
+  .lift {
+    @apply transition duration-200 ease-out;
+  }
+  .lift:hover {
+    @apply -translate-y-0.5 shadow-md;
+  }
+
+  /* Knoppen */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-xl bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm shadow-brand-600/20 transition hover:bg-brand-700 hover:shadow-md hover:shadow-brand-600/25 active:translate-y-px;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-xl border border-slate-300 bg-white px-4 py-2.5 text-sm font-semibold text-slate-700 transition hover:border-slate-400 hover:bg-slate-50;
+  }
+}
+
+/* ---------------------------------------------------------------- */
+/* Markdown-content (samenvattingen)                                */
+/* ---------------------------------------------------------------- */
+.prose-bh {
+  @apply text-[15px] leading-relaxed text-slate-700;
+}
 .prose-bh h2 {
-  @apply mt-7 mb-2 text-xl font-bold text-slate-900 border-b border-slate-200 pb-1;
+  @apply mt-8 mb-3 flex items-center gap-2 text-xl font-bold text-slate-900;
+}
+.prose-bh h2::before {
+  content: "";
+  @apply h-5 w-1 rounded-full bg-brand-500;
 }
 .prose-bh h3 {
-  @apply mt-5 mb-2 text-lg font-semibold text-brand-800;
+  @apply mt-6 mb-2 text-lg font-semibold text-brand-800;
 }
 .prose-bh h4 {
   @apply mt-4 mb-1 text-base font-semibold text-slate-800;
 }
 .prose-bh p {
-  @apply my-2 leading-relaxed text-slate-700;
+  @apply my-2.5 leading-7 text-slate-700;
 }
 .prose-bh ul {
-  @apply my-2 list-disc pl-6 space-y-1 text-slate-700;
+  @apply my-2.5 list-disc space-y-1.5 pl-6 text-slate-700 marker:text-slate-400;
 }
 .prose-bh ol {
-  @apply my-2 list-decimal pl-6 space-y-1 text-slate-700;
+  @apply my-2.5 list-decimal space-y-1.5 pl-6 text-slate-700 marker:text-slate-400;
 }
 .prose-bh li {
-  @apply leading-relaxed;
+  @apply leading-7;
 }
 .prose-bh strong {
   @apply font-semibold text-slate-900;
 }
 .prose-bh code {
-  @apply rounded bg-slate-100 px-1.5 py-0.5 text-[0.85em] font-mono text-brand-700;
+  @apply rounded-md bg-brand-50 px-1.5 py-0.5 text-[0.85em] font-medium text-brand-700 ring-1 ring-brand-100;
 }
 .prose-bh table {
-  @apply my-3 w-full border-collapse text-sm;
+  @apply my-4 block w-full overflow-x-auto border-separate border-spacing-0 rounded-xl text-sm;
+}
+.prose-bh thead {
+  @apply bg-slate-50;
 }
 .prose-bh th {
-  @apply border border-slate-300 bg-slate-100 px-2 py-1 text-left font-semibold;
+  @apply border-b border-slate-200 px-3 py-2 text-left font-semibold text-slate-700;
 }
 .prose-bh td {
-  @apply border border-slate-200 px-2 py-1;
+  @apply border-b border-slate-100 px-3 py-2 align-top;
+}
+.prose-bh tr:last-child td {
+  @apply border-b-0;
 }
 .prose-bh blockquote {
-  @apply my-3 border-l-4 border-brand-300 bg-brand-50 px-4 py-2 text-slate-700;
+  @apply my-4 rounded-r-lg border-l-4 border-brand-300 bg-brand-50/60 px-4 py-2.5 text-slate-700;
 }
 .prose-bh a {
-  @apply text-brand-700 underline underline-offset-2;
+  @apply font-medium text-brand-700 underline decoration-brand-300 underline-offset-2 transition-colors hover:text-brand-800 hover:decoration-brand-500;
+}
+.prose-bh hr {
+  @apply my-6 border-slate-200;
 }
 
-/* Mooie scrollbar */
+/* Nette scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
 ::-webkit-scrollbar-thumb {
   @apply rounded-full bg-slate-300;
+  border: 2px solid transparent;
+  background-clip: content-box;
 }
 ::-webkit-scrollbar-thumb:hover {
   @apply bg-slate-400;
+  background-clip: content-box;
 }

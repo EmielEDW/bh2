@@ -70,7 +70,7 @@ export default function Dashboard() {
       <section className="grid grid-cols-2 gap-3 md:grid-cols-4">
         {stats.map((s) => (
           <Link key={s.label} href={s.href}>
-            <Card className="text-center transition hover:border-brand-300 hover:shadow-md">
+            <Card className="text-center lift hover:border-brand-300">
               <div className="text-3xl font-extrabold text-brand-700">
                 {s.waarde}
               </div>
@@ -105,7 +105,7 @@ export default function Dashboard() {
             },
           ].map((s) => (
             <Link key={s.n} href={s.href}>
-              <Card className="h-full transition hover:border-brand-300 hover:shadow-md">
+              <Card className="h-full lift hover:border-brand-300">
                 <div className="mb-2 flex h-8 w-8 items-center justify-center rounded-full bg-brand-100 font-bold text-brand-700">
                   {s.n}
                 </div>
@@ -123,7 +123,7 @@ export default function Dashboard() {
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {themas.map((t) => (
             <Link key={t.slug} href={`/samenvatting/${t.slug}`}>
-              <Card className="h-full transition hover:border-brand-300 hover:shadow-md">
+              <Card className="h-full lift hover:border-brand-300">
                 <div className="flex items-start gap-3">
                   <span className="text-2xl">{THEMA_ICONS[t.slug] ?? "📒"}</span>
                   <div className="min-w-0">
@@ -157,7 +157,7 @@ export default function Dashboard() {
             { t: "Examenchecklist", d: "Wat moet ik kennen?", href: "/examen", icon: "🎯" },
           ].map((t) => (
             <Link key={t.t} href={t.href}>
-              <Card className="flex h-full items-center gap-3 transition hover:border-brand-300 hover:shadow-md">
+              <Card className="flex h-full items-center gap-3 lift hover:border-brand-300">
                 <span className="text-2xl">{t.icon}</span>
                 <div>
                   <h3 className="font-semibold text-slate-900">{t.t}</h3>

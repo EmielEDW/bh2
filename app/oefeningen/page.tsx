@@ -28,7 +28,7 @@ export default function OefeningenOverzicht() {
           };
           return (
             <Link key={t.slug} href={`/oefeningen/${t.slug}`}>
-              <Card className="h-full transition hover:border-brand-300 hover:shadow-md">
+              <Card className="h-full lift hover:border-brand-300">
                 <h2 className="font-bold text-slate-900">{t.titel}</h2>
                 <p className="mt-1 text-2xl font-extrabold text-brand-700">
                   {t.oefeningen.length}

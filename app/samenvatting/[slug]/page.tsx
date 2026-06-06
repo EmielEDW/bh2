@@ -35,16 +35,10 @@ export default function ThemaPagina({ params }: { params: { slug: string } }) {
         </h1>
         <p className="mt-2 text-slate-600">{t.korteOmschrijving}</p>
         <div className="mt-4 flex flex-wrap gap-2">
-          <Link
-            href={`/oefeningen/${t.slug}`}
-            className="rounded-lg bg-brand-600 px-4 py-2 text-sm font-semibold text-white hover:bg-brand-700"
-          >
+          <Link href={`/oefeningen/${t.slug}`} className="btn-primary">
             ✍️ Oefeningen ({t.oefeningen.length})
           </Link>
-          <Link
-            href="/mar"
-            className="rounded-lg border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50"
-          >
+          <Link href="/mar" className="btn-ghost">
             🔢 MAR-zoeker
           </Link>
         </div>
