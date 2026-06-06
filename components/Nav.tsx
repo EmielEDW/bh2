@@ -11,7 +11,6 @@ const LINKS = [
   { href: "/mar", label: "MAR-zoeker", icon: "🔢" },
   { href: "/boekingshulp", label: "Boekingshulp", icon: "🧭" },
   { href: "/btw", label: "BTW", icon: "🧾" },
-  { href: "/flashcards", label: "Flashcards", icon: "🎴" },
   { href: "/examen", label: "Examen", icon: "🎯" },
 ];
 

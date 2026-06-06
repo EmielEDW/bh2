@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getThemas, getMar, getAlleOefeningen, getAlleFlashcards } from "@/lib/data";
+import { getThemas, getMar, getAlleOefeningen } from "@/lib/data";
 import { Card } from "@/components/ui";
 
 const THEMA_ICONS: Record<string, string> = {
@@ -21,28 +21,36 @@ export default function Dashboard() {
   const themas = getThemas();
   const mar = getMar();
   const oef = getAlleOefeningen();
-  const fc = getAlleFlashcards();
+  const eigen = mar.rekeningen.filter((r) => r.custom).length;
 
   const stats = [
     { label: "Thema's", waarde: themas.length, href: "/samenvatting" },
     { label: "Oefeningen", waarde: oef.length, href: "/oefeningen" },
     { label: "MAR-rekeningen", waarde: mar.rekeningen.length, href: "/mar" },
-    { label: "Flashcards", waarde: fc.length, href: "/flashcards" },
+    { label: "Eigen rekeningen", waarde: eigen, href: "/mar" },
   ];
 
   return (
     <div className="space-y-8">
       {/* Hero */}
-      <section className="overflow-hidden rounded-3xl bg-gradient-to-br from-brand-600 to-brand-800 px-6 py-10 text-white md:px-10 md:py-12">
-        <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">
+      <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-brand-600 to-brand-800 px-6 py-10 text-white shadow-lg shadow-brand-900/20 ring-1 ring-white/10 md:px-10 md:py-12">
+        <div
+          className="pointer-events-none absolute -right-16 -top-24 h-72 w-72 rounded-full bg-white/10 blur-3xl"
+          aria-hidden
+        />
+        <div
+          className="pointer-events-none absolute -bottom-24 left-1/3 h-64 w-64 rounded-full bg-sky-300/10 blur-3xl"
+          aria-hidden
+        />
+        <h1 className="relative text-3xl font-extrabold tracking-tight md:text-4xl">
           Boekhouden 2 — alles om te slagen
         </h1>
-        <p className="mt-3 max-w-2xl text-brand-50">
+        <p className="relative mt-3 max-w-2xl text-brand-50">
           Samenvattingen, uitgewerkte oefeningen met redenering, een complete
           MAR-zoeker en interactieve trainers. Alles gebaseerd op jouw
           lesdocumenten en het ITAA Rekeningenstelsel.
         </p>
-        <div className="mt-6 flex flex-wrap gap-3">
+        <div className="relative mt-6 flex flex-wrap gap-3">
           <Link
             href="/examen"
             className="rounded-xl bg-white px-5 py-2.5 text-sm font-semibold text-brand-700 hover:bg-brand-50"
@@ -92,8 +100,8 @@ export default function Dashboard() {
             {
               n: "3",
               t: "Automatiseer",
-              d: "Herhaal de flashcards (begrippen + MAR-codes) tot ze vanzelf komen. Check de examenchecklist vlak voor de toets.",
-              href: "/flashcards",
+              d: "Train je debet/credit-reflex op de MAR-pagina en loop de examenchecklist door vlak voor de toets.",
+              href: "/examen",
             },
           ].map((s) => (
             <Link key={s.n} href={s.href}>

@@ -42,3 +42,6 @@ __pycache__/
 mar.pdf
 /Boekhouden_2_(dag)_-_Documenten/
 _extracted/
+
+# lokale Claude-instellingen (niet delen)
+.claude/settings.local.json

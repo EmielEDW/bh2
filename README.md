@@ -17,16 +17,15 @@ documenten/MAR voorkomen.
 |---|---|
 | **/** (Dashboard) | Overzicht, studeeradvies, snelle links naar alles. |
 | **/samenvatting** | 12 thema's, elk met uitgelegde samenvatting, kernrekeningen, boekingsschema's, veelgemaakte fouten en controlevragen. |
-| **/oefeningen** | 74 uitgewerkte oefeningen met **oefenmodus** (zonder oplossing) en **correctiemodus** (volledige redenering + journaalposten). Filter op niveau (basis/midden/examen). |
-| **/mar** | Zoeker over alle **300 rekeningen** (incl. 26 eigen rekeningen van de leerkracht: ABTW, VBTW, ICN/UCN…). Filter op klasse en thema. |
+| **/oefeningen** | **92 uitgewerkte oefeningen** die de échte oefeningenfiches van de leerkracht volgen (zelfde bedrijven, bedragen en structuur), met **oefenmodus** (zonder oplossing) en **correctiemodus** (volledige redenering + journaalposten). Filter op niveau (basis/midden/examen). |
+| **/mar** | Zoeker over alle **300 rekeningen** (incl. 26 eigen rekeningen van de leerkracht: ABTW, VBTW, ICN/UCN…) + een **debet/credit-trainer**. Filter op klasse en thema. |
 | **/boekingshulp** | Beslis-wizard ("welke boeking heb ik nodig?") + een **journaalpost-builder** met live debet=credit-controle. |
 | **/btw** | BTW-rekenmachine die meteen de juiste boeking toont, overzicht van de aangiftevakken, theorie en valkuilen. |
-| **/flashcards** | 192 flashcards (begrippen, MAR-codes, logica) + een **debet/credit-trainer**. |
 | **/examen** | Last-minute kernboekingen, een afvinkbare **examenchecklist** (bewaard in je browser) en de belangrijkste valkuilen. |
 
 **Interactieve onderdelen:** MAR-zoeker · journaalpost-builder · BTW-helper ·
-debet/credit-trainer · oefen-/correctiemodus · flashcards (flip + shuffle) ·
-boekings-wizard · controlevragen per hoofdstuk · examenchecklist met voortgang.
+debet/credit-trainer · oefen-/correctiemodus · boekings-wizard ·
+controlevragen per hoofdstuk · examenchecklist met voortgang.
 
 ---
 
@@ -136,13 +135,11 @@ Kort samengevat:
 
 Deze zaken zijn met de grootste zorg gemaakt, maar **controleer ze tegen je eigen cursus**:
 
-1. **Gescande fiches.** De volgende oefeningenfiches waren ingescande beelden zonder
-   leesbare tekst, dus die thema's zijn opgebouwd op basis van de MAR + de standaard
-   Belgische boekhoudconventies (duidelijk gemarkeerd in de samenvatting):
-   - *Financiële vaste activa / geldbeleggingen / liquide middelen* (fiche 396/456/462)
-   - *Kapitaalsubsidies* (fiche 540-542)
-   - *Voorzieningen* (fiche 579-581)
-   - *Overlopende rekeningen* (fiche 689-691, grotendeels gescand)
+1. **Gescande fiches — opgelost.** Vier oefeningenfiches (FVA/geldbeleggingen 396/456/462,
+   Kapitaalsubsidies 540-542, Voorzieningen 579-581, Overlopende rekeningen 689-691) waren
+   ingescande beelden zonder tekstlaag. Die zijn nu **als afbeelding gerenderd en visueel
+   uitgelezen** (via PyMuPDF), zodat ook die oefeningen de échte fiche volgen. Controleer ze
+   gerust nog eens tegen je papieren fiche — bij scans kan een cijfer onduidelijk zijn.
 2. **BTW-aangiftevakken** (pagina /btw) volgen het standaard Belgische schema
    (roosters 00-03, 54-59, 81-87…). De exacte nummers staan niet allemaal letterlijk
    in de documenten → controleer tegen je cursus.
@@ -154,7 +151,7 @@ Deze zaken zijn met de grootste zorg gemaakt, maar **controleer ze tegen je eige
 4. Sommige rekeningen kregen de naam uit de compacte lijst (bv. *"Machines AW"* i.p.v.
    het officiële *"Andere installaties"*) omdat dat de naam is die de leerkracht gebruikt.
 
-Alle **74 oefeningen** zijn automatisch gecontroleerd: elke boeking balanceert
+Alle **92 oefeningen** zijn automatisch gecontroleerd: elke boeking balanceert
 (debet = credit) en elke gebruikte code bestaat in `data/mar.json`
 (`python3 validate_content.py` → 0 fouten).
 

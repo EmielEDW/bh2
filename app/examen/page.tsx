@@ -174,11 +174,11 @@ export default function ExamenPagina() {
           <Card>
             <h3 className="font-bold text-slate-900">Dag 5 — Automatiseren</h3>
             <p className="mt-1 text-sm text-slate-600">
-              Doe de{" "}
-              <Link href="/flashcards" className="text-brand-600 hover:underline">
-                flashcards
+              Train je debet/credit-reflex met de trainer op de{" "}
+              <Link href="/mar" className="text-brand-600 hover:underline">
+                MAR-pagina
               </Link>{" "}
-              en de Debet/Credit-trainer. Loop deze pagina nog eens door.
+              en loop deze pagina nog eens door.
             </p>
           </Card>
         </div>

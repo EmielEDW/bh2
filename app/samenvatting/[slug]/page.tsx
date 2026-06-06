@@ -42,10 +42,10 @@ export default function ThemaPagina({ params }: { params: { slug: string } }) {
             ✍️ Oefeningen ({t.oefeningen.length})
           </Link>
           <Link
-            href="/flashcards"
+            href="/mar"
             className="rounded-lg border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50"
           >
-            🎴 Flashcards
+            🔢 MAR-zoeker
           </Link>
         </div>
       </header>

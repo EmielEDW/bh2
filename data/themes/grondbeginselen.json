@@ -1,53 +1,58 @@
 {
   "slug": "grondbeginselen",
   "titel": "Grondbeginselen & dubbel boekhouden",
-  "korteOmschrijving": "Hoe je vanuit de boekhoudkundige basisgelijkheid via journaalpost, grootboek en saldibalans tot een balans en resultatenrekening komt.",
+  "korteOmschrijving": "Hoe je vanuit de boekhoudkundige basisgelijkheid via journaalpost, grootboek en saldibalans tot een balans en resultatenrekening komt - met de oefening 'dubbel boekhouden op 4 manieren' als rode draad.",
   "leerdoelen": [
     "De boekhoudkundige basisgelijkheid (Actief = Passief = Eigen vermogen + Schulden) uitleggen en toepassen op een balans.",
     "Het onderscheid maken tussen balansrekeningen (klasse 1-5) en resultaatrekeningen (kosten klasse 6, opbrengsten klasse 7).",
     "De debet/credit-regels per klasse correct toepassen en elke verrichting in evenwicht boeken (som debet = som credit).",
+    "Dezelfde verrichtingen op vier manieren verwerken: enkel op de balans (Pacioli), met resultaatrekeningen, bij niet-permanente en bij permanente inventaris.",
     "Een verrichting verwerken via journaalpost -> grootboek (T-rekeningen) -> proefbalans en saldibalans.",
     "Een boekjaar openen en afsluiten en uit de saldibalans de balans en de resultatenrekening (winst/verlies) afleiden.",
     "Eenvoudige aan- en verkoopfacturen met 21% btw boeken met de juiste MAR-rekeningen."
   ],
-  "samenvatting": "## Waarover gaat dit thema?\n\nDubbel boekhouden betekent dat **elke verrichting twee keer** geboekt wordt: een keer aan de **debetkant** en een keer aan de **creditkant**, voor exact hetzelfde totaalbedrag. Daardoor blijft de boekhouding altijd in evenwicht. Dit thema legt de fundamenten: de balans, de resultatenrekening, de debet/credit-regels, de journaalpost, het grootboek, de proef- en saldibalans en het openen/afsluiten van een boekjaar.\n\n## De boekhoudkundige basisgelijkheid\n\nDe kern van alles is:\n\n**ACTIEF = PASSIEF**, of uitgebreider: **Activa = Eigen vermogen + Schulden**.\n\n- **Actief (links op de balans)** = wat de onderneming *bezit*: gebouwen (221000), machines (231000), rollend materieel (241000), voorraad handelsgoederen (340000), vorderingen op klanten (400000), bank (550000) en kas (570000).\n- **Passief (rechts op de balans)** = waar dat geld *vandaan komt*: het eigen vermogen (geplaatst kapitaal 100000, reserves zoals 133000, overgedragen winst 140000) en de schulden (lening op lange termijn, leveranciers 440000).\n\nVoorbeeld uit de cursus (nv Koekie): de aandeelhouder brengt 600.000 EUR in, men koopt grond (100.000), een gebouw (400.000), een bestelwagen (50.000) en voorraad. Na elke verrichting blijft Actief gelijk aan Passief.\n\n## Balans versus resultatenrekening\n\nDit onderscheid is essentieel:\n\n- De **balans** is een *momentopname* van het vermogen (klasse 1 t/m 5). Ze toont saldi.\n- De **resultatenrekening** toont de *stroom* over een periode: **kosten (klasse 6)** tegenover **opbrengsten (klasse 7)**. Het verschil is de **winst of het verlies**.\n\n### Klasse 6 - kosten (debet)\nKosten **verarmen** de onderneming en staan **debet**. Voorbeelden: aankopen handelsgoederen (604000), diensten en diverse goederen / D&DG (610000), bezoldigingen (620000).\n\n### Klasse 7 - opbrengsten (credit)\nOpbrengsten **verrijken** de onderneming en staan **credit**. Voorbeeld: verkopen (700000).\n\n## De debet/credit-regels per klasse\n\nDit moet je uit het hoofd kennen. Een rekening **stijgt** aan de kant van haar natuur:\n\n| Soort | Stijgt in | Daalt in |\n|---|---|---|\n| **Actief** (kl. 2, 3, 5 en 40/41) | debet | credit |\n| **Passief** (kl. 1, 42-48) | credit | debet |\n| **Kosten** (kl. 6) | debet | (credit) |\n| **Opbrengsten** (kl. 7) | credit | (debet) |\n\n**Geheugensteun:** een klant (400000) die *meer* aan ons schuldig is -> debet erbij. Een leverancier (440000) aan wie wij *meer* schuldig zijn -> credit erbij. Let op de **(-)-rekeningen** en de geboekte afschrijvingen: die staan aan de *tegenovergestelde* kant van hun rubriek (bv. geboekte afschrijvingen 241900 staan credit, hoewel ze bij een actiefrekening horen).\n\n## Van journaalpost tot saldibalans\n\nDe boekhoudkundige verwerking verloopt in vaste stappen:\n\n1. **Journaalpost (dagboek):** je noteert chronologisch welke rekening debet en welke credit gaat, met het bedrag. Regel: **vul per regel OFWEL debet OFWEL credit in**, nooit beide. Som debet = som credit.\n2. **Grootboek (T-rekeningen):** je verplaatst elke journaalregel naar de juiste rekening. Links = debet, rechts = credit.\n3. **Proefbalans:** controle dat de som van alle debetbewegingen gelijk is aan de som van alle creditbewegingen (controle van het **dubbel** boeken).\n4. **Saldibalans:** per rekening bereken je het **saldo** (debet- of creditsaldo). De som van de debetsaldi = de som van de creditsaldi.\n\n## Van saldibalans naar balans + resultaat\n\nUit de saldibalans splits je af:\n- De **klasse 1-5 saldi** vormen de **eindbalans**.\n- De **klasse 6 en 7 saldi** vormen de **resultatenrekening**.\n\n**Winst** = opbrengsten (kl. 7) > kosten (kl. 6). De winst boek je over naar het eigen vermogen (bv. via reserves 133000 of overgedragen winst 140000), zodat de balans terug in evenwicht is.\n\nKort cijfervoorbeeld (cursus 'lezingen'): verkopen 5.000 (700000) tegenover kosten hotel + resto 3.000 (610000) -> **winst 2.000**. Die 2.000 verhoogt het eigen vermogen.\n\n## Openen en afsluiten van het boekjaar\n\n- **Openen:** je neemt de eindbalans van vorig jaar over als beginbalans (de balansrekeningen krijgen hun beginsaldo; de resultaatrekeningen starten op nul).\n- **Afsluiten:** je bepaalt het resultaat, boekt het naar het eigen vermogen en sluit alle rekeningen af op nul. Klasse 6 en 7 bestaan enkel binnen een boekjaar en starten elk jaar opnieuw vanaf nul.\n\n## Een factuur boeken met btw\n\nBij een **aankoopfactuur handelsgoederen** koop je de goederen excl. btw (604000, debet), de aftrekbare btw is een vordering op de staat (411590 ABTW, debet) en je hebt een schuld aan de leverancier voor het totaal incl. btw (440000, credit). Bij een **verkoopfactuur** is het spiegelbeeld: de klant betaalt incl. btw (400000, debet), de verkoop is een opbrengst excl. btw (700000, credit) en de verschuldigde btw (451540 VBTW, credit) moet je doorstorten. **De btw zelf is nooit een kost of opbrengst**, maar een vordering of schuld.",
+  "samenvatting": "## Waarover gaat dit thema?\n\nDubbel boekhouden betekent dat **elke verrichting twee keer** geboekt wordt: een keer aan de **debetkant** en een keer aan de **creditkant**, voor exact hetzelfde totaalbedrag. Daardoor blijft de boekhouding altijd in evenwicht. Dit thema legt de fundamenten: de balans, de resultatenrekening, de debet/credit-regels, de journaalpost, het grootboek, de proef- en saldibalans en het openen/afsluiten van een boekjaar.\n\nDe centrale oefening van de leerkracht ('dubbel boekhouden op 4 manieren', oef. 01/003A-003B-003C-003D) boekt **dezelfde reeks verrichtingen op vier manieren**:\n\n- **003C BASIC** - enkel op de balans (zoals Pacioli): het resultaat loopt rechtstreeks over een eigenvermogensrekening (reserves 131000).\n- **003D ADVANCED** - idem, maar met een nettere voorstelling van meer-/minderwaarden.\n- **003A** - met **resultaatrekeningen** maar **niet-permanente inventaris**: aankopen HG op kost 604000, voorraad pas op het einde via 609400.\n- **003B** - met resultaatrekeningen en **permanente inventaris**: de voorraad 340000 beweegt bij elke aan- en verkoop mee.\n\n## De boekhoudkundige basisgelijkheid\n\nDe kern van alles is:\n\n**ACTIEF = PASSIEF**, of uitgebreider: **Activa = Eigen vermogen + Schulden**.\n\n- **Actief (links op de balans)** = wat de onderneming *bezit*: gebouwen (221000), machines (231000), meubilair en rollend materieel (240000), voorraad handelsgoederen (340000), vorderingen op klanten (400000), bank (550000) en kas (570000).\n- **Passief (rechts op de balans)** = waar dat geld *vandaan komt*: het eigen vermogen (geplaatst kapitaal 100000, reserves zoals 131000/133000, overgedragen winst 140000) en de schulden (lening 430000, leveranciers 440000).\n\n## Balans versus resultatenrekening\n\nDit onderscheid is essentieel:\n\n- De **balans** is een *momentopname* van het vermogen (klasse 1 t/m 5). Ze toont saldi.\n- De **resultatenrekening** toont de *stroom* over een periode: **kosten (klasse 6)** tegenover **opbrengsten (klasse 7)**. Het verschil is de **winst of het verlies**.\n\n### Klasse 6 - kosten (debet)\nKosten **verarmen** de onderneming en staan **debet**. Voorbeelden: aankopen handelsgoederen (604000), diensten en diverse goederen / D&DG (610000), bezoldigingen (620000).\n\n### Klasse 7 - opbrengsten (credit)\nOpbrengsten **verrijken** de onderneming en staan **credit**. Voorbeelden: verkopen (700000), verkoop van vaste activa (707000), meerwaarden op realisatie (763000).\n\n## De debet/credit-regels per klasse\n\nDit moet je uit het hoofd kennen. Een rekening **stijgt** aan de kant van haar natuur:\n\n| Soort | Stijgt in | Daalt in |\n|---|---|---|\n| **Actief** (kl. 2, 3, 5 en 40/41) | debet | credit |\n| **Passief** (kl. 1, 42-48) | credit | debet |\n| **Kosten** (kl. 6) | debet | (credit) |\n| **Opbrengsten** (kl. 7) | credit | (debet) |\n\n**Geheugensteun:** een klant (400000) die *meer* aan ons schuldig is -> debet erbij. Een leverancier (440000) aan wie wij *meer* schuldig zijn -> credit erbij. Let op de **(-)-rekeningen** en de geboekte afschrijvingen: die staan aan de *tegenovergestelde* kant van hun rubriek (bv. geboekte afschrijvingen 231900 staan credit, hoewel ze bij een actiefrekening horen).\n\n## Van journaalpost tot saldibalans\n\nDe boekhoudkundige verwerking verloopt in vaste stappen:\n\n1. **Journaalpost (dagboek):** je noteert chronologisch welke rekening debet en welke credit gaat, met het bedrag. Regel: **vul per regel OFWEL debet OFWEL credit in**, nooit beide. Som debet = som credit.\n2. **Grootboek (T-rekeningen):** je verplaatst elke journaalregel naar de juiste rekening. Links = debet, rechts = credit.\n3. **Proefbalans:** controle dat de som van alle debetbewegingen gelijk is aan de som van alle creditbewegingen (controle van het **dubbel** boeken).\n4. **Saldibalans:** per rekening bereken je het **saldo** (debet- of creditsaldo). De som van de debetsaldi = de som van de creditsaldi.\n\n## Permanente versus niet-permanente inventaris\n\nDit verschil bepaalt hoe je een aankoop/verkoop van handelsgoederen boekt:\n\n- **Niet-permanente inventaris (003A):** elke aankoop HG gaat naar de **kost 604000** (debet). De voorraad 340000 wordt pas op het einde van het boekjaar aangepast via de **voorraadwijziging 609400** (toename voorraad -> 340000 debet / 609400 credit). Tijdens het jaar 'volgt' de voorraadrekening dus niet.\n- **Permanente inventaris (003B):** je houdt de voorraad 340000 voortdurend bij. Bij aankoop boek je rechtstreeks op 340000 (debet); bij verkoop boek je de kostprijs van de verkochte goederen uit 340000 (credit) via 609400.\n\n## Van saldibalans naar balans + resultaat\n\nUit de saldibalans splits je af:\n- De **klasse 1-5 saldi** vormen de **eindbalans**.\n- De **klasse 6 en 7 saldi** vormen de **resultatenrekening**.\n\n**Winst** = opbrengsten (kl. 7) > kosten (kl. 6). De winst boek je over naar het eigen vermogen (bv. via reserves 131000/133000 of overgedragen winst 140000), zodat de balans terug in evenwicht is. In de 'enkel op de balans'-methode (Pacioli, 003C) loopt het resultaat rechtstreeks over een eigenvermogensrekening.\n\n## Openen en afsluiten van het boekjaar\n\n- **Openen:** je neemt de eindbalans van vorig jaar over als beginbalans (de balansrekeningen krijgen hun beginsaldo; de resultaatrekeningen starten op nul).\n- **Afsluiten:** je bepaalt het resultaat, boekt het naar het eigen vermogen en sluit alle rekeningen af op nul. Klasse 6 en 7 bestaan enkel binnen een boekjaar en starten elk jaar opnieuw vanaf nul.\n\n## Een factuur boeken met btw\n\nBij een **aankoopfactuur handelsgoederen** koop je de goederen excl. btw (604000, debet), de aftrekbare btw is een vordering op de staat (411590 ABTW, debet) en je hebt een schuld aan de leverancier voor het totaal incl. btw (440000, credit). Bij een **verkoopfactuur** is het spiegelbeeld: de klant betaalt incl. btw (400000, debet), de verkoop is een opbrengst excl. btw (700000, credit) en de verschuldigde btw (451540 VBTW, credit) moet je doorstorten. **De btw zelf is nooit een kost of opbrengst**, maar een vordering of schuld.\n\nVoorbeeld uit de fiche (radiatoren als handelsgoederen): AF radiatoren 363,00 = 300,00 + 63,00 btw; VF radiatoren 605,00 = 500,00 + 105,00 btw.",
   "kernrekeningen": [
-    {"code": "100000", "naam": "Geplaatst kapitaal", "natuur": "credit", "wanneer": "Het kapitaal dat de eigenaars/aandeelhouders inbrengen; stijgt in credit bij inbreng (eigen vermogen)."},
-    {"code": "133000", "naam": "Beschikbare reserves", "natuur": "credit", "wanneer": "Deel van de winst dat in de onderneming gehouden wordt; verhoogt het eigen vermogen bij winstbestemming."},
+    {"code": "100000", "naam": "Geplaatst kapitaal", "natuur": "credit", "wanneer": "Het kapitaal dat de eigenaars/aandeelhouders inbrengen; stijgt in credit bij inbreng (eigen vermogen). In de fiche kort 'Inbreng' / '110' genoemd."},
+    {"code": "131000", "naam": "Onbeschikbare reserves", "natuur": "credit", "wanneer": "Eigenvermogensrekening waarover in de 'enkel op de balans'-methode (Pacioli, 003C) het resultaat rechtstreeks loopt; in de fiche kort 'Reserves' genoemd."},
     {"code": "140000", "naam": "Overgedragen winst", "natuur": "credit", "wanneer": "Winst die niet bestemd is en naar volgend jaar overgedragen wordt; sluitstuk om de balans bij afsluiting in evenwicht te brengen."},
-    {"code": "440000", "naam": "Leveranciers", "natuur": "credit", "wanneer": "Schuld aan leveranciers door een aankoop op factuur; stijgt in credit, daalt in debet bij betaling."},
-    {"code": "400000", "naam": "Klanten", "natuur": "debet", "wanneer": "Vordering op klanten door een verkoop op factuur; stijgt in debet, daalt in credit bij ontvangst."},
+    {"code": "430000", "naam": "Kredietinstellingen – Leningen vaste termijn", "natuur": "credit", "wanneer": "Schuld uit een banklening (in de fiche 'Lening ING'); stijgt in credit bij opname, daalt in debet bij aflossing."},
+    {"code": "440000", "naam": "Leveranciers", "natuur": "credit", "wanneer": "Schuld aan leveranciers door een aankoop op factuur; stijgt in credit, daalt in debet bij betaling (Leverancier A/B/C in de fiche)."},
+    {"code": "400000", "naam": "Klanten", "natuur": "debet", "wanneer": "Vordering op klanten door een verkoop op factuur; stijgt in debet, daalt in credit bij ontvangst (Klant X/Y in de fiche)."},
+    {"code": "231000", "naam": "Machines AW", "natuur": "debet", "wanneer": "Materieel vast actief (machine); aanschaffingswaarde in debet bij aankoop."},
+    {"code": "240000", "naam": "Meubilair en rollend materieel", "natuur": "debet", "wanneer": "Materieel vast actief (de 'stoelen'/meubilair uit de fiche); in debet bij aankoop, uit het debet bij verkoop."},
     {"code": "550000", "naam": "Kredietinstellingen", "natuur": "debet", "wanneer": "De zichtrekening/bank; debet bij ontvangst, credit bij betaling (actief, liquide middel)."},
-    {"code": "570000", "naam": "Kas – contanten (570-576)", "natuur": "debet", "wanneer": "Cashgeld in kas; debet bij ontvangst contant, credit bij contante uitgave."},
-    {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "natuur": "debet", "wanneer": "Kost bij aankoop van handelsgoederen, geboekt excl. btw op een aankoopfactuur."},
+    {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "natuur": "debet", "wanneer": "Kost bij aankoop van handelsgoederen, geboekt excl. btw. Bij niet-permanente inventaris gaat elke aankoop HG hierheen."},
+    {"code": "340000", "naam": "Handelsgoederen (HG)", "natuur": "debet", "wanneer": "De voorraad handelsgoederen op de balans (actief); bij permanente inventaris beweegt deze bij elke aan-/verkoop, bij niet-permanente enkel via de voorraadwijziging."},
+    {"code": "609400", "naam": "Voorraadwijziging van handelsgoederen (HG)", "natuur": "beide", "wanneer": "Boekt de toename of afname van de voorraad HG; bij niet-permanente inventaris op het einde van het jaar, bij permanente bij elke verkoop."},
     {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "natuur": "debet", "wanneer": "De btw op aankopen die je van de staat mag terugvorderen; vordering (debet) op een aankoopfactuur."},
-    {"code": "610000", "naam": "Diensten en diverse goederen", "natuur": "debet", "wanneer": "Kost voor diensten/werkingskosten (bv. hotel, restaurant, huur, elektriciteit); geboekt excl. btw, debet."},
-    {"code": "620000", "naam": "Bezoldigingen, sociale lasten en pensioenen", "natuur": "debet", "wanneer": "Personeelskost (lonen); kost in klasse 6, dus debet."},
-    {"code": "700000", "naam": "Verkopen", "natuur": "credit", "wanneer": "Opbrengst bij verkoop van goederen/diensten, geboekt excl. btw op een verkoopfactuur, credit."},
-    {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "natuur": "credit", "wanneer": "De btw die je op verkopen aanrekent en aan de staat verschuldigd bent; schuld (credit) op een verkoopfactuur."},
-    {"code": "340000", "naam": "Handelsgoederen (HG)", "natuur": "debet", "wanneer": "De voorraad handelsgoederen op de balans (actief); gebruikt bij permanente inventaris en bij de voorraadwijziging."}
+    {"code": "700000", "naam": "Verkopen", "natuur": "credit", "wanneer": "Opbrengst bij verkoop van handelsgoederen/diensten, geboekt excl. btw op een verkoopfactuur, credit."},
+    {"code": "707000", "naam": "Verkoop VA", "natuur": "credit", "wanneer": "Opbrengst bij de verkoop van een vast actief (bv. het meubilair); credit, excl. btw."},
+    {"code": "763000", "naam": "Meerwaarden op de realisatie van", "natuur": "credit", "wanneer": "Meerwaarde wanneer de verkoopprijs van een vast actief hoger is dan de boekwaarde (niet-recurrente opbrengst), credit."},
+    {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "natuur": "credit", "wanneer": "De btw die je op verkopen aanrekent en aan de staat verschuldigd bent; schuld (credit) op een verkoopfactuur."}
   ],
   "boekingsschemas": [
     {
-      "titel": "Inbreng van kapitaal (openen onderneming)",
-      "situatie": "Een eigenaar/aandeelhouder stort geld op de bankrekening van de onderneming als startkapitaal.",
+      "titel": "Inbreng van kapitaal en banklening (openen onderneming)",
+      "situatie": "Een aandeelhouder brengt geld in op de bankrekening en de onderneming neemt een banklening op.",
       "regels": [
-        {"code": "550000", "naam": "Kredietinstellingen", "kant": "debet", "bedrag": "inbreng", "toelichting": "De bank (actief) stijgt -> debet."},
-        {"code": "100000", "naam": "Geplaatst kapitaal", "kant": "credit", "bedrag": "inbreng", "toelichting": "Het eigen vermogen (passief) stijgt -> credit."}
+        {"code": "550000", "naam": "Kredietinstellingen", "kant": "debet", "bedrag": "inbreng + lening", "toelichting": "De bank (actief) stijgt -> debet."},
+        {"code": "100000", "naam": "Geplaatst kapitaal", "kant": "credit", "bedrag": "inbreng", "toelichting": "Het eigen vermogen (passief) stijgt door de inbreng -> credit."},
+        {"code": "430000", "naam": "Kredietinstellingen – Leningen vaste termijn", "kant": "credit", "bedrag": "lening", "toelichting": "De schuld uit de lening (passief) stijgt -> credit."}
       ]
     },
     {
       "titel": "Aankoopfactuur handelsgoederen (21% btw)",
       "situatie": "Je koopt handelsgoederen op factuur bij een Belgische leverancier.",
       "regels": [
-        {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "kant": "debet", "bedrag": "excl. btw", "toelichting": "Kost klasse 6 -> debet, bedrag exclusief btw."},
+        {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "kant": "debet", "bedrag": "excl. btw", "toelichting": "Kost klasse 6 -> debet, bedrag exclusief btw (niet-permanente inventaris)."},
         {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "kant": "debet", "bedrag": "btw 21%", "toelichting": "Terugvorderbare btw = vordering op de staat -> debet."},
         {"code": "440000", "naam": "Leveranciers", "kant": "credit", "bedrag": "incl. btw", "toelichting": "Schuld aan leverancier (passief) stijgt -> credit, totaal inclusief btw."}
       ]
     },
     {
-      "titel": "Verkoopfactuur (21% btw)",
-      "situatie": "Je verkoopt goederen of een dienst op factuur aan een Belgische klant.",
+      "titel": "Verkoopfactuur handelsgoederen (21% btw)",
+      "situatie": "Je verkoopt handelsgoederen op factuur aan een Belgische klant.",
       "regels": [
         {"code": "400000", "naam": "Klanten", "kant": "debet", "bedrag": "incl. btw", "toelichting": "Vordering op klant (actief) stijgt -> debet, totaal inclusief btw."},
         {"code": "700000", "naam": "Verkopen", "kant": "credit", "bedrag": "excl. btw", "toelichting": "Opbrengst klasse 7 -> credit, bedrag exclusief btw."},
@@ -55,11 +60,20 @@
       ]
     },
     {
+      "titel": "Verkoop van een vast actief met meerwaarde",
+      "situatie": "Je verkoopt een vast actief (bv. meubilair) voor meer dan de boekwaarde.",
+      "regels": [
+        {"code": "400000", "naam": "Klanten", "kant": "debet", "bedrag": "verkoopprijs", "toelichting": "Vordering op klant (actief) stijgt -> debet."},
+        {"code": "240000", "naam": "Meubilair en rollend materieel", "kant": "credit", "bedrag": "boekwaarde", "toelichting": "Het vast actief verdwijnt aan de aanschaffingswaarde/boekwaarde -> credit."},
+        {"code": "763000", "naam": "Meerwaarden op de realisatie van", "kant": "credit", "bedrag": "verkoopprijs - boekwaarde", "toelichting": "De meerwaarde is een niet-recurrente opbrengst -> credit."}
+      ]
+    },
+    {
       "titel": "Afsluiten boekjaar: winst overboeken naar eigen vermogen",
-      "situatie": "Bij afsluiting is de som van de opbrengsten (kl. 7) groter dan de kosten (kl. 6). Het verschil is winst die naar het eigen vermogen gaat.",
+      "situatie": "Bij afsluiting zijn de opbrengsten (kl. 7) groter dan de kosten (kl. 6). Het verschil is winst die naar het eigen vermogen gaat.",
       "regels": [
         {"code": "700000", "naam": "Verkopen", "kant": "debet", "bedrag": "totaal opbrengsten", "toelichting": "Opbrengstrekening wordt afgesloten -> tegengestelde kant (debet) om saldo op nul te zetten."},
-        {"code": "610000", "naam": "Diensten en diverse goederen", "kant": "credit", "bedrag": "totaal kosten", "toelichting": "Kostenrekening wordt afgesloten -> tegengestelde kant (credit)."},
+        {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "kant": "credit", "bedrag": "totaal kosten", "toelichting": "Kostenrekening wordt afgesloten -> tegengestelde kant (credit)."},
         {"code": "140000", "naam": "Overgedragen winst", "kant": "credit", "bedrag": "verschil = winst", "toelichting": "De winst verhoogt het eigen vermogen (passief) -> credit; brengt de balans in evenwicht."}
       ]
     }
@@ -69,7 +83,7 @@
       "id": "grondbeginselen-1",
       "titel": "Basisgelijkheid: het kapitaal berekenen",
       "niveau": "basis",
-      "context": "De nv Koekie heeft de volgende activa op de balans: Gronden (220000) 100.000, Gebouwen (221000) 400.000, Bestelwagen (241000) 50.000, Bank (550000) 90.000 en Kas (570000) 1.000. De schulden bestaan uit Leveranciers (440000) 211.000 en een lening op lange termijn (170000) 200.000.",
+      "context": "Een onderneming heeft de volgende activa op de balans: Machines (231000) 100.000, Gebouwen (221000) 400.000, Meubilair en rollend materieel (240000) 50.000, Bank (550000) 90.000 en Kas (570000) 1.000. De schulden bestaan uit Leveranciers (440000) 211.000 en een lening op lange termijn (170000) 200.000.",
       "vraag": "Bereken het eigen vermogen (geplaatst kapitaal 100000) met behulp van de basisgelijkheid Actief = Eigen vermogen + Schulden.",
       "stappen": [
         "Tel alle activa op: 100.000 + 400.000 + 50.000 + 90.000 + 1.000 = 641.000.",
@@ -83,183 +97,239 @@
     },
     {
       "id": "grondbeginselen-2",
-      "titel": "Opstart: inbreng en eerste aankopen (zonder btw)",
+      "titel": "Dubbel boekhouden op 4 manieren: opstart en eerste aankopen (003)",
       "niveau": "basis",
-      "context": "Een startende onderneming. Een aandeelhouder brengt 500 EUR in op de bankrekening. Daarna wordt een machine van 200 EUR aangekocht bij Leverancier A op factuur, en handelsgoederen voor 100 EUR bij Leverancier B op factuur (we werken hier zonder btw, ter vereenvoudiging, en met permanente inventaris).",
-      "vraag": "Boek de drie verrichtingen in journaalpostvorm.",
+      "context": "De startverrichtingen uit de fiche 'dubbel boekhouden op 4 manieren' (oef. 01/003). (1) Een aandeelhouder brengt 500 in op de bankrekening. (2) De onderneming neemt een lening 'ING' van 300 op (op de bank). (3) Aankoopfactuur machine 200 bij Leverancier A. (4) Aankoopfactuur handelsgoederen 100 bij Leverancier B. We werken hier zonder btw, zoals in de fiche.",
+      "vraag": "Boek de eerste vier verrichtingen in journaalpostvorm (niet-permanente inventaris: aankoop HG op kost 604000).",
       "stappen": [
-        "Inbreng: de bank (actief) stijgt -> debet 550000; het eigen vermogen (passief) stijgt -> credit 100000.",
-        "Aankoop machine op factuur: de machine (actief vast) stijgt -> debet 231000; de schuld aan de leverancier (passief) stijgt -> credit 440000.",
-        "Aankoop handelsgoederen op factuur (permanente inventaris): de voorraad (actief) stijgt -> debet 340000; schuld leverancier -> credit 440000."
+        "Inbreng aandeelhouder: bank (actief) stijgt -> 550000 debet 500; eigen vermogen stijgt -> 100000 credit 500.",
+        "Lening ING: bank (actief) stijgt -> 550000 debet 300; de schuld uit de lening stijgt -> 430000 credit 300.",
+        "AF machine bij Leverancier A: machine (actief vast) stijgt -> 231000 debet 200; schuld leverancier stijgt -> 440000 credit 200.",
+        "AF handelsgoederen bij Leverancier B (niet-permanente inventaris): kost -> 604000 debet 100; schuld leverancier -> 440000 credit 100."
       ],
       "boekingen": [
         {
-          "omschrijving": "Inbreng aandeelhouder op bank",
+          "omschrijving": "Verrichting 1 - Inbreng aandeelhouder op bank (BU +500)",
           "regels": [
             {"code": "550000", "naam": "Kredietinstellingen", "debet": 500.00, "credit": null, "reden": "Bank is een actief en stijgt door de ontvangst -> debet."},
-            {"code": "100000", "naam": "Geplaatst kapitaal", "debet": null, "credit": 500.00, "reden": "Het eigen vermogen (passief) stijgt door de inbreng -> credit."}
+            {"code": "100000", "naam": "Geplaatst kapitaal", "debet": null, "credit": 500.00, "reden": "Het eigen vermogen (passief) stijgt door de inbreng -> credit (in de fiche 'Inbreng')."}
           ]
         },
         {
-          "omschrijving": "Aankoopfactuur machine bij Leverancier A",
+          "omschrijving": "Verrichting 2 - Banklening ING (BU +300)",
+          "regels": [
+            {"code": "550000", "naam": "Kredietinstellingen", "debet": 300.00, "credit": null, "reden": "De bank (actief) stijgt door de opname van de lening -> debet."},
+            {"code": "430000", "naam": "Kredietinstellingen – Leningen vaste termijn", "debet": null, "credit": 300.00, "reden": "De schuld uit de lening (passief) stijgt -> credit."}
+          ]
+        },
+        {
+          "omschrijving": "Verrichting 3 - Aankoopfactuur machine bij Leverancier A (AF 200)",
           "regels": [
             {"code": "231000", "naam": "Machines AW", "debet": 200.00, "credit": null, "reden": "De machine is een materieel vast actief dat stijgt -> debet."},
             {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 200.00, "reden": "De schuld aan de leverancier (passief) stijgt -> credit."}
           ]
         },
         {
-          "omschrijving": "Aankoopfactuur handelsgoederen bij Leverancier B (permanente inventaris)",
+          "omschrijving": "Verrichting 4 - Aankoopfactuur handelsgoederen bij Leverancier B (AF HG 100)",
           "regels": [
-            {"code": "340000", "naam": "Handelsgoederen (HG)", "debet": 100.00, "credit": null, "reden": "Bij permanente inventaris boek je de voorraad (actief) rechtstreeks -> debet."},
+            {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "debet": 100.00, "credit": null, "reden": "Bij niet-permanente inventaris boek je de aankoop HG op de kost -> debet."},
             {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 100.00, "reden": "De schuld aan de leverancier (passief) stijgt -> credit."}
           ]
         }
       ],
-      "eindantwoord": "Drie boekingen, elk in evenwicht (500=500, 200=200, 100=100). Na deze verrichtingen: bank 500 D, machine 200 D, voorraad 100 D = 800 actief; kapitaal 500 + leveranciers 300 = 800 passief.",
-      "valkuil": "Bij niet-permanente inventaris zou je de aankoop HG niet op 340000 maar op de kostenrekening 604000 boeken. Kies eerst welk systeem je gebruikt en blijf consequent."
+      "eindantwoord": "Vier boekingen, elk in evenwicht (500=500, 300=300, 200=200, 100=100). Na deze verrichtingen: bank 800 D, machine 200 D, kost HG 100 D; kapitaal 500 + lening 300 + leveranciers 300 = 1.100 C.",
+      "valkuil": "Bij permanente inventaris (003B) zou je de aankoop HG niet op 604000 maar rechtstreeks op de voorraad 340000 boeken. Kies eerst welk inventarissysteem je gebruikt en blijf consequent."
     },
     {
       "id": "grondbeginselen-3",
-      "titel": "Aankoop- en verkoopfactuur met 21% btw boeken",
+      "titel": "Verkoop van een vast actief met meerwaarde (003A, verrichting 8)",
       "niveau": "midden",
-      "context": "Een onderneming die lezingen verzorgt (cursusvoorbeeld). Op 12/03 ontvangt ze aankoopfactuur AF 1 van Hotel Valk: 1.000 EUR excl. btw, btw 21% = 210 EUR. Op 15/03 stuurt ze verkoopfactuur VF 1 naar klant A voor een lezing: 1.500 EUR excl. btw, btw 21% = 315 EUR.",
-      "vraag": "Boek de aankoopfactuur (een dienst, geen handelsgoederen) en de verkoopfactuur met btw.",
+      "context": "Uit dezelfde fiche-oefening: het meubilair ('stoelen', 240000) werd eerder aangekocht voor een boekwaarde van 150. Nu wordt dit meubilair verkocht aan Klant X voor 190 (VF Stoelen 190). Er is dus een meerwaarde.",
+      "vraag": "Bepaal de meerwaarde en boek de verkoop van het vast actief in journaalpostvorm (zonder btw, zoals in de fiche).",
       "stappen": [
-        "AF Hotel Valk: het hotel is een dienst -> kost op 610000 (D&DG), excl. btw, debet. De aftrekbare btw 210 -> 411590 ABTW, debet. Totaal incl. btw 1.210 -> schuld leverancier 440000, credit.",
-        "Controle AF: debet 1.000 + 210 = 1.210 = credit 1.210. In evenwicht.",
-        "VF klant A: de klant betaalt incl. btw 1.815 -> 400000, debet. De opbrengst excl. btw 1.500 -> 700000, credit. De verschuldigde btw 315 -> 451540 VBTW, credit.",
-        "Controle VF: debet 1.815 = credit 1.500 + 315 = 1.815. In evenwicht."
+        "Bereken de meerwaarde: verkoopprijs 190 - boekwaarde 150 = meerwaarde 40.",
+        "De vordering op de klant stijgt -> 400000 debet 190.",
+        "Het vast actief verdwijnt aan zijn boekwaarde -> 240000 credit 150.",
+        "De meerwaarde is een niet-recurrente opbrengst -> 763000 credit 40.",
+        "Controle: debet 190 = credit 150 + 40 = 190. In evenwicht."
       ],
       "boekingen": [
         {
-          "omschrijving": "Aankoopfactuur 12/03 Hotel Valk (dienst, 21% btw)",
+          "omschrijving": "Verrichting 8 - Verkoopfactuur meubilair aan Klant X (VF Stoelen 190)",
           "regels": [
-            {"code": "610000", "naam": "Diensten en diverse goederen", "debet": 1000.00, "credit": null, "reden": "Hotelkost is een dienst, dus kost klasse 6, geboekt excl. btw -> debet."},
-            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": 210.00, "credit": null, "reden": "Btw op aankopen is terugvorderbaar = vordering op de staat -> debet."},
-            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 1210.00, "reden": "Totale schuld aan de leverancier incl. btw (passief stijgt) -> credit."}
-          ]
-        },
-        {
-          "omschrijving": "Verkoopfactuur 15/03 klant A - lezing (21% btw)",
-          "regels": [
-            {"code": "400000", "naam": "Klanten", "debet": 1815.00, "credit": null, "reden": "Vordering op de klant voor het totaal incl. btw (actief stijgt) -> debet."},
-            {"code": "700000", "naam": "Verkopen", "debet": null, "credit": 1500.00, "reden": "Opbrengst klasse 7, geboekt excl. btw -> credit."},
-            {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "debet": null, "credit": 315.00, "reden": "Aangerekende btw is verschuldigd aan de staat = schuld -> credit."}
+            {"code": "400000", "naam": "Klanten", "debet": 190.00, "credit": null, "reden": "Vordering op de klant (actief) stijgt -> debet, totale verkoopprijs."},
+            {"code": "240000", "naam": "Meubilair en rollend materieel", "debet": null, "credit": 150.00, "reden": "Het vast actief verdwijnt aan zijn boekwaarde 150 -> credit (fiche-shorthand '241 Meubilair')."},
+            {"code": "763000", "naam": "Meerwaarden op de realisatie van", "debet": null, "credit": 40.00, "reden": "De meerwaarde 190 - 150 = 40 is een niet-recurrente opbrengst -> credit."}
           ]
         }
       ],
-      "eindantwoord": "AF: 610000 1.000 D, 411590 210 D / 440000 1.210 C. VF: 400000 1.815 D / 700000 1.500 C, 451540 315 C. Beide facturen in evenwicht.",
-      "valkuil": "De btw nooit als kost (610000/604000) of opbrengst (700000) boeken. Btw is altijd een aparte vordering (411590) of schuld (451540). En de leverancier/klant boek je incl. btw, de kost/opbrengst excl. btw."
+      "eindantwoord": "Meerwaarde = 40 (190 verkoopprijs - 150 boekwaarde). Boeking: 400000 190 D / 240000 150 C + 763000 40 C. In evenwicht.",
+      "valkuil": "Een vast actief verkoop je NIET via 700000 (dat is voor handelsgoederen). Gebruik 707000 Verkoop VA of - bij een meerwaarde tegenover de boekwaarde - 763000. De opbrengst is enkel de meerwaarde (40), niet de volledige 190."
     },
     {
       "id": "grondbeginselen-4",
+      "titel": "Permanente versus niet-permanente inventaris (003A vs. 003B)",
+      "niveau": "midden",
+      "context": "Vergelijk hoe dezelfde verrichtingen bij niet-permanente (003A) en permanente (003B) inventaris worden geboekt. Verrichting 7: aankoopfactuur handelsgoederen 110 bij Leverancier A. Op het einde van het boekjaar (003A) blijkt de voorraad HG met 110 te zijn toegenomen (er werd nog niets van deze partij verkocht).",
+      "vraag": "Boek verrichting 7 (a) bij niet-permanente inventaris met de eindejaarsvoorraadwijziging en (b) bij permanente inventaris.",
+      "stappen": [
+        "Niet-permanente inventaris (003A): aankoop HG -> kost 604000 debet 110 / 440000 credit 110.",
+        "Op het einde van het jaar boek je de toename van de voorraad: 340000 debet 110 / 609400 credit 110 (voorraadwijziging).",
+        "Permanente inventaris (003B): de aankoop gaat rechtstreeks naar de voorraad -> 340000 debet 110 / 440000 credit 110. Geen aparte eindejaarscorrectie nodig.",
+        "Controle: elke boeking 110 = 110."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "003A (niet-permanent) - Verrichting 7: AF HG 110 bij Leverancier A",
+          "regels": [
+            {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "debet": 110.00, "credit": null, "reden": "Bij niet-permanente inventaris gaat de aankoop HG naar de kost -> debet."},
+            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 110.00, "reden": "Schuld aan de leverancier (passief) stijgt -> credit."}
+          ]
+        },
+        {
+          "omschrijving": "003A - Verrichting 16: eindejaarsvoorraadwijziging (toename voorraad 110)",
+          "regels": [
+            {"code": "340000", "naam": "Handelsgoederen (HG)", "debet": 110.00, "credit": null, "reden": "De voorraad (actief) neemt toe -> debet."},
+            {"code": "609400", "naam": "Voorraadwijziging van handelsgoederen (HG)", "debet": null, "credit": 110.00, "reden": "Toename van de voorraad = een vermindering van de kost -> credit op de voorraadwijziging."}
+          ]
+        },
+        {
+          "omschrijving": "003B (permanent) - Verrichting 7: AF HG 110 bij Leverancier A",
+          "regels": [
+            {"code": "340000", "naam": "Handelsgoederen (HG)", "debet": 110.00, "credit": null, "reden": "Bij permanente inventaris boek je de aankoop rechtstreeks op de voorraad (actief) -> debet."},
+            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 110.00, "reden": "Schuld aan de leverancier (passief) stijgt -> credit."}
+          ]
+        }
+      ],
+      "eindantwoord": "Niet-permanent (003A): 604000 110 D / 440000 110 C, plus op het einde 340000 110 D / 609400 110 C. Permanent (003B): 340000 110 D / 440000 110 C in één keer. Beide methodes geven dezelfde eindbalans.",
+      "valkuil": "Bij niet-permanente inventaris vergeet men vaak de eindejaarsvoorraadwijziging (609400). Zonder die correctie staat de voorraad op de balans verkeerd en is de kost van het boekjaar te hoog."
+    },
+    {
+      "id": "grondbeginselen-5",
+      "titel": "Aankoop- en verkoopfactuur radiatoren met 21% btw (Comm.act)",
+      "niveau": "midden",
+      "context": "Uit de fiche 'H1 Comm.act' (radiatoren als handelsgoederen). (1) Aankoopfactuur HG radiatoren bij een Belgische leverancier: 363,00 = 300,00 + 63,00 btw. (2) Verkoopfactuur HG radiatoren aan een klant: 605,00 = 500,00 + 105,00 btw.",
+      "vraag": "Boek de aankoop- en de verkoopfactuur met 21% btw (niet-permanente inventaris).",
+      "stappen": [
+        "AF radiatoren: goederen excl. btw -> 604000 debet 300; aftrekbare btw 63 -> 411590 ABTW debet; totaal incl. btw 363 -> 440000 credit.",
+        "Controle AF: debet 300 + 63 = 363 = credit 363. In evenwicht.",
+        "VF radiatoren: klant incl. btw 605 -> 400000 debet; opbrengst excl. btw 500 -> 700000 credit; verschuldigde btw 105 -> 451540 VBTW credit.",
+        "Controle VF: debet 605 = credit 500 + 105 = 605. In evenwicht."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "Aankoopfactuur HG radiatoren (363,00 = 300,00 + 63,00)",
+          "regels": [
+            {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "debet": 300.00, "credit": null, "reden": "Kost klasse 6, geboekt excl. btw -> debet."},
+            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": 63.00, "credit": null, "reden": "Btw op aankopen is terugvorderbaar = vordering op de staat (21% van 300) -> debet."},
+            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 363.00, "reden": "Totale schuld aan de leverancier incl. btw (passief stijgt) -> credit."}
+          ]
+        },
+        {
+          "omschrijving": "Verkoopfactuur HG radiatoren (605,00 = 500,00 + 105,00)",
+          "regels": [
+            {"code": "400000", "naam": "Klanten", "debet": 605.00, "credit": null, "reden": "Vordering op de klant voor het totaal incl. btw (actief stijgt) -> debet."},
+            {"code": "700000", "naam": "Verkopen", "debet": null, "credit": 500.00, "reden": "Opbrengst klasse 7, geboekt excl. btw -> credit."},
+            {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "debet": null, "credit": 105.00, "reden": "Aangerekende btw (21% van 500) is verschuldigd aan de staat = schuld -> credit."}
+          ]
+        }
+      ],
+      "eindantwoord": "AF: 604000 300 D, 411590 63 D / 440000 363 C. VF: 400000 605 D / 700000 500 C, 451540 105 C. Beide facturen in evenwicht.",
+      "valkuil": "De btw nooit als kost (604000) of opbrengst (700000) boeken. Btw is altijd een aparte vordering (411590 ABTW) of schuld (451540 VBTW). En de leverancier/klant boek je incl. btw, de kost/opbrengst excl. btw."
+    },
+    {
+      "id": "grondbeginselen-6",
       "titel": "Periodieke btw-afrekening",
       "niveau": "midden",
-      "context": "Op het einde van het btw-tijdvak staat op de saldibalans: Verschuldigde btw (451540) met een creditsaldo van 315 EUR (uit oefening 3) en Aftrekbare btw (411590) met een debetsaldo van 210 EUR.",
+      "context": "Op het einde van het btw-tijdvak staat op de saldibalans (uit de radiatoren-facturen van oefening 5): Verschuldigde btw (451540) met een creditsaldo van 105 EUR en Aftrekbare btw (411590) met een debetsaldo van 63 EUR.",
       "vraag": "Maak de periodieke btw-afrekening: bepaal of de onderneming btw moet betalen of terugkrijgt, en boek de saldering.",
       "stappen": [
-        "Verschuldigde btw op verkopen (451540) = 315 (credit). Aftrekbare btw op aankopen (411590) = 210 (debet).",
-        "Saldo = verschuldigd - aftrekbaar = 315 - 210 = 105 te betalen aan de staat.",
-        "Beide btw-rekeningen sluit je op nul: 451540 wordt gedebiteerd voor 315, 411590 wordt gecrediteerd voor 210.",
-        "Het verschil 105 boek je als schuld op 451000 Te betalen B.T.W (credit).",
-        "Controle: debet 315 = credit 210 + 105 = 315. In evenwicht."
+        "Verschuldigde btw op verkopen (451540) = 105 (credit). Aftrekbare btw op aankopen (411590) = 63 (debet).",
+        "Saldo = verschuldigd - aftrekbaar = 105 - 63 = 42 te betalen aan de staat.",
+        "Beide btw-rekeningen sluit je op nul: 451540 wordt gedebiteerd voor 105, 411590 wordt gecrediteerd voor 63.",
+        "Het verschil 42 boek je als schuld op 451000 Te betalen B.T.W (credit).",
+        "Controle: debet 105 = credit 63 + 42 = 105. In evenwicht."
       ],
       "boekingen": [
         {
           "omschrijving": "Periodieke btw-saldering (btw-tijdvak afsluiten)",
           "regels": [
-            {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "debet": 315.00, "credit": null, "reden": "De verschuldigde btw (creditsaldo) wordt afgesloten -> debet om op nul te zetten."},
-            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": null, "credit": 210.00, "reden": "De aftrekbare btw (debetsaldo) wordt afgesloten -> credit om op nul te zetten."},
-            {"code": "451000", "naam": "Te betalen B.T.W", "debet": null, "credit": 105.00, "reden": "Het verschil is een schuld aan de staat (passief) -> credit."}
+            {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "debet": 105.00, "credit": null, "reden": "De verschuldigde btw (creditsaldo) wordt afgesloten -> debet om op nul te zetten."},
+            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": null, "credit": 63.00, "reden": "De aftrekbare btw (debetsaldo) wordt afgesloten -> credit om op nul te zetten."},
+            {"code": "451000", "naam": "Te betalen B.T.W", "debet": null, "credit": 42.00, "reden": "Het verschil is een schuld aan de staat (passief) -> credit."}
           ]
         }
       ],
-      "eindantwoord": "De onderneming moet 105 EUR btw betalen (315 verschuldigd - 210 aftrekbaar). Boeking: 451540 315 D / 411590 210 C + 451000 105 C.",
+      "eindantwoord": "De onderneming moet 42 EUR btw betalen (105 verschuldigd - 63 aftrekbaar). Boeking: 451540 105 D / 411590 63 C + 451000 42 C. (In de fiche: 'BU BTW -42,00'.)",
       "valkuil": "Wanneer de aftrekbare btw groter is dan de verschuldigde, krijg je btw terug: dan gebruik je 411000 Terug te vorderen B.T.W (debet) in plaats van 451000. Verwar de twee niet."
     },
     {
-      "id": "grondbeginselen-5",
-      "titel": "Van saldibalans naar balans en resultaat (afsluiten boekjaar)",
+      "id": "grondbeginselen-7",
+      "titel": "Enkel op de balans boeken (003C BASIC, zoals Pacioli)",
       "niveau": "examen",
-      "context": "Het lezingenbedrijf sluit boekjaar 1 af. De saldibalans toont (vereenvoudigd, na btw-afrekening): Bank 550000 saldo 2.500 D; Klanten 400000 saldo 2.000 D; Geplaatst kapitaal 100000 saldo 2.000 C; Leveranciers 440000 saldo 500 C; D&DG 610000 saldo 3.000 D (hotel + resto); Verkopen 700000 saldo 5.000 C. Controle vooraf: debetsaldi 2.500 + 2.000 + 3.000 = 7.500 = creditsaldi 2.000 + 500 + 5.000 = 7.500; de saldibalans is in evenwicht.",
-      "vraag": "Bepaal het resultaat, boek de afsluiting van de resultaatrekeningen naar het eigen vermogen, en stel de eindbalans op. Controleer dat alles in evenwicht is.",
+      "context": "De methode '003C BASIC - boeken enkel op de balans (zoals Pacioli)'. Hier bestaan er geen klasse 6/7-rekeningen: elk resultaat loopt rechtstreeks over een eigenvermogensrekening (in de fiche 'Reserves' = 131000). We boeken zonder btw. Verrichtingen: (5) AF HG 105 bij Leverancier B, (8) VF meubilair (stoelen) 190 aan Klant X met boekwaarde 150, en (10) VF HG 120 aan Klant Y met kostprijs/boekwaarde 100.",
+      "vraag": "Boek deze drie verrichtingen volgens de 'enkel op de balans'-methode (resultaten via 131000 Reserves).",
       "stappen": [
-        "Splits de saldibalans: balansrekeningen (kl. 1-5) = 550000, 400000, 100000, 440000; resultaatrekeningen (kl. 6-7) = 610000 (kost) en 700000 (opbrengst).",
-        "Bepaal het resultaat: opbrengsten 5.000 (700000) - kosten 3.000 (610000) = winst 2.000.",
-        "Sluit de resultaatrekeningen af: 700000 wordt gedebiteerd voor 5.000 (om het creditsaldo op nul te zetten), 610000 wordt gecrediteerd voor 3.000 (om het debetsaldo op nul te zetten), het verschil 2.000 = winst -> 140000 Overgedragen winst, credit.",
-        "Controle afsluiting: debet 5.000 = credit 3.000 + 2.000 = 5.000. In evenwicht.",
-        "Stel de eindbalans op. Actief: Bank 2.500 + Klanten 2.000 = 4.500. Passief: Kapitaal 2.000 + Overgedragen winst 2.000 + Leveranciers 500 = 4.500.",
-        "Hercontrole: Actief 4.500 = Passief 4.500. De resultaatrekeningen 610000 en 700000 staan na de afsluiting op nul; de winst van 2.000 zit nu in het eigen vermogen (140000). De balans is in evenwicht."
+        "AF HG 105: bij deze methode wordt de aankoop rechtstreeks als voorraad op de balans gezet -> 340000 debet 105 / 440000 credit 105.",
+        "VF meubilair 190 (boekwaarde 150): vordering klant -> 400000 debet 190; meubilair verdwijnt aan boekwaarde -> 240000 credit 150; de meerwaarde 40 verrijkt het eigen vermogen -> 131000 credit 40.",
+        "VF HG 120 (boekwaarde voorraad 100): vordering klant -> 400000 debet 120; voorraad verdwijnt aan kostprijs -> 340000 credit 100; de winst 20 verrijkt het eigen vermogen -> 131000 credit 20.",
+        "Controle: 105=105; 190 = 150 + 40; 120 = 100 + 20. Telkens in evenwicht."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "Verrichting 5 - AF HG 105 bij Leverancier B (enkel op de balans)",
+          "regels": [
+            {"code": "340000", "naam": "Handelsgoederen (HG)", "debet": 105.00, "credit": null, "reden": "Bij 'enkel op de balans' boek je de aankoop rechtstreeks op de voorraad (actief) -> debet."},
+            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 105.00, "reden": "Schuld aan de leverancier (passief) stijgt -> credit."}
+          ]
+        },
+        {
+          "omschrijving": "Verrichting 8 - VF meubilair 190 aan Klant X (boekwaarde 150)",
+          "regels": [
+            {"code": "400000", "naam": "Klanten", "debet": 190.00, "credit": null, "reden": "Vordering op de klant (actief) stijgt -> debet."},
+            {"code": "240000", "naam": "Meubilair en rollend materieel", "debet": null, "credit": 150.00, "reden": "Het vast actief verdwijnt aan zijn boekwaarde -> credit."},
+            {"code": "131000", "naam": "Onbeschikbare reserves", "debet": null, "credit": 40.00, "reden": "De meerwaarde 40 loopt in deze methode rechtstreeks naar het eigen vermogen -> credit (fiche 'Reserves')."}
+          ]
+        },
+        {
+          "omschrijving": "Verrichting 10 - VF HG 120 aan Klant Y (boekwaarde voorraad 100)",
+          "regels": [
+            {"code": "400000", "naam": "Klanten", "debet": 120.00, "credit": null, "reden": "Vordering op de klant (actief) stijgt -> debet."},
+            {"code": "340000", "naam": "Handelsgoederen (HG)", "debet": null, "credit": 100.00, "reden": "De voorraad daalt aan kostprijs -> credit."},
+            {"code": "131000", "naam": "Onbeschikbare reserves", "debet": null, "credit": 20.00, "reden": "De winst 120 - 100 = 20 loopt rechtstreeks naar het eigen vermogen -> credit."}
+          ]
+        }
+      ],
+      "eindantwoord": "Verrichting 5: 340000 105 D / 440000 105 C. Verrichting 8: 400000 190 D / 240000 150 C + 131000 40 C. Verrichting 10: 400000 120 D / 340000 100 C + 131000 20 C. Het resultaat zit rechtstreeks in het eigen vermogen (131000), zonder klasse 6/7.",
+      "valkuil": "Dit is de historische 'Pacioli'-methode zonder resultatenrekening. Op een gewoon examen gebruik je wél klasse 6 en 7 (zoals in 003A/003B); meng de methodes niet door elkaar."
+    },
+    {
+      "id": "grondbeginselen-8",
+      "titel": "Volledige cyclus: van saldibalans naar balans en resultaat (afsluiten)",
+      "niveau": "examen",
+      "context": "Een handelsonderneming (niet-permanente inventaris, zonder btw, vereenvoudigd) sluit het boekjaar af. De saldibalans toont: Bank 550000 saldo 1.000 D; Klanten 400000 saldo 600 D; Voorraad HG 340000 saldo 0; Geplaatst kapitaal 100000 saldo 500 C; Lening 430000 saldo 300 C; Leveranciers 440000 saldo 200 C; Aankopen HG 604000 saldo 700 D; Verkopen 700000 saldo 900 C; Voorraadwijziging 609400 saldo 100 C. Controle vooraf: debetsaldi 1.000 + 600 + 700 = 2.300 = creditsaldi 500 + 300 + 200 + 900 + 100 = 2.000... ga na waar het verschil zit.",
+      "vraag": "Stel vast dat de saldibalans nog in evenwicht moet komen, bepaal het resultaat, boek de afsluiting van de resultaatrekeningen naar het eigen vermogen en stel de eindbalans op.",
+      "stappen": [
+        "Splits de saldibalans: balansrekeningen (kl. 1-5) = 550000, 400000, 340000, 100000, 430000, 440000; resultaatrekeningen (kl. 6-7) = 604000 (kost), 700000 (opbrengst) en 609400 (voorraadwijziging, opbrengst).",
+        "Bepaal het resultaat: opbrengsten 700000 900 + voorraadwijziging 609400 100 = 1.000; kosten 604000 700; winst = 1.000 - 700 = 300.",
+        "Sluit de resultaatrekeningen af: 700000 debet 900 en 609400 debet 100 (om de creditsaldi op nul te zetten), 604000 credit 700 (om het debetsaldo op nul te zetten); het verschil 300 = winst -> 140000 Overgedragen winst, credit.",
+        "Controle afsluiting: debet 900 + 100 = 1.000 = credit 700 + 300 = 1.000. In evenwicht.",
+        "Stel de eindbalans op. Actief: Bank 1.000 + Klanten 600 = 1.600. Passief: Kapitaal 500 + Lening 300 + Leveranciers 200 + Overgedragen winst 300 = 1.300... controleer.",
+        "Hercontrole basisgelijkheid: Actief 1.600 moet gelijk zijn aan Passief. Passief zonder winst = 1.000; met de winst 300 = 1.300. Het verschil 300 betekent dat in dit cijfervoorbeeld nog 300 voorraad op de balans hoort (340000): met voorraad HG 0 klopt het niet. Conclusie: bij niet-permanente inventaris moet de eindvoorraad via 609400 op 340000 staan vóór je afsluit."
       ],
       "boekingen": [
         {
           "omschrijving": "Afsluiting resultatenrekening en winstboeking",
           "regels": [
-            {"code": "700000", "naam": "Verkopen", "debet": 5000.00, "credit": null, "reden": "Opbrengstrekening (creditsaldo) wordt afgesloten -> debet om op nul te zetten."},
-            {"code": "610000", "naam": "Diensten en diverse goederen", "debet": null, "credit": 3000.00, "reden": "Kostenrekening (debetsaldo) wordt afgesloten -> credit om op nul te zetten."},
-            {"code": "140000", "naam": "Overgedragen winst", "debet": null, "credit": 2000.00, "reden": "De winst (opbrengsten - kosten) verhoogt het eigen vermogen (passief) -> credit."}
+            {"code": "700000", "naam": "Verkopen", "debet": 900.00, "credit": null, "reden": "Opbrengstrekening (creditsaldo) wordt afgesloten -> debet om op nul te zetten."},
+            {"code": "609400", "naam": "Voorraadwijziging van handelsgoederen (HG)", "debet": 100.00, "credit": null, "reden": "De voorraadtoename (creditsaldo) wordt afgesloten -> debet om op nul te zetten."},
+            {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "debet": null, "credit": 700.00, "reden": "Kostenrekening (debetsaldo) wordt afgesloten -> credit om op nul te zetten."},
+            {"code": "140000", "naam": "Overgedragen winst", "debet": null, "credit": 300.00, "reden": "De winst (opbrengsten - kosten) verhoogt het eigen vermogen (passief) -> credit."}
           ]
         }
       ],
-      "eindantwoord": "Resultaat boekjaar 1 = winst van 2.000 EUR (5.000 opbrengsten - 3.000 kosten). De winst wordt naar het eigen vermogen geboekt via 140000 Overgedragen winst (credit). De resultaatrekeningen 610000 en 700000 staan na afsluiting op nul; de balans bestaat enkel nog uit klasse 1-5 plus de winst in het eigen vermogen.",
-      "valkuil": "Het resultaat verschijnt niet op de balans als een aparte 'winst-rekening' in de lucht: je moet het effectief overboeken naar een eigenvermogensrekening (140000 of 133000). Vergeet je dat, dan klopt Actief = Passief niet meer."
-    },
-    {
-      "id": "grondbeginselen-6",
-      "titel": "Volledige cyclus met btw over een lezingenbedrijf",
-      "niveau": "examen",
-      "context": "Lezingenbedrijf, boekjaar met 21% btw. Verrichtingen: (1) AF Hotel Valk 1.000 excl., btw 210; (2) AF Restaurant Souvenir 1.500 excl., btw 315; (3) VF lezing klant A 1.500 excl., btw 315; (4) VF lezing klant C 3.000 excl., btw 630; (5) de klant A betaalt zijn factuur via overschrijving (1.815).",
-      "vraag": "Boek alle verrichtingen in journaalpostvorm, bepaal daarna het bedrijfsresultaat (kosten vs. opbrengsten) en de btw-positie.",
-      "stappen": [
-        "AF 1 en AF 2 zijn diensten (hotel, restaurant) -> kost op 610000 excl. btw, ABTW 411590 debet, schuld leverancier 440000 credit incl. btw.",
-        "VF naar klant A en C -> klant 400000 debet incl. btw, opbrengst 700000 credit excl. btw, VBTW 451540 credit.",
-        "Betaling klant A: bank stijgt (550000 debet 1.815), vordering op klant daalt (400000 credit 1.815).",
-        "Resultaat: opbrengsten 700000 = 1.500 + 3.000 = 4.500; kosten 610000 = 1.000 + 1.500 = 2.500; winst = 2.000.",
-        "Btw-positie: verschuldigd 451540 = 315 + 630 = 945; aftrekbaar 411590 = 210 + 315 = 525; te betalen = 945 - 525 = 420."
-      ],
-      "boekingen": [
-        {
-          "omschrijving": "AF Hotel Valk (dienst, 21% btw)",
-          "regels": [
-            {"code": "610000", "naam": "Diensten en diverse goederen", "debet": 1000.00, "credit": null, "reden": "Hotel = dienst, kost klasse 6 excl. btw -> debet."},
-            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": 210.00, "credit": null, "reden": "Aftrekbare btw = vordering op de staat -> debet."},
-            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 1210.00, "reden": "Schuld aan leverancier incl. btw -> credit."}
-          ]
-        },
-        {
-          "omschrijving": "AF Restaurant Souvenir (dienst, 21% btw)",
-          "regels": [
-            {"code": "610000", "naam": "Diensten en diverse goederen", "debet": 1500.00, "credit": null, "reden": "Restaurant = dienst, kost klasse 6 excl. btw -> debet."},
-            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": 315.00, "credit": null, "reden": "Aftrekbare btw -> debet."},
-            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 1815.00, "reden": "Schuld aan leverancier incl. btw -> credit."}
-          ]
-        },
-        {
-          "omschrijving": "VF lezing klant A (21% btw)",
-          "regels": [
-            {"code": "400000", "naam": "Klanten", "debet": 1815.00, "credit": null, "reden": "Vordering op klant incl. btw -> debet."},
-            {"code": "700000", "naam": "Verkopen", "debet": null, "credit": 1500.00, "reden": "Opbrengst klasse 7 excl. btw -> credit."},
-            {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "debet": null, "credit": 315.00, "reden": "Verschuldigde btw aan de staat -> credit."}
-          ]
-        },
-        {
-          "omschrijving": "VF lezing klant C (21% btw)",
-          "regels": [
-            {"code": "400000", "naam": "Klanten", "debet": 3630.00, "credit": null, "reden": "Vordering op klant incl. btw (3.000 + 630) -> debet."},
-            {"code": "700000", "naam": "Verkopen", "debet": null, "credit": 3000.00, "reden": "Opbrengst klasse 7 excl. btw -> credit."},
-            {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "debet": null, "credit": 630.00, "reden": "Verschuldigde btw aan de staat -> credit."}
-          ]
-        },
-        {
-          "omschrijving": "Bankuittreksel: klant A betaalt zijn factuur",
-          "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 1815.00, "credit": null, "reden": "De bank (actief) stijgt door de ontvangst -> debet."},
-            {"code": "400000", "naam": "Klanten", "debet": null, "credit": 1815.00, "reden": "De vordering op de klant daalt door de betaling -> credit."}
-          ]
-        }
-      ],
-      "eindantwoord": "Bedrijfsresultaat = winst 2.000 EUR (opbrengsten 700000 4.500 - kosten 610000 2.500). Btw te betalen = 420 EUR (verschuldigd 945 - aftrekbaar 525). Na betaling klant A: openstaande klanten = 3.630 (enkel klant C), bank = 1.815.",
-      "valkuil": "Bij de betaling van klant A boek je NIET opnieuw via 700000 of 451540. De omzet en btw zaten al in de verkoopfactuur; de betaling verschuift enkel van klant (400000) naar bank (550000). Dubbel boeken van opbrengst is een klassieke examenfout."
+      "eindantwoord": "Resultaat = winst 300 EUR (opbrengsten 900 + voorraadwijziging 100 = 1.000, kosten 700). De winst gaat naar 140000 Overgedragen winst (credit). De afsluitboeking balanceert (1.000 = 700 + 300). Let op: pas als de eindvoorraad correct op 340000 staat (via 609400), klopt Actief = Passief van de eindbalans.",
+      "valkuil": "Het resultaat verschijnt niet als een aparte 'winst-rekening' in de lucht: je moet het effectief overboeken naar een eigenvermogensrekening (140000 of 131000). En bij niet-permanente inventaris bepaalt de voorraadwijziging 609400 mee het resultaat - vergeet ze niet."
     }
   ],
   "flashcards": [
@@ -283,20 +353,22 @@
   "veelgemaakteFouten": [
     {"fout": "De btw als kost (604000/610000) of opbrengst (700000) boeken.", "correctie": "Btw is een vordering (411590 ABTW) of een schuld (451540 VBTW / 451000). De kost/opbrengst boek je excl. btw, de leverancier/klant incl. btw."},
     {"fout": "Debet en credit op dezelfde regel invullen.", "correctie": "Per journaalregel vul je OFWEL debet OFWEL credit in; de andere kolom is leeg (null). Het evenwicht ontstaat over de hele boeking heen."},
-    {"fout": "Een boeking die niet in evenwicht is (som debet niet gelijk aan som credit).", "correctie": "Tel altijd debet en credit op voor je verder gaat. Bij een factuur met btw: incl. btw aan de ene kant = excl. btw + btw aan de andere kant."},
-    {"fout": "De klant (400000) verwarren met de leverancier (440000).", "correctie": "Klant = wie ons geld schuldig is = vordering = actief (debet bij verkoop). Leverancier = aan wie wij schuldig zijn = schuld = passief (credit bij aankoop)."},
+    {"fout": "Een boeking die niet in evenwicht is (som debet niet gelijk aan som credit).", "correctie": "Tel altijd debet en credit op voor je verder gaat. Bij een factuur met btw: incl. btw aan de ene kant = excl. btw + btw aan de andere kant (bv. 363 = 300 + 63)."},
+    {"fout": "Een vast actief (meubilair, machine) verkopen via 700000.", "correctie": "700000 is voor handelsgoederen. Een vast actief verkoop je via 707000 Verkoop VA; de meerwaarde tegenover de boekwaarde boek je op 763000. Enkel de meerwaarde is opbrengst, niet de volledige prijs."},
+    {"fout": "De eindejaarsvoorraadwijziging (609400) vergeten bij niet-permanente inventaris.", "correctie": "Bij niet-permanente inventaris gaan aankopen naar 604000; pas op het einde corrigeer je de voorraad via 340000 / 609400. Zonder die correctie klopt de voorraad op de balans niet."},
     {"fout": "Bij de betaling van een klant opnieuw de omzet en btw boeken.", "correctie": "De omzet/btw zaten al in de verkoopfactuur. Een betaling verschuift enkel van 400000 (klant) naar 550000 (bank): 550000 debet / 400000 credit."},
-    {"fout": "Het resultaat (winst) niet overboeken naar het eigen vermogen.", "correctie": "Boek de winst naar 140000 of 133000 (credit) bij de afsluiting; anders is de eindbalans niet in evenwicht (Actief is niet gelijk aan Passief)."},
+    {"fout": "Het resultaat (winst) niet overboeken naar het eigen vermogen.", "correctie": "Boek de winst naar 140000 of 131000/133000 (credit) bij de afsluiting; anders is de eindbalans niet in evenwicht (Actief is niet gelijk aan Passief)."},
     {"fout": "Een MAR-code verzinnen die niet bestaat.", "correctie": "Gebruik enkel codes uit de MAR-lijst. Twijfel je, kies de dichtstbijzijnde geldige code en vermeld de twijfel."}
   ],
   "controlevragen": [
     {"vraag": "Wat betekent 'dubbel boekhouden' concreet?", "antwoord": "Elke verrichting wordt twee keer geboekt - een keer debet en een keer credit voor hetzelfde totaalbedrag - zodat de som van de debetbedragen altijd gelijk is aan de som van de creditbedragen."},
     {"vraag": "Welke klassen vormen de balans en welke vormen de resultatenrekening?", "antwoord": "De balans bestaat uit klasse 1 tot 5 (eigen vermogen/schulden en activa). De resultatenrekening bestaat uit klasse 6 (kosten) en klasse 7 (opbrengsten)."},
-    {"vraag": "Hoe bereken je het resultaat van een boekjaar uit de saldibalans?", "antwoord": "Resultaat = som opbrengsten (kl. 7) - som kosten (kl. 6). Positief = winst, negatief = verlies. De winst wordt overgeboekt naar het eigen vermogen."},
-    {"vraag": "Wat is het verschil tussen een proefbalans en een saldibalans?", "antwoord": "De proefbalans toont per rekening de totale debet- en creditbewegingen (controle van het dubbel boeken). De saldibalans toont per rekening het saldo (debet- of creditsaldo), basis voor balans en resultaat."},
+    {"vraag": "Wat is het verschil tussen permanente en niet-permanente inventaris?", "antwoord": "Bij permanente inventaris boek je elke aankoop/verkoop HG rechtstreeks op de voorraad 340000. Bij niet-permanente inventaris gaan aankopen naar de kost 604000 en pas je de voorraad op het einde aan via de voorraadwijziging 609400."},
+    {"vraag": "Hoe boek je de verkoop van een vast actief met meerwaarde (bv. meubilair 190, boekwaarde 150)?", "antwoord": "400000 Klanten 190 debet / 240000 Meubilair 150 credit + 763000 Meerwaarden 40 credit. De opbrengst is enkel de meerwaarde (40)."},
+    {"vraag": "Hoe bereken je het resultaat van een boekjaar uit de saldibalans?", "antwoord": "Resultaat = som opbrengsten (kl. 7, incl. positieve voorraadwijziging) - som kosten (kl. 6). Positief = winst, negatief = verlies. De winst wordt overgeboekt naar het eigen vermogen."},
     {"vraag": "Wat gebeurt er met de klasse 6- en 7-rekeningen bij het openen van een nieuw boekjaar?", "antwoord": "Ze starten op nul. Kosten en opbrengsten gelden enkel binnen een boekjaar; alleen de balansrekeningen (kl. 1-5) worden als beginsaldo overgenomen uit de eindbalans van vorig jaar."},
-    {"vraag": "Een aankoopfactuur HG bedraagt 200 excl. btw, btw 21%. Hoe boek je dit?", "antwoord": "604000 Aankopen HG 200 debet + 411590 ABTW 42 debet / 440000 Leveranciers 242 credit. (200 x 21% = 42; totaal 242.)"},
-    {"vraag": "Waarom mag de aftrekbare btw nooit als kost worden geboekt?", "antwoord": "Omdat de onderneming die btw terugkrijgt van de staat; het is een vordering (411590), geen verarming. Enkel niet-aftrekbare btw (640700) is een kost."},
-    {"vraag": "Hoe weet je of je bij de periodieke btw-afrekening moet betalen of terugkrijgt?", "antwoord": "Vergelijk verschuldigde btw (451540) met aftrekbare btw (411590). Verschuldigd groter dan aftrekbaar = te betalen (451000). Aftrekbaar groter dan verschuldigd = terug te vorderen (411000)."}
+    {"vraag": "Een aankoopfactuur HG radiatoren bedraagt 300 excl. btw, btw 21%. Hoe boek je dit?", "antwoord": "604000 Aankopen HG 300 debet + 411590 ABTW 63 debet / 440000 Leveranciers 363 credit. (300 x 21% = 63; totaal 363.)"},
+    {"vraag": "Hoe weet je of je bij de periodieke btw-afrekening moet betalen of terugkrijgt?", "antwoord": "Vergelijk verschuldigde btw (451540) met aftrekbare btw (411590). Verschuldigd groter dan aftrekbaar = te betalen (451000). Aftrekbaar groter dan verschuldigd = terug te vorderen (411000). Bij 105 verschuldigd en 63 aftrekbaar: 42 te betalen."},
+    {"vraag": "Wat is de 'enkel op de balans'-methode (Pacioli, 003C)?", "antwoord": "De historische methode zonder klasse 6/7: elke kost/opbrengst en winst loopt rechtstreeks over een eigenvermogensrekening (in de fiche 131000 Reserves). Op een modern examen gebruik je wél resultatenrekeningen."}
   ]
 }

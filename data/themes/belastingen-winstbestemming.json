@@ -4,61 +4,63 @@
   "korteOmschrijving": "Hoe je in een vennootschap de vennootschapsbelasting boekt in drie fasen (voorafbetaling, raming, definitieve aanslag) en daarna de winst bestemt via reserves, overgedragen winst, dividenden en tantièmes.",
   "leerdoelen": [
     "De drie fasen van de belasting op het resultaat herkennen en correct boeken: voorafbetaling (670000/550000), raming op einde boekjaar en definitieve aanslag.",
-    "Bij de raming kunnen beslissen of er een schuld (670200/450000) of een vordering (412000/670100) ontstaat door geraamd bedrag te vergelijken met de voorafbetalingen.",
+    "Bij de raming kunnen beslissen of er een schuld (670200/450000) of een vordering (412000/670100) ontstaat door het geraamde bedrag te vergelijken met de voorafbetalingen.",
     "De definitieve aanslag regulariseren via 452000 Te betalen belastingen en taksen, met een supplement (671000) of een teruggave (771000) naargelang de definitieve aanslag boven of onder de raming ligt.",
-    "Het te bestemmen resultaat berekenen (winst voor belasting -> belasting -> winst na belasting -> wettelijke reserve) en de winstbestemming boeken met klasse 69 en klasse 14.",
-    "De wettelijke reserve berekenen (5% van de winst na belasting tot 10% van het kapitaal bereikt is) en correct toevoegen via 692000/130000.",
-    "Het verschil uitleggen tussen reservering (130000, 133000), overdracht (140000) en uitkering (dividenden 471000, tantièmes 472000)."
+    "Het te bestemmen resultaat berekenen (winst voor belasting -> belasting -> winst na belasting -> wettelijke reserve) en de winstbestemming boeken met klasse 69 en klasse 14/13.",
+    "De wettelijke reserve berekenen (5% van de winst na belasting tot ze 10% van het geplaatst kapitaal bereikt) en correct toevoegen via 692000/130000, met begrenzing wanneer het plafond bijna bereikt is.",
+    "Het verschil uitleggen tussen reservering (130000, 131100, 133000), overdracht (140000) en uitkering (dividenden/vergoeding kapitaal 694000-471000, tantièmes 695000-472000).",
+    "Een verliesjaar en de verwerking van overgedragen winst/verlies van vorige boekjaren correct verwerken (790000, 793000, 690000, 141000)."
   ],
-  "samenvatting": "## Waarover gaat dit thema?\n\nEen vennootschap betaalt **vennootschapsbelasting op haar winst**. Het probleem: de winst van het boekjaar ken je pas op het einde van het jaar, maar de fiscus wil al **tijdens** het jaar geld zien (voorafbetalingen). En de **definitieve aanslag** komt pas het jaar nadien. Daarom werken we met **drie fasen**. Daarna komt de **resultaatverwerking** (winstbestemming): wat doe je met de winst die overblijft na belasting?\n\n---\n\n## Deel 1 — Belastingen op het resultaat (3 fasen)\n\n### Fase 1: Voorafbetaling\nTijdens het boekjaar stort de onderneming voorschotten aan de fiscus. Dit is een **kost** (klasse 6):\n\n- **670000 Belastingen** (debet) / **550000 Kredietinstellingen** (credit)\n\nVoorbeeld: voorafbetaling van 1.000 EUR -> 670000 debet 1.000 / 550000 credit 1.000.\n\n### Fase 2: Raming op einde boekjaar\nOp 31/12 schat de boekhouder hoeveel belasting er **echt** verschuldigd is op de winst van dit jaar. Daarna **vergelijk** je dit **geraamde bedrag** met wat al **vooraf betaald** is.\n\n**Geval A — geraamd > voorafbetalingen** (je hebt te weinig betaald, er is dus nog een **schuld**):\n- **670200 Geraamde belastingen** (debet, het tekort) / **450000 Geraamd bedrag der belastingschulden** (credit)\n\n*Voorbeeld uit de theorie:* vooraf 4.000, geraamd 4.400 -> tekort 400 -> 670200 debet 400 / 450000 credit 400.\n\n**Geval B — geraamd < voorafbetalingen** (je hebt te veel betaald, er is dus een **vordering**):\n- **412000 Terug te vorderen belastingen geraamd** (debet) / **670100 Geactiveerde overschotten betaalde belastingen (-)** (credit, een negatieve kost die het overschot terug afboekt)\n\n*Voorbeeld:* vooraf 4.000, geraamd 3.700 -> overschot 300 -> 412000 debet 300 / 670100 credit 300.\n\n> **Kern:** in fase 2 \"corrigeer\" je de kostenrekening tot ze gelijk is aan je beste schatting. Heb je te weinig vooraf geboekt, dan verhoog je de kost (670200); heb je te veel vooraf geboekt, dan verlaag je ze (670100, een (-)-rekening).\n\n### Fase 3: Definitieve aanslag\nHet jaar nadien ontvang je het **aanslagbiljet** met het **definitieve** bedrag. Eerst boek je de geraamde schuld/vordering over naar de definitieve rekening, daarna regulariseer je het verschil.\n\nDe geraamde schuld wordt afgesloten: **450000 (debet) / 452000 Te betalen belastingen (credit)**.\n\nVergelijk nu **definitief** met **geraamd**:\n- **Definitief = geraamd** -> geen regularisatie nodig.\n- **Definitief > geraamd** (je moet bijbetalen) -> **671000 Verschuldigde of gestorte belastingsupplement** (debet) tegenover extra 452000 (credit).\n- **Definitief < geraamd** (je krijgt terug) -> **771000 Regularisering belastingen** (credit, een opbrengst) tegenover minder 452000.\n\n*Voorbeeld (definitief > geraamd):* geraamd 4.400, definitief 4.500 -> supplement 100 -> 671000 debet 100, samen met 450000 debet 4.400 / 452000 credit 4.500.\n\n*Voorbeeld (definitief < geraamd):* geraamd 4.400, definitief 4.300 -> teruggave 100 -> 450000 debet 4.400 / 452000 credit 4.300 + 771000 credit 100.\n\n---\n\n## Deel 2 — Resultaatverwerking (winstbestemming)\n\nNa de belasting blijft de **winst na belasting** over. De algemene vergadering beslist wat ermee gebeurt. Dit boek je met **klasse 69** (debet, je \"verbruikt\" de winst) tegenover **klasse 14 / klasse 13 / klasse 47** (credit).\n\n### Berekeningsvolgorde (heel belangrijk op het examen)\n1. **Winst voor belasting**\n2. **- Belasting** (bv. 30%)\n3. **= Winst na belasting**\n4. **- Wettelijke reserve** (5% van de winst na belasting, **tot** de wettelijke reserve 10% van het geplaatst kapitaal bereikt)\n5. **= Te bestemmen winst van het boekjaar**\n6. **+ Overgedragen winst van vorige jaren** (140000) = **totaal te bestemmen winst**\n\n### De boekingen\n- **Wettelijke reserve:** 692000 Toevoeging aan de wettelijke reserve (debet) / 130000 Wettelijke reserve (credit).\n- **Overige (beschikbare) reserves:** 692100 Toevoeging aan de overige reserves (debet) / 133000 Beschikbare reserves (credit).\n- **Overdracht naar volgend jaar:** 693000 Over te dragen winst (debet) / 140000 Overgedragen winst (credit).\n- **Dividend (vergoeding kapitaal):** 694000 Vergoeding van het kapitaal (debet) / 471000 Dividenden over het boekjaar (credit).\n- **Tantièmes (vergoeding bestuurders):** 695000 Bestuurders of zaakvoerders (debet) / 472000 Tantièmes over het boekjaar (credit).\n\n*Voorbeeld uit de fiche (oef 1):* winst voor belasting 40.000, tarief 30% -> belasting 12.000, winst na belasting 28.000. Wettelijke reserve = 5% x 28.000 = 1.400 (692000/130000). Rest 26.600 wordt overgedragen (693000/140000).\n\n---\n\n## Hoofdzaak vs. detail\n- **Hoofdzaak:** de logica \"vergelijken\" (fase 2: geraamd vs. vooraf; fase 3: definitief vs. geraamd) en de berekeningsvolgorde van de winstbestemming.\n- **Detail:** in een **verliesjaar** is er in principe **geen belasting** (uitgangspunt: geen verworpen uitgaven). Het verlies wordt overgedragen (141000 Overgedragen verlies (-) debet / 793000 Over te dragen verlies credit) of eerst verrekend met de overgedragen winst van vorige jaren. Let op: 690000 Overgedragen verlies van het vorige boekjaar dient net andersom — om een verlies van een VORIG jaar in het te bestemmen resultaat te brengen.\n- **Let op de (-)-rekeningen:** 670100 staat aan de **credit**kant ondanks dat het bij de kosten hoort; het is een negatieve kost die een eerder geboekte kost terugneemt."
-  ,
+  "samenvatting": "## Waarover gaat dit thema?\n\nEen vennootschap betaalt **vennootschapsbelasting op haar winst**. Het probleem: de winst van het boekjaar ken je pas op het einde van het jaar, maar de fiscus wil al **tijdens** het jaar geld zien (voorafbetalingen). En de **definitieve aanslag** komt pas het jaar nadien. Daarom werken we met **drie fasen**. Daarna komt de **resultaatverwerking** (winstbestemming): wat doe je met de winst die overblijft na belasting?\n\n---\n\n## Deel 1 — Belastingen op het resultaat (3 fasen)\n\n### Fase 1: Voorafbetaling\nTijdens het boekjaar stort de onderneming voorschotten aan de fiscus. Dit is een **kost** (klasse 6). In de fiche heet deze rekening *6700 Versch./gest. belastingen* = **670000 Belastingen**:\n\n- **670000 Belastingen** (debet) / **550000 Kredietinstellingen** (credit)\n\nVoorbeeld uit de fiche: voorafbetaling van 1.000 EUR -> 670000 debet 1.000 / 550000 credit 1.000.\n\n### Fase 2: Raming op einde boekjaar\nOp 31/12 schat de boekhouder hoeveel belasting er **echt** verschuldigd is op de winst van dit jaar. Daarna **vergelijk** je dit **geraamde bedrag** met wat al **vooraf betaald** is.\n\n**Geval 2.1 — geraamd > voorafbetaling** (je hebt te weinig betaald, er is dus nog een **schuld**):\n- **670200 Geraamde belastingen** (debet, het tekort) / **450000 Geraamd bedrag der belastingschulden** (credit)\n\n*Voorbeeld uit de fiche (DIV 1):* vooraf 4.000, geraamd 4.400 -> tekort 400 -> 670200 debet 400 / 450000 credit 400.\n\n**Geval 2.2 — geraamd < voorafbetaling** (je hebt te veel betaald, er is dus een **vordering**):\n- **412000 Terug te vorderen belastingen geraamd** (debet) / **670100 Geactiveerde overschotten betaalde belastingen (-)** (credit, een negatieve kost die het overschot terug afboekt)\n\n*Voorbeeld uit de fiche:* vooraf 4.000, geraamd 3.700 -> overschot 300 -> 412000 debet 300 / 670100 credit 300.\n\n> **Kern:** in fase 2 \"corrigeer\" je de kostenrekening tot ze gelijk is aan je beste schatting. Heb je te weinig vooraf geboekt, dan verhoog je de kost (670200); heb je te veel vooraf geboekt, dan verlaag je ze (670100, een (-)-rekening).\n\n### Fase 3: Definitieve aanslag\nHet jaar nadien ontvang je het **aanslagbiljet** met het **definitieve** bedrag. Eerst boek je de geraamde schuld/vordering over naar de definitieve rekening, daarna regulariseer je het verschil.\n\n- **31. Definitief = geraamd** -> geen regularisatie. De geraamde schuld wordt enkel afgesloten: **450000 (debet) / 452000 Te betalen belastingen en taksen (credit)** voor hetzelfde bedrag.\n- **32. Definitief > geraamd** (je moet bijbetalen) -> **671000 Verschuldigde of gestorte belastingsupplement** (debet, fiche: *6710 Belastingsupplement*) naast de afsluiting van 450000, tegenover 452000 (credit) voor het definitieve bedrag.\n- **Definitief < geraamd** (je krijgt terug) -> **771000 Regularisering belastingen** (credit, een opbrengst, fiche: *7710 Regularisatie Ger. belasting*) zodat 450000-debet = 452000-credit + 771000-credit.\n\n*Voorbeeld (definitief > geraamd):* geraamd 4.400, definitief 4.500 -> supplement 100 -> 450000 debet 4.400 + 671000 debet 100 / 452000 credit 4.500.\n\n*Voorbeeld (definitief < geraamd):* geraamd 4.400, definitief 4.300 -> teruggave 100 -> 450000 debet 4.400 / 452000 credit 4.300 + 771000 credit 100.\n\nBij een **geraamde vordering** (412000) verloopt fase 3 spiegelbeeldig met **412020 Terug te vorderen belastingen** (fiche: *41202 TTVB*).\n\n---\n\n## Deel 2 — Resultaatverwerking (winstbestemming)\n\nNa de belasting blijft de **winst na belasting** over. De algemene vergadering beslist wat ermee gebeurt. Dit boek je met **klasse 69** (debet, je \"verbruikt\" de winst) tegenover **klasse 14 / klasse 13 / klasse 47** (credit).\n\n### Berekeningsvolgorde (heel belangrijk op het examen)\n1. **Winst voor belasting**\n2. **- Belasting** (bv. 30%)\n3. **= Winst na belasting**\n4. **- Wettelijke reserve** (5% van de winst na belasting, **tot** de wettelijke reserve 10% van het geplaatst kapitaal bereikt)\n5. **= Te bestemmen winst van het boekjaar**\n6. **+ Overgedragen winst van vorige jaren** (140000 -> overboeken naar 790000) = **totaal te bestemmen winst**\n\n### De boekingen (zoals in de fiche)\n- **Wettelijke reserve:** 692000 Toevoeging aan de wettelijke reserve (debet) / 130000 Wettelijke reserve (credit).\n- **Overige (onbeschikbare/beschikbare) reserves:** 692100 Toevoeging aan de overige reserves (debet) / 131100 Andere onbeschikbare reserves of 133000 Beschikbare reserves (credit).\n- **Overdracht naar volgend jaar:** 693000 Over te dragen winst (debet) / 140000 Overgedragen winst (credit).\n- **Overgedragen winst vorige jaren in resultaat brengen:** 140000 Overgedragen winst (debet) / 790000 Overgedragen winst van vorige boekjaren (credit).\n- **Overgedragen verlies vorige jaren in resultaat brengen:** 690000 Overgedragen verlies van het vorige boekjaar (debet) / 141000 Overgedragen verlies (-) (credit).\n- **Dividend (vergoeding kapitaal):** 694000 Vergoeding van het kapitaal (debet) / 471000 Dividenden over het boekjaar (credit).\n- **Tantièmes (vergoeding bestuurders):** 695000 Bestuurders of zaakvoerders (debet) / 472000 Tantièmes over het boekjaar (credit).\n\n### Wettelijke reserve — let op de begrenzing\nDe wettelijke reserve moet groeien tot **10% van het geplaatst kapitaal**. Je voegt 5% van het resultaat toe, maar **nooit méér** dan nodig om dat plafond te bereiken. Voorbeeld uit de fiche: kapitaal 100.000 -> plafond 10.000. Is er al 9.700 gereserveerd, dan voeg je hooguit 300 toe (al zou 5% 500 bedragen). Bij een **negatief saldo (verlies)** leg je **geen** wettelijke reserve aan.\n\n---\n\n## Hoofdzaak vs. detail\n- **Hoofdzaak:** de logica \"vergelijken\" (fase 2: geraamd vs. vooraf; fase 3: definitief vs. geraamd) en de berekeningsvolgorde van de winstbestemming.\n- **Detail:** in een **verliesjaar** is er in principe **geen belasting** (uitgangspunt: geen verworpen uitgaven). Het verlies wordt overgedragen of eerst verrekend met de overgedragen winst van vorige jaren. Let op: 690000 Overgedragen verlies van het vorige boekjaar dient net andersom — om een verlies van een VORIG jaar in het te bestemmen resultaat te brengen, waardoor de belastbare basis daalt.\n- **Let op de (-)-rekeningen:** 670100 staat aan de **credit**kant ondanks dat ze bij de kosten hoort; het is een negatieve kost die een eerder geboekte kost terugneemt.",
   "kernrekeningen": [
-    {"code": "670000", "naam": "Belastingen", "natuur": "debet", "wanneer": "Voorafbetaling tijdens het boekjaar (fase 1) en als algemene belastingkost op het resultaat."},
-    {"code": "670100", "naam": "Geactiveerde overschotten betaalde belastingen (-)", "natuur": "credit", "wanneer": "Fase 2 wanneer geraamd < voorafbetaald: negatieve kost die het te veel betaalde terugneemt, tegenover 412000."},
-    {"code": "670200", "naam": "Geraamde belastingen", "natuur": "debet", "wanneer": "Fase 2 wanneer geraamd > voorafbetaald: het bijkomende tekort, tegenover 450000."},
-    {"code": "671000", "naam": "Verschuldigde of gestorte belastingsupplement", "natuur": "debet", "wanneer": "Fase 3 wanneer de definitieve aanslag hoger is dan de raming (bijbetalen)."},
+    {"code": "670000", "naam": "Belastingen", "natuur": "debet", "wanneer": "Voorafbetaling tijdens het boekjaar (fase 1) en als geraamde belastingkost op het resultaat (fiche: 6700 Versch./gest. belastingen)."},
+    {"code": "670100", "naam": "Geactiveerde overschotten betaalde belastingen (-)", "natuur": "credit", "wanneer": "Fase 2 wanneer geraamd < voorafbetaald: negatieve kost die het te veel betaalde terugneemt, tegenover 412000 (fiche: 6701)."},
+    {"code": "670200", "naam": "Geraamde belastingen", "natuur": "debet", "wanneer": "Fase 2 wanneer geraamd > voorafbetaald: het bijkomende tekort, tegenover 450000 (fiche: 6702)."},
+    {"code": "671000", "naam": "Verschuldigde of gestorte belastingsupplement", "natuur": "debet", "wanneer": "Fase 3 wanneer de definitieve aanslag hoger is dan de raming (bijbetalen, fiche: 6710 Belastingsupplement)."},
     {"code": "450000", "naam": "Geraamd bedrag der belastingschulden", "natuur": "credit", "wanneer": "Fase 2: de geraamde belastingschuld op de balans (passief, schuld KT)."},
     {"code": "452000", "naam": "Te betalen belastingen en taksen", "natuur": "credit", "wanneer": "Fase 3: de definitieve, vaststaande belastingschuld na ontvangst van het aanslagbiljet."},
-    {"code": "412000", "naam": "Terug te vorderen belastingen geraamd", "natuur": "debet", "wanneer": "Fase 2 wanneer geraamd < voorafbetaald: de geraamde vordering op de fiscus."},
-    {"code": "412020", "naam": "Terug te vorderen belastingen", "natuur": "debet", "wanneer": "Fase 3: de definitieve terug te vorderen belasting (eigen subrekening van de leerkracht)."},
-    {"code": "771000", "naam": "Regularisering belastingen", "natuur": "credit", "wanneer": "Fase 3 wanneer de definitieve aanslag lager is dan de raming: opbrengst uit teruggave/overschatting."},
-    {"code": "692000", "naam": "Toevoeging aan de wettelijke reserve", "natuur": "debet", "wanneer": "Winstbestemming: 5% van de winst na belasting reserveren tot 10% van het kapitaal."},
-    {"code": "692100", "naam": "Toevoeging aan de overige reserves", "natuur": "debet", "wanneer": "Winstbestemming: deel van de winst naar de beschikbare reserves (133000)."},
+    {"code": "412000", "naam": "Terug te vorderen belastingen geraamd", "natuur": "debet", "wanneer": "Fase 2 wanneer geraamd < voorafbetaald: de geraamde vordering op de fiscus (fiche: 412 Geraamd bedrag TTVB)."},
+    {"code": "412020", "naam": "Terug te vorderen belastingen", "natuur": "debet", "wanneer": "Fase 3: de definitieve terug te vorderen belasting (fiche: 41202 TTVB; eigen subrekening leerkracht)."},
+    {"code": "771000", "naam": "Regularisering belastingen", "natuur": "credit", "wanneer": "Fase 3 wanneer de definitieve aanslag lager is dan de raming: opbrengst uit teruggave/overschatting (fiche: 7710)."},
+    {"code": "692000", "naam": "Toevoeging aan de wettelijke reserve", "natuur": "debet", "wanneer": "Winstbestemming: 5% van de winst na belasting reserveren tot ze 10% van het kapitaal bereikt (fiche: 6920)."},
+    {"code": "692100", "naam": "Toevoeging aan de overige reserves", "natuur": "debet", "wanneer": "Winstbestemming: deel van de winst naar de (on)beschikbare reserves (fiche: 6921)."},
     {"code": "693000", "naam": "Over te dragen winst", "natuur": "debet", "wanneer": "Winstbestemming: het saldo van de winst dat naar volgend jaar wordt overgedragen (tegenover 140000)."},
-    {"code": "694000", "naam": "Vergoeding van het kapitaal", "natuur": "debet", "wanneer": "Winstbestemming: het uit te keren dividend (tegenover 471000)."},
+    {"code": "690000", "naam": "Overgedragen verlies van het vorige boekjaar", "natuur": "debet", "wanneer": "Resultaatverwerking: een verlies van een vorig boekjaar (141000) in het te bestemmen resultaat brengen."},
+    {"code": "790000", "naam": "Overgedragen winst van vorige boekjaren", "natuur": "credit", "wanneer": "Resultaatverwerking: de overgedragen winst van vorige jaren (140000) in het te bestemmen resultaat brengen."},
+    {"code": "694000", "naam": "Vergoeding van het kapitaal", "natuur": "debet", "wanneer": "Winstbestemming: het uit te keren dividend / de vergoeding van de inbreng (tegenover 471000)."},
     {"code": "695000", "naam": "Bestuurders of zaakvoerders", "natuur": "debet", "wanneer": "Winstbestemming: tantièmes voor bestuurders (tegenover 472000)."}
   ],
   "boekingsschemas": [
     {
       "titel": "Fase 1 — Voorafbetaling van de belastingen",
-      "situatie": "Tijdens het boekjaar stort de vennootschap een voorschot op de vennootschapsbelasting.",
+      "situatie": "Tijdens het boekjaar stort de vennootschap een voorschot op de vennootschapsbelasting (fiche: 6700 Versch./gest. belastingen).",
       "regels": [
         {"code": "670000", "naam": "Belastingen", "kant": "debet", "bedrag": "voorschotbedrag", "toelichting": "Klasse 6 kost: de belasting wordt al als kost opgenomen."},
         {"code": "550000", "naam": "Kredietinstellingen", "kant": "credit", "bedrag": "voorschotbedrag", "toelichting": "De bank vermindert: geld verlaat de rekening (actief daalt -> credit)."}
       ]
     },
     {
-      "titel": "Fase 2A — Raming: geraamd > voorafbetaling (schuld)",
+      "titel": "Fase 2.1 — Raming: geraamd > voorafbetaling (schuld)",
       "situatie": "Op 31/12 is de geraamde belasting hoger dan de som van de voorafbetalingen: er ontstaat nog een schuld voor het tekort.",
       "regels": [
-        {"code": "670200", "naam": "Geraamde belastingen", "kant": "debet", "bedrag": "geraamd - voorafbetaald", "toelichting": "Bijkomende kost om de totale kost gelijk te maken aan de raming."},
+        {"code": "670200", "naam": "Geraamde belastingen", "kant": "debet", "bedrag": "geraamd - voorafbetaald", "toelichting": "Bijkomende kost om de totale kost gelijk te maken aan de raming (fiche: 6702)."},
         {"code": "450000", "naam": "Geraamd bedrag der belastingschulden", "kant": "credit", "bedrag": "geraamd - voorafbetaald", "toelichting": "Geraamde belastingschuld op het passief (schuld KT stijgt -> credit)."}
       ]
     },
     {
-      "titel": "Fase 2B — Raming: geraamd < voorafbetaling (vordering)",
+      "titel": "Fase 2.2 — Raming: geraamd < voorafbetaling (vordering)",
       "situatie": "Op 31/12 is de geraamde belasting lager dan de voorafbetalingen: er is te veel betaald, dus een vordering.",
       "regels": [
         {"code": "412000", "naam": "Terug te vorderen belastingen geraamd", "kant": "debet", "bedrag": "voorafbetaald - geraamd", "toelichting": "Geraamde vordering op de fiscus (actief stijgt -> debet)."},
-        {"code": "670100", "naam": "Geactiveerde overschotten betaalde belastingen (-)", "kant": "credit", "bedrag": "voorafbetaald - geraamd", "toelichting": "(-)-kostenrekening die het te veel geboekte deel van 670000 terugneemt."}
+        {"code": "670100", "naam": "Geactiveerde overschotten betaalde belastingen (-)", "kant": "credit", "bedrag": "voorafbetaald - geraamd", "toelichting": "(-)-kostenrekening die het te veel geboekte deel van 670000 terugneemt (fiche: 6701)."}
       ]
     },
     {
-      "titel": "Fase 3 — Definitieve aanslag: definitief > geraamd (bijbetalen)",
+      "titel": "Fase 3.2 — Definitieve aanslag: definitief > geraamd (bijbetalen)",
       "situatie": "Het aanslagbiljet vermeldt een hoger bedrag dan de raming: de geraamde schuld wordt afgesloten en een supplement geboekt.",
       "regels": [
         {"code": "450000", "naam": "Geraamd bedrag der belastingschulden", "kant": "debet", "bedrag": "geraamde schuld", "toelichting": "De geraamde schuld wordt afgesloten (passief daalt -> debet)."},
-        {"code": "671000", "naam": "Verschuldigde of gestorte belastingsupplement", "kant": "debet", "bedrag": "definitief - geraamd", "toelichting": "Extra belastingkost omdat de aanslag hoger uitvalt."},
+        {"code": "671000", "naam": "Verschuldigde of gestorte belastingsupplement", "kant": "debet", "bedrag": "definitief - geraamd", "toelichting": "Extra belastingkost omdat de aanslag hoger uitvalt (fiche: 6710)."},
         {"code": "452000", "naam": "Te betalen belastingen en taksen", "kant": "credit", "bedrag": "definitief bedrag", "toelichting": "De definitieve, vaststaande schuld aan de fiscus (credit)."}
       ]
     },
@@ -66,10 +68,12 @@
       "titel": "Winstbestemming — volledige verdeling van de winst",
       "situatie": "De algemene vergadering beslist over de bestemming van de winst na belasting (reserves, overdracht, dividend, tantièmes).",
       "regels": [
-        {"code": "692000", "naam": "Toevoeging aan de wettelijke reserve", "kant": "debet", "bedrag": "5% winst na belasting", "toelichting": "Verplichte wettelijke reservering tot 10% van het kapitaal."},
+        {"code": "692000", "naam": "Toevoeging aan de wettelijke reserve", "kant": "debet", "bedrag": "5% winst na belasting", "toelichting": "Verplichte wettelijke reservering tot 10% van het kapitaal (fiche: 6920)."},
+        {"code": "692100", "naam": "Toevoeging aan de overige reserves", "kant": "debet", "bedrag": "afgesproken %", "toelichting": "Toevoeging aan de (on)beschikbare reserves (fiche: 6921)."},
         {"code": "693000", "naam": "Over te dragen winst", "kant": "debet", "bedrag": "saldo", "toelichting": "Het deel dat naar volgend boekjaar wordt overgedragen."},
-        {"code": "694000", "naam": "Vergoeding van het kapitaal", "kant": "debet", "bedrag": "dividend", "toelichting": "Het uit te keren dividend."},
+        {"code": "694000", "naam": "Vergoeding van het kapitaal", "kant": "debet", "bedrag": "dividend", "toelichting": "Het uit te keren dividend / de vergoeding van de inbreng."},
         {"code": "130000", "naam": "Wettelijke reserve", "kant": "credit", "bedrag": "5% winst na belasting", "toelichting": "Reserve op het eigen vermogen (passief stijgt -> credit)."},
+        {"code": "131100", "naam": "Andere onbeschikbare reserves", "kant": "credit", "bedrag": "afgesproken %", "toelichting": "Onbeschikbare reserve op het eigen vermogen (credit)."},
         {"code": "140000", "naam": "Overgedragen winst", "kant": "credit", "bedrag": "saldo", "toelichting": "Overgedragen winst op het eigen vermogen."},
         {"code": "471000", "naam": "Dividenden over het boekjaar", "kant": "credit", "bedrag": "dividend", "toelichting": "Schuld aan de aandeelhouders (passief stijgt -> credit)."}
       ]
@@ -80,18 +84,18 @@
       "id": "belastingen-winstbestemming-1",
       "titel": "Voorafbetaling boeken (fase 1)",
       "niveau": "basis",
-      "context": "NV De Smet doet in juni een voorafbetaling op de vennootschapsbelasting van 1.000,00 EUR via overschrijving van de bankrekening.",
+      "context": "Een NV doet tijdens het boekjaar een voorafbetaling op de vennootschapsbelasting van 1.000,00 EUR via overschrijving van de bankrekening (fiche: 1ste fase, 6700 Versch./gest. belastingen).",
       "vraag": "Boek de voorafbetaling van de belastingen.",
       "stappen": [
-        "De voorafbetaling is een belastingkost -> klasse 6 -> rekening 670000 Belastingen komt in debet.",
+        "De voorafbetaling is een belastingkost -> klasse 6 -> rekening 670000 Belastingen (fiche 6700) komt in debet.",
         "Het geld verlaat de bankrekening -> 550000 Kredietinstellingen (actief) daalt -> credit.",
         "Controle: debet 1.000 = credit 1.000."
       ],
       "boekingen": [
         {
-          "omschrijving": "Voorafbetaling belastingen juni",
+          "omschrijving": "BU 1: voorafbetaling belastingen 1.000 EUR",
           "regels": [
-            {"code": "670000", "naam": "Belastingen", "debet": 1000.00, "credit": null, "reden": "Belasting als kost (klasse 6) -> debet."},
+            {"code": "670000", "naam": "Belastingen", "debet": 1000.00, "credit": null, "reden": "Belasting als kost (klasse 6) -> debet (fiche: 6700 Versch./gest. belastingen)."},
             {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 1000.00, "reden": "Bankrekening (actief) daalt door de uitgave -> credit."}
           ]
         }
@@ -101,29 +105,29 @@
     },
     {
       "id": "belastingen-winstbestemming-2",
-      "titel": "Raming op einde boekjaar — geval schuld en geval vordering",
+      "titel": "Raming op einde boekjaar — schuld of vordering (fase 2)",
       "niveau": "midden",
-      "context": "BVBA Vlaeminck heeft tijdens het jaar 4.000,00 EUR voorafbetaald (reeds geboekt op 670000). Op 31/12 maakt de boekhouder een raming van de verschuldigde belasting.",
+      "context": "Tijdens het jaar is 4.000,00 EUR voorafbetaald (reeds geboekt op 670000). Op 31/12 maakt de boekhouder een raming van de verschuldigde belasting (fiche: 2.1 Geraamd bedrag > Voorafbetaling en 2.2 Geraamd bedrag < Voorafbetaling, DIV 1).",
       "vraag": "Boek de raming in twee scenario's: (a) geraamd bedrag = 4.400,00 EUR; (b) geraamd bedrag = 3.700,00 EUR.",
       "stappen": [
-        "Scenario a: geraamd (4.400) > voorafbetaald (4.000) -> tekort 400 -> er ontstaat een schuld.",
+        "Scenario a (2.1): geraamd (4.400) > voorafbetaald (4.000) -> tekort 400 -> er ontstaat een schuld.",
         "Boek het tekort als extra kost: 670200 Geraamde belastingen debet 400 / 450000 Geraamd bedrag der belastingschulden credit 400.",
-        "Scenario b: geraamd (3.700) < voorafbetaald (4.000) -> overschot 300 -> er ontstaat een vordering.",
+        "Scenario b (2.2): geraamd (3.700) < voorafbetaald (4.000) -> overschot 300 -> er ontstaat een vordering.",
         "Boek het overschot: 412000 Terug te vorderen belastingen geraamd debet 300 / 670100 Geactiveerde overschotten betaalde belastingen (-) credit 300."
       ],
       "boekingen": [
         {
-          "omschrijving": "(a) Raming 4.400 > voorafbetaald 4.000",
+          "omschrijving": "(a) 2.1 Raming 4.400 > voorafbetaald 4.000",
           "regels": [
-            {"code": "670200", "naam": "Geraamde belastingen", "debet": 400.00, "credit": null, "reden": "Tekort als bijkomende kost -> debet (klasse 6)."},
+            {"code": "670200", "naam": "Geraamde belastingen", "debet": 400.00, "credit": null, "reden": "Tekort als bijkomende kost -> debet (klasse 6, fiche 6702)."},
             {"code": "450000", "naam": "Geraamd bedrag der belastingschulden", "debet": null, "credit": 400.00, "reden": "Geraamde schuld aan de fiscus -> passief stijgt -> credit."}
           ]
         },
         {
-          "omschrijving": "(b) Raming 3.700 < voorafbetaald 4.000",
+          "omschrijving": "(b) 2.2 Raming 3.700 < voorafbetaald 4.000",
           "regels": [
-            {"code": "412000", "naam": "Terug te vorderen belastingen geraamd", "debet": 300.00, "credit": null, "reden": "Te veel betaald -> geraamde vordering -> actief stijgt -> debet."},
-            {"code": "670100", "naam": "Geactiveerde overschotten betaalde belastingen (-)", "debet": null, "credit": 300.00, "reden": "(-)-kostenrekening die de te hoog geboekte kost (670000) terugneemt -> credit."}
+            {"code": "412000", "naam": "Terug te vorderen belastingen geraamd", "debet": 300.00, "credit": null, "reden": "Te veel betaald -> geraamde vordering -> actief stijgt -> debet (fiche 412)."},
+            {"code": "670100", "naam": "Geactiveerde overschotten betaalde belastingen (-)", "debet": null, "credit": 300.00, "reden": "(-)-kostenrekening die de te hoog geboekte kost (670000) terugneemt -> credit (fiche 6701)."}
           ]
         }
       ],
@@ -134,28 +138,28 @@
       "id": "belastingen-winstbestemming-3",
       "titel": "Definitieve aanslag — supplement of teruggave (fase 3)",
       "niveau": "midden",
-      "context": "Bij BVBA Vlaeminck was de geraamde schuld 4.400,00 EUR (geboekt op 450000). In het volgende boekjaar komt het aanslagbiljet toe.",
+      "context": "De geraamde schuld was 4.400,00 EUR (geboekt op 450000, voorafbetaald 4.000). In het volgende boekjaar komt het aanslagbiljet toe (fiche: 3.2 Definitieve schuld > geraamde schuld en 3.3 Definitieve schuld < geraamde schuld).",
       "vraag": "Boek de definitieve aanslag in twee scenario's: (a) definitief = 4.500,00 EUR (bijbetalen); (b) definitief = 4.300,00 EUR (teruggave).",
       "stappen": [
         "In beide gevallen wordt de geraamde schuld 450000 afgesloten (debet 4.400) en de definitieve schuld 452000 geopend (credit definitief bedrag).",
-        "Scenario a: definitief (4.500) > geraamd (4.400) -> supplement 100 -> 671000 debet 100. Controle: debet 4.400+100 = credit 4.500.",
-        "Scenario b: definitief (4.300) < geraamd (4.400) -> teruggave 100 -> 771000 credit 100. Controle: debet 4.400 = credit 4.300+100."
+        "Scenario a (3.2): definitief (4.500) > geraamd (4.400) -> supplement 100 -> 671000 debet 100 (fiche 6710). Controle: debet 4.400+100 = credit 4.500.",
+        "Scenario b (3.3): definitief (4.300) < geraamd (4.400) -> teruggave 100 -> 771000 credit 100 (fiche 7710). Controle: debet 4.400 = credit 4.300+100."
       ],
       "boekingen": [
         {
-          "omschrijving": "(a) Definitief 4.500 > geraamd 4.400",
+          "omschrijving": "(a) 3.2 Definitief 4.500 > geraamd 4.400",
           "regels": [
             {"code": "450000", "naam": "Geraamd bedrag der belastingschulden", "debet": 4400.00, "credit": null, "reden": "De geraamde schuld wordt afgesloten -> passief daalt -> debet."},
-            {"code": "671000", "naam": "Verschuldigde of gestorte belastingsupplement", "debet": 100.00, "credit": null, "reden": "Bijkomende belastingkost omdat de aanslag hoger uitvalt -> debet."},
+            {"code": "671000", "naam": "Verschuldigde of gestorte belastingsupplement", "debet": 100.00, "credit": null, "reden": "Bijkomende belastingkost omdat de aanslag hoger uitvalt -> debet (fiche 6710)."},
             {"code": "452000", "naam": "Te betalen belastingen en taksen", "debet": null, "credit": 4500.00, "reden": "Definitieve, vaststaande schuld aan de fiscus -> credit."}
           ]
         },
         {
-          "omschrijving": "(b) Definitief 4.300 < geraamd 4.400",
+          "omschrijving": "(b) 3.3 Definitief 4.300 < geraamd 4.400",
           "regels": [
             {"code": "450000", "naam": "Geraamd bedrag der belastingschulden", "debet": 4400.00, "credit": null, "reden": "De geraamde schuld wordt afgesloten -> debet."},
             {"code": "452000", "naam": "Te betalen belastingen en taksen", "debet": null, "credit": 4300.00, "reden": "Definitieve schuld (lager dan geraamd) -> credit."},
-            {"code": "771000", "naam": "Regularisering belastingen", "debet": null, "credit": 100.00, "reden": "Opbrengst omdat de raming te hoog was -> klasse 7 -> credit."}
+            {"code": "771000", "naam": "Regularisering belastingen", "debet": null, "credit": 100.00, "reden": "Opbrengst omdat de raming te hoog was -> klasse 7 -> credit (fiche 7710 Regularisatie Ger. belasting)."}
           ]
         }
       ],
@@ -164,20 +168,20 @@
     },
     {
       "id": "belastingen-winstbestemming-4",
-      "titel": "Geraamde belasting + winstbestemming met overdracht (fiche oef 1)",
+      "titel": "Eigen oef 1 — geraamde belasting + winstbestemming met overdracht",
       "niveau": "midden",
-      "context": "De winst van het boekjaar vóór belasting bedraagt 40.000,00 EUR. Het belastingtarief is 30%. De wettelijke reserve = 5% van de winst na belasting, tot 10% van het kapitaal bereikt is (nog niet bereikt). Er zijn geen voorafbetalingen gebeurd.",
-      "vraag": "(a) Boek de geraamde belastingen. (b) Boek de winstbestemming waarbij de resterende winst wordt overgedragen.",
+      "context": "Gegeven (proef- en saldibalans): 100000 Geplaatst kapitaal 100.000,00; 130000 Wettelijke reserve 1.400,00; 140000 Overgedragen winst 26.600,00; 450000 Geraamd bedrag der belastingen 12.000,00. De winst van het boekjaar voor belasting bedraagt 40.000,00 EUR. Belastingtarief 30%. De wettelijke reserve = 5% van de winst na belasting, tot ze 10% van het kapitaal bereikt is. Er zijn geen voorafbetalingen gebeurd.",
+      "vraag": "(a) Boek de geraamde belastingen. (b) Boek de winstbestemming waarbij de winst van het boekjaar wordt overgedragen.",
       "stappen": [
         "Belasting = 30% x 40.000 = 12.000. Omdat er geen voorafbetaling is, is de volledige geraamde belasting meteen een schuld.",
-        "(a) 670000 Belastingen debet 12.000 / 450000 Geraamd bedrag der belastingschulden credit 12.000.",
+        "(a) 670000 Belastingen op het resultaat debet 12.000 / 450000 Geraamd bedrag der belastingen credit 12.000.",
         "Winst na belasting = 40.000 - 12.000 = 28.000. Wettelijke reserve = 5% x 28.000 = 1.400.",
-        "Te bestemmen (over te dragen) winst = 28.000 - 1.400 = 26.600.",
+        "Over te dragen winst = 28.000 - 1.400 = 26.600.",
         "(b) 692000 debet 1.400 + 693000 debet 26.600 / 130000 credit 1.400 + 140000 credit 26.600. Controle: debet 28.000 = credit 28.000."
       ],
       "boekingen": [
         {
-          "omschrijving": "(a) Geraamde belastingen",
+          "omschrijving": "(a) Geraamde belastingen op het resultaat",
           "regels": [
             {"code": "670000", "naam": "Belastingen", "debet": 12000.00, "credit": null, "reden": "Belastingkost 30% x 40.000 -> debet (klasse 6)."},
             {"code": "450000", "naam": "Geraamd bedrag der belastingschulden", "debet": null, "credit": 12000.00, "reden": "Geen voorafbetaling -> volledige geraamde belasting is schuld -> credit."}
@@ -186,69 +190,68 @@
         {
           "omschrijving": "(b) Winstbestemming",
           "regels": [
-            {"code": "692000", "naam": "Toevoeging aan de wettelijke reserve", "debet": 1400.00, "credit": null, "reden": "5% x 28.000 winst na belasting -> debet (verbruik van winst)."},
+            {"code": "692000", "naam": "Toevoeging aan de wettelijke reserve", "debet": 1400.00, "credit": null, "reden": "5% x 28.000 winst na belasting -> debet (verbruik van winst, fiche 6920)."},
             {"code": "693000", "naam": "Over te dragen winst", "debet": 26600.00, "credit": null, "reden": "Restwinst die wordt overgedragen -> debet."},
             {"code": "130000", "naam": "Wettelijke reserve", "debet": null, "credit": 1400.00, "reden": "Reserve op het eigen vermogen -> passief stijgt -> credit."},
             {"code": "140000", "naam": "Overgedragen winst", "debet": null, "credit": 26600.00, "reden": "Overgedragen winst op het eigen vermogen -> credit."}
           ]
         }
       ],
-      "eindantwoord": "Belasting 12.000 (670000/450000). Wettelijke reserve 1.400, overgedragen winst 26.600. Totaal bestemd = 28.000 = winst na belasting.",
-      "valkuil": "De wettelijke reserve wordt berekend op de winst NA belasting (28.000), niet op de winst vóór belasting (40.000). 5% x 28.000 = 1.400, niet 2.000."
+      "eindantwoord": "Belasting 12.000 (670000/450000). Wettelijke reserve 1.400 (692000/130000), overgedragen winst 26.600 (693000/140000). Totaal bestemd = 28.000 = winst na belasting.",
+      "valkuil": "De wettelijke reserve wordt berekend op de winst NA belasting (28.000), niet op de winst voor belasting (40.000). 5% x 28.000 = 1.400, niet 2.000."
     },
     {
       "id": "belastingen-winstbestemming-5",
-      "titel": "Winstbestemming met overgedragen winst van vorige jaren (fiche oef 2)",
+      "titel": "Eigen oef 2 — winstbestemming met overgedragen winst van vorige jaren",
       "niveau": "examen",
-      "context": "Gegeven (beginbalans): 100000 Geplaatst kapitaal 100.000; 130000 Wettelijke reserve 1.400; 140000 Overgedragen winst 26.600; 450000 Geraamd bedrag der belastingschulden 12.000. De winst van het boekjaar vóór belasting bedraagt 30.000,00 EUR; tarief 30%; wettelijke reserve = 5% van de winst na belasting tot 10% van het kapitaal bereikt is.",
-      "vraag": "(a) Boek de geraamde belastingen van het nieuwe boekjaar. (b) Boek de overdracht van de overgedragen winst van vorige jaren. (c) Boek de winstbestemming van dit boekjaar samen met de overgedragen winst.",
+      "context": "Gegeven (proef- en saldibalans): 100000 Geplaatst kapitaal 100.000,00; 130000 Wettelijke reserve 1.400,00; 140000 Overgedragen winst 26.600,00; 450000 Geraamd bedrag der belastingen 12.000,00. De winst van het boekjaar voor belasting bedraagt 30.000,00 EUR. Belastingtarief 30%. De wettelijke reserve = 5% van de winst na belasting, tot ze 10% van het kapitaal bereikt is.",
+      "vraag": "(a) Boek de geraamde belastingen. (b) Boek de winstbestemming waarbij de winst van het boekjaar wordt overgedragen (de overgedragen winst van vorige jaren wordt eerst in het resultaat gebracht).",
       "stappen": [
-        "Belasting = 30% x 30.000 = 9.000. Geen voorafbetalingen vermeld voor dit jaar -> 670000 debet 9.000 / 450000 credit 9.000.",
-        "Winst voor belasting 30.000 - belasting 9.000 = winst na belasting 21.000.",
-        "Wettelijke reserve = 5% x 21.000 = 1.050 (toets: 10% van kapitaal = 10.000; huidige reserve 1.400 + 1.050 = 2.450 < 10.000, dus volledige 1.050 mag).",
-        "Te bestemmen winst van het boekjaar = 21.000 - 1.050 = 19.950.",
-        "Overgedragen winst van vorige jaren 26.600 wordt eerst overgeboekt: 140000 debet 26.600 / 790000 credit 26.600 (komt bij het te bestemmen resultaat).",
-        "Te bestemmen winst boekjaar (na reserve) 19.950 + overgedragen vorige jaren 26.600 = 46.550 over te dragen. Boeking: 692000 debet 1.050 (wettelijke reserve) + 693000 debet 46.550 (over te dragen) / 130000 credit 1.050 + 140000 credit 46.550. Controle: debet 47.600 = credit 47.600 (= winst na belasting 21.000 + overgedragen 26.600)."
+        "Belasting = 30% x 30.000 = 9.000 -> 670000 debet 9.000 / 450000 credit 9.000.",
+        "Berekening: winst voor belasting 30.000 - belasting 9.000 = winst na belasting 21.000.",
+        "Wettelijke reserve (WR) = 5% x 21.000 = 1.050 (toets: plafond 10% van kapitaal = 10.000; 1.400 + 1.050 = 2.450 < 10.000, dus volledige 1.050 mag).",
+        "Te bestemmen winst van het boekjaar = 21.000 - 1.050 = 19.950. Te bestemmen winst vorige jaren = 26.600. Totaal te bestemmen = 46.550.",
+        "(b) Eerst de overgedragen winst van vorige jaren overboeken: 140000 debet 26.600 / 790000 credit 26.600. Daarna: 692000 debet 1.050 + 693000 debet 46.550 / 130000 credit 1.050 + 140000 credit 46.550."
       ],
       "boekingen": [
         {
-          "omschrijving": "(a) Geraamde belastingen boekjaar",
+          "omschrijving": "(a) Geraamde belastingen op het resultaat",
           "regels": [
             {"code": "670000", "naam": "Belastingen", "debet": 9000.00, "credit": null, "reden": "30% x 30.000 -> belastingkost -> debet."},
             {"code": "450000", "naam": "Geraamd bedrag der belastingschulden", "debet": null, "credit": 9000.00, "reden": "Geraamde belastingschuld -> credit."}
           ]
         },
         {
-          "omschrijving": "(b) Overgedragen winst vorige jaren overboeken",
+          "omschrijving": "(b1) Overgedragen winst van vorige jaren in resultaat brengen",
           "regels": [
             {"code": "140000", "naam": "Overgedragen winst", "debet": 26600.00, "credit": null, "reden": "De vroegere overgedragen winst wordt afgesloten -> debet."},
             {"code": "790000", "naam": "Overgedragen winst van vorige boekjaren", "debet": null, "credit": 26600.00, "reden": "Komt als te bestemmen resultaat in de resultaatverwerking (klasse 79) -> credit."}
           ]
         },
         {
-          "omschrijving": "(c) Winstbestemming",
+          "omschrijving": "(b2) Winstbestemming",
           "regels": [
             {"code": "692000", "naam": "Toevoeging aan de wettelijke reserve", "debet": 1050.00, "credit": null, "reden": "5% x 21.000 winst na belasting -> debet."},
-            {"code": "693000", "naam": "Over te dragen winst", "debet": 46550.00, "credit": null, "reden": "Te bestemmen winst boekjaar 19.950 + overgedragen 26.600 = 46.550 -> debet."},
+            {"code": "693000", "naam": "Over te dragen winst", "debet": 46550.00, "credit": null, "reden": "Te bestemmen winst boekjaar 19.950 + overgedragen vorige jaren 26.600 = 46.550 -> debet."},
             {"code": "130000", "naam": "Wettelijke reserve", "debet": null, "credit": 1050.00, "reden": "Reserve op eigen vermogen -> credit."},
             {"code": "140000", "naam": "Overgedragen winst", "debet": null, "credit": 46550.00, "reden": "Nieuw saldo overgedragen winst -> credit."}
           ]
         }
       ],
-      "eindantwoord": "Belasting 9.000. Wettelijke reserve 1.050. Totaal te bestemmen winst = 19.950 (boekjaar) + 26.600 (vorige jaren) = 46.550, overgedragen naar 140000.",
+      "eindantwoord": "Belasting 9.000. WR 1.050. Te bestemmen winst boekjaar 19.950 + vorige jaren 26.600 = 46.550, overgedragen naar 140000.",
       "valkuil": "De overgedragen winst van vorige jaren (26.600) telt mee in de te bestemmen winst, maar de wettelijke reserve (5%) wordt enkel op de winst na belasting van DIT boekjaar (21.000) berekend, niet op het totaal van 46.550."
     },
     {
       "id": "belastingen-winstbestemming-6",
-      "titel": "Verliesjaar: geen belasting + verwerking verlies (fiche oef 3)",
+      "titel": "Eigen oef 3 — verliesjaar: geen belasting + verlies verrekenen met overgedragen winst",
       "niveau": "examen",
-      "context": "Gegeven: 100000 Geplaatst kapitaal 100.000; 130000 Wettelijke reserve 1.400; 140000 Overgedragen winst 26.600. Het verlies van het boekjaar bedraagt 20.000,00 EUR (uitgangspunt: geen verworpen uitgaven).",
-      "vraag": "(a) Wat boek je voor de belastingen? (b) Boek de resultaatverwerking waarbij het resultaat wordt overgedragen.",
+      "context": "Gegeven (proef- en saldibalans): 100000 Geplaatst kapitaal 100.000,00; 130000 Wettelijke reserve 1.400,00; 140000 Overgedragen winst 26.600,00; 450000 Geraamd bedrag der belastingen 12.000,00. Het verlies van het boekjaar bedraagt 20.000,00 EUR. Belastingtarief 30%. Uitgangspunt: geen verworpen uitgaven.",
+      "vraag": "(a) Wat boek je voor de belastingen? (b) Boek de resultaatverwerking waarbij de winst (het saldo) van het boekjaar wordt overgedragen.",
       "stappen": [
         "(a) In een verliesjaar zonder verworpen uitgaven is er geen belastbare basis -> geen belasting te boeken.",
         "De overgedragen winst van vorige jaren wordt overgeboekt: 140000 debet 26.600 / 790000 credit 26.600.",
-        "Het verlies van het boekjaar (-20.000) wordt verrekend met de overgedragen winst (26.600).",
-        "Totaal te bestemmen = 26.600 - 20.000 = 6.600 -> wordt overgedragen: 693000 debet 6.600 / 140000 credit 6.600. Geen wettelijke reserve want er is geen winst na belasting van het boekjaar."
+        "Berekening: verlies van het boekjaar -20.000 + overgedragen winst vorige jaren 26.600 = totaal te bestemmen 6.600.",
+        "(b) Het saldo wordt overgedragen: 693000 debet 6.600 / 140000 credit 6.600. Geen wettelijke reserve want er is geen positief resultaat van het boekjaar."
       ],
       "boekingen": [
         {
@@ -258,14 +261,14 @@
           ]
         },
         {
-          "omschrijving": "(b) Overgedragen winst vorige jaren overboeken",
+          "omschrijving": "(b1) Overgedragen winst van vorige jaren in resultaat brengen",
           "regels": [
             {"code": "140000", "naam": "Overgedragen winst", "debet": 26600.00, "credit": null, "reden": "Afsluiten van de vroegere overgedragen winst -> debet."},
             {"code": "790000", "naam": "Overgedragen winst van vorige boekjaren", "debet": null, "credit": 26600.00, "reden": "Te bestemmen resultaat (klasse 79) -> credit."}
           ]
         },
         {
-          "omschrijving": "(c) Resultaatverwerking met verlies",
+          "omschrijving": "(b2) Resultaatverwerking met verlies",
           "regels": [
             {"code": "693000", "naam": "Over te dragen winst", "debet": 6600.00, "credit": null, "reden": "Saldo na verrekening verlies (26.600 - 20.000) -> debet."},
             {"code": "140000", "naam": "Overgedragen winst", "debet": null, "credit": 6600.00, "reden": "Nieuw, lager saldo overgedragen winst -> credit."}
@@ -273,7 +276,48 @@
         }
       ],
       "eindantwoord": "Geen belasting in een verliesjaar (zonder verworpen uitgaven). Het verlies van 20.000 wordt verrekend met de overgedragen winst van 26.600 -> 6.600 blijft over en wordt overgedragen.",
-      "valkuil": "In een verliesjaar geen belasting boeken (uitgangspunt: geen verworpen uitgaven) en geen wettelijke reserve aanleggen — er is immers geen winst van het boekjaar om 5% van te nemen."
+      "valkuil": "In een verliesjaar geen belasting boeken (uitgangspunt: geen verworpen uitgaven) en geen wettelijke reserve aanleggen — er is immers geen positief boekjaarresultaat om 5% van te nemen."
+    },
+    {
+      "id": "belastingen-winstbestemming-7",
+      "titel": "Eigen oef 4 — winst met overgedragen verlies van vorige jaren",
+      "niveau": "examen",
+      "context": "Gegeven (proef- en saldibalans): 100000 Geplaatst kapitaal 100.000,00; 130000 Wettelijke reserve (nihil); 141000 Overgedragen verlies (-) 20.000,00; 450000 Geraamd bedrag der belastingen 12.000,00. De winst van het boekjaar voor belasting bedraagt 40.000,00 EUR. Belastingtarief 30%. De wettelijke reserve = 5% van de winst na belasting, tot ze 10% van het kapitaal bereikt is.",
+      "vraag": "(a) Boek de geraamde belastingen. (b) Boek de winstbestemming waarbij de winst van het boekjaar wordt overgedragen (het overgedragen verlies van vorige jaren wordt eerst in het resultaat gebracht).",
+      "stappen": [
+        "Het overgedragen verlies van vorige jaren vermindert de belastbare basis: basis belasting = 40.000 - 20.000 = 20.000.",
+        "Belasting = 30% x 20.000 = 6.000 -> (a) 670000 debet 6.000 / 450000 credit 6.000.",
+        "Berekening: winst voor belasting 40.000 - overgedragen verlies 20.000 - belasting 6.000 = winst na belasting 14.000.",
+        "Wettelijke reserve = 5% x 14.000 = 700. Over te dragen winst = 14.000 - 700 = 13.300.",
+        "(b) Eerst het overgedragen verlies in resultaat brengen: 690000 debet 20.000 / 141000 credit 20.000. Daarna: 692000 debet 700 + 693000 debet 13.300 / 130000 credit 700 + 140000 credit 13.300."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "(a) Geraamde belastingen op het resultaat",
+          "regels": [
+            {"code": "670000", "naam": "Belastingen", "debet": 6000.00, "credit": null, "reden": "30% x (40.000 - 20.000 overgedragen verlies) = 6.000 -> debet."},
+            {"code": "450000", "naam": "Geraamd bedrag der belastingschulden", "debet": null, "credit": 6000.00, "reden": "Geraamde belastingschuld -> credit."}
+          ]
+        },
+        {
+          "omschrijving": "(b1) Overgedragen verlies van vorige jaren in resultaat brengen",
+          "regels": [
+            {"code": "690000", "naam": "Overgedragen verlies van het vorige boekjaar", "debet": 20000.00, "credit": null, "reden": "Het vorige verlies wordt in het te bestemmen resultaat gebracht -> debet (klasse 69)."},
+            {"code": "141000", "naam": "Overgedragen verlies (-)", "debet": null, "credit": 20000.00, "reden": "De balansrekening Overgedragen verlies (-) wordt afgesloten -> credit."}
+          ]
+        },
+        {
+          "omschrijving": "(b2) Winstbestemming",
+          "regels": [
+            {"code": "692000", "naam": "Toevoeging aan de wettelijke reserve", "debet": 700.00, "credit": null, "reden": "5% x 14.000 winst na belasting -> debet (fiche 6920)."},
+            {"code": "693000", "naam": "Over te dragen winst", "debet": 13300.00, "credit": null, "reden": "Restwinst die wordt overgedragen -> debet."},
+            {"code": "130000", "naam": "Wettelijke reserve", "debet": null, "credit": 700.00, "reden": "Reserve op eigen vermogen -> credit."},
+            {"code": "140000", "naam": "Overgedragen winst", "debet": null, "credit": 13300.00, "reden": "Overgedragen winst op het eigen vermogen -> credit."}
+          ]
+        }
+      ],
+      "eindantwoord": "Basis belasting 20.000 (40.000 - 20.000 verlies). Belasting 6.000. Winst na belasting 14.000. WR 700, over te dragen winst 13.300.",
+      "valkuil": "Het overgedragen verlies van vorige jaren verlaagt eerst de belastbare basis (40.000 - 20.000 = 20.000) voordat je de belasting berekent. De wettelijke reserve neem je daarna op de winst na belasting (14.000), niet op de 40.000."
     }
   ],
   "flashcards": [
@@ -282,8 +326,8 @@
     {"vraag": "Raming: geraamd > voorafbetaald. Welke boeking?", "antwoord": "670200 Geraamde belastingen (debet) / 450000 Geraamd bedrag der belastingschulden (credit) voor het tekort.", "type": "mar-code"},
     {"vraag": "Raming: geraamd < voorafbetaald. Welke boeking?", "antwoord": "412000 Terug te vorderen belastingen geraamd (debet) / 670100 Geactiveerde overschotten betaalde belastingen (-) (credit) voor het overschot.", "type": "mar-code"},
     {"vraag": "Waarom staat 670100 aan de creditzijde terwijl het bij de kosten (klasse 6) hoort?", "antwoord": "Het is een (-)-kostenrekening: ze neemt een eerder te hoog geboekte kost (670000) terug en staat dus aan de tegenovergestelde kant van haar rubriek.", "type": "logica"},
-    {"vraag": "Definitieve aanslag hoger dan de raming: welke rekening boek je extra?", "antwoord": "671000 Verschuldigde of gestorte belastingsupplement (debet) — een bijkomende kost.", "type": "mar-code"},
-    {"vraag": "Definitieve aanslag lager dan de raming: welke rekening boek je?", "antwoord": "771000 Regularisering belastingen (credit) — een opbrengst (klasse 7).", "type": "mar-code"},
+    {"vraag": "Definitieve aanslag hoger dan de raming: welke rekening boek je extra?", "antwoord": "671000 Verschuldigde of gestorte belastingsupplement (debet) — een bijkomende kost (fiche 6710).", "type": "mar-code"},
+    {"vraag": "Definitieve aanslag lager dan de raming: welke rekening boek je?", "antwoord": "771000 Regularisering belastingen (credit) — een opbrengst (klasse 7, fiche 7710).", "type": "mar-code"},
     {"vraag": "Verschil tussen 450000 en 452000?", "antwoord": "450000 = geraamd bedrag der belastingschulden (fase 2, schatting); 452000 = te betalen belastingen (fase 3, definitief en vaststaand na aanslagbiljet).", "type": "begrip"},
     {"vraag": "Hoe bereken je de wettelijke reserve?", "antwoord": "5% van de winst NA belasting, tot de wettelijke reserve 10% van het geplaatst kapitaal bereikt.", "type": "logica"},
     {"vraag": "Boeking toevoeging aan de wettelijke reserve?", "antwoord": "692000 Toevoeging aan de wettelijke reserve (debet) / 130000 Wettelijke reserve (credit).", "type": "mar-code"},
@@ -296,21 +340,24 @@
   ],
   "veelgemaakteFouten": [
     {"fout": "Bij een voorafbetaling 452000 of 450000 gebruiken in plaats van de bank.", "correctie": "Een voorafbetaling boek je 670000 (debet) / 550000 (credit). Er is op dat moment nog geen schuld; je betaalt vooruit."},
-    {"fout": "De wettelijke reserve berekenen op de winst vóór belasting.", "correctie": "De wettelijke reserve is 5% van de winst NA belasting. Bv. winst voor belasting 40.000, belasting 12.000 -> 5% x 28.000 = 1.400."},
+    {"fout": "De wettelijke reserve berekenen op de winst voor belasting.", "correctie": "De wettelijke reserve is 5% van de winst NA belasting. Bv. winst voor belasting 40.000, belasting 12.000 -> 5% x 28.000 = 1.400."},
     {"fout": "In fase 3 de geraamde schuld (450000) niet afsluiten.", "correctie": "Bij de definitieve aanslag boek je 450000 in debet (afsluiten) en 452000 in credit (definitief), met 671000 (supplement) of 771000 (teruggave) voor het verschil."},
     {"fout": "670100 in debet boeken omdat het 'klasse 6' is.", "correctie": "670100 is een (-)-rekening: ze staat in credit en neemt het te veel geboekte deel van 670000 terug. De tegenpost 412000 (vordering) staat in debet."},
     {"fout": "Een belastingsupplement (kost) en een teruggave (opbrengst) verwisselen.", "correctie": "Definitief > geraamd = supplement -> 671000 debet (kost). Definitief < geraamd = teruggave -> 771000 credit (opbrengst)."},
     {"fout": "In een verliesjaar toch belasting en/of wettelijke reserve boeken.", "correctie": "Zonder verworpen uitgaven is er bij verlies geen belasting en geen wettelijke reserve; het verlies wordt verrekend/overgedragen."},
-    {"fout": "Vergeten de overgedragen winst van vorige jaren mee te nemen in de te bestemmen winst.", "correctie": "Totaal te bestemmen = te bestemmen winst boekjaar + overgedragen winst vorige jaren (140000 wordt overgeboekt naar 790000)."}
+    {"fout": "Vergeten de overgedragen winst van vorige jaren mee te nemen in de te bestemmen winst.", "correctie": "Totaal te bestemmen = te bestemmen winst boekjaar + overgedragen winst vorige jaren (140000 wordt overgeboekt naar 790000)."},
+    {"fout": "Het overgedragen verlies van vorige jaren niet aftrekken van de belastbare basis.", "correctie": "Bij overgedragen verlies (141000) breng je dat via 690000 in het resultaat; de belasting bereken je op winst min overgedragen verlies (bv. 40.000 - 20.000 = 20.000 x 30% = 6.000)."},
+    {"fout": "De toevoeging aan de wettelijke reserve niet begrenzen bij het 10%-plafond.", "correctie": "Voeg nooit méér toe dan nodig om 10% van het kapitaal te bereiken. Bv. reeds 9.700 op een kapitaal van 100.000 (plafond 10.000): voeg slechts 300 toe, ook al zou 5% 500 zijn."}
   ],
   "controlevragen": [
     {"vraag": "Een vennootschap betaalde 4.000 vooraf; de raming op 31/12 is 4.400. Welke boeking maak je?", "antwoord": "670200 Geraamde belastingen debet 400 / 450000 Geraamd bedrag der belastingschulden credit 400 (het tekort)."},
     {"vraag": "Geraamde schuld was 4.400; het aanslagbiljet vermeldt 4.300. Welke boeking?", "antwoord": "450000 debet 4.400 / 452000 credit 4.300 + 771000 Regularisering belastingen credit 100 (teruggave/overschatting)."},
     {"vraag": "Winst voor belasting = 30.000, tarief 30%. Hoeveel bedraagt de wettelijke reserve?", "antwoord": "Belasting 9.000 -> winst na belasting 21.000 -> wettelijke reserve = 5% x 21.000 = 1.050."},
     {"vraag": "Welke rekening en welke kant gebruik je om de overgedragen winst naar volgend jaar te boeken?", "antwoord": "693000 Over te dragen winst in debet, tegenover 140000 Overgedragen winst in credit."},
-    {"vraag": "Tot welk plafond moet je blijven toevoegen aan de wettelijke reserve?", "antwoord": "Tot de wettelijke reserve 10% van het geplaatst kapitaal bereikt (bv. kapitaal 100.000 -> plafond 10.000)."},
+    {"vraag": "Tot welk plafond moet je blijven toevoegen aan de wettelijke reserve, en wat als je dicht bij dat plafond zit?", "antwoord": "Tot de wettelijke reserve 10% van het geplaatst kapitaal bereikt (kapitaal 100.000 -> plafond 10.000). Zit je al op 9.700, dan voeg je hooguit 300 toe, ook al zou 5% meer zijn."},
     {"vraag": "Waarom is 670100 een credit-rekening hoewel ze in klasse 6 staat?", "antwoord": "Het is een (-)-rekening die een eerder te hoog geboekte belastingkost (670000) terugneemt; ze staat aan de tegenovergestelde kant van haar rubriek."},
     {"vraag": "Met welke twee rekeningen boek je een dividenduitkering in de winstbestemming?", "antwoord": "694000 Vergoeding van het kapitaal (debet) / 471000 Dividenden over het boekjaar (credit)."},
-    {"vraag": "Wat is het verschil tussen 450000 en 452000?", "antwoord": "450000 is de geraamde (geschatte) belastingschuld uit fase 2; 452000 is de definitieve, vaststaande belastingschuld na de aanslag (fase 3)."}
+    {"vraag": "Wat is het verschil tussen 450000 en 452000?", "antwoord": "450000 is de geraamde (geschatte) belastingschuld uit fase 2; 452000 is de definitieve, vaststaande belastingschuld na de aanslag (fase 3)."},
+    {"vraag": "Er is 20.000 overgedragen verlies en de winst voor belasting is 40.000 (tarief 30%). Hoeveel belasting?", "antwoord": "Basis = 40.000 - 20.000 = 20.000; belasting = 30% x 20.000 = 6.000. Het overgedragen verlies komt via 690000 in het resultaat."}
   ]
 }

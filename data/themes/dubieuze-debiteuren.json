@@ -1,35 +1,40 @@
 {
   "slug": "dubieuze-debiteuren",
   "titel": "Dubieuze debiteuren & waardeverminderingen op vorderingen",
-  "korteOmschrijving": "Hoe je een gewone klant die onbetrouwbaar wordt overboekt naar dubieuze debiteuren, er een waardevermindering op boekt en hem afhandelt bij definitief verlies of (gedeeltelijke) inning, inclusief btw-recuperatie.",
+  "korteOmschrijving": "Hoe je een gewone klant die onbetrouwbaar wordt overboekt naar dubieuze debiteuren, er een waardevermindering op boekt en hem afhandelt bij definitief verlies, terugname of (gedeeltelijke) inning, met de twee btw-methodes: btw terugvragen op het einde of aan het begin van het faillissement.",
   "leerdoelen": [
-    "Een gewone klant (400000) correct overboeken naar dubieuze debiteuren (407000) wanneer de vordering onzeker wordt, inclusief btw.",
-    "Een waardevermindering boeken (634000 / 409100) voor het vermoedelijke verlies en die later terugnemen (409100 / 634100) of definitief maken.",
-    "Het definitieve (werkelijke) verlies boeken via 642000 en de btw recupereren via 411620, met afsluiting van 407000 en 409100.",
+    "Een gewone klant (400000) correct overboeken naar dubieuze debiteuren (407000) wanneer de vordering onzeker wordt, voor het volledige bedrag inclusief btw.",
+    "Een waardevermindering boeken (634000 / 409100) op het bedrag EXCL. btw voor het vermoedelijke verlies, en die later terugnemen (409100 / 634100) als de klant herstelt.",
+    "Het definitieve (werkelijke) verlies boeken via 642000 (handelsvordering) en de btw recupereren via 411620, met afsluiting van 407000 en 409100.",
     "Het onderscheid begrijpen tussen een vermoedelijk verlies (waardevermindering, klasse 634) en een werkelijk verlies (minderwaarde, klasse 642).",
-    "De twee btw-methodes uit elkaar houden: btw terugvragen op het einde van het faillissement versus aan het begin (met 409200 Teruggevraagde btw en 451610).",
-    "Bij een definitieve afrekening de eventuele meerwaarde (742000) of bijkomende minwaarde (642000) correct bepalen wanneer de klant meer of minder betaalt dan verwacht."
+    "De twee btw-methodes uit elkaar houden: btw terugvragen op het EINDE van het faillissement (Oef 1a-6a) versus AAN HET BEGIN (Oef 1b-6b, met 409200 Teruggevraagde btw en 451610 Herziening in het nadeel).",
+    "Bij een definitieve afrekening de eventuele meerwaarde (742000) of bijkomende minwaarde (642000) correct bepalen wanneer de klant meer of minder betaalt dan voorzien.",
+    "De boeking van een dubieuze klant vergelijken met die van een uitgaande creditnota (UCN): beide vertrekken van 400000 / 700000 + btw, maar de afwikkeling verschilt grondig."
   ],
-  "samenvatting": "## Waarover gaat dit thema?\n\nNiet elke klant betaalt zijn factuur. Zodra de inning van een klantvordering **onzeker** wordt (de klant betaalt niet meer, vraagt uitstel, is in moeilijkheden of gaat failliet), mag je die vordering niet meer als een gewone, gezonde vordering laten staan op **400000 Klanten**. Je verplaatst ze naar een aparte rekening, **407000 Dubieuze debiteuren**, en je drukt het verwachte verlies uit met een **waardevermindering**. Dit thema leert je die hele levensloop boeken: overboeken, waarderen, en uiteindelijk afhandelen (verlies of toch nog inning).\n\n## Stap 1 — Klant wordt dubieus: overboeken naar 407000\n\nZodra een klant dubieus wordt, boek je het **volledige openstaande bedrag inclusief btw** over van klanten naar dubieuze debiteuren:\n\n- **407000 Dubieuze debiteuren** (debet, incl. btw) **/ 400000 Klanten** (credit, incl. btw)\n\nVoorbeeld: een klant staat open voor 121,00 (100,00 + 21,00 btw). Je boekt 407000 debet 121,00 / 400000 credit 121,00. De vordering bestaat nog volledig, ze staat alleen op een andere, alarmerende plaats. Beide zijn actiefrekeningen (vordering KT); je verschuift een actief, dus de ene gaat debet, de andere credit. Op dit moment boek je nog **geen** kost.\n\n## Stap 2 — Vermoedelijk verlies: waardevermindering boeken\n\nNu schat je in hoeveel je waarschijnlijk **niet** zult terugzien. Dat is een **vermoeden**, dus een **waardevermindering**. Belangrijk: de waardevermindering wordt **altijd berekend op het bedrag EXCLUSIEF btw**. De btw vraag je apart terug, niet via de kostenrekening.\n\n- **634000 waardeverm op handelsvordering <1jr** (debet, kost, excl. btw)\n- **/ 409100 Geboekte waardeverm (-)** (credit)\n\nVoorbeeld bij 100% vermoedelijk verlies op 100,00 excl.: 634000 debet 100,00 / 409100 credit 100,00. Rekening **409100** is een **(-)-rekening van het actief**: ze staat aan de creditkant en vermindert de boekwaarde van de dubieuze vordering. Zo blijft 407000 op zijn brutobedrag (121,00) staan, maar de **nettowaarde** op de balans daalt.\n\n> **Hoofdzaak:** klasse 6 (634000) = kost = het vermoeden van verlies in de resultatenrekening. Klasse 409100 = correctie op het actief in de balans. Samen geven ze de realistische nettowaarde van je vordering.\n\n## Stap 3a — Btw terugvragen OP HET EINDE van het faillissement\n\nIn deze (eenvoudigste) methode wacht je met de btw tot de vordering definitief afgehandeld is. Tijdens de waardeverminderingsfase boek je dus enkel 634000 / 409100, **zonder** btw-beweging. De btw komt pas op het einde, samen met het definitieve verlies (zie stap 4).\n\n## Stap 3b — Btw terugvragen AAN HET BEGIN van het faillissement\n\nKrijg je van de curator al een attest dat (een deel van) de vordering verloren is, dan mag je de btw **nu al** terugvragen. Je boekt dan extra:\n\n- **411620 Btw herziening in het voordeel** (debet) **/ 409200 Teruggevraagde btw (op dubieuze)** (credit)\n\nLet op: in de bron is **409200** een eigen leerkrachtrekening die hier als **tegenboeking (credit)** dienstdoet om de teruggevraagde btw te parkeren tegenover de dubieuze vordering. Op het einde wordt 409200 weer uitgeboekt.\n\n## Stap 4 — Definitieve afhandeling\n\nNu wordt het vermoeden **zekerheid**. Het werkelijke verlies boek je via **642000 Minderwaarden realisatie handelsvordering** (een minderwaarde, geen waardevermindering meer!). Tegelijk neem je de eerder geboekte waardevermindering (409100) terug en boek je de dubieuze vordering (407000) uit. De btw recupereer je via **411620** (methode einde) of via afboeking van **409200** met **451610** (methode begin).\n\n**Scenario A — klant betaalt niets (100% verlies), methode einde:**\n- 409100 (debet 100,00) — waardevermindering terugnemen tegen de afboeking\n- 411620 (debet 21,00) — btw recupereren\n- / 407000 (credit 121,00) — dubieuze vordering verdwijnt\n\n**Scenario B — klant betaalt toch nog een deel:** stel verwacht verlies 100% maar de klant betaalt nog 72,60 (60,00 + 12,60 btw). Dan blijkt het werkelijke verlies kleiner dan voorzien -> er ontstaat een **meerwaarde (742000)**:\n- 550000 Bank (debet 72,60), 409100 (debet 100,00), 411620 (debet 8,40 = btw op het echte verlies van 40,00)\n- / 407000 (credit 121,00), 742000 Meerwaarden realisatie handelsvordering (credit 60,00)\n\n## Het kernonderscheid: vermoedelijk vs werkelijk verlies\n\n| | Vermoedelijk verlies | Werkelijk verlies |\n|---|---|---|\n| Aard | schatting / vermoeden | zekerheid (failliet afgesloten, betaling binnen) |\n| Kostenrekening | **634000** waardevermindering | **642000** minderwaarde |\n| Correctierekening | **409100** (boeken/terugnemen) | n.v.t. (definitief) |\n| Terugneming | **634100** als de klant herstelt | n.v.t. |\n\nAls een dubieuze klant **herstelt** en weer betrouwbaar wordt, neem je de waardevermindering terug met **409100 (debet) / 634100 Terugneming (-) (credit)**. 634100 is een (-)-kostenrekening: ze vermindert de eerder geboekte kost.\n\n## Samengevat\n\n1. Dubieus worden: **407000 / 400000** (incl. btw).\n2. Vermoeden van verlies: **634000 / 409100** (excl. btw).\n3. Klant herstelt: **409100 / 634100** (terugneming).\n4. Definitief verlies: **642000** voor het verlies, **411620** voor de btw, afboeking **407000** en **409100**; eventuele **742000** als de klant méér betaalde dan verwacht.\n\nHou steeds in het oog dat de waardevermindering op het bedrag **excl. btw** slaat en dat de btw een **apart** spoor volgt (411620 / 409200 / 451610) dat afhangt van het gekozen moment (begin of einde van het faillissement).",
+  "samenvatting": "## Waarover gaat dit thema?\n\nNiet elke klant betaalt zijn factuur. Zodra de inning van een klantvordering **onzeker** wordt (de klant betaalt niet meer, vraagt uitstel, gaat failliet), mag je die vordering niet meer als een gezonde vordering op **400000 Klanten** laten staan. Je verplaatst ze naar **407000 Dubieuze debiteuren** en drukt het verwachte verlies uit met een **waardevermindering**. Dit thema leert je de volledige levensloop boeken: overboeken, waarderen en afhandelen (verlies, terugname of toch nog inning). De fiche behandelt dit op **twee manieren** die enkel verschillen in het btw-moment.\n\n## De twee btw-methodes (rode draad van de fiche)\n\n- **Oef 1a tot 6a — BTW terugvragen op het EINDE van het faillissement.** Tijdens de waardeverminderingsfase boek je enkel 634000 / 409100, zonder btw. De btw recupereer je pas bij de definitieve afhandeling via **411620 Btw herziening in het voordeel**.\n- **Oef 1b tot 6b — BTW terugvragen AAN HET BEGIN van het faillissement.** Je recupereert de btw al bij de waardevermindering: **411620 (debet) / 409200 Teruggevraagde btw (credit)**. Op het einde worden 409200 en (indien de klant toch betaalt) **451610 Btw herziening in het nadeel** mee afgewikkeld.\n\n## Stap 1 — Klant wordt dubieus: overboeken naar 407000\n\nHet **volledige openstaande bedrag inclusief btw** verhuist:\n\n- **407000 Dubieuze debiteuren** (debet, incl. btw) **/ 400000 Klanten** (credit, incl. btw)\n\nBeide zijn actiefrekeningen (vordering KT); je verschuift een actief. Op dit moment boek je nog **geen** kost.\n\n## Stap 2 — Vermoedelijk verlies: waardevermindering boeken\n\nDe waardevermindering wordt **altijd op het bedrag EXCL. btw** berekend:\n\n- **634000 waardeverm op handelsvordering <1jr** (debet, kost) **/ 409100 Geboekte waardeverm (-)** (credit)\n\nKlasse 6 (634000) = kost in de resultatenrekening. **409100** is een **(-)-rekening van het actief**: ze staat credit en verlaagt de nettowaarde van de dubieuze vordering, terwijl 407000 op zijn brutobedrag blijft staan.\n\nBij **methode begin** komt er meteen bij: **411620 (debet) / 409200 (credit)** voor de btw op het verwachte verlies.\n\n## Stap 3 — Terugname (klant herstelt)\n\nWordt de klant opnieuw betrouwbaar, dan neem je de waardevermindering terug:\n\n- **409100** (debet) **/ 634100 Terugneming (-)** (credit)\n\n634100 is een **(-)-kostenrekening**, geen klasse-76-opbrengst. Bij methode begin neem je ook de teruggevraagde btw terug: **409200 (debet) / 451610 (credit)**.\n\n## Stap 4 — Definitieve afhandeling\n\nNu wordt het vermoeden zekerheid. Het werkelijke verlies (boven op wat al via de waardevermindering werd afgedekt) boek je via **642000 Minderwaarden realisatie handelsvordering**. Tegelijk neem je 409100 terug en boek je 407000 uit. De btw recupereer je via **411620** (methode einde) of door **409200** uit te boeken (methode begin).\n\n- **Klant betaalt niets:** 409100 (+ eventueel 642000) en 411620 debet / 407000 credit.\n- **Klant betaalt een deel:** 550000 Bank debet voor de ontvangst; het verschil tussen het voorziene verlies (409100) en het werkelijke verlies bepaalt of er een **meerwaarde (742000)** ontstaat (klant betaalt meer dan voorzien) of een **bijkomende minwaarde (642000)** (klant betaalt minder dan voorzien).\n\n## Het kernonderscheid: vermoedelijk vs werkelijk verlies\n\n| | Vermoedelijk verlies | Werkelijk verlies |\n|---|---|---|\n| Aard | schatting / vermoeden | zekerheid (failliet afgesloten, betaling binnen) |\n| Kostenrekening | **634000** waardevermindering | **642000** minderwaarde |\n| Correctierekening | **409100** (boeken/terugnemen) | n.v.t. (definitief) |\n| Terugneming | **634100** als de klant herstelt | n.v.t. |\n\n## Dubieuze debiteur versus uitgaande creditnota (UCN)\n\nDe fiche vergelijkt de dubieuze-debiteur-boeking met een **uitgaande creditnota**. Beide vertrekken van dezelfde verkoopfactuur (400000 debet / 700000 credit + 451540 VBTW credit). Maar:\n- bij een **UCN** annuleer je de verkoop: **700100/700001 UCN (debet)** + **451640 RVBTW (debet)** / **400000 (credit)** — de klant is gewoon terecht, er is geen verlies;\n- bij een **dubieuze debiteur** blijft de vordering bestaan maar wordt ze onzeker: 407000 / 400000, gevolgd door een waardevermindering en (eventueel) een werkelijk verlies (642000) + btw-herziening (411620).\n\n## Samengevat\n\n1. Dubieus worden: **407000 / 400000** (incl. btw).\n2. Vermoeden van verlies: **634000 / 409100** (excl. btw) — methode begin ook **411620 / 409200** (btw).\n3. Klant herstelt: **409100 / 634100** (terugname) — methode begin ook **409200 / 451610**.\n4. Definitief verlies: **642000** voor het bijkomende verlies, **411620** voor de btw, afboeking **407000** en **409100**; eventuele **742000** als de klant méér betaalde dan voorzien, of **451610** (methode begin) als te veel btw was gerecupereerd.",
   "kernrekeningen": [
-    {"code": "400000", "naam": "Klanten", "natuur": "debet", "wanneer": "De gewone, gezonde klantvordering (incl. btw). Wordt gecrediteerd op het moment dat de klant dubieus wordt en de vordering naar 407000 verhuist."},
-    {"code": "407000", "naam": "Dubieuze debiteuren", "natuur": "debet", "wanneer": "Het volledige openstaande bedrag incl. btw van een klant van wie de inning onzeker is. Blijft bruto staan tot definitieve afhandeling, dan gecrediteerd."},
-    {"code": "409100", "naam": "Geboekte waardeverm (-)", "natuur": "credit", "wanneer": "Eigen leerkrachtrekening, (-)-rekening op het actief. Credit bij het boeken van de waardevermindering; debet bij terugneming of definitieve afboeking."},
-    {"code": "409200", "naam": "Teruggevraagde btw (op dubieuze)", "natuur": "debet", "wanneer": "Eigen leerkrachtrekening. Enkel bij methode 'btw terugvragen aan het begin van het faillissement': parkeert de al teruggevraagde btw tegenover de dubieuze vordering, tot op het einde."},
-    {"code": "634000", "naam": "waardeverm op handelsvordering <1jr", "natuur": "debet", "wanneer": "Kost (debet) op het moment dat je het vermoedelijke verlies op een handelsvordering boekt. Steeds berekend op het bedrag EXCLUSIEF btw."},
-    {"code": "634100", "naam": "Terugneming (-)", "natuur": "credit", "wanneer": "(-)-kostenrekening (credit) wanneer een eerder geboekte waardevermindering wordt teruggenomen omdat de klant herstelt."},
-    {"code": "642000", "naam": "Minderwaarden realisatie handelsvordering", "natuur": "debet", "wanneer": "Het WERKELIJKE, definitieve verlies op een handelsvordering (debet, kost), bv. wanneer het faillissement afgesloten is en de klant (deels) niet betaalt."},
-    {"code": "742000", "naam": "Meerwaarden realisatie handelsvordering", "natuur": "credit", "wanneer": "Opbrengst (credit) wanneer bij de definitieve afhandeling blijkt dat de klant méér betaalt dan het eerder voorziene verlies; het echte verlies is dan kleiner dan de geboekte waardevermindering."},
-    {"code": "411620", "naam": "Btw herziening in het voordeel", "natuur": "debet", "wanneer": "Recuperatie van de btw op het verloren bedrag, in jouw voordeel (debet). Bij methode 'einde' bij de definitieve afboeking; bij methode 'begin' al bij de waardevermindering."},
-    {"code": "451610", "naam": "Btw herziening in het nadeel", "natuur": "credit", "wanneer": "Btw-herziening in jouw nadeel (credit): enkel bij methode 'begin', wanneer de klant op het einde toch (deels) betaalt en je een stuk eerder gerecupereerde btw weer verschuldigd wordt."},
-    {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "natuur": "credit", "wanneer": "De verschuldigde btw bij de oorspronkelijke verkoopfactuur (credit). Verklaart waarom de openstaande vordering incl. btw is."},
-    {"code": "550000", "naam": "Kredietinstellingen", "natuur": "debet", "wanneer": "Bankrekening (debet) wanneer de dubieuze klant bij de definitieve afhandeling toch nog een deel van zijn schuld betaalt."},
-    {"code": "416000", "naam": "Diverse vorderingen", "natuur": "debet", "wanneer": "Alternatieve rekening voor niet-handelsvorderingen die dubieus worden (geen klanten). In dit thema secundair: het gaat hoofdzakelijk om handelsvorderingen via 407000."}
+    {"code": "400000", "naam": "Klanten", "natuur": "debet", "wanneer": "De gewone, gezonde klantvordering incl. btw. Wordt gecrediteerd zodra de klant dubieus wordt en de vordering naar 407000 verhuist (in de fiche 'Handelsdebiteuren')."},
+    {"code": "407000", "naam": "Dubieuze debiteuren", "natuur": "debet", "wanneer": "Het volledige openstaande bedrag incl. btw van een klant van wie de inning onzeker is. Blijft bruto staan tot de definitieve afhandeling, dan gecrediteerd."},
+    {"code": "409100", "naam": "Geboekte waardeverm (-)", "natuur": "credit", "wanneer": "Eigen leerkrachtrekening, (-)-rekening op het actief (fiche: 4091 / 409). Credit bij het boeken van de waardevermindering; debet bij terugname of bij de definitieve afboeking."},
+    {"code": "409200", "naam": "Teruggevraagde btw (op dubieuze)", "natuur": "debet", "wanneer": "Eigen leerkrachtrekening (fiche: 4092). Enkel bij methode 'btw terugvragen aan het begin': bij de waardevermindering parkeer je ze als CREDIT tegenover 411620; op het einde of bij terugname wordt ze DEBET uitgeboekt."},
+    {"code": "634000", "naam": "waardeverm op handelsvordering <1jr", "natuur": "debet", "wanneer": "Kost (debet) op het moment dat je het vermoedelijke verlies op een handelsvordering boekt (fiche: 6340 'Waardevermindering / toevoeging'). Steeds berekend op het bedrag EXCL. btw."},
+    {"code": "634100", "naam": "Terugneming (-)", "natuur": "credit", "wanneer": "(-)-kostenrekening (credit, fiche: 6341 'Terugname waardevermindering') wanneer een eerder geboekte waardevermindering wordt teruggenomen omdat de klant herstelt."},
+    {"code": "642000", "naam": "Minderwaarden realisatie handelsvordering", "natuur": "debet", "wanneer": "Het WERKELIJKE, definitieve verlies op een handelsvordering bovenop wat al via de waardevermindering was afgedekt (fiche: 642 'Minwaarde')."},
+    {"code": "742000", "naam": "Meerwaarden realisatie handelsvordering", "natuur": "credit", "wanneer": "Opbrengst (credit) wanneer bij de afhandeling blijkt dat het werkelijke verlies kleiner is dan de geboekte waardevermindering (klant betaalt méér dan voorzien)."},
+    {"code": "411620", "naam": "Btw herziening in het voordeel", "natuur": "debet", "wanneer": "Recuperatie van de btw op het verloren bedrag, in jouw voordeel (debet, fiche: 41162 'Herziening BTW voordeel'). Methode einde: bij de definitieve afboeking; methode begin: al bij de waardevermindering. De fiche vermeldt: mag ook 451620 zijn."},
+    {"code": "451610", "naam": "Btw herziening in het nadeel", "natuur": "credit", "wanneer": "Btw-herziening in jouw nadeel (credit, fiche: 45161): enkel bij methode 'begin', wanneer de klant herstelt of toch (deels) betaalt en je eerder gerecupereerde btw weer verschuldigd wordt."},
+    {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "natuur": "credit", "wanneer": "De verschuldigde btw bij de oorspronkelijke verkoopfactuur (credit, fiche: 4510 'Btw op verkopen'). Verklaart waarom de openstaande vordering incl. btw is."},
+    {"code": "451640", "naam": "Regularisatie verschuldigde btw (RVBTW)", "natuur": "credit", "wanneer": "Regularisatie van verschuldigde btw (fiche: 4511 'Regularisaties btw op verkopen'). Komt voor bij de btw-herziening op vorderingen en bij een uitgaande creditnota."},
+    {"code": "550000", "naam": "Kredietinstellingen", "natuur": "debet", "wanneer": "Bankrekening (debet, fiche: 5500 'Bank r/c') wanneer de dubieuze klant of de curator bij de definitieve afhandeling toch nog een deel betaalt."},
+    {"code": "416000", "naam": "Diverse vorderingen", "natuur": "debet", "wanneer": "Niet-handelsvordering (bv. de verkoop van een buiten gebruik gestelde bestelwagen in Oef 4). Wordt dubieus volgens dezelfde logica als een klantvordering."},
+    {"code": "651000", "naam": "waardeverm op vlottende", "natuur": "debet", "wanneer": "Kost (debet) voor een waardevermindering op een NIET-handelsvordering / vlottend actief (bv. de dubieuze diverse vordering in Oef 4)."},
+    {"code": "752000", "naam": "Meerwaarden op de realisatie van vlottende activa", "natuur": "credit", "wanneer": "Opbrengst (credit, fiche: 752) bij de afhandeling van een dubieuze NIET-handelsvordering wanneer er minder verloren ging dan voorzien (tegenhanger van 742000 voor handelsvorderingen)."},
+    {"code": "663000", "naam": "Minderwaarden op de realisatie van vaste activa", "natuur": "debet", "wanneer": "Minderwaarde bij de saldering/realisatie van een vast actief (fiche: 6630), bv. de buiten gebruik gestelde bestelwagen in Oef 4."}
   ],
   "boekingsschemas": [
     {
       "titel": "Klant wordt dubieus (overboeking)",
-      "situatie": "De inning van een klantvordering wordt onzeker (klant in moeilijkheden, failliet). Je verplaatst de volledige vordering incl. btw.",
+      "situatie": "De inning van een klantvordering wordt onzeker (klant in moeilijkheden, failliet). Je verplaatst de volledige vordering incl. btw. Geldt voor beide btw-methodes.",
       "regels": [
         {"code": "407000", "naam": "Dubieuze debiteuren", "kant": "debet", "bedrag": "incl. btw", "toelichting": "Nieuwe vordering-rekening krijgt het volledige brutobedrag (actief stijgt in debet)."},
         {"code": "400000", "naam": "Klanten", "kant": "credit", "bedrag": "incl. btw", "toelichting": "De gewone klantvordering verdwijnt (actief daalt in credit). Nog geen kost geboekt."}
@@ -37,22 +42,22 @@
     },
     {
       "titel": "Waardevermindering boeken (vermoedelijk verlies)",
-      "situatie": "Je schat in welk deel van de vordering vermoedelijk verloren is. Waardevermindering steeds op bedrag EXCL. btw.",
+      "situatie": "Je schat in welk deel van de vordering vermoedelijk verloren is. Waardevermindering steeds op het bedrag EXCL. btw.",
       "regels": [
         {"code": "634000", "naam": "waardeverm op handelsvordering <1jr", "kant": "debet", "bedrag": "excl. btw (verwacht verlies)", "toelichting": "Kost in de resultatenrekening: het vermoedelijke verlies."},
         {"code": "409100", "naam": "Geboekte waardeverm (-)", "kant": "credit", "bedrag": "excl. btw (verwacht verlies)", "toelichting": "(-)-rekening die de nettowaarde van 407000 op de balans verlaagt."}
       ]
     },
     {
-      "titel": "Btw terugvragen aan het begin (extra boeking bij waardevermindering)",
-      "situatie": "Methode 'begin van het faillissement': je hebt een attest van de curator en mag de btw op het verloren deel nu al recupereren.",
+      "titel": "Btw terugvragen AAN HET BEGIN (extra boeking bij de waardevermindering)",
+      "situatie": "Methode 'begin van het faillissement' (Oef 1b-6b): je mag de btw op het verwachte verlies nu al recupereren.",
       "regels": [
-        {"code": "411620", "naam": "Btw herziening in het voordeel", "kant": "debet", "bedrag": "btw 21% op verwacht verlies", "toelichting": "Btw-recuperatie in jouw voordeel (vordering op de Staat)."},
-        {"code": "409200", "naam": "Teruggevraagde btw (op dubieuze)", "kant": "credit", "bedrag": "btw 21% op verwacht verlies", "toelichting": "Parkeert de teruggevraagde btw tegenover de dubieuze vordering tot de definitieve afhandeling."}
+        {"code": "411620", "naam": "Btw herziening in het voordeel", "kant": "debet", "bedrag": "btw op verwacht verlies", "toelichting": "Btw-recuperatie in jouw voordeel (vordering op de Staat)."},
+        {"code": "409200", "naam": "Teruggevraagde btw (op dubieuze)", "kant": "credit", "bedrag": "btw op verwacht verlies", "toelichting": "Parkeert de teruggevraagde btw tegenover de dubieuze vordering tot de definitieve afhandeling."}
       ]
     },
     {
-      "titel": "Terugneming waardevermindering (klant herstelt)",
+      "titel": "Terugname waardevermindering (klant herstelt)",
       "situatie": "De dubieuze klant wordt opnieuw betrouwbaar; het eerder geboekte vermoeden van verlies vervalt geheel of gedeeltelijk.",
       "regels": [
         {"code": "409100", "naam": "Geboekte waardeverm (-)", "kant": "debet", "bedrag": "teruggenomen bedrag (excl. btw)", "toelichting": "De (-)-rekening wordt afgebouwd: de nettowaarde van de vordering stijgt weer."},
@@ -64,207 +69,399 @@
       "situatie": "Het faillissement is afgesloten, de klant betaalt niets. Het vermoeden wordt werkelijk verlies; btw wordt nu pas teruggevraagd.",
       "regels": [
         {"code": "409100", "naam": "Geboekte waardeverm (-)", "kant": "debet", "bedrag": "geboekte WV (excl. btw)", "toelichting": "De waardevermindering wordt teruggenomen tegen de afboeking van de vordering."},
-        {"code": "411620", "naam": "Btw herziening in het voordeel", "kant": "debet", "bedrag": "btw 21% op het verlies", "toelichting": "Recuperatie van de btw op het definitief verloren bedrag."},
+        {"code": "642000", "naam": "Minderwaarden realisatie handelsvordering", "kant": "debet", "bedrag": "verlies dat nog niet via de WV was afgedekt", "toelichting": "Het bijkomende werkelijke verlies (enkel als het verlies groter is dan de geboekte WV)."},
+        {"code": "411620", "naam": "Btw herziening in het voordeel", "kant": "debet", "bedrag": "btw op het werkelijke verlies", "toelichting": "Recuperatie van de btw op het definitief verloren bedrag."},
         {"code": "407000", "naam": "Dubieuze debiteuren", "kant": "credit", "bedrag": "incl. btw", "toelichting": "De volledige dubieuze vordering verdwijnt uit de balans."}
+      ]
+    },
+    {
+      "titel": "Afwikkeling met gedeeltelijke inning (meerwaarde)",
+      "situatie": "Bij de afsluiting betaalt de klant of curator toch nog een deel. Het werkelijke verlies is kleiner dan de geboekte WV.",
+      "regels": [
+        {"code": "550000", "naam": "Kredietinstellingen", "kant": "debet", "bedrag": "ontvangen bedrag (incl. btw)", "toelichting": "De bank ontvangt het betaalde bedrag."},
+        {"code": "409100", "naam": "Geboekte waardeverm (-)", "kant": "debet", "bedrag": "geboekte WV (excl. btw)", "toelichting": "De volledige geboekte waardevermindering wordt teruggenomen."},
+        {"code": "411620", "naam": "Btw herziening in het voordeel", "kant": "debet", "bedrag": "btw op het werkelijke verlies", "toelichting": "Btw enkel op het effectief verloren deel."},
+        {"code": "407000", "naam": "Dubieuze debiteuren", "kant": "credit", "bedrag": "incl. btw", "toelichting": "Dubieuze vordering verdwijnt volledig."},
+        {"code": "742000", "naam": "Meerwaarden realisatie handelsvordering", "kant": "credit", "bedrag": "WV - werkelijk verlies", "toelichting": "Het te veel afgeschreven deel wordt opbrengst."}
       ]
     }
   ],
   "oefeningen": [
     {
       "id": "dubieuze-debiteuren-1",
-      "titel": "Klant wordt dubieus en 100% waardevermindering",
+      "titel": "Reeks 1a/3a/5a — btw op het EINDE (100% en 60% verlies)",
       "niveau": "basis",
-      "context": "Klant Jansen staat open voor een verkoopfactuur van 100,00 + 21,00 btw = 121,00. De onderneming verneemt dat Jansen failliet is en beslist het volledige bedrag dubieus te maken en een waardevermindering van 100% te boeken. Btw wordt teruggevraagd op het einde van het faillissement.",
-      "vraag": "Boek (1) de overboeking naar dubieuze debiteuren en (2) de waardevermindering.",
+      "context": "Systematische reeks uit de fiche (Oef 1a tot 6a: BTW terugvragen op het EINDE van het faillissement). Telkens vertrekt men van VF 2: 100,00 + 21,00 btw = 121,00. We tonen drie sleutelgevallen: 1a (klant 100% failliet, geen enkele ontvangst), 3a (100% verlies verwacht, maar onderneming ontvangt nog 84,70) en 5a (60% verlies verwacht, onderneming ontvangt 12,10).",
+      "vraag": "Boek voor elk geval (a) het dubieus maken, (b) de waardevermindering en (c) de definitieve afhandeling. Btw pas op het einde terugvragen.",
       "stappen": [
-        "Stap 1: de vordering wordt onzeker -> volledige bedrag incl. btw (121,00) overboeken van 400000 naar 407000.",
-        "Stap 2: het vermoedelijke verlies is 100% van het bedrag EXCL. btw = 100,00. Dat is een kost (634000) tegenover de (-)-rekening 409100.",
-        "Stap 3: omdat we de btw pas op het einde terugvragen, komt er nu GEEN btw-boeking. 409200/411620 blijven nog buiten beeld."
+        "Geval 1a: 100% verlies, geen ontvangst. Dubieus 407000/400000 (121); WV 634000/409100 (100); afsluiting 409100 (100) + 411620 (21) / 407000 (121).",
+        "Geval 3a: 100% WV (100) maar ontvangt 84,70 = 70,00 excl. + 14,70 btw. Werkelijk verlies = 30,00 -> btw-herziening op 30,00 = 6,30; meerwaarde = 100 - 30 = 70,00.",
+        "Geval 5a: 60% WV = 60,00; ontvangt 12,10 = 10,00 excl. + 2,10 btw. Werkelijk verlies = 90,00. Reeds 60,00 afgeschreven -> bijkomende minwaarde 642000 = 30,00; btw-herziening op 90,00 = 18,90.",
+        "Controle: bij elke afsluiting moet de som debet = som credit en moet 407000 en 409100 op nul komen."
       ],
       "boekingen": [
         {
-          "omschrijving": "(1) Klant Jansen wordt dubieus",
+          "omschrijving": "1a (1) Klant wordt dubieus",
           "regels": [
-            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": 121.00, "credit": null, "reden": "Actief: het volledige brutobedrag verhuist naar de dubieuze-rekening (debet)."},
-            {"code": "400000", "naam": "Klanten", "debet": null, "credit": 121.00, "reden": "De gewone klantvordering verdwijnt (actief daalt in credit)."}
+            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": 121.00, "credit": null, "reden": "Volledig brutobedrag incl. btw naar de dubieuze-rekening."},
+            {"code": "400000", "naam": "Klanten", "debet": null, "credit": 121.00, "reden": "Gewone klantvordering verdwijnt."}
           ]
         },
         {
-          "omschrijving": "(2) Waardevermindering 100% (excl. btw)",
+          "omschrijving": "1a (2) Waardevermindering 100% (excl. btw)",
           "regels": [
-            {"code": "634000", "naam": "waardeverm op handelsvordering <1jr", "debet": 100.00, "credit": null, "reden": "Kost = vermoedelijk verlies op het bedrag EXCL. btw."},
-            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": null, "credit": 100.00, "reden": "(-)-rekening die de nettowaarde van 407000 verlaagt."}
+            {"code": "634000", "naam": "waardeverm op handelsvordering <1jr", "debet": 100.00, "credit": null, "reden": "Vermoedelijk verlies op het bedrag excl. btw."},
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": null, "credit": 100.00, "reden": "(-)-rekening verlaagt de nettowaarde van 407000."}
+          ]
+        },
+        {
+          "omschrijving": "1a (3) Afsluiting — geen enkele ontvangst",
+          "regels": [
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": 100.00, "credit": null, "reden": "Waardevermindering teruggenomen tegen de afboeking."},
+            {"code": "411620", "naam": "Btw herziening in het voordeel", "debet": 21.00, "credit": null, "reden": "Btw op het volledige verloren bedrag wordt nu (op het einde) gerecupereerd."},
+            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": null, "credit": 121.00, "reden": "De volledige dubieuze vordering verdwijnt."}
+          ]
+        },
+        {
+          "omschrijving": "3a (3) Afsluiting — onderneming ontvangt nog 84,70 (WV was 100%)",
+          "regels": [
+            {"code": "550000", "naam": "Kredietinstellingen", "debet": 84.70, "credit": null, "reden": "Ontvangst 84,70 = 70,00 excl. + 14,70 btw."},
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": 100.00, "credit": null, "reden": "Volledige geboekte waardevermindering teruggenomen."},
+            {"code": "411620", "naam": "Btw herziening in het voordeel", "debet": 6.30, "credit": null, "reden": "Btw enkel op het werkelijke verlies van 30,00 (30 x 21%)."},
+            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": null, "credit": 121.00, "reden": "Dubieuze vordering verdwijnt volledig."},
+            {"code": "742000", "naam": "Meerwaarden realisatie handelsvordering", "debet": null, "credit": 70.00, "reden": "Werkelijk verlies (30) kleiner dan voorzien (100) -> meerwaarde 70,00."}
+          ]
+        },
+        {
+          "omschrijving": "5a (2) Waardevermindering 60% + (3) Afsluiting — ontvangt 12,10",
+          "regels": [
+            {"code": "634000", "naam": "waardeverm op handelsvordering <1jr", "debet": 60.00, "credit": null, "reden": "(2) WV 60% van 100,00 excl. btw."},
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": null, "credit": 60.00, "reden": "(2) (-)-rekening 60,00."},
+            {"code": "550000", "naam": "Kredietinstellingen", "debet": 12.10, "credit": null, "reden": "(3) Ontvangst 12,10 = 10,00 excl. + 2,10 btw."},
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": 60.00, "credit": null, "reden": "(3) De geboekte WV (60,00) wordt teruggenomen."},
+            {"code": "642000", "naam": "Minderwaarden realisatie handelsvordering", "debet": 30.00, "credit": null, "reden": "(3) Bijkomend verlies: werkelijk verlies 90,00 - reeds afgeschreven 60,00 = 30,00."},
+            {"code": "411620", "naam": "Btw herziening in het voordeel", "debet": 18.90, "credit": null, "reden": "(3) Btw op het werkelijke verlies van 90,00 (90 x 21%)."},
+            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": null, "credit": 121.00, "reden": "(3) Dubieuze vordering verdwijnt volledig."}
           ]
         }
       ],
-      "eindantwoord": "407000 staat bruto op 121,00, gecorrigeerd door 409100 (-100,00); netto resteert 21,00 (de nog te recupereren btw). De kost 634000 bedraagt 100,00. Geen btw-boeking, want methode 'einde'.",
-      "valkuil": "De waardevermindering op het BTW-inclusieve bedrag (121,00) boeken. De waardevermindering hoort enkel op het excl.-btw-bedrag (100,00); de btw volgt een apart spoor."
+      "eindantwoord": "1a: 409100 (100) + 411620 (21) / 407000 (121). 3a: bank 84,70 + 409100 100 + 411620 6,30 / 407000 121 + 742000 70 (meerwaarde). 5a: WV 60; bij afsluiting bank 12,10 + 409100 60 + 642000 30 + 411620 18,90 / 407000 121. Telkens balanceert de afsluiting en staan 407000 en 409100 op nul.",
+      "valkuil": "De btw recupereren op het volledige bedrag (21,00) in plaats van enkel op het effectief verloren deel. Wie nog int, recupereert minder btw (6,30 bij 3a, 18,90 bij 5a)."
     },
     {
       "id": "dubieuze-debiteuren-2",
-      "titel": "Definitief verlies — klant betaalt niets (methode einde)",
+      "titel": "Reeks 1b/2b/4b/6b — btw AAN HET BEGIN",
       "niveau": "midden",
-      "context": "Vervolg op oefening 1. Het faillissement van Jansen is afgesloten. De onderneming ontvangt niets meer; het verlies van 100,00 (excl. btw) is definitief. Btw wordt nu teruggevraagd (methode einde).",
-      "vraag": "Boek de definitieve afhandeling: het werkelijke verlies wordt zeker, de waardevermindering teruggenomen, de btw gerecupereerd en de dubieuze vordering afgeboekt.",
+      "context": "Systematische reeks uit de fiche (Oef 1b tot 6b: BTW terugvragen AAN HET BEGIN van het faillissement). Telkens VF 2: 100,00 + 21,00 = 121,00. Bij de waardevermindering recupereer je de btw al via 411620 / 409200. We tonen 1b (100% verlies, geen ontvangst), 2b (100% WV, ontvangt 12,10), 4b (60% WV, ontvangt 0) en 6b (60% WV, ontvangt 84,70).",
+      "vraag": "Boek per geval de waardeverminderingsfase (met btw aan het begin) en de definitieve afhandeling, inclusief de afwikkeling van 409200 en eventueel 451610.",
       "stappen": [
-        "Stap 1: het vermoeden wordt zekerheid. Het werkelijke verlies excl. btw is 100,00. We boeken GEEN nieuwe 642000-kost meer voor het excl.-deel, want dat verlies zit al in 634000; we nemen in plaats daarvan de waardevermindering 409100 terug tegen de afboeking.",
-        "Stap 2: de btw op 100,00 = 21,00 mag nu gerecupereerd worden via 411620 (in jouw voordeel, debet).",
-        "Stap 3: de dubieuze vordering 407000 (121,00) verdwijnt volledig (credit). Controleer: debet 100,00 (409100) + 21,00 (411620) = 121,00 = credit 407000."
+        "Waardevermindering + btw begin: 634000/409100 (verwacht verlies excl.) EN 411620/409200 (btw op verwacht verlies).",
+        "1b (100% WV, geen ontvangst): afsluiting 409100 (100) + 409200 (21) / 407000 (121).",
+        "2b (100% WV, ontvangt 12,10): bank 12,10 + 409100 100 + 409200 21 / 407000 121 + 742000 10 + 451610 2,10. (Werkelijk verlies 90; te veel gerecupereerde btw 21 - 18,90 = 2,10.)",
+        "4b (60% WV = 60; btw begin = 12,60; ontvangt 0 -> werkelijk verlies 100): afsluiting 409100 60 + 409200 12,60 + 411620 8,40 + 642000 40 / 407000 121. (Extra btw op het verlies boven de WV: 40 x 21% = 8,40.)",
+        "6b (60% WV = 60; btw begin = 12,60; ontvangt 84,70 -> werkelijk verlies 30): bank 84,70 + 409100 60 + 409200 12,60 / 407000 121 + 742000 30 + 451610 6,30. (Te veel gerecupereerde btw 12,60 - 6,30 = 6,30.)"
       ],
       "boekingen": [
         {
-          "omschrijving": "Afsluiting faillissement — geen ontvangst",
+          "omschrijving": "1b (2) Waardevermindering 100% + btw aan het begin",
           "regels": [
-            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": 100.00, "credit": null, "reden": "De geboekte waardevermindering wordt teruggenomen tegen de afboeking van de vordering."},
-            {"code": "411620", "naam": "Btw herziening in het voordeel", "debet": 21.00, "credit": null, "reden": "Btw op het definitief verloren bedrag wordt gerecupereerd (vordering op de Staat)."},
-            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": null, "credit": 121.00, "reden": "De volledige dubieuze vordering verdwijnt uit de balans."}
+            {"code": "634000", "naam": "waardeverm op handelsvordering <1jr", "debet": 100.00, "credit": null, "reden": "Vermoedelijk verlies excl. btw."},
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": null, "credit": 100.00, "reden": "(-)-rekening op het actief."},
+            {"code": "411620", "naam": "Btw herziening in het voordeel", "debet": 21.00, "credit": null, "reden": "Btw op het verwachte verlies al gerecupereerd (begin)."},
+            {"code": "409200", "naam": "Teruggevraagde btw (op dubieuze)", "debet": null, "credit": 21.00, "reden": "Geparkeerd tegenover de dubieuze vordering tot het einde."}
+          ]
+        },
+        {
+          "omschrijving": "1b (3) Afsluiting — geen enkele ontvangst",
+          "regels": [
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": 100.00, "credit": null, "reden": "Waardevermindering teruggenomen tegen de afboeking."},
+            {"code": "409200", "naam": "Teruggevraagde btw (op dubieuze)", "debet": 21.00, "credit": null, "reden": "De aan het begin geparkeerde btw wordt uitgeboekt."},
+            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": null, "credit": 121.00, "reden": "Dubieuze vordering verdwijnt volledig."}
+          ]
+        },
+        {
+          "omschrijving": "2b (3) Afsluiting — ontvangt 12,10 (100% WV)",
+          "regels": [
+            {"code": "550000", "naam": "Kredietinstellingen", "debet": 12.10, "credit": null, "reden": "Ontvangst 12,10 = 10,00 excl. + 2,10 btw."},
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": 100.00, "credit": null, "reden": "Geboekte waardevermindering teruggenomen."},
+            {"code": "409200", "naam": "Teruggevraagde btw (op dubieuze)", "debet": 21.00, "credit": null, "reden": "Geparkeerde teruggevraagde btw uitgeboekt."},
+            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": null, "credit": 121.00, "reden": "Dubieuze vordering verdwijnt."},
+            {"code": "742000", "naam": "Meerwaarden realisatie handelsvordering", "debet": null, "credit": 10.00, "reden": "Werkelijk verlies 90 < voorzien 100 -> meerwaarde 10,00."},
+            {"code": "451610", "naam": "Btw herziening in het nadeel", "debet": null, "credit": 2.10, "reden": "Te veel gerecupereerde btw aan het begin (21 - 18,90) terug verschuldigd."}
+          ]
+        },
+        {
+          "omschrijving": "4b (2) WV 60% + btw begin, (3) Afsluiting — ontvangt 0,00",
+          "regels": [
+            {"code": "634000", "naam": "waardeverm op handelsvordering <1jr", "debet": 60.00, "credit": null, "reden": "(2) WV 60% van 100,00."},
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": null, "credit": 60.00, "reden": "(2) (-)-rekening 60,00."},
+            {"code": "411620", "naam": "Btw herziening in het voordeel", "debet": 12.60, "credit": null, "reden": "(2) Btw op het verwachte verlies (60 x 21%) gerecupereerd aan het begin."},
+            {"code": "409200", "naam": "Teruggevraagde btw (op dubieuze)", "debet": null, "credit": 12.60, "reden": "(2) Geparkeerd tot het einde."},
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": 60.00, "credit": null, "reden": "(3) WV teruggenomen."},
+            {"code": "409200", "naam": "Teruggevraagde btw (op dubieuze)", "debet": 12.60, "credit": null, "reden": "(3) Geparkeerde btw uitgeboekt."},
+            {"code": "411620", "naam": "Btw herziening in het voordeel", "debet": 8.40, "credit": null, "reden": "(3) Bijkomende btw op het verlies boven de WV (40 x 21%)."},
+            {"code": "642000", "naam": "Minderwaarden realisatie handelsvordering", "debet": 40.00, "credit": null, "reden": "(3) Werkelijk verlies 100 - reeds afgeschreven 60 = 40."},
+            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": null, "credit": 121.00, "reden": "(3) Dubieuze vordering verdwijnt."}
+          ]
+        },
+        {
+          "omschrijving": "6b (3) Afsluiting — ontvangt 84,70 (60% WV)",
+          "regels": [
+            {"code": "550000", "naam": "Kredietinstellingen", "debet": 84.70, "credit": null, "reden": "Ontvangst 84,70 = 70,00 excl. + 14,70 btw."},
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": 60.00, "credit": null, "reden": "Geboekte WV (60,00) teruggenomen."},
+            {"code": "409200", "naam": "Teruggevraagde btw (op dubieuze)", "debet": 12.60, "credit": null, "reden": "Geparkeerde teruggevraagde btw (12,60) uitgeboekt."},
+            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": null, "credit": 121.00, "reden": "Dubieuze vordering verdwijnt."},
+            {"code": "742000", "naam": "Meerwaarden realisatie handelsvordering", "debet": null, "credit": 30.00, "reden": "Werkelijk verlies 30 < voorzien 60 -> meerwaarde 30,00."},
+            {"code": "451610", "naam": "Btw herziening in het nadeel", "debet": null, "credit": 6.30, "reden": "Te veel gerecupereerde btw (12,60 - 6,30) terug verschuldigd. Let op: de fiche drukt hier 6,40 af, maar reken- en balanstechnisch is dit 6,30 (12,60 - 6,30); 6,40 is een drukfout in de fiche."}
           ]
         }
       ],
-      "eindantwoord": "De vordering is volledig afgehandeld: 407000 = 0, 409100 = 0. De kost 634000 (100,00) uit de waardeverminderingsfase blijft het verlies; de btw (21,00) is via 411620 teruggevraagd. Som debet = som credit = 121,00.",
-      "valkuil": "Bij methode 'einde' nog eens 642000 voor 100,00 boeken naast de teruggenomen 634000-kost; dan tel je het verlies dubbel. Het excl.-verlies zat al in 634000."
+      "eindantwoord": "Bij methode begin staat de teruggevraagde btw (409200) credit bij de WV en debet bij de afsluiting. Betaalt de klant op het einde meer dan voorzien, dan is een deel van de gerecupereerde btw ten onrechte teruggevraagd en wordt het via 451610 (nadeel) terugbetaald (2b: 2,10; 6b: 6,30). Is het verlies groter dan de WV, dan komt er extra btw via 411620 bij (4b: 8,40). Alle eindboekingen balanceren.",
+      "valkuil": "Bij methode begin de teruggevraagde btw (409200) niet uitboeken bij de afsluiting; 409200 blijft dan als wees op de balans. En vergeten dat 451610 (nadeel) optreedt zodra de klant méér betaalt dan het verwachte verlies."
     },
     {
       "id": "dubieuze-debiteuren-3",
-      "titel": "Gedeeltelijke betaling — meerwaarde (methode einde)",
-      "niveau": "midden",
-      "context": "Klant De Smet stond open voor 121,00 (100,00 + 21,00). Hij werd dubieus en er werd een waardevermindering van 100% geboekt (634000 / 409100 voor 100,00). Bij de afsluiting van het faillissement ontvangt de onderneming toch nog 72,60 op de bankrekening. Btw-methode: einde.",
-      "vraag": "Boek de definitieve afhandeling. Bepaal of er een meerwaarde of een bijkomende minwaarde ontstaat.",
+      "titel": "Oef 1 (blz 442) — Jacobs, De Greef, Vercauteren — btw op het EINDE (Manier 1)",
+      "niveau": "examen",
+      "context": "Oefening 1, blz 442. Na het inventarisonderzoek op 31.12.20x0 worden drie klanten als dubieus beschouwd: Jacobs DS 847.000 (700.000 + 21% btw), geschat verlies 60%; De Greef DS 363.000 (300.000 + 21% btw), geschat verlies 30%; Vercauteren DS 530.000 (500.000 + 6% btw), geschat verlies 100%. Afwikkeling in 20x1: Jacobs vereffent zijn oude schuld nog niet maar betaalt alle nieuwe aankopen contant; men acht de waardevermindering niet meer nodig (terugname). Voor Vercauteren ontvangt men 106.000 van de curator (BU/89). Voor De Greef komt een gerechtelijk akkoord met gehele kwijtschelding van de schulden tot stand (100% verlies). MANIER 1: btw terugvragen op het EINDE.",
+      "vraag": "Boek alle gegevens in het journaal (manier 1).",
       "stappen": [
-        "Stap 1: ontvangst 72,60 splitsen: 72,60 / 1,21 = 60,00 excl. + 12,60 btw. De onderneming int dus 60,00 excl. en verliest werkelijk 40,00 excl. (100,00 - 60,00).",
-        "Stap 2: het verwachte verlies was 100,00 (volledige WV), maar het werkelijke verlies is slechts 40,00. Er is dus 60,00 te veel afgeschreven -> dat wordt een MEERWAARDE (742000) van 60,00.",
-        "Stap 3: btw recupereren enkel op het echte verlies van 40,00 -> 40,00 x 21% = 8,40 via 411620.",
-        "Stap 4: 409100 (100,00) volledig terugnemen en 407000 (121,00) afboeken. Controle debet: 72,60 + 100,00 + 8,40 = 181,00; credit: 121,00 + 60,00 = 181,00."
+        "Dubieus maken (31.12.20x0): per klant 407 / 400 voor het volledige bedrag incl. btw.",
+        "Waardevermindering: Jacobs 60% van 700.000 = 420.000; De Greef 30% van 300.000 = 90.000; Vercauteren 100% van 500.000 = 500.000 (telkens 6340 / 4091).",
+        "Jacobs: terugname van de waardevermindering (klant herstelt) 4091 / 6341 voor 420.000.",
+        "De Greef: gehele kwijtschelding = 100% verlies (300.000). Reeds 90.000 in WV -> 4091 90.000 + 642 minwaarde 210.000 + 41162 btw 63.000 (300.000 x 21%) / 407 363.000.",
+        "Vercauteren: ontvangt 106.000 = 100.000 excl. + 6.000 btw; werkelijk verlies 400.000; meerwaarde 100.000; btw-herziening 400.000 x 6% = 24.000. Bank 106.000 + 4091 500.000 + 41162 24.000 / 407 530.000 + 742 100.000."
       ],
       "boekingen": [
         {
-          "omschrijving": "Afsluiting faillissement — ontvangst 72,60",
+          "omschrijving": "Jacobs (1) dubieus maken",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 72.60, "credit": null, "reden": "De bank ontvangt het betaalde bedrag (actief stijgt in debet)."},
-            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": 100.00, "credit": null, "reden": "De volledige geboekte waardevermindering wordt teruggenomen."},
-            {"code": "411620", "naam": "Btw herziening in het voordeel", "debet": 8.40, "credit": null, "reden": "Btw-recuperatie enkel op het werkelijk verloren bedrag van 40,00 (40 x 21%)."},
-            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": null, "credit": 121.00, "reden": "De volledige dubieuze vordering verdwijnt."},
-            {"code": "742000", "naam": "Meerwaarden realisatie handelsvordering", "debet": null, "credit": 60.00, "reden": "Het verlies bleek kleiner dan voorzien: opbrengst gelijk aan het te veel afgeschreven bedrag."}
+            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": 847000.00, "credit": null, "reden": "Fiche 407; volledig bedrag incl. 21% btw."},
+            {"code": "400000", "naam": "Klanten", "debet": null, "credit": 847000.00, "reden": "Fiche 400 'Handelsdebiteuren'."}
+          ]
+        },
+        {
+          "omschrijving": "Jacobs (2) waardevermindering 60%",
+          "regels": [
+            {"code": "634000", "naam": "waardeverm op handelsvordering <1jr", "debet": 420000.00, "credit": null, "reden": "Fiche 6340; 60% van 700.000 excl. btw."},
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": null, "credit": 420000.00, "reden": "Fiche 4091."}
+          ]
+        },
+        {
+          "omschrijving": "Jacobs (3) terugname waardevermindering (klant herstelt)",
+          "regels": [
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": 420000.00, "credit": null, "reden": "Fiche 4091; (-)-rekening afgebouwd."},
+            {"code": "634100", "naam": "Terugneming (-)", "debet": null, "credit": 420000.00, "reden": "Fiche 6341 'Terugname waardevermindering'."}
+          ]
+        },
+        {
+          "omschrijving": "De Greef (1) dubieus maken",
+          "regels": [
+            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": 363000.00, "credit": null, "reden": "Fiche 407."},
+            {"code": "400000", "naam": "Klanten", "debet": null, "credit": 363000.00, "reden": "Fiche 400."}
+          ]
+        },
+        {
+          "omschrijving": "De Greef (2) waardevermindering 30%",
+          "regels": [
+            {"code": "634000", "naam": "waardeverm op handelsvordering <1jr", "debet": 90000.00, "credit": null, "reden": "Fiche 6340; 30% van 300.000."},
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": null, "credit": 90000.00, "reden": "Fiche 4091."}
+          ]
+        },
+        {
+          "omschrijving": "De Greef (3) gerechtelijk akkoord — gehele kwijtschelding (100% verlies)",
+          "regels": [
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": 90000.00, "credit": null, "reden": "Fiche 4091; geboekte WV teruggenomen."},
+            {"code": "642000", "naam": "Minderwaarden realisatie handelsvordering", "debet": 210000.00, "credit": null, "reden": "Fiche 642 'Minwaarde'; verlies 300.000 - reeds afgeschreven 90.000."},
+            {"code": "411620", "naam": "Btw herziening in het voordeel", "debet": 63000.00, "credit": null, "reden": "Fiche 41162 'Herziening BTW' (mag ook 451620); 300.000 x 21%."},
+            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": null, "credit": 363000.00, "reden": "Fiche 407; volledige vordering afgeboekt."}
+          ]
+        },
+        {
+          "omschrijving": "Vercauteren (1) dubieus maken",
+          "regels": [
+            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": 530000.00, "credit": null, "reden": "Fiche 407; 500.000 + 6% btw."},
+            {"code": "400000", "naam": "Klanten", "debet": null, "credit": 530000.00, "reden": "Fiche 400."}
+          ]
+        },
+        {
+          "omschrijving": "Vercauteren (2) waardevermindering 100%",
+          "regels": [
+            {"code": "634000", "naam": "waardeverm op handelsvordering <1jr", "debet": 500000.00, "credit": null, "reden": "Fiche 6340; 100% van 500.000."},
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": null, "credit": 500000.00, "reden": "Fiche 4091."}
+          ]
+        },
+        {
+          "omschrijving": "Vercauteren (3) definitieve regeling — ontvangst 106.000 (BU/89)",
+          "regels": [
+            {"code": "550000", "naam": "Kredietinstellingen", "debet": 106000.00, "credit": null, "reden": "Fiche 5500 'Bank'; ontvangst van de curator (100.000 excl. + 6.000 btw)."},
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": 500000.00, "credit": null, "reden": "Fiche 4091; volledige WV teruggenomen."},
+            {"code": "411620", "naam": "Btw herziening in het voordeel", "debet": 24000.00, "credit": null, "reden": "Fiche 41162; btw op werkelijk verlies 400.000 x 6%."},
+            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": null, "credit": 530000.00, "reden": "Fiche 407; volledige vordering afgeboekt."},
+            {"code": "742000", "naam": "Meerwaarden realisatie handelsvordering", "debet": null, "credit": 100000.00, "reden": "Fiche 742 'Meerwaarde'; verlies 400.000 < voorziene WV 500.000."}
           ]
         }
       ],
-      "eindantwoord": "Werkelijk verlies = 40,00 excl. (dat zat al in de geboekte WV). Omdat er 100,00 was afgeschreven, ontstaat een meerwaarde van 60,00 (742000). Btw gerecupereerd op 40,00 = 8,40. Boeking balanceert op 181,00.",
-      "valkuil": "De btw op het volledige bedrag (21,00) terugvragen in plaats van enkel op het echte verlies (8,40). Je mag alleen de btw op het effectief verloren deel recupereren."
+      "eindantwoord": "Jacobs: WV 420.000 volledig teruggenomen (geen verlies). De Greef: verlies 300.000 (90.000 via WV, 210.000 via 642), btw 63.000 gerecupereerd. Vercauteren: werkelijk verlies 400.000, meerwaarde 100.000, btw 24.000. Alle drie de afsluitingen balanceren en 407/4091 staan op nul.",
+      "valkuil": "Bij De Greef 642 voor het volledige verlies (300.000) boeken EN 4091 (90.000) terugnemen; dan tel je 90.000 dubbel. Enkel het deel boven de reeds geboekte waardevermindering komt als minwaarde (642)."
     },
     {
       "id": "dubieuze-debiteuren-4",
-      "titel": "Terugneming van waardevermindering (klant herstelt)",
-      "niveau": "midden",
-      "context": "Klant Peeters werd vorig boekjaar dubieus (vordering 363,00 = 300,00 + 63,00 btw) en er werd een waardevermindering van 90,00 (excl. btw) geboekt: 634000 / 409100. Dit boekjaar betaalt Peeters echter prompt een groot deel en wordt opnieuw als betrouwbaar beschouwd. De geboekte waardevermindering van 90,00 moet volledig worden teruggenomen.",
-      "vraag": "Boek de terugneming van de waardevermindering. Welk type rekening gebruik je en aan welke kant?",
+      "titel": "Oef 1 (blz 442) — zelfde gegevens, btw AAN HET BEGIN (Manier 2)",
+      "niveau": "examen",
+      "context": "Dezelfde gegevens als Oef 1 (Jacobs, De Greef, Vercauteren), maar nu MANIER 2: btw terugvragen AAN HET BEGIN van het faillissement. Het dubieus maken en de waardevermindering zelf zijn identiek aan manier 1; daar bovenop recupereer je telkens de btw op het verwachte verlies via 41162 / 4092.",
+      "vraag": "Boek de bijkomende en gewijzigde boekingen volgens manier 2 (btw aan het begin).",
       "stappen": [
-        "Stap 1: een terugneming is het tegenovergestelde van het boeken van een waardevermindering. De (-)-rekening 409100 stond credit; nu boek je ze debet om af te bouwen.",
-        "Stap 2: de tegenpost is GEEN opbrengst-rekening uit klasse 76, maar de (-)-kostenrekening 634100 Terugneming (-), die de eerder geboekte kost 634000 vermindert.",
-        "Stap 3: bedrag = de volledige eerder geboekte waardevermindering = 90,00 (excl. btw). De btw bleef ongemoeid (geen btw geboekt bij de WV).",
-        "Stap 4: optioneel boek je nadien ook 407000 terug naar 400000 als de klant weer volledig gezond is; in deze opgave beperken we ons tot de terugneming."
+        "Bij elke waardevermindering komt erbij: 41162 (btw voordeel) / 4092 (teruggevraagde btw) voor de btw op het verwachte verlies.",
+        "Jacobs: btw op 420.000 (21%) = 88.200 -> 41162 / 4092. Klant herstelt: WV terugnemen (4091/6341 420.000) EN btw terugnemen 4092 / 45161 88.200.",
+        "De Greef: btw op 90.000 (21%) = 18.900 -> 41162 / 4092. Gehele kwijtschelding: 4091 90.000 + 4092 18.900 + 642 210.000 + 41162 44.100 (63.000 - 18.900) / 407 363.000.",
+        "Vercauteren: btw op 500.000 (6%) = 30.000 -> 41162 / 4092. Ontvangst 106.000: bank 106.000 + 4091 500.000 + 4092 30.000 / 407 530.000 + 742 100.000 + 45161 6.000 (te veel gerecupereerd: 30.000 - 24.000)."
       ],
       "boekingen": [
         {
-          "omschrijving": "Terugneming waardevermindering Peeters",
+          "omschrijving": "Jacobs (2-bis) btw aan het begin",
           "regels": [
-            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": 90.00, "credit": null, "reden": "De (-)-rekening wordt afgebouwd: de nettowaarde van de vordering stijgt opnieuw."},
-            {"code": "634100", "naam": "Terugneming (-)", "debet": null, "credit": 90.00, "reden": "(-)-kostenrekening: vermindert de eerder als kost geboekte waardevermindering."}
+            {"code": "411620", "naam": "Btw herziening in het voordeel", "debet": 88200.00, "credit": null, "reden": "Fiche 41162 'Herziening BTW voordeel'; 420.000 x 21%."},
+            {"code": "409200", "naam": "Teruggevraagde btw (op dubieuze)", "debet": null, "credit": 88200.00, "reden": "Fiche 4092 'Teruggevraagde BTW'."}
+          ]
+        },
+        {
+          "omschrijving": "Jacobs (3-bis) terugname btw (klant herstelt)",
+          "regels": [
+            {"code": "409200", "naam": "Teruggevraagde btw (op dubieuze)", "debet": 88200.00, "credit": null, "reden": "Fiche 4092; geparkeerde btw uitgeboekt."},
+            {"code": "451610", "naam": "Btw herziening in het nadeel", "debet": null, "credit": 88200.00, "reden": "Fiche 45161; aan het begin gerecupereerde btw weer verschuldigd."}
+          ]
+        },
+        {
+          "omschrijving": "De Greef (2-bis) btw aan het begin",
+          "regels": [
+            {"code": "411620", "naam": "Btw herziening in het voordeel", "debet": 18900.00, "credit": null, "reden": "Fiche 41162; 90.000 x 21%."},
+            {"code": "409200", "naam": "Teruggevraagde btw (op dubieuze)", "debet": null, "credit": 18900.00, "reden": "Fiche 4092."}
+          ]
+        },
+        {
+          "omschrijving": "De Greef (3) gehele kwijtschelding (manier 2)",
+          "regels": [
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": 90000.00, "credit": null, "reden": "Fiche 4091; WV teruggenomen."},
+            {"code": "409200", "naam": "Teruggevraagde btw (op dubieuze)", "debet": 18900.00, "credit": null, "reden": "Fiche 4092; geparkeerde btw uitgeboekt."},
+            {"code": "642000", "naam": "Minderwaarden realisatie handelsvordering", "debet": 210000.00, "credit": null, "reden": "Fiche 642 'Minwaarde'; 300.000 - 90.000."},
+            {"code": "411620", "naam": "Btw herziening in het voordeel", "debet": 44100.00, "credit": null, "reden": "Fiche 41162; resterende btw op het verlies (63.000 - 18.900 reeds gerecupereerd)."},
+            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": null, "credit": 363000.00, "reden": "Fiche 407; vordering afgeboekt."}
+          ]
+        },
+        {
+          "omschrijving": "Vercauteren (2-bis) btw aan het begin",
+          "regels": [
+            {"code": "411620", "naam": "Btw herziening in het voordeel", "debet": 30000.00, "credit": null, "reden": "Fiche 41162; 500.000 x 6%."},
+            {"code": "409200", "naam": "Teruggevraagde btw (op dubieuze)", "debet": null, "credit": 30000.00, "reden": "Fiche 4092."}
+          ]
+        },
+        {
+          "omschrijving": "Vercauteren (3) ontvangst 106.000 (manier 2)",
+          "regels": [
+            {"code": "550000", "naam": "Kredietinstellingen", "debet": 106000.00, "credit": null, "reden": "Fiche 5500; ontvangst van de curator."},
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": 500000.00, "credit": null, "reden": "Fiche 4091; WV teruggenomen."},
+            {"code": "409200", "naam": "Teruggevraagde btw (op dubieuze)", "debet": 30000.00, "credit": null, "reden": "Fiche 4092; geparkeerde btw uitgeboekt."},
+            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": null, "credit": 530000.00, "reden": "Fiche 407; vordering afgeboekt."},
+            {"code": "742000", "naam": "Meerwaarden realisatie handelsvordering", "debet": null, "credit": 100000.00, "reden": "Fiche 742; verlies 400.000 < voorziene WV 500.000."},
+            {"code": "451610", "naam": "Btw herziening in het nadeel", "debet": null, "credit": 6000.00, "reden": "Fiche 45161; te veel gerecupereerde btw (30.000 op 500.000 i.p.v. 24.000 op werkelijk verlies 400.000). Vercauteren-boeking gereconstrueerd uit de fiche-systematiek (1b-6b)."}
           ]
         }
       ],
-      "eindantwoord": "409100 = 0 (volledig teruggenomen), de netto kost in 634-rubriek wordt met 90,00 verminderd via 634100. De vordering staat opnieuw aan haar volle waarde. Boeking balanceert op 90,00.",
-      "valkuil": "De terugneming op 760000/761000 (opbrengst) boeken. Voor handelsvorderingen <1 jaar gebruik je de (-)-kostenrekening 634100, niet de financiele terugnemingsrekeningen."
+      "eindantwoord": "Manier 2 voegt aan elke WV de btw-recuperatie (41162 / 4092) toe. Bij Jacobs (herstel) en Vercauteren (gedeeltelijke inning) wordt een stuk btw via 45161 terugbetaald; bij De Greef (volledig verlies) komt de resterende btw via 41162 bij. Alle eindboekingen balanceren (De Greef op 363.000, Vercauteren op 636.000).",
+      "valkuil": "Vergeten dat bij manier 2 de teruggevraagde btw (4092 = 409200) bij ELKE afsluiting moet worden uitgeboekt, en dat 45161 (451610 nadeel) optreedt zodra de klant méér betaalt dan voorzien (Vercauteren) of helemaal herstelt (Jacobs)."
     },
     {
       "id": "dubieuze-debiteuren-5",
-      "titel": "Btw terugvragen aan het BEGIN van het faillissement (volledige cyclus, 60% verlies)",
+      "titel": "Oef 3 (blz 442) — bv YOU2 met klant bv FLOWER (commerciële korting + dubieus)",
       "niveau": "examen",
-      "context": "Gebaseerd op de oefeningenfiche (oef. bvds 1.2). Klant staat open voor 121,00 (100,00 + 21,00 btw). De curator meldt aan het BEGIN van het faillissement dat 60% van de vordering verloren moet worden beschouwd. De onderneming kiest de methode 'btw terugvragen aan het begin'. Op het einde betaalt de klant TOCH nog alles (121,00).",
-      "vraag": "Boek de volledige cyclus: (1) dubieus maken, (2) waardevermindering 60% + btw-recuperatie aan het begin, (3) de definitieve afhandeling waarbij de klant alles betaalt.",
+      "context": "Oefening 3, blz 442. Registreer de documenten in het journaal van bv YOU2. 05.04.20x1: VF/40 verkoop handelsgoederen 2.500 EUR, exclusief 6% btw; klant bv FLOWER geniet 2% commerciële korting; vervaldag 05.06.20x1. 01.08.20x1: FLOWER heeft nog niet betaald, de boeken zijn neergelegd, een curator is aangesteld; men verwacht dat de vordering niet zal worden gerecupereerd. 05.09.20x1: bericht van de curator dat waarschijnlijk ongeveer 100 EUR zal worden gerecupereerd. 04.01.20x2: het faillissement is volledig afgewikkeld; YOU2 ontvangt uiteindelijk 159 EUR via de bank (BU/2).",
+      "vraag": "Boek VF/40, het dubieus maken, de waardevermindering na het bericht van de curator en de definitieve afwikkeling (methode einde).",
       "stappen": [
-        "Stap 1: volledige bedrag incl. btw (121,00) overboeken naar 407000.",
-        "Stap 2: waardevermindering = 60% van 100,00 (excl. btw) = 60,00 -> 634000 / 409100. Methode 'begin': btw op het verloren deel = 60,00 x 21% = 12,60 al recupereren via 411620 / 409200.",
-        "Stap 3: op het einde betaalt de klant alles (121,00 op de bank). Het voorziene verlies van 60,00 valt volledig weg -> meerwaarde 742000 van 60,00. De waardevermindering 409100 (60,00) en de geparkeerde teruggevraagde btw 409200 (12,60) worden teruggeboekt.",
-        "Stap 4: omdat de klant toch betaalt, was de btw-recuperatie aan het begin ten onrechte -> je betaalt de 12,60 btw terug via 451610 Btw herziening in het nadeel (credit).",
-        "Stap 5: controle eindboeking. Debet: 550000 121,00 + 409100 60,00 + 409200 12,60 = 193,60. Credit: 407000 121,00 + 742000 60,00 + 451610 12,60 = 193,60. In evenwicht."
+        "VF/40: 2.500 - 2% comm. korting = 2.450 netto; btw 6% op 2.450 = 147; totaal 2.597. Boeking 400 2.597 / 700 2.450 / 4510 147.",
+        "01.08: dubieus maken 407 / 400 voor 2.597.",
+        "05.09: men verwacht slechts ca. 100 te recupereren -> waardevermindering op ca. 2.350 (2.450 - 100). 6340 / 409 voor 2.350 (bericht curator).",
+        "04.01: ontvangt 159 = 150 excl. + 9 btw. Werkelijk verlies 2.450 - 150 = 2.300; btw-herziening 2.300 x 6% = 138; meerwaarde = WV 2.350 - verlies 2.300 = 50. Bank 159 + 409 2.350 + 4511 138 / 407 2.597 + 742 50."
       ],
       "boekingen": [
         {
-          "omschrijving": "(1) Klant wordt dubieus",
+          "omschrijving": "05.04.20x1 — VF/40 verkoop aan FLOWER (2% comm. korting, 6% btw)",
           "regels": [
-            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": 121.00, "credit": null, "reden": "Volledig brutobedrag naar de dubieuze-rekening (actief debet)."},
-            {"code": "400000", "naam": "Klanten", "debet": null, "credit": 121.00, "reden": "Gewone klantvordering verdwijnt (actief credit)."}
+            {"code": "400000", "naam": "Klanten", "debet": 2597.00, "credit": null, "reden": "Fiche 400 'Handelsdebiteuren'; te ontvangen incl. btw."},
+            {"code": "700000", "naam": "Verkopen", "debet": null, "credit": 2450.00, "reden": "Fiche 700 'Verkopen handelsgoederen'; 2.500 - 2% comm. korting."},
+            {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "debet": null, "credit": 147.00, "reden": "Fiche 4510 'Btw op verkopen'; 6% van 2.450."}
           ]
         },
         {
-          "omschrijving": "(2a) Waardevermindering 60% (excl. btw)",
+          "omschrijving": "01.08.20x1 — FLOWER dubieus maken",
           "regels": [
-            {"code": "634000", "naam": "waardeverm op handelsvordering <1jr", "debet": 60.00, "credit": null, "reden": "Kost = vermoedelijk verlies op 60% van 100,00 excl. btw."},
-            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": null, "credit": 60.00, "reden": "(-)-rekening verlaagt de nettowaarde van de vordering."}
+            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": 2597.00, "credit": null, "reden": "Fiche 407; volledige vordering incl. btw."},
+            {"code": "400000", "naam": "Klanten", "debet": null, "credit": 2597.00, "reden": "Fiche 400; 'Dubieus maken vordering'."}
           ]
         },
         {
-          "omschrijving": "(2b) Btw terugvragen aan het begin",
+          "omschrijving": "05.09.20x1 — waardevermindering na bericht curator",
           "regels": [
-            {"code": "411620", "naam": "Btw herziening in het voordeel", "debet": 12.60, "credit": null, "reden": "Btw op het verloren deel (60,00 x 21%) al gerecupereerd in jouw voordeel."},
-            {"code": "409200", "naam": "Teruggevraagde btw (op dubieuze)", "debet": null, "credit": 12.60, "reden": "Parkeert de teruggevraagde btw tegenover de dubieuze vordering tot het einde."}
+            {"code": "634000", "naam": "waardeverm op handelsvordering <1jr", "debet": 2350.00, "credit": null, "reden": "Fiche 6340 'Waardeverminderingen op handelsvorderingen - toevoeging'; verwacht verlies 2.450 - 100."},
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": null, "credit": 2350.00, "reden": "Fiche 409 'Geboekte waardeverminderingen'."}
           ]
         },
         {
-          "omschrijving": "(3) Einde faillissement — klant betaalt alles (121,00)",
+          "omschrijving": "04.01.20x2 — afwikkeling, ontvangst 159 (BU/2)",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 121.00, "credit": null, "reden": "De bank ontvangt het volledige bedrag."},
-            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": 60.00, "credit": null, "reden": "Geboekte waardevermindering wordt teruggenomen (verlies blijkt 0)."},
-            {"code": "409200", "naam": "Teruggevraagde btw (op dubieuze)", "debet": 12.60, "credit": null, "reden": "De geparkeerde teruggevraagde btw wordt uitgeboekt."},
-            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": null, "credit": 121.00, "reden": "Dubieuze vordering verdwijnt volledig."},
-            {"code": "742000", "naam": "Meerwaarden realisatie handelsvordering", "debet": null, "credit": 60.00, "reden": "Geen werkelijk verlies: het te veel afgeschreven bedrag wordt opbrengst."},
-            {"code": "451610", "naam": "Btw herziening in het nadeel", "debet": null, "credit": 12.60, "reden": "De aan het begin gerecupereerde btw moet terug betaald worden omdat de klant toch betaalde."}
+            {"code": "550000", "naam": "Kredietinstellingen", "debet": 159.00, "credit": null, "reden": "Fiche 5500 'Bank r/c'; 150 excl. + 9 btw."},
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": 2350.00, "credit": null, "reden": "Fiche 409; geboekte waardevermindering teruggenomen."},
+            {"code": "451640", "naam": "Regularisatie verschuldigde btw (RVBTW)", "debet": 138.00, "credit": null, "reden": "Fiche 4511 'Regularisaties btw op verkopen'; btw-herziening 2.300 x 6%."},
+            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": null, "credit": 2597.00, "reden": "Fiche 407; vordering afgeboekt."},
+            {"code": "742000", "naam": "Meerwaarden realisatie handelsvordering", "debet": null, "credit": 50.00, "reden": "Fiche 742 'Meerwaarde op realisatie handelsvorderingen'; WV 2.350 - werkelijk verlies 2.300."}
           ]
         }
       ],
-      "eindantwoord": "Na de drie fasen zijn 407000, 409100 en 409200 allemaal nul. De klant betaalde alles, dus er is geen werkelijk verlies maar wel een meerwaarde van 60,00 (742000); de eerder gerecupereerde btw van 12,60 wordt via 451610 weer verschuldigd. Eindboeking balanceert op 193,60.",
-      "valkuil": "Vergeten dat bij methode 'begin' de teruggevraagde btw (409200) en de eventuele btw-herziening in het nadeel (451610) op het einde mee moeten worden afgewikkeld. Wie enkel 409100 terugneemt, laat 409200 als wees op de balans staan."
+      "eindantwoord": "VF/40 levert een vordering van 2.597 (2.450 netto + 147 btw). Na het dubieus maken en een WV van 2.350 ontvangt YOU2 uiteindelijk 159; werkelijk verlies 2.300, btw-herziening 138, meerwaarde 50. De afwikkeling balanceert op 2.647 en 407/409 staan op nul.",
+      "valkuil": "De btw op de bruto-2.500 berekenen i.p.v. op het netto-bedrag na de 2% commerciële korting (2.450). De commerciële korting verlaagt zowel de maatstaf van heffing als de verkoopopbrengst."
     },
     {
       "id": "dubieuze-debiteuren-6",
-      "titel": "Examenoefening Jacobs/De Greef/Vercauteren (blz 442)",
+      "titel": "Oef 4 (blz 443) — nv JARGO / nv TRUDO (verkoop bestelwagen + dubieuze diverse vordering)",
       "niveau": "examen",
-      "context": "Gebaseerd op de oefeningenfiche blz 442 (methode einde). Drie klanten worden dubieus: Jacobs (847.000,00 incl. btw), De Greef (363.000,00 incl. btw) en Vercauteren (530.000,00 incl. btw). Voor De Greef wordt een waardevermindering van 90.000,00 geboekt; bij afsluiting blijkt het werkelijke verlies 210.000,00 excl. btw te bedragen (klant betaalt niets meer). De btw op 300.000,00 (= 363.000 - btw) bedraagt 63.000,00 (363.000 = 300.000 + 63.000).",
-      "vraag": "Boek voor De Greef: (1) dubieus maken, (2) waardevermindering, (3) de definitieve afhandeling waarbij het werkelijke verlies 210.000,00 excl. btw is en de klant niets betaalt (methode einde).",
+      "context": "Oefening 4, blz 443. Nv JARGO ontving op 06.06.20x5 BU/60 waaruit blijkt dat 181,50 EUR werd ontvangen uit het faillissement van nv TRUDO. De vordering ontstond uit de verkoop van een buiten gebruik gestelde bestelwagen: 3.500 EUR excl. 21% btw, VF/70 gedateerd 08.10.20x4. De bestelwagen was aangekocht op 01.09.20x1 voor 36.000 EUR excl. 21% btw, lineair afgeschreven over 6 jaar met pro-rata het eerste jaar. Per 31.12.20x4 was VF/70 nog niet betaald; TRUDO legde de boeken neer en de curator meldde dat niets gerecupereerd kan worden. Gevraagd: a) VF/70 op 08.10.20x4 + saldering van de rekeningen van de bestelwagen; b) het bankuittreksel met de volledige afwikkeling van de vordering.",
+      "vraag": "Boek (a) VF/70 en de saldering van de bestelwagen en (b) BU/60 met de afwikkeling van de dubieuze diverse vordering.",
       "stappen": [
-        "Stap 1: 363.000,00 incl. btw overboeken van 400000 naar 407000.",
-        "Stap 2: de in de fiche geboekte waardevermindering is 90.000,00 (634000 / 409100). Dit is het aanvankelijke vermoeden.",
-        "Stap 3: bij afsluiting is het werkelijke verlies 210.000,00 excl. btw. De reeds geboekte WV (409100 = 90.000,00) wordt teruggenomen, en het resterende verlies wordt als minderwaarde 642000 geboekt: 210.000,00 - 90.000,00 = 120.000,00? In de fiche wordt 642 voor 210.000,00 geboekt en 409100 (90.000) apart teruggenomen; samen sluit dit met de btw aan op 363.000,00. We volgen de fiche: 642000 = 210.000,00, 409100 debet 90.000,00, btw 41162 = 63.000,00.",
-        "Stap 4: btw recupereren op het volledige excl.-verlies van 300.000,00 = 63.000,00 via 411620 (methode einde).",
-        "Stap 5: controle: debet 409100 90.000 + 642000 210.000 + 411620 63.000 = 363.000; credit 407000 363.000. In evenwicht."
+        "VF/70 (verkoop bestelwagen, niet-handelsvordering): 416 Diverse vorderingen 4.235 (3.500 + 735 btw) / 260 Overige MVA - aanschaffingswaarde 3.500 / 4510 Btw op verkopen 735.",
+        "Saldering bestelwagen: cumul afschrijving 14.005,48 (260900) terugboeken en boekwaarde-verlies via minderwaarde; 269 14.005,48 + 6630 18.494,52 / 260 32.500 (= resterende aanschaffingswaarde 36.000 - 3.500).",
+        "De vordering werd per 31.12.20x4 dubieus (niets recupereerbaar): waardevermindering 100% op 3.500 (klasse 651 / 409). In de fiche wordt dit in de eindboeking via 419 'Geboekte waardeverminderingen' teruggenomen.",
+        "BU/60 (06.06.20x5): ontvangt 181,50 = 150 excl. + 31,50 btw; werkelijk verlies 3.500 - 150 = 3.350; btw-herziening 3.350 x 21% = 703,50; meerwaarde = WV 3.500 - verlies 3.350 = 150. Bank 181,50 + 419 3.500 + 4511 703,50 / 417 4.235 + 752 150."
       ],
       "boekingen": [
         {
-          "omschrijving": "(1) De Greef wordt dubieus",
+          "omschrijving": "a) 08.10.20x4 — VF/70 verkoop bestelwagen",
           "regels": [
-            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": 363000.00, "credit": null, "reden": "Volledig brutobedrag naar de dubieuze-rekening."},
-            {"code": "400000", "naam": "Klanten", "debet": null, "credit": 363000.00, "reden": "Gewone klantvordering verdwijnt."}
+            {"code": "416000", "naam": "Diverse vorderingen", "debet": 4235.00, "credit": null, "reden": "Fiche 416; verkoop niet-handelsactief (3.500 + 21% btw)."},
+            {"code": "260000", "naam": "Andere materiële vaste activa", "debet": null, "credit": 3500.00, "reden": "Fiche 260 'Overige MVA - aanschaffingswaarde'; verkoopprijs afgeboekt op de MVA-rekening."},
+            {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "debet": null, "credit": 735.00, "reden": "Fiche 4510 'Btw op verkopen'; 21% van 3.500."}
           ]
         },
         {
-          "omschrijving": "(2) Waardevermindering",
+          "omschrijving": "a) Saldering rekeningen bestelwagen",
           "regels": [
-            {"code": "634000", "naam": "waardeverm op handelsvordering <1jr", "debet": 90000.00, "credit": null, "reden": "Aanvankelijk vermoedelijk verlies (excl. btw)."},
-            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": null, "credit": 90000.00, "reden": "(-)-rekening verlaagt de nettowaarde."}
+            {"code": "260900", "naam": "Geboekte afschrijvingen", "debet": 14005.48, "credit": null, "reden": "Fiche 269 'Overige MVA - geboekte afschrijvingen'; cumul afschrijving teruggeboekt."},
+            {"code": "663000", "naam": "Minderwaarden op de realisatie van vaste activa", "debet": 18494.52, "credit": null, "reden": "Fiche 6630 'Minderwaarden op realisatie IVA en MVA'; boekwaarde 32.500 - 14.005,48."},
+            {"code": "260000", "naam": "Andere materiële vaste activa", "debet": null, "credit": 32500.00, "reden": "Fiche 260; resterende aanschaffingswaarde 36.000 - 3.500."}
           ]
         },
         {
-          "omschrijving": "(3) Afsluiting — werkelijk verlies, klant betaalt niets (methode einde)",
+          "omschrijving": "b) 06.06.20x5 — BU/60 afwikkeling dubieuze diverse vordering (ontvangst 181,50)",
           "regels": [
-            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": 90000.00, "credit": null, "reden": "De geboekte waardevermindering wordt teruggenomen tegen de afboeking."},
-            {"code": "642000", "naam": "Minderwaarden realisatie handelsvordering", "debet": 210000.00, "credit": null, "reden": "Het werkelijke (definitieve) verlies dat nog niet via de WV was afgedekt."},
-            {"code": "411620", "naam": "Btw herziening in het voordeel", "debet": 63000.00, "credit": null, "reden": "Btw op het volledige verloren excl.-bedrag (300.000 x 21%) wordt gerecupereerd."},
-            {"code": "407000", "naam": "Dubieuze debiteuren", "debet": null, "credit": 363000.00, "reden": "De volledige dubieuze vordering verdwijnt."}
+            {"code": "550000", "naam": "Kredietinstellingen", "debet": 181.50, "credit": null, "reden": "Fiche 5500 'Bank r/c'; 150 excl. + 31,50 btw."},
+            {"code": "409100", "naam": "Geboekte waardeverm (-)", "debet": 3500.00, "credit": null, "reden": "Fiche 419 'Geboekte waardeverminderingen' (diverse vorderingen). De MAR-lijst kent geen aparte 41x9-code; 409100 is de dichtstbijzijnde geboekte-waardeverminderingsrekening."},
+            {"code": "451640", "naam": "Regularisatie verschuldigde btw (RVBTW)", "debet": 703.50, "credit": null, "reden": "Fiche 4511 'Regularisaties btw op verkopen'; btw-herziening 3.350 x 21%."},
+            {"code": "416000", "naam": "Diverse vorderingen", "debet": null, "credit": 4235.00, "reden": "Fiche 417 'Dubieuze debiteuren' (diverse). De MAR-lijst kent geen 417; 416000 is de geldige rekening voor de (dubieuze) diverse vordering."},
+            {"code": "752000", "naam": "Meerwaarden op de realisatie van vlottende activa", "debet": null, "credit": 150.00, "reden": "Fiche 752 'Meerwaarde op realisatie vlottende activa'; WV 3.500 - werkelijk verlies 3.350."}
           ]
         }
       ],
-      "eindantwoord": "Het excl.-verlies van 300.000,00 wordt verdeeld: 90.000,00 zat al in de waardevermindering (634000), 210.000,00 komt nu als minderwaarde (642000). Btw 63.000,00 gerecupereerd via 411620. 407000 en 409100 staan op nul. Eindboeking balanceert op 363.000,00.",
-      "valkuil": "642000 voor het volledige verlies (300.000,00) boeken EN 409100 (90.000,00) terugnemen; dan tel je 90.000,00 dubbel. Het deel dat al via 634000/409100 als vermoeden was geboekt, mag niet nog eens als minderwaarde 642000 verschijnen."
+      "eindantwoord": "Bij verkoop ontstaat een diverse vordering van 4.235; de bestelwagen wordt gesaldeerd met een minderwaarde van 18.494,52 (663000). De vordering wordt dubieus (100% verwacht verlies); uiteindelijk wordt 181,50 ontvangen: werkelijk verlies 3.350, btw-herziening 703,50 en een meerwaarde van 150. De BU/60-boeking balanceert op 4.385.",
+      "valkuil": "Een NIET-handelsvordering met de handelsrekeningen (407/634/642/742) afwikkelen. De fiche gebruikt hier de 'diverse'-varianten (417 dubieus, 419 geboekte WV, 651 waardevermindering, 752 meerwaarde op vlottende activa). Omdat de meegegeven MAR-lijst die 41x-codes niet bevat, mappen we 417->416000 en 419->409100; let in een examen op welk rekeningstelsel je leerkracht oplegt."
     }
   ],
   "flashcards": [
@@ -287,22 +484,23 @@
   ],
   "veelgemaakteFouten": [
     {"fout": "De waardevermindering op het btw-inclusieve bedrag boeken (bv. 121,00 i.p.v. 100,00).", "correctie": "De waardevermindering (634000 / 409100) wordt altijd op het bedrag EXCL. btw berekend. De btw recupereer je apart via 411620 (en eventueel 409200 / 451610)."},
-    {"fout": "Bij methode 'einde' zowel de waardevermindering (634000) als een minderwaarde (642000) voor hetzelfde excl.-verlies boeken.", "correctie": "Het deel dat al via 634000/409100 als vermoeden geboekt is, wordt bij de afsluiting enkel teruggenomen (409100 debet); enkel het NIET eerder afgeschreven verlies komt als 642000."},
-    {"fout": "De terugneming van een waardevermindering op een klasse-76-opbrengstrekening (760000/761000) boeken.", "correctie": "Voor handelsvorderingen <1 jaar gebruik je de (-)-kostenrekening 634100 Terugneming (-) tegenover 409100."},
-    {"fout": "Bij methode 'begin' de teruggevraagde btw (409200) niet uitboeken bij de definitieve afhandeling.", "correctie": "409200 moet op het einde weer worden afgewikkeld; betaalt de klant toch, dan komt daar bovendien 451610 Btw herziening in het nadeel bij."},
-    {"fout": "De btw recupereren op het volledige bedrag, ook al betaalt de klant nog een deel.", "correctie": "Je recupereert btw enkel op het EFFECTIEF verloren deel. Betaalt de klant nog iets, dan vermindert het verlies en dus ook de te recupereren btw."},
-    {"fout": "Vergeten dat het overboeken naar 407000 geen kost is en denken dat de winst daardoor daalt.", "correctie": "407000 / 400000 is een verschuiving tussen twee actiefrekeningen. Het resultaat wijzigt pas door 634000 (kost) of 642000 (kost) of 742000/634100 (opbrengst/terugneming)."},
+    {"fout": "Zowel de waardevermindering (634000) als een minderwaarde (642000) voor hetzelfde excl.-verlies boeken.", "correctie": "Het deel dat al via 634000/409100 als vermoeden geboekt is, wordt bij de afsluiting enkel teruggenomen (409100 debet); enkel het NIET eerder afgeschreven verlies komt als 642000 (bv. De Greef: 210.000, niet 300.000)."},
+    {"fout": "De terugneming van een waardevermindering op een klasse-76-opbrengstrekening (760000/761000) boeken.", "correctie": "Voor handelsvorderingen <1 jaar gebruik je de (-)-kostenrekening 634100 Terugneming (-) tegenover 409100 (fiche: 6341)."},
+    {"fout": "Bij methode 'begin' de teruggevraagde btw (409200/4092) niet uitboeken bij de definitieve afhandeling.", "correctie": "409200 moet op het einde weer worden afgewikkeld (debet); betaalt de klant toch of herstelt hij, dan komt daar 451610 Btw herziening in het nadeel bij (bv. Vercauteren 6.000, Jacobs 88.200)."},
+    {"fout": "De btw recupereren op het volledige bedrag, ook al betaalt de klant nog een deel.", "correctie": "Je recupereert btw enkel op het EFFECTIEF verloren deel. Betaalt de klant nog iets, dan vermindert het verlies en dus ook de te recupereren btw (bv. Vercauteren: 24.000 op 400.000, niet 30.000 op 500.000)."},
+    {"fout": "Vergeten dat het overboeken naar 407000 geen kost is en denken dat de winst daardoor daalt.", "correctie": "407000 / 400000 is een verschuiving tussen twee actiefrekeningen. Het resultaat wijzigt pas door 634000 (kost), 642000 (kost), of 742000/634100 (opbrengst/terugneming)."},
     {"fout": "742000 (meerwaarde) en 642000 (minwaarde) door elkaar halen.", "correctie": "Betaalt de klant MEER dan het voorziene verlies -> meerwaarde 742000 (opbrengst). Verlies je MEER dan voorzien -> bijkomende minwaarde 642000 (kost)."},
-    {"fout": "409100 vergeten terug te nemen bij de definitieve afhandeling, waardoor de (-)-rekening op de balans blijft staan.", "correctie": "Bij elke afsluiting van een dubieuze vordering moet 409100 (en bij methode begin ook 409200) volledig worden uitgeboekt tegenover 407000."}
+    {"fout": "De commerciële korting niet aftrekken voor je de btw berekent (Oef 3 FLOWER).", "correctie": "De commerciële (handels)korting verlaagt eerst de maatstaf van heffing: 2.500 - 2% = 2.450, en pas daarop 6% btw = 147. Niet 6% op 2.500."},
+    {"fout": "Een dubieuze NIET-handelsvordering (Oef 4 bestelwagen) afwikkelen met de zuivere handelsrekeningen.", "correctie": "De fiche gebruikt voor een diverse vordering de varianten 416/417 (vordering/dubieus), 419 (geboekte WV) en 752 (meerwaarde op vlottende activa) i.p.v. 407/409/742."}
   ],
   "controlevragen": [
     {"vraag": "Een klant met een openstaand bedrag van 605,00 (500,00 + 105,00 btw) wordt dubieus. Welke boeking maak je?", "antwoord": "407000 Dubieuze debiteuren (debet) 605,00 / 400000 Klanten (credit) 605,00. Het volledige bedrag incl. btw."},
     {"vraag": "Op diezelfde vordering schat je 40% verlies in. Hoeveel en hoe boek je de waardevermindering (methode einde)?", "antwoord": "40% van 500,00 (excl. btw) = 200,00. Boeking: 634000 (debet) 200,00 / 409100 (credit) 200,00. Geen btw-boeking, want methode einde."},
     {"vraag": "Wat is het verschil tussen een 'vermoedelijk verlies' en een 'werkelijk verlies' en welke rekeningen horen erbij?", "antwoord": "Vermoedelijk verlies = schatting, geboekt als waardevermindering (634000 / 409100), terug te nemen via 634100. Werkelijk verlies = definitieve zekerheid, geboekt als minderwaarde (642000)."},
-    {"vraag": "Bij de methode 'btw terugvragen aan het begin' welke twee bijkomende rekeningen kunnen optreden, en wanneer?", "antwoord": "409200 Teruggevraagde btw (bij de recuperatie, samen met 411620) en 451610 Btw herziening in het nadeel (op het einde, wanneer de klant toch betaalt en je de btw terug verschuldigd wordt)."},
-    {"vraag": "Een dubieuze klant herstelt volledig. Welke boeking neemt de eerder geboekte waardevermindering van 80,00 terug?", "antwoord": "409100 Geboekte waardeverm (-) (debet) 80,00 / 634100 Terugneming (-) (credit) 80,00."},
+    {"vraag": "Bij de methode 'btw terugvragen aan het begin' welke twee bijkomende rekeningen kunnen optreden, en wanneer?", "antwoord": "409200 Teruggevraagde btw (bij de recuperatie, samen met 411620) en 451610 Btw herziening in het nadeel (op het einde, wanneer de klant herstelt of toch betaalt en je de btw terug verschuldigd wordt)."},
+    {"vraag": "Een dubieuze klant herstelt volledig (vordering 700.000 + btw, WV 420.000). Welke twee boekingen volgen bij methode begin?", "antwoord": "Terugname WV: 409100 (debet) 420.000 / 634100 (credit) 420.000. Terugname btw: 409200 (debet) 88.200 / 451610 (credit) 88.200."},
     {"vraag": "Vordering 121,00 (100 + 21), 100% WV geboekt. Op het einde betaalt de klant 96,80. Wat ontstaat er en hoeveel btw recupereer je (methode einde)?", "antwoord": "96,80 = 80,00 excl. + 16,80 btw. Werkelijk verlies = 20,00 excl. -> meerwaarde 742000 van 80,00 (100 - 20). Btw recupereren op 20,00 = 4,20 via 411620."},
-    {"vraag": "Waarom mag je 642000 niet boeken voor een verlies dat je al via 634000 hebt afgeschreven?", "antwoord": "Omdat het verlies dan dubbel zou worden geteld. Het reeds via de waardevermindering afgedekte deel wordt bij afsluiting enkel teruggenomen (409100 debet); enkel het bijkomende, niet-afgedekte verlies komt als 642000."},
-    {"vraag": "Welke natuur (debet/credit) heeft 409100 en waarom staat ze daar?", "antwoord": "Credit. Ze is een (-)-rekening van het actief: ze corrigeert (vermindert) de boekwaarde van de dubieuze vordering, en (-)-rekeningen staan aan de tegenovergestelde kant van hun rubriek."}
+    {"vraag": "Waarom mag je 642000 niet boeken voor een verlies dat je al via 634000 hebt afgeschreven?", "antwoord": "Omdat het verlies dan dubbel zou worden geteld. Het reeds via de waardevermindering afgedekte deel wordt bij afsluiting enkel teruggenomen (409100 debet); enkel het bijkomende, niet-afgedekte verlies komt als 642000 (bv. De Greef 210.000 i.p.v. 300.000)."},
+    {"vraag": "Hoe verschilt de boeking van een dubieuze debiteur van die van een uitgaande creditnota (UCN) op dezelfde verkoopfactuur?", "antwoord": "Een UCN annuleert de verkoop: 700100 UCN (debet) + 451640 RVBTW (debet) / 400000 (credit) - geen verlies. Een dubieuze debiteur blijft een vordering: 407000 / 400000, gevolgd door een waardevermindering en eventueel een werkelijk verlies (642000) + btw-herziening (411620)."}
   ]
 }

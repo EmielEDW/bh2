@@ -1,6 +1,7 @@
 import { Suspense } from "react";
 import { getMar } from "@/lib/data";
 import MarZoeker from "@/components/MarZoeker";
+import DebetCreditTrainer from "@/components/DebetCreditTrainer";
 import { Card } from "@/components/ui";
 
 export const metadata = { title: "MAR-zoeker — Boekhouden 2" };
@@ -23,6 +24,19 @@ export default function MarPagina() {
       <Suspense fallback={<div className="py-12 text-center text-slate-400">Laden…</div>}>
         <MarZoeker mar={mar} />
       </Suspense>
+
+      <section>
+        <h2 className="mb-1 text-lg font-bold text-slate-900">
+          ⚡ Debet/Credit-trainer
+        </h2>
+        <p className="mb-3 text-sm text-slate-500">
+          Automatiseer je reflex: stijgt de getoonde rekening normaal in debet of
+          in credit?
+        </p>
+        <div className="mx-auto max-w-xl">
+          <DebetCreditTrainer rekeningen={mar.rekeningen} />
+        </div>
+      </section>
 
       <Card>
         <h2 className="mb-2 font-bold text-slate-900">Hoe lees je een MAR-code?</h2>

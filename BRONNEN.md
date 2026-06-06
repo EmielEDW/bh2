@@ -48,18 +48,18 @@ tekst-extracties staan in `_extracted/` (ter controle).
 | `004_…Eigen_cursus52_H2…NIEUW_lezing.pdf` | Leesopdracht hoofdstuk 2. |
 | `BOEKHOUDEN_2_werkplekleren.docx` | De praktijkopdrachten in Octopus (Protoy Fictivo, Goodwood). |
 
-## ⚠️ Gescande / onleesbare fiches
+## 🖼️ Gescande fiches (gerenderd als beeld)
 
-Deze fiches waren ingescande beelden zonder selecteerbare tekst. De betrokken thema's
-zijn opgebouwd op basis van de MAR + standaard Belgische conventies (gemarkeerd in de site):
+Deze fiches waren ingescande beelden zonder tekstlaag, dus tekst-extractie gaf niets.
+Ze zijn daarom **als afbeelding gerenderd** (via PyMuPDF, `_extracted/img/`) en visueel
+uitgelezen, zodat de oefeningen toch de échte fiche volgen:
 
-- `00000_04__oefeningenfiche_FVA+_Geldbelegging_+_liquide_mid…396+456+462.pdf`
-- `00000_16__oefeningenfiche_Kapitaalsubsidies…540-542.pdf`
-- `00000_16__oefeningenfiche_Voorzieningen…579-581.pdf`
-- `00000_49__oefeningenfiche_Overlopende_rek…689-691.pdf`
+- `00000_04__…FVA+_Geldbelegging+liquide…396+456+462.pdf` → thema *fva-geldbeleggingen* (nv DELELIE, nv Genpal…)
+- `00000_16__…Kapitaalsubsidies…540-542.pdf` → thema *voorzieningen-subsidies* (NV Klaproos)
+- `00000_16__…Voorzieningen…579-581.pdf` → thema *voorzieningen-subsidies* (groot onderhoud)
+- `00000_49__…Overlopende_rek…689-691.pdf` → thema *overlopende-rekeningen* (huur, abonnement, interest)
 
-> Tip: wil je deze toch verwerken, lever dan een tekstversie of een duidelijke foto
-> aan, dan kunnen de oefeningen exact op de fiche worden afgestemd.
+> Bij scans kan een enkel cijfer onduidelijk zijn; controleer twijfelgevallen tegen je papieren fiche.
 
 ## 📦 Niet verwerkt
 
