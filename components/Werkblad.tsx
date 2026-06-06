@@ -17,6 +17,17 @@ type Feedback = {
 
 let _id = 1;
 
+// Btw-rekeningen zijn onderling inwisselbaar bij het verbeteren: de leerkracht
+// gebruikt aparte subrekeningen (411590 ABTW, 451540 VBTW, 451550 verlegd …),
+// maar je mag de btw ook gewoon op 411000 (aftrekbaar) en 451000 (te betalen)
+// boeken. Voor de controle behandelen we elke 411xxx als 411000 en elke 451xxx
+// als 451000.
+function normCode(code: string): string {
+  if (code.startsWith("411")) return "411000";
+  if (code.startsWith("451")) return "451000";
+  return code;
+}
+
 function flattenModel(model?: Boeking[]): ModelLine[] {
   const out: ModelLine[] = [];
   if (!model) return out;
@@ -88,7 +99,10 @@ export default function Werkblad({
     for (const p of posts) {
       const idx = modelL.findIndex(
         (m, i) =>
-          !used[i] && m.code === p.code && m.side === p.side && Math.abs(m.amount - p.amount) < 0.01
+          !used[i] &&
+          normCode(m.code) === normCode(p.code) &&
+          m.side === p.side &&
+          Math.abs(m.amount - p.amount) < 0.01
       );
       if (idx >= 0) {
         used[idx] = true;
@@ -259,6 +273,15 @@ export default function Werkblad({
           )}
         </div>
       </div>
+
+      {model && model.length > 0 && (
+        <p className="mt-2 rounded-lg bg-slate-50 px-3 py-2 text-xs text-slate-500">
+          💡 Btw mag je ook op <span className="font-mono font-semibold text-brand-700">411000</span>{" "}
+          (aftrekbaar) en <span className="font-mono font-semibold text-brand-700">451000</span> (te
+          betalen) boeken in plaats van de aparte rekeningen (ABTW/VBTW…). De Verbeter-knop keurt
+          beide manieren goed.
+        </p>
+      )}
 
       {/* Feedback */}
       {feedback && (

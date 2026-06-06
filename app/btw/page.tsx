@@ -80,6 +80,18 @@ export default function BtwPagina() {
         </p>
       </div>
 
+      <div className="rounded-2xl border border-brand-200 bg-brand-50 p-4 text-sm text-brand-900">
+        <p className="font-semibold">💡 411000 / 451000 mogen altijd</p>
+        <p className="mt-1 text-brand-900/90">
+          De leerkracht splitst de btw in aparte rekeningen (411590 ABTW, 451540 VBTW, 451550
+          verlegd, 451560 intracommunautair, 451570 invoer …) zodat je in één oogopslag ziet welke
+          soort btw het is. Dat is <strong>optioneel</strong>: je mag de aftrekbare btw altijd op{" "}
+          <span className="font-mono">411000</span> (terug te vorderen btw) en de verschuldigde btw op{" "}
+          <span className="font-mono">451000</span> (te betalen btw) boeken. In de oefeningen keurt
+          de <strong>Verbeter</strong>-knop beide manieren goed.
+        </p>
+      </div>
+
       <section>
         <h2 className="mb-3 text-lg font-bold text-slate-900">🧮 BTW-helper</h2>
         <BtwHelper />
