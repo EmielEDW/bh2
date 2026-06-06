@@ -45,7 +45,7 @@ const SCENARIOS: Scenario[] = [
       "Een creditnota van je leverancier draait de aankoop (deels) terug. Alles spiegelt de aankoop.",
     regels: (excl, btw, incl) => [
       { code: "440000", naam: "Leveranciers", debet: incl },
-      { code: "604001", naam: "Inkomende creditnota (ICN)", credit: excl },
+      { code: "604100", naam: "Inkomende creditnota (ICN)", credit: excl },
       { code: "411590", naam: "Aftrekbare btw (ABTW)", credit: btw },
     ],
   },
@@ -55,7 +55,7 @@ const SCENARIOS: Scenario[] = [
     uitleg:
       "Je stuurt zelf een creditnota naar je klant. Dit spiegelt de verkoop.",
     regels: (excl, btw, incl) => [
-      { code: "700001", naam: "Uitgaande creditnota (UCN)", debet: excl },
+      { code: "700100", naam: "Uitgaande creditnota (UCN)", debet: excl },
       { code: "451540", naam: "Verschuldigde btw (VBTW)", debet: btw },
       { code: "400000", naam: "Klanten", credit: incl },
     ],

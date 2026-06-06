@@ -17,11 +17,11 @@ const KERNBOEKINGEN = [
   },
   {
     t: "Inkomende CN (ICN)",
-    d: "440000 Leveranciers (D) / 604001 ICN + 411590 ABTW (C)",
+    d: "440000 Leveranciers (D) / 604100 ICN + 411590 ABTW (C)",
   },
   {
     t: "Uitgaande CN (UCN)",
-    d: "700001 UCN + 451540 VBTW (D) / 400000 Klanten (C)",
+    d: "700100 UCN + 451540 VBTW (D) / 400000 Klanten (C)",
   },
   {
     t: "Afschrijving MVA",

@@ -2676,21 +2676,6 @@
       ]
     },
     {
-      "code": "604001",
-      "naam": "Inkomende creditnota (ICN) op aankopen HG",
-      "klasse": "6",
-      "klasseNaam": "Kosten",
-      "rubriek": "60",
-      "rubriekNaam": "Handelsgoederen, grond- en hulpstoffen",
-      "soort": "Resultaat – kost",
-      "natuur": "debet",
-      "custom": true,
-      "officieleRekening": "Aankopen van handelsgoederen",
-      "themas": [
-        "aankoop-verkoop"
-      ]
-    },
-    {
       "code": "604100",
       "naam": "Inkomende creditnota (ICN)",
       "klasse": "6",
@@ -3884,21 +3869,6 @@
       "soort": "Resultaat – opbrengst",
       "natuur": "credit",
       "custom": false,
-      "officieleRekening": "tot 707 Verkopen en dienstprestaties",
-      "themas": [
-        "aankoop-verkoop"
-      ]
-    },
-    {
-      "code": "700001",
-      "naam": "Uitgaande creditnota (UCN)",
-      "klasse": "7",
-      "klasseNaam": "Opbrengsten",
-      "rubriek": "70",
-      "rubriekNaam": "Omzet",
-      "soort": "Resultaat – opbrengst",
-      "natuur": "debet",
-      "custom": true,
       "officieleRekening": "tot 707 Verkopen en dienstprestaties",
       "themas": [
         "aankoop-verkoop"

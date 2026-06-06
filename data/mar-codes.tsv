@@ -174,7 +174,6 @@ CODE	NAAM	NATUUR	SOORT
 602000	Aankopen van diensten, werk en studies	debet	Resultaat – kost
 603000	Algemene onderaannemingen	debet	Resultaat – kost
 604000	Aankopen van handelsgoederen (HG)	debet	Resultaat – kost
-604001	Inkomende creditnota (ICN) op aankopen HG	debet	Resultaat – kost [EIGEN/leerkracht]
 604100	Inkomende creditnota (ICN)	debet	Resultaat – kost [EIGEN/leerkracht]
 605000	Aankopen onroerende goederen bestemd voor verkoop	debet	Resultaat – kost
 606000	Bijkomende kosten	debet	Resultaat – kost
@@ -258,7 +257,6 @@ CODE	NAAM	NATUUR	SOORT
 696000	Andere rechthebbenden	debet	Resultaat – kost
 697000	Terug te betalen aandelen	debet	Resultaat – kost
 700000	Verkopen	credit	Resultaat – opbrengst
-700001	Uitgaande creditnota (UCN)	debet	Resultaat – opbrengst [EIGEN/leerkracht]
 700100	Uitgaande creditnota (UCN)	debet	Resultaat – opbrengst [EIGEN/leerkracht]
 706000	Doorgerekende kosten	credit	Resultaat – opbrengst
 707000	Verkoop VA	credit	Resultaat – opbrengst

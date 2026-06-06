@@ -62,7 +62,7 @@ const BOOM: Record<string, Knoop> = {
           titel: "Inkomende creditnota (ICN)",
           schema: [
             { code: "440000", naam: "Leveranciers", kant: "debet", bedrag: "incl. btw" },
-            { code: "604001", naam: "Inkomende creditnota (ICN)", kant: "credit", bedrag: "excl. btw" },
+            { code: "604100", naam: "Inkomende creditnota (ICN)", kant: "credit", bedrag: "excl. btw" },
             { code: "411590", naam: "Aftrekbare btw (ABTW)", kant: "credit", bedrag: "btw" },
           ],
           uitleg: "Een creditnota draait de aankoop (deels) terug → alle bedragen staan aan de tegenovergestelde kant van de aankoop.",
@@ -92,7 +92,7 @@ const BOOM: Record<string, Knoop> = {
         resultaat: {
           titel: "Uitgaande creditnota (UCN)",
           schema: [
-            { code: "700001", naam: "Uitgaande creditnota (UCN)", kant: "debet", bedrag: "excl. btw" },
+            { code: "700100", naam: "Uitgaande creditnota (UCN)", kant: "debet", bedrag: "excl. btw" },
             { code: "451540", naam: "Verschuldigde btw (VBTW)", kant: "debet", bedrag: "btw" },
             { code: "400000", naam: "Klanten", kant: "credit", bedrag: "incl. btw" },
           ],

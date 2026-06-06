@@ -150,9 +150,7 @@ COMPACT_FIX = {
     "451610":"Btw herziening in het nadeel",
     "451640":"Regularisatie verschuldigde btw (RVBTW)",
     "409200":"Teruggevraagde btw (op dubieuze)",
-    "604001":"Inkomende creditnota (ICN) op aankopen HG",
     "604100":"Inkomende creditnota (ICN)",
-    "700001":"Uitgaande creditnota (UCN)",
     "700100":"Uitgaande creditnota (UCN)",
     "620100":"Loon arbeider",
     "620200":"Bezoldiging bediende",
@@ -236,9 +234,14 @@ def themas_voor(code):
 # maar door de leerkracht/Octopus zijn aangemaakt onder een standaard hoofdrekening.
 CUSTOM_CODES = {
     "411590","411620","411630","412020","451300","451540","451550","451560",
-    "451570","451610","451640","409200","409100","604001","604100","700001","700100",
+    "451570","451610","451640","409200","409100","604100","700100",
     "620100","620200","743209","743291","444100","404200","550001","510900","238900",
 }
+
+# Codes die in de compacte bron staan maar foutief/dubbel zijn: niet opnemen.
+# De leerkracht gebruikt de .1-notatie: UCN = 700100 (niet 700001),
+# ICN = 604100 (niet 604001). De ...001-vormen zijn inconsistente dubbels.
+UITSLUITEN = {"700001", "604001"}
 
 # ---------------------------------------------------------------------------
 # 4. Bepaal debet/credit-natuur per 6-cijfer code
@@ -309,6 +312,8 @@ for c, nm in COMPACT_FIX.items():
     all_codes[c] = nm  # gebruik de nettere naam
 
 for code in sorted(all_codes):
+    if code in UITSLUITEN:
+        continue
     name = COMPACT_FIX.get(code, all_codes[code])
     k = code[0]
     rub = code[:2]
@@ -339,6 +344,14 @@ data = {
 os.makedirs(os.path.join(BASE, "data"), exist_ok=True)
 out = os.path.join(BASE, "data", "mar.json")
 json.dump(data, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+
+# Platte codelijst (voor de content-validatie en de agents)
+tsv = ["CODE\tNAAM\tNATUUR\tSOORT"]
+for r in records:
+    flag = " [EIGEN/leerkracht]" if r["custom"] else ""
+    tsv.append(f"{r['code']}\t{r['naam']}\t{r['natuur']}\t{r['soort']}{flag}")
+open(os.path.join(BASE, "data", "mar-codes.tsv"), "w", encoding="utf-8").write("\n".join(tsv) + "\n")
+
 print("Geschreven:", out)
 print("Aantal rekeningen:", len(records))
 print("Custom rekeningen:", sum(1 for r in records if r["custom"]))
