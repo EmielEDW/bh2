@@ -1,0 +1,4486 @@
+{
+  "bron": "ITAA Rekeningenstelsel 2021 (mar.pdf) + compacte werklijst leerkracht (001_Rekeningenstelsel_compact_20260509)",
+  "klassen": {
+    "0": "Niet in de balans opgenomen rechten en verplichtingen",
+    "1": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+    "2": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+    "3": "Voorraden en bestellingen in uitvoering",
+    "4": "Vorderingen en schulden op ten hoogste één jaar",
+    "5": "Geldbeleggingen en liquide middelen",
+    "6": "Kosten",
+    "7": "Opbrengsten"
+  },
+  "rubrieken": {
+    "10": "Kapitaal / Inbreng",
+    "11": "Inbreng buiten kapitaal",
+    "12": "Herwaarderingsmeerwaarden",
+    "13": "Reserves",
+    "14": "Overgedragen winst of verlies",
+    "15": "Kapitaalsubsidies",
+    "16": "Voorzieningen en uitgestelde belastingen",
+    "17": "Schulden op meer dan één jaar",
+    "19": "Voorschot aan de vennoten op de",
+    "20": "Oprichtingskosten",
+    "21": "Immateriële vaste activa",
+    "22": "Terreinen en gebouwen",
+    "23": "Installaties, machines en uitrusting",
+    "24": "Meubilair en rollend materieel",
+    "25": "Vaste activa in leasing",
+    "26": "Overige materiële vaste activa",
+    "27": "Vaste activa in aanbouw en vooruitbetalingen",
+    "28": "Financiële vaste activa",
+    "29": "Vorderingen op meer dan één jaar",
+    "30": "Grondstoffen",
+    "31": "Hulpstoffen",
+    "32": "Goederen in bewerking",
+    "33": "Gereed product",
+    "34": "Handelsgoederen",
+    "35": "Onroerende goederen bestemd voor verkoop",
+    "36": "Vooruitbetalingen op voorraadinkopen",
+    "37": "Bestellingen in uitvoering",
+    "40": "Handelsvorderingen",
+    "41": "Overige vorderingen",
+    "42": "Schulden op meer dan één jaar die binnen het jaar vervallen",
+    "43": "Financiële schulden",
+    "44": "Handelsschulden",
+    "45": "Schulden m.b.t. belastingen, bezoldigingen en sociale lasten",
+    "46": "Ontvangen vooruitbetalingen op bestellingen",
+    "47": "Schulden uit de bestemming van het resultaat",
+    "48": "Diverse schulden",
+    "49": "Overlopende rekeningen",
+    "50": "Eigen aandelen",
+    "51": "Aandelen en geldbeleggingen",
+    "52": "Vastrentende effecten",
+    "53": "Termijndeposito's",
+    "54": "Te incasseren vervallen waarden",
+    "55": "Kredietinstellingen",
+    "57": "Kassen",
+    "58": "Interne overboekingen",
+    "60": "Handelsgoederen, grond- en hulpstoffen",
+    "61": "Diensten en diverse goederen",
+    "62": "Bezoldigingen, sociale lasten en pensioenen",
+    "63": "Afschrijvingen, waardeverminderingen en voorzieningen",
+    "64": "Andere bedrijfskosten",
+    "65": "Financiële kosten",
+    "66": "Niet-recurrente bedrijfs- of financiële kosten",
+    "67": "Belastingen op het resultaat",
+    "68": "Overboeking naar uitgestelde belastingen en belastingvrije reserves",
+    "69": "Resultaatverwerking",
+    "70": "Omzet",
+    "71": "Wijzigingen in voorraden en bestellingen in uitvoering",
+    "72": "Geproduceerde vaste activa",
+    "74": "Andere bedrijfsopbrengsten",
+    "75": "Financiële opbrengsten",
+    "76": "Niet-recurrente bedrijfs- of financiële opbrengsten",
+    "77": "Regularisering van belastingen",
+    "78": "Onttrekking aan belastingvrije reserves en uitgestelde belastingen",
+    "79": "Resultaatverwerking",
+    "00": "Zekerheden door derden gesteld voor rekening van de onderne",
+    "01": "Persoonlijke zekerheden gesteld voor rekening van derden",
+    "02": "Zakelijke zekerheden gesteld op eigen activa",
+    "03": "Ontvangen zekerheden",
+    "04": "Goederen en waarden gehouden door derden in hun naam, maar",
+    "05": "Verplichtingen tot aan- en verkoop van vaste activa",
+    "06": "Termijnovereenkomsten",
+    "07": "Goederen en waarden van derden gehouden door de onderneming",
+    "09": "Diverse rechten en verplichtingen",
+    "56": "Postcheque en girodienst"
+  },
+  "rekeningen": [
+    {
+      "code": "100000",
+      "naam": "Geplaatst kapitaal",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "10",
+      "rubriekNaam": "Kapitaal / Inbreng",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Geplaatst kapitaal 100 100",
+      "themas": [
+        "grondbeginselen"
+      ]
+    },
+    {
+      "code": "101000",
+      "naam": "Niet-opgevraagd kapitaal (-)",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "10",
+      "rubriekNaam": "Kapitaal / Inbreng",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Niet-opgevraagd kapitaal (-) 101 101",
+      "themas": [
+        "grondbeginselen"
+      ]
+    },
+    {
+      "code": "110000",
+      "naam": "Uitgifte premies",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "11",
+      "rubriekNaam": "Inbreng buiten kapitaal",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "",
+      "themas": [
+        "grondbeginselen"
+      ]
+    },
+    {
+      "code": "121000",
+      "naam": "HWMW op materiële vaste activa",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "12",
+      "rubriekNaam": "Herwaarderingsmeerwaarden",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Herwaarderingsmeerwaarden op materiële vaste activa",
+      "themas": []
+    },
+    {
+      "code": "122000",
+      "naam": "HWMW op financiële vaste activa",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "12",
+      "rubriekNaam": "Herwaarderingsmeerwaarden",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Herwaarderingsmeerwaarden op financiële vaste activa",
+      "themas": []
+    },
+    {
+      "code": "130000",
+      "naam": "Wettelijke reserve",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "13",
+      "rubriekNaam": "Reserves",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "",
+      "themas": [
+        "grondbeginselen"
+      ]
+    },
+    {
+      "code": "131000",
+      "naam": "Onbeschikbare reserves",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "13",
+      "rubriekNaam": "Reserves",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Andere onbeschikbare reserves",
+      "themas": [
+        "grondbeginselen"
+      ]
+    },
+    {
+      "code": "131100",
+      "naam": "Andere onbeschikbare reserves",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "13",
+      "rubriekNaam": "Reserves",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Andere onbeschikbare reserves",
+      "themas": []
+    },
+    {
+      "code": "132000",
+      "naam": "Belastingvrije reserves",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "13",
+      "rubriekNaam": "Reserves",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Belastingvrije reserves 132 132",
+      "themas": []
+    },
+    {
+      "code": "133000",
+      "naam": "Beschikbare reserves",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "13",
+      "rubriekNaam": "Reserves",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Beschikbare reserves 133 133",
+      "themas": [
+        "grondbeginselen"
+      ]
+    },
+    {
+      "code": "140000",
+      "naam": "Overgedragen winst",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "14",
+      "rubriekNaam": "Overgedragen winst of verlies",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Overgedragen winst",
+      "themas": [
+        "grondbeginselen"
+      ]
+    },
+    {
+      "code": "141000",
+      "naam": "Overgedragen verlies (-)",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "14",
+      "rubriekNaam": "Overgedragen winst of verlies",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Overgedragen verlies (-)",
+      "themas": [
+        "grondbeginselen"
+      ]
+    },
+    {
+      "code": "150000",
+      "naam": "Kapitaalsubsidies",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "15",
+      "rubriekNaam": "Kapitaalsubsidies",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "experts duiden de regelgeving en actualiteit inzake",
+      "themas": [
+        "voorzieningen-subsidies"
+      ]
+    },
+    {
+      "code": "160000",
+      "naam": "Voorzieningen pensioenen",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "16",
+      "rubriekNaam": "Voorzieningen en uitgestelde belastingen",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Voorzieningen voor pensioenen en",
+      "themas": [
+        "voorzieningen-subsidies"
+      ]
+    },
+    {
+      "code": "162000",
+      "naam": "Voorzieningen herstellingswerken",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "16",
+      "rubriekNaam": "Voorzieningen en uitgestelde belastingen",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Voorzieningen voor grote herstellings",
+      "themas": [
+        "voorzieningen-subsidies"
+      ]
+    },
+    {
+      "code": "163000",
+      "naam": "Voorzieningen voor overige risico's en kosten",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "16",
+      "rubriekNaam": "Voorzieningen en uitgestelde belastingen",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Voorzieningen voor milieuverplich",
+      "themas": [
+        "voorzieningen-subsidies"
+      ]
+    },
+    {
+      "code": "168000",
+      "naam": "Uitgestelde belastingen",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "16",
+      "rubriekNaam": "Voorzieningen en uitgestelde belastingen",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Uitgestelde belastingen 168 168",
+      "themas": [
+        "voorzieningen-subsidies"
+      ]
+    },
+    {
+      "code": "170000",
+      "naam": "Schulden op meer dan één jaar",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "17",
+      "rubriekNaam": "Schulden op meer dan één jaar",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Achtergestelde leningen 170",
+      "themas": [
+        "lt-schulden"
+      ]
+    },
+    {
+      "code": "171000",
+      "naam": "Niet-achtergestelde obligatieleningen",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "17",
+      "rubriekNaam": "Schulden op meer dan één jaar",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Niet-achtergestelde obligatieleningen 171",
+      "themas": [
+        "lt-schulden"
+      ]
+    },
+    {
+      "code": "172000",
+      "naam": "Leasing- en soortgelijke schulden",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "17",
+      "rubriekNaam": "Schulden op meer dan één jaar",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Leasingschulden en soortgelijke",
+      "themas": [
+        "lt-schulden"
+      ]
+    },
+    {
+      "code": "173000",
+      "naam": "Kredietinstellingen",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "17",
+      "rubriekNaam": "Schulden op meer dan één jaar",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Kredietinstellingen",
+      "themas": [
+        "lt-schulden"
+      ]
+    },
+    {
+      "code": "174000",
+      "naam": "Overige leningen",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "17",
+      "rubriekNaam": "Schulden op meer dan één jaar",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Overige leningen",
+      "themas": [
+        "lt-schulden"
+      ]
+    },
+    {
+      "code": "176000",
+      "naam": "Ontvangen vooruitbetalingen op bestellingen",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "17",
+      "rubriekNaam": "Schulden op meer dan één jaar",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Vooruitbetalingen op bestellingen 176 176",
+      "themas": [
+        "lt-schulden"
+      ]
+    },
+    {
+      "code": "178000",
+      "naam": "Borgtochten ontvangen in contanten",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "17",
+      "rubriekNaam": "Schulden op meer dan één jaar",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Borgtochten ontvangen in contanten",
+      "themas": [
+        "lt-schulden"
+      ]
+    },
+    {
+      "code": "179000",
+      "naam": "Overige schulden",
+      "klasse": "1",
+      "klasseNaam": "Eigen vermogen, voorzieningen en schulden op meer dan één jaar",
+      "rubriek": "17",
+      "rubriekNaam": "Schulden op meer dan één jaar",
+      "soort": "Passief (eigen vermogen / schuld LT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Overige schulden",
+      "themas": [
+        "lt-schulden"
+      ]
+    },
+    {
+      "code": "200000",
+      "naam": "Kosten van oprichting en kapitaalverhoging",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "20",
+      "rubriekNaam": "Oprichtingskosten",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Kosten van oprichting en kapitaalverhoging en verhoging van de",
+      "themas": []
+    },
+    {
+      "code": "201000",
+      "naam": "Kosten bij uitgifte van leningen",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "20",
+      "rubriekNaam": "Oprichtingskosten",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Kosten bij uitgifte van leningen",
+      "themas": []
+    },
+    {
+      "code": "202000",
+      "naam": "Overige oprichtingskosten",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "20",
+      "rubriekNaam": "Oprichtingskosten",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Overige oprichtingskosten",
+      "themas": []
+    },
+    {
+      "code": "204000",
+      "naam": "Herstructureringskosten",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "20",
+      "rubriekNaam": "Oprichtingskosten",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Herstructureringskosten",
+      "themas": []
+    },
+    {
+      "code": "210000",
+      "naam": "Kosten van onderzoek en ontwikkeling",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "21",
+      "rubriekNaam": "Immateriële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Kosten van onderzoek en ontwikkeling",
+      "themas": []
+    },
+    {
+      "code": "210900",
+      "naam": "Geboekte afschrijvingen of waardeverm",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "21",
+      "rubriekNaam": "Immateriële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Kosten van onderzoek en ontwikkeling",
+      "themas": []
+    },
+    {
+      "code": "211000",
+      "naam": "Concessies, octrooien, licenties, know-how",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "21",
+      "rubriekNaam": "Immateriële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Concessies, octrooien, licenties, knowhow, merken en soortgelijke",
+      "themas": []
+    },
+    {
+      "code": "211900",
+      "naam": "Geboekte afschrijvingen of waardeverm",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "21",
+      "rubriekNaam": "Immateriële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Concessies, octrooien, licenties, knowhow, merken en soortgelijke",
+      "themas": []
+    },
+    {
+      "code": "212000",
+      "naam": "Goodwill",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "21",
+      "rubriekNaam": "Immateriële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Goodwill",
+      "themas": []
+    },
+    {
+      "code": "212900",
+      "naam": "Geboekte afschrijvingen of waardeverm",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "21",
+      "rubriekNaam": "Immateriële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Goodwill",
+      "themas": []
+    },
+    {
+      "code": "213000",
+      "naam": "Vooruitbetalingen",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "21",
+      "rubriekNaam": "Immateriële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Vooruitbetalingen",
+      "themas": []
+    },
+    {
+      "code": "220000",
+      "naam": "Terreinen AW",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "22",
+      "rubriekNaam": "Terreinen en gebouwen",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Terreinen",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "220800",
+      "naam": "Geboekte waardevermeerdering",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "22",
+      "rubriekNaam": "Terreinen en gebouwen",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Terreinen",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "220900",
+      "naam": "Geboekte waardevermindering",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "22",
+      "rubriekNaam": "Terreinen en gebouwen",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Terreinen",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "221000",
+      "naam": "Gebouwen AW",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "22",
+      "rubriekNaam": "Terreinen en gebouwen",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Gebouwen",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "221800",
+      "naam": "Geboekte meerwaarden",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "22",
+      "rubriekNaam": "Terreinen en gebouwen",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Gebouwen",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "221890",
+      "naam": "Geboekte afschrijving vd geboekte meerwaarde",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "22",
+      "rubriekNaam": "Terreinen en gebouwen",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Gebouwen",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "221900",
+      "naam": "Geboekte afschrijvingen (vd aanschafwaarde)",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "22",
+      "rubriekNaam": "Terreinen en gebouwen",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Gebouwen",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "230000",
+      "naam": "Installaties AW",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "23",
+      "rubriekNaam": "Installaties, machines en uitrusting",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Technische installaties en machines",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "230800",
+      "naam": "Geboekte meerwaarden",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "23",
+      "rubriekNaam": "Installaties, machines en uitrusting",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Technische installaties en machines",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "230890",
+      "naam": "Geboekte afschrijving vd geboekte meerwaarde",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "23",
+      "rubriekNaam": "Installaties, machines en uitrusting",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Technische installaties en machines",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "230900",
+      "naam": "Geboekte afschrijvingen (vd aanschafwaarde)",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "23",
+      "rubriekNaam": "Installaties, machines en uitrusting",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Technische installaties en machines",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "231000",
+      "naam": "Machines AW",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "23",
+      "rubriekNaam": "Installaties, machines en uitrusting",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Andere installaties",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "231800",
+      "naam": "Geboekte meerwaarden",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "23",
+      "rubriekNaam": "Installaties, machines en uitrusting",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Andere installaties",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "231890",
+      "naam": "Geboekte afschrijving vd geboekte meerwaarde",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "23",
+      "rubriekNaam": "Installaties, machines en uitrusting",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Andere installaties",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "231900",
+      "naam": "Geboekte afschrijvingen (vd aanschafwaarde)",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "23",
+      "rubriekNaam": "Installaties, machines en uitrusting",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Andere installaties",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "232000",
+      "naam": "Uitrusting",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "23",
+      "rubriekNaam": "Installaties, machines en uitrusting",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Uitrusting",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "232800",
+      "naam": "Geboekte meerwaarden",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "23",
+      "rubriekNaam": "Installaties, machines en uitrusting",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Uitrusting",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "232890",
+      "naam": "Geboekte afschrijving vd geboekte meerwaarde",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "23",
+      "rubriekNaam": "Installaties, machines en uitrusting",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Uitrusting",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "232900",
+      "naam": "Geboekte afschrijvingen (vd aanschafwaarde)",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "23",
+      "rubriekNaam": "Installaties, machines en uitrusting",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Uitrusting",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "238900",
+      "naam": "Geboekte waardevermindering (-)",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "23",
+      "rubriekNaam": "Installaties, machines en uitrusting",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": true,
+      "officieleRekening": "",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "240000",
+      "naam": "Meubilair en rollend materieel",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "24",
+      "rubriekNaam": "Meubilair en rollend materieel",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Kantoormeubilair en -uitrusting",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "240900",
+      "naam": "Geboekte afschrijvingen (vd aanschafwaarde)",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "24",
+      "rubriekNaam": "Meubilair en rollend materieel",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Kantoormeubilair en -uitrusting",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "241000",
+      "naam": "Rollend materieel",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "24",
+      "rubriekNaam": "Meubilair en rollend materieel",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Rollend materieel",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "241900",
+      "naam": "Geboekte afschrijvingen (vd aanschafwaarde)",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "24",
+      "rubriekNaam": "Meubilair en rollend materieel",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Rollend materieel",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "250000",
+      "naam": "Vaste activa in leasing",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "25",
+      "rubriekNaam": "Vaste activa in leasing",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Terreinen en gebouwen",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "250900",
+      "naam": "Geboekte afschrijvingen",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "25",
+      "rubriekNaam": "Vaste activa in leasing",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Terreinen en gebouwen",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "251000",
+      "naam": "Installaties, machines en uitrusting",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "25",
+      "rubriekNaam": "Vaste activa in leasing",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Installaties, machines en uitrusting",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "251900",
+      "naam": "Geboekte afschrijvingen",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "25",
+      "rubriekNaam": "Vaste activa in leasing",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Installaties, machines en uitrusting",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "252000",
+      "naam": "Meubilair en rollend materieel",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "25",
+      "rubriekNaam": "Vaste activa in leasing",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Meubilair en rollend materieel (33)",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "252900",
+      "naam": "Geboekte afschrijvingen",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "25",
+      "rubriekNaam": "Vaste activa in leasing",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Meubilair en rollend materieel (33)",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "260000",
+      "naam": "Andere materiële vaste activa",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "26",
+      "rubriekNaam": "Overige materiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Dieren voor kweek, circus en schouwspelen",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "260900",
+      "naam": "Geboekte afschrijvingen",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "26",
+      "rubriekNaam": "Overige materiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Dieren voor kweek, circus en schouwspelen",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "270000",
+      "naam": "Vaste activa in aanbouw en vooruitbetaling",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "27",
+      "rubriekNaam": "Vaste activa in aanbouw en vooruitbetalingen",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "280000",
+      "naam": "Deelnemingen in verbonden ondernemingen",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "28",
+      "rubriekNaam": "Financiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Deelnemingen in verbonden onderne",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "280100",
+      "naam": "Nog te storten bedragen (-)",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "28",
+      "rubriekNaam": "Financiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Deelnemingen in verbonden onderne",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "280800",
+      "naam": "Geboekte meerwaarden",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "28",
+      "rubriekNaam": "Financiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Deelnemingen in verbonden onderne",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "280900",
+      "naam": "Geboekte waardeverm (-)",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "28",
+      "rubriekNaam": "Financiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Deelnemingen in verbonden onderne",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "281000",
+      "naam": "Vorderingen op verbonden ondernemingen",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "28",
+      "rubriekNaam": "Financiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Vorderingen op verbonden ondernemin",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "281700",
+      "naam": "Dubieuze debiteuren",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "28",
+      "rubriekNaam": "Financiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Vorderingen op verbonden ondernemin",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "281900",
+      "naam": "Geboekte waardeverm (-)",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "28",
+      "rubriekNaam": "Financiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Vorderingen op verbonden ondernemin",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "282000",
+      "naam": "Deelnemingen deelnemingsverhouding",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "28",
+      "rubriekNaam": "Financiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Deelnemingen in ondernemingen waar",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "282100",
+      "naam": "Nog te storten bedragen (-)",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "28",
+      "rubriekNaam": "Financiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Deelnemingen in ondernemingen waar",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "282800",
+      "naam": "Geboekte meerwaarden",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "28",
+      "rubriekNaam": "Financiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Deelnemingen in ondernemingen waar",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "282900",
+      "naam": "Geboekte waardeverm deelnemingsverhouding(-)",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "28",
+      "rubriekNaam": "Financiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Deelnemingen in ondernemingen waar",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "283000",
+      "naam": "Vorderingen op rekening",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "28",
+      "rubriekNaam": "Financiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Vorderingen op ondernemingen waar",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "283700",
+      "naam": "Dubieuze debiteuren",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "28",
+      "rubriekNaam": "Financiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Vorderingen op ondernemingen waar",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "283800",
+      "naam": "Geboekte waardeverm (-)",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "28",
+      "rubriekNaam": "Financiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Vorderingen op ondernemingen waar",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "284000",
+      "naam": "Andere aandelen",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "28",
+      "rubriekNaam": "Financiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Andere aandelen 284",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "284100",
+      "naam": "Nog te storten bedragen (-)",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "28",
+      "rubriekNaam": "Financiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Andere aandelen 284",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "284800",
+      "naam": "Geboekte meerwaarden",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "28",
+      "rubriekNaam": "Financiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Andere aandelen 284",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "284900",
+      "naam": "Geboekte waardeverm (-)",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "28",
+      "rubriekNaam": "Financiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Andere aandelen 284",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "285200",
+      "naam": "Vastrentende effecten",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "28",
+      "rubriekNaam": "Financiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Overige vorderingen 285/8",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "288000",
+      "naam": "Borgtochten betaald in contanten",
+      "klasse": "2",
+      "klasseNaam": "Oprichtingskosten, vaste activa en vorderingen op meer dan één jaar",
+      "rubriek": "28",
+      "rubriekNaam": "Financiële vaste activa",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Borgtochten betaald in contanten 285/8",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "300000",
+      "naam": "Grondstoffen",
+      "klasse": "3",
+      "klasseNaam": "Voorraden en bestellingen in uitvoering",
+      "rubriek": "30",
+      "rubriekNaam": "Grondstoffen",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Aanschaffingswaarde",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "309000",
+      "naam": "Geboekte waardeverm (-)",
+      "klasse": "3",
+      "klasseNaam": "Voorraden en bestellingen in uitvoering",
+      "rubriek": "30",
+      "rubriekNaam": "Grondstoffen",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Geboekte waardeverminderingen (-)",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "310000",
+      "naam": "Hulpstoffen",
+      "klasse": "3",
+      "klasseNaam": "Voorraden en bestellingen in uitvoering",
+      "rubriek": "31",
+      "rubriekNaam": "Hulpstoffen",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Aanschaffingswaarde",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "319000",
+      "naam": "Geboekte waardeverm (-)",
+      "klasse": "3",
+      "klasseNaam": "Voorraden en bestellingen in uitvoering",
+      "rubriek": "31",
+      "rubriekNaam": "Hulpstoffen",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Geboekte waardeverminderingen (-)",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "320000",
+      "naam": "Goederen in bewerking",
+      "klasse": "3",
+      "klasseNaam": "Voorraden en bestellingen in uitvoering",
+      "rubriek": "32",
+      "rubriekNaam": "Goederen in bewerking",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Aanschaffingswaarde",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "329000",
+      "naam": "Geboekte waardeverm (-)",
+      "klasse": "3",
+      "klasseNaam": "Voorraden en bestellingen in uitvoering",
+      "rubriek": "32",
+      "rubriekNaam": "Goederen in bewerking",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Geboekte waardeverminderingen (-)",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "330000",
+      "naam": "Gereed product",
+      "klasse": "3",
+      "klasseNaam": "Voorraden en bestellingen in uitvoering",
+      "rubriek": "33",
+      "rubriekNaam": "Gereed product",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Aanschaffingswaarde",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "340000",
+      "naam": "Handelsgoederen (HG)",
+      "klasse": "3",
+      "klasseNaam": "Voorraden en bestellingen in uitvoering",
+      "rubriek": "34",
+      "rubriekNaam": "Handelsgoederen",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Aanschaffingswaarde",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "349000",
+      "naam": "Geboekte waardeverm (-)",
+      "klasse": "3",
+      "klasseNaam": "Voorraden en bestellingen in uitvoering",
+      "rubriek": "34",
+      "rubriekNaam": "Handelsgoederen",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Geboekte waardeverminderingen (-)",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "360000",
+      "naam": "Vooruitbetalingen",
+      "klasse": "3",
+      "klasseNaam": "Voorraden en bestellingen in uitvoering",
+      "rubriek": "36",
+      "rubriekNaam": "Vooruitbetalingen op voorraadinkopen",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Vooruitbetalingen",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "369000",
+      "naam": "Geboekte waardeverm (-)",
+      "klasse": "3",
+      "klasseNaam": "Voorraden en bestellingen in uitvoering",
+      "rubriek": "36",
+      "rubriekNaam": "Vooruitbetalingen op voorraadinkopen",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Geboekte waardeverminderingen (-)",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "370000",
+      "naam": "Bestellingen in uitvoering",
+      "klasse": "3",
+      "klasseNaam": "Voorraden en bestellingen in uitvoering",
+      "rubriek": "37",
+      "rubriekNaam": "Bestellingen in uitvoering",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Aanschaffingswaarde",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "379000",
+      "naam": "Geboekte waardeverm (-)",
+      "klasse": "3",
+      "klasseNaam": "Voorraden en bestellingen in uitvoering",
+      "rubriek": "37",
+      "rubriekNaam": "Bestellingen in uitvoering",
+      "soort": "Actief (vaste activa / voorraden)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Geboekte waardeverminderingen (-)",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "400000",
+      "naam": "Klanten",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "40",
+      "rubriekNaam": "Handelsvorderingen",
+      "soort": "Actief (vordering KT)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Handelsdebiteuren",
+      "themas": [
+        "aankoop-verkoop",
+        "dubieuze-debiteuren"
+      ]
+    },
+    {
+      "code": "404000",
+      "naam": "Te innen opbrengsten",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "40",
+      "rubriekNaam": "Handelsvorderingen",
+      "soort": "Actief (vordering KT)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Te innen opbrengsten",
+      "themas": [
+        "aankoop-verkoop"
+      ]
+    },
+    {
+      "code": "404200",
+      "naam": "Op te stellen facturen",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "40",
+      "rubriekNaam": "Handelsvorderingen",
+      "soort": "Actief (vordering KT)",
+      "natuur": "debet",
+      "custom": true,
+      "officieleRekening": "Te innen opbrengsten",
+      "themas": [
+        "aankoop-verkoop"
+      ]
+    },
+    {
+      "code": "406000",
+      "naam": "Vooruitbetalingen",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "40",
+      "rubriekNaam": "Handelsvorderingen",
+      "soort": "Actief (vordering KT)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Vooruitbetalingen",
+      "themas": [
+        "aankoop-verkoop"
+      ]
+    },
+    {
+      "code": "407000",
+      "naam": "Dubieuze debiteuren",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "40",
+      "rubriekNaam": "Handelsvorderingen",
+      "soort": "Actief (vordering KT)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Dubieuze debiteuren",
+      "themas": [
+        "aankoop-verkoop",
+        "dubieuze-debiteuren"
+      ]
+    },
+    {
+      "code": "409000",
+      "naam": "Geboekte waardeverminderingen (-)",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "40",
+      "rubriekNaam": "Handelsvorderingen",
+      "soort": "Actief (vordering KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Geboekte waardeverminderingen (-)",
+      "themas": [
+        "aankoop-verkoop",
+        "dubieuze-debiteuren"
+      ]
+    },
+    {
+      "code": "409100",
+      "naam": "Geboekte waardeverm (-)",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "40",
+      "rubriekNaam": "Handelsvorderingen",
+      "soort": "Actief (vordering KT)",
+      "natuur": "credit",
+      "custom": true,
+      "officieleRekening": "Geboekte waardeverminderingen (-)",
+      "themas": [
+        "aankoop-verkoop",
+        "dubieuze-debiteuren"
+      ]
+    },
+    {
+      "code": "409200",
+      "naam": "Teruggevraagde btw (op dubieuze)",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "40",
+      "rubriekNaam": "Handelsvorderingen",
+      "soort": "Actief (vordering KT)",
+      "natuur": "debet",
+      "custom": true,
+      "officieleRekening": "Geboekte waardeverminderingen (-)",
+      "themas": [
+        "aankoop-verkoop",
+        "btw",
+        "dubieuze-debiteuren"
+      ]
+    },
+    {
+      "code": "410000",
+      "naam": "Opgevraagd, niet-volgestort kapitaal",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "41",
+      "rubriekNaam": "Overige vorderingen",
+      "soort": "Actief (vordering KT)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Opgevraagd, niet gestort kapitaal of inbreng",
+      "themas": []
+    },
+    {
+      "code": "411000",
+      "naam": "Terug te vorderen B.T.W",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "41",
+      "rubriekNaam": "Overige vorderingen",
+      "soort": "Actief (vordering KT)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Terug te vorderen B.T.W",
+      "themas": [
+        "btw"
+      ]
+    },
+    {
+      "code": "411590",
+      "naam": "Aftrekbare btw (ABTW)",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "41",
+      "rubriekNaam": "Overige vorderingen",
+      "soort": "Actief (vordering KT)",
+      "natuur": "debet",
+      "custom": true,
+      "officieleRekening": "Terug te vorderen B.T.W",
+      "themas": [
+        "btw"
+      ]
+    },
+    {
+      "code": "411620",
+      "naam": "Btw herziening in het voordeel",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "41",
+      "rubriekNaam": "Overige vorderingen",
+      "soort": "Actief (vordering KT)",
+      "natuur": "debet",
+      "custom": true,
+      "officieleRekening": "Terug te vorderen B.T.W",
+      "themas": [
+        "btw"
+      ]
+    },
+    {
+      "code": "411630",
+      "naam": "Regularisatie aftrekbare btw (RABTW)",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "41",
+      "rubriekNaam": "Overige vorderingen",
+      "soort": "Actief (vordering KT)",
+      "natuur": "debet",
+      "custom": true,
+      "officieleRekening": "Terug te vorderen B.T.W",
+      "themas": [
+        "btw"
+      ]
+    },
+    {
+      "code": "412000",
+      "naam": "Terug te vorderen belastingen geraamd",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "41",
+      "rubriekNaam": "Overige vorderingen",
+      "soort": "Actief (vordering KT)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Terug te vorderen belastingen en voorheffingen",
+      "themas": []
+    },
+    {
+      "code": "412020",
+      "naam": "Terug te vorderen belastingen",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "41",
+      "rubriekNaam": "Overige vorderingen",
+      "soort": "Actief (vordering KT)",
+      "natuur": "debet",
+      "custom": true,
+      "officieleRekening": "Terug te vorderen belastingen en voorheffingen",
+      "themas": []
+    },
+    {
+      "code": "416000",
+      "naam": "Diverse vorderingen",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "41",
+      "rubriekNaam": "Overige vorderingen",
+      "soort": "Actief (vordering KT)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Diverse vorderingen",
+      "themas": [
+        "dubieuze-debiteuren"
+      ]
+    },
+    {
+      "code": "418000",
+      "naam": "Waarborg",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "41",
+      "rubriekNaam": "Overige vorderingen",
+      "soort": "Actief (vordering KT)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Borgtochten betaald in contanten",
+      "themas": []
+    },
+    {
+      "code": "423000",
+      "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "42",
+      "rubriekNaam": "Schulden op meer dan één jaar die binnen het jaar vervallen",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "",
+      "themas": [
+        "lt-schulden"
+      ]
+    },
+    {
+      "code": "426000",
+      "naam": "Ontvangen vooruitbetalingen op bestellingen",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "42",
+      "rubriekNaam": "Schulden op meer dan één jaar die binnen het jaar vervallen",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "",
+      "themas": [
+        "lt-schulden"
+      ]
+    },
+    {
+      "code": "430000",
+      "naam": "Kredietinstellingen – Leningen vaste termijn",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "43",
+      "rubriekNaam": "Financiële schulden",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Kredietinstellingen – Leningen op reke",
+      "themas": [
+        "lt-schulden"
+      ]
+    },
+    {
+      "code": "433000",
+      "naam": "Kredietinstellingen",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "43",
+      "rubriekNaam": "Financiële schulden",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Kredietinstellingen – Schulden in reke",
+      "themas": [
+        "lt-schulden"
+      ]
+    },
+    {
+      "code": "439000",
+      "naam": "Overige leningen (financiële schuld KT)",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "43",
+      "rubriekNaam": "Financiële schulden",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Overige leningen",
+      "themas": [
+        "lt-schulden"
+      ]
+    },
+    {
+      "code": "440000",
+      "naam": "Leveranciers",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "44",
+      "rubriekNaam": "Handelsschulden",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Leveranciers 440/4 440/4",
+      "themas": [
+        "aankoop-verkoop"
+      ]
+    },
+    {
+      "code": "444000",
+      "naam": "Te ontvangen facturen",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "44",
+      "rubriekNaam": "Handelsschulden",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Te ontvangen facturen",
+      "themas": [
+        "aankoop-verkoop"
+      ]
+    },
+    {
+      "code": "444100",
+      "naam": "Op te maken creditnota's",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "44",
+      "rubriekNaam": "Handelsschulden",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": true,
+      "officieleRekening": "Te ontvangen facturen",
+      "themas": [
+        "aankoop-verkoop"
+      ]
+    },
+    {
+      "code": "450000",
+      "naam": "Geraamd bedrag der belastingschulden",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "45",
+      "rubriekNaam": "Schulden m.b.t. belastingen, bezoldigingen en sociale lasten",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Geraamd bedrag der belastingschulden",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "451000",
+      "naam": "Te betalen B.T.W",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "45",
+      "rubriekNaam": "Schulden m.b.t. belastingen, bezoldigingen en sociale lasten",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Te betalen B.T.W",
+      "themas": [
+        "btw"
+      ]
+    },
+    {
+      "code": "451300",
+      "naam": "Te betalen btw – verlegd (medecontractant)",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "45",
+      "rubriekNaam": "Schulden m.b.t. belastingen, bezoldigingen en sociale lasten",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": true,
+      "officieleRekening": "Te betalen B.T.W",
+      "themas": [
+        "btw",
+        "personeel"
+      ]
+    },
+    {
+      "code": "451540",
+      "naam": "Verschuldigde btw (VBTW)",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "45",
+      "rubriekNaam": "Schulden m.b.t. belastingen, bezoldigingen en sociale lasten",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": true,
+      "officieleRekening": "Te betalen B.T.W",
+      "themas": [
+        "btw",
+        "personeel"
+      ]
+    },
+    {
+      "code": "451550",
+      "naam": "Te betalen btw – verlegd",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "45",
+      "rubriekNaam": "Schulden m.b.t. belastingen, bezoldigingen en sociale lasten",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": true,
+      "officieleRekening": "Te betalen B.T.W",
+      "themas": [
+        "btw",
+        "personeel"
+      ]
+    },
+    {
+      "code": "451560",
+      "naam": "Te betalen btw – intracommunautair",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "45",
+      "rubriekNaam": "Schulden m.b.t. belastingen, bezoldigingen en sociale lasten",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": true,
+      "officieleRekening": "Te betalen B.T.W",
+      "themas": [
+        "btw",
+        "personeel"
+      ]
+    },
+    {
+      "code": "451570",
+      "naam": "Te betalen btw – invoer",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "45",
+      "rubriekNaam": "Schulden m.b.t. belastingen, bezoldigingen en sociale lasten",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": true,
+      "officieleRekening": "Te betalen B.T.W",
+      "themas": [
+        "btw",
+        "personeel"
+      ]
+    },
+    {
+      "code": "451610",
+      "naam": "Btw herziening in het nadeel",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "45",
+      "rubriekNaam": "Schulden m.b.t. belastingen, bezoldigingen en sociale lasten",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": true,
+      "officieleRekening": "Te betalen B.T.W",
+      "themas": [
+        "btw",
+        "personeel"
+      ]
+    },
+    {
+      "code": "451640",
+      "naam": "Regularisatie verschuldigde btw (RVBTW)",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "45",
+      "rubriekNaam": "Schulden m.b.t. belastingen, bezoldigingen en sociale lasten",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": true,
+      "officieleRekening": "Te betalen B.T.W",
+      "themas": [
+        "btw",
+        "personeel"
+      ]
+    },
+    {
+      "code": "452000",
+      "naam": "Te betalen belastingen en taksen",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "45",
+      "rubriekNaam": "Schulden m.b.t. belastingen, bezoldigingen en sociale lasten",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Te betalen belastingen en taksen",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "453000",
+      "naam": "Ingehouden voorheffingen",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "45",
+      "rubriekNaam": "Schulden m.b.t. belastingen, bezoldigingen en sociale lasten",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Ingehouden voorheffingen",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "454000",
+      "naam": "Rijksdienst voor Sociale Zekerheid",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "45",
+      "rubriekNaam": "Schulden m.b.t. belastingen, bezoldigingen en sociale lasten",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Rijksdienst voor Sociale Zekerheid",
+      "themas": [
+        "personeel"
+      ]
+    },
+    {
+      "code": "455000",
+      "naam": "Bezoldigingen",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "45",
+      "rubriekNaam": "Schulden m.b.t. belastingen, bezoldigingen en sociale lasten",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Bezoldigingen",
+      "themas": [
+        "personeel"
+      ]
+    },
+    {
+      "code": "456000",
+      "naam": "Vakantiegeld",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "45",
+      "rubriekNaam": "Schulden m.b.t. belastingen, bezoldigingen en sociale lasten",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Vakantiegeld",
+      "themas": [
+        "personeel"
+      ]
+    },
+    {
+      "code": "460000",
+      "naam": "Ontvangen vooruitbetalingen op bestellingen",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "46",
+      "rubriekNaam": "Ontvangen vooruitbetalingen op bestellingen",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Te ontvangen vooruitbetalingen",
+      "themas": []
+    },
+    {
+      "code": "470000",
+      "naam": "Schulden uit de bestemming van het resultaat",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "47",
+      "rubriekNaam": "Schulden uit de bestemming van het resultaat",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Dividenden en tantièmes over vorige",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "471000",
+      "naam": "Dividenden over het boekjaar",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "47",
+      "rubriekNaam": "Schulden uit de bestemming van het resultaat",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Dividenden over het boekjaar",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "472000",
+      "naam": "Tantièmes over het boekjaar",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "47",
+      "rubriekNaam": "Schulden uit de bestemming van het resultaat",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Tantièmes over het boekjaar",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "473000",
+      "naam": "Andere rechthebbenden",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "47",
+      "rubriekNaam": "Schulden uit de bestemming van het resultaat",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Andere rechthebbenden",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "474000",
+      "naam": "Terug te betalen aandelen",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "47",
+      "rubriekNaam": "Schulden uit de bestemming van het resultaat",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Terug te betalen aandelen",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "480000",
+      "naam": "Andere schulden",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "48",
+      "rubriekNaam": "Diverse schulden",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Vervallen obligaties en coupons",
+      "themas": []
+    },
+    {
+      "code": "488000",
+      "naam": "Waarborg",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "48",
+      "rubriekNaam": "Diverse schulden",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Borgtochten ontvangen in contanten",
+      "themas": []
+    },
+    {
+      "code": "489000",
+      "naam": "Andere diverse schulden",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "48",
+      "rubriekNaam": "Diverse schulden",
+      "soort": "Passief (schuld KT)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Andere diverse schulden",
+      "themas": []
+    },
+    {
+      "code": "490000",
+      "naam": "Over te dragen kosten",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "49",
+      "rubriekNaam": "Overlopende rekeningen",
+      "soort": "Overlopende rekening",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Over te dragen kosten",
+      "themas": [
+        "overlopende-rekeningen"
+      ]
+    },
+    {
+      "code": "491000",
+      "naam": "Verkregen opbrengsten",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "49",
+      "rubriekNaam": "Overlopende rekeningen",
+      "soort": "Overlopende rekening",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Verkregen opbrengsten",
+      "themas": [
+        "overlopende-rekeningen"
+      ]
+    },
+    {
+      "code": "492000",
+      "naam": "Toe te rekenen kosten",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "49",
+      "rubriekNaam": "Overlopende rekeningen",
+      "soort": "Overlopende rekening",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Toe te rekenen kosten",
+      "themas": [
+        "overlopende-rekeningen"
+      ]
+    },
+    {
+      "code": "493000",
+      "naam": "Over te dragen opbrengsten",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "49",
+      "rubriekNaam": "Overlopende rekeningen",
+      "soort": "Overlopende rekening",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Over te dragen opbrengsten",
+      "themas": [
+        "overlopende-rekeningen"
+      ]
+    },
+    {
+      "code": "499000",
+      "naam": "Wachtrekening afschrijvingen",
+      "klasse": "4",
+      "klasseNaam": "Vorderingen en schulden op ten hoogste één jaar",
+      "rubriek": "49",
+      "rubriekNaam": "Overlopende rekeningen",
+      "soort": "Overlopende rekening",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Wachtrekeningen",
+      "themas": []
+    },
+    {
+      "code": "510000",
+      "naam": "Aandelen",
+      "klasse": "5",
+      "klasseNaam": "Geldbeleggingen en liquide middelen",
+      "rubriek": "51",
+      "rubriekNaam": "Aandelen en geldbeleggingen",
+      "soort": "Actief (geldbelegging / liquide middel)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Aanschaffingswaarde",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "510900",
+      "naam": "Aandelen – geboekte waardevermindering (-)",
+      "klasse": "5",
+      "klasseNaam": "Geldbeleggingen en liquide middelen",
+      "rubriek": "51",
+      "rubriekNaam": "Aandelen en geldbeleggingen",
+      "soort": "Actief (geldbelegging / liquide middel)",
+      "natuur": "credit",
+      "custom": true,
+      "officieleRekening": "Aanschaffingswaarde",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "511000",
+      "naam": "Niet opgevraagde bedragen (-)",
+      "klasse": "5",
+      "klasseNaam": "Geldbeleggingen en liquide middelen",
+      "rubriek": "51",
+      "rubriekNaam": "Aandelen en geldbeleggingen",
+      "soort": "Actief (geldbelegging / liquide middel)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Niet opgevraagde bedragen (-)",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "519000",
+      "naam": "Geboekte waardeverm (-)",
+      "klasse": "5",
+      "klasseNaam": "Geldbeleggingen en liquide middelen",
+      "rubriek": "51",
+      "rubriekNaam": "Aandelen en geldbeleggingen",
+      "soort": "Actief (geldbelegging / liquide middel)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Geboekte waardeverminderingen (-)",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "530000",
+      "naam": "Termoijndeposito's > 1 jaar",
+      "klasse": "5",
+      "klasseNaam": "Geldbeleggingen en liquide middelen",
+      "rubriek": "53",
+      "rubriekNaam": "Termijndeposito's",
+      "soort": "Actief (geldbelegging / liquide middel)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Op meer dan één jaar",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "531000",
+      "naam": "Termijndeposito's > 1 maand en < 1 jaar",
+      "klasse": "5",
+      "klasseNaam": "Geldbeleggingen en liquide middelen",
+      "rubriek": "53",
+      "rubriekNaam": "Termijndeposito's",
+      "soort": "Actief (geldbelegging / liquide middel)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Op meer dan één maand en op ten hoogste één jaar",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "532000",
+      "naam": "Op ten hoogste één maand",
+      "klasse": "5",
+      "klasseNaam": "Geldbeleggingen en liquide middelen",
+      "rubriek": "53",
+      "rubriekNaam": "Termijndeposito's",
+      "soort": "Actief (geldbelegging / liquide middel)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Op ten hoogste één maand",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "539000",
+      "naam": "Geboekte waardeverm (-)",
+      "klasse": "5",
+      "klasseNaam": "Geldbeleggingen en liquide middelen",
+      "rubriek": "53",
+      "rubriekNaam": "Termijndeposito's",
+      "soort": "Actief (geldbelegging / liquide middel)",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Geboekte waardeverminderingen (-) (11)",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "540000",
+      "naam": "Te incasseren vervallen waarden",
+      "klasse": "5",
+      "klasseNaam": "Geldbeleggingen en liquide middelen",
+      "rubriek": "54",
+      "rubriekNaam": "Te incasseren vervallen waarden",
+      "soort": "Actief (geldbelegging / liquide middel)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "550000",
+      "naam": "Kredietinstellingen",
+      "klasse": "5",
+      "klasseNaam": "Geldbeleggingen en liquide middelen",
+      "rubriek": "55",
+      "rubriekNaam": "Kredietinstellingen",
+      "soort": "Actief (geldbelegging / liquide middel)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "tot 559 Rekeningen geopend bij verschillende instellingen, onder te",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "550001",
+      "naam": "Uitgeschreven cheques (-)",
+      "klasse": "5",
+      "klasseNaam": "Geldbeleggingen en liquide middelen",
+      "rubriek": "55",
+      "rubriekNaam": "Kredietinstellingen",
+      "soort": "Actief (geldbelegging / liquide middel)",
+      "natuur": "credit",
+      "custom": true,
+      "officieleRekening": "tot 559 Rekeningen geopend bij verschillende instellingen, onder te",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "560000",
+      "naam": "Postcheque en girodienst",
+      "klasse": "5",
+      "klasseNaam": "Geldbeleggingen en liquide middelen",
+      "rubriek": "56",
+      "rubriekNaam": "Postcheque en girodienst",
+      "soort": "Actief (geldbelegging / liquide middel)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "570000",
+      "naam": "Kas – contanten (570-576)",
+      "klasse": "5",
+      "klasseNaam": "Geldbeleggingen en liquide middelen",
+      "rubriek": "57",
+      "rubriekNaam": "Kassen",
+      "soort": "Actief (geldbelegging / liquide middel)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "tot 577 Kas – contanten",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "579000",
+      "naam": "Kas – maaltijdcheques",
+      "klasse": "5",
+      "klasseNaam": "Geldbeleggingen en liquide middelen",
+      "rubriek": "57",
+      "rubriekNaam": "Kassen",
+      "soort": "Actief (geldbelegging / liquide middel)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Kas – maaltijdcheques",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "580000",
+      "naam": "Interne overboekingen",
+      "klasse": "5",
+      "klasseNaam": "Geldbeleggingen en liquide middelen",
+      "rubriek": "58",
+      "rubriekNaam": "Interne overboekingen",
+      "soort": "Actief (geldbelegging / liquide middel)",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Transferten",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "600000",
+      "naam": "Aankopen van grondstoffen",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "60",
+      "rubriekNaam": "Handelsgoederen, grond- en hulpstoffen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Aankopen van grondstoffen 600/8",
+      "themas": [
+        "aankoop-verkoop"
+      ]
+    },
+    {
+      "code": "601000",
+      "naam": "Aankopen van hulpstoffen",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "60",
+      "rubriekNaam": "Handelsgoederen, grond- en hulpstoffen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Aankopen van hulpstoffen",
+      "themas": [
+        "aankoop-verkoop"
+      ]
+    },
+    {
+      "code": "602000",
+      "naam": "Aankopen van diensten, werk en studies",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "60",
+      "rubriekNaam": "Handelsgoederen, grond- en hulpstoffen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Aankopen van diensten, werk en studies",
+      "themas": [
+        "aankoop-verkoop"
+      ]
+    },
+    {
+      "code": "603000",
+      "naam": "Algemene onderaannemingen",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "60",
+      "rubriekNaam": "Handelsgoederen, grond- en hulpstoffen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Algemene onderaannemingen",
+      "themas": []
+    },
+    {
+      "code": "604000",
+      "naam": "Aankopen van handelsgoederen (HG)",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "60",
+      "rubriekNaam": "Handelsgoederen, grond- en hulpstoffen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Aankopen van handelsgoederen",
+      "themas": [
+        "aankoop-verkoop"
+      ]
+    },
+    {
+      "code": "604001",
+      "naam": "Inkomende creditnota (ICN) op aankopen HG",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "60",
+      "rubriekNaam": "Handelsgoederen, grond- en hulpstoffen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": true,
+      "officieleRekening": "Aankopen van handelsgoederen",
+      "themas": [
+        "aankoop-verkoop"
+      ]
+    },
+    {
+      "code": "604100",
+      "naam": "Inkomende creditnota (ICN)",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "60",
+      "rubriekNaam": "Handelsgoederen, grond- en hulpstoffen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": true,
+      "officieleRekening": "Aankopen van handelsgoederen",
+      "themas": [
+        "aankoop-verkoop"
+      ]
+    },
+    {
+      "code": "605000",
+      "naam": "Aankopen onroerende goederen bestemd voor verkoop",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "60",
+      "rubriekNaam": "Handelsgoederen, grond- en hulpstoffen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Aankopen van onroerende goederen",
+      "themas": []
+    },
+    {
+      "code": "606000",
+      "naam": "Bijkomende kosten",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "60",
+      "rubriekNaam": "Handelsgoederen, grond- en hulpstoffen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Bijkomende aankoopkosten",
+      "themas": [
+        "aankoop-verkoop"
+      ]
+    },
+    {
+      "code": "608000",
+      "naam": "Handelskorting / commerciële korting ontvangen (-)",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "60",
+      "rubriekNaam": "Handelsgoederen, grond- en hulpstoffen",
+      "soort": "Resultaat – kost",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Ontvangen kortingen, ristorno’s en rabat",
+      "themas": [
+        "aankoop-verkoop"
+      ]
+    },
+    {
+      "code": "609000",
+      "naam": "Voorraadwijziging van grondstoffen",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "60",
+      "rubriekNaam": "Handelsgoederen, grond- en hulpstoffen",
+      "soort": "Resultaat – kost",
+      "natuur": "beide",
+      "custom": false,
+      "officieleRekening": "Voorraadwijzigingen 609",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "609100",
+      "naam": "Voorraadwijziging van hulpstoffen",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "60",
+      "rubriekNaam": "Handelsgoederen, grond- en hulpstoffen",
+      "soort": "Resultaat – kost",
+      "natuur": "beide",
+      "custom": false,
+      "officieleRekening": "Voorraadwijzigingen 609",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "609400",
+      "naam": "Voorraadwijziging van handelsgoederen (HG)",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "60",
+      "rubriekNaam": "Handelsgoederen, grond- en hulpstoffen",
+      "soort": "Resultaat – kost",
+      "natuur": "beide",
+      "custom": false,
+      "officieleRekening": "Voorraadwijzigingen 609",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "610000",
+      "naam": "Diensten en diverse goederen",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "61",
+      "rubriekNaam": "Diensten en diverse goederen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Huurlasten (te detailleren in functie van de aard van de kost)",
+      "themas": [
+        "aankoop-verkoop"
+      ]
+    },
+    {
+      "code": "617000",
+      "naam": "Uitzendkrachten",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "61",
+      "rubriekNaam": "Diensten en diverse goederen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Uitzendkrachten en personen ter beschikking van de onderneming",
+      "themas": []
+    },
+    {
+      "code": "618000",
+      "naam": "Bezoldiging bestuurders",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "61",
+      "rubriekNaam": "Diensten en diverse goederen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Bezoldiging, premies voor buitenwettelijke verzekeringen, ouderdoms- en",
+      "themas": []
+    },
+    {
+      "code": "620000",
+      "naam": "Bezoldigingen, sociale lasten en pensioenen",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "62",
+      "rubriekNaam": "Bezoldigingen, sociale lasten en pensioenen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Bezoldigingen en rechtstreekse sociale voordelen",
+      "themas": [
+        "personeel"
+      ]
+    },
+    {
+      "code": "620100",
+      "naam": "Loon arbeider",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "62",
+      "rubriekNaam": "Bezoldigingen, sociale lasten en pensioenen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": true,
+      "officieleRekening": "Bezoldigingen en rechtstreekse sociale voordelen",
+      "themas": [
+        "personeel"
+      ]
+    },
+    {
+      "code": "620200",
+      "naam": "Bezoldiging bediende",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "62",
+      "rubriekNaam": "Bezoldigingen, sociale lasten en pensioenen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": true,
+      "officieleRekening": "Bezoldigingen en rechtstreekse sociale voordelen",
+      "themas": [
+        "personeel"
+      ]
+    },
+    {
+      "code": "621000",
+      "naam": "Werkgeversbijdragen voor sociale verzekeringen",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "62",
+      "rubriekNaam": "Bezoldigingen, sociale lasten en pensioenen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Werkgeversbijdragen voor sociale verzekeringen",
+      "themas": [
+        "personeel"
+      ]
+    },
+    {
+      "code": "622000",
+      "naam": "Werkgevers premies extra-legaal verzekering",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "62",
+      "rubriekNaam": "Bezoldigingen, sociale lasten en pensioenen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Werkgeverspremies voor bovenwettelijke verzekeringen",
+      "themas": [
+        "personeel"
+      ]
+    },
+    {
+      "code": "623000",
+      "naam": "Andere personeelskosten",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "62",
+      "rubriekNaam": "Bezoldigingen, sociale lasten en pensioenen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Andere personeelskosten",
+      "themas": [
+        "personeel"
+      ]
+    },
+    {
+      "code": "624000",
+      "naam": "Ouderdoms- en overlevingspensioenen",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "62",
+      "rubriekNaam": "Bezoldigingen, sociale lasten en pensioenen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Ouderdoms- en overlevingspensioenen",
+      "themas": [
+        "personeel"
+      ]
+    },
+    {
+      "code": "630000",
+      "naam": "Afschrijvingen op oprichtingskosten",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "63",
+      "rubriekNaam": "Afschrijvingen, waardeverminderingen en voorzieningen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Afschrijvingen en waardeverminderin",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "630100",
+      "naam": "Afschrijvingen op immateriële vaste activa",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "63",
+      "rubriekNaam": "Afschrijvingen, waardeverminderingen en voorzieningen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Afschrijvingen en waardeverminderin",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "630200",
+      "naam": "Afschrijvingen op materiële vaste activa",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "63",
+      "rubriekNaam": "Afschrijvingen, waardeverminderingen en voorzieningen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Afschrijvingen en waardeverminderin",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "630800",
+      "naam": "waardeverm op immateriële vaste activa",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "63",
+      "rubriekNaam": "Afschrijvingen, waardeverminderingen en voorzieningen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Afschrijvingen en waardeverminderin",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "630900",
+      "naam": "waardeverm op materiële vaste activa",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "63",
+      "rubriekNaam": "Afschrijvingen, waardeverminderingen en voorzieningen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Afschrijvingen en waardeverminderin",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "631000",
+      "naam": "waardeverm op voorraden",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "63",
+      "rubriekNaam": "Afschrijvingen, waardeverminderingen en voorzieningen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Waardeverminderingen op voorraden",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "631100",
+      "naam": "Terugneming (-)",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "63",
+      "rubriekNaam": "Afschrijvingen, waardeverminderingen en voorzieningen",
+      "soort": "Resultaat – kost",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Waardeverminderingen op voorraden",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "632000",
+      "naam": "waardeverm op bestellingen in uitvoering",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "63",
+      "rubriekNaam": "Afschrijvingen, waardeverminderingen en voorzieningen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Waardeverminderingen op bestellingen in",
+      "themas": []
+    },
+    {
+      "code": "632100",
+      "naam": "Terugneming (-)",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "63",
+      "rubriekNaam": "Afschrijvingen, waardeverminderingen en voorzieningen",
+      "soort": "Resultaat – kost",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Waardeverminderingen op bestellingen in",
+      "themas": []
+    },
+    {
+      "code": "634000",
+      "naam": "waardeverm op handelsvordering <1jr",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "63",
+      "rubriekNaam": "Afschrijvingen, waardeverminderingen en voorzieningen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Waardeverminderingen op handelsvorde",
+      "themas": [
+        "dubieuze-debiteuren"
+      ]
+    },
+    {
+      "code": "634100",
+      "naam": "Terugneming (-)",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "63",
+      "rubriekNaam": "Afschrijvingen, waardeverminderingen en voorzieningen",
+      "soort": "Resultaat – kost",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Waardeverminderingen op handelsvorde",
+      "themas": [
+        "dubieuze-debiteuren"
+      ]
+    },
+    {
+      "code": "635000",
+      "naam": "Voorzieningen voor pensioenen",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "63",
+      "rubriekNaam": "Afschrijvingen, waardeverminderingen en voorzieningen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Voorzieningen voor pensioenen en soort",
+      "themas": [
+        "voorzieningen-subsidies"
+      ]
+    },
+    {
+      "code": "635100",
+      "naam": "Besteding en terugneming (-)",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "63",
+      "rubriekNaam": "Afschrijvingen, waardeverminderingen en voorzieningen",
+      "soort": "Resultaat – kost",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Voorzieningen voor pensioenen en soort",
+      "themas": [
+        "voorzieningen-subsidies"
+      ]
+    },
+    {
+      "code": "636000",
+      "naam": "Voorzieningen herstellingswerken",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "63",
+      "rubriekNaam": "Afschrijvingen, waardeverminderingen en voorzieningen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Voorzieningen voor grote herstellingswer",
+      "themas": [
+        "voorzieningen-subsidies"
+      ]
+    },
+    {
+      "code": "636100",
+      "naam": "Besteding en terugneming (-)",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "63",
+      "rubriekNaam": "Afschrijvingen, waardeverminderingen en voorzieningen",
+      "soort": "Resultaat – kost",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Voorzieningen voor grote herstellingswer",
+      "themas": [
+        "voorzieningen-subsidies"
+      ]
+    },
+    {
+      "code": "637000",
+      "naam": "Voorzieningen voor andere risico’s en kosten",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "63",
+      "rubriekNaam": "Afschrijvingen, waardeverminderingen en voorzieningen",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Voorzieningen voor milieuverplichtingen",
+      "themas": [
+        "voorzieningen-subsidies"
+      ]
+    },
+    {
+      "code": "637100",
+      "naam": "Besteding en terugneming (-)",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "63",
+      "rubriekNaam": "Afschrijvingen, waardeverminderingen en voorzieningen",
+      "soort": "Resultaat – kost",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Voorzieningen voor milieuverplichtingen",
+      "themas": [
+        "voorzieningen-subsidies"
+      ]
+    },
+    {
+      "code": "640000",
+      "naam": "Andere bedrijfskosten",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "64",
+      "rubriekNaam": "Andere bedrijfskosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Bedrijfsbelastingen",
+      "themas": []
+    },
+    {
+      "code": "640700",
+      "naam": "Niet aftrekbare B.T.W",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "64",
+      "rubriekNaam": "Andere bedrijfskosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Bedrijfsbelastingen",
+      "themas": [
+        "btw"
+      ]
+    },
+    {
+      "code": "641000",
+      "naam": "Minderwaarden realisatie van vaste activa",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "64",
+      "rubriekNaam": "Andere bedrijfskosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Minderwaarden op de courante realisatie van vaste activa",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "642000",
+      "naam": "Minderwaarden realisatie handelsvordering",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "64",
+      "rubriekNaam": "Andere bedrijfskosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Minderwaarden op de realisatie van handelsvorderingen",
+      "themas": [
+        "dubieuze-debiteuren"
+      ]
+    },
+    {
+      "code": "643000",
+      "naam": "Diverse bedrijfskosten (643-648)",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "64",
+      "rubriekNaam": "Andere bedrijfskosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "tot 648 Diverse bedrijfskosten",
+      "themas": []
+    },
+    {
+      "code": "649000",
+      "naam": "Als herstruct kost geactiveerde bedrijfskost (-)",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "64",
+      "rubriekNaam": "Andere bedrijfskosten",
+      "soort": "Resultaat – kost",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Als herstructureringskosten geactiveerde",
+      "themas": []
+    },
+    {
+      "code": "650000",
+      "naam": "Financiële kosten",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "65",
+      "rubriekNaam": "Financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Kosten van schulden 650",
+      "themas": [
+        "lt-schulden"
+      ]
+    },
+    {
+      "code": "650100",
+      "naam": "Afschrijving van kosten bij uitgifte van leningen",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "65",
+      "rubriekNaam": "Financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Kosten van schulden 650",
+      "themas": [
+        "lt-schulden"
+      ]
+    },
+    {
+      "code": "650200",
+      "naam": "Andere kosten van schulden",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "65",
+      "rubriekNaam": "Financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Kosten van schulden 650",
+      "themas": [
+        "lt-schulden"
+      ]
+    },
+    {
+      "code": "650300",
+      "naam": "Geactiveerde intercalaire interesten (-)",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "65",
+      "rubriekNaam": "Financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Kosten van schulden 650",
+      "themas": [
+        "lt-schulden"
+      ]
+    },
+    {
+      "code": "651000",
+      "naam": "waardeverm op vlottende",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "65",
+      "rubriekNaam": "Financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Waardeverminderingen op vlottende",
+      "themas": []
+    },
+    {
+      "code": "651100",
+      "naam": "Terugneming (-)",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "65",
+      "rubriekNaam": "Financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Waardeverminderingen op vlottende",
+      "themas": []
+    },
+    {
+      "code": "652000",
+      "naam": "Minderwaarden op realisatie van",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "65",
+      "rubriekNaam": "Financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Minderwaarden op realisatie van vlottende",
+      "themas": []
+    },
+    {
+      "code": "653000",
+      "naam": "Discontokosten op vorderingen",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "65",
+      "rubriekNaam": "Financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Discontokosten op vorderingen",
+      "themas": []
+    },
+    {
+      "code": "654000",
+      "naam": "Wisselresultaten",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "65",
+      "rubriekNaam": "Financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Wisselresultaten",
+      "themas": []
+    },
+    {
+      "code": "655000",
+      "naam": "Resultaten uit de omrekening van vreemde valuta",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "65",
+      "rubriekNaam": "Financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Resultaten uit de omrekening van",
+      "themas": []
+    },
+    {
+      "code": "656000",
+      "naam": "Voorzieningen met financieel karakter",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "65",
+      "rubriekNaam": "Financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Voorzieningen met financieel karakter",
+      "themas": [
+        "voorzieningen-subsidies"
+      ]
+    },
+    {
+      "code": "656100",
+      "naam": "Bestedingen en terugnemingen (-)",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "65",
+      "rubriekNaam": "Financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Voorzieningen met financieel karakter",
+      "themas": [
+        "voorzieningen-subsidies"
+      ]
+    },
+    {
+      "code": "657000",
+      "naam": "Financiële korting",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "65",
+      "rubriekNaam": "Financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "tot 658 Diverse financiële kosten",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "658000",
+      "naam": "Betalingsverschillen",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "65",
+      "rubriekNaam": "Financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "",
+      "themas": []
+    },
+    {
+      "code": "659000",
+      "naam": "Aankoopkosten effecten",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "65",
+      "rubriekNaam": "Financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Als herstructureringskosten geactiveerde",
+      "themas": []
+    },
+    {
+      "code": "660000",
+      "naam": "Niet recurr afschrijvingen en waardeverm",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "66",
+      "rubriekNaam": "Niet-recurrente bedrijfs- of financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Niet-recurrente afschrijvingen en waardeverminderingen",
+      "themas": []
+    },
+    {
+      "code": "660100",
+      "naam": "op immateriële vaste activa",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "66",
+      "rubriekNaam": "Niet-recurrente bedrijfs- of financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Niet-recurrente afschrijvingen en waardeverminderingen",
+      "themas": []
+    },
+    {
+      "code": "660200",
+      "naam": "op materiële vaste activa",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "66",
+      "rubriekNaam": "Niet-recurrente bedrijfs- of financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Niet-recurrente afschrijvingen en waardeverminderingen",
+      "themas": []
+    },
+    {
+      "code": "661000",
+      "naam": "waardeverm op financiële vaste activa (toevoeging)",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "66",
+      "rubriekNaam": "Niet-recurrente bedrijfs- of financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Waardeverminderingen op financiële vaste activa (toevoeging)",
+      "themas": []
+    },
+    {
+      "code": "662000",
+      "naam": "Voorzieningen voor Niet recurr risico’s en kosten",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "66",
+      "rubriekNaam": "Niet-recurrente bedrijfs- of financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Voorzieningen voor niet-recurrente risico’s en kosten",
+      "themas": [
+        "voorzieningen-subsidies"
+      ]
+    },
+    {
+      "code": "662100",
+      "naam": "Bestedingen (-)",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "66",
+      "rubriekNaam": "Niet-recurrente bedrijfs- of financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Voorzieningen voor niet-recurrente risico’s en kosten",
+      "themas": [
+        "voorzieningen-subsidies"
+      ]
+    },
+    {
+      "code": "663000",
+      "naam": "Minderwaarden op de realisatie van vaste activa",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "66",
+      "rubriekNaam": "Niet-recurrente bedrijfs- of financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Minderwaarden op de realisatie van vaste activa",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "664000",
+      "naam": "Andere niet-recurrente kosten (664-668)",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "66",
+      "rubriekNaam": "Niet-recurrente bedrijfs- of financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "tot 667 Andere niet-recurrente bedrijfskosten",
+      "themas": []
+    },
+    {
+      "code": "667000",
+      "naam": "Liquidatieverlies",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "66",
+      "rubriekNaam": "Niet-recurrente bedrijfs- of financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Liquidatieverlies",
+      "themas": []
+    },
+    {
+      "code": "669000",
+      "naam": "Niet recurr kosten als herstr kosten opgenomen (-)",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "66",
+      "rubriekNaam": "Niet-recurrente bedrijfs- of financiële kosten",
+      "soort": "Resultaat – kost",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Als herstructureringskosten geactiveerde niet-recurrente kosten (-)",
+      "themas": []
+    },
+    {
+      "code": "670000",
+      "naam": "Belastingen",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "67",
+      "rubriekNaam": "Belastingen op het resultaat",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Belgische belastingen op het resultaat van",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "670100",
+      "naam": "Geactiveerde overschotten betaalde belastingen (-)",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "67",
+      "rubriekNaam": "Belastingen op het resultaat",
+      "soort": "Resultaat – kost",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Belgische belastingen op het resultaat van",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "670200",
+      "naam": "Geraamde belastingen",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "67",
+      "rubriekNaam": "Belastingen op het resultaat",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Belgische belastingen op het resultaat van",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "671000",
+      "naam": "Verschuldigde of gestorte belastingsupplement",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "67",
+      "rubriekNaam": "Belastingen op het resultaat",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Belgische belastingen op het resultaat van vorige boekjaren",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "671100",
+      "naam": "Geraamde belastingsupplementen",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "67",
+      "rubriekNaam": "Belastingen op het resultaat",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Belgische belastingen op het resultaat van vorige boekjaren",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "671200",
+      "naam": "Gevormde fiscale voorzieningen",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "67",
+      "rubriekNaam": "Belastingen op het resultaat",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Belgische belastingen op het resultaat van vorige boekjaren",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "680000",
+      "naam": "Overboeking naar uitgestelde belastingen",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "68",
+      "rubriekNaam": "Overboeking naar uitgestelde belastingen en belastingvrije reserves",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Overboeking naar de uitgestelde 680 680",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "689000",
+      "naam": "Overboeking naar de belastingvrije reserves",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "68",
+      "rubriekNaam": "Overboeking naar uitgestelde belastingen en belastingvrije reserves",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Overboeking naar de belastingvrije reserves 689 689",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "690000",
+      "naam": "Overgedragen verlies van het vorige boekjaar",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "69",
+      "rubriekNaam": "Resultaatverwerking",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Overgedragen verlies van het vorige",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "691000",
+      "naam": "Toevoeging aan het kapitaal en uitgiftepremie",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "69",
+      "rubriekNaam": "Resultaatverwerking",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "692000",
+      "naam": "Toevoeging aan de wettelijke reserve",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "69",
+      "rubriekNaam": "Resultaatverwerking",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Toevoeging aan de reserves",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "692100",
+      "naam": "Toevoeging aan de overige reserves",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "69",
+      "rubriekNaam": "Resultaatverwerking",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Toevoeging aan de reserves",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "693000",
+      "naam": "Over te dragen winst",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "69",
+      "rubriekNaam": "Resultaatverwerking",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Over te dragen winst (14) (14)",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "694000",
+      "naam": "Vergoeding van het kapitaal",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "69",
+      "rubriekNaam": "Resultaatverwerking",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Vergoeding van de inbreng 694 694",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "695000",
+      "naam": "Bestuurders of zaakvoerders",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "69",
+      "rubriekNaam": "Resultaatverwerking",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Bestuurders of zaakvoerders 695 695",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "696000",
+      "naam": "Andere rechthebbenden",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "69",
+      "rubriekNaam": "Resultaatverwerking",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Werknemers 696 696",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "697000",
+      "naam": "Terug te betalen aandelen",
+      "klasse": "6",
+      "klasseNaam": "Kosten",
+      "rubriek": "69",
+      "rubriekNaam": "Resultaatverwerking",
+      "soort": "Resultaat – kost",
+      "natuur": "debet",
+      "custom": false,
+      "officieleRekening": "Andere rechthebbenden 697 697",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "700000",
+      "naam": "Verkopen",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "70",
+      "rubriekNaam": "Omzet",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "tot 707 Verkopen en dienstprestaties",
+      "themas": [
+        "aankoop-verkoop"
+      ]
+    },
+    {
+      "code": "700001",
+      "naam": "Uitgaande creditnota (UCN)",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "70",
+      "rubriekNaam": "Omzet",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "debet",
+      "custom": true,
+      "officieleRekening": "tot 707 Verkopen en dienstprestaties",
+      "themas": [
+        "aankoop-verkoop"
+      ]
+    },
+    {
+      "code": "700100",
+      "naam": "Uitgaande creditnota (UCN)",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "70",
+      "rubriekNaam": "Omzet",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "debet",
+      "custom": true,
+      "officieleRekening": "tot 707 Verkopen en dienstprestaties",
+      "themas": [
+        "aankoop-verkoop"
+      ]
+    },
+    {
+      "code": "706000",
+      "naam": "Doorgerekende kosten",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "70",
+      "rubriekNaam": "Omzet",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "",
+      "themas": [
+        "aankoop-verkoop"
+      ]
+    },
+    {
+      "code": "707000",
+      "naam": "Verkoop VA",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "70",
+      "rubriekNaam": "Omzet",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "708000",
+      "naam": "Comm korting",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "70",
+      "rubriekNaam": "Omzet",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "",
+      "themas": [
+        "aankoop-verkoop"
+      ]
+    },
+    {
+      "code": "710000",
+      "naam": "Wijzigingen bestellingen in uitvoering",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "71",
+      "rubriekNaam": "Wijzigingen in voorraden en bestellingen in uitvoering",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "beide",
+      "custom": false,
+      "officieleRekening": "",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "712000",
+      "naam": "Voorraadwijziging goederen in bewerking",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "71",
+      "rubriekNaam": "Wijzigingen in voorraden en bestellingen in uitvoering",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "beide",
+      "custom": false,
+      "officieleRekening": "In de voorraad goederen in bewerking",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "713000",
+      "naam": "In de voorraad gereed producten",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "71",
+      "rubriekNaam": "Wijzigingen in voorraden en bestellingen in uitvoering",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "beide",
+      "custom": false,
+      "officieleRekening": "In de voorraad gereed product",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "717000",
+      "naam": "In de bestellingen in uitvoering",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "71",
+      "rubriekNaam": "Wijzigingen in voorraden en bestellingen in uitvoering",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "In de bestellingen in uitvoering",
+      "themas": [
+        "voorraden"
+      ]
+    },
+    {
+      "code": "720000",
+      "naam": "Geactiveerde interne productie",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "72",
+      "rubriekNaam": "Geproduceerde vaste activa",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "",
+      "themas": []
+    },
+    {
+      "code": "740000",
+      "naam": "Andere bedrijfsopbrengsten",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "74",
+      "rubriekNaam": "Andere bedrijfsopbrengsten",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Bedrijfssubsidies en compenserende bedragen",
+      "themas": []
+    },
+    {
+      "code": "741000",
+      "naam": "Meerwaarden realisatie van VA",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "74",
+      "rubriekNaam": "Andere bedrijfsopbrengsten",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Meerwaarden op de courante realisatie van materiële vaste activa",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "742000",
+      "naam": "Meerwaarden realisatie handelsvordering",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "74",
+      "rubriekNaam": "Andere bedrijfsopbrengsten",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Meerwaarden op de realisatie van handelsvorderingen",
+      "themas": []
+    },
+    {
+      "code": "743000",
+      "naam": "Diverse bedrijfsopbrengsten (743-749)",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "74",
+      "rubriekNaam": "Andere bedrijfsopbrengsten",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "tot 749 Diverse bedrijfsopbrengsten",
+      "themas": []
+    },
+    {
+      "code": "743209",
+      "naam": "Voordelen van alle aard",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "74",
+      "rubriekNaam": "Andere bedrijfsopbrengsten",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": true,
+      "officieleRekening": "tot 749 Diverse bedrijfsopbrengsten",
+      "themas": [
+        "personeel"
+      ]
+    },
+    {
+      "code": "743291",
+      "naam": "Maaltijdcheques (werkgeversdeel als opbrengst)",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "74",
+      "rubriekNaam": "Andere bedrijfsopbrengsten",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": true,
+      "officieleRekening": "tot 749 Diverse bedrijfsopbrengsten",
+      "themas": [
+        "personeel"
+      ]
+    },
+    {
+      "code": "750000",
+      "naam": "Opbrengsten uit financiële vaste activa",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "75",
+      "rubriekNaam": "Financiële opbrengsten",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Opbrengsten uit financiële vaste activa 750",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "751000",
+      "naam": "Opbrengsten uit vlottende activa",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "75",
+      "rubriekNaam": "Financiële opbrengsten",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Opbrengsten uit vlottende activa 751",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "752000",
+      "naam": "Meerwaarden op de realisatie van vlottende activa",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "75",
+      "rubriekNaam": "Financiële opbrengsten",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "",
+      "themas": [
+        "fva-geldbeleggingen"
+      ]
+    },
+    {
+      "code": "753000",
+      "naam": "Kapitaal – en interestsubsidies",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "75",
+      "rubriekNaam": "Financiële opbrengsten",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Kapitaal – en interestsubsidies 753",
+      "themas": [
+        "voorzieningen-subsidies"
+      ]
+    },
+    {
+      "code": "754000",
+      "naam": "Wisselresultaten",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "75",
+      "rubriekNaam": "Financiële opbrengsten",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Wisselresultaten",
+      "themas": []
+    },
+    {
+      "code": "755000",
+      "naam": "Resultaten uit de omrekening van vreemde valuta",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "75",
+      "rubriekNaam": "Financiële opbrengsten",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Resultaten uit de omrekening van",
+      "themas": []
+    },
+    {
+      "code": "757000",
+      "naam": "Financiële korting",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "75",
+      "rubriekNaam": "Financiële opbrengsten",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "",
+      "themas": []
+    },
+    {
+      "code": "758000",
+      "naam": "Betalingsverschillen",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "75",
+      "rubriekNaam": "Financiële opbrengsten",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "",
+      "themas": []
+    },
+    {
+      "code": "760000",
+      "naam": "Terugneming van afschrijvingen en waardeverm",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "76",
+      "rubriekNaam": "Niet-recurrente bedrijfs- of financiële opbrengsten",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Terugneming van afschrijvingen en waardeverminderingen",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "760100",
+      "naam": "Op materiële vaste activa",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "76",
+      "rubriekNaam": "Niet-recurrente bedrijfs- of financiële opbrengsten",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Terugneming van afschrijvingen en waardeverminderingen",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "761000",
+      "naam": "Terugneming van waardevermin deringen op FVA",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "76",
+      "rubriekNaam": "Niet-recurrente bedrijfs- of financiële opbrengsten",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Terugneming van waardeverminderingen op financiële vaste activa",
+      "themas": []
+    },
+    {
+      "code": "762000",
+      "naam": "Terugneming van voorzieningen",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "76",
+      "rubriekNaam": "Niet-recurrente bedrijfs- of financiële opbrengsten",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Terugneming van voorzieningen voor niet-recurrente risico’s en",
+      "themas": []
+    },
+    {
+      "code": "763000",
+      "naam": "Meerwaarden op de realisatie van",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "76",
+      "rubriekNaam": "Niet-recurrente bedrijfs- of financiële opbrengsten",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Meerwaarden op de realisatie van vaste activa",
+      "themas": [
+        "mva"
+      ]
+    },
+    {
+      "code": "764000",
+      "naam": "Andere niet-recurrente opbrengsten (764-769)",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "76",
+      "rubriekNaam": "Niet-recurrente bedrijfs- of financiële opbrengsten",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "tot 768 Andere niet-recurrente bedrijfsopbrengsten",
+      "themas": []
+    },
+    {
+      "code": "770000",
+      "naam": "Regularisering van belastingen",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "77",
+      "rubriekNaam": "Regularisering van belastingen",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "771000",
+      "naam": "Regularisering belastingen",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "77",
+      "rubriekNaam": "Regularisering van belastingen",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Belgische belastingen op het resultaat",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "771100",
+      "naam": "Regularisering van geraamde belastingen",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "77",
+      "rubriekNaam": "Regularisering van belastingen",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Belgische belastingen op het resultaat",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "771200",
+      "naam": "Terugneming van fiscale voorzieningen",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "77",
+      "rubriekNaam": "Regularisering van belastingen",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Belgische belastingen op het resultaat",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "780000",
+      "naam": "Onttrekkingen aan de uitgestelde belastingen",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "78",
+      "rubriekNaam": "Onttrekking aan belastingvrije reserves en uitgestelde belastingen",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Onttrekkingen aan de uitgestelde belas",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "789000",
+      "naam": "Onttrekkingen aan de belastingvrije reserves",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "78",
+      "rubriekNaam": "Onttrekking aan belastingvrije reserves en uitgestelde belastingen",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Onttrekkingen aan de belastingvrije",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "790000",
+      "naam": "Overgedragen winst van vorige boekjaren",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "79",
+      "rubriekNaam": "Resultaatverwerking",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Overgedragen winst van het vorige boekjaar",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "791000",
+      "naam": "Onttrekking aan het kapitaal en uitgiftepremies",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "79",
+      "rubriekNaam": "Resultaatverwerking",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Onttrekking aan de inbreng 791",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "792000",
+      "naam": "Onttrekking aan de reserves",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "79",
+      "rubriekNaam": "Resultaatverwerking",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Onttrekking aan de reserves 792",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "793000",
+      "naam": "Over te dragen verlies",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "79",
+      "rubriekNaam": "Resultaatverwerking",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Over te dragen verlies",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    },
+    {
+      "code": "794000",
+      "naam": "Tussenkomst van vennotenin het verlies",
+      "klasse": "7",
+      "klasseNaam": "Opbrengsten",
+      "rubriek": "79",
+      "rubriekNaam": "Resultaatverwerking",
+      "soort": "Resultaat – opbrengst",
+      "natuur": "credit",
+      "custom": false,
+      "officieleRekening": "Tussenkomst van vennoten (of van de eigenaar) in het verlies",
+      "themas": [
+        "belastingen-winstbestemming"
+      ]
+    }
+  ]
+}

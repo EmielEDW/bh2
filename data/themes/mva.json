@@ -1,0 +1,345 @@
+{
+  "slug": "mva",
+  "titel": "Materiële vaste activa (MVA)",
+  "korteOmschrijving": "Hoe je de aankoop, de afschrijving en de verkoop of buitengebruikstelling van materiële vaste activa zoals machines, gebouwen en voertuigen boekt volgens de Belgische MAR.",
+  "leerdoelen": [
+    "De aanschaffingswaarde van een MVA correct samenstellen (aankoopprijs + bijkomende kosten + eventuele intercalaire interest) en op de juiste AW-rekening (22x.0 / 23x.0 / 24x.0) boeken met de juiste btw-behandeling.",
+    "Het verschil uitleggen en boeken tussen de lineaire en de degressieve afschrijvingsmethode en een afschrijvingstabel opstellen, inclusief pro rata temporis in het aankoopjaar.",
+    "De jaarlijkse afschrijving boeken via 630200 Afschrijvingen op MVA tegenover de tegenrekening geboekte afschrijvingen (22x.9 / 23x.9 / 24x.9) en uitzonderlijke (niet-recurrente) afschrijvingen apart via 660200.",
+    "De verkoop van een MVA volledig boeken via 707000 Verkoop VA, daarna de aanschaffingswaarde en de geboekte afschrijvingen uitboeken en de meerwaarde (763000) of minderwaarde (663000) bepalen.",
+    "Het onderscheid maken tussen recurrente (courante) en niet-recurrente resultaten en weten wanneer je 741000/641000 dan wel 763000/663000 gebruikt.",
+    "Een vooruitbetaling of voorschotfactuur op een nog niet opgeleverd actief boeken op 270000 en later afrekenen tegen de definitieve AW-rekening."
+  ],
+  "samenvatting": "## Wat zijn materiële vaste activa?\n\n**Materiële vaste activa (MVA)** zijn tastbare goederen die de onderneming **duurzaam** (langer dan één jaar) gebruikt om te produceren of te verkopen: terreinen (**220000**), gebouwen (**221000**), installaties (**230000**), machines (**231000**), uitrusting (**232000**), meubilair (**240000**) en rollend materieel zoals voertuigen (**241000**). Ze staan in klasse 2 van de balans en zijn dus **actief**: aankoop = debet.\n\nEen MVA doorloopt drie fasen die je elk apart moet kunnen boeken: **(1) de verwerving**, **(2) de afschrijving** en **(3) de realisatie of buitengebruikstelling**.\n\n## 1. De verwerving (aanschaffingswaarde)\n\nJe boekt een MVA aan zijn **aanschaffingswaarde (AW)**. Dat is niet enkel de factuurprijs, maar de aankoopprijs **plus alle bijkomende kosten** die nodig zijn om het actief gebruiksklaar te maken: installatie, transport, montage, niet-aftrekbare btw, eventueel intercalaire interest.\n\n- De AW komt op de rekening die eindigt op **.0** (bijvoorbeeld **231000 Machines AW**).\n- De aftrekbare btw komt op **411590 ABTW** (debet).\n- De schuld aan de leverancier komt op **440000 Leveranciers** (credit, incl. btw).\n\n**Voorbeeld** – aankoop inpakmachine € 60.000 + 21% btw:\n\n| Rekening | Debet | Credit |\n|---|---|---|\n| 231000 Machines AW | 60.000 | |\n| 411590 ABTW | 12.600 | |\n| 440000 Leveranciers | | 72.600 |\n\nKomt er later een **aparte factuur voor installatiekosten** (€ 600), dan boek je die **ook op 231000** (de kost wordt geactiveerd, niet als 610 D&DG geboekt). De AW van de machine wordt zo € 60.600.\n\n**Bijkomende kosten** die niet bij één specifiek actief horen, kunnen op **606000 Bijkomende kosten** komen. Maar de leerkrachtoplossing activeert installatiekosten van een machine rechtstreeks op de AW-rekening — dat is de te volgen conventie.\n\n### Vooruitbetalingen en activa in aanbouw (270000)\n\nKrijg je een **voorschotfactuur** voor een actief dat nog niet is opgeleverd (bv. een loods die nog gebouwd wordt of een machine die nog niet geleverd is), dan boek je het voorschot tijdelijk op **270000 Vaste activa in aanbouw en vooruitbetaling**. Bij de **restfactuur** boek je het saldo op 270000 en daarna verschuif je het totaal (voorschot + rest) naar de echte AW-rekening (bv. 231000).\n\n### Btw-bijzonderheden bij verwerving\n\n- **Personenwagen**: btw is slechts **50% aftrekbaar**. De niet-aftrekbare helft wordt mee geactiveerd op de AW-rekening (241000). Bij € 20.000 wagen + € 4.200 btw: 241000 krijgt 20.000 + 2.100 = aparte boeking, ABTW slechts 2.100.\n- **Btw verlegd / medecontractant** of **intracommunautair**: naast ABTW (debet) boek je hetzelfde bedrag op 451550/451560/451570 (credit). Netto btw-effect = 0.\n\n## 2. De afschrijving\n\nMVA met een **beperkte levensduur** verliezen waarde door gebruik en slijtage. Die waardevermindering spreid je over de gebruiksduur via **afschrijvingen**. Terreinen (220000) schrijf je in principe **niet** af (onbeperkte levensduur).\n\nEen afschrijving boek je altijd op **twee** plaatsen:\n- de **kost**: **630200 Afschrijvingen op MVA** (debet, klasse 6);\n- de **geboekte afschrijving** als correctie op het actief: **22x.9 / 23x.9 / 24x.9** (bv. **231900**), credit.\n\nDe AW-rekening (231000) blijft dus altijd op de oorspronkelijke waarde staan; de geboekte afschrijving (231900) groeit elk jaar aan. De **boekwaarde (BW)** = AW − geboekte afschrijvingen.\n\n### Lineaire methode\n\nElk jaar dezelfde afschrijving = **AW / levensduur**. In het aankoopjaar reken je **pro rata temporis** (naar aantal dagen of maanden).\n\n*Voorbeeld* – bestelwagen € 20.000, 5 jaar, gekocht 01/06. Jaarbedrag = 20.000 / 5 = € 4.000. Eerste jaar: 214/365 × 4.000 = **€ 2.345,21**.\n\n### Degressieve methode\n\nJe schrijft af met een **vast percentage op de resterende boekwaarde**; het tarief is het **dubbele** van het lineaire (bv. 5 jaar → lineair 20% → degressief 40%). De afschrijving daalt dus jaar na jaar. Zodra het degressieve bedrag kleiner wordt dan het lineaire, schakel je over naar lineair. De jaarlijkse degressieve afschrijving mag fiscaal nooit meer bedragen dan 40% van de AW.\n\n### Uitzonderlijke (niet-recurrente) afschrijving\n\nVerliest een actief plots méér waarde dan normaal, dan boek je bovenop de gewone afschrijving een **uitzonderlijke afschrijving** via **660200** (niet-recurrente afschrijving op MVA), eveneens tegenover 231900.\n\n## 3. Verkoop en buitengebruikstelling\n\n### Verkoop via 707000 (drie boekingen)\n\nDe leerkracht boekt een verkoop van een MVA **altijd via 707000 Verkoop VA**, in drie stappen:\n\n1. **De verkoopfactuur**: 416000 Diverse vorderingen (debet, incl. btw) / 707000 Verkoop VA (credit, excl. btw) + 451540 VBTW (credit).\n2. **Uitboeken van het actief**: je sluit 707000 af (debet) samen met de geboekte afschrijvingen (231900, debet) tegenover de AW-rekening (231000, credit).\n3. **Het resultaat** valt in dezelfde of een aansluitende boeking automatisch op een verschilrekening:\n   - is de verkoopprijs **hoger** dan de boekwaarde → **meerwaarde** op **763000** (credit);\n   - is de verkoopprijs **lager** dan de boekwaarde → **minderwaarde** op **663000** (debet).\n\n*Voorbeeld* – bestelwagen AW 20.000, geboekte afschr. 16.345,21 (BW 3.654,79), verkocht voor 4.500 excl.: BW 3.654,79 < 4.500 → meerwaarde **€ 845,21** op 763000.\n\n### Recurrent (74/64) versus niet-recurrent (76/66)\n\n- Verkoop je een actief bij de **gewone, courante** bedrijfsvoering (bv. een bedrijfswagen die je periodiek vervangt) → courant resultaat: **741000** (meerwaarde) of **641000** (minderwaarde).\n- Gaat het om een **uitzonderlijke** verkoop buiten de normale activiteit → niet-recurrent: **763000** (meerwaarde) of **663000** (minderwaarde).\n\nIn de oefeningen en de test gebruikt de leerkracht **763000/663000**; let in een examenvraag op het woord \"uitzonderlijk\" of \"courant\".\n\n### Buitengebruikstelling\n\nWordt een actief niet verkocht maar definitief **buiten gebruik gesteld**, dan boek je de resterende boekwaarde meestal in één keer af (uitzonderlijke afschrijving / minderwaarde) en boek je AW en geboekte afschrijvingen uit.",
+  "kernrekeningen": [
+    {"code": "220000", "naam": "Terreinen AW", "natuur": "debet", "wanneer": "Aanschaffingswaarde van een grond/terrein. Wordt niet afgeschreven (onbeperkte levensduur)."},
+    {"code": "221000", "naam": "Gebouwen AW", "natuur": "debet", "wanneer": "Aanschaffingswaarde van een gebouw of loods, inclusief bijkomende kosten."},
+    {"code": "221900", "naam": "Geboekte afschrijvingen (vd aanschafwaarde)", "natuur": "credit", "wanneer": "Cumulatieve geboekte afschrijvingen op een gebouw; corrigeert 221000."},
+    {"code": "231000", "naam": "Machines AW", "natuur": "debet", "wanneer": "Aanschaffingswaarde van een machine + bijkomende kosten (installatie, montage)."},
+    {"code": "231900", "naam": "Geboekte afschrijvingen (vd aanschafwaarde)", "natuur": "credit", "wanneer": "Cumulatieve afschrijvingen op machines; tegenrekening bij elke afschrijving en bij verkoop."},
+    {"code": "241000", "naam": "Rollend materieel", "natuur": "debet", "wanneer": "Aanschaffingswaarde van voertuigen (bestelwagen, personenwagen); bij personenwagen ook de niet-aftrekbare btw."},
+    {"code": "241900", "naam": "Geboekte afschrijvingen (vd aanschafwaarde)", "natuur": "credit", "wanneer": "Cumulatieve afschrijvingen op rollend materieel."},
+    {"code": "270000", "naam": "Vaste activa in aanbouw en vooruitbetaling", "natuur": "debet", "wanneer": "Voorschot/voorschotfactuur op een MVA dat nog niet opgeleverd of geleverd is."},
+    {"code": "630200", "naam": "Afschrijvingen op materiële vaste activa", "natuur": "debet", "wanneer": "De gewone (recurrente) jaarlijkse afschrijvingskost op MVA."},
+    {"code": "660200", "naam": "op materiële vaste activa", "natuur": "debet", "wanneer": "Niet-recurrente / uitzonderlijke afschrijving bovenop de gewone afschrijving."},
+    {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "natuur": "debet", "wanneer": "Aftrekbare btw bij de aankoop van een MVA."},
+    {"code": "440000", "naam": "Leveranciers", "natuur": "credit", "wanneer": "Schuld aan de leverancier bij aankoop (bedrag inclusief btw)."},
+    {"code": "416000", "naam": "Diverse vorderingen", "natuur": "debet", "wanneer": "Vordering op de koper bij de verkoop van een vast actief (geen handelsgoed, dus geen 400000)."},
+    {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "natuur": "credit", "wanneer": "Verschuldigde btw bij de verkoop van een vast actief."},
+    {"code": "707000", "naam": "Verkoop VA", "natuur": "beide", "wanneer": "Verkoopprijs (excl. btw) van een vast actief; eerst credit bij de factuur, daarna debet om uit te boeken."},
+    {"code": "763000", "naam": "Meerwaarden op de realisatie van", "natuur": "credit", "wanneer": "Niet-recurrente meerwaarde: verkoopprijs hoger dan de boekwaarde."},
+    {"code": "663000", "naam": "Minderwaarden op de realisatie van vaste activa", "natuur": "debet", "wanneer": "Niet-recurrente minderwaarde: verkoopprijs lager dan de boekwaarde."},
+    {"code": "741000", "naam": "Meerwaarden realisatie van VA", "natuur": "credit", "wanneer": "Courante (recurrente) meerwaarde bij verkoop binnen de normale bedrijfsvoering."},
+    {"code": "641000", "naam": "Minderwaarden realisatie van vaste activa", "natuur": "debet", "wanneer": "Courante (recurrente) minderwaarde bij verkoop binnen de normale bedrijfsvoering."},
+    {"code": "606000", "naam": "Bijkomende kosten", "natuur": "debet", "wanneer": "Bijkomende aankoopkosten die (uitzonderlijk) niet rechtstreeks op de AW-rekening geactiveerd worden."}
+  ],
+  "boekingsschemas": [
+    {
+      "titel": "Aankoop van een MVA met bijkomende kosten",
+      "situatie": "Je ontvangt een aankoopfactuur (en een aparte factuur voor installatie-/bijkomende kosten) voor een machine.",
+      "regels": [
+        {"code": "231000", "naam": "Machines AW", "kant": "debet", "bedrag": "excl. btw (aankoopprijs + bijkomende kosten)", "toelichting": "Actief stijgt aan de debetkant; alle kosten om de machine gebruiksklaar te maken worden geactiveerd."},
+        {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "kant": "debet", "bedrag": "btw 21%", "toelichting": "Aftrekbare btw is een vordering op de staat (actief, debet)."},
+        {"code": "440000", "naam": "Leveranciers", "kant": "credit", "bedrag": "incl. btw", "toelichting": "Schuld aan de leverancier (passief) stijgt aan de creditkant."}
+      ]
+    },
+    {
+      "titel": "Voorschotfactuur en restfactuur (270000)",
+      "situatie": "Je betaalt eerst een voorschot op een machine die nog niet geleverd is, en ontvangt later de restfactuur bij levering.",
+      "regels": [
+        {"code": "270000", "naam": "Vaste activa in aanbouw en vooruitbetaling", "kant": "debet", "bedrag": "voorschot excl. btw", "toelichting": "Bij de voorschotfactuur: het actief is er nog niet, dus parkeren op 270000."},
+        {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "kant": "debet", "bedrag": "btw 21% op voorschot", "toelichting": "Aftrekbare btw op het voorschot."},
+        {"code": "440000", "naam": "Leveranciers", "kant": "credit", "bedrag": "voorschot incl. btw", "toelichting": "Schuld aan leverancier voor het voorschot."},
+        {"code": "231000", "naam": "Machines AW", "kant": "debet", "bedrag": "totale AW", "toelichting": "Bij de restfactuur boek je de restwaarde + het voorschot over naar de echte AW-rekening."},
+        {"code": "270000", "naam": "Vaste activa in aanbouw en vooruitbetaling", "kant": "credit", "bedrag": "voorschot excl. btw", "toelichting": "Het eerder geparkeerde voorschot wordt tegengeboekt (270000 sluit terug op nul)."}
+      ]
+    },
+    {
+      "titel": "Jaarlijkse afschrijving (recurrent en uitzonderlijk)",
+      "situatie": "Op het einde van het boekjaar boek je de afschrijving van een machine; eventueel met een extra uitzonderlijke afschrijving.",
+      "regels": [
+        {"code": "630200", "naam": "Afschrijvingen op materiële vaste activa", "kant": "debet", "bedrag": "gewone afschrijving", "toelichting": "Kost (klasse 6) stijgt aan de debetkant."},
+        {"code": "660200", "naam": "op materiële vaste activa", "kant": "debet", "bedrag": "uitzonderlijk deel", "toelichting": "Het niet-recurrente, uitzonderlijke deel van de afschrijving apart."},
+        {"code": "231900", "naam": "Geboekte afschrijvingen (vd aanschafwaarde)", "kant": "credit", "bedrag": "som van beide", "toelichting": "Cumulatieve afschrijving (correctie op het actief) stijgt aan de creditkant; AW-rekening blijft ongewijzigd."}
+      ]
+    },
+    {
+      "titel": "Verkoop van een MVA via 707000",
+      "situatie": "Je verkoopt een machine of voertuig. Eerst de verkoopfactuur, dan het uitboeken van AW en geboekte afschrijvingen met bepaling van meer- of minderwaarde.",
+      "regels": [
+        {"code": "416000", "naam": "Diverse vorderingen", "kant": "debet", "bedrag": "incl. btw", "toelichting": "Verkoopfactuur: vordering op de koper (vast actief, dus 416 i.p.v. 400 Klanten)."},
+        {"code": "707000", "naam": "Verkoop VA", "kant": "credit", "bedrag": "excl. btw", "toelichting": "Verkoopprijs van het vast actief (opbrengst, credit)."},
+        {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "kant": "credit", "bedrag": "btw 21%", "toelichting": "Verschuldigde btw aan de staat."},
+        {"code": "707000", "naam": "Verkoop VA", "kant": "debet", "bedrag": "excl. btw", "toelichting": "Uitboeken: 707000 wordt afgesloten (debet)."},
+        {"code": "231900", "naam": "Geboekte afschrijvingen (vd aanschafwaarde)", "kant": "debet", "bedrag": "cumulatieve afschrijving", "toelichting": "De geboekte afschrijvingen worden uitgeboekt (debet)."},
+        {"code": "763000", "naam": "Meerwaarden op de realisatie van", "kant": "credit", "bedrag": "meerwaarde", "toelichting": "Sluitpost als verkoopprijs > boekwaarde (bij verlies: 663000 aan de debetkant)."},
+        {"code": "231000", "naam": "Machines AW", "kant": "credit", "bedrag": "volledige AW", "toelichting": "De aanschaffingswaarde wordt volledig uitgeboekt (credit)."}
+      ]
+    }
+  ],
+  "oefeningen": [
+    {
+      "id": "mva-1",
+      "titel": "Aankoop machine met installatiekosten",
+      "niveau": "basis",
+      "context": "NV Pharmalux, een producent van geneesmiddelen, koopt op 01/03/20N0 een inpakmachine. Eerst ontvangt ze AF/55 voor de machine zelf (€ 60.000 excl. 21% btw), daarna AF/56 voor de installatiekosten (€ 600 excl. 21% btw).",
+      "vraag": "Boek beide aankoopfacturen. Wat is de uiteindelijke aanschaffingswaarde van de machine?",
+      "stappen": [
+        "Een machine is een MVA → AW komt op 231000 Machines AW (actief, debet).",
+        "Bijkomende kosten om de machine gebruiksklaar te maken (installatie) worden mee geactiveerd op 231000, niet als 610 D&DG geboekt.",
+        "Btw 21% is aftrekbaar → 411590 ABTW (debet). Factuur 1: 60.000 × 21% = 12.600. Factuur 2: 600 × 21% = 126.",
+        "De schuld aan de leverancier (incl. btw) komt op 440000 Leveranciers (credit).",
+        "AW = 60.000 + 600 = 60.600."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "AF/55 aankoop inpakmachine 01/03",
+          "regels": [
+            {"code": "231000", "naam": "Machines AW", "debet": 60000.00, "credit": null, "reden": "Aanschaffingswaarde van de machine; actief stijgt aan de debetkant."},
+            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": 12600.00, "credit": null, "reden": "Aftrekbare btw (60.000 × 21%) is een vordering op de staat."},
+            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 72600.00, "reden": "Schuld aan de leverancier incl. btw (passief, credit)."}
+          ]
+        },
+        {
+          "omschrijving": "AF/56 installatiekosten 01/03",
+          "regels": [
+            {"code": "231000", "naam": "Machines AW", "debet": 600.00, "credit": null, "reden": "Installatiekosten worden geactiveerd op de AW van de machine."},
+            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": 126.00, "credit": null, "reden": "Aftrekbare btw (600 × 21%)."},
+            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 726.00, "reden": "Schuld aan de leverancier incl. btw."}
+          ]
+        }
+      ],
+      "eindantwoord": "De aanschaffingswaarde van de inpakmachine bedraagt € 60.600 (60.000 + 600 installatie). Beide boekingen balanceren (72.600 en 726).",
+      "valkuil": "Installatiekosten als gewone dienst (610 D&DG) boeken. Kosten die nodig zijn om het actief gebruiksklaar te maken horen bij de aanschaffingswaarde op 231000."
+    },
+    {
+      "id": "mva-2",
+      "titel": "Voorschotfactuur en restfactuur op een machine (270000)",
+      "niveau": "midden",
+      "context": "Op 01/11/20N ontvangt de onderneming AF/63, een voorschotfactuur voor een nog te leveren machine: € 1.000 excl. 21% btw. Op 01/12/20N volgt de restfactuur AF/64: € 9.000 excl. 21% btw, waarna de machine geleverd wordt.",
+      "vraag": "Boek de voorschotfactuur en de restfactuur, inclusief de overboeking naar de definitieve AW-rekening.",
+      "stappen": [
+        "Bij het voorschot is de machine nog niet geleverd → parkeren op 270000 Vaste activa in aanbouw en vooruitbetaling (debet).",
+        "Btw op het voorschot (1.000 × 21% = 210) is aftrekbaar → 411590 ABTW.",
+        "Bij de restfactuur boek je de restwaarde (9.000) op 231000 en de bijbehorende btw (1.890) op 411590.",
+        "Tot slot verschuif je het eerder geparkeerde voorschot van 270000 naar 231000: 231000 debet 1.000 / 270000 credit 1.000.",
+        "Totale AW van de machine = 1.000 + 9.000 = 10.000."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "AF/63 voorschotfactuur 01/11",
+          "regels": [
+            {"code": "270000", "naam": "Vaste activa in aanbouw en vooruitbetaling", "debet": 1000.00, "credit": null, "reden": "Het actief is nog niet geleverd; het voorschot wordt tijdelijk hier geboekt."},
+            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": 210.00, "credit": null, "reden": "Aftrekbare btw op het voorschot (1.000 × 21%)."},
+            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 1210.00, "reden": "Schuld aan de leverancier incl. btw."}
+          ]
+        },
+        {
+          "omschrijving": "AF/64 restfactuur + levering 01/12",
+          "regels": [
+            {"code": "231000", "naam": "Machines AW", "debet": 9000.00, "credit": null, "reden": "Restwaarde van de machine wordt op de AW-rekening geboekt."},
+            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": 1890.00, "credit": null, "reden": "Aftrekbare btw op de restfactuur (9.000 × 21%)."},
+            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 10890.00, "reden": "Schuld aan de leverancier incl. btw."},
+            {"code": "231000", "naam": "Machines AW", "debet": 1000.00, "credit": null, "reden": "Het voorschot wordt nu mee op de AW-rekening gezet."},
+            {"code": "270000", "naam": "Vaste activa in aanbouw en vooruitbetaling", "debet": null, "credit": 1000.00, "reden": "270000 wordt tegengeboekt en sluit terug op nul."}
+          ]
+        }
+      ],
+      "eindantwoord": "Na beide facturen staat de machine voor € 10.000 op 231000 en is 270000 terug nul. De restfactuur-boeking balanceert: debet 9.000 + 1.890 + 1.000 = 11.890; credit 10.890 + 1.000 = 11.890.",
+      "valkuil": "Het voorschot op 270000 laten staan en niet overboeken naar 231000. Bij levering moet de volledige aanschaffingswaarde op de AW-rekening staan en moet 270000 terug op nul komen."
+    },
+    {
+      "id": "mva-3",
+      "titel": "Lineaire afschrijving pro rata temporis",
+      "niveau": "midden",
+      "context": "Bierhandel Jupiler koopt op 01/06/2023 een bestelwagen voor € 20.000 excl. 21% btw bij een Belgische garagehouder. De onderneming schrijft lineair pro rata temporis af over een levensduur van 5 jaar.",
+      "vraag": "Bepaal de afschrijvingstabel voor 2023 tot en met 2025 en boek de afschrijving van 2023 en 2024.",
+      "stappen": [
+        "Jaarlijkse lineaire afschrijving = AW / levensduur = 20.000 / 5 = € 4.000.",
+        "2023 is het aankoopjaar → pro rata temporis. Van 01/06 t.e.m. 31/12 = 214 dagen. Afschrijving = 214/365 × 4.000 = € 2.345,21.",
+        "2024 en volgende volle jaren = € 4.000.",
+        "Boeken: 630200 Afschrijvingen op MVA (debet) tegenover 241900 / 231900 Geboekte afschrijvingen (credit). De AW-rekening 241000 blijft op 20.000 staan.",
+        "Boekwaarde 31/12/2024 = 20.000 − 2.345,21 − 4.000 = € 13.654,79."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "Afschrijving 2023 (pro rata, 214 dagen)",
+          "regels": [
+            {"code": "630200", "naam": "Afschrijvingen op materiële vaste activa", "debet": 2345.21, "credit": null, "reden": "Afschrijvingskost van het jaar (klasse 6, debet)."},
+            {"code": "241900", "naam": "Geboekte afschrijvingen (vd aanschafwaarde)", "debet": null, "credit": 2345.21, "reden": "Cumulatieve afschrijving op rollend materieel (correctie op het actief, credit)."}
+          ]
+        },
+        {
+          "omschrijving": "Afschrijving 2024 (volledig jaar)",
+          "regels": [
+            {"code": "630200", "naam": "Afschrijvingen op materiële vaste activa", "debet": 4000.00, "credit": null, "reden": "Volledig jaar: 20.000 / 5 = 4.000."},
+            {"code": "241900", "naam": "Geboekte afschrijvingen (vd aanschafwaarde)", "debet": null, "credit": 4000.00, "reden": "Cumulatieve afschrijving groeit met 4.000."}
+          ]
+        }
+      ],
+      "eindantwoord": "Afschrijvingstabel: 2023 = 2.345,21 / 2024 = 4.000 / 2025 = 4.000. Boekwaarde 31/12/2024 = € 13.654,79. (De leerkracht boekt de tegenrekening voor rollend materieel; in de testoplossing wordt label 231900 'Afschr. machines' gebruikt — gebruik bij voorkeur 241900 omdat het om rollend materieel gaat.)",
+      "valkuil": "Het volledige jaarbedrag (4.000) afschrijven in het aankoopjaar. In het eerste jaar moet je pro rata temporis rekenen naar het aantal dagen (of maanden) dat het actief in gebruik is."
+    },
+    {
+      "id": "mva-4",
+      "titel": "Aankoop personenwagen met 50% aftrekbare btw",
+      "niveau": "midden",
+      "context": "Op 01/08/20N ontvangt de onderneming AF/60 voor de aankoop van een personenwagen: € 20.000 excl. 21% btw. Voor personenwagens is de btw slechts 50% aftrekbaar.",
+      "vraag": "Boek de aankoopfactuur. Hoeveel komt er op de AW-rekening en hoeveel btw is aftrekbaar?",
+      "stappen": [
+        "Btw totaal = 20.000 × 21% = € 4.200.",
+        "Slechts 50% is aftrekbaar → 411590 ABTW = 2.100. De andere 2.100 is niet aftrekbaar.",
+        "De niet-aftrekbare btw mag je niet als kost (640700) houden in deze oefening: de leerkracht activeert ze mee op de AW-rekening 241000.",
+        "241000 krijgt dus 20.000 (basis) + 2.100 (niet-aftrekbare btw). De leerkracht boekt dit als twee aparte regels op 241000.",
+        "Schuld aan leverancier = volledig factuurbedrag = 20.000 + 4.200 = € 24.200."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "AF/60 aankoop personenwagen 01/08",
+          "regels": [
+            {"code": "241000", "naam": "Rollend materieel", "debet": 20000.00, "credit": null, "reden": "Aanschaffingswaarde van de wagen (basisprijs)."},
+            {"code": "241000", "naam": "Rollend materieel", "debet": 2100.00, "credit": null, "reden": "Het niet-aftrekbare deel van de btw (50%) wordt mee geactiveerd op de AW."},
+            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": 2100.00, "credit": null, "reden": "Slechts 50% van de btw is aftrekbaar (2.100)."},
+            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 24200.00, "reden": "Volledige schuld aan de leverancier incl. de volledige btw."}
+          ]
+        }
+      ],
+      "eindantwoord": "AW van de wagen op 241000 = € 22.100 (20.000 + 2.100 niet-aftrekbare btw). Aftrekbare btw = € 2.100. De boeking balanceert: debet 20.000 + 2.100 + 2.100 = 24.200 = credit.",
+      "valkuil": "De volledige btw (4.200) aftrekken. Bij een personenwagen is slechts 50% aftrekbaar; de andere helft wordt mee in de aanschaffingswaarde geactiveerd."
+    },
+    {
+      "id": "mva-5",
+      "titel": "Volledige verkoop met meerwaarde + resultaatsbepaling (examen)",
+      "niveau": "examen",
+      "context": "Bierhandel Jupiler kocht op 01/06/2023 een bestelwagen voor € 20.000 excl. 21% btw (lineair pro rata, 5 jaar). Geboekte afschrijvingen: 2023 = 2.345,21; 2024 = 4.000; 2025 = 4.000 + 2.000 uitzonderlijk; 2026 = 4.000. Op 01/08/2027 wordt de bestelwagen verkocht voor € 4.500 excl. 21% btw. Gebruik rekening 707000.",
+      "vraag": "Boek (a) de verkoopfactuur en (b) de resultaatsbepaling: uitboeken van AW en geboekte afschrijvingen met bepaling van de meer- of minderwaarde.",
+      "stappen": [
+        "Cumulatieve geboekte afschrijvingen = 2.345,21 + 4.000 + 4.000 + 2.000 + 4.000 = € 16.345,21.",
+        "Boekwaarde op verkoopdatum = AW − geboekte afschr. = 20.000 − 16.345,21 = € 3.654,79.",
+        "Verkoopfactuur: verkoopprijs 4.500 op 707000 (credit), btw 4.500 × 21% = 945 op 451540 VBTW (credit), totaal 5.445 op 416000 Diverse vorderingen (debet).",
+        "Resultaatsbepaling: sluit 707000 af (debet 4.500) en boek de geboekte afschrijvingen uit (231900/241900 debet 16.345,21) tegenover de AW (241000 credit 20.000).",
+        "Verschil = verkoopprijs − boekwaarde = 4.500 − 3.654,79 = € 845,21 meerwaarde. Omdat verkoopprijs > boekwaarde → meerwaarde op 763000 (credit). Controle: debet 4.500 + 16.345,21 = 20.845,21; credit 20.000 + 845,21 = 20.845,21."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "Verkoopfactuur bestelwagen 01/08/2027",
+          "regels": [
+            {"code": "416000", "naam": "Diverse vorderingen", "debet": 5445.00, "credit": null, "reden": "Vordering op de koper incl. btw (vast actief, dus 416 i.p.v. 400 Klanten)."},
+            {"code": "707000", "naam": "Verkoop VA", "debet": null, "credit": 4500.00, "reden": "Verkoopprijs van het vast actief, excl. btw (opbrengst, credit)."},
+            {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "debet": null, "credit": 945.00, "reden": "Verschuldigde btw (4.500 × 21%)."}
+          ]
+        },
+        {
+          "omschrijving": "Resultaatsbepaling: uitboeken AW + afschrijvingen",
+          "regels": [
+            {"code": "707000", "naam": "Verkoop VA", "debet": 4500.00, "credit": null, "reden": "707000 wordt afgesloten (debet) om de verkoopprijs tegenover de boekwaarde te plaatsen."},
+            {"code": "241900", "naam": "Geboekte afschrijvingen (vd aanschafwaarde)", "debet": 16345.21, "credit": null, "reden": "De cumulatieve afschrijvingen worden uitgeboekt (debet)."},
+            {"code": "763000", "naam": "Meerwaarden op de realisatie van", "debet": null, "credit": 845.21, "reden": "Verkoopprijs (4.500) > boekwaarde (3.654,79) → meerwaarde (credit, opbrengst)."},
+            {"code": "241000", "naam": "Rollend materieel", "debet": null, "credit": 20000.00, "reden": "De volledige aanschaffingswaarde wordt uitgeboekt (credit)."}
+          ]
+        }
+      ],
+      "eindantwoord": "Boekwaarde 3.654,79; verkoopprijs 4.500 → meerwaarde € 845,21 op 763000. Beide boekingen balanceren (5.445 = 5.445 en 20.845,21 = 20.845,21). (De testoplossing van de leerkracht gebruikt voor de tegenrekening het label 231900 'Afschr. machines'; voor rollend materieel is 241900 strikt juister.)",
+      "valkuil": "De meerwaarde berekenen op de aanschaffingswaarde i.p.v. op de boekwaarde, of vergeten 707000 weer af te sluiten. De meer-/minderwaarde is altijd het verschil tussen de verkoopprijs en de boekwaarde (AW − geboekte afschrijvingen)."
+    },
+    {
+      "id": "mva-6",
+      "titel": "Verkoop met minderwaarde",
+      "niveau": "examen",
+      "context": "Bierhandel Jupiler kocht op 01/08/2023 een bestelwagen voor € 20.000 excl. 21% btw (lineair pro rata, 5 jaar). Geboekte afschrijvingen: 2023 = 1.676,71; 2024 = 4.000; 2025 = 4.000 + 1.000 uitzonderlijk. Op 01/08/2026 wordt de bestelwagen verkocht voor € 2.500 excl. 21% btw.",
+      "vraag": "Boek de verkoopfactuur en de resultaatsbepaling. Is er een meer- of een minderwaarde?",
+      "stappen": [
+        "Cumulatieve afschrijvingen = 1.676,71 + 4.000 + 4.000 + 1.000 = € 10.676,71.",
+        "Boekwaarde = 20.000 − 10.676,71 = € 9.323,29.",
+        "Verkoopfactuur: 2.500 op 707000 (credit), btw 2.500 × 21% = 525 op 451540, totaal 3.025 op 416000 (debet).",
+        "Resultaat: verkoopprijs 2.500 < boekwaarde 9.323,29 → minderwaarde van € 6.823,29 op 663000 (debet, kost).",
+        "Controle uitboeking: debet 707000 2.500 + 241900 10.676,71 + 663000 6.823,29 = 20.000 = credit 241000 20.000."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "Verkoopfactuur bestelwagen 01/08/2026",
+          "regels": [
+            {"code": "416000", "naam": "Diverse vorderingen", "debet": 3025.00, "credit": null, "reden": "Vordering op de koper incl. btw."},
+            {"code": "707000", "naam": "Verkoop VA", "debet": null, "credit": 2500.00, "reden": "Verkoopprijs excl. btw (opbrengst)."},
+            {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "debet": null, "credit": 525.00, "reden": "Verschuldigde btw (2.500 × 21%)."}
+          ]
+        },
+        {
+          "omschrijving": "Resultaatsbepaling: uitboeken met minderwaarde",
+          "regels": [
+            {"code": "707000", "naam": "Verkoop VA", "debet": 2500.00, "credit": null, "reden": "707000 wordt afgesloten (debet)."},
+            {"code": "241900", "naam": "Geboekte afschrijvingen (vd aanschafwaarde)", "debet": 10676.71, "credit": null, "reden": "Cumulatieve afschrijvingen worden uitgeboekt (debet)."},
+            {"code": "663000", "naam": "Minderwaarden op de realisatie van vaste activa", "debet": 6823.29, "credit": null, "reden": "Verkoopprijs (2.500) < boekwaarde (9.323,29) → minderwaarde (kost, debet)."},
+            {"code": "241000", "naam": "Rollend materieel", "debet": null, "credit": 20000.00, "reden": "De volledige aanschaffingswaarde wordt uitgeboekt (credit)."}
+          ]
+        }
+      ],
+      "eindantwoord": "Boekwaarde 9.323,29; verkoopprijs 2.500 → minderwaarde € 6.823,29 op 663000. De uitboeking balanceert (20.000 = 20.000).",
+      "valkuil": "Bij een minderwaarde 763000 (opbrengst) gebruiken. Een minderwaarde is een kost (klasse 6) en staat aan de debetkant op 663000 (niet-recurrent) of 641000 (courant)."
+    },
+    {
+      "id": "mva-7",
+      "titel": "Buitengebruikstelling van een machine",
+      "niveau": "examen",
+      "context": "Een machine met een aanschaffingswaarde van € 5.000 is afgeschreven voor € 3.000 (boekwaarde € 2.000). Ze wordt definitief buiten gebruik gesteld en heeft geen realisatiewaarde meer (ze wordt niet verkocht).",
+      "vraag": "Boek de buitengebruikstelling. Wat gebeurt er met de resterende boekwaarde?",
+      "stappen": [
+        "Boekwaarde = AW − geboekte afschrijvingen = 5.000 − 3.000 = € 2.000.",
+        "Bij buitengebruikstelling zonder verkoop moet de resterende boekwaarde (2.000) in één keer afgeboekt worden als minderwaarde / uitzonderlijke afschrijving.",
+        "De leerkracht gebruikt hiervoor 663000 Minderwaarden op de realisatie van vaste activa (debet).",
+        "De geboekte afschrijvingen (231900, 3.000) worden uitgeboekt (debet) en de volledige AW (231000, 5.000) wordt uitgeboekt (credit).",
+        "Controle: debet 663000 2.000 + 231900 3.000 = 5.000 = credit 231000 5.000."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "Buitengebruikstelling machine",
+          "regels": [
+            {"code": "231900", "naam": "Geboekte afschrijvingen (vd aanschafwaarde)", "debet": 3000.00, "credit": null, "reden": "De reeds geboekte afschrijvingen worden uitgeboekt (debet)."},
+            {"code": "663000", "naam": "Minderwaarden op de realisatie van vaste activa", "debet": 2000.00, "credit": null, "reden": "De resterende boekwaarde gaat verloren → minderwaarde (kost, debet)."},
+            {"code": "231000", "naam": "Machines AW", "debet": null, "credit": 5000.00, "reden": "De volledige aanschaffingswaarde wordt uitgeboekt (credit)."}
+          ]
+        }
+      ],
+      "eindantwoord": "De resterende boekwaarde van € 2.000 wordt als minderwaarde op 663000 geboekt; AW (5.000) en geboekte afschrijvingen (3.000) verdwijnen volledig uit de boekhouding. De boeking balanceert (5.000 = 5.000).",
+      "valkuil": "De boekwaarde laten staan op de balans. Bij definitieve buitengebruikstelling moeten zowel de AW-rekening als de geboekte-afschrijvingenrekening volledig worden uitgeboekt; het verschil (de boekwaarde) wordt een minderwaarde."
+    }
+  ],
+  "flashcards": [
+    {"vraag": "Waaruit bestaat de aanschaffingswaarde (AW) van een MVA?", "antwoord": "Aankoopprijs + alle bijkomende kosten om het actief gebruiksklaar te maken (installatie, transport, montage, niet-aftrekbare btw) + eventueel intercalaire interest.", "type": "begrip"},
+    {"vraag": "Op welke rekening boek je de aanschaffingswaarde van een machine?", "antwoord": "231000 Machines AW (debet, actief). Eindigt op .0; gebouw = 221000, terrein = 220000, rollend materieel = 241000.", "type": "mar-code"},
+    {"vraag": "Welke rekening gebruik je voor de gewone jaarlijkse afschrijving op MVA?", "antwoord": "630200 Afschrijvingen op materiële vaste activa (debet, kost).", "type": "mar-code"},
+    {"vraag": "Wat is de tegenrekening bij een afschrijving op een machine?", "antwoord": "231900 Geboekte afschrijvingen (vd aanschafwaarde), credit. Eindigt op .9; corrigeert het actief, de AW-rekening 231000 blijft ongewijzigd.", "type": "mar-code"},
+    {"vraag": "Hoe bereken je de lineaire afschrijving?", "antwoord": "Aanschaffingswaarde / levensduur. In het aankoopjaar reken je pro rata temporis (naar aantal dagen of maanden).", "type": "logica"},
+    {"vraag": "Wat is het verschil tussen lineair en degressief afschrijven?", "antwoord": "Lineair = elk jaar hetzelfde bedrag (AW/levensduur). Degressief = vast percentage (dubbel van lineair) op de resterende boekwaarde, dus dalende bedragen; je schakelt over naar lineair zodra dat hoger uitkomt.", "type": "begrip"},
+    {"vraag": "Wat is de boekwaarde (BW) van een MVA?", "antwoord": "Boekwaarde = aanschaffingswaarde − geboekte afschrijvingen (AW-rekening min de .9-rekening).", "type": "begrip"},
+    {"vraag": "Welke rekening gebruik je voor een uitzonderlijke / niet-recurrente afschrijving op MVA?", "antwoord": "660200 (niet-recurrente afschrijving op MVA), debet, bovenop de gewone 630200.", "type": "mar-code"},
+    {"vraag": "Via welke rekening boek je de verkoop van een vast actief?", "antwoord": "707000 Verkoop VA (de verkoopprijs excl. btw, credit bij de factuur en debet bij het uitboeken).", "type": "mar-code"},
+    {"vraag": "Op welke rekening boek je de vordering op de koper bij verkoop van een MVA?", "antwoord": "416000 Diverse vorderingen (debet, incl. btw). Niet 400000 Klanten, want het is geen verkoop van handelsgoederen.", "type": "mar-code"},
+    {"vraag": "Hoe bepaal je of er een meerwaarde of minderwaarde is bij verkoop?", "antwoord": "Vergelijk verkoopprijs met boekwaarde. Verkoopprijs > boekwaarde = meerwaarde; verkoopprijs < boekwaarde = minderwaarde.", "type": "logica"},
+    {"vraag": "Welke rekeningen gebruik je voor een niet-recurrente meer- en minderwaarde?", "antwoord": "Meerwaarde = 763000 (credit, opbrengst). Minderwaarde = 663000 (debet, kost).", "type": "mar-code"},
+    {"vraag": "Wanneer gebruik je 741000/641000 in plaats van 763000/663000?", "antwoord": "741000 (meer) en 641000 (min) zijn courant/recurrent: verkoop binnen de gewone bedrijfsvoering. 763000/663000 zijn niet-recurrent: uitzonderlijke verkoop.", "type": "logica"},
+    {"vraag": "Waarvoor dient rekening 270000?", "antwoord": "270000 Vaste activa in aanbouw en vooruitbetaling: voor voorschotten/voorschotfacturen op een MVA dat nog niet geleverd of opgeleverd is. Bij levering boek je over naar de AW-rekening.", "type": "mar-code"},
+    {"vraag": "Hoeveel btw is aftrekbaar bij de aankoop van een personenwagen?", "antwoord": "Slechts 50%. De andere helft is niet aftrekbaar en wordt mee geactiveerd in de aanschaffingswaarde op 241000.", "type": "begrip"},
+    {"vraag": "Worden terreinen (220000) afgeschreven?", "antwoord": "Nee, een terrein heeft een onbeperkte levensduur en wordt in principe niet afgeschreven (wel mogelijk: waardevermindering 220900 of herwaardering 220800).", "type": "logica"}
+  ],
+  "veelgemaakteFouten": [
+    {"fout": "De afschrijving rechtstreeks op de AW-rekening (231000) in mindering boeken.", "correctie": "De AW-rekening blijft altijd op de oorspronkelijke waarde staan. De afschrijving gaat naar de aparte .9-rekening geboekte afschrijvingen (bv. 231900), aan de creditkant."},
+    {"fout": "Bijkomende kosten (installatie, transport) als gewone dienst (610 D&DG) boeken.", "correctie": "Kosten die nodig zijn om het actief gebruiksklaar te maken horen bij de aanschaffingswaarde en worden mee op de AW-rekening (231000) geactiveerd."},
+    {"fout": "In het aankoopjaar het volledige jaarbedrag afschrijven.", "correctie": "In het eerste jaar reken je pro rata temporis: aantal dagen (of maanden) in gebruik / 365 (of /12) × het jaarbedrag."},
+    {"fout": "De meer- of minderwaarde berekenen op de aanschaffingswaarde.", "correctie": "De meer-/minderwaarde is altijd het verschil tussen de verkoopprijs en de boekwaarde (AW − geboekte afschrijvingen), niet de AW."},
+    {"fout": "Bij verkoop van een MVA de vordering op 400000 Klanten boeken.", "correctie": "Een vast actief is geen handelsgoed. De vordering komt op 416000 Diverse vorderingen, de opbrengst op 707000 (niet 700000)."},
+    {"fout": "Vergeten 707000 weer af te sluiten bij de resultaatsbepaling.", "correctie": "707000 wordt bij de factuur gecrediteerd en daarna bij het uitboeken weer gedebiteerd, zodat de verkoopprijs tegenover de boekwaarde komt te staan en de meer-/minderwaarde vrijkomt."},
+    {"fout": "Een minderwaarde aan de creditkant of op een 7-rekening boeken.", "correctie": "Een minderwaarde is een kost (klasse 6): debet, op 663000 (niet-recurrent) of 641000 (courant). Alleen een meerwaarde staat credit (763000/741000)."},
+    {"fout": "De volledige btw aftrekken bij een personenwagen.", "correctie": "Bij personenwagens is de btw slechts 50% aftrekbaar; de niet-aftrekbare helft wordt mee geactiveerd in de aanschaffingswaarde (241000)."}
+  ],
+  "controlevragen": [
+    {"vraag": "Een machine heeft een AW van € 50.000 en is afgeschreven voor € 30.000. Wat is de boekwaarde?", "antwoord": "Boekwaarde = AW − geboekte afschrijvingen = 50.000 − 30.000 = € 20.000."},
+    {"vraag": "Je koopt een machine van € 40.000 en betaalt € 1.500 transport en € 800 installatie. Wat is de aanschaffingswaarde?", "antwoord": "AW = 40.000 + 1.500 + 800 = € 42.300. Alle kosten om de machine gebruiksklaar te maken worden geactiveerd op 231000."},
+    {"vraag": "Een machine (AW 10.000, levensduur 5 jaar) wordt gekocht op 01/04. Hoeveel schrijf je het eerste jaar af bij lineaire afschrijving pro rata temporis (per maand)?", "antwoord": "Jaarbedrag = 10.000 / 5 = 2.000. Van 01/04 t.e.m. 31/12 = 9 maanden → 9/12 × 2.000 = € 1.500."},
+    {"vraag": "Een actief met boekwaarde € 3.000 wordt verkocht voor € 5.000 excl. btw. Meerwaarde of minderwaarde, en op welke rekening (niet-recurrent)?", "antwoord": "Verkoopprijs (5.000) > boekwaarde (3.000) → meerwaarde van € 2.000 op 763000 Meerwaarden op de realisatie van (credit)."},
+    {"vraag": "Welke drie rekeningen komen tussen bij het uitboeken (resultaatsbepaling) van een verkochte machine met meerwaarde?", "antwoord": "Debet: 707000 Verkoop VA (verkoopprijs) + 231900 Geboekte afschrijvingen. Credit: 231000 Machines AW (volledige AW) + 763000 Meerwaarde (het verschil)."},
+    {"vraag": "Waar boek je een voorschotfactuur voor een machine die nog niet geleverd is?", "antwoord": "Op 270000 Vaste activa in aanbouw en vooruitbetaling (debet, excl. btw); de aftrekbare btw op 411590. Bij levering boek je het voorschot over naar de AW-rekening 231000."},
+    {"vraag": "Een onderneming schrijft een wagen normaal € 4.000 af, maar boekt dit jaar € 2.000 extra wegens een ongeval. Hoe boek je dat?", "antwoord": "630200 debet 4.000 (gewone afschrijving) + 660200 debet 2.000 (uitzonderlijk/niet-recurrent) / 241900 credit 6.000 (totale geboekte afschrijving)."},
+    {"vraag": "Waarom blijft de AW-rekening (231000) ongewijzigd tijdens de hele gebruiksduur?", "antwoord": "Omdat de afschrijvingen apart worden bijgehouden op de tegenrekening geboekte afschrijvingen (231900). Zo blijft de oorspronkelijke aanschaffingswaarde zichtbaar en is de boekwaarde = 231000 − 231900."}
+  ]
+}

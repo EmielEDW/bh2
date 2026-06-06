@@ -1,0 +1,301 @@
+CODE	NAAM	NATUUR	SOORT
+100000	Geplaatst kapitaal	credit	Passief (eigen vermogen / schuld LT)
+101000	Niet-opgevraagd kapitaal (-)	debet	Passief (eigen vermogen / schuld LT)
+110000	Uitgifte premies	credit	Passief (eigen vermogen / schuld LT)
+121000	HWMW op materiële vaste activa	credit	Passief (eigen vermogen / schuld LT)
+122000	HWMW op financiële vaste activa	credit	Passief (eigen vermogen / schuld LT)
+130000	Wettelijke reserve	credit	Passief (eigen vermogen / schuld LT)
+131000	Onbeschikbare reserves	credit	Passief (eigen vermogen / schuld LT)
+131100	Andere onbeschikbare reserves	credit	Passief (eigen vermogen / schuld LT)
+132000	Belastingvrije reserves	credit	Passief (eigen vermogen / schuld LT)
+133000	Beschikbare reserves	credit	Passief (eigen vermogen / schuld LT)
+140000	Overgedragen winst	credit	Passief (eigen vermogen / schuld LT)
+141000	Overgedragen verlies (-)	debet	Passief (eigen vermogen / schuld LT)
+150000	Kapitaalsubsidies	credit	Passief (eigen vermogen / schuld LT)
+160000	Voorzieningen pensioenen	credit	Passief (eigen vermogen / schuld LT)
+162000	Voorzieningen herstellingswerken	credit	Passief (eigen vermogen / schuld LT)
+163000	Voorzieningen voor overige risico's en kosten	credit	Passief (eigen vermogen / schuld LT)
+168000	Uitgestelde belastingen	credit	Passief (eigen vermogen / schuld LT)
+170000	Schulden op meer dan één jaar	credit	Passief (eigen vermogen / schuld LT)
+171000	Niet-achtergestelde obligatieleningen	credit	Passief (eigen vermogen / schuld LT)
+172000	Leasing- en soortgelijke schulden	credit	Passief (eigen vermogen / schuld LT)
+173000	Kredietinstellingen	credit	Passief (eigen vermogen / schuld LT)
+174000	Overige leningen	credit	Passief (eigen vermogen / schuld LT)
+176000	Ontvangen vooruitbetalingen op bestellingen	credit	Passief (eigen vermogen / schuld LT)
+178000	Borgtochten ontvangen in contanten	credit	Passief (eigen vermogen / schuld LT)
+179000	Overige schulden	credit	Passief (eigen vermogen / schuld LT)
+200000	Kosten van oprichting en kapitaalverhoging	debet	Actief (vaste activa / voorraden)
+201000	Kosten bij uitgifte van leningen	debet	Actief (vaste activa / voorraden)
+202000	Overige oprichtingskosten	debet	Actief (vaste activa / voorraden)
+204000	Herstructureringskosten	debet	Actief (vaste activa / voorraden)
+210000	Kosten van onderzoek en ontwikkeling	debet	Actief (vaste activa / voorraden)
+210900	Geboekte afschrijvingen of waardeverm	credit	Actief (vaste activa / voorraden)
+211000	Concessies, octrooien, licenties, know-how	debet	Actief (vaste activa / voorraden)
+211900	Geboekte afschrijvingen of waardeverm	credit	Actief (vaste activa / voorraden)
+212000	Goodwill	debet	Actief (vaste activa / voorraden)
+212900	Geboekte afschrijvingen of waardeverm	credit	Actief (vaste activa / voorraden)
+213000	Vooruitbetalingen	debet	Actief (vaste activa / voorraden)
+220000	Terreinen AW	debet	Actief (vaste activa / voorraden)
+220800	Geboekte waardevermeerdering	credit	Actief (vaste activa / voorraden)
+220900	Geboekte waardevermindering	credit	Actief (vaste activa / voorraden)
+221000	Gebouwen AW	debet	Actief (vaste activa / voorraden)
+221800	Geboekte meerwaarden	debet	Actief (vaste activa / voorraden)
+221890	Geboekte afschrijving vd geboekte meerwaarde	debet	Actief (vaste activa / voorraden)
+221900	Geboekte afschrijvingen (vd aanschafwaarde)	credit	Actief (vaste activa / voorraden)
+230000	Installaties AW	debet	Actief (vaste activa / voorraden)
+230800	Geboekte meerwaarden	debet	Actief (vaste activa / voorraden)
+230890	Geboekte afschrijving vd geboekte meerwaarde	debet	Actief (vaste activa / voorraden)
+230900	Geboekte afschrijvingen (vd aanschafwaarde)	credit	Actief (vaste activa / voorraden)
+231000	Machines AW	debet	Actief (vaste activa / voorraden)
+231800	Geboekte meerwaarden	debet	Actief (vaste activa / voorraden)
+231890	Geboekte afschrijving vd geboekte meerwaarde	debet	Actief (vaste activa / voorraden)
+231900	Geboekte afschrijvingen (vd aanschafwaarde)	credit	Actief (vaste activa / voorraden)
+232000	Uitrusting	debet	Actief (vaste activa / voorraden)
+232800	Geboekte meerwaarden	debet	Actief (vaste activa / voorraden)
+232890	Geboekte afschrijving vd geboekte meerwaarde	debet	Actief (vaste activa / voorraden)
+232900	Geboekte afschrijvingen (vd aanschafwaarde)	credit	Actief (vaste activa / voorraden)
+238900	Geboekte waardevermindering (-)	credit	Actief (vaste activa / voorraden) [EIGEN/leerkracht]
+240000	Meubilair en rollend materieel	debet	Actief (vaste activa / voorraden)
+240900	Geboekte afschrijvingen (vd aanschafwaarde)	credit	Actief (vaste activa / voorraden)
+241000	Rollend materieel	debet	Actief (vaste activa / voorraden)
+241900	Geboekte afschrijvingen (vd aanschafwaarde)	credit	Actief (vaste activa / voorraden)
+250000	Vaste activa in leasing	debet	Actief (vaste activa / voorraden)
+250900	Geboekte afschrijvingen	credit	Actief (vaste activa / voorraden)
+251000	Installaties, machines en uitrusting	debet	Actief (vaste activa / voorraden)
+251900	Geboekte afschrijvingen	credit	Actief (vaste activa / voorraden)
+252000	Meubilair en rollend materieel	debet	Actief (vaste activa / voorraden)
+252900	Geboekte afschrijvingen	credit	Actief (vaste activa / voorraden)
+260000	Andere materiële vaste activa	debet	Actief (vaste activa / voorraden)
+260900	Geboekte afschrijvingen	credit	Actief (vaste activa / voorraden)
+270000	Vaste activa in aanbouw en vooruitbetaling	debet	Actief (vaste activa / voorraden)
+280000	Deelnemingen in verbonden ondernemingen	debet	Actief (vaste activa / voorraden)
+280100	Nog te storten bedragen (-)	credit	Actief (vaste activa / voorraden)
+280800	Geboekte meerwaarden	debet	Actief (vaste activa / voorraden)
+280900	Geboekte waardeverm (-)	credit	Actief (vaste activa / voorraden)
+281000	Vorderingen op verbonden ondernemingen	debet	Actief (vaste activa / voorraden)
+281700	Dubieuze debiteuren	debet	Actief (vaste activa / voorraden)
+281900	Geboekte waardeverm (-)	credit	Actief (vaste activa / voorraden)
+282000	Deelnemingen deelnemingsverhouding	debet	Actief (vaste activa / voorraden)
+282100	Nog te storten bedragen (-)	credit	Actief (vaste activa / voorraden)
+282800	Geboekte meerwaarden	debet	Actief (vaste activa / voorraden)
+282900	Geboekte waardeverm deelnemingsverhouding(-)	credit	Actief (vaste activa / voorraden)
+283000	Vorderingen op rekening	debet	Actief (vaste activa / voorraden)
+283700	Dubieuze debiteuren	debet	Actief (vaste activa / voorraden)
+283800	Geboekte waardeverm (-)	credit	Actief (vaste activa / voorraden)
+284000	Andere aandelen	debet	Actief (vaste activa / voorraden)
+284100	Nog te storten bedragen (-)	credit	Actief (vaste activa / voorraden)
+284800	Geboekte meerwaarden	debet	Actief (vaste activa / voorraden)
+284900	Geboekte waardeverm (-)	credit	Actief (vaste activa / voorraden)
+285200	Vastrentende effecten	debet	Actief (vaste activa / voorraden)
+288000	Borgtochten betaald in contanten	debet	Actief (vaste activa / voorraden)
+300000	Grondstoffen	debet	Actief (vaste activa / voorraden)
+309000	Geboekte waardeverm (-)	credit	Actief (vaste activa / voorraden)
+310000	Hulpstoffen	debet	Actief (vaste activa / voorraden)
+319000	Geboekte waardeverm (-)	credit	Actief (vaste activa / voorraden)
+320000	Goederen in bewerking	debet	Actief (vaste activa / voorraden)
+329000	Geboekte waardeverm (-)	credit	Actief (vaste activa / voorraden)
+330000	Gereed product	debet	Actief (vaste activa / voorraden)
+340000	Handelsgoederen (HG)	debet	Actief (vaste activa / voorraden)
+349000	Geboekte waardeverm (-)	credit	Actief (vaste activa / voorraden)
+360000	Vooruitbetalingen	debet	Actief (vaste activa / voorraden)
+369000	Geboekte waardeverm (-)	credit	Actief (vaste activa / voorraden)
+370000	Bestellingen in uitvoering	debet	Actief (vaste activa / voorraden)
+379000	Geboekte waardeverm (-)	credit	Actief (vaste activa / voorraden)
+400000	Klanten	debet	Actief (vordering KT)
+404000	Te innen opbrengsten	debet	Actief (vordering KT)
+404200	Op te stellen facturen	debet	Actief (vordering KT) [EIGEN/leerkracht]
+406000	Vooruitbetalingen	debet	Actief (vordering KT)
+407000	Dubieuze debiteuren	debet	Actief (vordering KT)
+409000	Geboekte waardeverminderingen (-)	credit	Actief (vordering KT)
+409100	Geboekte waardeverm (-)	credit	Actief (vordering KT) [EIGEN/leerkracht]
+409200	Teruggevraagde btw (op dubieuze)	debet	Actief (vordering KT) [EIGEN/leerkracht]
+410000	Opgevraagd, niet-volgestort kapitaal	debet	Actief (vordering KT)
+411000	Terug te vorderen B.T.W	debet	Actief (vordering KT)
+411590	Aftrekbare btw (ABTW)	debet	Actief (vordering KT) [EIGEN/leerkracht]
+411620	Btw herziening in het voordeel	debet	Actief (vordering KT) [EIGEN/leerkracht]
+411630	Regularisatie aftrekbare btw (RABTW)	debet	Actief (vordering KT) [EIGEN/leerkracht]
+412000	Terug te vorderen belastingen geraamd	debet	Actief (vordering KT)
+412020	Terug te vorderen belastingen	debet	Actief (vordering KT) [EIGEN/leerkracht]
+416000	Diverse vorderingen	debet	Actief (vordering KT)
+418000	Waarborg	debet	Actief (vordering KT)
+423000	Schulden > 1 jr die binnen het jaar vervallen	credit	Passief (schuld KT)
+426000	Ontvangen vooruitbetalingen op bestellingen	credit	Passief (schuld KT)
+430000	Kredietinstellingen – Leningen vaste termijn	credit	Passief (schuld KT)
+433000	Kredietinstellingen	credit	Passief (schuld KT)
+439000	Overige leningen (financiële schuld KT)	credit	Passief (schuld KT)
+440000	Leveranciers	credit	Passief (schuld KT)
+444000	Te ontvangen facturen	credit	Passief (schuld KT)
+444100	Op te maken creditnota's	credit	Passief (schuld KT) [EIGEN/leerkracht]
+450000	Geraamd bedrag der belastingschulden	credit	Passief (schuld KT)
+451000	Te betalen B.T.W	credit	Passief (schuld KT)
+451300	Te betalen btw – verlegd (medecontractant)	credit	Passief (schuld KT) [EIGEN/leerkracht]
+451540	Verschuldigde btw (VBTW)	credit	Passief (schuld KT) [EIGEN/leerkracht]
+451550	Te betalen btw – verlegd	credit	Passief (schuld KT) [EIGEN/leerkracht]
+451560	Te betalen btw – intracommunautair	credit	Passief (schuld KT) [EIGEN/leerkracht]
+451570	Te betalen btw – invoer	credit	Passief (schuld KT) [EIGEN/leerkracht]
+451610	Btw herziening in het nadeel	credit	Passief (schuld KT) [EIGEN/leerkracht]
+451640	Regularisatie verschuldigde btw (RVBTW)	credit	Passief (schuld KT) [EIGEN/leerkracht]
+452000	Te betalen belastingen en taksen	credit	Passief (schuld KT)
+453000	Ingehouden voorheffingen	credit	Passief (schuld KT)
+454000	Rijksdienst voor Sociale Zekerheid	credit	Passief (schuld KT)
+455000	Bezoldigingen	credit	Passief (schuld KT)
+456000	Vakantiegeld	credit	Passief (schuld KT)
+460000	Ontvangen vooruitbetalingen op bestellingen	credit	Passief (schuld KT)
+470000	Schulden uit de bestemming van het resultaat	credit	Passief (schuld KT)
+471000	Dividenden over het boekjaar	credit	Passief (schuld KT)
+472000	Tantièmes over het boekjaar	credit	Passief (schuld KT)
+473000	Andere rechthebbenden	credit	Passief (schuld KT)
+474000	Terug te betalen aandelen	credit	Passief (schuld KT)
+480000	Andere schulden	credit	Passief (schuld KT)
+488000	Waarborg	credit	Passief (schuld KT)
+489000	Andere diverse schulden	credit	Passief (schuld KT)
+490000	Over te dragen kosten	debet	Overlopende rekening
+491000	Verkregen opbrengsten	debet	Overlopende rekening
+492000	Toe te rekenen kosten	credit	Overlopende rekening
+493000	Over te dragen opbrengsten	credit	Overlopende rekening
+499000	Wachtrekening afschrijvingen	credit	Overlopende rekening
+510000	Aandelen	debet	Actief (geldbelegging / liquide middel)
+510900	Aandelen – geboekte waardevermindering (-)	credit	Actief (geldbelegging / liquide middel) [EIGEN/leerkracht]
+511000	Niet opgevraagde bedragen (-)	credit	Actief (geldbelegging / liquide middel)
+519000	Geboekte waardeverm (-)	credit	Actief (geldbelegging / liquide middel)
+530000	Termoijndeposito's > 1 jaar	debet	Actief (geldbelegging / liquide middel)
+531000	Termijndeposito's > 1 maand en < 1 jaar	debet	Actief (geldbelegging / liquide middel)
+532000	Op ten hoogste één maand	debet	Actief (geldbelegging / liquide middel)
+539000	Geboekte waardeverm (-)	credit	Actief (geldbelegging / liquide middel)
+540000	Te incasseren vervallen waarden	debet	Actief (geldbelegging / liquide middel)
+550000	Kredietinstellingen	debet	Actief (geldbelegging / liquide middel)
+550001	Uitgeschreven cheques (-)	credit	Actief (geldbelegging / liquide middel) [EIGEN/leerkracht]
+560000	Postcheque en girodienst	debet	Actief (geldbelegging / liquide middel)
+570000	Kas – contanten (570-576)	debet	Actief (geldbelegging / liquide middel)
+579000	Kas – maaltijdcheques	debet	Actief (geldbelegging / liquide middel)
+580000	Interne overboekingen	debet	Actief (geldbelegging / liquide middel)
+600000	Aankopen van grondstoffen	debet	Resultaat – kost
+601000	Aankopen van hulpstoffen	debet	Resultaat – kost
+602000	Aankopen van diensten, werk en studies	debet	Resultaat – kost
+603000	Algemene onderaannemingen	debet	Resultaat – kost
+604000	Aankopen van handelsgoederen (HG)	debet	Resultaat – kost
+604001	Inkomende creditnota (ICN) op aankopen HG	debet	Resultaat – kost [EIGEN/leerkracht]
+604100	Inkomende creditnota (ICN)	debet	Resultaat – kost [EIGEN/leerkracht]
+605000	Aankopen onroerende goederen bestemd voor verkoop	debet	Resultaat – kost
+606000	Bijkomende kosten	debet	Resultaat – kost
+608000	Handelskorting / commerciële korting ontvangen (-)	credit	Resultaat – kost
+609000	Voorraadwijziging van grondstoffen	beide	Resultaat – kost
+609100	Voorraadwijziging van hulpstoffen	beide	Resultaat – kost
+609400	Voorraadwijziging van handelsgoederen (HG)	beide	Resultaat – kost
+610000	Diensten en diverse goederen	debet	Resultaat – kost
+617000	Uitzendkrachten	debet	Resultaat – kost
+618000	Bezoldiging bestuurders	debet	Resultaat – kost
+620000	Bezoldigingen, sociale lasten en pensioenen	debet	Resultaat – kost
+620100	Loon arbeider	debet	Resultaat – kost [EIGEN/leerkracht]
+620200	Bezoldiging bediende	debet	Resultaat – kost [EIGEN/leerkracht]
+621000	Werkgeversbijdragen voor sociale verzekeringen	debet	Resultaat – kost
+622000	Werkgevers premies extra-legaal verzekering	debet	Resultaat – kost
+623000	Andere personeelskosten	debet	Resultaat – kost
+624000	Ouderdoms- en overlevingspensioenen	debet	Resultaat – kost
+630000	Afschrijvingen op oprichtingskosten	debet	Resultaat – kost
+630100	Afschrijvingen op immateriële vaste activa	debet	Resultaat – kost
+630200	Afschrijvingen op materiële vaste activa	debet	Resultaat – kost
+630800	waardeverm op immateriële vaste activa	debet	Resultaat – kost
+630900	waardeverm op materiële vaste activa	debet	Resultaat – kost
+631000	waardeverm op voorraden	debet	Resultaat – kost
+631100	Terugneming (-)	credit	Resultaat – kost
+632000	waardeverm op bestellingen in uitvoering	debet	Resultaat – kost
+632100	Terugneming (-)	credit	Resultaat – kost
+634000	waardeverm op handelsvordering <1jr	debet	Resultaat – kost
+634100	Terugneming (-)	credit	Resultaat – kost
+635000	Voorzieningen voor pensioenen	debet	Resultaat – kost
+635100	Besteding en terugneming (-)	credit	Resultaat – kost
+636000	Voorzieningen herstellingswerken	debet	Resultaat – kost
+636100	Besteding en terugneming (-)	credit	Resultaat – kost
+637000	Voorzieningen voor andere risico’s en kosten	debet	Resultaat – kost
+637100	Besteding en terugneming (-)	credit	Resultaat – kost
+640000	Andere bedrijfskosten	debet	Resultaat – kost
+640700	Niet aftrekbare B.T.W	debet	Resultaat – kost
+641000	Minderwaarden realisatie van vaste activa	debet	Resultaat – kost
+642000	Minderwaarden realisatie handelsvordering	debet	Resultaat – kost
+643000	Diverse bedrijfskosten (643-648)	debet	Resultaat – kost
+649000	Als herstruct kost geactiveerde bedrijfskost (-)	credit	Resultaat – kost
+650000	Financiële kosten	debet	Resultaat – kost
+650100	Afschrijving van kosten bij uitgifte van leningen	debet	Resultaat – kost
+650200	Andere kosten van schulden	debet	Resultaat – kost
+650300	Geactiveerde intercalaire interesten (-)	credit	Resultaat – kost
+651000	waardeverm op vlottende	debet	Resultaat – kost
+651100	Terugneming (-)	credit	Resultaat – kost
+652000	Minderwaarden op realisatie van	debet	Resultaat – kost
+653000	Discontokosten op vorderingen	debet	Resultaat – kost
+654000	Wisselresultaten	debet	Resultaat – kost
+655000	Resultaten uit de omrekening van vreemde valuta	debet	Resultaat – kost
+656000	Voorzieningen met financieel karakter	debet	Resultaat – kost
+656100	Bestedingen en terugnemingen (-)	credit	Resultaat – kost
+657000	Financiële korting	debet	Resultaat – kost
+658000	Betalingsverschillen	debet	Resultaat – kost
+659000	Aankoopkosten effecten	debet	Resultaat – kost
+660000	Niet recurr afschrijvingen en waardeverm	debet	Resultaat – kost
+660100	op immateriële vaste activa	debet	Resultaat – kost
+660200	op materiële vaste activa	debet	Resultaat – kost
+661000	waardeverm op financiële vaste activa (toevoeging)	debet	Resultaat – kost
+662000	Voorzieningen voor Niet recurr risico’s en kosten	debet	Resultaat – kost
+662100	Bestedingen (-)	credit	Resultaat – kost
+663000	Minderwaarden op de realisatie van vaste activa	debet	Resultaat – kost
+664000	Andere niet-recurrente kosten (664-668)	debet	Resultaat – kost
+667000	Liquidatieverlies	debet	Resultaat – kost
+669000	Niet recurr kosten als herstr kosten opgenomen (-)	credit	Resultaat – kost
+670000	Belastingen	debet	Resultaat – kost
+670100	Geactiveerde overschotten betaalde belastingen (-)	credit	Resultaat – kost
+670200	Geraamde belastingen	debet	Resultaat – kost
+671000	Verschuldigde of gestorte belastingsupplement	debet	Resultaat – kost
+671100	Geraamde belastingsupplementen	debet	Resultaat – kost
+671200	Gevormde fiscale voorzieningen	debet	Resultaat – kost
+680000	Overboeking naar uitgestelde belastingen	debet	Resultaat – kost
+689000	Overboeking naar de belastingvrije reserves	debet	Resultaat – kost
+690000	Overgedragen verlies van het vorige boekjaar	debet	Resultaat – kost
+691000	Toevoeging aan het kapitaal en uitgiftepremie	debet	Resultaat – kost
+692000	Toevoeging aan de wettelijke reserve	debet	Resultaat – kost
+692100	Toevoeging aan de overige reserves	debet	Resultaat – kost
+693000	Over te dragen winst	debet	Resultaat – kost
+694000	Vergoeding van het kapitaal	debet	Resultaat – kost
+695000	Bestuurders of zaakvoerders	debet	Resultaat – kost
+696000	Andere rechthebbenden	debet	Resultaat – kost
+697000	Terug te betalen aandelen	debet	Resultaat – kost
+700000	Verkopen	credit	Resultaat – opbrengst
+700001	Uitgaande creditnota (UCN)	debet	Resultaat – opbrengst [EIGEN/leerkracht]
+700100	Uitgaande creditnota (UCN)	debet	Resultaat – opbrengst [EIGEN/leerkracht]
+706000	Doorgerekende kosten	credit	Resultaat – opbrengst
+707000	Verkoop VA	credit	Resultaat – opbrengst
+708000	Comm korting	credit	Resultaat – opbrengst
+710000	Wijzigingen bestellingen in uitvoering	beide	Resultaat – opbrengst
+712000	Voorraadwijziging goederen in bewerking	beide	Resultaat – opbrengst
+713000	In de voorraad gereed producten	beide	Resultaat – opbrengst
+717000	In de bestellingen in uitvoering	credit	Resultaat – opbrengst
+720000	Geactiveerde interne productie	credit	Resultaat – opbrengst
+740000	Andere bedrijfsopbrengsten	credit	Resultaat – opbrengst
+741000	Meerwaarden realisatie van VA	credit	Resultaat – opbrengst
+742000	Meerwaarden realisatie handelsvordering	credit	Resultaat – opbrengst
+743000	Diverse bedrijfsopbrengsten (743-749)	credit	Resultaat – opbrengst
+743209	Voordelen van alle aard	credit	Resultaat – opbrengst [EIGEN/leerkracht]
+743291	Maaltijdcheques (werkgeversdeel als opbrengst)	credit	Resultaat – opbrengst [EIGEN/leerkracht]
+750000	Opbrengsten uit financiële vaste activa	credit	Resultaat – opbrengst
+751000	Opbrengsten uit vlottende activa	credit	Resultaat – opbrengst
+752000	Meerwaarden op de realisatie van vlottende activa	credit	Resultaat – opbrengst
+753000	Kapitaal – en interestsubsidies	credit	Resultaat – opbrengst
+754000	Wisselresultaten	credit	Resultaat – opbrengst
+755000	Resultaten uit de omrekening van vreemde valuta	credit	Resultaat – opbrengst
+757000	Financiële korting	credit	Resultaat – opbrengst
+758000	Betalingsverschillen	credit	Resultaat – opbrengst
+760000	Terugneming van afschrijvingen en waardeverm	credit	Resultaat – opbrengst
+760100	Op materiële vaste activa	credit	Resultaat – opbrengst
+761000	Terugneming van waardevermin deringen op FVA	credit	Resultaat – opbrengst
+762000	Terugneming van voorzieningen	credit	Resultaat – opbrengst
+763000	Meerwaarden op de realisatie van	credit	Resultaat – opbrengst
+764000	Andere niet-recurrente opbrengsten (764-769)	credit	Resultaat – opbrengst
+770000	Regularisering van belastingen	credit	Resultaat – opbrengst
+771000	Regularisering belastingen	credit	Resultaat – opbrengst
+771100	Regularisering van geraamde belastingen	credit	Resultaat – opbrengst
+771200	Terugneming van fiscale voorzieningen	credit	Resultaat – opbrengst
+780000	Onttrekkingen aan de uitgestelde belastingen	credit	Resultaat – opbrengst
+789000	Onttrekkingen aan de belastingvrije reserves	credit	Resultaat – opbrengst
+790000	Overgedragen winst van vorige boekjaren	credit	Resultaat – opbrengst
+791000	Onttrekking aan het kapitaal en uitgiftepremies	credit	Resultaat – opbrengst
+792000	Onttrekking aan de reserves	credit	Resultaat – opbrengst
+793000	Over te dragen verlies	credit	Resultaat – opbrengst
+794000	Tussenkomst van vennotenin het verlies	credit	Resultaat – opbrengst

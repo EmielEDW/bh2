@@ -1,0 +1,303 @@
+{
+  "slug": "aankoop-verkoop",
+  "titel": "Aankopen, verkopen & handelsvorderingen/-schulden",
+  "korteOmschrijving": "Hoe je aankoop- en verkoopfacturen, creditnota's, kortingen, vooruitbetalingen en de eindejaarsrekeningen 404/444 correct boekt met btw in het Belgische MAR.",
+  "leerdoelen": [
+    "Een aankoopfactuur van handelsgoederen boeken met 604000, 411590 ABTW en 440000, en een verkoopfactuur met 400000, 700000 en 451540 VBTW.",
+    "Het verschil tussen handelskorting (608000/708000) en financiele korting (657000/757000) begrijpen en boeken.",
+    "Vooruitbetalingen aan leveranciers (406000) en van klanten (460000) boeken en later verrekenen met de factuur.",
+    "De overgangsrekeningen 444000 'te ontvangen facturen' en 404000/404200 'op te stellen facturen' correct gebruiken bij de jaarafsluiting en het verband met de voorraad (340000) leggen.",
+    "Inkomende en uitgaande creditnota's boeken (604001 ICN en 700001 UCN) met de btw-tegenboeking.",
+    "Een handelsschuld of -vordering betalen via bank (550000) of kas (570000) en controleren dat elke boeking in evenwicht is."
+  ],
+  "samenvatting": "## Aankopen, verkopen & handelsvorderingen/-schulden\n\nDit thema vormt de kern van de dagelijkse boekhouding van een handelsonderneming: goederen **inkopen**, ze **verkopen**, en de bijhorende vorderingen op klanten en schulden aan leveranciers correct beheren. Daarbovenop komt de **btw** (meestal 21%) en een aantal bijzondere rekeningen die je nodig hebt bij de jaarafsluiting.\n\n### 1. De aankoopfactuur (AF)\n\nWanneer je handelsgoederen koopt, ontvang je een **aankoopfactuur**. Je boekt:\n\n- **604000 Aankopen van handelsgoederen (HG)** in het **debet**, voor het bedrag **exclusief btw** (klasse 6 = kost -> debet).\n- **411590 Aftrekbare btw (ABTW)** in het **debet**, voor de btw die je later van de Staat terugkrijgt (een vordering, dus debet).\n- **440000 Leveranciers** in het **credit**, voor het totaal **inclusief btw** (een schuld op KT, passief -> stijgt in credit).\n\n*Voorbeeld:* aankoop radiatoren 300,00 excl. + 63,00 btw (21%) = **363,00** incl.\n\n| Rekening | Debet | Credit |\n|---|---|---|\n| 604000 Aankopen HG | 300,00 | |\n| 411590 ABTW | 63,00 | |\n| 440000 Leveranciers | | 363,00 |\n\n### 2. De verkoopfactuur (VF)\n\nWanneer je verkoopt, maak je een **verkoopfactuur** op:\n\n- **400000 Klanten** in het **debet**, voor het totaal **inclusief btw** (een vordering, actief -> debet).\n- **700000 Verkopen** in het **credit**, voor het bedrag **exclusief btw** (klasse 7 = opbrengst -> credit).\n- **451540 Verschuldigde btw (VBTW)** in het **credit**, btw die je aan de Staat moet doorstorten (schuld -> credit).\n\n*Voorbeeld:* verkoop 500,00 excl. + 105,00 btw = **605,00** incl. -> 400000 debet 605,00 / 700000 credit 500,00 + 451540 credit 105,00.\n\n> **Belangrijk:** vergeet nooit dat de **klanten/leveranciers altijd het bedrag inclusief btw** dragen, terwijl de kost- en opbrengstrekening (604/700) altijd **exclusief btw** is. Het verschil is precies de btw.\n\n### 3. Kortingen: handelskorting vs. financiele korting\n\n- **Handelskorting (commerciele korting)**: een korting die op de factuur zelf staat, bv. wegens grote hoeveelheid. Krijg je ze als koper, dan boek je **608000 Handelskorting ontvangen** in het **credit** (vermindert je kost). Geef je ze als verkoper, dan gebruik je **708000 Commerciele korting**. In de praktijk wordt de handelskorting vaak meteen van de basisprijs afgetrokken, zodat 604000/700000 al netto staat.\n- **Financiele korting (kassakorting)**: korting voor snelle betaling. Die boek je apart op **657000 Financiele korting** (kost, debet, als je ze geeft) of **757000 Financiele korting** (opbrengst, credit, als je ze krijgt). Verwar deze twee soorten kortingen niet.\n\n### 4. Creditnota's\n\nEen creditnota corrigeert een eerdere factuur (terugzending, prijscorrectie).\n\n- **Inkomende creditnota (ICN)** op een aankoop: **440000 Leveranciers** debet / **604001 ICN op aankopen HG** credit (excl.) + **411590 ABTW** credit (btw). De schuld daalt, de kost wordt teruggenomen.\n- **Uitgaande creditnota (UCN)** op een verkoop: **700001 UCN** debet (excl.) + **451540 VBTW** debet (btw) / **400000 Klanten** credit. De vordering daalt.\n\n### 5. Vooruitbetalingen\n\nSoms betaal je (of ontvang je) geld **voor** de levering.\n\n- **Vooruitbetaling aan een leverancier**: je hebt een vordering. Boek **406000 Vooruitbetalingen** (of **360000** voor vooruitbetalingen op voorraad) debet / 550000 Bank credit. Bij de definitieve factuur verreken je 406000.\n- **Vooruitbetaling van een klant**: je hebt een schuld. Boek 550000 Bank debet / **460000 Ontvangen vooruitbetalingen** credit (of **176000** voor de LT-variant).\n\n### 6. De jaarafsluiting: 404, 444 en het verband met 340\n\nOp het einde van het boekjaar moet **alles in de juiste periode** staan, ook al is de factuur er nog niet.\n\n- **444000 Te ontvangen facturen**: de goederen zijn **geleverd en in voorraad** (340000 Handelsgoederen), maar de **aankoopfactuur is nog niet binnen**. Je boekt de kost toch al: 604000 debet / 444000 credit (een schuld die je nog verwacht). Zo daalt je winst correct in het juiste jaar.\n- **404000 Te innen opbrengsten / 404200 Op te stellen facturen**: je hebt **geleverd aan de klant** maar de **verkoopfactuur is nog niet opgemaakt**. Je boekt de opbrengst toch: 404200 debet / 700000 credit. In het volgende jaar maak je de echte factuur op en boek je 404200 weg.\n\nHet ezelsbruggetje van de leerkracht: **340 (voorraad) hoort bij 444 (te ontvangen aankoopfacturen)** en bij **404 (op te stellen verkoopfacturen)**. Telkens als de goederenbeweging en de factuur niet samenvallen, heb je zo'n overgangsrekening nodig.\n\n### 7. Betaling\n\nBetalen of ontvangen gebeurt via **550000 Kredietinstellingen (bank)** of **570000 Kas**. Een leverancier betalen: 440000 debet / 550000 credit. Een klant die betaalt: 550000 debet / 400000 credit.\n\n> **Gouden regel:** in elke boeking is de som van de debetbedragen exact gelijk aan de som van de creditbedragen. Controleer dit altijd, zeker bij boekingen met drie of meer regels (factuur + btw).",
+  "kernrekeningen": [
+    {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "natuur": "debet", "wanneer": "Bij een aankoopfactuur van handelsgoederen, voor het bedrag exclusief btw."},
+    {"code": "604001", "naam": "Inkomende creditnota (ICN) op aankopen HG", "natuur": "debet", "wanneer": "Klasse 6-tegenrekening (MAR-natuur debet, net als 604000); wordt bij een ontvangen creditnota van je leverancier in het credit geboekt en neemt zo de aankoopkost (excl. btw) terug."},
+    {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "natuur": "debet", "wanneer": "Btw op aankopen die je van de Staat terugvordert; debet op AF, credit op een inkomende creditnota."},
+    {"code": "440000", "naam": "Leveranciers", "natuur": "credit", "wanneer": "Schuld aan de leverancier voor het totaal inclusief btw; daalt in debet bij betaling of inkomende creditnota."},
+    {"code": "444000", "naam": "Te ontvangen facturen", "natuur": "credit", "wanneer": "Bij jaarafsluiting: goederen ontvangen en in voorraad (340000), maar de aankoopfactuur is nog niet binnen."},
+    {"code": "400000", "naam": "Klanten", "natuur": "debet", "wanneer": "Vordering op de klant voor het totaal inclusief btw; daalt in credit bij ontvangst of uitgaande creditnota."},
+    {"code": "700000", "naam": "Verkopen", "natuur": "credit", "wanneer": "Bij een verkoopfactuur, voor het bedrag exclusief btw."},
+    {"code": "700001", "naam": "Uitgaande creditnota (UCN)", "natuur": "debet", "wanneer": "Bij een door jou opgemaakte creditnota, neemt de verkoopopbrengst (excl. btw) terug."},
+    {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "natuur": "credit", "wanneer": "Btw op verkopen die je aan de Staat moet doorstorten; credit op VF, debet op een uitgaande creditnota."},
+    {"code": "404200", "naam": "Op te stellen facturen", "natuur": "debet", "wanneer": "Bij jaarafsluiting: geleverd aan de klant maar de verkoopfactuur is nog niet opgemaakt."},
+    {"code": "608000", "naam": "Handelskorting / commerciële korting ontvangen (-)", "natuur": "credit", "wanneer": "Handelskorting die je als koper ontvangt; vermindert de aankoopkost."},
+    {"code": "708000", "naam": "Comm korting", "natuur": "credit", "wanneer": "Commerciele/handelskorting die je als verkoper toestaat aan je klant."},
+    {"code": "406000", "naam": "Vooruitbetalingen", "natuur": "debet", "wanneer": "Vooruitbetaling die je aan een leverancier doet vooraleer de factuur er is (vordering)."},
+    {"code": "460000", "naam": "Ontvangen vooruitbetalingen op bestellingen", "natuur": "credit", "wanneer": "Vooruitbetaling die je van een klant ontvangt vooraleer je levert (schuld)."},
+    {"code": "550000", "naam": "Kredietinstellingen", "natuur": "debet", "wanneer": "Bankrekening: debet bij ontvangst van geld, credit bij betaling."}
+  ],
+  "boekingsschemas": [
+    {
+      "titel": "Aankoopfactuur handelsgoederen (met 21% btw)",
+      "situatie": "Je ontvangt een aankoopfactuur voor handelsgoederen.",
+      "regels": [
+        {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "kant": "debet", "bedrag": "excl. btw", "toelichting": "Kost klasse 6 -> debet, basisbedrag van de goederen."},
+        {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "kant": "debet", "bedrag": "btw 21%", "toelichting": "Terug te vorderen btw = vordering op de Staat -> debet."},
+        {"code": "440000", "naam": "Leveranciers", "kant": "credit", "bedrag": "incl. btw", "toelichting": "Schuld aan de leverancier voor het totaalbedrag -> credit."}
+      ]
+    },
+    {
+      "titel": "Verkoopfactuur (met 21% btw)",
+      "situatie": "Je maakt een verkoopfactuur op voor een klant.",
+      "regels": [
+        {"code": "400000", "naam": "Klanten", "kant": "debet", "bedrag": "incl. btw", "toelichting": "Vordering op de klant voor het totaalbedrag -> debet."},
+        {"code": "700000", "naam": "Verkopen", "kant": "credit", "bedrag": "excl. btw", "toelichting": "Opbrengst klasse 7 -> credit, basisbedrag van de verkoop."},
+        {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "kant": "credit", "bedrag": "btw 21%", "toelichting": "Door te storten btw = schuld aan de Staat -> credit."}
+      ]
+    },
+    {
+      "titel": "Inkomende creditnota (ICN) op aankoop",
+      "situatie": "Je leverancier stuurt een creditnota (terugzending of prijscorrectie).",
+      "regels": [
+        {"code": "440000", "naam": "Leveranciers", "kant": "debet", "bedrag": "incl. btw", "toelichting": "De schuld aan de leverancier daalt -> debet."},
+        {"code": "604001", "naam": "Inkomende creditnota (ICN) op aankopen HG", "kant": "credit", "bedrag": "excl. btw", "toelichting": "Neemt de eerder geboekte aankoopkost terug -> credit."},
+        {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "kant": "credit", "bedrag": "btw 21%", "toelichting": "De aftrekbare btw vermindert -> credit (tegenovergesteld aan de AF)."}
+      ]
+    },
+    {
+      "titel": "Eindejaar: goederen in voorraad, factuur nog niet ontvangen",
+      "situatie": "Op 31/12 zijn de handelsgoederen geleverd en in voorraad (340000), maar de aankoopfactuur is nog niet binnen.",
+      "regels": [
+        {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "kant": "debet", "bedrag": "excl. btw", "toelichting": "De kost hoort in dit boekjaar thuis -> debet."},
+        {"code": "444000", "naam": "Te ontvangen facturen", "kant": "credit", "bedrag": "excl. btw", "toelichting": "Verwachte schuld zolang de echte factuur ontbreekt -> credit (btw volgt pas bij de factuur)."}
+      ]
+    },
+    {
+      "titel": "Eindejaar: geleverd aan klant, verkoopfactuur nog op te stellen",
+      "situatie": "Op 31/12 zijn de goederen geleverd aan de klant, maar de verkoopfactuur moet nog opgemaakt worden.",
+      "regels": [
+        {"code": "404200", "naam": "Op te stellen facturen", "kant": "debet", "bedrag": "excl. btw", "toelichting": "Vordering zolang de echte factuur er niet is -> debet."},
+        {"code": "700000", "naam": "Verkopen", "kant": "credit", "bedrag": "excl. btw", "toelichting": "De opbrengst hoort in dit boekjaar thuis -> credit (btw volgt pas bij de factuur)."}
+      ]
+    }
+  ],
+  "oefeningen": [
+    {
+      "id": "aankoop-verkoop-1",
+      "titel": "Aankoopfactuur handelsgoederen boeken",
+      "niveau": "basis",
+      "context": "Onderneming D koopt radiatoren als handelsgoederen bij leverancier Vasco. De aankoopfactuur vermeldt 300,00 EUR exclusief btw, btw 21%.",
+      "vraag": "Boek de aankoopfactuur. Bereken eerst het btw-bedrag en het totaal inclusief btw.",
+      "stappen": [
+        "Btw = 300,00 x 21% = 63,00.",
+        "Totaal inclusief btw = 300,00 + 63,00 = 363,00.",
+        "604000 Aankopen HG komt in debet voor de basis (kost, klasse 6).",
+        "411590 ABTW komt in debet voor de btw (terug te vorderen vordering).",
+        "440000 Leveranciers komt in credit voor het totaal inclusief btw (schuld)."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "Aankoopfactuur radiatoren",
+          "regels": [
+            {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "debet": 300.00, "credit": null, "reden": "Kost van de handelsgoederen, exclusief btw -> klasse 6 in debet."},
+            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": 63.00, "credit": null, "reden": "Terug te vorderen btw = vordering op de Staat -> debet."},
+            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 363.00, "reden": "Schuld aan de leverancier voor het totaalbedrag inclusief btw -> passief in credit."}
+          ]
+        }
+      ],
+      "eindantwoord": "Debet 604000 = 300,00 + debet 411590 = 63,00; credit 440000 = 363,00. Som debet 363,00 = som credit 363,00.",
+      "valkuil": "De btw NIET op 604000 zetten: de kostrekening blijft altijd exclusief btw (300,00), alleen 440000 draagt het totaal inclusief (363,00)."
+    },
+    {
+      "id": "aankoop-verkoop-2",
+      "titel": "Verkoopfactuur en betaling door de klant",
+      "niveau": "basis",
+      "context": "Onderneming D verkoopt dezelfde radiatoren door aan klant Janssens voor 500,00 EUR exclusief btw, btw 21%. Twee weken later betaalt de klant het volledige bedrag via overschrijving op de bankrekening.",
+      "vraag": "Boek (a) de verkoopfactuur en (b) de ontvangst van de betaling.",
+      "stappen": [
+        "Btw = 500,00 x 21% = 105,00; totaal inclusief = 605,00.",
+        "Verkoopfactuur: 400000 Klanten debet 605,00 (incl.); 700000 Verkopen credit 500,00 (excl.); 451540 VBTW credit 105,00 (btw).",
+        "Bij de betaling daalt de vordering op de klant: 400000 gaat in credit.",
+        "Het geld komt binnen op de bank: 550000 in debet, voor hetzelfde bedrag 605,00."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "Verkoopfactuur radiatoren",
+          "regels": [
+            {"code": "400000", "naam": "Klanten", "debet": 605.00, "credit": null, "reden": "Vordering op de klant voor het totaal inclusief btw -> actief in debet."},
+            {"code": "700000", "naam": "Verkopen", "debet": null, "credit": 500.00, "reden": "Opbrengst klasse 7, exclusief btw -> credit."},
+            {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "debet": null, "credit": 105.00, "reden": "Door te storten btw = schuld aan de Staat -> credit."}
+          ]
+        },
+        {
+          "omschrijving": "Ontvangst betaling klant via bank",
+          "regels": [
+            {"code": "550000", "naam": "Kredietinstellingen", "debet": 605.00, "credit": null, "reden": "Geld komt binnen op de bankrekening -> actief in debet."},
+            {"code": "400000", "naam": "Klanten", "debet": null, "credit": 605.00, "reden": "De vordering op de klant wordt aangezuiverd -> credit."}
+          ]
+        }
+      ],
+      "eindantwoord": "VF: debet 605,00 = credit (500,00 + 105,00). Betaling: debet 550000 605,00 = credit 400000 605,00. Brutowinst op de goederen = 500,00 - 300,00 = 200,00.",
+      "valkuil": "Bij de betaling boek je het bedrag inclusief btw (605,00); de btw is al apart geboekt op de factuur, je herhaalt die niet bij de betaling."
+    },
+    {
+      "id": "aankoop-verkoop-3",
+      "titel": "Vooruitbetaling aan leverancier en eindafrekening",
+      "niveau": "midden",
+      "context": "Onderneming D bestelt handelsgoederen bij leverancier Vasco voor 1.000,00 EUR exclusief btw. Vasco vraagt een voorschot. D betaalt 242,00 EUR (200,00 + 42,00 btw) vooruit via de bank. Een maand later komt de definitieve aankoopfactuur: 1.000,00 + 210,00 btw = 1.210,00, waarvan het voorschot wordt afgetrokken.",
+      "vraag": "Boek (a) de vooruitbetaling en (b) de definitieve aankoopfactuur met verrekening van het voorschot.",
+      "stappen": [
+        "Vooruitbetaling: het reeds betaalde geld is een vordering op de leverancier. Boek 406000 Vooruitbetalingen debet 200,00 + 411590 ABTW debet 42,00 / 550000 Bank credit 242,00.",
+        "Definitieve factuur: volledige kost 604000 debet 1.000,00; volledige btw 411590 debet 210,00.",
+        "Het reeds betaalde voorschot moet weg: 406000 in credit 200,00 (vordering verdwijnt) en de btw van 42,00 op 411590 mag niet dubbel staan -> ze hoort al bij de 210,00, dus de credit van 411590 is 42,00.",
+        "De resterende schuld aan de leverancier = 1.210,00 - 242,00 = 968,00 op 440000 credit.",
+        "Controle: debet (1.000,00 + 210,00) = 1.210,00; credit (406000 200,00 + 411590 42,00 + 440000 968,00) = 1.210,00."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "Vooruitbetaling (voorschot) aan leverancier via bank",
+          "regels": [
+            {"code": "406000", "naam": "Vooruitbetalingen", "debet": 200.00, "credit": null, "reden": "Betaald voorschot = vordering op de leverancier -> actief in debet."},
+            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": 42.00, "credit": null, "reden": "Btw op het voorschot is al aftrekbaar -> debet."},
+            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 242.00, "reden": "Geld verlaat de bankrekening -> credit."}
+          ]
+        },
+        {
+          "omschrijving": "Definitieve aankoopfactuur met verrekening voorschot",
+          "regels": [
+            {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "debet": 1000.00, "credit": null, "reden": "Volledige kost van de handelsgoederen exclusief btw -> debet."},
+            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": 210.00, "credit": null, "reden": "Volledige aftrekbare btw op de totale aankoop -> debet."},
+            {"code": "406000", "naam": "Vooruitbetalingen", "debet": null, "credit": 200.00, "reden": "Het eerder geboekte voorschot wordt verrekend, de vordering verdwijnt -> credit."},
+            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": null, "credit": 42.00, "reden": "De btw van het voorschot (42,00) zat al in de 210,00; ze wordt teruggeboekt om geen dubbeltelling te hebben -> credit."},
+            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 968.00, "reden": "Restschuld = totaal 1.210,00 - reeds betaald voorschot 242,00 -> credit."}
+          ]
+        }
+      ],
+      "eindantwoord": "Voorschotboeking balanceert op 242,00. Eindfactuur: debet 1.210,00 = credit (200,00 + 42,00 + 968,00) = 1.210,00. De nog te betalen restschuld aan Vasco bedraagt 968,00.",
+      "valkuil": "De btw op het voorschot niet vergeten terug te boeken: als je bij de eindfactuur de volledige 210,00 btw boekt zonder de 42,00 van het voorschot te crediteren, telt diezelfde btw twee keer mee."
+    },
+    {
+      "id": "aankoop-verkoop-4",
+      "titel": "Inkomende creditnota na terugzending",
+      "niveau": "midden",
+      "context": "Onderneming D had bij leverancier Vasco handelsgoederen gekocht voor 300,00 + 63,00 btw = 363,00. Een deel van de levering is beschadigd. Vasco stuurt een inkomende creditnota voor 100,00 EUR exclusief btw, btw 21%.",
+      "vraag": "Bereken de creditnota en boek ze. De factuur was nog niet betaald.",
+      "stappen": [
+        "Btw op de creditnota = 100,00 x 21% = 21,00; totaal = 121,00.",
+        "Een ICN draait een deel van de aankoop terug: de schuld aan de leverancier daalt -> 440000 in debet 121,00.",
+        "De aankoopkost wordt teruggenomen via 604001 ICN in credit 100,00.",
+        "De aftrekbare btw vermindert -> 411590 ABTW in credit 21,00.",
+        "Controle: debet 440000 121,00 = credit (604001 100,00 + 411590 21,00) = 121,00."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "Inkomende creditnota beschadigde goederen",
+          "regels": [
+            {"code": "440000", "naam": "Leveranciers", "debet": 121.00, "credit": null, "reden": "De schuld aan de leverancier daalt door de creditnota -> debet."},
+            {"code": "604001", "naam": "Inkomende creditnota (ICN) op aankopen HG", "debet": null, "credit": 100.00, "reden": "Neemt de eerder geboekte aankoopkost gedeeltelijk terug (excl. btw) -> credit."},
+            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": null, "credit": 21.00, "reden": "De aftrekbare btw vermindert -> credit, tegenovergesteld aan de oorspronkelijke AF."}
+          ]
+        }
+      ],
+      "eindantwoord": "Debet 440000 = 121,00; credit 604001 = 100,00 + credit 411590 = 21,00. De resterende schuld aan Vasco daalt van 363,00 naar 242,00.",
+      "valkuil": "604001 (ICN) gebruiken in het credit, niet 604000 in het credit verminderen. De ICN is een aparte tegenrekening; zo blijft de bruto-aankoop op 604000 zichtbaar."
+    },
+    {
+      "id": "aankoop-verkoop-5",
+      "titel": "Jaarafsluiting: 444 te ontvangen facturen en het verband met de voorraad",
+      "niveau": "examen",
+      "context": "Op 31/12 van boekjaar 1 heeft onderneming C handelsgoederen (radiatoren) ontvangen ter waarde van 300,00 EUR exclusief btw. De goederen liggen in de voorraad (340000), maar de aankoopfactuur van leverancier Vasco is nog niet binnen. In boekjaar 2 ontvangt C de definitieve factuur: 300,00 + 63,00 btw = 363,00.",
+      "vraag": "Boek (a) de eindejaarsboeking op 31/12 van BJ1 en (b) de ontvangst van de echte factuur in BJ2 (met tegenboeking van de provisie).",
+      "stappen": [
+        "BJ1 - de kost moet in het juiste jaar staan, ook al ontbreekt de factuur. Boek 604000 Aankopen HG debet 300,00.",
+        "Er is nog geen factuur dus nog geen 440000; je gebruikt de overgangsrekening 444000 Te ontvangen facturen credit 300,00. De btw boek je hier nog niet, want die hangt aan de officiele factuur.",
+        "Onthoud het verband: de goederen zitten al in 340000 Voorraad, dus de kost (604000) tegenover 444000 hoort erbij. 340 hoort bij 444.",
+        "BJ2 - de echte factuur komt binnen. Eerst de provisie tegenboeken: 444000 Te ontvangen facturen debet 300,00 (de verwachte schuld is nu een echte schuld geworden).",
+        "Dan de echte factuur: de schuld aan de leverancier inclusief btw -> 440000 credit 363,00; de btw die nu pas aftrekbaar wordt -> 411590 ABTW debet 63,00.",
+        "Controle BJ1: debet 604000 300,00 = credit 444000 300,00. Controle BJ2: debet (444000 300,00 + 411590 63,00) = 363,00 = credit 440000 363,00."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "31/12 BJ1 - te ontvangen factuur (provisie)",
+          "regels": [
+            {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "debet": 300.00, "credit": null, "reden": "De kost hoort in BJ1 thuis (matching met de voorraad in 340000) -> klasse 6 in debet."},
+            {"code": "444000", "naam": "Te ontvangen facturen", "debet": null, "credit": 300.00, "reden": "Verwachte schuld zolang de officiele factuur ontbreekt; nog geen btw -> credit."}
+          ]
+        },
+        {
+          "omschrijving": "BJ2 - ontvangst echte aankoopfactuur",
+          "regels": [
+            {"code": "444000", "naam": "Te ontvangen facturen", "debet": 300.00, "credit": null, "reden": "De provisie wordt tegengeboekt nu de echte factuur er is -> debet."},
+            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": 63.00, "credit": null, "reden": "De btw wordt pas aftrekbaar bij de officiele factuur -> debet."},
+            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 363.00, "reden": "Echte schuld aan de leverancier voor het totaal inclusief btw -> credit."}
+          ]
+        }
+      ],
+      "eindantwoord": "BJ1: 604000 debet 300,00 / 444000 credit 300,00 (kost correct in BJ1). BJ2: 444000 debet 300,00 + 411590 debet 63,00 / 440000 credit 363,00. Beide boekingen balanceren; de kost staat in BJ1, de btw-aftrek in BJ2.",
+      "valkuil": "In BJ1 NIET 440000 of 411590 gebruiken: zonder factuur is er nog geen leveranciersschuld en geen aftrekbare btw. De btw verschijnt pas bij de echte factuur in BJ2. Vergeet ook niet de 444000 in BJ2 tegen te boeken, anders blijft de schuld dubbel staan."
+    },
+    {
+      "id": "aankoop-verkoop-6",
+      "titel": "Jaarafsluiting: 404200 op te stellen verkoopfactuur",
+      "niveau": "examen",
+      "context": "Op 31/12 van boekjaar 1 heeft onderneming C radiatoren geleverd aan een klant voor 500,00 EUR exclusief btw, maar de verkoopfactuur is nog niet opgemaakt. In boekjaar 2 wordt de factuur opgesteld: 500,00 + 105,00 btw = 605,00.",
+      "vraag": "Boek (a) de eindejaarsboeking op 31/12 BJ1 met 404200 en (b) de definitieve verkoopfactuur in BJ2.",
+      "stappen": [
+        "BJ1 - de opbrengst hoort in het juiste jaar, ook al is de factuur er nog niet. Boek 700000 Verkopen credit 500,00.",
+        "Er is nog geen 400000 Klanten (geen factuur), dus gebruik de overgangsrekening 404200 Op te stellen facturen debet 500,00. Btw nog niet, die hangt aan de officiele factuur.",
+        "BJ2 - de factuur wordt opgesteld. Eerst de provisie tegenboeken: 404200 credit 500,00.",
+        "Dan de echte factuur: vordering inclusief btw -> 400000 Klanten debet 605,00; verschuldigde btw -> 451540 VBTW credit 105,00.",
+        "Controle BJ1: debet 404200 500,00 = credit 700000 500,00. Controle BJ2: debet 400000 605,00 = credit (404200 500,00 + 451540 105,00) = 605,00."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "31/12 BJ1 - op te stellen factuur",
+          "regels": [
+            {"code": "404200", "naam": "Op te stellen facturen", "debet": 500.00, "credit": null, "reden": "Vordering zolang de officiele verkoopfactuur er niet is; nog geen btw -> debet."},
+            {"code": "700000", "naam": "Verkopen", "debet": null, "credit": 500.00, "reden": "De opbrengst hoort in BJ1 thuis -> klasse 7 in credit."}
+          ]
+        },
+        {
+          "omschrijving": "BJ2 - opmaak echte verkoopfactuur",
+          "regels": [
+            {"code": "400000", "naam": "Klanten", "debet": 605.00, "credit": null, "reden": "Echte vordering op de klant voor het totaal inclusief btw -> debet."},
+            {"code": "404200", "naam": "Op te stellen facturen", "debet": null, "credit": 500.00, "reden": "De provisie wordt tegengeboekt nu de echte factuur bestaat -> credit."},
+            {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "debet": null, "credit": 105.00, "reden": "Verschuldigde btw verschijnt pas bij de officiele factuur -> credit."}
+          ]
+        }
+      ],
+      "eindantwoord": "BJ1: 404200 debet 500,00 / 700000 credit 500,00 (opbrengst correct in BJ1). BJ2: 400000 debet 605,00 / 404200 credit 500,00 + 451540 credit 105,00. Beide boekingen balanceren.",
+      "valkuil": "In BJ1 geen 400000 en geen btw boeken: zonder factuur is er nog geen vordering op de klant en geen verschuldigde btw. Verwar 404200 (op te stellen verkoopfacturen, debet/actief) niet met 444000 (te ontvangen aankoopfacturen, credit/passief)."
+    }
+  ],
+  "flashcards": [
+    {"vraag": "Welke drie rekeningen gebruik je bij een aankoopfactuur van handelsgoederen?", "antwoord": "604000 Aankopen HG (debet, excl.) + 411590 ABTW (debet, btw) / 440000 Leveranciers (credit, incl.).", "type": "mar-code"},
+    {"vraag": "Welke drie rekeningen gebruik je bij een verkoopfactuur?", "antwoord": "400000 Klanten (debet, incl.) / 700000 Verkopen (credit, excl.) + 451540 VBTW (credit, btw).", "type": "mar-code"},
+    {"vraag": "Staat de kostrekening 604000 inclusief of exclusief btw?", "antwoord": "Altijd exclusief btw. Alleen 440000 Leveranciers draagt het bedrag inclusief btw.", "type": "logica"},
+    {"vraag": "Wat is het verschil tussen handelskorting en financiele korting?", "antwoord": "Handelskorting (608000/708000) staat op de factuur, bv. wegens hoeveelheid. Financiele korting (657000/757000) is een korting voor snelle betaling.", "type": "begrip"},
+    {"vraag": "Wat boek je op 444000 'Te ontvangen facturen'?", "antwoord": "Goederen zijn ontvangen en in voorraad (340000), maar de aankoopfactuur is nog niet binnen op de jaarafsluiting. 604000 debet / 444000 credit (nog geen btw).", "type": "mar-code"},
+    {"vraag": "Wat boek je op 404200 'Op te stellen facturen'?", "antwoord": "Geleverd aan de klant, maar de verkoopfactuur is nog niet opgemaakt. 404200 debet / 700000 credit (nog geen btw).", "type": "mar-code"},
+    {"vraag": "Waarom boek je geen btw op de eindejaarsrekeningen 444000 en 404200?", "antwoord": "De btw is pas opeisbaar/aftrekbaar wanneer de officiele factuur is uitgereikt of ontvangen. De provisie bevat dus enkel het bedrag exclusief btw.", "type": "logica"},
+    {"vraag": "Hoe boek je een inkomende creditnota (ICN) op een aankoop?", "antwoord": "440000 Leveranciers (debet) / 604001 ICN op aankopen HG (credit, excl.) + 411590 ABTW (credit, btw).", "type": "mar-code"},
+    {"vraag": "Hoe boek je een uitgaande creditnota (UCN) op een verkoop?", "antwoord": "700001 UCN (debet, excl.) + 451540 VBTW (debet, btw) / 400000 Klanten (credit).", "type": "mar-code"},
+    {"vraag": "Op welke rekening boek je een voorschot dat je AAN een leverancier betaalt?", "antwoord": "406000 Vooruitbetalingen (debet, vordering); voor vooruitbetalingen op voorraad eventueel 360000.", "type": "mar-code"},
+    {"vraag": "Op welke rekening boek je een voorschot dat je VAN een klant ontvangt?", "antwoord": "460000 Ontvangen vooruitbetalingen op bestellingen (credit, schuld); de LT-variant is 176000.", "type": "mar-code"},
+    {"vraag": "Waarom staat 411590 ABTW in het debet en 451540 VBTW in het credit?", "antwoord": "ABTW is btw die je terugvordert (vordering op de Staat = debet); VBTW is btw die je moet doorstorten (schuld aan de Staat = credit).", "type": "logica"},
+    {"vraag": "Welk ezelsbruggetje verbindt 340, 444 en 404?", "antwoord": "De voorraad (340) hoort bij de te ontvangen aankoopfacturen (444) en bij de op te stellen verkoopfacturen (404). Goederenbeweging zonder factuur -> overgangsrekening.", "type": "begrip"},
+    {"vraag": "Hoe boek je de betaling van een leverancier via de bank?", "antwoord": "440000 Leveranciers (debet) / 550000 Kredietinstellingen (credit), voor het bedrag inclusief btw.", "type": "mar-code"},
+    {"vraag": "Wat is de gouden regel die je in elke boeking moet controleren?", "antwoord": "Som van de debetbedragen = som van de creditbedragen. Per regel vul je OFWEL debet OFWEL credit in, nooit beide.", "type": "logica"},
+    {"vraag": "Welk bedrag draagt 400000 Klanten op een verkoopfactuur?", "antwoord": "Het totaal inclusief btw, want dat is wat de klant je effectief moet betalen.", "type": "begrip"}
+  ],
+  "veelgemaakteFouten": [
+    {"fout": "De btw op de kost- of opbrengstrekening boeken (bv. 363,00 op 604000).", "correctie": "604000 en 700000 staan altijd exclusief btw. Alleen 440000/400000 dragen het bedrag inclusief btw."},
+    {"fout": "Op de eindejaarsrekeningen 444000 of 404200 toch btw boeken.", "correctie": "Boek enkel het bedrag exclusief btw. De btw (411590 of 451540) verschijnt pas wanneer de echte factuur wordt ontvangen/opgesteld in het volgende boekjaar."},
+    {"fout": "444000 (passief, credit) verwarren met 404200 (actief, debet).", "correctie": "444000 'Te ontvangen facturen' = schuld die je nog verwacht (aankoopkant, credit). 404200 'Op te stellen facturen' = vordering die je nog moet factureren (verkoopkant, debet)."},
+    {"fout": "Bij de echte factuur in BJ2 de provisie 444000/404200 niet tegenboeken.", "correctie": "Boek de provisie eerst weg (444000 debet of 404200 credit) en dan pas de echte factuur, anders staat de schuld of vordering dubbel."},
+    {"fout": "Handelskorting en financiele korting door elkaar halen.", "correctie": "Handelskorting -> 608000/708000 (op de factuur). Financiele korting -> 657000/757000 (korting voor snelle betaling)."},
+    {"fout": "Een ontvangen of betaald voorschot meteen op 604000/700000 boeken.", "correctie": "Een voorschot is nog geen aankoop of verkoop. Boek het op 406000 (aan leverancier) of 460000 (van klant) en verreken het pas bij de definitieve factuur."},
+    {"fout": "Bij de betaling van een factuur de btw nog eens apart boeken.", "correctie": "De btw zit al in de factuurboeking. Bij de betaling boek je gewoon het volledige bedrag inclusief btw tussen 440000/400000 en 550000."},
+    {"fout": "Bij een inkomende creditnota 604000 verminderen in plaats van 604001 te crediteren.", "correctie": "Gebruik de aparte tegenrekening 604001 ICN in het credit; zo blijft de brutoaankoop op 604000 zichtbaar in het grootboek."}
+  ],
+  "controlevragen": [
+    {"vraag": "Een aankoopfactuur HG bedraagt 800,00 exclusief btw, btw 21%. Welke rekeningen boek je en voor welke bedragen?", "antwoord": "604000 debet 800,00 + 411590 ABTW debet 168,00 / 440000 Leveranciers credit 968,00. (btw = 800 x 21% = 168; totaal = 968)."},
+    {"vraag": "Welke rekening gebruik je bij de jaarafsluiting als goederen al geleverd zijn aan de klant maar de verkoopfactuur nog niet is opgesteld, en aan welke kant?", "antwoord": "404200 Op te stellen facturen in het debet (tegenover 700000 Verkopen in het credit), telkens exclusief btw."},
+    {"vraag": "Waarom staat 411590 ABTW in het debet en 451540 VBTW in het credit?", "antwoord": "ABTW is terug te vorderen btw = vordering op de Staat (actief, debet). VBTW is door te storten btw = schuld aan de Staat (passief, credit)."},
+    {"vraag": "Een klant betaalt zijn factuur van 605,00 (incl. btw) via de bank. Welke boeking maak je?", "antwoord": "550000 Kredietinstellingen debet 605,00 / 400000 Klanten credit 605,00. De vordering wordt aangezuiverd."},
+    {"vraag": "Wat is het verband tussen de rekeningen 340, 444 en 404?", "antwoord": "De voorraad (340) hoort bij de te ontvangen aankoopfacturen (444) en bij de op te stellen verkoopfacturen (404). Telkens de goederenbeweging en de factuur niet samenvallen, gebruik je zo'n overgangsrekening."},
+    {"vraag": "Hoe boek je een uitgaande creditnota van 200,00 excl. + 42,00 btw?", "antwoord": "700001 UCN debet 200,00 + 451540 VBTW debet 42,00 / 400000 Klanten credit 242,00."},
+    {"vraag": "Op welke rekening boek je een vooruitbetaling die je van een klant ontvangt, en is dat een vordering of een schuld?", "antwoord": "460000 Ontvangen vooruitbetalingen op bestellingen, in het credit. Het is een schuld: je moet de goederen nog leveren."},
+    {"vraag": "Wat moet altijd kloppen in elke journaalpost?", "antwoord": "De som van de debetbedragen is exact gelijk aan de som van de creditbedragen, en per regel staat er ofwel een debet ofwel een credit, nooit beide."}
+  ]
+}

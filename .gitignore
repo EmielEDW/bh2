@@ -1,0 +1,44 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# python build helpers (de gegenereerde data/mar.json blijft wel in git)
+__pycache__/
+*.pyc
+
+# Bron-documenten van de leerkracht: NIET naar de (publieke) repo.
+# - mar.pdf is een auteursrechtelijke ITAA-uitgave
+# - de cursusmap bevat grote/binaire bestanden (.xlsm, .bck)
+# - _extracted/ is afgeleide tekst uit die bronnen
+# De AFGELEIDE database (data/mar.json) blijft wel in git, zodat de site werkt.
+mar.pdf
+/Boekhouden_2_(dag)_-_Documenten/
+_extracted/

@@ -1,0 +1,323 @@
+{
+  "slug": "voorzieningen-subsidies",
+  "titel": "Voorzieningen & kapitaalsubsidies",
+  "korteOmschrijving": "Hoe je voorzieningen voor risico's en kosten aanlegt, besteedt en terugneemt (klasse 16/63/66/76), en hoe je een ontvangen kapitaalsubsidie boekt en jaarlijks pro rata de afschrijving in resultaat neemt (150000 / 753000). LET OP: de originele oefeningenfiches waren onleesbare scans; deze content is opgebouwd op basis van de MAR en de standaard Belgische boekhoudconventies.",
+  "leerdoelen": [
+    "Uitleggen wat een voorziening voor risico's en kosten is en wanneer je er één moet aanleggen (waarschijnlijke of zekere toekomstige kost, bedrag nog onzeker).",
+    "Het aanleggen van een voorziening boeken met de juiste kostenrekening (635000/636000/637000 recurrent of 662000 niet-recurrent) tegenover een passiefrekening (160000-163000).",
+    "De besteding van een voorziening boeken wanneer de werkelijke kost zich voordoet, en het verschil verwerken met de werkelijke factuur.",
+    "Een overtollige voorziening terugnemen via de correctierekening (635100/636100/637100/662100) of via opbrengst 762000.",
+    "Een ontvangen kapitaalsubsidie (investeringssubsidie) boeken op 150000 en de jaarlijkse in-resultaatname pro rata de afschrijving verwerken via 753000.",
+    "Het onderscheid maken tussen een recurrente (bedrijfs-) en een niet-recurrente voorziening en tussen een voorziening en een schuld."
+  ],
+  "samenvatting": "## Voorzieningen & kapitaalsubsidies\n\n> **Belangrijke noot:** de originele oefeningenfiches van de leerkracht (Voorzieningen 579-581 en Kapitaalsubsidies 540-542) waren onleesbare scans. Deze samenvatting en de oefeningen zijn opgebouwd op basis van het **MAR (minimum algemeen rekeningstelsel)** en de **standaard Belgische boekhoudconventies**. Controleer de exacte bedragen en rekeningkeuze altijd met je eigen cursus.\n\nDit thema bestaat uit **twee losse onderwerpen** die allebei te maken hebben met de **rubrieken 15 en 16 van de balans (passief, eigen vermogen / voorzieningen)**: de **voorzieningen voor risico's en kosten (rubriek 16)** en de **kapitaalsubsidies (rubriek 15)**.\n\n## DEEL 1 — Voorzieningen voor risico's en kosten\n\n### Wat is een voorziening?\n\nEen **voorziening** is een bedrag dat je vandaag al als **kost** boekt voor een **toekomstige uitgave die waarschijnlijk of zeker is, maar waarvan het exacte bedrag of het tijdstip nog niet vaststaat**. Voorbeelden: een groot onderhoud van een gebouw over drie jaar, een lopend rechtsgeding, een waarschijnlijke schadevergoeding, milieusaneringskosten. Het **voorzichtigheidsbeginsel** zegt: kosten die je ziet aankomen, boek je al in het jaar waarin ze ontstaan, niet pas wanneer je betaalt (matchingprincipe).\n\nEen voorziening verschilt van een **schuld**: bij een schuld (klasse 4) staan zowel het bedrag als de begunstigde vast (bv. een factuur van een leverancier). Bij een voorziening is er nog **onzekerheid** over het bedrag of het tijdstip.\n\n### De passiefrekeningen (rubriek 16)\n\nEen voorziening staat op de balans aan de **passiefzijde** (rubriek 16). De belangrijkste MAR-rekeningen zijn:\n- **160000 Voorzieningen pensioenen** — voor pensioenverplichtingen aan personeel;\n- **162000 Voorzieningen herstellingswerken** — voor groot onderhoud / herstellingen;\n- **163000 Voorzieningen voor overige risico's en kosten** — de restcategorie (geschillen, milieu, garanties, ...);\n- **168000 Uitgestelde belastingen** — fiscale uitgestelde belastingen (apart geval).\n\nAls passiefrekeningen **stijgen ze in credit** en **dalen ze in debet**.\n\n### 1. Het aanleggen (vormen) van een voorziening\n\nJe boekt een **kost (klasse 6, debet)** tegenover de **voorziening (passief, credit)**. De kostenrekening kies je in functie van het type:\n- **635000 Voorzieningen voor pensioenen** ↔ 160000;\n- **636000 Voorzieningen herstellingswerken** ↔ 162000;\n- **637000 Voorzieningen voor andere risico's en kosten** ↔ 163000;\n- **662000 Voorzieningen voor niet-recurrente risico's en kosten** als de toekomstige kost **niet-recurrent** is (uitzonderlijk, bv. een herstructurering) ↔ 163000.\n\n**Voorbeeld:** je verwacht over 3 jaar een groot dakwerk van € 30.000. Je legt elk jaar € 10.000 opzij:\n- 636000 debet 10.000 / 162000 credit 10.000.\n\n### 2. De besteding van een voorziening\n\nWanneer de **werkelijke kost** zich voordoet (de factuur komt binnen), gebeurt er twee dingen: je boekt de **echte factuur** (bv. 610000 + 411590 ABTW / 440000) én je **neemt de voorziening weg** omdat ze nu haar doel heeft gediend. Het wegnemen gebeurt via de **correctierekening** in klasse 6 (de '...100 Besteding en terugneming (-)'-rekeningen, die credit staan):\n- **636100 Besteding en terugneming (-)** (credit) tegenover **162000 Voorzieningen herstellingswerken** (debet).\n\nDe passiefrekening 162000 daalt (debet) omdat de voorziening verdwijnt; de correctierekening 636100 staat credit en compenseert zo de oorspronkelijke kost.\n\n### 3. De terugneming van een (te hoge) voorziening\n\nBlijkt achteraf dat je **te veel** hebt voorzien (de kost valt lager uit, of het risico verdwijnt), dan **neem je het overschot terug**. Dat kan op twee manieren, afhankelijk van wat je cursus voorschrijft:\n- via de **correctierekening in klasse 6** (635100/636100/637100, credit) — dit vermindert de oorspronkelijke kost;\n- via de **opbrengstrekening 762000 Terugneming van voorzieningen** (credit) — bij een terugneming in een **later** boekjaar.\n\nIn beide gevallen daalt de passiefrekening (160000-163000) in **debet**.\n\n## DEEL 2 — Kapitaalsubsidies (investeringssubsidies)\n\n### Wat is een kapitaalsubsidie?\n\nEen **kapitaalsubsidie** (of investeringssubsidie) is een **tegemoetkoming van de overheid** om een **investering** (een vast actief) aan te kopen, bv. een subsidie voor zonnepanelen of een milieuvriendelijke machine. Omdat de subsidie hoort bij een actief dat **over meerdere jaren** wordt afgeschreven, mag je ze **niet in één keer als opbrengst** boeken. Je parkeert ze eerst op de passiefrekening **150000 Kapitaalsubsidies** en neemt ze daarna **jaarlijks pro rata de afschrijving** in resultaat.\n\n> **Noot:** je themabeschrijving vermeldt ook 151000, maar in deze MAR-lijst bestaat **enkel 150000 Kapitaalsubsidies**. Gebruik daarom 150000.\n\n### 1. Toekenning / ontvangst van de subsidie\n\nWanneer de subsidie wordt toegekend of ontvangen op de bank, stijgt je bank (actief, debet) en ontstaat de kapitaalsubsidie (passief, credit):\n- **550000 Kredietinstellingen** debet (ontvangst op de bank) / **150000 Kapitaalsubsidies** credit.\n\n**Voorbeeld:** subsidie van € 20.000 voor een machine van € 100.000 (afschrijving lineair over 10 jaar) → 550000 debet 20.000 / 150000 credit 20.000.\n\n### 2. Jaarlijkse in-resultaatname pro rata de afschrijving\n\nElk jaar dat je de machine afschrijft, neem je **hetzelfde percentage van de subsidie** als **opbrengst**. Bij 10% afschrijving per jaar neem je dus 10% van de subsidie in resultaat. Je boekt:\n- **150000 Kapitaalsubsidies** debet (de passiefrekening daalt) / **753000 Kapitaal- en interestsubsidies** credit (financiële opbrengst, klasse 7).\n\n**Voorbeeld:** 10% van € 20.000 = € 2.000 per jaar → 150000 debet 2.000 / 753000 credit 2.000. Na 10 jaar is de volledige subsidie in resultaat genomen en staat 150000 op nul.\n\n> **Let op:** de afschrijving van de machine zelf (630200 / 23x900) en de in-resultaatname van de subsidie (150000 / 753000) zijn **twee aparte boekingen**. Ze lopen alleen *parallel* (zelfde ritme), maar mengen elkaar niet.\n\n### Samengevat\n\n**Voorziening – levensloop:** aanleggen (63x of 662 / 16x) → besteden (63x100 / 16x bij de werkelijke kost) → eventueel terugnemen (63x100 of 762000 / 16x).\n\n**Kapitaalsubsidie – levensloop:** ontvangen (550000 / 150000) → jaarlijks pro rata de afschrijving in resultaat (150000 / 753000).\n\n**Hoofdzaak:** kost vóór uitgave (voorzichtigheid) bij voorzieningen, en opbrengst gespreid in de tijd bij subsidies. **Detail:** de exacte kostenrekening (635/636/637/662) hangt af van het type voorziening en of ze recurrent of niet-recurrent is.",
+  "kernrekeningen": [
+    {"code": "160000", "naam": "Voorzieningen pensioenen", "natuur": "credit", "wanneer": "Passiefrekening voor voorzieningen i.v.m. pensioenverplichtingen. Credit bij aanleg, debet bij besteding/terugneming. Tegenhanger van kost 635000."},
+    {"code": "162000", "naam": "Voorzieningen herstellingswerken", "natuur": "credit", "wanneer": "Passiefrekening voor voorzieningen voor groot onderhoud / herstellingen. Credit bij aanleg, debet bij besteding/terugneming. Tegenhanger van kost 636000."},
+    {"code": "163000", "naam": "Voorzieningen voor overige risico's en kosten", "natuur": "credit", "wanneer": "Restcategorie voor alle andere risico's (geschillen, garanties, milieu, herstructurering). Credit bij aanleg, debet bij besteding/terugneming. Tegenhanger van kost 637000 of 662000."},
+    {"code": "168000", "naam": "Uitgestelde belastingen", "natuur": "credit", "wanneer": "Passiefrekening voor uitgestelde belastingen (apart geval binnen rubriek 16). Niet te verwarren met de eigenlijke risicovoorzieningen 160-163."},
+    {"code": "635000", "naam": "Voorzieningen voor pensioenen", "natuur": "debet", "wanneer": "Kostenrekening bij het aanleggen van een pensioenvoorziening. Debet (klasse 6) tegenover 160000 credit."},
+    {"code": "636000", "naam": "Voorzieningen herstellingswerken", "natuur": "debet", "wanneer": "Kostenrekening bij het aanleggen van een voorziening voor herstellings-/onderhoudswerken. Debet tegenover 162000 credit."},
+    {"code": "637000", "naam": "Voorzieningen voor andere risico’s en kosten", "natuur": "debet", "wanneer": "Kostenrekening bij het aanleggen van een (recurrente) voorziening voor overige risico's. Debet tegenover 163000 credit."},
+    {"code": "636100", "naam": "Besteding en terugneming (-)", "natuur": "credit", "wanneer": "Correctierekening (credit) bij de besteding of terugneming van een voorziening herstellingswerken (162000). Compenseert de oorspronkelijke kost 636000."},
+    {"code": "637100", "naam": "Besteding en terugneming (-)", "natuur": "credit", "wanneer": "Correctierekening (credit) bij de besteding of terugneming van een voorziening 163000. Compenseert de oorspronkelijke kost 637000."},
+    {"code": "662000", "naam": "Voorzieningen voor Niet recurr risico’s en kosten", "natuur": "debet", "wanneer": "Kostenrekening bij het aanleggen van een NIET-recurrente (uitzonderlijke) voorziening, bv. herstructurering. Debet tegenover 163000 credit."},
+    {"code": "662100", "naam": "Bestedingen (-)", "natuur": "credit", "wanneer": "Correctierekening (credit) bij de besteding van een niet-recurrente voorziening (tegenover 163000 debet)."},
+    {"code": "762000", "naam": "Terugneming van voorzieningen", "natuur": "credit", "wanneer": "Opbrengstrekening (klasse 7) bij de terugneming van een te hoge voorziening in een later boekjaar. Alternatief voor de 63x100-correctierekeningen."},
+    {"code": "150000", "naam": "Kapitaalsubsidies", "natuur": "credit", "wanneer": "Passiefrekening (rubriek 15) waar een ontvangen investeringssubsidie geparkeerd wordt. Credit bij ontvangst, debet bij de jaarlijkse in-resultaatname pro rata de afschrijving. NB: 151000 staat niet in deze MAR; gebruik 150000."},
+    {"code": "753000", "naam": "Kapitaal – en interestsubsidies", "natuur": "credit", "wanneer": "Opbrengstrekening (klasse 7) waarop je jaarlijks het in resultaat genomen deel van de kapitaalsubsidie boekt, pro rata de afschrijving. Credit tegenover 150000 debet."},
+    {"code": "630200", "naam": "Afschrijvingen op materiële vaste activa", "natuur": "debet", "wanneer": "De jaarlijkse afschrijvingskost van het gesubsidieerde actief. Aparte boeking, maar loopt parallel met de in-resultaatname van de subsidie."}
+  ],
+  "boekingsschemas": [
+    {
+      "titel": "Aanleggen van een voorziening (recurrent)",
+      "situatie": "Op de balansdatum een waarschijnlijke toekomstige kost al als kost erkennen.",
+      "regels": [
+        {"code": "636000", "naam": "Voorzieningen herstellingswerken", "kant": "debet", "bedrag": "voorzien bedrag", "toelichting": "Kost (klasse 6) → debet. Kies 635000 (pensioenen) of 637000 (overige) naargelang het type. NB: in plaats van 636000 mag dit ook 662000 zijn als de kost niet-recurrent is."},
+        {"code": "162000", "naam": "Voorzieningen herstellingswerken", "kant": "credit", "bedrag": "voorzien bedrag", "toelichting": "Voorziening op de passiefzijde (rubriek 16) ontstaat → credit. Kies 160000/162000/163000 in lijn met de kostenrekening."}
+      ]
+    },
+    {
+      "titel": "Besteding van de voorziening (werkelijke factuur komt binnen)",
+      "situatie": "De voorziene werken worden uitgevoerd; de factuur komt binnen en de voorziening wordt weggewerkt.",
+      "regels": [
+        {"code": "610000", "naam": "Diensten en diverse goederen", "kant": "debet", "bedrag": "excl. btw", "toelichting": "De werkelijke kost van de herstelling (klasse 6) → debet."},
+        {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "kant": "debet", "bedrag": "btw 21%", "toelichting": "Aftrekbare btw op de factuur → debet (vordering)."},
+        {"code": "440000", "naam": "Leveranciers", "kant": "credit", "bedrag": "incl. btw", "toelichting": "Schuld aan de leverancier → credit."},
+        {"code": "162000", "naam": "Voorzieningen herstellingswerken", "kant": "debet", "bedrag": "weg te werken voorziening", "toelichting": "De voorziening heeft haar doel gediend → passief daalt → debet (aparte boeking)."},
+        {"code": "636100", "naam": "Besteding en terugneming (-)", "kant": "credit", "bedrag": "weg te werken voorziening", "toelichting": "Correctierekening (credit) die de oorspronkelijke kost 636000 compenseert."}
+      ]
+    },
+    {
+      "titel": "Terugneming van een te hoge voorziening (later boekjaar)",
+      "situatie": "Het risico is verdwenen of valt lager uit; het overschot wordt teruggenomen.",
+      "regels": [
+        {"code": "163000", "naam": "Voorzieningen voor overige risico's en kosten", "kant": "debet", "bedrag": "overtollig bedrag", "toelichting": "De voorziening (passief) daalt → debet."},
+        {"code": "762000", "naam": "Terugneming van voorzieningen", "kant": "credit", "bedrag": "overtollig bedrag", "toelichting": "Opbrengst (klasse 7) → credit. Alternatief: de correctierekening 637100 gebruiken in plaats van 762000."}
+      ]
+    },
+    {
+      "titel": "Ontvangst van een kapitaalsubsidie",
+      "situatie": "De overheid stort een investeringssubsidie op de rekening.",
+      "regels": [
+        {"code": "550000", "naam": "Kredietinstellingen", "kant": "debet", "bedrag": "subsidiebedrag", "toelichting": "Bankrekening (actief) stijgt → debet."},
+        {"code": "150000", "naam": "Kapitaalsubsidies", "kant": "credit", "bedrag": "subsidiebedrag", "toelichting": "Kapitaalsubsidie (passief, rubriek 15) ontstaat → credit."}
+      ]
+    },
+    {
+      "titel": "Jaarlijkse in-resultaatname van de subsidie (pro rata afschrijving)",
+      "situatie": "Op de balansdatum, parallel met de afschrijving van het gesubsidieerde actief.",
+      "regels": [
+        {"code": "150000", "naam": "Kapitaalsubsidies", "kant": "debet", "bedrag": "subsidie × afschrijvingspercentage", "toelichting": "De geparkeerde subsidie (passief) daalt met het in resultaat genomen deel → debet."},
+        {"code": "753000", "naam": "Kapitaal – en interestsubsidies", "kant": "credit", "bedrag": "subsidie × afschrijvingspercentage", "toelichting": "Opbrengst (klasse 7) → credit, pro rata de afschrijving van het actief."}
+      ]
+    }
+  ],
+  "oefeningen": [
+    {
+      "id": "voorzieningen-subsidies-1",
+      "titel": "Een voorziening voor herstellingswerken aanleggen",
+      "niveau": "basis",
+      "context": "RECONSTRUCTIE (de originele fiche was een scan). NV Maes verwacht over drie jaar een groot dakwerk van € 30.000. Om de kost te spreiden legt de onderneming op 31-12-2025 een eerste voorziening van € 10.000 aan.",
+      "vraag": "Boek het aanleggen van de voorziening voor herstellingswerken op 31-12-2025.",
+      "stappen": [
+        "Een toekomstige, waarschijnlijke kost wordt nu al erkend (voorzichtigheidsbeginsel).",
+        "Het is een kost van het type herstellingswerken → 636000 Voorzieningen herstellingswerken (klasse 6) → debet 10.000.",
+        "De voorziening ontstaat aan de passiefzijde (rubriek 16) → 162000 Voorzieningen herstellingswerken → credit 10.000.",
+        "Controle: debet 10.000 = credit 10.000."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "Aanleg voorziening herstellingswerken 31-12-2025",
+          "regels": [
+            {"code": "636000", "naam": "Voorzieningen herstellingswerken", "debet": 10000.00, "credit": null, "reden": "Kost (klasse 6) bij het aanleggen van de voorziening → debet."},
+            {"code": "162000", "naam": "Voorzieningen herstellingswerken", "debet": null, "credit": 10000.00, "reden": "De voorziening ontstaat aan de passiefzijde (rubriek 16) → credit."}
+          ]
+        }
+      ],
+      "eindantwoord": "636000 debet 10.000,00 / 162000 credit 10.000,00. De voorziening staat nu als schuld op de balans en de kost is al erkend.",
+      "valkuil": "De kostenrekening (636000, klasse 6) verwarren met de passiefrekening (162000, klasse 16). Beide heten 'Voorzieningen herstellingswerken', maar de ene is een kost (debet) en de andere een passiefpost (credit)."
+    },
+    {
+      "id": "voorzieningen-subsidies-2",
+      "titel": "Een kapitaalsubsidie ontvangen en in resultaat nemen",
+      "niveau": "basis",
+      "context": "RECONSTRUCTIE (de originele fiche was een scan). BVBA Solar ontvangt op 02-01-2025 een investeringssubsidie van € 20.000 op haar bankrekening voor de aankoop van een productiemachine van € 100.000. De machine wordt lineair afgeschreven over 10 jaar (10% per jaar). Op 31-12-2025 wordt de eerste afschrijving geboekt.",
+      "vraag": "Boek (a) de ontvangst van de subsidie op 02-01-2025 en (b) de jaarlijkse in-resultaatname van de subsidie op 31-12-2025.",
+      "stappen": [
+        "a) De subsidie komt op de bank → 550000 (actief) stijgt → debet 20.000. De kapitaalsubsidie ontstaat → 150000 (passief) → credit 20.000.",
+        "b) De machine wordt 10% per jaar afgeschreven, dus neem je ook 10% van de subsidie in resultaat: 10% × 20.000 = 2.000.",
+        "De geparkeerde subsidie daalt → 150000 debet 2.000. De opbrengst wordt geboekt → 753000 credit 2.000.",
+        "Controle per boeking: debet = credit."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "a) Ontvangst kapitaalsubsidie 02-01-2025",
+          "regels": [
+            {"code": "550000", "naam": "Kredietinstellingen", "debet": 20000.00, "credit": null, "reden": "Bankrekening (actief) stijgt door de ontvangst van de subsidie → debet."},
+            {"code": "150000", "naam": "Kapitaalsubsidies", "debet": null, "credit": 20000.00, "reden": "De kapitaalsubsidie (passief, rubriek 15) ontstaat → credit."}
+          ]
+        },
+        {
+          "omschrijving": "b) In-resultaatname subsidie 31-12-2025 (10%)",
+          "regels": [
+            {"code": "150000", "naam": "Kapitaalsubsidies", "debet": 2000.00, "credit": null, "reden": "De geparkeerde subsidie (passief) daalt met het in resultaat genomen deel → debet."},
+            {"code": "753000", "naam": "Kapitaal – en interestsubsidies", "debet": null, "credit": 2000.00, "reden": "Opbrengst (klasse 7) pro rata de afschrijving van 10% → credit."}
+          ]
+        }
+      ],
+      "eindantwoord": "a) 550000 debet 20.000 / 150000 credit 20.000. b) 150000 debet 2.000 / 753000 credit 2.000. Na 10 jaar is de volledige subsidie via 753000 in resultaat genomen en staat 150000 op nul.",
+      "valkuil": "De volledige subsidie (20.000) in één keer als opbrengst boeken. De subsidie wordt gespreid pro rata de afschrijving (hier 10% = 2.000 per jaar)."
+    },
+    {
+      "id": "voorzieningen-subsidies-3",
+      "titel": "Besteding van een voorziening bij de werkelijke factuur",
+      "niveau": "midden",
+      "context": "RECONSTRUCTIE (de originele fiche was een scan). Voortzetting van oefening 1: NV Maes heeft de voorbije jaren in totaal € 30.000 voorzien op 162000 voor het dakwerk. Op 15-04-2028 worden de werken uitgevoerd. De aannemer factureert € 28.000 excl. btw + 21% btw. Het volledige bedrag van de voorziening (€ 30.000) wordt weggewerkt.",
+      "vraag": "Boek (a) de aankoopfactuur van de aannemer op 15-04-2028 en (b) de besteding (wegwerking) van de voorziening.",
+      "stappen": [
+        "a) De factuur: dienst van een aannemer → 610000 Diensten en diverse goederen debet 28.000 (excl.). Btw 21% = 28.000 × 0,21 = 5.880 → 411590 ABTW debet 5.880. Schuld aan leverancier = 28.000 + 5.880 = 33.880 → 440000 credit 33.880.",
+        "Controle a): debet 28.000 + 5.880 = 33.880 = credit.",
+        "b) De voorziening heeft haar doel gediend en wordt weggewerkt: 162000 debet 30.000 (passief daalt) / 636100 Besteding en terugneming (-) credit 30.000 (correctierekening).",
+        "Controle b): debet 30.000 = credit 30.000.",
+        "Merk op: de voorziening (30.000) en de werkelijke kost excl. btw (28.000) verschillen; het overschot van 2.000 verschijnt netto als 'negatieve kost' via 636100 t.o.v. 610000."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "a) Aankoopfactuur aannemer 15-04-2028",
+          "regels": [
+            {"code": "610000", "naam": "Diensten en diverse goederen", "debet": 28000.00, "credit": null, "reden": "De werkelijke kost van de herstelling (klasse 6, excl. btw) → debet."},
+            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": 5880.00, "credit": null, "reden": "Aftrekbare btw 21% op de factuur → debet (vordering)."},
+            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 33880.00, "reden": "Schuld aan de aannemer (incl. btw) → credit."}
+          ]
+        },
+        {
+          "omschrijving": "b) Besteding van de voorziening 15-04-2028",
+          "regels": [
+            {"code": "162000", "naam": "Voorzieningen herstellingswerken", "debet": 30000.00, "credit": null, "reden": "De voorziening (passief) heeft haar doel gediend en verdwijnt → debet."},
+            {"code": "636100", "naam": "Besteding en terugneming (-)", "debet": null, "credit": 30000.00, "reden": "Correctierekening (credit) die de eerder geboekte kost 636000 compenseert."}
+          ]
+        }
+      ],
+      "eindantwoord": "a) 610000 debet 28.000 + 411590 debet 5.880 / 440000 credit 33.880. b) 162000 debet 30.000 / 636100 credit 30.000. De werkelijke kost (28.000) staat op 610000; de wegwerking van de voorziening (30.000 op 636100, credit) neutraliseert de eerder geboekte voorzieningskost.",
+      "valkuil": "De voorziening rechtstreeks tegen de factuur boeken (162000 / 440000). Dat is fout: je boekt de factuur volledig apart, en de voorziening werk je weg via 162000 / 636100 (besteding-/terugnemingsrekening)."
+    },
+    {
+      "id": "voorzieningen-subsidies-4",
+      "titel": "Terugneming van een te hoge voorziening voor een geschil",
+      "niveau": "midden",
+      "context": "RECONSTRUCTIE (de originele fiche was een scan). NV Devos had voor een lopend rechtsgeding op 31-12-2024 een voorziening van € 15.000 aangelegd op 163000 (tegenover 637000). In 2025 wordt het geschil geregeld voor slechts € 9.000. Het overschot van € 6.000 moet worden teruggenomen op 30-09-2025.",
+      "vraag": "Boek de terugneming van het overschot van € 6.000 op 30-09-2025 (gebruik de opbrengstrekening).",
+      "stappen": [
+        "De oorspronkelijke voorziening bedroeg 15.000; de werkelijke kost is 9.000; het overschot = 15.000 − 9.000 = 6.000.",
+        "Het overschot is niet meer nodig → de voorziening (passief) daalt → 163000 debet 6.000.",
+        "Omdat de terugneming in een LATER boekjaar gebeurt, boek je een opbrengst → 762000 Terugneming van voorzieningen credit 6.000.",
+        "Controle: debet 6.000 = credit 6.000.",
+        "Alternatief volgens sommige cursussen: in plaats van 762000 de correctierekening 637100 Besteding en terugneming (-) gebruiken (eveneens credit)."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "Terugneming overtollige voorziening 30-09-2025",
+          "regels": [
+            {"code": "163000", "naam": "Voorzieningen voor overige risico's en kosten", "debet": 6000.00, "credit": null, "reden": "Het overtollige deel van de voorziening (passief) verdwijnt → debet."},
+            {"code": "762000", "naam": "Terugneming van voorzieningen", "debet": null, "credit": 6000.00, "reden": "Terugneming in een later boekjaar → opbrengst (klasse 7) → credit."}
+          ]
+        }
+      ],
+      "eindantwoord": "163000 debet 6.000 / 762000 credit 6.000. De voorziening op 163000 daalt van 15.000 naar 9.000; het teruggenomen overschot verschijnt als opbrengst (762000). Alternatief: 637100 in plaats van 762000.",
+      "valkuil": "Het volledige bedrag (15.000) terugnemen in plaats van enkel het overschot (6.000). Je neemt alleen het deel terug dat niet meer nodig is; het deel dat overeenstemt met de werkelijke kost wordt besteed, niet teruggenomen."
+    },
+    {
+      "id": "voorzieningen-subsidies-5",
+      "titel": "Niet-recurrente voorziening voor herstructurering (662000)",
+      "niveau": "examen",
+      "context": "RECONSTRUCTIE (de originele fiche was een scan). NV Industria beslist eind 2025 tot een herstructurering van een afdeling. De verwachte uitzonderlijke kosten worden geraamd op € 80.000. Omdat het om een niet-recurrente (uitzonderlijke) gebeurtenis gaat, wordt op 31-12-2025 een niet-recurrente voorziening aangelegd. In 2026 worden de werkelijke herstructureringskosten betaald voor € 75.000 (uitzonderlijke kost, geboekt als niet-recurrente kost), via de bank.",
+      "vraag": "Boek (a) het aanleggen van de niet-recurrente voorziening op 31-12-2025, (b) de werkelijke kost in 2026 en (c) de besteding van de voorziening in 2026.",
+      "stappen": [
+        "a) Het gaat om een NIET-recurrente kost → kostenrekening 662000 Voorzieningen voor niet-recurrente risico's en kosten debet 80.000. De voorziening staat op 163000 → credit 80.000.",
+        "b) In 2026 betaal je de werkelijke herstructureringskosten via de bank. Omdat het om een uitzonderlijke (niet-recurrente) kost gaat, gebruik je een niet-recurrente kostenrekening: 664000 Andere niet-recurrente kosten debet 75.000 / 550000 Kredietinstellingen credit 75.000.",
+        "c) De voorziening wordt weggewerkt: 163000 debet 80.000 / 662100 Bestedingen (-) credit 80.000 (correctierekening niet-recurrente voorziening).",
+        "Controleer telkens debet = credit. Merk op: het verschil tussen voorziening (80.000) en werkelijke kost (75.000) komt netto tot uiting via het saldo 662100 (credit 80.000) t.o.v. de werkelijke niet-recurrente kost 664000 (debet 75.000)."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "a) Aanleg niet-recurrente voorziening 31-12-2025",
+          "regels": [
+            {"code": "662000", "naam": "Voorzieningen voor Niet recurr risico’s en kosten", "debet": 80000.00, "credit": null, "reden": "Niet-recurrente (uitzonderlijke) kost bij de aanleg → debet (klasse 6, rubriek 66)."},
+            {"code": "163000", "naam": "Voorzieningen voor overige risico's en kosten", "debet": null, "credit": 80000.00, "reden": "De voorziening ontstaat aan de passiefzijde (rubriek 16) → credit."}
+          ]
+        },
+        {
+          "omschrijving": "b) Werkelijke herstructureringskost 2026",
+          "regels": [
+            {"code": "664000", "naam": "Andere niet-recurrente kosten (664-668)", "debet": 75000.00, "credit": null, "reden": "De werkelijke herstructureringskost is uitzonderlijk → niet-recurrente kostenrekening (klasse 66) → debet. Past bij de niet-recurrente voorziening (662000/662100)."},
+            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 75000.00, "reden": "Betaling via de bank → bankrekening daalt → credit."}
+          ]
+        },
+        {
+          "omschrijving": "c) Besteding van de niet-recurrente voorziening 2026",
+          "regels": [
+            {"code": "163000", "naam": "Voorzieningen voor overige risico's en kosten", "debet": 80000.00, "credit": null, "reden": "De voorziening (passief) heeft haar doel gediend en verdwijnt → debet."},
+            {"code": "662100", "naam": "Bestedingen (-)", "debet": null, "credit": 80000.00, "reden": "Correctierekening (credit) die de eerder geboekte niet-recurrente kost 662000 compenseert."}
+          ]
+        }
+      ],
+      "eindantwoord": "a) 662000 debet 80.000 / 163000 credit 80.000. b) 664000 debet 75.000 / 550000 credit 75.000. c) 163000 debet 80.000 / 662100 credit 80.000. De voorziening op 163000 wordt volledig weggewerkt; het verschil van 5.000 (te veel voorzien) verschijnt netto via 662100 t.o.v. de werkelijke niet-recurrente kost 664000.",
+      "valkuil": "Een recurrente kostenrekening (637000) gebruiken voor een uitzonderlijke gebeurtenis. Bij een NIET-recurrente voorziening gebruik je 662000 (aanleg) en 662100 (besteding); de passiefrekening blijft wel 163000."
+    },
+    {
+      "id": "voorzieningen-subsidies-6",
+      "titel": "Examenoefening: kapitaalsubsidie + afschrijving over twee jaar",
+      "niveau": "examen",
+      "context": "RECONSTRUCTIE (de originele fiche was een scan). NV Groen koopt op 01-01-2025 een milieuvriendelijke installatie (rekening 230000 Installaties) van € 120.000 excl. btw, lineair afgeschreven over 8 jaar (12,5% per jaar). De overheid kent een investeringssubsidie toe van € 24.000, ontvangen op de bank op 15-01-2025. Op 31-12-2025 en 31-12-2026 worden zowel de afschrijving als de in-resultaatname van de subsidie geboekt.",
+      "vraag": "Boek (a) de ontvangst van de subsidie, (b) de afschrijving 2025, (c) de in-resultaatname subsidie 2025, en (d) dezelfde twee eindejaarsboekingen voor 2026.",
+      "stappen": [
+        "Afschrijvingspercentage = 100% / 8 jaar = 12,5% per jaar.",
+        "Jaarlijkse afschrijving installatie = 120.000 × 12,5% = 15.000.",
+        "Jaarlijkse in-resultaatname subsidie = 24.000 × 12,5% = 3.000.",
+        "a) Ontvangst subsidie: 550000 debet 24.000 / 150000 credit 24.000.",
+        "b) Afschrijving 2025: 630200 debet 15.000 / 230900 Geboekte afschrijvingen credit 15.000.",
+        "c) In-resultaatname subsidie 2025: 150000 debet 3.000 / 753000 credit 3.000.",
+        "d) 2026: identiek aan b) en c): 630200 debet 15.000 / 230900 credit 15.000 én 150000 debet 3.000 / 753000 credit 3.000.",
+        "Controleer telkens debet = credit. Na 8 jaar: actief volledig afgeschreven (120.000) én subsidie volledig in resultaat (24.000)."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "a) Ontvangst kapitaalsubsidie 15-01-2025",
+          "regels": [
+            {"code": "550000", "naam": "Kredietinstellingen", "debet": 24000.00, "credit": null, "reden": "Bankrekening (actief) stijgt door de ontvangst → debet."},
+            {"code": "150000", "naam": "Kapitaalsubsidies", "debet": null, "credit": 24000.00, "reden": "De kapitaalsubsidie (passief, rubriek 15) ontstaat → credit."}
+          ]
+        },
+        {
+          "omschrijving": "b) Afschrijving installatie 31-12-2025",
+          "regels": [
+            {"code": "630200", "naam": "Afschrijvingen op materiële vaste activa", "debet": 15000.00, "credit": null, "reden": "Afschrijvingskost 12,5% van 120.000 (klasse 6) → debet."},
+            {"code": "230900", "naam": "Geboekte afschrijvingen (vd aanschafwaarde)", "debet": null, "credit": 15000.00, "reden": "De geboekte afschrijving op de installatie (correctie op het actief) → credit."}
+          ]
+        },
+        {
+          "omschrijving": "c) In-resultaatname subsidie 31-12-2025",
+          "regels": [
+            {"code": "150000", "naam": "Kapitaalsubsidies", "debet": 3000.00, "credit": null, "reden": "De geparkeerde subsidie (passief) daalt pro rata de afschrijving (12,5%) → debet."},
+            {"code": "753000", "naam": "Kapitaal – en interestsubsidies", "debet": null, "credit": 3000.00, "reden": "Opbrengst (klasse 7) van het in resultaat genomen subsidiedeel → credit."}
+          ]
+        },
+        {
+          "omschrijving": "d1) Afschrijving installatie 31-12-2026",
+          "regels": [
+            {"code": "630200", "naam": "Afschrijvingen op materiële vaste activa", "debet": 15000.00, "credit": null, "reden": "Tweede afschrijvingsjaar, identiek bedrag bij lineaire afschrijving → debet."},
+            {"code": "230900", "naam": "Geboekte afschrijvingen (vd aanschafwaarde)", "debet": null, "credit": 15000.00, "reden": "Geboekte afschrijving stijgt opnieuw met 15.000 → credit."}
+          ]
+        },
+        {
+          "omschrijving": "d2) In-resultaatname subsidie 31-12-2026",
+          "regels": [
+            {"code": "150000", "naam": "Kapitaalsubsidies", "debet": 3000.00, "credit": null, "reden": "Subsidie daalt opnieuw met 12,5% van 24.000 → debet."},
+            {"code": "753000", "naam": "Kapitaal – en interestsubsidies", "debet": null, "credit": 3000.00, "reden": "Opbrengst van het in resultaat genomen subsidiedeel 2026 → credit."}
+          ]
+        }
+      ],
+      "eindantwoord": "a) 550000 debet 24.000 / 150000 credit 24.000. b/d1) telkens 630200 debet 15.000 / 230900 credit 15.000. c/d2) telkens 150000 debet 3.000 / 753000 credit 3.000. Afschrijving en subsidie lopen parallel aan 12,5% per jaar; na 8 jaar staat de installatie volledig afgeschreven en de subsidie volledig in resultaat.",
+      "valkuil": "De afschrijving (630200 / 230900) en de in-resultaatname van de subsidie (150000 / 753000) in één boeking mengen, of de subsidie rechtstreeks van het actief aftrekken. Het zijn TWEE aparte boekingen die alleen hetzelfde ritme (12,5%) volgen."
+    }
+  ],
+  "flashcards": [
+    {"vraag": "Wat is een voorziening voor risico's en kosten?", "antwoord": "Een bedrag dat je nu al als kost boekt voor een waarschijnlijke of zekere toekomstige uitgave waarvan het exacte bedrag of tijdstip nog onzeker is (voorzichtigheidsbeginsel).", "type": "begrip"},
+    {"vraag": "Wat is het verschil tussen een voorziening en een schuld?", "antwoord": "Bij een schuld (klasse 4) staan bedrag én begunstigde vast; bij een voorziening (rubriek 16) is er nog onzekerheid over het bedrag of het tijdstip.", "type": "begrip"},
+    {"vraag": "Op welke passiefrekening staat een voorziening voor herstellingswerken?", "antwoord": "162000 Voorzieningen herstellingswerken (rubriek 16, passief, credit-natuur).", "type": "mar-code"},
+    {"vraag": "Welke kostenrekening hoort bij een voorziening voor pensioenen?", "antwoord": "635000 Voorzieningen voor pensioenen (klasse 6, debet), tegenover passief 160000.", "type": "mar-code"},
+    {"vraag": "Wat is de boeking bij het aanleggen van een voorziening voor overige risico's?", "antwoord": "637000 Voorzieningen voor andere risico's en kosten (debet) / 163000 Voorzieningen voor overige risico's en kosten (credit).", "type": "logica"},
+    {"vraag": "Welke kostenrekening gebruik je voor een NIET-recurrente voorziening?", "antwoord": "662000 Voorzieningen voor niet-recurrente risico's en kosten (debet); de passiefrekening blijft 163000.", "type": "mar-code"},
+    {"vraag": "Hoe boek je de besteding van een voorziening herstellingswerken?", "antwoord": "162000 Voorzieningen herstellingswerken (debet, passief daalt) / 636100 Besteding en terugneming (-) (credit, correctierekening). De werkelijke factuur boek je apart.", "type": "logica"},
+    {"vraag": "Hoe neem je een te hoge voorziening terug in een later boekjaar?", "antwoord": "16x (debet) / 762000 Terugneming van voorzieningen (credit, opbrengst). Alternatief: de 63x100-correctierekening gebruiken.", "type": "logica"},
+    {"vraag": "Wat is een kapitaalsubsidie?", "antwoord": "Een tegemoetkoming van de overheid voor een investering (vast actief); ze staat op 150000 Kapitaalsubsidies en wordt jaarlijks pro rata de afschrijving in resultaat genomen.", "type": "begrip"},
+    {"vraag": "Wat is de boeking bij ontvangst van een kapitaalsubsidie op de bank?", "antwoord": "550000 Kredietinstellingen (debet) / 150000 Kapitaalsubsidies (credit).", "type": "logica"},
+    {"vraag": "Hoe neem je een kapitaalsubsidie jaarlijks in resultaat?", "antwoord": "150000 Kapitaalsubsidies (debet) / 753000 Kapitaal- en interestsubsidies (credit), pro rata het afschrijvingspercentage van het actief.", "type": "logica"},
+    {"vraag": "Waarom mag je een kapitaalsubsidie niet in één keer als opbrengst boeken?", "antwoord": "Omdat ze hoort bij een actief dat over meerdere jaren wordt afgeschreven; ze wordt gespreid in resultaat genomen pro rata de afschrijving (matchingprincipe).", "type": "begrip"},
+    {"vraag": "Welke opbrengstrekening gebruik je voor de in-resultaatname van een subsidie?", "antwoord": "753000 Kapitaal- en interestsubsidies (klasse 7, opbrengst, credit).", "type": "mar-code"},
+    {"vraag": "Wat betekent rekening 168000?", "antwoord": "Uitgestelde belastingen (rubriek 16, passief). Een apart geval binnen de voorzieningenrubriek, niet te verwarren met de risicovoorzieningen 160-163.", "type": "mar-code"},
+    {"vraag": "Welke rekening gebruik je voor de besteding van een NIET-recurrente voorziening?", "antwoord": "662100 Bestedingen (-) (credit) tegenover 163000 (debet).", "type": "mar-code"},
+    {"vraag": "Lopen de afschrijving van een gesubsidieerd actief en de in-resultaatname van de subsidie in dezelfde boeking?", "antwoord": "Nee, het zijn twee aparte boekingen (630200 / 23x900 enerzijds, 150000 / 753000 anderzijds) die alleen hetzelfde ritme volgen.", "type": "logica"}
+  ],
+  "veelgemaakteFouten": [
+    {"fout": "De kostenrekening (636000) en de passiefrekening (162000) verwarren omdat ze dezelfde naam dragen.", "correctie": "636000 is een kost (klasse 6, debet bij aanleg); 162000 is de voorziening op de passiefzijde (rubriek 16, credit bij aanleg)."},
+    {"fout": "Bij de besteding de voorziening rechtstreeks tegen de leveranciersfactuur boeken (162000 / 440000).", "correctie": "Boek de factuur volledig apart (610000 + 411590 / 440000) en werk de voorziening apart weg via 162000 / 636100."},
+    {"fout": "Een te hoge voorziening volledig terugnemen in plaats van enkel het overschot.", "correctie": "Neem alleen het deel terug dat niet meer nodig is; het deel dat overeenkomt met de werkelijke kost wordt besteed."},
+    {"fout": "Voor een uitzonderlijke gebeurtenis een recurrente kostenrekening (637000) gebruiken.", "correctie": "Bij een niet-recurrente voorziening gebruik je 662000 (aanleg) en 662100 (besteding); de passiefrekening blijft 163000."},
+    {"fout": "Een kapitaalsubsidie in één keer als opbrengst boeken bij ontvangst.", "correctie": "Park de subsidie eerst op 150000 (credit) en neem ze jaarlijks pro rata de afschrijving in resultaat via 150000 / 753000."},
+    {"fout": "De subsidie rechtstreeks in mindering brengen van de aanschafwaarde van het actief.", "correctie": "Het actief blijft tegen volle aanschafwaarde geboekt en wordt apart afgeschreven; de subsidie staat los op 150000 en wordt apart in resultaat genomen."},
+    {"fout": "Rekening 151000 gebruiken zoals in sommige boeken vermeld.", "correctie": "In deze MAR-lijst bestaat enkel 150000 Kapitaalsubsidies; gebruik 150000."},
+    {"fout": "De afschrijving van het gesubsidieerde actief en de in-resultaatname van de subsidie in dezelfde boeking samenvoegen.", "correctie": "Het zijn twee aparte boekingen (630200 / 23x900 en 150000 / 753000) die alleen hetzelfde percentage delen."}
+  ],
+  "controlevragen": [
+    {"vraag": "Wanneer moet je een voorziening voor risico's en kosten aanleggen?", "antwoord": "Wanneer er een waarschijnlijke of zekere toekomstige kost/verplichting is waarvan het exacte bedrag of tijdstip nog onzeker is (voorzichtigheidsbeginsel/matching)."},
+    {"vraag": "Welke twee rekeningen gebruik je bij het aanleggen van een voorziening voor herstellingswerken?", "antwoord": "636000 Voorzieningen herstellingswerken (kost, debet) en 162000 Voorzieningen herstellingswerken (passief, credit)."},
+    {"vraag": "Hoe verwerk je de besteding van een voorziening wanneer de werkelijke factuur binnenkomt?", "antwoord": "Je boekt de factuur apart (bv. 610000 + 411590 / 440000) en werkt de voorziening weg via 16x (debet) / 63x100 Besteding en terugneming (-) (credit)."},
+    {"vraag": "Op welke twee manieren kun je een te hoge voorziening terugnemen?", "antwoord": "Via de correctierekening in klasse 6 (63x100, credit) of via de opbrengstrekening 762000 Terugneming van voorzieningen (credit) bij een terugneming in een later boekjaar; de voorziening 16x daalt telkens in debet."},
+    {"vraag": "Wat is het verschil tussen een recurrente en een niet-recurrente voorziening qua kostenrekening?", "antwoord": "Recurrent: 635000/636000/637000. Niet-recurrent (uitzonderlijk): 662000. De passiefrekening (16x) blijft in beide gevallen dezelfde."},
+    {"vraag": "Welke twee rekeningen gebruik je bij de ontvangst van een kapitaalsubsidie?", "antwoord": "550000 Kredietinstellingen (bank, debet) en 150000 Kapitaalsubsidies (passief, credit)."},
+    {"vraag": "Hoe en hoeveel neem je een kapitaalsubsidie jaarlijks in resultaat?", "antwoord": "150000 (debet) / 753000 Kapitaal- en interestsubsidies (credit), telkens het afschrijvingspercentage van het gesubsidieerde actief × het subsidiebedrag."},
+    {"vraag": "Waarom wordt de kapitaalsubsidie gespreid in resultaat genomen en niet in één keer?", "antwoord": "Omdat ze hoort bij een meerjarig afschrijfbaar actief; de opbrengst wordt gematcht met de afschrijvingskost (matchingprincipe), pro rata de afschrijving."}
+  ]
+}

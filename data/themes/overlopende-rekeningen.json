@@ -1,0 +1,291 @@
+{
+  "slug": "overlopende-rekeningen",
+  "titel": "Overlopende rekeningen (toerekeningsbeginsel)",
+  "korteOmschrijving": "Hoe je kosten en opbrengsten correct toerekent aan het juiste boekjaar met de vier overlopende rekeningen (490000-493000), inclusief het terugboeken bij de start van het volgende boekjaar.",
+  "leerdoelen": [
+    "Het toerekeningsbeginsel (matchingprincipe) uitleggen: kosten en opbrengsten horen bij het boekjaar waarin ze worden verbruikt of verdiend, niet bij het boekjaar waarin ze betaald of ontvangen worden.",
+    "De vier overlopende rekeningen correct herkennen en plaatsen: actief 490000 en 491000 versus passief 492000 en 493000.",
+    "Een eindejaarsboeking voor een overlopende rekening opstellen (pro rata berekenen) en die bij begin volgend boekjaar correct terugboeken (tegenboeken).",
+    "Concrete situaties (vooruitbetaalde huur of verzekering, nog niet gefactureerde of niet-vervallen interest) vertalen naar de juiste overlopende rekening.",
+    "Het effect van een overlopende rekening op de balans en op het resultaat van beide boekjaren verklaren."
+  ],
+  "samenvatting": "## Waarom bestaan overlopende rekeningen?\n\nIn de boekhouding geldt het **toerekeningsbeginsel** (ook wel het **matchingprincipe** genoemd): een kost of opbrengst hoort thuis in het boekjaar waarin hij **economisch wordt verbruikt of verdiend**, ongeacht wanneer er betaald of gefactureerd wordt. Een betaling in december voor een verzekering die over volgend jaar loopt, mag de winst van dit jaar niet drukken. Omgekeerd moet interest die dit jaar al is aangegroeid maar pas volgend jaar wordt ontvangen, toch in dit jaar als opbrengst staan.\n\nDe **overlopende rekeningen** (klasse 49) zijn het gereedschap om dit op de balansdatum recht te zetten. Ze \"verschuiven\" een stukje kost of opbrengst van het ene boekjaar naar het andere.\n\n## De vier rekeningen: actief versus passief\n\nEr zijn precies **vier** overlopende rekeningen. De handigste manier om ze uit elkaar te houden is de vraag: *gaat het over een kost of een opbrengst, en zit die te vroeg of te laat geboekt?*\n\n### Actiefzijde (de onderneming heeft nog iets \"tegoed\")\n\n- **490000 Over te dragen kosten** (debet, actief). Je hebt een kost **al betaald of geboekt**, maar (een deel ervan) hoort bij **volgend** jaar. Je haalt dat deel weg uit de kosten van dit jaar en parkeert het op de actiefzijde. Klassiek voorbeeld: huur of verzekeringspremie vooruitbetaald.\n- **491000 Verkregen opbrengsten** (debet, actief). Je hebt een opbrengst **al verdiend** in dit jaar, maar je hebt er nog **geen factuur** voor en je ontvangt het geld pas later. Je boekt de opbrengst toch al in dit jaar en zet de vordering op de actiefzijde. Klassiek voorbeeld: interest op een uitgeleend bedrag die al aangegroeid is maar nog niet vervallen.\n\n### Passiefzijde (de onderneming is nog iets \"verschuldigd\")\n\n- **492000 Toe te rekenen kosten** (credit, passief). Een kost **hoort bij dit jaar** maar je hebt er nog **geen factuur** voor gekregen en je betaalt pas later. Je boekt de kost toch al in dit jaar en zet de schuld op de passiefzijde. Klassiek voorbeeld: interest die je verschuldigd bent maar pas volgend jaar betaalt.\n- **493000 Over te dragen opbrengsten** (credit, passief). Je hebt een opbrengst **al ontvangen of gefactureerd**, maar (een deel ervan) hoort bij **volgend** jaar. Je haalt dat deel weg uit de opbrengsten van dit jaar en parkeert het op de passiefzijde. Klassiek voorbeeld: ontvangen huur of abonnementsgeld dat doorloopt in volgend jaar.\n\n> **Ezelsbruggetje:** \"Over te dragen\" = je *draagt iets over* naar volgend jaar (te vroeg geboekt: 490 kost, 493 opbrengst). \"Verkregen / toe te rekenen\" = je *trekt iets naar dit jaar toe* dat nog moet komen (te laat geboekt: 491 opbrengst, 492 kost).\n\n## Het mechanisme: twee boekingen\n\nElke overlopende rekening leeft maar even. Er zijn altijd **twee** boekingen:\n\n1. **Op het einde van het boekjaar (31/12):** je corrigeert de kost of opbrengst en zet het bedrag op de overlopende rekening.\n2. **Bij begin van het volgende boekjaar (1/1):** je **boekt exact dezelfde boeking terug** (tegenboeking). Zo \"valt\" de kost of opbrengst automatisch in het nieuwe jaar en is de overlopende rekening weer op nul.\n\n### Mini-voorbeeld (490000)\n\nOp 1/10/N betaal je 1.200 EUR verzekering voor een vol jaar (1/10/N tot 30/9/N+1). In jaar N hoort maar **3 maanden** thuis (okt-dec), dus 1.200 x 3/12 = 300. De andere **9 maanden** (900 EUR) horen bij N+1.\n\n- **1/10/N (betaling):** 610000 (debet) 1.200 / 550000 (credit) 1.200.\n- **31/12/N (eindejaar):** 490000 (debet) 900 / 610000 (credit) 900. Hierdoor blijft er nog 300 kost in jaar N staan.\n- **1/1/N+1 (terugboeken):** 610000 (debet) 900 / 490000 (credit) 900. Nu valt 900 als kost in N+1.\n\n## Pro rata berekenen\n\nDe rekenkant is bijna altijd een **pro rata temporis**: je verdeelt het totaalbedrag volgens het aantal maanden (of dagen) dat bij elk boekjaar hoort. Tel zorgvuldig: een premie van 1/10 tot 30/9 = 3 maanden in N en 9 in N+1. Werk je met dagen, gebruik dan de afspraak van de oefening (vaak 360 dagen / 12 maanden van 30).\n\n## Effect op balans en resultaat\n\n- **490000 en 491000** staan op de **actiefzijde** van de balans (490 = vooruitbetaalde kost als bezit, 491 = nog te ontvangen opbrengst als vordering).\n- **492000 en 493000** staan op de **passiefzijde** (492 = nog te betalen kost als schuld, 493 = vooruit ontvangen opbrengst als schuld).\n- Effect op het **resultaat** van jaar N (let goed op de richting): **490** haalt kost weg en **verbetert** zo het resultaat; **491** voegt opbrengst toe en **verbetert** het resultaat; **492** voegt kost toe en **verlaagt** het resultaat; **493** haalt opbrengst weg en **verlaagt** het resultaat. Kort: na de correctie staat in elk boekjaar exact de kost/opbrengst die er economisch thuishoort.\n\n## Verband met andere overlopende posten\n\nVerwar de overlopende rekeningen (klasse 49) niet met **te ontvangen facturen (444000)** of **op te stellen facturen (404200)**: die gebruik je wanneer de prestatie volledig in dit jaar valt maar de factuur enkel nog administratief ontbreekt. De overlopende rekeningen draaien specifiek om het **verdelen over twee boekjaren**.\n\n> Let op: de originele oefeningenfiche (689-691) was een onleesbare scan. De onderstaande oefeningen en bedragen zijn opgesteld volgens de **standaard Belgische conventies (MAR)** en niet letterlijk overgenomen uit de fiche.",
+  "kernrekeningen": [
+    {"code": "490000", "naam": "Over te dragen kosten", "natuur": "debet", "wanneer": "Een kost is al betaald/geboekt in dit jaar maar (een deel) hoort bij volgend jaar. Bv. vooruitbetaalde huur of verzekering. Staat op de actiefzijde."},
+    {"code": "491000", "naam": "Verkregen opbrengsten", "natuur": "debet", "wanneer": "Een opbrengst is dit jaar verdiend maar nog niet gefactureerd/ontvangen. Bv. verlopen maar niet-vervallen interest die je nog moet krijgen. Staat op de actiefzijde."},
+    {"code": "492000", "naam": "Toe te rekenen kosten", "natuur": "credit", "wanneer": "Een kost hoort bij dit jaar maar is nog niet gefactureerd/betaald. Bv. verschuldigde maar nog niet vervallen interest. Staat op de passiefzijde."},
+    {"code": "493000", "naam": "Over te dragen opbrengsten", "natuur": "credit", "wanneer": "Een opbrengst is al ontvangen/gefactureerd maar (een deel) hoort bij volgend jaar. Bv. vooruit ontvangen huur of abonnement. Staat op de passiefzijde."},
+    {"code": "610000", "naam": "Diensten en diverse goederen", "natuur": "debet", "wanneer": "De oorspronkelijke kostenrekening voor huur, verzekering, onderhoud enz. Wordt bij de eindejaarscorrectie verminderd (490) of aangevuld (492)."},
+    {"code": "650000", "naam": "Financiële kosten", "natuur": "debet", "wanneer": "Kostenrekening voor interest op leningen/schulden. Wordt aangevuld via 492000 voor verschuldigde maar nog niet vervallen interest."},
+    {"code": "650200", "naam": "Andere kosten van schulden", "natuur": "debet", "wanneer": "Meer specifieke subrekening voor interestkosten op schulden; alternatief voor 650000 bij toe te rekenen interest (492000)."},
+    {"code": "700000", "naam": "Verkopen", "natuur": "credit", "wanneer": "Opbrengstrekening voor verkopen; kan bij een vooruit gefactureerde prestatie deels overgedragen worden via 493000."},
+    {"code": "751000", "naam": "Opbrengsten uit vlottende activa", "natuur": "credit", "wanneer": "Opbrengstrekening voor ontvangen/te ontvangen interest op vorderingen of deposito's; wordt aangevuld via 491000 voor verdiende maar nog niet ontvangen interest."},
+    {"code": "550000", "naam": "Kredietinstellingen", "natuur": "debet", "wanneer": "De bankrekening waarop de vooruitbetaling, ontvangst of interest effectief loopt op het moment van betaling/ontvangst."}
+  ],
+  "boekingsschemas": [
+    {
+      "titel": "490000 Over te dragen kosten (vooruitbetaalde kost, bv. huur/verzekering)",
+      "situatie": "Je betaalde dit jaar een kost die (gedeeltelijk) bij volgend jaar hoort. Op 31/12 verschuif je het deel van volgend jaar naar de actiefzijde; op 1/1 boek je terug.",
+      "regels": [
+        {"code": "490000", "naam": "Over te dragen kosten", "kant": "debet", "bedrag": "deel dat bij volgend jaar hoort", "toelichting": "31/12 - actief stijgt: het vooruitbetaalde deel wordt een bezit (over te dragen)."},
+        {"code": "610000", "naam": "Diensten en diverse goederen", "kant": "credit", "bedrag": "zelfde bedrag", "toelichting": "31/12 - de kost van dit jaar wordt verlaagd met het deel dat bij volgend jaar hoort."}
+      ]
+    },
+    {
+      "titel": "493000 Over te dragen opbrengsten (vooruit ontvangen opbrengst, bv. huur ontvangen)",
+      "situatie": "Je ontving/factureerde dit jaar een opbrengst die (gedeeltelijk) bij volgend jaar hoort. Op 31/12 verschuif je het deel van volgend jaar naar de passiefzijde; op 1/1 boek je terug.",
+      "regels": [
+        {"code": "700000", "naam": "Verkopen", "kant": "debet", "bedrag": "deel dat bij volgend jaar hoort", "toelichting": "31/12 - de opbrengst van dit jaar wordt verlaagd met het deel dat bij volgend jaar hoort."},
+        {"code": "493000", "naam": "Over te dragen opbrengsten", "kant": "credit", "bedrag": "zelfde bedrag", "toelichting": "31/12 - passief stijgt: het vooruit ontvangen deel is een schuld (over te dragen opbrengst)."}
+      ]
+    },
+    {
+      "titel": "492000 Toe te rekenen kosten (verschuldigde, nog niet vervallen interest)",
+      "situatie": "Een kost (bv. interest) hoort bij dit jaar maar wordt pas volgend jaar gefactureerd/betaald. Op 31/12 boek je de kost én een schuld; op 1/1 boek je terug.",
+      "regels": [
+        {"code": "650000", "naam": "Financiële kosten", "kant": "debet", "bedrag": "pro rata van dit jaar", "toelichting": "31/12 - de interestkost van dit jaar wordt erkend, ook al is hij nog niet vervallen."},
+        {"code": "492000", "naam": "Toe te rekenen kosten", "kant": "credit", "bedrag": "zelfde bedrag", "toelichting": "31/12 - passief stijgt: de nog te betalen interest is een schuld."}
+      ]
+    },
+    {
+      "titel": "491000 Verkregen opbrengsten (verdiende, nog niet ontvangen interest)",
+      "situatie": "Een opbrengst (bv. interest) is dit jaar verdiend maar wordt pas volgend jaar ontvangen. Op 31/12 boek je de opbrengst én een vordering; op 1/1 boek je terug.",
+      "regels": [
+        {"code": "491000", "naam": "Verkregen opbrengsten", "kant": "debet", "bedrag": "pro rata van dit jaar", "toelichting": "31/12 - actief stijgt: de nog te ontvangen interest is een vordering."},
+        {"code": "751000", "naam": "Opbrengsten uit vlottende activa", "kant": "credit", "bedrag": "zelfde bedrag", "toelichting": "31/12 - de interestopbrengst van dit jaar wordt erkend, ook al is ze nog niet ontvangen."}
+      ]
+    },
+    {
+      "titel": "Terugboeking (tegenboeking) bij begin volgend boekjaar (1/1)",
+      "situatie": "Algemeen schema: bij begin van het nieuwe boekjaar boek je de eindejaarsboeking exact omgekeerd, zodat het bedrag in het nieuwe jaar in de kost/opbrengst valt en de overlopende rekening weer op nul staat. Voorbeeld voor 490000.",
+      "regels": [
+        {"code": "610000", "naam": "Diensten en diverse goederen", "kant": "debet", "bedrag": "overgedragen deel", "toelichting": "1/1 - de kost valt nu in het nieuwe boekjaar."},
+        {"code": "490000", "naam": "Over te dragen kosten", "kant": "credit", "bedrag": "zelfde bedrag", "toelichting": "1/1 - de overlopende rekening wordt afgesloten (terug op nul)."}
+      ]
+    }
+  ],
+  "oefeningen": [
+    {
+      "id": "overlopende-rekeningen-1",
+      "titel": "Vooruitbetaalde verzekering (490000)",
+      "niveau": "basis",
+      "context": "Onderneming Vandael sluit op 1/10/N een brandverzekering af en betaalt de jaarpremie van 1.200,00 EUR meteen via de bank. De premie dekt de periode 1/10/N tot en met 30/9/N+1. Het boekjaar loopt per kalenderjaar (sluit af op 31/12/N).",
+      "vraag": "Boek de betaling op 1/10/N, de eindejaarscorrectie op 31/12/N en de terugboeking op 1/1/N+1.",
+      "stappen": [
+        "Bepaal welk deel bij jaar N hoort: oktober, november en december = 3 maanden. Bij N+1 horen 9 maanden (januari t/m september).",
+        "Bereken pro rata: totaal 1.200 / 12 = 100 EUR per maand. Deel N = 3 x 100 = 300; deel N+1 = 9 x 100 = 900.",
+        "Bij betaling boek je de volledige 1.200 als kost (610000) tegenover de bank (550000).",
+        "Op 31/12 hoort 900 niet bij dit jaar: verminder 610000 met 900 en parkeer dat op 490000 (actief, debet).",
+        "Op 1/1/N+1 boek je de eindejaarsboeking exact omgekeerd, zodat de 900 alsnog kost wordt in N+1."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "Betaling jaarpremie 1/10/N",
+          "regels": [
+            {"code": "610000", "naam": "Diensten en diverse goederen", "debet": 1200.00, "credit": null, "reden": "Klasse 6 kost: de verzekeringspremie wordt eerst integraal als kost geboekt; stijgt in debet."},
+            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 1200.00, "reden": "Actief (bank) daalt omdat er betaald wordt; daling van een actief staat in credit."}
+          ]
+        },
+        {
+          "omschrijving": "Eindejaarscorrectie 31/12/N",
+          "regels": [
+            {"code": "490000", "naam": "Over te dragen kosten", "debet": 900.00, "credit": null, "reden": "Actief stijgt: het deel van de premie dat bij N+1 hoort (900) wordt een bezit, dus debet."},
+            {"code": "610000", "naam": "Diensten en diverse goederen", "debet": null, "credit": 900.00, "reden": "De kost van jaar N wordt verminderd met 900; een kostenrekening verminderen gebeurt in credit. Er blijft 300 kost in N."}
+          ]
+        },
+        {
+          "omschrijving": "Terugboeking 1/1/N+1",
+          "regels": [
+            {"code": "610000", "naam": "Diensten en diverse goederen", "debet": 900.00, "credit": null, "reden": "De 900 valt nu als kost in N+1; kost stijgt in debet."},
+            {"code": "490000", "naam": "Over te dragen kosten", "debet": null, "credit": 900.00, "reden": "De overlopende rekening wordt afgesloten en staat weer op nul; daling van het actief in credit."}
+          ]
+        }
+      ],
+      "eindantwoord": "In jaar N blijft 300,00 EUR verzekeringskost; 900,00 EUR wordt via 490000 overgedragen en valt in N+1 als kost. Elke boeking balanceert (1.200 = 1.200; 900 = 900).",
+      "valkuil": "Het deel op 490000 is het deel van VOLGEND jaar (900), niet van dit jaar. Studenten boeken vaak per ongeluk de 300 over."
+    },
+    {
+      "id": "overlopende-rekeningen-2",
+      "titel": "Vooruit ontvangen huur (493000)",
+      "niveau": "basis",
+      "context": "Onderneming Claes verhuurt een magazijn. Op 1/11/N ontvangt ze van de huurder 3.000,00 EUR huur voor de periode 1/11/N tot en met 31/1/N+1 (3 maanden), gestort op de bankrekening. De huuropbrengst wordt geboekt op 700000 Verkopen. Boekjaar = kalenderjaar.",
+      "vraag": "Boek de ontvangst op 1/11/N, de eindejaarscorrectie op 31/12/N en de terugboeking op 1/1/N+1.",
+      "stappen": [
+        "Bepaal de verdeling: november en december (2 maanden) horen bij N; januari N+1 (1 maand) hoort bij N+1.",
+        "Bereken pro rata: 3.000 / 3 = 1.000 per maand. Deel N = 2.000; deel N+1 = 1.000.",
+        "Bij ontvangst boek je de volledige 3.000 als opbrengst (700000) tegenover de bank (550000).",
+        "Op 31/12 hoort 1.000 niet bij dit jaar: verminder 700000 met 1.000 (debet) en parkeer dat op 493000 (passief, credit).",
+        "Op 1/1/N+1 boek je de eindejaarsboeking omgekeerd, zodat de 1.000 alsnog opbrengst wordt in N+1."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "Ontvangst huur 1/11/N",
+          "regels": [
+            {"code": "550000", "naam": "Kredietinstellingen", "debet": 3000.00, "credit": null, "reden": "Actief (bank) stijgt door de ontvangst; stijging van een actief in debet."},
+            {"code": "700000", "naam": "Verkopen", "debet": null, "credit": 3000.00, "reden": "Klasse 7 opbrengst: de volledige huur wordt eerst als opbrengst geboekt; stijgt in credit."}
+          ]
+        },
+        {
+          "omschrijving": "Eindejaarscorrectie 31/12/N",
+          "regels": [
+            {"code": "700000", "naam": "Verkopen", "debet": 1000.00, "credit": null, "reden": "De opbrengst van jaar N wordt verminderd met 1.000 (deel januari N+1); een opbrengstrekening verminderen gebeurt in debet."},
+            {"code": "493000", "naam": "Over te dragen opbrengsten", "debet": null, "credit": 1000.00, "reden": "Passief stijgt: de vooruit ontvangen huur is een schuld tegenover N+1, dus credit."}
+          ]
+        },
+        {
+          "omschrijving": "Terugboeking 1/1/N+1",
+          "regels": [
+            {"code": "493000", "naam": "Over te dragen opbrengsten", "debet": 1000.00, "credit": null, "reden": "De overlopende rekening wordt afgesloten; daling van het passief in debet."},
+            {"code": "700000", "naam": "Verkopen", "debet": null, "credit": 1000.00, "reden": "De 1.000 valt nu als opbrengst in N+1; opbrengst stijgt in credit."}
+          ]
+        }
+      ],
+      "eindantwoord": "In jaar N blijft 2.000,00 EUR huuropbrengst; 1.000,00 EUR wordt via 493000 overgedragen naar N+1. Alle boekingen balanceren (3.000 = 3.000; 1.000 = 1.000).",
+      "valkuil": "Verwar 493000 (passief, vooruit ONTVANGEN opbrengst) niet met 490000 (actief, vooruit BETAALDE kost). Hier is het een opbrengst, dus de overlopende rekening staat aan de passiefzijde."
+    },
+    {
+      "id": "overlopende-rekeningen-3",
+      "titel": "Toe te rekenen interest op lening (492000)",
+      "niveau": "midden",
+      "context": "Onderneming Peeters heeft een lening lopen bij de bank. De interest van 4.800,00 EUR per jaar wordt telkens achteraf afgerekend op de vervaldag 31/3/N+1 (voor de periode 1/4/N tot 31/3/N+1). Op 31/12/N is een deel van die interest al verlopen maar nog niet vervallen of gefactureerd. Boekjaar = kalenderjaar.",
+      "vraag": "Bereken het deel van de interest dat aan jaar N moet worden toegerekend en boek de eindejaarscorrectie op 31/12/N en de terugboeking op 1/1/N+1.",
+      "stappen": [
+        "Bepaal hoeveel maanden van de interestperiode (1/4/N - 31/3/N+1) in jaar N vallen: april t/m december = 9 maanden.",
+        "Bereken pro rata: 4.800 / 12 = 400 per maand. Deel N = 9 x 400 = 3.600.",
+        "Deze 3.600 is een kost van N maar is nog niet vervallen/betaald: boek de financiële kost (650000, debet) tegenover een schuld 492000 (credit).",
+        "Op 1/1/N+1 boek je deze correctie omgekeerd, zodat bij de werkelijke betaling op 31/3/N+1 alleen de juiste 3 maanden (jan-mrt = 1.200) als kost van N+1 overblijven."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "Eindejaarscorrectie 31/12/N - toe te rekenen interest",
+          "regels": [
+            {"code": "650000", "naam": "Financiële kosten", "debet": 3600.00, "credit": null, "reden": "Klasse 6 kost: de interest die in N verlopen is (9 maanden) wordt als kost van N erkend; stijgt in debet."},
+            {"code": "492000", "naam": "Toe te rekenen kosten", "debet": null, "credit": 3600.00, "reden": "Passief stijgt: de verschuldigde maar nog niet betaalde interest is een schuld, dus credit."}
+          ]
+        },
+        {
+          "omschrijving": "Terugboeking 1/1/N+1",
+          "regels": [
+            {"code": "492000", "naam": "Toe te rekenen kosten", "debet": 3600.00, "credit": null, "reden": "De overlopende rekening wordt afgesloten; daling van het passief in debet."},
+            {"code": "650000", "naam": "Financiële kosten", "debet": null, "credit": 3600.00, "reden": "De kost wordt teruggeboekt; bij de latere betaling op 31/3/N+1 wordt de volledige 4.800 als kost geboekt, waarvan na deze terugboeking netto 1.200 (3 maanden) in N+1 blijft."}
+          ]
+        }
+      ],
+      "eindantwoord": "Aan jaar N wordt 3.600,00 EUR interest toegerekend via 492000 (9 maanden). Na terugboeking en de betaling van 4.800 op de vervaldag blijft er netto 1.200,00 EUR interestkost in N+1 (3 maanden). Beide boekingen balanceren (3.600 = 3.600).",
+      "valkuil": "Een toe te rekenen kost (492000) staat aan de PASSIEFzijde (credit), want het is een schuld. Studenten verwarren dit met 490000 (actief). Reken ook de juiste maanden: hier vallen 9 maanden in N, niet 3."
+    },
+    {
+      "id": "overlopende-rekeningen-4",
+      "titel": "Verkregen interest op uitgeleend bedrag (491000)",
+      "niveau": "midden",
+      "context": "Onderneming Dewit heeft op 1/9/N een termijndeposito geplaatst. De interest van 2.400,00 EUR over de looptijd 1/9/N tot 31/8/N+1 wordt pas op de eindvervaldag (31/8/N+1) op de bankrekening gestort. De interestopbrengst wordt geboekt op 751000 Opbrengsten uit vlottende activa. Boekjaar = kalenderjaar.",
+      "vraag": "Bereken het deel van de interest dat aan jaar N moet worden toegerekend en boek de eindejaarscorrectie op 31/12/N en de terugboeking op 1/1/N+1.",
+      "stappen": [
+        "Bepaal hoeveel maanden van de interestperiode (1/9/N - 31/8/N+1) in jaar N vallen: september t/m december = 4 maanden.",
+        "Bereken pro rata: 2.400 / 12 = 200 per maand. Deel N = 4 x 200 = 800.",
+        "Deze 800 is een opbrengst van N maar wordt nog niet ontvangen: boek een vordering 491000 (debet) tegenover de opbrengst 751000 (credit).",
+        "Op 1/1/N+1 boek je deze correctie omgekeerd, zodat bij de werkelijke ontvangst op 31/8/N+1 enkel de resterende 8 maanden (1.600) als opbrengst van N+1 overblijven."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "Eindejaarscorrectie 31/12/N - verkregen interest",
+          "regels": [
+            {"code": "491000", "naam": "Verkregen opbrengsten", "debet": 800.00, "credit": null, "reden": "Actief stijgt: de verdiende maar nog niet ontvangen interest is een vordering, dus debet."},
+            {"code": "751000", "naam": "Opbrengsten uit vlottende activa", "debet": null, "credit": 800.00, "reden": "Klasse 7 opbrengst: de interest die in N verdiend is (4 maanden) wordt als opbrengst van N erkend; stijgt in credit."}
+          ]
+        },
+        {
+          "omschrijving": "Terugboeking 1/1/N+1",
+          "regels": [
+            {"code": "751000", "naam": "Opbrengsten uit vlottende activa", "debet": 800.00, "credit": null, "reden": "De opbrengst wordt teruggeboekt; bij de latere ontvangst van 2.400 wordt alles als opbrengst geboekt, waarvan na deze terugboeking netto 1.600 in N+1 blijft."},
+            {"code": "491000", "naam": "Verkregen opbrengsten", "debet": null, "credit": 800.00, "reden": "De overlopende rekening (vordering) wordt afgesloten; daling van het actief in credit."}
+          ]
+        }
+      ],
+      "eindantwoord": "Aan jaar N wordt 800,00 EUR interestopbrengst toegerekend via 491000 (4 maanden). Na terugboeking en de ontvangst van 2.400 op 31/8/N+1 blijft netto 1.600,00 EUR opbrengst in N+1 (8 maanden). Beide boekingen balanceren (800 = 800).",
+      "valkuil": "491000 is een ACTIEF (debet) want je hebt nog iets tegoed; verwar het niet met 493000 (passief, vooruit ontvangen). Onthoud: verkregen = verdiend maar nog te ontvangen."
+    },
+    {
+      "id": "overlopende-rekeningen-5",
+      "titel": "Examen: vier overlopende rekeningen tegelijk afsluiten",
+      "niveau": "examen",
+      "context": "Bij de jaarafsluiting op 31/12/N van bvba Mertens moeten vier situaties via overlopende rekeningen worden gecorrigeerd. (1) Op 1/9/N betaalde Mertens 2.400,00 EUR huur (610000) voor de periode 1/9/N - 31/8/N+1. (2) Op 1/12/N ontving en boekte Mertens 1.800,00 EUR onderhoudsabonnement op 700000 voor de periode 1/12/N - 28/2/N+1 (3 maanden). (3) Op een lening is over de periode 1/7/N - 30/6/N+1 een interest van 6.000,00 EUR verschuldigd, betaalbaar op 30/6/N+1 (650000). (4) Een geplaatst deposito brengt over 1/10/N - 30/9/N+1 in totaal 1.200,00 EUR interest op (751000), ontvangbaar op 30/9/N+1.",
+      "vraag": "Bepaal voor elk van de vier situaties de juiste overlopende rekening en het over te dragen / toe te rekenen bedrag, en stel telkens de eindejaarsboeking op 31/12/N op.",
+      "stappen": [
+        "Situatie 1 (huur betaald): periode 1/9/N - 31/8/N+1. In N: sep-dec = 4 maanden; in N+1: 8 maanden. 2.400/12 = 200/maand. Over te dragen (N+1) = 8 x 200 = 1.600. Dit is een vooruitbetaalde KOST -> 490000 (actief, debet).",
+        "Situatie 2 (abonnement ontvangen): periode 1/12/N - 28/2/N+1 = 3 maanden. In N: december = 1 maand; in N+1: 2 maanden. 1.800/3 = 600/maand. Over te dragen (N+1) = 2 x 600 = 1.200. Dit is een vooruit ontvangen OPBRENGST -> 493000 (passief, credit).",
+        "Situatie 3 (interest verschuldigd): periode 1/7/N - 30/6/N+1. In N: jul-dec = 6 maanden. 6.000/12 = 500/maand. Toe te rekenen aan N = 6 x 500 = 3.000. Dit is een nog te betalen KOST -> 492000 (passief, credit).",
+        "Situatie 4 (interest te ontvangen): periode 1/10/N - 30/9/N+1. In N: okt-dec = 3 maanden. 1.200/12 = 100/maand. Toe te rekenen aan N = 3 x 100 = 300. Dit is een nog te ontvangen OPBRENGST -> 491000 (actief, debet).",
+        "Stel per situatie de eindejaarsboeking op en controleer telkens dat debet = credit."
+      ],
+      "boekingen": [
+        {
+          "omschrijving": "31/12/N - situatie 1: over te dragen huur (490000)",
+          "regels": [
+            {"code": "490000", "naam": "Over te dragen kosten", "debet": 1600.00, "credit": null, "reden": "Actief stijgt: 8 maanden vooruitbetaalde huur (deel N+1) wordt een bezit; debet."},
+            {"code": "610000", "naam": "Diensten en diverse goederen", "debet": null, "credit": 1600.00, "reden": "De huurkost van N wordt met 1.600 verminderd; kostenrekening verminderen in credit. Er blijft 800 kost (4 maanden) in N."}
+          ]
+        },
+        {
+          "omschrijving": "31/12/N - situatie 2: over te dragen abonnement (493000)",
+          "regels": [
+            {"code": "700000", "naam": "Verkopen", "debet": 1200.00, "credit": null, "reden": "De opbrengst van N wordt met 1.200 verminderd (2 maanden van N+1); opbrengstrekening verminderen in debet. Er blijft 600 opbrengst (1 maand) in N."},
+            {"code": "493000", "naam": "Over te dragen opbrengsten", "debet": null, "credit": 1200.00, "reden": "Passief stijgt: vooruit ontvangen opbrengst voor N+1 is een schuld; credit."}
+          ]
+        },
+        {
+          "omschrijving": "31/12/N - situatie 3: toe te rekenen interest (492000)",
+          "regels": [
+            {"code": "650000", "naam": "Financiële kosten", "debet": 3000.00, "credit": null, "reden": "Klasse 6 kost: 6 maanden verlopen interest van N wordt erkend; debet."},
+            {"code": "492000", "naam": "Toe te rekenen kosten", "debet": null, "credit": 3000.00, "reden": "Passief stijgt: nog te betalen interest is een schuld; credit."}
+          ]
+        },
+        {
+          "omschrijving": "31/12/N - situatie 4: verkregen interest (491000)",
+          "regels": [
+            {"code": "491000", "naam": "Verkregen opbrengsten", "debet": 300.00, "credit": null, "reden": "Actief stijgt: 3 maanden verdiende maar nog niet ontvangen interest is een vordering; debet."},
+            {"code": "751000", "naam": "Opbrengsten uit vlottende activa", "debet": null, "credit": 300.00, "reden": "Klasse 7 opbrengst: interest die in N verdiend is wordt erkend; credit."}
+          ]
+        }
+      ],
+      "eindantwoord": "Over te dragen kosten 490000 = 1.600 (debet); over te dragen opbrengsten 493000 = 1.200 (credit); toe te rekenen kosten 492000 = 3.000 (credit); verkregen opbrengsten 491000 = 300 (debet). Elke afzonderlijke boeking balanceert. Op 1/1/N+1 worden alle vier de boekingen omgekeerd teruggeboekt.",
+      "valkuil": "De grootste examenval is het kiezen van de verkeerde overlopende rekening (actief vs passief) en het tellen van de verkeerde maanden. Vraag je per situatie af: (a) kost of opbrengst? (b) te vroeg geboekt (over te dragen: 490/493) of te laat (toe te rekenen/verkregen: 491/492)? en tel de maanden die in HET ANDERE jaar vallen voor 490/493, en de maanden die in DIT jaar vallen voor 491/492."
+    }
+  ],
+  "flashcards": [
+    {"vraag": "Wat zegt het toerekeningsbeginsel (matchingprincipe)?", "antwoord": "Kosten en opbrengsten horen thuis in het boekjaar waarin ze economisch worden verbruikt of verdiend, niet noodzakelijk in het jaar waarin ze betaald of ontvangen worden.", "type": "begrip"},
+    {"vraag": "Welke rekening gebruik je voor een vooruitbetaalde kost (bv. verzekering) die deels bij volgend jaar hoort?", "antwoord": "490000 Over te dragen kosten (actief, debet).", "type": "mar-code"},
+    {"vraag": "Welke rekening gebruik je voor een opbrengst die dit jaar verdiend is maar nog niet gefactureerd/ontvangen (bv. niet-vervallen interest)?", "antwoord": "491000 Verkregen opbrengsten (actief, debet).", "type": "mar-code"},
+    {"vraag": "Welke rekening gebruik je voor een kost die bij dit jaar hoort maar nog niet gefactureerd/betaald is (bv. verschuldigde interest)?", "antwoord": "492000 Toe te rekenen kosten (passief, credit).", "type": "mar-code"},
+    {"vraag": "Welke rekening gebruik je voor een vooruit ontvangen opbrengst (bv. huur) die deels bij volgend jaar hoort?", "antwoord": "493000 Over te dragen opbrengsten (passief, credit).", "type": "mar-code"},
+    {"vraag": "Welke twee overlopende rekeningen staan op de ACTIEFzijde?", "antwoord": "490000 Over te dragen kosten en 491000 Verkregen opbrengsten (beide debet).", "type": "logica"},
+    {"vraag": "Welke twee overlopende rekeningen staan op de PASSIEFzijde?", "antwoord": "492000 Toe te rekenen kosten en 493000 Over te dragen opbrengsten (beide credit).", "type": "logica"},
+    {"vraag": "Wat gebeurt er met een overlopende rekening bij het begin van het volgende boekjaar?", "antwoord": "Ze wordt teruggeboekt (tegengeboekt): de eindejaarsboeking wordt exact omgekeerd, zodat de kost/opbrengst in het nieuwe jaar valt en de overlopende rekening weer op nul staat.", "type": "begrip"},
+    {"vraag": "Ezelsbruggetje: wat betekent 'over te dragen' versus 'toe te rekenen/verkregen'?", "antwoord": "'Over te dragen' (490, 493) = te vroeg geboekt, je draagt het over naar volgend jaar. 'Toe te rekenen/verkregen' (491, 492) = nog niet geboekt, je trekt het naar dit jaar toe.", "type": "logica"},
+    {"vraag": "Bij 490000: boek je het deel van DIT jaar of van VOLGEND jaar over?", "antwoord": "Het deel van VOLGEND jaar. Het deel van dit jaar blijft gewoon als kost staan.", "type": "logica"},
+    {"vraag": "Hoe bereken je het over te dragen of toe te rekenen bedrag?", "antwoord": "Pro rata temporis: totaalbedrag verdelen volgens het aantal maanden (of dagen) dat bij elk boekjaar hoort.", "type": "begrip"},
+    {"vraag": "Op welke kant boek je 610000 (kost) bij een eindejaarscorrectie met 490000?", "antwoord": "610000 in credit (de kost van dit jaar verminderen), tegenover 490000 in debet.", "type": "logica"},
+    {"vraag": "Op welke kant boek je 700000 (opbrengst) bij een eindejaarscorrectie met 493000?", "antwoord": "700000 in debet (de opbrengst van dit jaar verminderen), tegenover 493000 in credit.", "type": "logica"},
+    {"vraag": "Wat is het verschil tussen 491000 en 444000/404200 (te ontvangen / op te stellen facturen)?", "antwoord": "491000 verdeelt een opbrengst over twee boekjaren (bv. niet-vervallen interest). 404200/444000 gebruik je wanneer de prestatie volledig in dit jaar valt maar enkel de factuur nog ontbreekt.", "type": "begrip"},
+    {"vraag": "Welke rekening gebruik je vaak als tegenrekening bij verschuldigde interest (492000)?", "antwoord": "650000 Financiële kosten (of de subrekening 650200 Andere kosten van schulden), in debet.", "type": "mar-code"},
+    {"vraag": "Welke rekening gebruik je vaak als tegenrekening bij verkregen interest op een deposito (491000)?", "antwoord": "751000 Opbrengsten uit vlottende activa, in credit.", "type": "mar-code"}
+  ],
+  "veelgemaakteFouten": [
+    {"fout": "Bij 490000 het deel van DIT jaar overdragen in plaats van het deel van volgend jaar.", "correctie": "Op de overlopende rekening komt altijd het deel dat bij het ANDERE (volgende) jaar hoort. Het deel van dit jaar blijft gewoon op de kosten-/opbrengstrekening staan."},
+    {"fout": "Een overlopende rekening aan de verkeerde balanszijde plaatsen (bv. 492000 als actief boeken).", "correctie": "Onthoud: 490 en 491 = actief (debet), 492 en 493 = passief (credit). Vraag je af of de onderneming nog iets tegoed heeft (actief) of nog iets verschuldigd is (passief)."},
+    {"fout": "Vergeten de eindejaarsboeking bij begin volgend jaar terug te boeken.", "correctie": "Elke overlopende rekening kent altijd twee boekingen: de correctie op 31/12 en de exacte tegenboeking op 1/1. Anders blijft de overlopende rekening ten onrechte openstaan en valt de kost/opbrengst niet in het juiste jaar."},
+    {"fout": "Het aantal maanden verkeerd tellen bij de pro rata berekening.", "correctie": "Teken de periode uit en tel zorgvuldig welke maanden in welk boekjaar vallen. Voor 490/493 tel je de maanden van VOLGEND jaar; voor 491/492 de maanden van DIT jaar."},
+    {"fout": "490000/493000 verwarren met 491000/492000.", "correctie": "'Over te dragen' (490 kost, 493 opbrengst) = al geboekt, hoort bij volgend jaar. 'Verkregen/toe te rekenen' (491 opbrengst, 492 kost) = nog niet geboekt, hoort bij dit jaar."},
+    {"fout": "Bij de eindejaarscorrectie van een opbrengst per ongeluk de opbrengstrekening in credit zetten.", "correctie": "Om een opbrengst te VERMINDEREN boek je 700000 (of 751000) in DEBET, tegenover de passieve overlopende rekening 493000 in credit."},
+    {"fout": "De overlopende rekeningen gebruiken terwijl een prestatie volledig in één boekjaar valt.", "correctie": "Als de prestatie volledig in dit jaar valt en enkel de factuur ontbreekt, gebruik je 444000 (te ontvangen facturen) of 404200 (op te stellen facturen), niet de overlopende rekeningen 49."}
+  ],
+  "controlevragen": [
+    {"vraag": "Een onderneming betaalt op 1/11/N een huur van 600 EUR voor de maanden november N tot en met februari N+1 (4 maanden). Hoeveel en op welke rekening draag je over op 31/12/N?", "antwoord": "Per maand 600/4 = 150. November en december (2 maanden) horen bij N; januari en februari N+1 (2 maanden) horen bij N+1. Je draagt 2 x 150 = 300 over via 490000 (debet) tegenover 610000 (credit)."},
+    {"vraag": "Is 492000 Toe te rekenen kosten een actief- of een passiefrekening, en aan welke kant stijgt ze?", "antwoord": "Een passiefrekening (schuld); ze stijgt in credit. Het is een kost die bij dit jaar hoort maar nog moet betaald worden."},
+    {"vraag": "Welke boeking maak je op 1/1/N+1 om een eindejaarsboeking 490000 (debet) / 610000 (credit) terug te boeken?", "antwoord": "610000 Diensten en diverse goederen (debet) / 490000 Over te dragen kosten (credit), voor hetzelfde bedrag. Zo valt de kost in N+1 en staat 490000 weer op nul."},
+    {"vraag": "Een lening loopt met een jaarinterest van 1.200 EUR over de periode 1/10/N - 30/9/N+1, betaalbaar achteraf. Hoeveel reken je toe aan jaar N en met welke rekening?", "antwoord": "Per maand 1.200/12 = 100. Oktober t/m december = 3 maanden in N, dus 300 wordt toegerekend via 650000 (debet) / 492000 (credit)."},
+    {"vraag": "Waarom mag een in december betaalde verzekeringspremie voor volgend jaar de winst van dit jaar niet drukken?", "antwoord": "Wegens het toerekeningsbeginsel: de kost wordt pas economisch verbruikt in volgend jaar, dus hoort hij in het resultaat van volgend jaar. Via 490000 wordt het vooruitbetaalde deel uit de kosten van dit jaar gehaald."},
+    {"vraag": "Wat is het verschil tussen 491000 Verkregen opbrengsten en 493000 Over te dragen opbrengsten?", "antwoord": "491000 (actief, debet) is een opbrengst die dit jaar al verdiend is maar nog niet ontvangen (vordering). 493000 (passief, credit) is een opbrengst die je al ontvangen hebt maar die bij volgend jaar hoort (schuld)."},
+    {"vraag": "Op 1/12/N ontvangt een bedrijf 900 EUR abonnementsgeld voor december N, januari N+1 en februari N+1, geboekt op 700000. Welke eindejaarscorrectie maak je?", "antwoord": "Per maand 300. December (1 maand) blijft in N; januari en februari N+1 (2 maanden) = 600 horen bij N+1. Boeking 31/12/N: 700000 (debet) 600 / 493000 (credit) 600."}
+  ]
+}
