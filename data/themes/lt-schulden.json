@@ -14,47 +14,142 @@
   ],
   "samenvatting": "## Schulden op meer dan één jaar (leningen)\n\nEen onderneming die een grote investering wil financieren, leent vaak geld bij de bank. Omdat de terugbetaling **over meerdere jaren** loopt, is dit een **schuld op meer dan één jaar**. In het MAR-rekeningstelsel staat zo'n banklening op **173000 Kredietinstellingen** (rubriek 17, passief – schuld op lange termijn). De teacher noteert deze rekening kort als *\"Schulden + 1 j kredietinst.\"*. Leen je bij iemand die geen kredietinstelling is, dan gebruik je **174000 Overige leningen**.\n\n### 1. Het afsluiten (opnemen) van de lening\n\nWanneer de bank het geleende bedrag op je rekening stort, **stijgt je bank (actief, debet)** en ontstaat er een **schuld (passief, credit)**. De teacher noteert de bank als **550000 Bank R/C**.\n\nOp de echte fiche wordt bij het afsluiten de schuld **meteen gesplitst**: het kapitaal dat **nog in hetzelfde kalenderjaar** zal worden afbetaald gaat al naar **423000 Schulden > 1 j. die < 1 j. vervallen**, de rest naar **173000**.\n\nVoorbeeld Oefening A (lening € 150.000, afgesloten 01-10-2024, eerste betaling 31-10-2024). In 2024 vervallen nog 3 maandelijkse kapitaaldelen (okt/nov/dec) = 2.835,73 + 2.847,29 + 2.858,89 = **8.541,91**. De openingsboeking is dus:\n\n- **550000 Bank R/C** — debet 150.000,00\n- **173000** — credit 141.458,09 (rest, lange termijn)\n- **423000** — credit 8.541,91 (kapitaal dat dit jaar nog vervalt)\n\n> Let op de dubbele betekenis: **550000** is je *bankrekening (actief)*, **173000** is je *schuld aan de bank (passief)*.\n\n### 2. De aflossingstabel: kapitaal vs. interest\n\nElke periodieke betaling (de **annuïteit**) bestaat uit **twee delen**:\n\n- **Kapitaalaflossing** → vermindert je werkelijke schuld;\n- **Interest (rente)** → de vergoeding voor het geleende geld, een **kost (650000 Rente, rubriek 65 financiële kosten)**.\n\nIn een klassieke aflossingstabel is de annuïteit **constant**. In het begin betaal je veel interest en weinig kapitaal; naarmate de openstaande schuld daalt, **daalt de interest** en **stijgt het kapitaaldeel**. Op het examen lees je de splitsing rechtstreeks af uit de aflossingstabel (kolommen *Lening / Kapitaal / Intrest / Annuïteit*). Controleer enkel dat kapitaal + interest samen de annuïteit geven (op een afronding van 0,01 na).\n\n### 3. De periodieke aflossing boeken\n\nBij elke betaling boek je **twee debetregels** (interest + kapitaal) tegenover **één creditregel** (bank). Het kapitaaldeel gaat **niet** rechtstreeks van 173000 af, maar tegen **423000** (het deel dat binnen het jaar vervalt, dat al klaarstaat).\n\n- **650000 Rente** — debet — het interestdeel\n- **423000 Schulden > 1 j. die < 1 j. vervallen** — debet — het kapitaaldeel\n- **550000 Bank R/C** — credit — totaal van de annuïteit\n\nVoorbeeld Oefening A, betaling 31-10-2024: 650000 debet 611,12 + 423000 debet 2.835,73 / 550000 credit 3.446,85.\n\n### 4. De eindejaarsoverboeking (de kern!)\n\nOp de balansdatum (31-12) moet je het **deel van de langetermijnschuld dat in het komende jaar zal vervallen** apart tonen als **schuld op korte termijn**. Dit is een **wettelijke voorstellingsregel**: alles wat binnen 12 maanden vervalt hoort niet meer bij de schulden op lange termijn.\n\nJe boekt het kapitaaldeel dat in het volgende boekjaar vervalt over **van 173000 naar 423000**:\n\n- **173000** — debet — de LT-schuld daalt\n- **423000** — credit — het KT-deel stijgt\n\nVoorbeeld Oefening A, 31-12-2024: in 2025 vervalt in totaal **€ 35.228,87** kapitaal → 173000 debet 35.228,87 / 423000 credit 35.228,87. In 2025 worden de aflossingen dan tegen die 423000 afgeboekt.\n\n### 5. Toe te rekenen interest (492000)\n\nLeen je een **bulletlening** (alleen interest betalen, kapitaal pas op het einde) of valt de interestbetaling **na** de balansdatum, dan is de interest van het lopende boekjaar al een **kost** maar nog **niet betaald/vervallen**. Op 31-12 boek je een **toe te rekenen kost**:\n\n- **650000 Rente** — debet — de kost hoort bij dit jaar\n- **492000 Toe te rekenen kosten** — credit — de nog te betalen interest (overlopende rekening)\n\nVoorbeeld (waarderingsdocument, lening 6): een lening van € 25.000 afgesloten op 01-04-2024, jaarlijkse interest € 2.500, betaald begin april. Op 31-12-2024 is 9 maanden interest verlopen: 2.500 × 9/12 = **€ 1.875** → 650000 debet 1.875 / 492000 credit 1.875. (En het kapitaal dat op 01-04-2025 vervalt, € 4.000, wordt overgeboekt: 173000 debet 4.000 / 423000 credit 4.000.) In het nieuwe boekjaar wordt 492000 weer tegengeboekt.\n\n### 6. Gedeeltelijke betaling rond de balansdatum\n\nStaat er te weinig geld op de rekening, dan boek je **eerst de volledige interest** en daarna pas het (gedeeltelijke) kapitaal. De restbetaling later bevat dan **enkel kapitaal**.\n\nVoorbeeld Oefening A, 30-06-2025 (annuïteit 517,36 interest + 2.929,49 kapitaal). Er wordt slechts € 3.001,74 betaald → 650000 debet 517,36 + 423000 debet 2.484,38 / 550000 credit 3.001,74. Op 05-07-2025 wordt de rest betaald: 423000 debet 445,11 / 550000 credit 445,11.\n\n### Samengevat – de levensloop van een lening\n\n1. **Afsluiten**: 550000 / 173000 (+ 423000 voor het kapitaal dat dit jaar nog vervalt).\n2. **Aflossen** (periodiek): 650000 + 423000 / 550000.\n3. **Einde boekjaar**: 173000 / 423000 (volgend jaar vervallend kapitaal naar KT) en eventueel 650000 / 492000 (toe te rekenen interest).\n\n**Hoofdzaak**: kapitaal en interest *altijd* splitsen, en op 31-12 het komende jaar correct overboeken naar 423000. **Detail**: de exacte bedragen lees je af uit de aflossingstabel.",
   "kernrekeningen": [
-    {"code": "173000", "naam": "Kredietinstellingen", "natuur": "credit", "wanneer": "De langetermijnschuld aan de bank ('Schulden + 1 j kredietinst.'). Credit bij het afsluiten; debet bij de eindejaarsoverboeking van het deel dat binnen het jaar vervalt."},
-    {"code": "174000", "naam": "Overige leningen", "natuur": "credit", "wanneer": "Als je niet bij een kredietinstelling leent maar bij een andere partij (bv. een aandeelhouder of een andere onderneming)."},
-    {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "natuur": "credit", "wanneer": "Het kapitaaldeel van de LT-schuld dat binnen 12 maanden vervalt. Credit bij de eindejaarsoverboeking (en bij het afsluiten voor het kapitaal dat dit jaar nog vervalt); debet (daalt) bij elke aflossing."},
-    {"code": "550000", "naam": "Kredietinstellingen", "natuur": "debet", "wanneer": "Je bankrekening (actief), op de fiche 'Bank R/C'. Debet als de lening wordt gestort; credit bij elke aflossing/betaling."},
-    {"code": "650000", "naam": "Financiële kosten", "natuur": "debet", "wanneer": "Het interestdeel (rente) van elke aflossing. De teacher boekt de rente op 650000 (en noteert dit als '650 Rente'). Voor de specifieke 'kosten van schulden' bestaat ook de subrekening 650200."},
-    {"code": "650200", "naam": "Andere kosten van schulden", "natuur": "debet", "wanneer": "De officiële subrekening voor interest op leningen (kosten van schulden). Inhoudelijk identiek aan wat de fiche '650 Rente' noemt."},
-    {"code": "492000", "naam": "Toe te rekenen kosten", "natuur": "credit", "wanneer": "Op 31-12 voor interest die wél tot dit boekjaar behoort maar nog niet betaald/vervallen is (bv. bulletlening of lening gestart in de loop van het jaar)."}
+    {
+      "code": "173000",
+      "naam": "Kredietinstellingen",
+      "natuur": "credit",
+      "wanneer": "De langetermijnschuld aan de bank ('Schulden + 1 j kredietinst.'). Credit bij het afsluiten; debet bij de eindejaarsoverboeking van het deel dat binnen het jaar vervalt."
+    },
+    {
+      "code": "174000",
+      "naam": "Overige leningen",
+      "natuur": "credit",
+      "wanneer": "Als je niet bij een kredietinstelling leent maar bij een andere partij (bv. een aandeelhouder of een andere onderneming)."
+    },
+    {
+      "code": "423000",
+      "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+      "natuur": "credit",
+      "wanneer": "Het kapitaaldeel van de LT-schuld dat binnen 12 maanden vervalt. Credit bij de eindejaarsoverboeking (en bij het afsluiten voor het kapitaal dat dit jaar nog vervalt); debet (daalt) bij elke aflossing."
+    },
+    {
+      "code": "550000",
+      "naam": "Kredietinstellingen",
+      "natuur": "debet",
+      "wanneer": "Je bankrekening (actief), op de fiche 'Bank R/C'. Debet als de lening wordt gestort; credit bij elke aflossing/betaling."
+    },
+    {
+      "code": "650000",
+      "naam": "Financiële kosten",
+      "natuur": "debet",
+      "wanneer": "Het interestdeel (rente) van elke aflossing. De teacher boekt de rente op 650000 (en noteert dit als '650 Rente'). Voor de specifieke 'kosten van schulden' bestaat ook de subrekening 650200."
+    },
+    {
+      "code": "650200",
+      "naam": "Andere kosten van schulden",
+      "natuur": "debet",
+      "wanneer": "De officiële subrekening voor interest op leningen (kosten van schulden). Inhoudelijk identiek aan wat de fiche '650 Rente' noemt."
+    },
+    {
+      "code": "492000",
+      "naam": "Toe te rekenen kosten",
+      "natuur": "credit",
+      "wanneer": "Op 31-12 voor interest die wél tot dit boekjaar behoort maar nog niet betaald/vervallen is (bv. bulletlening of lening gestart in de loop van het jaar)."
+    }
   ],
   "boekingsschemas": [
     {
       "titel": "Afsluiten (opnemen) van een lening – met meteen splitsing 173/423",
       "situatie": "De bank stort het geleende bedrag op je rekening. Het kapitaal dat dit jaar nog vervalt gaat meteen naar 423000.",
       "regels": [
-        {"code": "550000", "naam": "Kredietinstellingen", "kant": "debet", "bedrag": "volledig leningbedrag", "toelichting": "Bankrekening (actief, 'Bank R/C') stijgt → debet."},
-        {"code": "173000", "naam": "Kredietinstellingen", "kant": "credit", "bedrag": "leningbedrag − kapitaal dat dit jaar nog vervalt", "toelichting": "Schuld op lange termijn (passief) → credit. Bij een niet-bankschuld gebruik je 174000."},
-        {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "kant": "credit", "bedrag": "som van de kapitaaldelen die dit kalenderjaar nog vervallen", "toelichting": "Het deel dat binnen het jaar vervalt → KT-schuld → credit."}
+        {
+          "code": "550000",
+          "naam": "Kredietinstellingen",
+          "kant": "debet",
+          "bedrag": "volledig leningbedrag",
+          "toelichting": "Bankrekening (actief, 'Bank R/C') stijgt → debet."
+        },
+        {
+          "code": "173000",
+          "naam": "Kredietinstellingen",
+          "kant": "credit",
+          "bedrag": "leningbedrag − kapitaal dat dit jaar nog vervalt",
+          "toelichting": "Schuld op lange termijn (passief) → credit. Bij een niet-bankschuld gebruik je 174000."
+        },
+        {
+          "code": "423000",
+          "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+          "kant": "credit",
+          "bedrag": "som van de kapitaaldelen die dit kalenderjaar nog vervallen",
+          "toelichting": "Het deel dat binnen het jaar vervalt → KT-schuld → credit."
+        }
       ]
     },
     {
       "titel": "Periodieke aflossing (annuïteit) – splitsing interest/kapitaal",
       "situatie": "Een maandelijkse/jaarlijkse betaling wordt van de rekening afgehouden.",
       "regels": [
-        {"code": "650000", "naam": "Financiële kosten", "kant": "debet", "bedrag": "interestdeel uit de tabel", "toelichting": "De rente is een financiële kost (klasse 6) → debet ('650 Rente')."},
-        {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "kant": "debet", "bedrag": "kapitaaldeel uit de tabel", "toelichting": "Het reeds naar KT overgeboekte kapitaaldeel daalt → debet (passief vermindert)."},
-        {"code": "550000", "naam": "Kredietinstellingen", "kant": "credit", "bedrag": "totale annuïteit (interest + kapitaal)", "toelichting": "De bank betaalt → bankrekening daalt → credit."}
+        {
+          "code": "650000",
+          "naam": "Financiële kosten",
+          "kant": "debet",
+          "bedrag": "interestdeel uit de tabel",
+          "toelichting": "De rente is een financiële kost (klasse 6) → debet ('650 Rente')."
+        },
+        {
+          "code": "423000",
+          "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+          "kant": "debet",
+          "bedrag": "kapitaaldeel uit de tabel",
+          "toelichting": "Het reeds naar KT overgeboekte kapitaaldeel daalt → debet (passief vermindert)."
+        },
+        {
+          "code": "550000",
+          "naam": "Kredietinstellingen",
+          "kant": "credit",
+          "bedrag": "totale annuïteit (interest + kapitaal)",
+          "toelichting": "De bank betaalt → bankrekening daalt → credit."
+        }
       ]
     },
     {
       "titel": "Eindejaarsoverboeking: kapitaal dat binnen het jaar vervalt",
       "situatie": "Op 31-12 het kapitaal dat in het volgende boekjaar vervalt overzetten naar korte termijn.",
       "regels": [
-        {"code": "173000", "naam": "Kredietinstellingen", "kant": "debet", "bedrag": "kapitaal dat volgend jaar vervalt", "toelichting": "LT-schuld daalt → debet."},
-        {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "kant": "credit", "bedrag": "kapitaal dat volgend jaar vervalt", "toelichting": "KT-deel van de schuld stijgt → credit."}
+        {
+          "code": "173000",
+          "naam": "Kredietinstellingen",
+          "kant": "debet",
+          "bedrag": "kapitaal dat volgend jaar vervalt",
+          "toelichting": "LT-schuld daalt → debet."
+        },
+        {
+          "code": "423000",
+          "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+          "kant": "credit",
+          "bedrag": "kapitaal dat volgend jaar vervalt",
+          "toelichting": "KT-deel van de schuld stijgt → credit."
+        }
       ]
     },
     {
       "titel": "Toe te rekenen interest op 31-12 (bulletlening of lening gestart in de loop van het jaar)",
       "situatie": "Interest hoort bij dit boekjaar maar is nog niet betaald/vervallen.",
       "regels": [
-        {"code": "650000", "naam": "Financiële kosten", "kant": "debet", "bedrag": "verlopen interest van dit jaar", "toelichting": "Kost van het boekjaar → debet."},
-        {"code": "492000", "naam": "Toe te rekenen kosten", "kant": "credit", "bedrag": "verlopen interest van dit jaar", "toelichting": "Nog te betalen kost → overlopende passiefrekening → credit. In het nieuwe jaar terug tegengeboekt."}
+        {
+          "code": "650000",
+          "naam": "Financiële kosten",
+          "kant": "debet",
+          "bedrag": "verlopen interest van dit jaar",
+          "toelichting": "Kost van het boekjaar → debet."
+        },
+        {
+          "code": "492000",
+          "naam": "Toe te rekenen kosten",
+          "kant": "credit",
+          "bedrag": "verlopen interest van dit jaar",
+          "toelichting": "Nog te betalen kost → overlopende passiefrekening → credit. In het nieuwe jaar terug tegengeboekt."
+        }
       ]
     }
   ],
@@ -74,8 +169,20 @@
         {
           "omschrijving": "Afsluiten lening 01-04-2024",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 25000.00, "credit": null, "reden": "Bankrekening (actief, 'Bank R/C') stijgt door de ontvangst van het geleende geld."},
-            {"code": "173000", "naam": "Kredietinstellingen", "debet": null, "credit": 25000.00, "reden": "De schuld op lange termijn aan de kredietinstelling ontstaat (passief, credit)."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 25000.0,
+              "credit": null,
+              "reden": "Bankrekening (actief, 'Bank R/C') stijgt door de ontvangst van het geleende geld."
+            },
+            {
+              "code": "173000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 25000.0,
+              "reden": "De schuld op lange termijn aan de kredietinstelling ontstaat (passief, credit)."
+            }
           ]
         }
       ],
@@ -99,9 +206,27 @@
         {
           "omschrijving": "Aflossing lening 2 – eerste annuïteit",
           "regels": [
-            {"code": "650000", "naam": "Financiële kosten", "debet": 2500.00, "credit": null, "reden": "Interestdeel = financiële kost (klasse 6) → debet ('650 Rente')."},
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": 4000.00, "credit": null, "reden": "Kapitaaldeel uit de tabel: de korte-termijnschuld daalt (passief vermindert) → debet."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 6500.00, "reden": "De bank betaalt de volledige annuïteit → bankrekening daalt → credit."}
+            {
+              "code": "650000",
+              "naam": "Financiële kosten",
+              "debet": 2500.0,
+              "credit": null,
+              "reden": "Interestdeel = financiële kost (klasse 6) → debet ('650 Rente')."
+            },
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": 4000.0,
+              "credit": null,
+              "reden": "Kapitaaldeel uit de tabel: de korte-termijnschuld daalt (passief vermindert) → debet."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 6500.0,
+              "reden": "De bank betaalt de volledige annuïteit → bankrekening daalt → credit."
+            }
           ]
         }
       ],
@@ -124,8 +249,20 @@
         {
           "omschrijving": "Eindejaarsoverboeking 31-12-2024",
           "regels": [
-            {"code": "173000", "naam": "Kredietinstellingen", "debet": 35228.87, "credit": null, "reden": "De schuld op lange termijn daalt met het bedrag dat binnen het jaar vervalt → debet."},
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": null, "credit": 35228.87, "reden": "Het deel dat binnen het jaar vervalt wordt korte-termijnschuld (passief stijgt) → credit."}
+            {
+              "code": "173000",
+              "naam": "Kredietinstellingen",
+              "debet": 35228.87,
+              "credit": null,
+              "reden": "De schuld op lange termijn daalt met het bedrag dat binnen het jaar vervalt → debet."
+            },
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": null,
+              "credit": 35228.87,
+              "reden": "Het deel dat binnen het jaar vervalt wordt korte-termijnschuld (passief stijgt) → credit."
+            }
           ]
         }
       ],
@@ -148,15 +285,39 @@
         {
           "omschrijving": "1) Eindejaarsoverboeking kapitaal 31-12-2024",
           "regels": [
-            {"code": "173000", "naam": "Kredietinstellingen", "debet": 4000.00, "credit": null, "reden": "Het kapitaal dat op 01-04-2025 (binnen 12 maanden) vervalt verlaat de LT-schuld → debet."},
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": null, "credit": 4000.00, "reden": "Dat kapitaaldeel wordt KT-schuld → credit."}
+            {
+              "code": "173000",
+              "naam": "Kredietinstellingen",
+              "debet": 4000.0,
+              "credit": null,
+              "reden": "Het kapitaal dat op 01-04-2025 (binnen 12 maanden) vervalt verlaat de LT-schuld → debet."
+            },
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": null,
+              "credit": 4000.0,
+              "reden": "Dat kapitaaldeel wordt KT-schuld → credit."
+            }
           ]
         },
         {
           "omschrijving": "2) Toe te rekenen interest 31-12-2024",
           "regels": [
-            {"code": "650000", "naam": "Financiële kosten", "debet": 1875.00, "credit": null, "reden": "9 maanden verlopen interest (2.500 × 9/12) is een kost van 2024 → debet ('650 Rente')."},
-            {"code": "492000", "naam": "Toe te rekenen kosten", "debet": null, "credit": 1875.00, "reden": "De interest is nog niet betaald/vervallen → toe te rekenen kost (overlopende passiefrekening) → credit."}
+            {
+              "code": "650000",
+              "naam": "Financiële kosten",
+              "debet": 1875.0,
+              "credit": null,
+              "reden": "9 maanden verlopen interest (2.500 × 9/12) is een kost van 2024 → debet ('650 Rente')."
+            },
+            {
+              "code": "492000",
+              "naam": "Toe te rekenen kosten",
+              "debet": null,
+              "credit": 1875.0,
+              "reden": "De interest is nog niet betaald/vervallen → toe te rekenen kost (overlopende passiefrekening) → credit."
+            }
           ]
         }
       ],
@@ -184,62 +345,188 @@
         {
           "omschrijving": "a) Afsluiten lening 01-10-2024 (met splitsing 173/423)",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 150000.00, "credit": null, "reden": "Bankrekening (actief, 'Bank R/C') stijgt met het opgenomen bedrag."},
-            {"code": "173000", "naam": "Kredietinstellingen", "debet": null, "credit": 141458.09, "reden": "Schuld op lange termijn ('Schulden + 1 j kredietinst.'): het deel dat NIET binnen het jaar vervalt → credit."},
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": null, "credit": 8541.91, "reden": "De 3 kapitaaldelen die in 2024 nog vervallen (2.835,73 + 2.847,29 + 2.858,89) gaan meteen naar de KT-schuld → credit."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 150000.0,
+              "credit": null,
+              "reden": "Bankrekening (actief, 'Bank R/C') stijgt met het opgenomen bedrag."
+            },
+            {
+              "code": "173000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 141458.09,
+              "reden": "Schuld op lange termijn ('Schulden + 1 j kredietinst.'): het deel dat NIET binnen het jaar vervalt → credit."
+            },
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": null,
+              "credit": 8541.91,
+              "reden": "De 3 kapitaaldelen die in 2024 nog vervallen (2.835,73 + 2.847,29 + 2.858,89) gaan meteen naar de KT-schuld → credit."
+            }
           ]
         },
         {
           "omschrijving": "b) Betaling 31-10-2024",
           "regels": [
-            {"code": "650000", "naam": "Financiële kosten", "debet": 611.12, "credit": null, "reden": "Interestdeel van de 1ste annuïteit (rij 1-10-2024) → debet ('650 Rente')."},
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": 2835.73, "credit": null, "reden": "Kapitaaldeel: de KT-schuld daalt → debet."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 3446.85, "reden": "Bank betaalt de volledige annuïteit → credit."}
+            {
+              "code": "650000",
+              "naam": "Financiële kosten",
+              "debet": 611.12,
+              "credit": null,
+              "reden": "Interestdeel van de 1ste annuïteit (rij 1-10-2024) → debet ('650 Rente')."
+            },
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": 2835.73,
+              "credit": null,
+              "reden": "Kapitaaldeel: de KT-schuld daalt → debet."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 3446.85,
+              "reden": "Bank betaalt de volledige annuïteit → credit."
+            }
           ]
         },
         {
           "omschrijving": "c) Betaling 31-12-2024",
           "regels": [
-            {"code": "650000", "naam": "Financiële kosten", "debet": 587.96, "credit": null, "reden": "Interestdeel (rij 1-12-2024). De fiche-tabel toont 587,97; we gebruiken 587,96 zodat de boeking exact op 3.446,85 balanceert (afronding 0,01)."},
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": 2858.89, "credit": null, "reden": "Kapitaaldeel: KT-schuld daalt → debet."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 3446.85, "reden": "Bank betaalt de volledige annuïteit → credit."}
+            {
+              "code": "650000",
+              "naam": "Financiële kosten",
+              "debet": 587.96,
+              "credit": null,
+              "reden": "Interestdeel (rij 1-12-2024). De fiche-tabel toont 587,97; we gebruiken 587,96 zodat de boeking exact op 3.446,85 balanceert (afronding 0,01)."
+            },
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": 2858.89,
+              "credit": null,
+              "reden": "Kapitaaldeel: KT-schuld daalt → debet."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 3446.85,
+              "reden": "Bank betaalt de volledige annuïteit → credit."
+            }
           ]
         },
         {
           "omschrijving": "e) Eindejaarsactiviteiten 31-12-2024 (kapitaal dat in 2025 vervalt)",
           "regels": [
-            {"code": "173000", "naam": "Kredietinstellingen", "debet": 35228.87, "credit": null, "reden": "LT-schuld daalt met het kapitaal dat binnen 12 maanden (in 2025) vervalt → debet."},
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": null, "credit": 35228.87, "reden": "Dat deel wordt KT-schuld → credit."}
+            {
+              "code": "173000",
+              "naam": "Kredietinstellingen",
+              "debet": 35228.87,
+              "credit": null,
+              "reden": "LT-schuld daalt met het kapitaal dat binnen 12 maanden (in 2025) vervalt → debet."
+            },
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": null,
+              "credit": 35228.87,
+              "reden": "Dat deel wordt KT-schuld → credit."
+            }
           ]
         },
         {
           "omschrijving": "f) Betaling 31-05-2025",
           "regels": [
-            {"code": "650000", "naam": "Financiële kosten", "debet": 529.25, "credit": null, "reden": "Interestdeel (rij 1-5-2025) → debet."},
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": 2917.60, "credit": null, "reden": "Kapitaaldeel: KT-schuld daalt → debet."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 3446.85, "reden": "Bank betaalt de volledige annuïteit → credit."}
+            {
+              "code": "650000",
+              "naam": "Financiële kosten",
+              "debet": 529.25,
+              "credit": null,
+              "reden": "Interestdeel (rij 1-5-2025) → debet."
+            },
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": 2917.6,
+              "credit": null,
+              "reden": "Kapitaaldeel: KT-schuld daalt → debet."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 3446.85,
+              "reden": "Bank betaalt de volledige annuïteit → credit."
+            }
           ]
         },
         {
           "omschrijving": "g) Gedeeltelijke betaling 30-06-2025 (€ 3.001,74)",
           "regels": [
-            {"code": "650000", "naam": "Financiële kosten", "debet": 517.36, "credit": null, "reden": "De volledige interest van deze annuïteit (rij 1-6-2025) wordt als kost geboekt → debet."},
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": 2484.38, "credit": null, "reden": "Werkelijk betaald kapitaaldeel = 3.001,74 − 517,36 → debet."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 3001.74, "reden": "Werkelijk van de rekening afgehaald bedrag → credit."}
+            {
+              "code": "650000",
+              "naam": "Financiële kosten",
+              "debet": 517.36,
+              "credit": null,
+              "reden": "De volledige interest van deze annuïteit (rij 1-6-2025) wordt als kost geboekt → debet."
+            },
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": 2484.38,
+              "credit": null,
+              "reden": "Werkelijk betaald kapitaaldeel = 3.001,74 − 517,36 → debet."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 3001.74,
+              "reden": "Werkelijk van de rekening afgehaald bedrag → credit."
+            }
           ]
         },
         {
           "omschrijving": "h) Restbetaling 05-07-2025 (€ 445,11)",
           "regels": [
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": 445.11, "credit": null, "reden": "Resterend kapitaaldeel = 2.929,49 − 2.484,38. Geen interest meer (was al volledig geboekt op 30-06) → debet."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 445.11, "reden": "Resterend bedrag wordt nu betaald → credit."}
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": 445.11,
+              "credit": null,
+              "reden": "Resterend kapitaaldeel = 2.929,49 − 2.484,38. Geen interest meer (was al volledig geboekt op 30-06) → debet."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 445.11,
+              "reden": "Resterend bedrag wordt nu betaald → credit."
+            }
           ]
         },
         {
           "omschrijving": "i) Eindejaarsactiviteiten 31-12-2025 (kapitaal dat in 2026 vervalt)",
           "regels": [
-            {"code": "173000", "naam": "Kredietinstellingen", "debet": 36990.31, "credit": null, "reden": "LT-schuld daalt met het kapitaal dat binnen 12 maanden (in 2026) vervalt → debet."},
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": null, "credit": 36990.31, "reden": "Dat deel wordt KT-schuld → credit."}
+            {
+              "code": "173000",
+              "naam": "Kredietinstellingen",
+              "debet": 36990.31,
+              "credit": null,
+              "reden": "LT-schuld daalt met het kapitaal dat binnen 12 maanden (in 2026) vervalt → debet."
+            },
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": null,
+              "credit": 36990.31,
+              "reden": "Dat deel wordt KT-schuld → credit."
+            }
           ]
         }
       ],
@@ -267,62 +554,188 @@
         {
           "omschrijving": "a) Afsluiten lening 01-08-2025 (met splitsing 173/423)",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 250000.00, "credit": null, "reden": "Bankrekening (actief, 'Bank R/C') stijgt met het opgenomen bedrag."},
-            {"code": "173000", "naam": "Kredietinstellingen", "debet": null, "credit": 225315.83, "reden": "Schuld op lange termijn: het deel dat NIET binnen het jaar (2025) vervalt → credit."},
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": null, "credit": 24684.17, "reden": "Het kapitaal dat in 2025 nog vervalt gaat meteen naar de KT-schuld → credit."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 250000.0,
+              "credit": null,
+              "reden": "Bankrekening (actief, 'Bank R/C') stijgt met het opgenomen bedrag."
+            },
+            {
+              "code": "173000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 225315.83,
+              "reden": "Schuld op lange termijn: het deel dat NIET binnen het jaar (2025) vervalt → credit."
+            },
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": null,
+              "credit": 24684.17,
+              "reden": "Het kapitaal dat in 2025 nog vervalt gaat meteen naar de KT-schuld → credit."
+            }
           ]
         },
         {
           "omschrijving": "b) Betaling 31-08-2025",
           "regels": [
-            {"code": "650000", "naam": "Financiële kosten", "debet": 616.57, "credit": null, "reden": "Interestdeel van de 1ste annuïteit (rij 1-8-2025) → debet ('650 Rente')."},
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": 4912.54, "credit": null, "reden": "Kapitaaldeel: KT-schuld daalt → debet."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 5529.11, "reden": "Bank betaalt de volledige annuïteit → credit."}
+            {
+              "code": "650000",
+              "naam": "Financiële kosten",
+              "debet": 616.57,
+              "credit": null,
+              "reden": "Interestdeel van de 1ste annuïteit (rij 1-8-2025) → debet ('650 Rente')."
+            },
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": 4912.54,
+              "credit": null,
+              "reden": "Kapitaaldeel: KT-schuld daalt → debet."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 5529.11,
+              "reden": "Bank betaalt de volledige annuïteit → credit."
+            }
           ]
         },
         {
           "omschrijving": "c) Betaling 31-12-2025",
           "regels": [
-            {"code": "650000", "naam": "Financiële kosten", "debet": 567.92, "credit": null, "reden": "Interestdeel (rij 1-12-2025). De fiche-tabel toont 567,93; we gebruiken 567,92 zodat de boeking exact op 5.529,11 balanceert (afronding 0,01)."},
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": 4961.19, "credit": null, "reden": "Kapitaaldeel: KT-schuld daalt → debet."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 5529.11, "reden": "Bank betaalt de volledige annuïteit → credit."}
+            {
+              "code": "650000",
+              "naam": "Financiële kosten",
+              "debet": 567.92,
+              "credit": null,
+              "reden": "Interestdeel (rij 1-12-2025). De fiche-tabel toont 567,93; we gebruiken 567,92 zodat de boeking exact op 5.529,11 balanceert (afronding 0,01)."
+            },
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": 4961.19,
+              "credit": null,
+              "reden": "Kapitaaldeel: KT-schuld daalt → debet."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 5529.11,
+              "reden": "Bank betaalt de volledige annuïteit → credit."
+            }
           ]
         },
         {
           "omschrijving": "e) Eindejaarsactiviteiten 31-12-2025 (kapitaal dat in 2026 vervalt)",
           "regels": [
-            {"code": "173000", "naam": "Kredietinstellingen", "debet": 60497.29, "credit": null, "reden": "LT-schuld daalt met het kapitaal dat binnen 12 maanden (in 2026) vervalt → debet."},
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": null, "credit": 60497.29, "reden": "Dat deel wordt KT-schuld → credit."}
+            {
+              "code": "173000",
+              "naam": "Kredietinstellingen",
+              "debet": 60497.29,
+              "credit": null,
+              "reden": "LT-schuld daalt met het kapitaal dat binnen 12 maanden (in 2026) vervalt → debet."
+            },
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": null,
+              "credit": 60497.29,
+              "reden": "Dat deel wordt KT-schuld → credit."
+            }
           ]
         },
         {
           "omschrijving": "f) Betaling 31-05-2026",
           "regels": [
-            {"code": "650000", "naam": "Financiële kosten", "debet": 506.44, "credit": null, "reden": "Interestdeel (rij 1-5-2026) → debet."},
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": 5022.67, "credit": null, "reden": "Kapitaaldeel: KT-schuld daalt → debet."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 5529.11, "reden": "Bank betaalt de volledige annuïteit → credit."}
+            {
+              "code": "650000",
+              "naam": "Financiële kosten",
+              "debet": 506.44,
+              "credit": null,
+              "reden": "Interestdeel (rij 1-5-2026) → debet."
+            },
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": 5022.67,
+              "credit": null,
+              "reden": "Kapitaaldeel: KT-schuld daalt → debet."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 5529.11,
+              "reden": "Bank betaalt de volledige annuïteit → credit."
+            }
           ]
         },
         {
           "omschrijving": "g) Gedeeltelijke betaling 30-06-2026 (€ 4.201,00)",
           "regels": [
-            {"code": "650000", "naam": "Financiële kosten", "debet": 494.06, "credit": null, "reden": "De volledige interest van deze annuïteit (rij 1-6-2026) wordt als kost geboekt → debet."},
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": 3706.94, "credit": null, "reden": "Werkelijk betaald kapitaaldeel = 4.201,00 − 494,06 → debet."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 4201.00, "reden": "Werkelijk van de rekening afgehaald bedrag → credit."}
+            {
+              "code": "650000",
+              "naam": "Financiële kosten",
+              "debet": 494.06,
+              "credit": null,
+              "reden": "De volledige interest van deze annuïteit (rij 1-6-2026) wordt als kost geboekt → debet."
+            },
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": 3706.94,
+              "credit": null,
+              "reden": "Werkelijk betaald kapitaaldeel = 4.201,00 − 494,06 → debet."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 4201.0,
+              "reden": "Werkelijk van de rekening afgehaald bedrag → credit."
+            }
           ]
         },
         {
           "omschrijving": "h) Restbetaling 05-07-2026 (€ 1.328,11)",
           "regels": [
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": 1328.11, "credit": null, "reden": "Resterend kapitaaldeel = 5.035,05 − 3.706,94. Geen interest meer (was al geboekt op 30-06) → debet."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 1328.11, "reden": "Resterend bedrag wordt nu betaald → credit."}
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": 1328.11,
+              "credit": null,
+              "reden": "Resterend kapitaaldeel = 5.035,05 − 3.706,94. Geen interest meer (was al geboekt op 30-06) → debet."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 1328.11,
+              "reden": "Resterend bedrag wordt nu betaald → credit."
+            }
           ]
         },
         {
           "omschrijving": "i) Eindejaarsactiviteiten 31-12-2026 (kapitaal dat in 2027 vervalt)",
           "regels": [
-            {"code": "173000", "naam": "Kredietinstellingen", "debet": 62312.21, "credit": null, "reden": "LT-schuld daalt met het kapitaal dat binnen 12 maanden (in 2027) vervalt → debet."},
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": null, "credit": 62312.21, "reden": "Dat deel wordt KT-schuld → credit."}
+            {
+              "code": "173000",
+              "naam": "Kredietinstellingen",
+              "debet": 62312.21,
+              "credit": null,
+              "reden": "LT-schuld daalt met het kapitaal dat binnen 12 maanden (in 2027) vervalt → debet."
+            },
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": null,
+              "credit": 62312.21,
+              "reden": "Dat deel wordt KT-schuld → credit."
+            }
           ]
         }
       ],
@@ -331,42 +744,331 @@
     }
   ],
   "flashcards": [
-    {"vraag": "Op welke rekening staat een banklening op lange termijn?", "antwoord": "173000 Kredietinstellingen (rubriek 17, passief – schuld op lange termijn).", "type": "mar-code"},
-    {"vraag": "Welke rekening gebruik je als je leent bij iemand die geen kredietinstelling is?", "antwoord": "174000 Overige leningen.", "type": "mar-code"},
-    {"vraag": "Wat is de boeking bij het afsluiten/opnemen van een lening?", "antwoord": "550000 Kredietinstellingen (bank, debet) / 173000 Kredietinstellingen (schuld, credit).", "type": "logica"},
-    {"vraag": "Uit welke twee delen bestaat een annuïteit?", "antwoord": "Kapitaalaflossing (vermindert de schuld) + interest/rente (een kost, 650200).", "type": "begrip"},
-    {"vraag": "Op welke rekening boek je de interest van een lening?", "antwoord": "650200 Andere kosten van schulden (financiële kost, debet). De teacher noteert dit als '650 Rente'.", "type": "mar-code"},
-    {"vraag": "Wat betekent rekening 423000?", "antwoord": "Schulden > 1 jr die binnen het jaar vervallen: het deel van een LT-schuld dat binnen 12 maanden moet terugbetaald worden (KT-schuld, passief).", "type": "mar-code"},
-    {"vraag": "Wat is de eindejaarsoverboeking voor een lening?", "antwoord": "173000 debet / 423000 credit voor het kapitaal dat in het volgende boekjaar vervalt.", "type": "logica"},
-    {"vraag": "Waarom moet je op 31-12 overboeken naar 423000?", "antwoord": "Wettelijke voorstellingsregel: het deel dat binnen 12 maanden vervalt moet als schuld op KORTE termijn op de balans staan, niet meer bij de LT-schulden.", "type": "begrip"},
-    {"vraag": "Boek je de interest mee over naar 423000 bij de eindejaarsoverboeking?", "antwoord": "Nee. Je verschuift enkel het KAPITAAL dat vervalt; interest staat nooit op 423000.", "type": "logica"},
-    {"vraag": "Wanneer gebruik je 492000 Toe te rekenen kosten bij een lening?", "antwoord": "Op 31-12 voor interest die bij dit jaar hoort maar nog niet betaald/vervallen is (bv. bulletlening of lening die in de loop van het jaar startte).", "type": "mar-code"},
-    {"vraag": "Wat is de boeking van toe te rekenen interest op de balansdatum?", "antwoord": "650200 Andere kosten van schulden (debet) / 492000 Toe te rekenen kosten (credit).", "type": "logica"},
-    {"vraag": "Wat is een bulletlening?", "antwoord": "Een lening waarbij je periodiek alleen interest betaalt en het volledige kapitaal pas op het einde van de looptijd terugbetaalt.", "type": "begrip"},
-    {"vraag": "Hoe verandert de interest doorheen een aflossingslening met constante annuïteit?", "antwoord": "De interest daalt elke periode (berekend op het dalende openstaande kapitaal), terwijl het kapitaaldeel stijgt.", "type": "begrip"},
-    {"vraag": "Wat is het verschil tussen 550000 en 173000?", "antwoord": "550000 = je bankrekening (actief, debet-natuur); 173000 = je schuld aan de bank (passief, credit-natuur). Beide heten 'Kredietinstellingen'.", "type": "logica"},
-    {"vraag": "Hoe bereken je de maandinterest van een aflossing?", "antwoord": "Openstaand kapitaal × (jaarrente / 12). De exacte bedragen lees je af uit de aflossingstabel.", "type": "begrip"},
-    {"vraag": "Hoe bepaal je het bedrag van de eindejaarsoverboeking?", "antwoord": "Tel de KAPITAALdelen op van alle aflossingen die in het komende boekjaar (de volgende 12 maanden) vervallen.", "type": "logica"}
+    {
+      "vraag": "Op welke rekening staat een banklening op lange termijn?",
+      "antwoord": "173000 Kredietinstellingen (rubriek 17, passief – schuld op lange termijn).",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Welke rekening gebruik je als je leent bij iemand die geen kredietinstelling is?",
+      "antwoord": "174000 Overige leningen.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Wat is de boeking bij het afsluiten/opnemen van een lening?",
+      "antwoord": "550000 Kredietinstellingen (bank, debet) / 173000 Kredietinstellingen (schuld, credit).",
+      "type": "logica"
+    },
+    {
+      "vraag": "Uit welke twee delen bestaat een annuïteit?",
+      "antwoord": "Kapitaalaflossing (vermindert de schuld) + interest/rente (een kost, 650200).",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Op welke rekening boek je de interest van een lening?",
+      "antwoord": "650200 Andere kosten van schulden (financiële kost, debet). De teacher noteert dit als '650 Rente'.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Wat betekent rekening 423000?",
+      "antwoord": "Schulden > 1 jr die binnen het jaar vervallen: het deel van een LT-schuld dat binnen 12 maanden moet terugbetaald worden (KT-schuld, passief).",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Wat is de eindejaarsoverboeking voor een lening?",
+      "antwoord": "173000 debet / 423000 credit voor het kapitaal dat in het volgende boekjaar vervalt.",
+      "type": "logica"
+    },
+    {
+      "vraag": "Waarom moet je op 31-12 overboeken naar 423000?",
+      "antwoord": "Wettelijke voorstellingsregel: het deel dat binnen 12 maanden vervalt moet als schuld op KORTE termijn op de balans staan, niet meer bij de LT-schulden.",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Boek je de interest mee over naar 423000 bij de eindejaarsoverboeking?",
+      "antwoord": "Nee. Je verschuift enkel het KAPITAAL dat vervalt; interest staat nooit op 423000.",
+      "type": "logica"
+    },
+    {
+      "vraag": "Wanneer gebruik je 492000 Toe te rekenen kosten bij een lening?",
+      "antwoord": "Op 31-12 voor interest die bij dit jaar hoort maar nog niet betaald/vervallen is (bv. bulletlening of lening die in de loop van het jaar startte).",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Wat is de boeking van toe te rekenen interest op de balansdatum?",
+      "antwoord": "650200 Andere kosten van schulden (debet) / 492000 Toe te rekenen kosten (credit).",
+      "type": "logica"
+    },
+    {
+      "vraag": "Wat is een bulletlening?",
+      "antwoord": "Een lening waarbij je periodiek alleen interest betaalt en het volledige kapitaal pas op het einde van de looptijd terugbetaalt.",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Hoe verandert de interest doorheen een aflossingslening met constante annuïteit?",
+      "antwoord": "De interest daalt elke periode (berekend op het dalende openstaande kapitaal), terwijl het kapitaaldeel stijgt.",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Wat is het verschil tussen 550000 en 173000?",
+      "antwoord": "550000 = je bankrekening (actief, debet-natuur); 173000 = je schuld aan de bank (passief, credit-natuur). Beide heten 'Kredietinstellingen'.",
+      "type": "logica"
+    },
+    {
+      "vraag": "Hoe bereken je de maandinterest van een aflossing?",
+      "antwoord": "Openstaand kapitaal × (jaarrente / 12). De exacte bedragen lees je af uit de aflossingstabel.",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Hoe bepaal je het bedrag van de eindejaarsoverboeking?",
+      "antwoord": "Tel de KAPITAALdelen op van alle aflossingen die in het komende boekjaar (de volgende 12 maanden) vervallen.",
+      "type": "logica"
+    }
   ],
   "veelgemaakteFouten": [
-    {"fout": "De volledige annuïteit als kost (650000/650200) boeken.", "correctie": "Alleen het interestdeel is een kost. Het kapitaaldeel is een schuldvermindering (via 423000)."},
-    {"fout": "550000 (bank, actief) verwarren met 173000 (leningschuld, passief) omdat ze dezelfde naam dragen.", "correctie": "550000 is je bankrekening 'Bank R/C' (debet bij ontvangst); 173000 is je schuld (credit bij het ontstaan van de lening)."},
-    {"fout": "Bij het afsluiten alles op 173000 zetten, ook het kapitaal dat dit jaar nog vervalt.", "correctie": "De fiche splitst meteen: het kapitaal dat in hetzelfde kalenderjaar nog vervalt gaat al naar 423000 (bv. Oefening A: 8.541,91 → 423000, 141.458,09 → 173000)."},
-    {"fout": "Bij de eindejaarsoverboeking ook de toekomstige interest mee overboeken naar 423000.", "correctie": "Enkel het kapitaal dat binnen het jaar vervalt verschuift van 173000 naar 423000. Interest komt nooit op 423000."},
-    {"fout": "De overboeking berekenen als 12 × de annuïteit.", "correctie": "Het over te boeken bedrag is de som van de KAPITAALdelen van het komende jaar, niet de som van de volledige annuïteiten (die bevatten ook interest)."},
-    {"fout": "Bij een lening die niet op 1 januari startte, vergeten de toe te rekenen interest (492000) te boeken.", "correctie": "Op 31-12 boek je 650000 / 492000 voor het verlopen, nog niet betaalde deel van de interest (bv. lening 6: 2.500 × 9/12 = 1.875)."},
-    {"fout": "Bij een gedeeltelijke betaling de interest ook gedeeltelijk boeken.", "correctie": "Boek de volledige interest bij de eerste betaling; spreid alleen het kapitaaldeel over de betalingen. De restbetaling bevat enkel kapitaal."},
-    {"fout": "Denken dat het kapitaaldeel daalt naarmate de lening vordert.", "correctie": "Bij een constante annuïteit STIJGT het kapitaaldeel en DAALT het interestdeel doorheen de looptijd (Oefening A: kapitaal +5,00%, interest −28,72% van 2025 naar 2026)."}
+    {
+      "fout": "De volledige annuïteit als kost (650000/650200) boeken.",
+      "correctie": "Alleen het interestdeel is een kost. Het kapitaaldeel is een schuldvermindering (via 423000)."
+    },
+    {
+      "fout": "550000 (bank, actief) verwarren met 173000 (leningschuld, passief) omdat ze dezelfde naam dragen.",
+      "correctie": "550000 is je bankrekening 'Bank R/C' (debet bij ontvangst); 173000 is je schuld (credit bij het ontstaan van de lening)."
+    },
+    {
+      "fout": "Bij het afsluiten alles op 173000 zetten, ook het kapitaal dat dit jaar nog vervalt.",
+      "correctie": "De fiche splitst meteen: het kapitaal dat in hetzelfde kalenderjaar nog vervalt gaat al naar 423000 (bv. Oefening A: 8.541,91 → 423000, 141.458,09 → 173000)."
+    },
+    {
+      "fout": "Bij de eindejaarsoverboeking ook de toekomstige interest mee overboeken naar 423000.",
+      "correctie": "Enkel het kapitaal dat binnen het jaar vervalt verschuift van 173000 naar 423000. Interest komt nooit op 423000."
+    },
+    {
+      "fout": "De overboeking berekenen als 12 × de annuïteit.",
+      "correctie": "Het over te boeken bedrag is de som van de KAPITAALdelen van het komende jaar, niet de som van de volledige annuïteiten (die bevatten ook interest)."
+    },
+    {
+      "fout": "Bij een lening die niet op 1 januari startte, vergeten de toe te rekenen interest (492000) te boeken.",
+      "correctie": "Op 31-12 boek je 650000 / 492000 voor het verlopen, nog niet betaalde deel van de interest (bv. lening 6: 2.500 × 9/12 = 1.875)."
+    },
+    {
+      "fout": "Bij een gedeeltelijke betaling de interest ook gedeeltelijk boeken.",
+      "correctie": "Boek de volledige interest bij de eerste betaling; spreid alleen het kapitaaldeel over de betalingen. De restbetaling bevat enkel kapitaal."
+    },
+    {
+      "fout": "Denken dat het kapitaaldeel daalt naarmate de lening vordert.",
+      "correctie": "Bij een constante annuïteit STIJGT het kapitaaldeel en DAALT het interestdeel doorheen de looptijd (Oefening A: kapitaal +5,00%, interest −28,72% van 2025 naar 2026)."
+    }
   ],
   "controlevragen": [
-    {"vraag": "Welke rekeningen gebruik je bij het afsluiten van een banklening, en wat is bijzonder aan de fiche-methode?", "antwoord": "550000 Bank R/C (debet) tegenover 173000 (credit). De fiche splitst de schuld meteen: het kapitaal dat dit kalenderjaar nog vervalt gaat al naar 423000, de rest naar 173000."},
-    {"vraag": "Waaruit bestaat een periodieke aflossing (annuïteit) en hoe boek je elk deel?", "antwoord": "Uit interest (kost via 650000/650200, debet) en kapitaal (vermindert de schuld via 423000, debet); de bank wordt gecrediteerd (550000) voor het totaal."},
-    {"vraag": "Wat houdt de eindejaarsoverboeking in en waarom doe je ze?", "antwoord": "Het kapitaal dat binnen het jaar vervalt wordt van 173000 (debet) naar 423000 (credit) geboekt, zodat de balans het KT-deel correct apart toont."},
-    {"vraag": "Hoe bereken je het bedrag dat je op 31-12 overboekt naar 423000?", "antwoord": "Je telt de kapitaaldelen op van alle aflossingen die in het volgende boekjaar (komende 12 maanden) vervallen. In Oefening A is dat 35.228,87 (2025) en 36.990,31 (2026)."},
-    {"vraag": "Wanneer en hoe gebruik je 492000 bij een lening?", "antwoord": "Op de balansdatum voor verlopen maar nog niet betaalde interest: 650000 debet / 492000 credit (bv. lening 6: 1.875). In het nieuwe jaar wordt 492000 tegengeboekt."},
-    {"vraag": "Hoe boek je een gedeeltelijke betaling rond de balansdatum (Oefening A punt g/h)?", "antwoord": "Eerst de volledige interest (517,36 → 650000) en het betaalde kapitaaldeel (2.484,38 → 423000) tegen de werkelijke bank (3.001,74). De rest (445,11) is enkel kapitaal: 423000 / 550000."},
-    {"vraag": "Wat is het verschil tussen een bulletlening en een aflossingslening?", "antwoord": "Bij een bulletlening betaal je periodiek alleen interest en het kapitaal in één keer op het einde; bij een aflossingslening betaal je elke periode kapitaal én interest (annuïteit)."},
-    {"vraag": "Hoe evolueren interest en kapitaal bij een constante annuïteit?", "antwoord": "De interest daalt elke periode (berekend op het dalende openstaande kapitaal) en het kapitaaldeel stijgt."},
-    {"vraag": "Welke rekening gebruik je als je niet bij een kredietinstelling maar bij een andere partij leent?", "antwoord": "174000 Overige leningen (in plaats van 173000)."}
+    {
+      "vraag": "Welke rekeningen gebruik je bij het afsluiten van een banklening, en wat is bijzonder aan de fiche-methode?",
+      "antwoord": "550000 Bank R/C (debet) tegenover 173000 (credit). De fiche splitst de schuld meteen: het kapitaal dat dit kalenderjaar nog vervalt gaat al naar 423000, de rest naar 173000."
+    },
+    {
+      "vraag": "Waaruit bestaat een periodieke aflossing (annuïteit) en hoe boek je elk deel?",
+      "antwoord": "Uit interest (kost via 650000/650200, debet) en kapitaal (vermindert de schuld via 423000, debet); de bank wordt gecrediteerd (550000) voor het totaal."
+    },
+    {
+      "vraag": "Wat houdt de eindejaarsoverboeking in en waarom doe je ze?",
+      "antwoord": "Het kapitaal dat binnen het jaar vervalt wordt van 173000 (debet) naar 423000 (credit) geboekt, zodat de balans het KT-deel correct apart toont."
+    },
+    {
+      "vraag": "Hoe bereken je het bedrag dat je op 31-12 overboekt naar 423000?",
+      "antwoord": "Je telt de kapitaaldelen op van alle aflossingen die in het volgende boekjaar (komende 12 maanden) vervallen. In Oefening A is dat 35.228,87 (2025) en 36.990,31 (2026)."
+    },
+    {
+      "vraag": "Wanneer en hoe gebruik je 492000 bij een lening?",
+      "antwoord": "Op de balansdatum voor verlopen maar nog niet betaalde interest: 650000 debet / 492000 credit (bv. lening 6: 1.875). In het nieuwe jaar wordt 492000 tegengeboekt."
+    },
+    {
+      "vraag": "Hoe boek je een gedeeltelijke betaling rond de balansdatum (Oefening A punt g/h)?",
+      "antwoord": "Eerst de volledige interest (517,36 → 650000) en het betaalde kapitaaldeel (2.484,38 → 423000) tegen de werkelijke bank (3.001,74). De rest (445,11) is enkel kapitaal: 423000 / 550000."
+    },
+    {
+      "vraag": "Wat is het verschil tussen een bulletlening en een aflossingslening?",
+      "antwoord": "Bij een bulletlening betaal je periodiek alleen interest en het kapitaal in één keer op het einde; bij een aflossingslening betaal je elke periode kapitaal én interest (annuïteit)."
+    },
+    {
+      "vraag": "Hoe evolueren interest en kapitaal bij een constante annuïteit?",
+      "antwoord": "De interest daalt elke periode (berekend op het dalende openstaande kapitaal) en het kapitaaldeel stijgt."
+    },
+    {
+      "vraag": "Welke rekening gebruik je als je niet bij een kredietinstelling maar bij een andere partij leent?",
+      "antwoord": "174000 Overige leningen (in plaats van 173000)."
+    }
+  ],
+  "cursus": {
+    "vindplaats": "Deel V, Hoofdstuk 8 — Schulden op meer dan één jaar (p. 589-626)",
+    "kernpunten": "## Wat het handboek toevoegt bovenop de banklening\n\nDe bestaande samenvatting behandelt enkel de **klassieke banklening** (173/423/650/492). Het handboek plaatst die lening echter in een veel **bredere rubriek**: groep 17 'Schulden op meer dan één jaar' (p. 589-590).\n\n### De volledige indeling van groep 17 (p. 590-591)\n\nHet boek deelt de langetermijnschulden vierledig in:\n- **A. Financiële schulden**: achtergestelde leningen (170, converteerbaar 1700 / niet 1701), niet-achtergestelde obligatieleningen (171), **leasingschulden en soortgelijke (172)**, kredietinstellingen (173, met subrekeningen schulden op rekening 1730, promessen 1731, acceptkredieten 1732) en overige leningen (174).\n- **B. Handelsschulden (175)**: leveranciers (1750) en te betalen wissels (1751) — maar enkel als ze **niet binnen het jaar** vervallen.\n- **C. Ontvangen vooruitbetalingen op bestellingen (176)**.\n- **D. Overige schulden**: borgtochten ontvangen in contanten (178) en overige (179).\n\n**Kernregel (p. 589):** per inventarisdatum wordt het deel dat binnen twaalf maanden vervalt uit groep 17 gelicht naar **groep 42**, die op **exact dezelfde wijze wordt uitgesplitst** als groep 17 (4220 leasing, 4230 schulden op rekening, 4211 obligatielening, 426 vooruitbetalingen...). De code 423000 uit de oefeningen is dus één specifiek geval van die 42-logica.\n\n### Wettelijke basis (KB WVV)\n\n- **Art. 3:89 KB WVV**: verplichtingen uit achtergestelde leningen, obligatieleningen, leasing e.d. worden onder hun eigen post vermeld, **ook al** zijn ze aangegaan jegens kredietinstellingen of leveranciers, of door een handelseffect vertegenwoordigd (p. 591, 594).\n- **Art. 3:55 KB WVV**: op schulden zijn de artikelen 3:45 en 3:51 (waardering vorderingen) van **overeenkomstige toepassing** (p. 596).\n- **Art. 3:45**: schulden worden in beginsel tegen **nominale waarde** opgenomen (p. 596).\n- **Art. 3:51**: vastrentende effecten (obligaties) worden gewaardeerd op **actuariële basis** — het verschil tussen uitgifteprijs en terugbetalingswaarde wordt pro rata temporis als interest in resultaat genomen (p. 601).\n\n### Leasing bij de leasingnemer (lessee) (p. 583-588)\n\nDit ontbreekt volledig in de bestaande samenvatting. Bij het afsluiten boekt de lessee het **gebruiksrecht** als actief in groep 25 (bv. 25110 machines in leasing) tegenover de **leasingschuld**. De kapitaalwaarde wordt meteen gesplitst: het deel dat dit boekjaar vervalt → 4220, de rest → 1720. Elke huurtermijn (annuïteit) splitst in **kapitaal (4220), interest (6500) en btw (4110)**. De lessee **schrijft af** over de geschatte levensduur (8 jaar), niet over de contractduur (5 jaar). Wordt de **aankoopoptie gelicht**, dan verhuist het goed naar 2310; wordt ze **niet gelicht**, dan ontstaat een niet-recurrent verlies (6602) door het verschil tussen levensduur en contractduur. De optie staat tijdens de looptijd in de **klasse 0** (050/051).\n\n### Leasing bij de leasinggever (lessor) (p. 589-593)\n\nDe lessor blijft **juridisch eigenaar** maar draagt het economisch gebruiksrecht over: hij boekt een **vordering** (2900 als leasing kernactiviteit is, anders 2910), niet langer een vast actief, en **schrijft dus niet af**. De interest is voor hem een opbrengst (700 omzet / 743 / 751 naargelang de aard).\n\n### Obligatielening beneden/boven pari (p. 600-604)\n\nBij uitgifte 'beneden pari' (99%) en terugbetaling 'boven pari' (102%) verschilt het **actuariële rendement** van de nominale rente. Het verschil wordt jaarlijks toegevoegd aan (of afgetrokken van) de schuld 1711, zodat de inventariswaarde geleidelijk naar de terugbetalingswaarde groeit. De werkelijke interestkost (6500) is dan groter dan de betaalde nominale rente.\n\n### Toelichting 'Staat van de schulden' (p. 609, 617-618)\n\nIn de toelichting worden de LT-schulden uitgesplitst naar **resterende looptijd**: binnen het jaar (code 42), tussen 1 en 5 jaar, en meer dan 5 jaar, plus een aparte staat van **gewaarborgde schulden**.",
+    "begrippen": [
+      {
+        "term": "Schulden op meer dan één jaar (groep 17)",
+        "uitleg": "Schulden met een contractuele looptijd van meer dan één jaar, opgenomen in klasse 1, groep 17 van het MAR (p. 589)."
+      },
+      {
+        "term": "Achtergestelde lening (170)",
+        "uitleg": "Lening waarbij de uitlener bij vereffening pas terugbetaald wordt na alle andere schuldeisers (maar vóór de aandeelhouders); staat zeer dicht bij het eigen vermogen (p. 591)."
+      },
+      {
+        "term": "Converteerbare lening",
+        "uitleg": "Lening of obligatielening die op een in het contract voorziene datum kan worden omgezet in kapitaal/aandelen (p. 591)."
+      },
+      {
+        "term": "Niet-achtergestelde obligatielening (171)",
+        "uitleg": "Vreemd vermogen vertegenwoordigd door obligaties die de onderneming uitgaf; de houders worden op de vervaldag terugbetaald tenzij omgezet in aandelen (p. 591)."
+      },
+      {
+        "term": "Leasingschulden en soortgelijke (172)",
+        "uitleg": "De schuld bij de leasingnemer die verwant is met het gebruiksrecht op roerende/onroerende goederen dat in klasse 2, groep 25 geregistreerd werd (p. 591)."
+      },
+      {
+        "term": "Promessen (1731)",
+        "uitleg": "Orderbriefjes die de schuldenaar bij de kredietverlener ondertekent en waarmee hij belooft de aangeduide som op de vervaldag terug te betalen (p. 594)."
+      },
+      {
+        "term": "Acceptkredieten (1732)",
+        "uitleg": "Schulden aan kredietinstellingen uit hoofde van door de onderneming in omloop gebrachte bankaccepten, vaak gebruikt bij financiering van buitenlandse handel (art. 3:89 KB WVV, p. 594)."
+      },
+      {
+        "term": "Groep 42 (overboekingsgroep)",
+        "uitleg": "Rubriek 'Schulden op meer dan één jaar die binnen het jaar vervallen'; moet op dezelfde wijze worden uitgesplitst als groep 17 (p. 589, 592)."
+      },
+      {
+        "term": "Aankoopoptie (klasse 0)",
+        "uitleg": "Het recht om aan het einde van het leasingcontract het goed te kopen; bij de lessee geboekt via orderrekeningen 050/051, bij de lessor via 052/053 (p. 585, 590)."
+      },
+      {
+        "term": "Waardering tegen nominale waarde (art. 3:45)",
+        "uitleg": "Het basisprincipe dat schulden in de balans worden opgenomen voor hun nominale (terug te betalen) waarde (p. 596)."
+      },
+      {
+        "term": "Vastrentend effect (art. 3:51)",
+        "uitleg": "Een obligatie die jaarlijks een vaste rente oplevert; bij verschil tussen actuarieel en nominaal rendement wordt het verschil uitgifteprijs/terugbetalingswaarde pro rata temporis in resultaat genomen (p. 601)."
+      },
+      {
+        "term": "Actuarieel rendement",
+        "uitleg": "Het werkelijke rendement van een obligatielening, berekend door actualisatie van de intresten en de terugbetalingsprijs; verschilt van de nominale rente bij uitgifte beneden of boven pari (p. 601-602)."
+      },
+      {
+        "term": "Borgtochten ontvangen in contanten (178)",
+        "uitleg": "Waarborgsommen die de onderneming-verhuurder ontvangt (bv. bij verhuring van vaste activa voor meer dan één jaar) en als schuld registreert tot de terugbetaling (p. 595)."
+      },
+      {
+        "term": "Staat van de schulden (toelichting)",
+        "uitleg": "Toelichtingstabel waarin de LT-schulden worden uitgesplitst naar resterende looptijd: binnen het jaar, 1 tot 5 jaar, meer dan 5 jaar, plus de gewaarborgde schulden (p. 609, 617-618)."
+      }
+    ]
+  },
+  "meerkeuze": [
+    {
+      "vraag": "Een onderneming heeft een banklening op lange termijn waarvan een deel binnen de twaalf maanden vervalt. Wat schrijft het MAR voor op de inventarisdatum?",
+      "opties": [
+        "De volledige lening blijft in groep 17 staan; de looptijd verandert niet.",
+        "Het deel dat binnen het jaar vervalt wordt overgeboekt naar groep 42, die op dezelfde wijze als groep 17 wordt uitgesplitst.",
+        "De volledige lening verhuist naar de schulden op ten hoogste één jaar (groep 42).",
+        "Het deel dat binnen het jaar vervalt wordt naar de overlopende rekeningen (klasse 49) geboekt."
+      ],
+      "juist": 1,
+      "uitleg": "Per inventarisdatum wordt enkel het binnen 12 maanden vervallende deel uit groep 17 gelicht naar groep 42, die op dezelfde manier wordt uitgesplitst als groep 17 (p. 589). A is fout want de presentatie moet wel aangepast; C is fout want enkel het vervallende deel verhuist; D verwart dit met de pro rata van kosten."
+    },
+    {
+      "vraag": "Wat is typerend voor een achtergestelde lening (rekening 170)?",
+      "opties": [
+        "De uitlener wordt bij vereffening als eerste, vóór alle andere schuldeisers, terugbetaald.",
+        "Bij vereffening wordt de uitlener pas terugbetaald na de andere schuldeisers (maar vóór de aandeelhouders), waardoor ze dicht bij het eigen vermogen staat.",
+        "Ze kan nooit converteerbaar zijn.",
+        "Ze wordt altijd door een kredietinstelling verleend."
+      ],
+      "juist": 1,
+      "uitleg": "Bij een achtergestelde lening wordt de uitlener pas als laatste van de schuldeisers terugbetaald, nadat de andere schuldeisers volledig voldaan zijn; daardoor staat ze zeer dicht bij het eigen vermogen (p. 591). A keert de rangorde om; C is fout (1700 is juist de converteerbare variant); D is niet vereist."
+    },
+    {
+      "vraag": "Op welke groep registreert de leasingnemer (lessee) het gebruiksrecht op de geleasde machines?",
+      "opties": [
+        "Op de financiële vaste activa (groep 28).",
+        "Op de voorraden (klasse 3).",
+        "Op de materiële vaste activa in leasing (groep 25).",
+        "Op de schulden op meer dan één jaar (groep 17)."
+      ],
+      "juist": 2,
+      "uitleg": "De lessee boekt de aanschaffingswaarde van het gebruiksrecht in klasse 2, groep 25 'Vaste activa in leasing' (bv. 250000/251000), tegenover de leasingschuld in groep 17 (172) (p. 583-584). Groep 17 is de schuldzijde, niet de actiefzijde."
+    },
+    {
+      "vraag": "Over welke periode schrijft de leasingnemer het geleasde actief af, gegeven een contractduur van 5 jaar en een geschatte levensduur van 8 jaar?",
+      "opties": [
+        "Over 5 jaar (de looptijd van het leasingcontract).",
+        "Over 8 jaar (de geschatte levensduur van het actief).",
+        "Het actief wordt niet afgeschreven omdat de lessor juridisch eigenaar blijft.",
+        "Over 13 jaar (de som van looptijd en levensduur)."
+      ],
+      "juist": 1,
+      "uitleg": "Op het gebruiksrecht zijn de normale waarderingsregels van toepassing: men schrijft af over de geschatte levensduur (8 jaar), niet over de contractduur. De levensduur valt niet noodzakelijk samen met de looptijd van het contract (p. 586). Het niet afschrijven (C) geldt voor de lessor, niet de lessee."
+    },
+    {
+      "vraag": "Een leasingnemer licht aan het einde van het contract de aankoopoptie NIET. Het contract liep 5 jaar, de levensduur was 8 jaar. Hoe verwerkt hij het verschil?",
+      "opties": [
+        "Als een meerwaarde op de realisatie van vaste activa (741).",
+        "Als een gewone afschrijving op materiële vaste activa (630200).",
+        "Als niet-recurrente afschrijvingen en waardeverminderingen op MVA (6602/660200).",
+        "Er ontstaat geen verschil; de boekwaarde is altijd nul aan het einde van het contract."
+      ],
+      "juist": 2,
+      "uitleg": "Wordt de optie niet gelicht, dan worden 25110 en 25119 afgeboekt en blijft een verschil van 1.875.000 EUR over door het tijdsverschil tussen contractduur (5 j) en levensduur (8 j); dit wordt als niet-recurrente kost geboekt via 6602 (660200) (p. 588). Bij een normaal afgeschreven actief is de boekwaarde niet nul (D fout)."
+    },
+    {
+      "vraag": "Hoe boekt de leasinggever (lessor) wiens leasing de kernactiviteit is, het in leasing gegeven goed bij het afsluiten van het contract?",
+      "opties": [
+        "Hij houdt het goed als materieel vast actief en schrijft het verder af.",
+        "Hij boekt het goed over naar een handelsvordering, want hij draagt het economisch gebruiksrecht over en blijft enkel juridisch eigenaar.",
+        "Hij boekt de volledige leasingsom onmiddellijk als omzet (700).",
+        "Hij boekt het goed over naar de financiële vaste activa (groep 28)."
+      ],
+      "juist": 1,
+      "uitleg": "De lessor draagt het economisch gebruiksrecht over en heeft een vordering op de huurder; het vast actief wordt overgeboekt naar de vorderingen (2900 als leasing de hoofdactiviteit is). Hij schrijft dus niet meer af (p. 589-592). De omzet/interest wordt gespreid erkend, niet onmiddellijk volledig (C fout)."
+    },
+    {
+      "vraag": "Volgens art. 3:55 KB WVV worden schulden gewaardeerd. Welke artikelen zijn daarbij van overeenkomstige toepassing?",
+      "opties": [
+        "De artikelen over de afschrijving van vaste activa.",
+        "De artikelen 3:45 en 3:51, die ook gelden voor de waardering van vorderingen van overeenstemmende aard en looptijd.",
+        "Uitsluitend de regels voor de waardering van voorraden.",
+        "Er bestaat geen wettelijke waarderingsregel voor schulden."
+      ],
+      "juist": 1,
+      "uitleg": "Art. 3:55 KB WVV bepaalt dat de artikelen 3:45 (nominale waarde) en 3:51 (vastrentende effecten) van overeenkomstige toepassing zijn op schulden van overeenstemmende aard en looptijd (p. 596). Schulden volgen dus dezelfde logica als vorderingen."
+    },
+    {
+      "vraag": "Een obligatielening wordt uitgegeven 'beneden pari' (99%) en terugbetaald 'boven pari' (102%). Wat is hiervan het gevolg voor de boekhoudkundige verwerking bij de emittent?",
+      "opties": [
+        "De schuld wordt gewoon tegen 100% (nominale waarde) gewaardeerd en blijft constant.",
+        "Het verschil tussen uitgifteprijs en terugbetalingswaarde wordt pro rata temporis in resultaat genomen, zodat de inventariswaarde van de schuld jaarlijks evolueert naar de terugbetalingswaarde.",
+        "Het verschil wordt onmiddellijk en volledig als kost geboekt in het jaar van uitgifte.",
+        "Het verschil wordt geboekt als een meerwaarde op het eigen vermogen."
+      ],
+      "juist": 1,
+      "uitleg": "Bij vastrentende effecten (art. 3:51 KB WVV) wordt, wanneer het actuariële rendement verschilt van het nominale, het verschil tussen aanschaffings-/uitgifteprijs en terugbetalingswaarde pro rata temporis in resultaat genomen. De inventariswaarde van 1711 groeit jaarlijks (990 → 996,49 → ... → 1020) naar de terugbetalingswaarde (p. 601-602). Het verschil wordt dus gespreid, niet ineens (C) en niet via eigen vermogen (D)."
+    },
+    {
+      "vraag": "Een onderneming ontvangt een voorschot op een bestelling waarvan de uitvoering meerdere jaren duurt. Op welke rekening boekt zij dit ontvangen voorschot als langetermijnschuld?",
+      "opties": [
+        "Op 700 Verkopen en dienstprestaties.",
+        "Op 176 Ontvangen vooruitbetalingen op bestellingen.",
+        "Op 178 Borgtochten ontvangen in contanten.",
+        "Op 213 Vooruitbetalingen op immateriële vaste activa."
+      ],
+      "juist": 1,
+      "uitleg": "Tot de levering/uitvoering is uitgevoerd, registreert de leverancier het ontvangen voorschot als schuld op 176 'Ontvangen vooruitbetalingen op bestellingen' (p. 595, 598). Het mag nog niet als omzet (700) geboekt worden; 178 is voor borgtochten en 213 is een actiefrekening bij de koper."
+    },
+    {
+      "vraag": "Welke informatie geeft de toelichting 'Staat van de schulden en overlopende rekeningen (passiva)' weer over de schulden op meer dan één jaar?",
+      "opties": [
+        "Enkel het totale openstaande bedrag van alle schulden samen.",
+        "Een uitsplitsing van de schulden met een oorspronkelijke looptijd van meer dan één jaar naar hun resterende looptijd: binnen het jaar, 1 tot 5 jaar en meer dan 5 jaar.",
+        "Uitsluitend de interestvoeten van elke lening.",
+        "De naam en het adres van elke individuele schuldeiser."
+      ],
+      "juist": 1,
+      "uitleg": "De toelichting splitst de schulden met een oorspronkelijke looptijd van meer dan één jaar uit naar hun resterende looptijd (binnen het jaar/code 42, tussen 1 en 5 jaar, meer dan 5 jaar) en vermeldt daarnaast de gewaarborgde schulden (p. 609, 617-618). Interestvoeten of namen van schuldeisers worden daar niet opgevraagd."
+    }
   ]
 }

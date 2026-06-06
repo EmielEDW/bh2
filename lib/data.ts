@@ -88,6 +88,8 @@ function normalizeThema(t: Partial<Thema>): Thema {
     flashcards: t.flashcards ?? [],
     veelgemaakteFouten: t.veelgemaakteFouten ?? [],
     controlevragen: t.controlevragen ?? [],
+    cursus: t.cursus,
+    meerkeuze: t.meerkeuze ?? [],
   };
 }
 
@@ -104,5 +106,31 @@ export function getAlleFlashcards() {
 export function getAlleOefeningen() {
   return getThemas().flatMap((t) =>
     t.oefeningen.map((o) => ({ ...o, thema: t.titel, themaSlug: t.slug }))
+  );
+}
+
+export function getAlleBegrippen() {
+  const out = getThemas().flatMap((t) =>
+    (t.cursus?.begrippen ?? []).map((b) => ({
+      ...b,
+      thema: t.titel,
+      themaSlug: t.slug,
+    }))
+  );
+  // dedupe op term (eerste wint), alfabetisch sorteren
+  const seen = new Set<string>();
+  const uniek = out.filter((b) => {
+    const k = b.term.trim().toLowerCase();
+    if (!k || seen.has(k)) return false;
+    seen.add(k);
+    return true;
+  });
+  uniek.sort((a, b) => a.term.localeCompare(b.term, "nl"));
+  return uniek;
+}
+
+export function getAlleMeerkeuze() {
+  return getThemas().flatMap((t) =>
+    t.meerkeuze.map((m) => ({ ...m, thema: t.titel, themaSlug: t.slug }))
   );
 }

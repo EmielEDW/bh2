@@ -11,67 +11,237 @@
   ],
   "samenvatting": "## Wat is btw en waarom is ze neutraal?\n\n**BTW (belasting op de toegevoegde waarde)** is een belasting op het verbruik. De onderneming int de btw voor de Staat, maar betaalt zelf geen btw op haar aankopen die ze voor haar bedrijf gebruikt. Daarom is btw boekhoudkundig **neutraal**: ze is **geen kost** (klasse 6) en **geen opbrengst** (klasse 7), maar een **vordering** of een **schuld** tegenover de btw-administratie.\n\nEr zijn twee kanten:\n\n- **Aankoop-btw = aftrekbare btw (ABTW)** → de btw die je leverancier je aanrekent en die je mag **terugvragen** van de Staat. Dit is een **vordering** → debet. De leerkracht gebruikt hiervoor de eigen rekening **41159 Aftrekbare btw (ABTW)** (MAR-code 411590).\n- **Verkoop-btw = verschuldigde btw (VBTW)** → de btw die jij aan je klant aanrekent en die je **moet doorstorten** aan de Staat. Dit is een **schuld** → credit. De leerkracht gebruikt **45154 Verschuldigde btw (VBTW)** (MAR-code 451540).\n\n### Btw-tarieven\n\nIn België bestaan vier tarieven: **0%**, **6%** (o.a. voeding, water, boeken), **12%** (o.a. horeca, sociale woningbouw) en het standaardtarief **21%** (de meeste goederen en diensten). In de fiche ONDERNEMING C reken je telkens met **21%**.\n\nFormule: `btw = bedrag excl. × tarief` en `bedrag incl. = bedrag excl. + btw`.\nVoorbeeld 21%: excl. 300,00 → btw 63,00 → incl. 363,00 (een aankoopfactuur uit het grootboek van de fiche). Bij een verkoop: excl. 500,00 → btw 105,00 → incl. 605,00.\n\n## De twee basisboekingen (fiche ONDERNEMING C)\n\n### Aankoopfactuur handelsgoederen (300,00 excl., 21%)\n\n| Rekening | D | C |\n|---|---|---|\n| **604.0** Aankoop HG (excl.) | 300,00 | |\n| **41159** ABTW (btw 21%) | 63,00 | |\n| **440** Leveranciers (incl.) | | 363,00 |\n\nDe **kost** (604.0) en de **vordering btw** (41159 ABTW) staan samen in debet; de **schuld aan de leverancier** (440, incl. btw) staat in credit. Debet = credit = 363,00.\n\n### Verkoopfactuur (500,00 excl., 21%)\n\n| Rekening | D | C |\n|---|---|---|\n| **400** Klanten (incl.) | 605,00 | |\n| **700.0** Verkopen (excl.) | | 500,00 |\n| **45154** VBTW (btw 21%) | | 105,00 |\n\nDe **vordering op de klant** (400, incl. btw) staat in debet; de **opbrengst** (700.0) en de **btw-schuld** (45154 VBTW) staan in credit.\n\n## Btw op een investering\n\nKoop je een machine (231 Machines), dan is de btw daarop **ook aftrekbaar** en boek je ze gewoon op **41159 ABTW** (debet). In ONDERNEMING C koopt de onderneming in boekjaar 1 een machine van 1.200,00 excl.; de btw is 252,00 (1.200 × 21%). Daardoor is de **aftrekbare btw (504,00) in dat jaar groter dan de verschuldigde btw (420,00)** en krijgt de onderneming btw **terug**.\n\n## De periodieke btw-registratie / afrekening\n\nOp het einde van de aangifteperiode (in de fiche: per boekjaar) vergelijk je het totaal van de **verschuldigde btw** met het totaal van de **aftrekbare btw**:\n\n1. Sluit **45154 VBTW** af door ze in **debet** te zetten (de schuld verdwijnt).\n2. Sluit **41159 ABTW** af door ze in **credit** te zetten (de vordering verdwijnt).\n3. Het verschil:\n   - VBTW > ABTW → je moet **bijbetalen** → **451 Te betalen B.T.W** (credit), op de fiche \"TBBTW\".\n   - ABTW > VBTW → je krijgt **terug** → **411 Terug te vorderen B.T.W** (debet), op de fiche \"TTVBTW\".\n\nIn ONDERNEMING C:\n\n- **Boekjaar 1** (met investering): ABTW = 504,00, VBTW = 420,00 → **terug te vorderen 84,00** op 411 TTVBTW (debet).\n- **Boekjaar 2 en 3** (geen grote investering): ABTW = 252,00, VBTW = 420,00 → **te betalen 168,00** op 451 TBBTW (credit).\n\n## Inkomende en uitgaande creditnota's\n\nEen creditnota draait een eerdere factuur (geheel of gedeeltelijk) terug. De leerkracht houdt daarvoor aparte tegenrekeningen klaar in het grootboek:\n\n- **Inkomende creditnota (ICN)** op een aankoop → **604.1 ICN** (MAR-code 604100) in credit (excl.), **41159 ABTW** in credit (btw) en **440 Leveranciers** in debet (incl.). In ONDERNEMING C blijft deze rekening leeg, maar ze hoort bij het schema.\n- **Uitgaande creditnota (UCN)** op een verkoop → **700.1 UCN** (MAR-code 700100) in debet (excl.), **45154 VBTW** in debet (btw) en **400 Klanten** in credit (incl.).\n\n## Bijzondere btw-regelingen (ter aanvulling)\n\nBij sommige aankopen rekent de leverancier **geen btw** aan, maar moet **jij** de btw zelf aangeven én tegelijk aftrekken (netto-effect 0):\n\n- **Btw verlegd / medecontractant**: **41159 ABTW** (debet) tegenover **451550 / 451300 Te betalen btw – verlegd** (credit).\n- **Intracommunautaire verwerving** (EU-leverancier): **41159 ABTW** (debet) tegenover **451560 Te betalen btw – intracommunautair** (credit).\n- **Invoer** (buiten EU): **41159 ABTW** (debet) tegenover **451570 Te betalen btw – invoer** (credit).",
   "kernrekeningen": [
-    {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "natuur": "debet", "wanneer": "Aankoopfactuur van handelsgoederen, bedrag exclusief btw (fiche: 604.0 Aankoop HG, 300,00)."},
-    {"code": "610000", "naam": "Diensten en diverse goederen", "natuur": "debet", "wanneer": "Aankoopfactuur diensten en diverse goederen (fiche: 610 D&DG), bedrag exclusief btw."},
-    {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "natuur": "debet", "wanneer": "Btw op aankopen, diensten én investeringen die je terugvraagt (fiche: 41159 ABTW). 63,00 per aankoopfactuur, 252,00 op de machine."},
-    {"code": "440000", "naam": "Leveranciers", "natuur": "credit", "wanneer": "Schuld aan de leverancier bij een aankoopfactuur, bedrag inclusief btw (fiche: 363,00 per factuur)."},
-    {"code": "604100", "naam": "Inkomende creditnota (ICN)", "natuur": "debet", "wanneer": "Correctierekening (klasse 6) op een aankoop HG; ze wordt bij een ontvangen creditnota in credit geboekt (excl. btw) tegenover 411590 ABTW in credit en 440 Leveranciers in debet (fiche: 604.1 ICN)."},
-    {"code": "400000", "naam": "Klanten", "natuur": "debet", "wanneer": "Vordering op de klant bij een verkoopfactuur, bedrag inclusief btw (fiche: 605,00 per factuur)."},
-    {"code": "700000", "naam": "Verkopen", "natuur": "credit", "wanneer": "Opbrengst bij een verkoopfactuur, bedrag exclusief btw (fiche: 700.0 Verkopen, 500,00)."},
-    {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "natuur": "credit", "wanneer": "Btw die je aan de klant aanrekent en moet doorstorten (fiche: 45154 VBTW, 105,00 per factuur)."},
-    {"code": "700100", "naam": "Uitgaande creditnota (UCN)", "natuur": "debet", "wanneer": "Tegenboeking (excl. btw) bij een uitgaande creditnota op een verkoop (fiche: 700.1 UCN)."},
-    {"code": "411000", "naam": "Terug te vorderen B.T.W", "natuur": "debet", "wanneer": "Saldo van de periodieke afrekening wanneer ABTW > VBTW (fiche: 411 TTVBTW, boekjaar 1 = 84,00)."},
-    {"code": "451000", "naam": "Te betalen B.T.W", "natuur": "credit", "wanneer": "Saldo van de periodieke afrekening wanneer VBTW > ABTW (fiche: 451 TBBTW, boekjaar 2 en 3 = 168,00)."},
-    {"code": "411630", "naam": "Regularisatie aftrekbare btw (RABTW)", "natuur": "debet", "wanneer": "Herziening/correctie in jouw voordeel van eerder geboekte aftrekbare btw (fiche: 41163 RABTW)."},
-    {"code": "451640", "naam": "Regularisatie verschuldigde btw (RVBTW)", "natuur": "credit", "wanneer": "Herziening/correctie van bijkomend verschuldigde btw (fiche: 45164 RVBTW)."},
-    {"code": "451550", "naam": "Te betalen btw – verlegd", "natuur": "credit", "wanneer": "Verschuldigde btw bij verlegging / medecontractant (binnenlands), tegenover 411590 ABTW."},
-    {"code": "451560", "naam": "Te betalen btw – intracommunautair", "natuur": "credit", "wanneer": "Verschuldigde btw bij een intracommunautaire verwerving, tegenover 411590 ABTW."},
-    {"code": "451570", "naam": "Te betalen btw – invoer", "natuur": "credit", "wanneer": "Verschuldigde btw bij invoer van buiten de EU, tegenover 411590 ABTW."}
+    {
+      "code": "604000",
+      "naam": "Aankopen van handelsgoederen (HG)",
+      "natuur": "debet",
+      "wanneer": "Aankoopfactuur van handelsgoederen, bedrag exclusief btw (fiche: 604.0 Aankoop HG, 300,00)."
+    },
+    {
+      "code": "610000",
+      "naam": "Diensten en diverse goederen",
+      "natuur": "debet",
+      "wanneer": "Aankoopfactuur diensten en diverse goederen (fiche: 610 D&DG), bedrag exclusief btw."
+    },
+    {
+      "code": "411590",
+      "naam": "Aftrekbare btw (ABTW)",
+      "natuur": "debet",
+      "wanneer": "Btw op aankopen, diensten én investeringen die je terugvraagt (fiche: 41159 ABTW). 63,00 per aankoopfactuur, 252,00 op de machine."
+    },
+    {
+      "code": "440000",
+      "naam": "Leveranciers",
+      "natuur": "credit",
+      "wanneer": "Schuld aan de leverancier bij een aankoopfactuur, bedrag inclusief btw (fiche: 363,00 per factuur)."
+    },
+    {
+      "code": "604100",
+      "naam": "Inkomende creditnota (ICN)",
+      "natuur": "debet",
+      "wanneer": "Correctierekening (klasse 6) op een aankoop HG; ze wordt bij een ontvangen creditnota in credit geboekt (excl. btw) tegenover 411590 ABTW in credit en 440 Leveranciers in debet (fiche: 604.1 ICN)."
+    },
+    {
+      "code": "400000",
+      "naam": "Klanten",
+      "natuur": "debet",
+      "wanneer": "Vordering op de klant bij een verkoopfactuur, bedrag inclusief btw (fiche: 605,00 per factuur)."
+    },
+    {
+      "code": "700000",
+      "naam": "Verkopen",
+      "natuur": "credit",
+      "wanneer": "Opbrengst bij een verkoopfactuur, bedrag exclusief btw (fiche: 700.0 Verkopen, 500,00)."
+    },
+    {
+      "code": "451540",
+      "naam": "Verschuldigde btw (VBTW)",
+      "natuur": "credit",
+      "wanneer": "Btw die je aan de klant aanrekent en moet doorstorten (fiche: 45154 VBTW, 105,00 per factuur)."
+    },
+    {
+      "code": "700100",
+      "naam": "Uitgaande creditnota (UCN)",
+      "natuur": "debet",
+      "wanneer": "Tegenboeking (excl. btw) bij een uitgaande creditnota op een verkoop (fiche: 700.1 UCN)."
+    },
+    {
+      "code": "411000",
+      "naam": "Terug te vorderen B.T.W",
+      "natuur": "debet",
+      "wanneer": "Saldo van de periodieke afrekening wanneer ABTW > VBTW (fiche: 411 TTVBTW, boekjaar 1 = 84,00)."
+    },
+    {
+      "code": "451000",
+      "naam": "Te betalen B.T.W",
+      "natuur": "credit",
+      "wanneer": "Saldo van de periodieke afrekening wanneer VBTW > ABTW (fiche: 451 TBBTW, boekjaar 2 en 3 = 168,00)."
+    },
+    {
+      "code": "411630",
+      "naam": "Regularisatie aftrekbare btw (RABTW)",
+      "natuur": "debet",
+      "wanneer": "Herziening/correctie in jouw voordeel van eerder geboekte aftrekbare btw (fiche: 41163 RABTW)."
+    },
+    {
+      "code": "451640",
+      "naam": "Regularisatie verschuldigde btw (RVBTW)",
+      "natuur": "credit",
+      "wanneer": "Herziening/correctie van bijkomend verschuldigde btw (fiche: 45164 RVBTW)."
+    },
+    {
+      "code": "451550",
+      "naam": "Te betalen btw – verlegd",
+      "natuur": "credit",
+      "wanneer": "Verschuldigde btw bij verlegging / medecontractant (binnenlands), tegenover 411590 ABTW."
+    },
+    {
+      "code": "451560",
+      "naam": "Te betalen btw – intracommunautair",
+      "natuur": "credit",
+      "wanneer": "Verschuldigde btw bij een intracommunautaire verwerving, tegenover 411590 ABTW."
+    },
+    {
+      "code": "451570",
+      "naam": "Te betalen btw – invoer",
+      "natuur": "credit",
+      "wanneer": "Verschuldigde btw bij invoer van buiten de EU, tegenover 411590 ABTW."
+    }
   ],
   "boekingsschemas": [
     {
       "titel": "Aankoopfactuur handelsgoederen (21% btw) – fiche ONDERNEMING C",
       "situatie": "Je ontvangt een aankoopfactuur voor handelsgoederen van 300,00 excl. btw, btw 21% (63,00).",
       "regels": [
-        {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "kant": "debet", "bedrag": "300,00 (excl.)", "toelichting": "Klasse-6-kost, stijgt in debet (fiche: 604.0 Aankoop HG)."},
-        {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "kant": "debet", "bedrag": "63,00 (btw 21%)", "toelichting": "Vordering op de Staat, stijgt in debet (fiche: 41159 ABTW)."},
-        {"code": "440000", "naam": "Leveranciers", "kant": "credit", "bedrag": "363,00 (incl.)", "toelichting": "Schuld aan leverancier (passief), stijgt in credit."}
+        {
+          "code": "604000",
+          "naam": "Aankopen van handelsgoederen (HG)",
+          "kant": "debet",
+          "bedrag": "300,00 (excl.)",
+          "toelichting": "Klasse-6-kost, stijgt in debet (fiche: 604.0 Aankoop HG)."
+        },
+        {
+          "code": "411590",
+          "naam": "Aftrekbare btw (ABTW)",
+          "kant": "debet",
+          "bedrag": "63,00 (btw 21%)",
+          "toelichting": "Vordering op de Staat, stijgt in debet (fiche: 41159 ABTW)."
+        },
+        {
+          "code": "440000",
+          "naam": "Leveranciers",
+          "kant": "credit",
+          "bedrag": "363,00 (incl.)",
+          "toelichting": "Schuld aan leverancier (passief), stijgt in credit."
+        }
       ]
     },
     {
       "titel": "Verkoopfactuur (21% btw) – fiche ONDERNEMING C",
       "situatie": "Je verstuurt een verkoopfactuur van 500,00 excl. btw, btw 21% (105,00).",
       "regels": [
-        {"code": "400000", "naam": "Klanten", "kant": "debet", "bedrag": "605,00 (incl.)", "toelichting": "Vordering op klant (actief), stijgt in debet."},
-        {"code": "700000", "naam": "Verkopen", "kant": "credit", "bedrag": "500,00 (excl.)", "toelichting": "Klasse-7-opbrengst, stijgt in credit (fiche: 700.0 Verkopen)."},
-        {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "kant": "credit", "bedrag": "105,00 (btw 21%)", "toelichting": "Schuld aan de Staat (passief), stijgt in credit (fiche: 45154 VBTW)."}
+        {
+          "code": "400000",
+          "naam": "Klanten",
+          "kant": "debet",
+          "bedrag": "605,00 (incl.)",
+          "toelichting": "Vordering op klant (actief), stijgt in debet."
+        },
+        {
+          "code": "700000",
+          "naam": "Verkopen",
+          "kant": "credit",
+          "bedrag": "500,00 (excl.)",
+          "toelichting": "Klasse-7-opbrengst, stijgt in credit (fiche: 700.0 Verkopen)."
+        },
+        {
+          "code": "451540",
+          "naam": "Verschuldigde btw (VBTW)",
+          "kant": "credit",
+          "bedrag": "105,00 (btw 21%)",
+          "toelichting": "Schuld aan de Staat (passief), stijgt in credit (fiche: 45154 VBTW)."
+        }
       ]
     },
     {
       "titel": "Aankoop machine met aftrekbare btw (investering)",
       "situatie": "Je koopt een machine van 1.200,00 excl. btw, btw 21% (252,00). De btw op een investering is gewoon aftrekbaar.",
       "regels": [
-        {"code": "231000", "naam": "Machines AW", "kant": "debet", "bedrag": "1.200,00 (excl.)", "toelichting": "Materieel vast actief tegen aanschaffingswaarde, in debet."},
-        {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "kant": "debet", "bedrag": "252,00 (btw 21%)", "toelichting": "Ook de btw op een investering is aftrekbaar → 41159 ABTW in debet."},
-        {"code": "440000", "naam": "Leveranciers", "kant": "credit", "bedrag": "1.452,00 (incl.)", "toelichting": "Schuld aan de leverancier voor het volledige bedrag inclusief btw."}
+        {
+          "code": "231000",
+          "naam": "Machines AW",
+          "kant": "debet",
+          "bedrag": "1.200,00 (excl.)",
+          "toelichting": "Materieel vast actief tegen aanschaffingswaarde, in debet."
+        },
+        {
+          "code": "411590",
+          "naam": "Aftrekbare btw (ABTW)",
+          "kant": "debet",
+          "bedrag": "252,00 (btw 21%)",
+          "toelichting": "Ook de btw op een investering is aftrekbaar → 41159 ABTW in debet."
+        },
+        {
+          "code": "440000",
+          "naam": "Leveranciers",
+          "kant": "credit",
+          "bedrag": "1.452,00 (incl.)",
+          "toelichting": "Schuld aan de leverancier voor het volledige bedrag inclusief btw."
+        }
       ]
     },
     {
       "titel": "Periodieke btw-afrekening – ABTW > VBTW (terug te vorderen)",
       "situatie": "Einde boekjaar 1 van ONDERNEMING C: ABTW 504,00 > VBTW 420,00 (door de investering).",
       "regels": [
-        {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "kant": "debet", "bedrag": "420,00", "toelichting": "De btw-schuld wordt afgesloten (tegenovergesteld aan haar normale creditzijde)."},
-        {"code": "411000", "naam": "Terug te vorderen B.T.W", "kant": "debet", "bedrag": "84,00", "toelichting": "Het overschot aan aftrekbare btw blijft over als vordering (fiche: 411 TTVBTW)."},
-        {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "kant": "credit", "bedrag": "504,00", "toelichting": "De btw-vordering wordt afgesloten (tegenovergesteld aan haar normale debetzijde)."}
+        {
+          "code": "451540",
+          "naam": "Verschuldigde btw (VBTW)",
+          "kant": "debet",
+          "bedrag": "420,00",
+          "toelichting": "De btw-schuld wordt afgesloten (tegenovergesteld aan haar normale creditzijde)."
+        },
+        {
+          "code": "411000",
+          "naam": "Terug te vorderen B.T.W",
+          "kant": "debet",
+          "bedrag": "84,00",
+          "toelichting": "Het overschot aan aftrekbare btw blijft over als vordering (fiche: 411 TTVBTW)."
+        },
+        {
+          "code": "411590",
+          "naam": "Aftrekbare btw (ABTW)",
+          "kant": "credit",
+          "bedrag": "504,00",
+          "toelichting": "De btw-vordering wordt afgesloten (tegenovergesteld aan haar normale debetzijde)."
+        }
       ]
     },
     {
       "titel": "Periodieke btw-afrekening – VBTW > ABTW (te betalen)",
       "situatie": "Einde boekjaar 2 of 3 van ONDERNEMING C: VBTW 420,00 > ABTW 252,00.",
       "regels": [
-        {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "kant": "debet", "bedrag": "420,00", "toelichting": "De btw-schuld wordt afgesloten."},
-        {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "kant": "credit", "bedrag": "252,00", "toelichting": "De btw-vordering wordt afgesloten."},
-        {"code": "451000", "naam": "Te betalen B.T.W", "kant": "credit", "bedrag": "168,00", "toelichting": "Het verschuldigde saldo blijft over als schuld aan de Staat (fiche: 451 TBBTW)."}
+        {
+          "code": "451540",
+          "naam": "Verschuldigde btw (VBTW)",
+          "kant": "debet",
+          "bedrag": "420,00",
+          "toelichting": "De btw-schuld wordt afgesloten."
+        },
+        {
+          "code": "411590",
+          "naam": "Aftrekbare btw (ABTW)",
+          "kant": "credit",
+          "bedrag": "252,00",
+          "toelichting": "De btw-vordering wordt afgesloten."
+        },
+        {
+          "code": "451000",
+          "naam": "Te betalen B.T.W",
+          "kant": "credit",
+          "bedrag": "168,00",
+          "toelichting": "Het verschuldigde saldo blijft over als schuld aan de Staat (fiche: 451 TBBTW)."
+        }
       ]
     }
   ],
@@ -91,9 +261,27 @@
         {
           "omschrijving": "Aankoopfactuur handelsgoederen",
           "regels": [
-            {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "debet": 300.00, "credit": null, "reden": "Klasse-6-kost, exclusief btw, stijgt in debet (fiche: 604.0 Aankoop HG)."},
-            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": 63.00, "credit": null, "reden": "Aftrekbare btw is een vordering op de Staat, in debet (fiche: 41159 ABTW)."},
-            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 363.00, "reden": "Schuld aan de leverancier voor het volledige factuurbedrag inclusief btw."}
+            {
+              "code": "604000",
+              "naam": "Aankopen van handelsgoederen (HG)",
+              "debet": 300.0,
+              "credit": null,
+              "reden": "Klasse-6-kost, exclusief btw, stijgt in debet (fiche: 604.0 Aankoop HG)."
+            },
+            {
+              "code": "411590",
+              "naam": "Aftrekbare btw (ABTW)",
+              "debet": 63.0,
+              "credit": null,
+              "reden": "Aftrekbare btw is een vordering op de Staat, in debet (fiche: 41159 ABTW)."
+            },
+            {
+              "code": "440000",
+              "naam": "Leveranciers",
+              "debet": null,
+              "credit": 363.0,
+              "reden": "Schuld aan de leverancier voor het volledige factuurbedrag inclusief btw."
+            }
           ]
         }
       ],
@@ -115,9 +303,27 @@
         {
           "omschrijving": "Verkoopfactuur",
           "regels": [
-            {"code": "400000", "naam": "Klanten", "debet": 605.00, "credit": null, "reden": "Vordering op de klant voor het volledige factuurbedrag inclusief btw."},
-            {"code": "700000", "naam": "Verkopen", "debet": null, "credit": 500.00, "reden": "Klasse-7-opbrengst, exclusief btw, in credit (fiche: 700.0 Verkopen)."},
-            {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "debet": null, "credit": 105.00, "reden": "Verschuldigde btw is een schuld aan de Staat, in credit (fiche: 45154 VBTW)."}
+            {
+              "code": "400000",
+              "naam": "Klanten",
+              "debet": 605.0,
+              "credit": null,
+              "reden": "Vordering op de klant voor het volledige factuurbedrag inclusief btw."
+            },
+            {
+              "code": "700000",
+              "naam": "Verkopen",
+              "debet": null,
+              "credit": 500.0,
+              "reden": "Klasse-7-opbrengst, exclusief btw, in credit (fiche: 700.0 Verkopen)."
+            },
+            {
+              "code": "451540",
+              "naam": "Verschuldigde btw (VBTW)",
+              "debet": null,
+              "credit": 105.0,
+              "reden": "Verschuldigde btw is een schuld aan de Staat, in credit (fiche: 45154 VBTW)."
+            }
           ]
         }
       ],
@@ -140,9 +346,27 @@
         {
           "omschrijving": "Aankoop machine",
           "regels": [
-            {"code": "231000", "naam": "Machines AW", "debet": 1200.00, "credit": null, "reden": "Materieel vast actief, geactiveerd tegen aanschaffingswaarde, in debet (fiche: 231.0 Machine AW)."},
-            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": 252.00, "credit": null, "reden": "Ook de btw op een investering is aftrekbaar → 41159 ABTW in debet."},
-            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 1452.00, "reden": "Schuld aan de leverancier voor het volledige bedrag inclusief btw (1.200 + 252)."}
+            {
+              "code": "231000",
+              "naam": "Machines AW",
+              "debet": 1200.0,
+              "credit": null,
+              "reden": "Materieel vast actief, geactiveerd tegen aanschaffingswaarde, in debet (fiche: 231.0 Machine AW)."
+            },
+            {
+              "code": "411590",
+              "naam": "Aftrekbare btw (ABTW)",
+              "debet": 252.0,
+              "credit": null,
+              "reden": "Ook de btw op een investering is aftrekbaar → 41159 ABTW in debet."
+            },
+            {
+              "code": "440000",
+              "naam": "Leveranciers",
+              "debet": null,
+              "credit": 1452.0,
+              "reden": "Schuld aan de leverancier voor het volledige bedrag inclusief btw (1.200 + 252)."
+            }
           ]
         }
       ],
@@ -166,9 +390,27 @@
         {
           "omschrijving": "Periodieke btw-afrekening boekjaar 1 (TTVBTW)",
           "regels": [
-            {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "debet": 420.00, "credit": null, "reden": "De btw-schuld wordt afgesloten; tegenovergesteld aan haar normale creditzijde, dus debet."},
-            {"code": "411000", "naam": "Terug te vorderen B.T.W", "debet": 84.00, "credit": null, "reden": "Het overschot aan aftrekbare btw blijft over als vordering op de Staat (fiche: 411 TTVBTW)."},
-            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": null, "credit": 504.00, "reden": "De btw-vordering wordt afgesloten; tegenovergesteld aan haar normale debetzijde, dus credit."}
+            {
+              "code": "451540",
+              "naam": "Verschuldigde btw (VBTW)",
+              "debet": 420.0,
+              "credit": null,
+              "reden": "De btw-schuld wordt afgesloten; tegenovergesteld aan haar normale creditzijde, dus debet."
+            },
+            {
+              "code": "411000",
+              "naam": "Terug te vorderen B.T.W",
+              "debet": 84.0,
+              "credit": null,
+              "reden": "Het overschot aan aftrekbare btw blijft over als vordering op de Staat (fiche: 411 TTVBTW)."
+            },
+            {
+              "code": "411590",
+              "naam": "Aftrekbare btw (ABTW)",
+              "debet": null,
+              "credit": 504.0,
+              "reden": "De btw-vordering wordt afgesloten; tegenovergesteld aan haar normale debetzijde, dus credit."
+            }
           ]
         }
       ],
@@ -192,9 +434,27 @@
         {
           "omschrijving": "Periodieke btw-afrekening boekjaar 2 (TBBTW)",
           "regels": [
-            {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "debet": 420.00, "credit": null, "reden": "De btw-schuld wordt afgesloten; tegenovergesteld aan haar normale creditzijde, dus debet."},
-            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": null, "credit": 252.00, "reden": "De btw-vordering wordt afgesloten; tegenovergesteld aan haar normale debetzijde, dus credit."},
-            {"code": "451000", "naam": "Te betalen B.T.W", "debet": null, "credit": 168.00, "reden": "Het verschuldigde saldo blijft over als schuld aan de Staat (fiche: 451 TBBTW)."}
+            {
+              "code": "451540",
+              "naam": "Verschuldigde btw (VBTW)",
+              "debet": 420.0,
+              "credit": null,
+              "reden": "De btw-schuld wordt afgesloten; tegenovergesteld aan haar normale creditzijde, dus debet."
+            },
+            {
+              "code": "411590",
+              "naam": "Aftrekbare btw (ABTW)",
+              "debet": null,
+              "credit": 252.0,
+              "reden": "De btw-vordering wordt afgesloten; tegenovergesteld aan haar normale debetzijde, dus credit."
+            },
+            {
+              "code": "451000",
+              "naam": "Te betalen B.T.W",
+              "debet": null,
+              "credit": 168.0,
+              "reden": "Het verschuldigde saldo blijft over als schuld aan de Staat (fiche: 451 TBBTW)."
+            }
           ]
         }
       ],
@@ -216,25 +476,79 @@
         {
           "omschrijving": "Aankoopfactuur HG",
           "regels": [
-            {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "debet": 300.00, "credit": null, "reden": "Aankoopkost exclusief btw, klasse 6, in debet."},
-            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": 63.00, "credit": null, "reden": "Aftrekbare btw, vordering op de Staat, in debet (41159 ABTW)."},
-            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 363.00, "reden": "Schuld aan de leverancier inclusief btw."}
+            {
+              "code": "604000",
+              "naam": "Aankopen van handelsgoederen (HG)",
+              "debet": 300.0,
+              "credit": null,
+              "reden": "Aankoopkost exclusief btw, klasse 6, in debet."
+            },
+            {
+              "code": "411590",
+              "naam": "Aftrekbare btw (ABTW)",
+              "debet": 63.0,
+              "credit": null,
+              "reden": "Aftrekbare btw, vordering op de Staat, in debet (41159 ABTW)."
+            },
+            {
+              "code": "440000",
+              "naam": "Leveranciers",
+              "debet": null,
+              "credit": 363.0,
+              "reden": "Schuld aan de leverancier inclusief btw."
+            }
           ]
         },
         {
           "omschrijving": "Verkoopfactuur",
           "regels": [
-            {"code": "400000", "naam": "Klanten", "debet": 605.00, "credit": null, "reden": "Vordering op de klant inclusief btw."},
-            {"code": "700000", "naam": "Verkopen", "debet": null, "credit": 500.00, "reden": "Opbrengst exclusief btw, klasse 7, in credit (700.0)."},
-            {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "debet": null, "credit": 105.00, "reden": "Verschuldigde btw op de verkoop, schuld aan de Staat (45154 VBTW)."}
+            {
+              "code": "400000",
+              "naam": "Klanten",
+              "debet": 605.0,
+              "credit": null,
+              "reden": "Vordering op de klant inclusief btw."
+            },
+            {
+              "code": "700000",
+              "naam": "Verkopen",
+              "debet": null,
+              "credit": 500.0,
+              "reden": "Opbrengst exclusief btw, klasse 7, in credit (700.0)."
+            },
+            {
+              "code": "451540",
+              "naam": "Verschuldigde btw (VBTW)",
+              "debet": null,
+              "credit": 105.0,
+              "reden": "Verschuldigde btw op de verkoop, schuld aan de Staat (45154 VBTW)."
+            }
           ]
         },
         {
           "omschrijving": "Periodieke btw-afrekening",
           "regels": [
-            {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "debet": 105.00, "credit": null, "reden": "De VBTW wordt afgesloten in debet."},
-            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": null, "credit": 63.00, "reden": "De ABTW wordt afgesloten in credit."},
-            {"code": "451000", "naam": "Te betalen B.T.W", "debet": null, "credit": 42.00, "reden": "Verschil VBTW − ABTW = 42,00 blijft over als te betalen btw."}
+            {
+              "code": "451540",
+              "naam": "Verschuldigde btw (VBTW)",
+              "debet": 105.0,
+              "credit": null,
+              "reden": "De VBTW wordt afgesloten in debet."
+            },
+            {
+              "code": "411590",
+              "naam": "Aftrekbare btw (ABTW)",
+              "debet": null,
+              "credit": 63.0,
+              "reden": "De ABTW wordt afgesloten in credit."
+            },
+            {
+              "code": "451000",
+              "naam": "Te betalen B.T.W",
+              "debet": null,
+              "credit": 42.0,
+              "reden": "Verschil VBTW − ABTW = 42,00 blijft over als te betalen btw."
+            }
           ]
         }
       ],
@@ -257,9 +571,27 @@
         {
           "omschrijving": "Uitgaande creditnota (UCN)",
           "regels": [
-            {"code": "700100", "naam": "Uitgaande creditnota (UCN)", "debet": 200.00, "credit": null, "reden": "Corrigeert de verkoopopbrengst (negatieve opbrengst), exclusief btw, in debet (fiche: 700.1 UCN)."},
-            {"code": "451540", "naam": "Verschuldigde btw (VBTW)", "debet": 42.00, "credit": null, "reden": "De eerder aangerekende btw wordt teruggedraaid, dus VBTW in debet."},
-            {"code": "400000", "naam": "Klanten", "debet": null, "credit": 242.00, "reden": "De vordering op de klant daalt met het bedrag inclusief btw."}
+            {
+              "code": "700100",
+              "naam": "Uitgaande creditnota (UCN)",
+              "debet": 200.0,
+              "credit": null,
+              "reden": "Corrigeert de verkoopopbrengst (negatieve opbrengst), exclusief btw, in debet (fiche: 700.1 UCN)."
+            },
+            {
+              "code": "451540",
+              "naam": "Verschuldigde btw (VBTW)",
+              "debet": 42.0,
+              "credit": null,
+              "reden": "De eerder aangerekende btw wordt teruggedraaid, dus VBTW in debet."
+            },
+            {
+              "code": "400000",
+              "naam": "Klanten",
+              "debet": null,
+              "credit": 242.0,
+              "reden": "De vordering op de klant daalt met het bedrag inclusief btw."
+            }
           ]
         }
       ],
@@ -268,41 +600,327 @@
     }
   ],
   "flashcards": [
-    {"vraag": "Wat is het verschil tussen aftrekbare btw en verschuldigde btw?", "antwoord": "Aftrekbare btw (ABTW, 411590) is de btw op je aankopen die je terugvraagt → vordering, debet. Verschuldigde btw (VBTW, 451540) is de btw op je verkopen die je moet doorstorten → schuld, credit.", "type": "begrip"},
-    {"vraag": "Welke rekening gebruikt de leerkracht voor aftrekbare aankoop-btw?", "antwoord": "411590 Aftrekbare btw (ABTW), een eigen subrekening, in debet.", "type": "mar-code"},
-    {"vraag": "Welke rekening gebruikt de leerkracht voor verschuldigde verkoop-btw?", "antwoord": "451540 Verschuldigde btw (VBTW), een eigen subrekening, in credit.", "type": "mar-code"},
-    {"vraag": "Is btw een kost of een opbrengst voor de onderneming?", "antwoord": "Geen van beide. Btw is neutraal: aftrekbare btw is een vordering (411590) en verschuldigde btw is een schuld (451540) tegenover de Staat.", "type": "begrip"},
-    {"vraag": "Hoe bereken je de btw op een bedrag van 500,00 excl. aan 21%?", "antwoord": "500,00 × 21% = 105,00 btw. Inclusief btw = 605,00.", "type": "logica"},
-    {"vraag": "Op welke rekening boek je een inkomende creditnota op een aankoop HG?", "antwoord": "604100 Inkomende creditnota (ICN), in credit (excl. btw); 411590 ABTW in credit (btw); 440000 Leveranciers in debet.", "type": "mar-code"},
-    {"vraag": "Op welke rekening boek je een uitgaande creditnota op een verkoop?", "antwoord": "700100 Uitgaande creditnota (UCN), in debet (excl. btw); 451540 VBTW in debet (btw); 400000 Klanten in credit.", "type": "mar-code"},
-    {"vraag": "Waarom staat 700100 UCN in debet en niet in credit?", "antwoord": "Het is een klasse-7-rekening die de opbrengst corrigeert. Een opbrengst staat normaal in credit; de creditnota vermindert die opbrengst, dus de UCN staat aan de tegenovergestelde (debet-)kant.", "type": "logica"},
-    {"vraag": "Welke rekening gebruik je voor verschuldigde btw bij medecontractant?", "antwoord": "451550 Te betalen btw – verlegd (of 451300 Te betalen btw – verlegd (medecontractant)), in credit, tegenover 411590 ABTW in debet.", "type": "mar-code"},
-    {"vraag": "Welke rekening voor verschuldigde btw bij een intracommunautaire aankoop?", "antwoord": "451560 Te betalen btw – intracommunautair, in credit, tegenover 411590 ABTW in debet.", "type": "mar-code"},
-    {"vraag": "Welke rekening voor verschuldigde btw bij invoer van buiten de EU?", "antwoord": "451570 Te betalen btw – invoer, in credit, tegenover 411590 ABTW in debet.", "type": "mar-code"},
-    {"vraag": "Waarom is de btw bij verlegging/intracommunautair/invoer netto 0?", "antwoord": "Je geeft de btw zelf aan (credit op 451550/451560/451570) en mag ze tegelijk aftrekken (debet op 411590). Beide bedragen zijn gelijk, dus het netto-effect op de te betalen btw is 0.", "type": "begrip"},
-    {"vraag": "Hoe sluit je VBTW en ABTW af bij de periodieke afrekening?", "antwoord": "VBTW (451540) zet je in debet om af te sluiten, ABTW (411590) zet je in credit. Het saldo gaat naar 451000 (te betalen) of 411000 (terug te vorderen).", "type": "logica"},
-    {"vraag": "VBTW = 420 en ABTW = 105. Wat boek je?", "antwoord": "VBTW > ABTW → te betalen = 315,00. Boeking: 451540 debet 420, 411590 credit 105, 451000 Te betalen B.T.W credit 315.", "type": "logica"},
-    {"vraag": "ABTW = 300 en VBTW = 120. Wat boek je?", "antwoord": "ABTW > VBTW → terug te vorderen = 180,00. Boeking: 451540 debet 120, 411590 credit 300, 411000 Terug te vorderen B.T.W debet 180.", "type": "logica"},
-    {"vraag": "Wat zijn de vier Belgische btw-tarieven?", "antwoord": "0%, 6%, 12% en 21%. 21% is het standaardtarief; 6% o.a. voeding en boeken; 12% o.a. horeca; 0% bv. bepaalde uitvoer.", "type": "begrip"}
+    {
+      "vraag": "Wat is het verschil tussen aftrekbare btw en verschuldigde btw?",
+      "antwoord": "Aftrekbare btw (ABTW, 411590) is de btw op je aankopen die je terugvraagt → vordering, debet. Verschuldigde btw (VBTW, 451540) is de btw op je verkopen die je moet doorstorten → schuld, credit.",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Welke rekening gebruikt de leerkracht voor aftrekbare aankoop-btw?",
+      "antwoord": "411590 Aftrekbare btw (ABTW), een eigen subrekening, in debet.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Welke rekening gebruikt de leerkracht voor verschuldigde verkoop-btw?",
+      "antwoord": "451540 Verschuldigde btw (VBTW), een eigen subrekening, in credit.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Is btw een kost of een opbrengst voor de onderneming?",
+      "antwoord": "Geen van beide. Btw is neutraal: aftrekbare btw is een vordering (411590) en verschuldigde btw is een schuld (451540) tegenover de Staat.",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Hoe bereken je de btw op een bedrag van 500,00 excl. aan 21%?",
+      "antwoord": "500,00 × 21% = 105,00 btw. Inclusief btw = 605,00.",
+      "type": "logica"
+    },
+    {
+      "vraag": "Op welke rekening boek je een inkomende creditnota op een aankoop HG?",
+      "antwoord": "604100 Inkomende creditnota (ICN), in credit (excl. btw); 411590 ABTW in credit (btw); 440000 Leveranciers in debet.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Op welke rekening boek je een uitgaande creditnota op een verkoop?",
+      "antwoord": "700100 Uitgaande creditnota (UCN), in debet (excl. btw); 451540 VBTW in debet (btw); 400000 Klanten in credit.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Waarom staat 700100 UCN in debet en niet in credit?",
+      "antwoord": "Het is een klasse-7-rekening die de opbrengst corrigeert. Een opbrengst staat normaal in credit; de creditnota vermindert die opbrengst, dus de UCN staat aan de tegenovergestelde (debet-)kant.",
+      "type": "logica"
+    },
+    {
+      "vraag": "Welke rekening gebruik je voor verschuldigde btw bij medecontractant?",
+      "antwoord": "451550 Te betalen btw – verlegd (of 451300 Te betalen btw – verlegd (medecontractant)), in credit, tegenover 411590 ABTW in debet.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Welke rekening voor verschuldigde btw bij een intracommunautaire aankoop?",
+      "antwoord": "451560 Te betalen btw – intracommunautair, in credit, tegenover 411590 ABTW in debet.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Welke rekening voor verschuldigde btw bij invoer van buiten de EU?",
+      "antwoord": "451570 Te betalen btw – invoer, in credit, tegenover 411590 ABTW in debet.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Waarom is de btw bij verlegging/intracommunautair/invoer netto 0?",
+      "antwoord": "Je geeft de btw zelf aan (credit op 451550/451560/451570) en mag ze tegelijk aftrekken (debet op 411590). Beide bedragen zijn gelijk, dus het netto-effect op de te betalen btw is 0.",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Hoe sluit je VBTW en ABTW af bij de periodieke afrekening?",
+      "antwoord": "VBTW (451540) zet je in debet om af te sluiten, ABTW (411590) zet je in credit. Het saldo gaat naar 451000 (te betalen) of 411000 (terug te vorderen).",
+      "type": "logica"
+    },
+    {
+      "vraag": "VBTW = 420 en ABTW = 105. Wat boek je?",
+      "antwoord": "VBTW > ABTW → te betalen = 315,00. Boeking: 451540 debet 420, 411590 credit 105, 451000 Te betalen B.T.W credit 315.",
+      "type": "logica"
+    },
+    {
+      "vraag": "ABTW = 300 en VBTW = 120. Wat boek je?",
+      "antwoord": "ABTW > VBTW → terug te vorderen = 180,00. Boeking: 451540 debet 120, 411590 credit 300, 411000 Terug te vorderen B.T.W debet 180.",
+      "type": "logica"
+    },
+    {
+      "vraag": "Wat zijn de vier Belgische btw-tarieven?",
+      "antwoord": "0%, 6%, 12% en 21%. 21% is het standaardtarief; 6% o.a. voeding en boeken; 12% o.a. horeca; 0% bv. bepaalde uitvoer.",
+      "type": "begrip"
+    }
   ],
   "veelgemaakteFouten": [
-    {"fout": "De leverancier (440) of de klant (400) boeken met het bedrag exclusief btw.", "correctie": "440 en 400 staan altijd voor het bedrag inclusief btw, want dat is wat effectief betaald of ontvangen wordt. De btw zit in een aparte rekening (41159 ABTW of 45154 VBTW)."},
-    {"fout": "De omzet (700.0) of de aankoop (604.0) boeken inclusief btw.", "correctie": "Opbrengst- en kostenrekeningen zijn altijd exclusief btw. De btw is geen omzet of kost, maar een schuld of vordering."},
-    {"fout": "De btw op een investering (machine) niet aftrekken of bij de aanschaffingswaarde tellen.", "correctie": "De btw op een machine is gewoon aftrekbaar en gaat naar 41159 ABTW. In boekjaar 1 van ONDERNEMING C maakt die 252,00 btw net het verschil waardoor je btw terugkrijgt."},
-    {"fout": "Bij de afrekening het saldo altijd op 451 (te betalen) zetten.", "correctie": "Vergelijk eerst VBTW en ABTW. Is de ABTW groter (zoals in boekjaar 1, door de investering), dan krijg je geld terug via 411 Terug te vorderen B.T.W in debet."},
-    {"fout": "Bij het afsluiten VBTW in credit en ABTW in debet laten staan.", "correctie": "Om af te sluiten draai je ze om: VBTW komt in debet (sluit de creditschuld), ABTW komt in credit (sluit de debetvordering)."},
-    {"fout": "Bij een creditnota wel de goederen, maar niet de btw terugdraaien.", "correctie": "Een creditnota corrigeert zowel het bedrag excl. (604.1 ICN / 700.1 UCN) als de btw (41159 ABTW / 45154 VBTW). Vergeet de btw-regel nooit, anders klopt de afrekening niet."},
-    {"fout": "Bij een intracommunautaire of medecontractant-factuur denken dat er 'geen btw' is en de verlegging niet boeken.", "correctie": "De leverancier rekent geen btw aan, maar jij moet de btw zelf aangeven (451550/451560/451570) én tegelijk aftrekken (411590). Netto-effect 0, maar beide bewegingen moeten geboekt worden."},
-    {"fout": "Bij een wagen 100% van de btw aftrekken.", "correctie": "Voor personenwagens is de aftrek beperkt (vaak 50%). Het niet-aftrekbare deel boek je niet op 411590; gebruik daarvoor de regularisatie/niet-aftrekbare btw (bv. 411630 RABTW of 640700 Niet aftrekbare B.T.W)."}
+    {
+      "fout": "De leverancier (440) of de klant (400) boeken met het bedrag exclusief btw.",
+      "correctie": "440 en 400 staan altijd voor het bedrag inclusief btw, want dat is wat effectief betaald of ontvangen wordt. De btw zit in een aparte rekening (41159 ABTW of 45154 VBTW)."
+    },
+    {
+      "fout": "De omzet (700.0) of de aankoop (604.0) boeken inclusief btw.",
+      "correctie": "Opbrengst- en kostenrekeningen zijn altijd exclusief btw. De btw is geen omzet of kost, maar een schuld of vordering."
+    },
+    {
+      "fout": "De btw op een investering (machine) niet aftrekken of bij de aanschaffingswaarde tellen.",
+      "correctie": "De btw op een machine is gewoon aftrekbaar en gaat naar 41159 ABTW. In boekjaar 1 van ONDERNEMING C maakt die 252,00 btw net het verschil waardoor je btw terugkrijgt."
+    },
+    {
+      "fout": "Bij de afrekening het saldo altijd op 451 (te betalen) zetten.",
+      "correctie": "Vergelijk eerst VBTW en ABTW. Is de ABTW groter (zoals in boekjaar 1, door de investering), dan krijg je geld terug via 411 Terug te vorderen B.T.W in debet."
+    },
+    {
+      "fout": "Bij het afsluiten VBTW in credit en ABTW in debet laten staan.",
+      "correctie": "Om af te sluiten draai je ze om: VBTW komt in debet (sluit de creditschuld), ABTW komt in credit (sluit de debetvordering)."
+    },
+    {
+      "fout": "Bij een creditnota wel de goederen, maar niet de btw terugdraaien.",
+      "correctie": "Een creditnota corrigeert zowel het bedrag excl. (604.1 ICN / 700.1 UCN) als de btw (41159 ABTW / 45154 VBTW). Vergeet de btw-regel nooit, anders klopt de afrekening niet."
+    },
+    {
+      "fout": "Bij een intracommunautaire of medecontractant-factuur denken dat er 'geen btw' is en de verlegging niet boeken.",
+      "correctie": "De leverancier rekent geen btw aan, maar jij moet de btw zelf aangeven (451550/451560/451570) én tegelijk aftrekken (411590). Netto-effect 0, maar beide bewegingen moeten geboekt worden."
+    },
+    {
+      "fout": "Bij een wagen 100% van de btw aftrekken.",
+      "correctie": "Voor personenwagens is de aftrek beperkt (vaak 50%). Het niet-aftrekbare deel boek je niet op 411590; gebruik daarvoor de regularisatie/niet-aftrekbare btw (bv. 411630 RABTW of 640700 Niet aftrekbare B.T.W)."
+    }
   ],
   "controlevragen": [
-    {"vraag": "Een aankoopfactuur HG vermeldt 300,00 excl. btw aan 21%. Hoeveel boek je op 41159 ABTW en op 440 Leveranciers?", "antwoord": "Btw = 300,00 × 21% = 63,00 op 41159 ABTW (debet). Op 440 boek je 363,00 (credit), het bedrag inclusief btw."},
-    {"vraag": "Aan welke kant (debet/credit) staat 41159 ABTW normaal, en aan welke kant bij het afsluiten van de periode?", "antwoord": "Normaal in debet (vordering). Bij het afsluiten zet je ze in credit om de rekening op nul te brengen."},
-    {"vraag": "In boekjaar 1 is ABTW 504,00 en VBTW 420,00. Betaal je btw of krijg je terug, en hoeveel? Welke rekening?", "antwoord": "ABTW > VBTW, dus terugkrijgen. Saldo = 504,00 − 420,00 = 84,00 op 411 Terug te vorderen B.T.W (debet). Dat overschot komt door de aftrekbare btw op de machine."},
-    {"vraag": "In boekjaar 2 is VBTW 420,00 en ABTW 252,00. Betaal je btw of krijg je terug, en hoeveel? Welke rekening?", "antwoord": "VBTW > ABTW, dus betalen. Saldo = 420,00 − 252,00 = 168,00 op 451 Te betalen B.T.W (credit)."},
-    {"vraag": "Waarom is boekjaar 1 een teruggavejaar en boekjaar 2 een betaaljaar voor de btw?", "antwoord": "In boekjaar 1 koopt de onderneming een machine; de aftrekbare btw daarop (252,00) duwt de ABTW boven de VBTW. In boekjaar 2 is er geen grote investering, dus is de VBTW groter en moet de onderneming bijbetalen."},
-    {"vraag": "Waarom mag de btw op een gewone aankoop geen kost (klasse 6) zijn?", "antwoord": "Omdat je die btw kunt terugvragen van de Staat; ze is dus een vordering (41159 ABTW), geen definitieve uitgave. Enkel niet-aftrekbare btw wordt een kost (640700)."},
-    {"vraag": "Wat is het verschil tussen 604.1 ICN en 700.1 UCN?", "antwoord": "604.1 ICN is de inkomende creditnota op een aankoop (corrigeert de aankoopkost, klasse 6, in credit). 700.1 UCN is de uitgaande creditnota op een verkoop (corrigeert de opbrengst, klasse 7, in debet)."},
-    {"vraag": "Je koopt goederen bij een Duitse leverancier zonder btw. Welke twee btw-rekeningen gebruik je?", "antwoord": "411590 Aftrekbare btw (debet) voor de aftrek en 451560 Te betalen btw – intracommunautair (credit) voor de zelf verschuldigde btw. Netto-effect 0."}
+    {
+      "vraag": "Een aankoopfactuur HG vermeldt 300,00 excl. btw aan 21%. Hoeveel boek je op 41159 ABTW en op 440 Leveranciers?",
+      "antwoord": "Btw = 300,00 × 21% = 63,00 op 41159 ABTW (debet). Op 440 boek je 363,00 (credit), het bedrag inclusief btw."
+    },
+    {
+      "vraag": "Aan welke kant (debet/credit) staat 41159 ABTW normaal, en aan welke kant bij het afsluiten van de periode?",
+      "antwoord": "Normaal in debet (vordering). Bij het afsluiten zet je ze in credit om de rekening op nul te brengen."
+    },
+    {
+      "vraag": "In boekjaar 1 is ABTW 504,00 en VBTW 420,00. Betaal je btw of krijg je terug, en hoeveel? Welke rekening?",
+      "antwoord": "ABTW > VBTW, dus terugkrijgen. Saldo = 504,00 − 420,00 = 84,00 op 411 Terug te vorderen B.T.W (debet). Dat overschot komt door de aftrekbare btw op de machine."
+    },
+    {
+      "vraag": "In boekjaar 2 is VBTW 420,00 en ABTW 252,00. Betaal je btw of krijg je terug, en hoeveel? Welke rekening?",
+      "antwoord": "VBTW > ABTW, dus betalen. Saldo = 420,00 − 252,00 = 168,00 op 451 Te betalen B.T.W (credit)."
+    },
+    {
+      "vraag": "Waarom is boekjaar 1 een teruggavejaar en boekjaar 2 een betaaljaar voor de btw?",
+      "antwoord": "In boekjaar 1 koopt de onderneming een machine; de aftrekbare btw daarop (252,00) duwt de ABTW boven de VBTW. In boekjaar 2 is er geen grote investering, dus is de VBTW groter en moet de onderneming bijbetalen."
+    },
+    {
+      "vraag": "Waarom mag de btw op een gewone aankoop geen kost (klasse 6) zijn?",
+      "antwoord": "Omdat je die btw kunt terugvragen van de Staat; ze is dus een vordering (41159 ABTW), geen definitieve uitgave. Enkel niet-aftrekbare btw wordt een kost (640700)."
+    },
+    {
+      "vraag": "Wat is het verschil tussen 604.1 ICN en 700.1 UCN?",
+      "antwoord": "604.1 ICN is de inkomende creditnota op een aankoop (corrigeert de aankoopkost, klasse 6, in credit). 700.1 UCN is de uitgaande creditnota op een verkoop (corrigeert de opbrengst, klasse 7, in debet)."
+    },
+    {
+      "vraag": "Je koopt goederen bij een Duitse leverancier zonder btw. Welke twee btw-rekeningen gebruik je?",
+      "antwoord": "411590 Aftrekbare btw (debet) voor de aftrek en 451560 Te betalen btw – intracommunautair (credit) voor de zelf verschuldigde btw. Netto-effect 0."
+    }
+  ],
+  "cursus": {
+    "vindplaats": "Deel II, Hoofdstuk 1 — Commerciële activiteiten, p. 159-202 (btw: p. 161-177; voorraadwijzigingen p. 186-191)",
+    "kernpunten": "## Wettelijke basis en begrippen (btw-wetboek)\n\nDe bestaande samenvatting legt vooral het boeken zelf uit. Het boek vertrekt echter van de **wettelijke definities uit het btw-wetboek (WBTW)**, die op een examen vaak letterlijk worden gevraagd.\n\n- **Belastingplichtige (art. 4, §1)**: 'eenieder die in de uitoefening van een economische activiteit geregeld en zelfstandig, met of zonder winstoogmerk, hoofdzakelijk of aanvullend, leveringen van goederen of diensten verricht' (p. 162).\n- **Levering van een goed (art. 10)**: 'de overdracht of de overgang van macht om als eigenaar over een goed te beschikken' (p. 162). Een **dienst (art. 18)** is daarentegen 'elke handeling die geen levering van een goed is' (p. 163).\n- De **btw wordt opeisbaar wanneer het belastbare feit plaatsvindt**, in principe op het **tijdstip van levering** (p. 163).\n\n### Werkingssfeer: vier soorten handelingen (p. 163-166)\n\n| Handeling | Btw waar? | Boeking koper |\n|---|---|---|\n| **Binnenlandse levering** | Belgische verkoper rekent aan | aftrekbare btw |\n| **Invoer** (buiten EU) | btw + invoerrechten aan douane | terug te vorderen btw |\n| **Intracommunautaire levering** (verkoop naar EU) | **vrijgesteld** in land van vertrek mits btw-nr. klant gekend | — |\n| **Intracommunautaire verwerving** (aankoop uit EU) | btw in land van **aankomst** | ABTW én verschuldigde btw |\n\n## Maatstaf van heffing (art. 26-28, p. 166-167)\n\nDe **maatstaf van heffing (MVH)** is alles wat de leverancier als tegenprestatie verkrijgt. Dit is een typische examenvalkuil. **Wél in de MVH**: prijs, vervoer- en verzekeringskosten, verloren verpakking, subsidies die met de prijs verband houden, belastingen/rechten/heffingen. **Niet in de MVH**: disconto, verkregen prijsverminderingen (commerciële korting), intresten wegens laattijdige betaling, **terugstuurbare** verpakking, voorschotten en **de btw zelf** (p. 167). Schema: bruto-aankoopprijs − handelskorting + bijkomende kosten = MVH; daarop wordt de btw berekend (p. 169, 178).\n\n## Tarieven en vrijstellingen (p. 167-168)\n\nNaast het in de fiche gebruikte **21 %** (standaardtarief) bestaan **6 %** (voeding, personenvervoer, boeken, hotels), **12 %** (margarine, steenkool) en een **bijzonder 0 %-tarief** voor dag- en weekbladen die minstens 48 keer per jaar verschijnen. **Vrijstellingen art. 44** (artsen met therapeutisch doel, onderwijs, verzekeringen, kansspelen): geen btw aanrekenen, **geen aangifte, géén recht op aftrek** (p. 168).\n\n## Aftrek van voorbelasting — beperkingen (p. 168-169)\n\nDe **voorbelasting** is de btw op aankopen/invoer/IC-verwerving voor bedrijfsgebruik; ze wordt in de aangifte van de verschuldigde btw afgetrokken. Géén aftrek voor privégebruik, **logies, spijzen en dranken** en onthaalkosten. **Personenwagen: aftrek beperkt tot 50 %** (p. 169). Geschenken aan personeelsleden (of hun kinderen, bv. eindejaar/sinterklaas) zijn als collectief voordeel volledig aftrekbaar mits de aankoopprijs lager is dan 40 EUR excl. btw (p. 169).\n\n## Bijzondere regelingen en aangifte (p. 170-171)\n\n- **Kleine onderneming**: vrijstelling als jaaromzet ≤ **25 000 EUR** — geen aangifte, geen storting, geen aftrek.\n- **Aangiftefrequentie**: **kwartaalaangifte** als jaaromzet ≤ **2 500 000 EUR**, anders **maandaangifte** (p. 170). Indiening uiterlijk de **20ste** van de volgende maand (kwartaal: 20/4, 20/7, 20/10, 20/1).\n\n## Speciale boekingen die de fiche niet behandelt (p. 172-176)\n\n- **Directe aankoopkosten** (transport, inklaring) verhogen de aankoopprijs → 6043 of mee op 604; ze zitten **in de MVH** (p. 172-173).\n- **Terugstuurbare verpakking**: geen btw; bij aankoop een **vordering op 418 Borgtochten betaald in contanten**, bij verkoop een **schuld op 488 Borgtochten ontvangen in contanten** (p. 174-175).\n- **Voorraadwijziging handelsgoederen (6094)**: voorraadtoename → 340 debet, 6094 credit (kosten dalen); voorraadafname → 6094 debet, 340 credit (kosten stijgen). Zo komt de boekhoudkundige winst overeen met de werkelijke (p. 186-191).",
+    "begrippen": [
+      {
+        "term": "Belastingplichtige (art. 4 WBTW)",
+        "uitleg": "Eenieder die in de uitoefening van een economische activiteit geregeld en zelfstandig, met of zonder winstoogmerk, leveringen van goederen of diensten verricht die in het btw-wetboek omschreven zijn."
+      },
+      {
+        "term": "Levering van een goed (art. 10 WBTW)",
+        "uitleg": "De overdracht of overgang van de macht om als eigenaar over een goed te beschikken; veronderstelt een contract onder bezwarende titel."
+      },
+      {
+        "term": "Dienst (art. 18 WBTW)",
+        "uitleg": "Elke handeling die geen levering van een goed is in de zin van het btw-wetboek."
+      },
+      {
+        "term": "Toegevoegde waarde",
+        "uitleg": "Het verschil tussen de aanschaffingsprijs van een goed in een bepaald stadium en de verkoopprijs in datzelfde stadium; de btw is uiteindelijk de belasting op die toegevoegde waarde."
+      },
+      {
+        "term": "Verbruikersbelasting",
+        "uitleg": "De btw wordt zo genoemd omdat de uiteindelijke consument, die de btw niet kan recupereren, de werkelijke drager van de belasting is."
+      },
+      {
+        "term": "Invoer (art. 23 WBTW)",
+        "uitleg": "Het binnenbrengen van goederen uit een derde land (buiten de EU) in het fiscaal grondgebied van de EU; eenvoudig gezegd een aankoop buiten de EU."
+      },
+      {
+        "term": "Intracommunautaire levering",
+        "uitleg": "Verkoop van goederen die vanuit België naar een andere EU-lidstaat worden vervoerd; vrijgesteld van btw in het land van vertrek mits het btw-nummer van de koper gekend is."
+      },
+      {
+        "term": "Intracommunautaire verwerving (art. 25bis)",
+        "uitleg": "Het verkrijgen van de macht om als eigenaar te beschikken over een roerend goed dat uit een andere EU-lidstaat naar de afnemer wordt vervoerd; belast in de lidstaat van aankomst."
+      },
+      {
+        "term": "Maatstaf van heffing (art. 26 WBTW)",
+        "uitleg": "Alles wat de leverancier als tegenprestatie verkrijgt; het bedrag waarop de btw wordt berekend (prijs + vervoer/verzekering + verloren verpakking + heffingen, na aftrek van commerciële korting)."
+      },
+      {
+        "term": "Voorbelasting",
+        "uitleg": "De btw die de belastingplichtige heeft betaald bij aankoop, invoer of intracommunautaire verwerving van goederen en diensten voor zijn onderneming; ze wordt afgetrokken van de verschuldigde btw."
+      },
+      {
+        "term": "Vrijstelling art. 44",
+        "uitleg": "Handelingen (o.a. medische zorg met therapeutisch doel, onderwijs, verzekering, kansspelen) waarop geen btw wordt aangerekend; de belastingplichtige dient geen aangifte in en heeft géén recht op aftrek."
+      },
+      {
+        "term": "Kleine onderneming (vrijstellingsregeling art. 56bis)",
+        "uitleg": "Onderneming met een jaaromzet van ten hoogste 25 000 EUR; geen periodieke aangifte, geen storting aan de schatkist, geen recht op aftrek."
+      },
+      {
+        "term": "Terugstuurbare verpakking",
+        "uitleg": "Verpakking waarvoor een waarborgsom wordt aangerekend en die bij terugzending wordt terugbetaald; er wordt geen btw op verrekend en ze valt buiten de maatstaf van heffing (418 bij aankoop, 488 bij verkoop)."
+      },
+      {
+        "term": "Voorraadwijziging handelsgoederen (6094)",
+        "uitleg": "Het verschil tussen begin- en eindvoorraad; bij toename worden de bedrijfskosten verminderd (340 debet / 6094 credit), bij afname verhoogd (6094 debet / 340 credit), zodat de boekhoudkundige winst de werkelijke winst weergeeft."
+      }
+    ]
+  },
+  "meerkeuze": [
+    {
+      "vraag": "Hoe omschrijft artikel 10 van het btw-wetboek een 'levering van een goed'?",
+      "opties": [
+        "Het sluiten van een contract onder bezwarende titel zonder dat het goed van eigenaar verandert",
+        "De overdracht of overgang van de macht om als eigenaar over een goed te beschikken",
+        "Elke handeling die geen dienst is",
+        "Het binnenbrengen van een goed uit een derde land in de Europese Unie"
+      ],
+      "juist": 1,
+      "uitleg": "Art. 10 WBTW (p. 162) definieert de levering als 'de overdracht of de overgang van macht om als eigenaar over een goed te beschikken'. A verwart met het loutere contract; C is net de definitie van een dienst (art. 18); D is de definitie van invoer (art. 23)."
+    },
+    {
+      "vraag": "Een Belgische handelaar koopt goederen aan bij een Nederlandse btw-plichtige leverancier; de goederen worden naar België vervoerd. Hoe heet deze handeling en waar is de btw verschuldigd?",
+      "opties": [
+        "Invoer; de btw is verschuldigd aan de douane",
+        "Intracommunautaire levering; vrijgesteld van btw",
+        "Intracommunautaire verwerving; btw verschuldigd in de lidstaat van aankomst (België)",
+        "Binnenlandse levering; btw verschuldigd in Nederland"
+      ],
+      "juist": 2,
+      "uitleg": "Aankoop uit een andere EU-lidstaat is een intracommunautaire verwerving, belast in de lidstaat van aankomst van het transport, dus in België (p. 165-166). Invoer (A) slaat op derde landen buiten de EU; de intracommunautaire levering (B) is de handeling aan verkoperszijde; D klopt niet want de btw is niet in Nederland verschuldigd."
+    },
+    {
+      "vraag": "Welk element behoort NIET tot de maatstaf van heffing voor de btw?",
+      "opties": [
+        "Vervoerkosten die de leverancier aanrekent",
+        "Verloren verpakking",
+        "Verzekeringskosten",
+        "Een verkregen commerciële korting"
+      ],
+      "juist": 3,
+      "uitleg": "Art. 28 WBTW (p. 166-167) sluit de verkregen prijsverminderingen (handelskorting) uit van de maatstaf van heffing: de btw wordt berekend op de prijs ná korting. Vervoer- en verzekeringskosten en verloren verpakking horen volgens art. 26 wél tot de maatstaf van heffing."
+    },
+    {
+      "vraag": "Wat is in België het normale (standaard) btw-tarief?",
+      "opties": [
+        "6 %",
+        "12 %",
+        "21 %",
+        "0 %"
+      ],
+      "juist": 2,
+      "uitleg": "Het normale tarief is 21 %; als een goed of dienst niet in een bijzondere tariefgroep is ingedeeld, geldt 21 % (p. 167). 6 % en 12 % zijn verlaagde tarieven, 0 % is het bijzondere tarief voor o.a. dag- en weekbladen."
+    },
+    {
+      "vraag": "Een onderneming koopt een personenwagen die zowel voor de bedrijfsactiviteit als privé wordt gebruikt. Hoeveel van de btw is in principe aftrekbaar?",
+      "opties": [
+        "100 %",
+        "50 %",
+        "0 %",
+        "21 %"
+      ],
+      "juist": 1,
+      "uitleg": "Voor een personenwagen is de aftrek van de voorbelasting in principe beperkt tot 50 % (p. 169). Het niet-aftrekbare deel wordt een kost en gaat dus niet volledig naar de aftrekbare btw."
+    },
+    {
+      "vraag": "Een arts verricht uitsluitend medische handelingen met therapeutisch doel, vrijgesteld volgens artikel 44 WBTW. Wat geldt voor hem?",
+      "opties": [
+        "Hij rekent 6 % btw aan en mag de voorbelasting aftrekken",
+        "Hij rekent geen btw aan, dient geen aangifte in en heeft geen recht op aftrek",
+        "Hij rekent 21 % btw aan maar moet geen aangifte indienen",
+        "Hij is automatisch een kleine onderneming met vrijstelling tot 2 500 000 EUR"
+      ],
+      "juist": 1,
+      "uitleg": "Wie handelingen verricht die vrijgesteld zijn door art. 44, rekent geen btw aan, moet geen aangifte indienen én heeft geen recht op aftrek (p. 168). De andere opties kennen ten onrechte een aftrekrecht, een aangifteplicht met btw of een verkeerde omzetgrens toe."
+    },
+    {
+      "vraag": "Vanaf welk jaarlijks omzetcijfer (excl. btw) moet een belastingplichtige in principe maandaangiften indienen in plaats van kwartaalaangiften?",
+      "opties": [
+        "Vanaf 25 000 EUR",
+        "Vanaf 11 200 EUR",
+        "Vanaf 2 500 000 EUR",
+        "Vanaf 1 000 000 EUR"
+      ],
+      "juist": 2,
+      "uitleg": "Kwartaalaangiften volstaan zolang de jaaromzet (excl. btw) niet meer dan 2 500 000 EUR bedraagt; daarboven zijn maandaangiften verplicht (p. 170). 25 000 EUR is de drempel voor de vrijstelling voor kleine ondernemingen; 11 200 EUR is de aankoopdrempel bij intracommunautaire verwerving."
+    },
+    {
+      "vraag": "Bij de aankoop van handelsgoederen rekent de leverancier een waarborgsom aan voor terugstuurbare verpakking. Hoe wordt deze waarborgsom geboekt en wordt er btw op verrekend?",
+      "opties": [
+        "Als kost op 604, met btw op 411590 ABTW",
+        "Als vordering op 418 Borgtochten betaald in contanten, zonder btw",
+        "Als schuld op 488 Borgtochten ontvangen in contanten, zonder btw",
+        "Als aftrekbare btw op 411590 ABTW, zonder kost"
+      ],
+      "juist": 1,
+      "uitleg": "Terugstuurbare verpakking is in wezen geen aankoop; ze wordt als waarborg (vordering op de leverancier) geboekt op 418 Borgtochten betaald in contanten en er wordt geen btw op verrekend (p. 174). 488 wordt gebruikt aan verkoopzijde (ontvangen waarborg). Verloren verpakking zou wél als kost met btw geboekt worden."
+    },
+    {
+      "vraag": "Op het einde van het boekjaar neemt de voorraad handelsgoederen toe ten opzichte van de beginvoorraad. Welk effect heeft dit en hoe wordt het geboekt?",
+      "opties": [
+        "De bedrijfskosten stijgen: 6094 debet en 340 credit",
+        "De bedrijfskosten dalen: 340 debet en 6094 credit",
+        "De omzet stijgt: 340 debet en 700 credit",
+        "Er gebeurt geen boeking, want de voorraad staat al op 340"
+      ],
+      "juist": 1,
+      "uitleg": "Bij een voorraadtoename (eindvoorraad > beginvoorraad) debiteer je 340 Handelsgoederen-AW en crediteer je 6094 Voorraadwijzigingen handelsgoederen, waardoor de bedrijfskosten dalen en het resultaat stijgt (p. 188-189). Bij een voorraadafname is het net omgekeerd (6094 debet, 340 credit)."
+    },
+    {
+      "vraag": "Waarom wordt de btw een 'verbruikersbelasting' genoemd?",
+      "opties": [
+        "Omdat enkel ondernemingen btw betalen",
+        "Omdat de uiteindelijke consument de btw niet kan recupereren en zo de werkelijke drager is",
+        "Omdat de btw enkel op voedingswaren wordt geheven",
+        "Omdat de producent de volledige btw aan de fiscus betaalt"
+      ],
+      "juist": 1,
+      "uitleg": "In het voorbeeld van de bedrijfskolom (p. 161-162) recupereren alle tussenschakels hun voorbelasting; enkel de eindconsument kan de btw niet terugvorderen en draagt ze dus effectief — vandaar 'verbruikersbelasting'. De andere opties geven een verkeerd beeld van wie de last draagt of waarop btw geheven wordt."
+    }
   ]
 }

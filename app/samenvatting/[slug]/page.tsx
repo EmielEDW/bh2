@@ -4,6 +4,7 @@ import { getThemas, getThema } from "@/lib/data";
 import Markdown from "@/components/Markdown";
 import BoekingsschemaCard from "@/components/BoekingsschemaCard";
 import Controlevragen from "@/components/Controlevragen";
+import MeerkeuzeQuiz from "@/components/MeerkeuzeQuiz";
 import { NatuurBadge } from "@/components/ui";
 
 export function generateStaticParams() {
@@ -58,6 +59,33 @@ export default function ThemaPagina({ params }: { params: { slug: string } }) {
       {t.samenvatting && (
         <section>
           <Markdown>{t.samenvatting}</Markdown>
+        </section>
+      )}
+
+      {t.cursus && (t.cursus.kernpunten || t.cursus.begrippen.length > 0) && (
+        <section className="rounded-2xl border border-emerald-200 bg-emerald-50/40 p-5">
+          <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
+            <h2 className="text-xl font-bold text-emerald-900">📖 Volgens de cursus</h2>
+            {t.cursus.vindplaats && (
+              <span className="rounded-full bg-white px-2.5 py-1 text-xs font-medium text-emerald-700 ring-1 ring-emerald-200">
+                {t.cursus.vindplaats}
+              </span>
+            )}
+          </div>
+          {t.cursus.kernpunten && <Markdown>{t.cursus.kernpunten}</Markdown>}
+          {t.cursus.begrippen.length > 0 && (
+            <div className="mt-4">
+              <h3 className="mb-2 text-base font-semibold text-emerald-900">Begrippen</h3>
+              <dl className="grid gap-2 sm:grid-cols-2">
+                {t.cursus.begrippen.map((b, i) => (
+                  <div key={i} className="rounded-xl border border-emerald-100 bg-white p-3">
+                    <dt className="text-sm font-semibold text-slate-900">{b.term}</dt>
+                    <dd className="mt-0.5 text-sm text-slate-600">{b.uitleg}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          )}
         </section>
       )}
 
@@ -129,6 +157,16 @@ export default function ThemaPagina({ params }: { params: { slug: string } }) {
               </div>
             ))}
           </div>
+        </section>
+      )}
+
+      {t.meerkeuze.length > 0 && (
+        <section>
+          <h2 className="mb-1 text-xl font-bold text-slate-900">📝 Meerkeuzetoets</h2>
+          <p className="mb-3 text-sm text-slate-500">
+            {t.meerkeuze.length} vragen op basis van de cursus. Kies en krijg meteen feedback.
+          </p>
+          <MeerkeuzeQuiz vragen={t.meerkeuze} />
         </section>
       )}
 

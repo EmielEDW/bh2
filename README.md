@@ -16,16 +16,20 @@ documenten/MAR voorkomen.
 | Pagina | Inhoud |
 |---|---|
 | **/** (Dashboard) | Overzicht, studeeradvies, snelle links naar alles. |
-| **/samenvatting** | 12 thema's, elk met uitgelegde samenvatting, kernrekeningen, boekingsschema's, veelgemaakte fouten en controlevragen. |
-| **/oefeningen** | **92 uitgewerkte oefeningen** die de échte oefeningenfiches van de leerkracht volgen (zelfde bedrijven, bedragen en structuur), met **oefenmodus** (zonder oplossing) en **correctiemodus** (volledige redenering + journaalposten). Filter op niveau (basis/midden/examen). |
-| **/mar** | Zoeker over alle **300 rekeningen** (incl. 26 eigen rekeningen van de leerkracht: ABTW, VBTW, ICN/UCN…) + een **debet/credit-trainer**. Filter op klasse en thema. |
-| **/boekingshulp** | Beslis-wizard ("welke boeking heb ik nodig?") + een **journaalpost-builder** met live debet=credit-controle. |
+| **/samenvatting** | 12 thema's, elk met uitgelegde samenvatting, een **"📖 Volgens de cursus"-verdieping** (theorie + wettelijke basis + paginaverwijzing naar het handboek), kernrekeningen, boekingsschema's, begrippen, een **meerkeuzetoets**, veelgemaakte fouten en controlevragen. |
+| **/oefeningen** | **92 uitgewerkte oefeningen** die de échte oefeningenfiches volgen, met **oefenmodus** + **correctiemodus**, een ingebouwd **werkblad** (journaalpost & T-rekeningen met "Verbeter"), en een **meerkeuzetoets** per thema. |
+| **/mar** | Zoeker over alle **298 rekeningen** (incl. eigen rekeningen van de leerkracht: ABTW, VBTW, ICN/UCN…) + een **debet/credit-trainer**. |
+| **/boekingshulp** | Beslis-wizard ("welke boeking?") + een **werkblad** (journaalpost én T-rekeningen) met live debet=credit-controle. |
 | **/btw** | BTW-rekenmachine die meteen de juiste boeking toont, overzicht van de aangiftevakken, theorie en valkuilen. |
+| **/begrippen** | **Doorzoekbare begrippenlijst** (±160 begrippen) met definities uit de cursus. |
 | **/examen** | Last-minute kernboekingen, een afvinkbare **examenchecklist** (bewaard in je browser) en de belangrijkste valkuilen. |
 
-**Interactieve onderdelen:** MAR-zoeker · journaalpost-builder · BTW-helper ·
-debet/credit-trainer · oefen-/correctiemodus · boekings-wizard ·
-controlevragen per hoofdstuk · examenchecklist met voortgang.
+**Interactieve onderdelen:** MAR-zoeker · werkblad met journaalpost- én T-rekening-weergave + "Verbeter" ·
+BTW-helper · debet/credit-trainer · **meerkeuzetoetsen** · oefen-/correctiemodus ·
+boekings-wizard · controlevragen · begrippenlijst · examenchecklist met voortgang.
+
+Alle theorie, definities en meerkeuzevragen zijn gebaseerd op het **officiële handboek
+(cursus.pdf)**; de oefeningen volgen de oefeningenfiches van de leerkracht.
 
 ---
 

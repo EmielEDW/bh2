@@ -9,7 +9,8 @@ tekst-extracties staan in `_extracted/` (ter controle).
 | Bestand | Inhoud | Gebruikt voor |
 |---|---|---|
 | `mar.pdf` | **ITAA Rekeningenstelsel 2021** (officiële MAR, 40 blz., klassen 0-7). | Basis van `data/mar.json`: alle codes, namen, klassen, rubrieken en A/P/R-natuur. |
-| `001_Rekeningenstelsel_compact_20260509.pdf` | De **compacte werklijst van de leerkracht** (BVDS) met 300 zescijferige codes, inclusief eigen rekeningen (ABTW 411590, VBTW 451540, ICN 604001, UCN 700001, loon arbeider/bediende, voordelen alle aard…). | De effectieve werkset rekeningen + de eigen rekeningnamen/-codes. |
+| `001_Rekeningenstelsel_compact_20260509.pdf` | De **compacte werklijst van de leerkracht** (BVDS) met de eigen rekeningen (ABTW 411590, VBTW 451540, ICN 604100, UCN 700100, loon arbeider/bediende, voordelen alle aard…). | De effectieve werkset rekeningen + de eigen rekeningnamen/-codes. |
+| `cursus.pdf` | Het **officiële handboek dubbel boekhouden** (756 blz., 6 delen). | De "📖 Volgens de cursus"-verdieping, de begrippenlijst en de meerkeuzetoetsen per thema. Niet in git (auteursrechtelijk + 79 MB). |
 
 ## 🏭 Materiële vaste activa (MVA)
 

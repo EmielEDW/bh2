@@ -12,55 +12,192 @@
   ],
   "samenvatting": "## Voorraden in de boekhouding\n\nVoorraden zijn goederen die een onderneming bezit om te verwerken of door te verkopen. Ze staan in **klasse 3** van het rekeningenstelsel en behoren tot het **vlottend actief**: het zijn bezittingen die normaal binnen het jaar omgezet worden in geld. Omdat het actiefrekeningen zijn, **stijgen ze in debet** en **dalen ze in credit**.\n\n### De belangrijkste voorraadrekeningen (klasse 3)\n\n- **300000 Grondstoffen** — materialen die je verwerkt tot een product (worden onderdeel van het eindproduct).\n- **310000 Hulpstoffen** — materialen die helpen bij de productie maar niet (volledig) in het product terechtkomen (smeerolie, verpakking, schroeven ...).\n- **340000 Handelsgoederen (HG)** — goederen die je **onveranderd** doorverkoopt (typisch voor een handelsonderneming).\n- **330000 Gereed product** — door de onderneming **zelf geproduceerde** afgewerkte goederen.\n\nNaast elke voorraadrekening bestaat een **(-)-rekening voor geboekte waardeverminderingen**: 309000 (grondstoffen), 319000 (hulpstoffen), 349000 (HG). Deze min-rekeningen staan aan de **credit**-zijde, want ze verlagen de waarde van het actief.\n\n### Aankopen: klasse 60\n\nWanneer je goederen koopt, boek je de aankoopkost in **klasse 6**. Voor handelsgoederen is dat **604000 Aankopen van handelsgoederen (HG)**. Bij periodieke inventaris boek je elke aankoop op **604000** (een kost) en raak je de voorraadrekening **340000** tijdens het jaar niet aan.\n\n### Waardeverminderingen op voorraad\n\nIs de **marktwaarde** of **realiseerbare waarde** van de voorraad op de inventarisdatum **lager** dan de boekwaarde, dan moet je voorzichtigheidshalve een **waardevermindering** boeken. Dit gebeurt bv. bij:\n\n- **gedegradeerde goederen** (winkeljuffers in een confectiezaak): het bestuursorgaan raamt de waardevermindering (bv. 1 000 000 EUR);\n- **vernietigde voorraad** (dak van het magazijn weggewaaid, voorraad voor 800 000 EUR vernield);\n- **bedreigde partijen** die dreigen onverkoopbaar te worden (bv. 1 000 stuks die binnen 6 maanden verkocht moeten worden).\n\nDe boeking is telkens:\n\n- **631000 Waardeverminderingen voorraden - toevoeging** (debet, een kost) / **349000 Handelsgoederen - geboekte waardeverminderingen** (credit, een min-actief).\n\nDeze waardevermindering is een **extra kost** en **verlaagt het resultaat**. Je gebruikt de aparte min-rekening 349000 zodat de aanschaffingswaarde op 340000 zichtbaar blijft.\n\n### Voorschotfactuur (vooruitbetaling op bestelling)\n\nBetaal je bij de bestelling al een voorschot (bv. via een **uitgeschreven bankcheque**), dan boek je dat als een **vooruitbetaling**:\n\n- **360000 Vooruitbetalingen** (debet, het voorschot excl. btw) + **411590 Aftrekbare btw / Btw op aankopen** (debet) / **440000 Leveranciers** (credit, totaal incl. btw).\n- De betaling van de cheque: **440000 Leveranciers** (debet) / **550001 Bank - uitgeschreven cheques (-)** (credit).\n\nWordt de definitieve factuur voor het restbedrag ontvangen, dan boek je het saldo (rest excl. btw + btw) en verreken je de eerdere vooruitbetaling.\n\n### De voorraadwijziging op het einde van het boekjaar\n\nBij periodieke inventaris staat de voorraadrekening nog op de **beginstand**. Je corrigeert ze naar de getelde **eindvoorraad**. De tegenrekening is de voorraadwijzigingsrekening:\n\n- Voor **aangekochte** voorraden (grondstoffen, hulpstoffen, HG) gebruik je een **609-rekening**: **609000** (grondstoffen), **609100** (hulpstoffen), **609400** (HG).\n- Voor **zelf geproduceerde** voorraad (gereed product) gebruik je **713000 In de voorraad gereed producten** (klasse 7, opbrengst).\n\nJe kan dit in twee stappen boeken (begininventaris uitboeken + eindinventaris inboeken) of in één **netto**-boeking. Bij een voorraad**toename** (eind > begin) boek je het verschil als **340000 debet / 609400 credit**: de voorraad stijgt en de kost daalt, dus de winst stijgt.\n\n*Cijfervoorbeeld uit de fiche:* beginvoorraad 300 000, eindvoorraad 20 000 stuks à 20 EUR = 400 000. Netto-toename 100 000 → **340000 debet 100 000 / 609400 credit 100 000**.\n\n### Effect op het resultaat\n\n- **Voorraadtoename** (eind > begin): de kost daalt → **winst stijgt**.\n- **Voorraaddaling** (eind < begin): de kost stijgt → **winst daalt**.\n\n### Vervaardigingsprijs van zelf geproduceerde goederen\n\nVoor zelf geproduceerde producten (bv. schoolbanken) bereken je de **vervaardigingsprijs**:\n\n> **Vervaardigingsprijs = aanschaffingsprijs grondstoffen + directe kosten + indirecte kosten**\n\n*Voorbeeld uit de fiche:* 250 000 (grondstoffen) + 120 000 (directe kosten: personeel + machines) + (30 000) (indirecte/algemene kosten) = **400 000** EUR. De indirecte kosten zijn **facultatief** in de vervaardigingsprijs: laat je ze weg, dan is de vervaardigingsprijs **370 000** EUR.\n\n### Voorraadwaardering: FIFO, LIFO, gewogen gemiddelde\n\nBij wisselende aankoopprijzen bepaal je de waarde van de eindvoorraad (en dus de kostprijs van de verkoop en de winst) met één van drie methodes:\n\n- **FIFO** (first in, first out): de **eerst** gekochte goederen verkoop je eerst; de eindvoorraad bestaat uit de **laatst** gekochte stuks. Bij stijgende prijzen geeft FIFO de **hoogste** eindvoorraad en winst.\n- **LIFO** (last in, first out): de **laatst** gekochte goederen verkoop je eerst; de eindvoorraad bestaat uit de **oudste** stuks. Bij stijgende prijzen geeft LIFO de **laagste** eindvoorraad en winst.\n- **Gewogen gemiddelde**: na elke aankoop herbereken je de gemiddelde eenheidsprijs ((oude waarde + nieuwe aankoop) / totaal aantal). Verkopen gaan aan die gemiddelde prijs uit voorraad.\n\nHet bedrijfsresultaat controleer je met: **Verkopen + EV − BV − Aankopen = bedrijfsresultaat**.",
   "kernrekeningen": [
-    {"code": "300000", "naam": "Grondstoffen", "natuur": "debet", "wanneer": "Voorraad van te verwerken grondstoffen; stijgt in debet bij inboeken eindvoorraad, daalt in credit bij uitboeken begininventaris."},
-    {"code": "310000", "naam": "Hulpstoffen", "natuur": "debet", "wanneer": "Voorraad van hulpstoffen (verpakking, smeermiddelen ...); zelfde mechanisme als grondstoffen."},
-    {"code": "340000", "naam": "Handelsgoederen (HG)", "natuur": "debet", "wanneer": "Voorraad van onveranderd door te verkopen handelsgoederen; gecorrigeerd via 609400 op het einde van het boekjaar (aan aanschaffingswaarde)."},
-    {"code": "330000", "naam": "Gereed product", "natuur": "debet", "wanneer": "Voorraad van zelf geproduceerde afgewerkte producten; gecorrigeerd via 713000."},
-    {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "natuur": "debet", "wanneer": "Bij elke aankoopfactuur van handelsgoederen tijdens het jaar (kost, excl. btw)."},
-    {"code": "609400", "naam": "Voorraadwijziging van handelsgoederen (HG)", "natuur": "beide", "wanneer": "Tegenrekening bij de voorraadwijziging van de HG-voorraad; creditsaldo = voorraadtoename (winst stijgt), debetsaldo = voorraaddaling (winst daalt)."},
-    {"code": "713000", "naam": "In de voorraad gereed producten", "natuur": "beide", "wanneer": "Tegenrekening (opbrengst, klasse 7) bij de voorraadwijziging van gereed product (330000)."},
-    {"code": "631000", "naam": "waardeverm op voorraden", "natuur": "debet", "wanneer": "Bij het boeken van een waardevermindering (toevoeging) omdat de marktwaarde van de voorraad lager is dan de boekwaarde (kost, verlaagt het resultaat)."},
-    {"code": "349000", "naam": "Geboekte waardeverm (-)", "natuur": "credit", "wanneer": "Min-actief naast 340000: het cumulatief geboekte bedrag aan waardeverminderingen op handelsgoederen (tegenboeking van 631000)."},
-    {"code": "360000", "naam": "Vooruitbetalingen", "natuur": "debet", "wanneer": "Voorschot dat je betaalt op een bestelling (bv. voorschotfactuur); actief, excl. btw."},
-    {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "natuur": "debet", "wanneer": "Aftrekbare (terug te vorderen) btw bij een aankoop- of voorschotfactuur (op de fiche: 'Btw op aankopen')."},
-    {"code": "440000", "naam": "Leveranciers", "natuur": "credit", "wanneer": "Te betalen schuld aan de leverancier bij een (voorschot)factuur, incl. btw; wordt gedebiteerd bij betaling."},
-    {"code": "550001", "naam": "Uitgeschreven cheques (-)", "natuur": "credit", "wanneer": "Min-rekening naast 550000: je hebt een bankcheque uitgeschreven om de leverancier te betalen."}
+    {
+      "code": "300000",
+      "naam": "Grondstoffen",
+      "natuur": "debet",
+      "wanneer": "Voorraad van te verwerken grondstoffen; stijgt in debet bij inboeken eindvoorraad, daalt in credit bij uitboeken begininventaris."
+    },
+    {
+      "code": "310000",
+      "naam": "Hulpstoffen",
+      "natuur": "debet",
+      "wanneer": "Voorraad van hulpstoffen (verpakking, smeermiddelen ...); zelfde mechanisme als grondstoffen."
+    },
+    {
+      "code": "340000",
+      "naam": "Handelsgoederen (HG)",
+      "natuur": "debet",
+      "wanneer": "Voorraad van onveranderd door te verkopen handelsgoederen; gecorrigeerd via 609400 op het einde van het boekjaar (aan aanschaffingswaarde)."
+    },
+    {
+      "code": "330000",
+      "naam": "Gereed product",
+      "natuur": "debet",
+      "wanneer": "Voorraad van zelf geproduceerde afgewerkte producten; gecorrigeerd via 713000."
+    },
+    {
+      "code": "604000",
+      "naam": "Aankopen van handelsgoederen (HG)",
+      "natuur": "debet",
+      "wanneer": "Bij elke aankoopfactuur van handelsgoederen tijdens het jaar (kost, excl. btw)."
+    },
+    {
+      "code": "609400",
+      "naam": "Voorraadwijziging van handelsgoederen (HG)",
+      "natuur": "beide",
+      "wanneer": "Tegenrekening bij de voorraadwijziging van de HG-voorraad; creditsaldo = voorraadtoename (winst stijgt), debetsaldo = voorraaddaling (winst daalt)."
+    },
+    {
+      "code": "713000",
+      "naam": "In de voorraad gereed producten",
+      "natuur": "beide",
+      "wanneer": "Tegenrekening (opbrengst, klasse 7) bij de voorraadwijziging van gereed product (330000)."
+    },
+    {
+      "code": "631000",
+      "naam": "waardeverm op voorraden",
+      "natuur": "debet",
+      "wanneer": "Bij het boeken van een waardevermindering (toevoeging) omdat de marktwaarde van de voorraad lager is dan de boekwaarde (kost, verlaagt het resultaat)."
+    },
+    {
+      "code": "349000",
+      "naam": "Geboekte waardeverm (-)",
+      "natuur": "credit",
+      "wanneer": "Min-actief naast 340000: het cumulatief geboekte bedrag aan waardeverminderingen op handelsgoederen (tegenboeking van 631000)."
+    },
+    {
+      "code": "360000",
+      "naam": "Vooruitbetalingen",
+      "natuur": "debet",
+      "wanneer": "Voorschot dat je betaalt op een bestelling (bv. voorschotfactuur); actief, excl. btw."
+    },
+    {
+      "code": "411590",
+      "naam": "Aftrekbare btw (ABTW)",
+      "natuur": "debet",
+      "wanneer": "Aftrekbare (terug te vorderen) btw bij een aankoop- of voorschotfactuur (op de fiche: 'Btw op aankopen')."
+    },
+    {
+      "code": "440000",
+      "naam": "Leveranciers",
+      "natuur": "credit",
+      "wanneer": "Te betalen schuld aan de leverancier bij een (voorschot)factuur, incl. btw; wordt gedebiteerd bij betaling."
+    },
+    {
+      "code": "550001",
+      "naam": "Uitgeschreven cheques (-)",
+      "natuur": "credit",
+      "wanneer": "Min-rekening naast 550000: je hebt een bankcheque uitgeschreven om de leverancier te betalen."
+    }
   ],
   "boekingsschemas": [
     {
       "titel": "Waardevermindering op voorraad (631000 / 349000)",
       "situatie": "Op de inventarisdatum is de marktwaarde of realiseerbare waarde van (een deel van) de voorraad lager dan de boekwaarde: gedegradeerde goederen, vernietigde of bedreigde voorraad.",
       "regels": [
-        {"code": "631000", "naam": "Waardeverminderingen voorraden - toevoeging", "kant": "debet", "bedrag": "waardeverminderingsbedrag", "toelichting": "Extra kost (klasse 6) -> debet; verlaagt het resultaat."},
-        {"code": "349000", "naam": "Handelsgoederen - geboekte waardeverminderingen (-)", "kant": "credit", "bedrag": "waardeverminderingsbedrag", "toelichting": "Min-actief naast 340000 -> credit; verlaagt de boekwaarde van de voorraad."}
+        {
+          "code": "631000",
+          "naam": "Waardeverminderingen voorraden - toevoeging",
+          "kant": "debet",
+          "bedrag": "waardeverminderingsbedrag",
+          "toelichting": "Extra kost (klasse 6) -> debet; verlaagt het resultaat."
+        },
+        {
+          "code": "349000",
+          "naam": "Handelsgoederen - geboekte waardeverminderingen (-)",
+          "kant": "credit",
+          "bedrag": "waardeverminderingsbedrag",
+          "toelichting": "Min-actief naast 340000 -> credit; verlaagt de boekwaarde van de voorraad."
+        }
       ]
     },
     {
       "titel": "Voorschotfactuur op bestelling (360000 / 411590 / 440000) + betaling per cheque",
       "situatie": "Bij de bestelling betaal je een voorschot via een uitgeschreven bankcheque. Eerst de voorschotfactuur boeken, daarna de betaling.",
       "regels": [
-        {"code": "360000", "naam": "Vooruitbetalingen", "kant": "debet", "bedrag": "voorschot excl. btw", "toelichting": "Vooruitbetaling op de bestelling (actief) -> debet."},
-        {"code": "411590", "naam": "Aftrekbare btw (ABTW) / Btw op aankopen", "kant": "debet", "bedrag": "btw 21%", "toelichting": "Aftrekbare btw is een vordering op de Staat -> debet."},
-        {"code": "440000", "naam": "Leveranciers", "kant": "credit", "bedrag": "totaal incl. btw", "toelichting": "Schuld aan leverancier (passief) -> credit."},
-        {"code": "440000", "naam": "Leveranciers", "kant": "debet", "bedrag": "totaal incl. btw", "toelichting": "Betaling: schuld verdwijnt -> debet."},
-        {"code": "550001", "naam": "Bank - uitgeschreven cheques (-)", "kant": "credit", "bedrag": "totaal incl. btw", "toelichting": "Uitgeschreven bankcheque (min-rekening van 550000) -> credit."}
+        {
+          "code": "360000",
+          "naam": "Vooruitbetalingen",
+          "kant": "debet",
+          "bedrag": "voorschot excl. btw",
+          "toelichting": "Vooruitbetaling op de bestelling (actief) -> debet."
+        },
+        {
+          "code": "411590",
+          "naam": "Aftrekbare btw (ABTW) / Btw op aankopen",
+          "kant": "debet",
+          "bedrag": "btw 21%",
+          "toelichting": "Aftrekbare btw is een vordering op de Staat -> debet."
+        },
+        {
+          "code": "440000",
+          "naam": "Leveranciers",
+          "kant": "credit",
+          "bedrag": "totaal incl. btw",
+          "toelichting": "Schuld aan leverancier (passief) -> credit."
+        },
+        {
+          "code": "440000",
+          "naam": "Leveranciers",
+          "kant": "debet",
+          "bedrag": "totaal incl. btw",
+          "toelichting": "Betaling: schuld verdwijnt -> debet."
+        },
+        {
+          "code": "550001",
+          "naam": "Bank - uitgeschreven cheques (-)",
+          "kant": "credit",
+          "bedrag": "totaal incl. btw",
+          "toelichting": "Uitgeschreven bankcheque (min-rekening van 550000) -> credit."
+        }
       ]
     },
     {
       "titel": "Voorraadwijziging handelsgoederen op einde boekjaar (netto, 609400)",
       "situatie": "Periodieke inventaris: vergelijk de getelde eindvoorraad met de beginvoorraad. Bij een voorraadtoename boek je het verschil netto op de voorraad en de voorraadwijziging.",
       "regels": [
-        {"code": "340000", "naam": "Handelsgoederen - aanschaffingswaarde", "kant": "debet", "bedrag": "eindvoorraad - beginvoorraad (bij toename)", "toelichting": "Voorraad (actief) stijgt -> debet, aan aanschaffingswaarde."},
-        {"code": "609400", "naam": "Voorraadwijzigingen handelsgoederen", "kant": "credit", "bedrag": "eindvoorraad - beginvoorraad (bij toename)", "toelichting": "Voorraadtoename verlaagt de kost (credit) -> winst stijgt. Bij een daling staan de bedragen omgekeerd."}
+        {
+          "code": "340000",
+          "naam": "Handelsgoederen - aanschaffingswaarde",
+          "kant": "debet",
+          "bedrag": "eindvoorraad - beginvoorraad (bij toename)",
+          "toelichting": "Voorraad (actief) stijgt -> debet, aan aanschaffingswaarde."
+        },
+        {
+          "code": "609400",
+          "naam": "Voorraadwijzigingen handelsgoederen",
+          "kant": "credit",
+          "bedrag": "eindvoorraad - beginvoorraad (bij toename)",
+          "toelichting": "Voorraadtoename verlaagt de kost (credit) -> winst stijgt. Bij een daling staan de bedragen omgekeerd."
+        }
       ]
     },
     {
       "titel": "Vervaardigingsprijs van een zelf geproduceerd goed",
       "situatie": "Voor zelf geproduceerde producten (bv. schoolbanken) bereken je de kostprijs (vervaardigingsprijs) als basis voor de voorraadwaardering van gereed product.",
       "regels": [
-        {"code": "300000", "naam": "Aanschaffingsprijs grondstoffen", "kant": "debet", "bedrag": "kostprijs grondstoffen", "toelichting": "Basis van de vervaardigingsprijs (bv. 250 000)."},
-        {"code": "620000", "naam": "Directe kosten (personeel, machines)", "kant": "debet", "bedrag": "directe productiekosten", "toelichting": "Direct toe te rekenen aan de productie (bv. 120 000)."},
-        {"code": "610000", "naam": "Indirecte kosten (algemeen, administratie) - facultatief", "kant": "debet", "bedrag": "indirecte kosten", "toelichting": "Facultatief op te nemen (bv. 30 000): met = 400 000, zonder = 370 000."}
+        {
+          "code": "300000",
+          "naam": "Aanschaffingsprijs grondstoffen",
+          "kant": "debet",
+          "bedrag": "kostprijs grondstoffen",
+          "toelichting": "Basis van de vervaardigingsprijs (bv. 250 000)."
+        },
+        {
+          "code": "620000",
+          "naam": "Directe kosten (personeel, machines)",
+          "kant": "debet",
+          "bedrag": "directe productiekosten",
+          "toelichting": "Direct toe te rekenen aan de productie (bv. 120 000)."
+        },
+        {
+          "code": "610000",
+          "naam": "Indirecte kosten (algemeen, administratie) - facultatief",
+          "kant": "debet",
+          "bedrag": "indirecte kosten",
+          "toelichting": "Facultatief op te nemen (bv. 30 000): met = 400 000, zonder = 370 000."
+        }
       ]
     }
   ],
@@ -82,15 +219,39 @@
         {
           "omschrijving": "Waardevermindering gedegradeerde voorraad confectiezaak (31/12)",
           "regels": [
-            {"code": "631000", "naam": "Waardeverminderingen voorraden - toevoeging", "debet": 1000000.00, "credit": null, "reden": "Geraamde waardevermindering op gedegradeerde voorraad (winkeljuffers) is een kost (klasse 6) -> debet."},
-            {"code": "349000", "naam": "Handelsgoederen - geboekte waardeverminderingen (-)", "debet": null, "credit": 1000000.00, "reden": "Min-actief naast 340000 -> credit; verlaagt de boekwaarde van de voorraad."}
+            {
+              "code": "631000",
+              "naam": "Waardeverminderingen voorraden - toevoeging",
+              "debet": 1000000.0,
+              "credit": null,
+              "reden": "Geraamde waardevermindering op gedegradeerde voorraad (winkeljuffers) is een kost (klasse 6) -> debet."
+            },
+            {
+              "code": "349000",
+              "naam": "Handelsgoederen - geboekte waardeverminderingen (-)",
+              "debet": null,
+              "credit": 1000000.0,
+              "reden": "Min-actief naast 340000 -> credit; verlaagt de boekwaarde van de voorraad."
+            }
           ]
         },
         {
           "omschrijving": "Waardevermindering vernielde voorraad wasproducten zelfbedieningszaak (31/12)",
           "regels": [
-            {"code": "631000", "naam": "Waardeverminderingen voorraden - toevoeging", "debet": 800000.00, "credit": null, "reden": "Waardevermindering op de door het onweer beschadigde voorraad is een kost -> debet."},
-            {"code": "349000", "naam": "Handelsgoederen - geboekte waardeverminderingen (-)", "debet": null, "credit": 800000.00, "reden": "Min-actief naast 340000 -> credit."}
+            {
+              "code": "631000",
+              "naam": "Waardeverminderingen voorraden - toevoeging",
+              "debet": 800000.0,
+              "credit": null,
+              "reden": "Waardevermindering op de door het onweer beschadigde voorraad is een kost -> debet."
+            },
+            {
+              "code": "349000",
+              "naam": "Handelsgoederen - geboekte waardeverminderingen (-)",
+              "debet": null,
+              "credit": 800000.0,
+              "reden": "Min-actief naast 340000 -> credit."
+            }
           ]
         }
       ],
@@ -115,16 +276,46 @@
         {
           "omschrijving": "Voorschotfactuur nr. 10 van de leverancier",
           "regels": [
-            {"code": "360000", "naam": "Vooruitbetalingen", "debet": 99173.55, "credit": null, "reden": "Vooruitbetaling op de bestelling (actief), excl. btw -> debet (120 000 / 1,21)."},
-            {"code": "411590", "naam": "Aftrekbare btw (ABTW) / Btw op aankopen", "debet": 20826.45, "credit": null, "reden": "Aftrekbare btw op de voorschotfactuur -> debet (fiche-code 4110)."},
-            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 120000.00, "reden": "Schuld aan de leverancier voor het voorschot incl. btw -> credit."}
+            {
+              "code": "360000",
+              "naam": "Vooruitbetalingen",
+              "debet": 99173.55,
+              "credit": null,
+              "reden": "Vooruitbetaling op de bestelling (actief), excl. btw -> debet (120 000 / 1,21)."
+            },
+            {
+              "code": "411590",
+              "naam": "Aftrekbare btw (ABTW) / Btw op aankopen",
+              "debet": 20826.45,
+              "credit": null,
+              "reden": "Aftrekbare btw op de voorschotfactuur -> debet (fiche-code 4110)."
+            },
+            {
+              "code": "440000",
+              "naam": "Leveranciers",
+              "debet": null,
+              "credit": 120000.0,
+              "reden": "Schuld aan de leverancier voor het voorschot incl. btw -> credit."
+            }
           ]
         },
         {
           "omschrijving": "Betaling voorschotfactuur via uitgeschreven bankcheque",
           "regels": [
-            {"code": "440000", "naam": "Leveranciers", "debet": 120000.00, "credit": null, "reden": "De schuld aan de leverancier wordt voldaan -> debet."},
-            {"code": "550001", "naam": "Bank - uitgeschreven cheques (-)", "debet": null, "credit": 120000.00, "reden": "We schreven een bankcheque uit (min-rekening van 550000) -> credit (fiche-code 5501)."}
+            {
+              "code": "440000",
+              "naam": "Leveranciers",
+              "debet": 120000.0,
+              "credit": null,
+              "reden": "De schuld aan de leverancier wordt voldaan -> debet."
+            },
+            {
+              "code": "550001",
+              "naam": "Bank - uitgeschreven cheques (-)",
+              "debet": null,
+              "credit": 120000.0,
+              "reden": "We schreven een bankcheque uit (min-rekening van 550000) -> credit (fiche-code 5501)."
+            }
           ]
         }
       ],
@@ -149,15 +340,39 @@
         {
           "omschrijving": "Voorraadwijziging handelsgoederen (netto-toename) op 31.12",
           "regels": [
-            {"code": "340000", "naam": "Handelsgoederen - aanschaffingswaarde", "debet": 100000.00, "credit": null, "reden": "Voorraadtoename (eind 400 000 - begin 300 000) -> actief stijgt in debet, aan aanschaffingswaarde."},
-            {"code": "609400", "naam": "Voorraadwijzigingen handelsgoederen", "debet": null, "credit": 100000.00, "reden": "Tegenrekening: voorraadtoename verlaagt de kost (credit) -> winst stijgt."}
+            {
+              "code": "340000",
+              "naam": "Handelsgoederen - aanschaffingswaarde",
+              "debet": 100000.0,
+              "credit": null,
+              "reden": "Voorraadtoename (eind 400 000 - begin 300 000) -> actief stijgt in debet, aan aanschaffingswaarde."
+            },
+            {
+              "code": "609400",
+              "naam": "Voorraadwijzigingen handelsgoederen",
+              "debet": null,
+              "credit": 100000.0,
+              "reden": "Tegenrekening: voorraadtoename verlaagt de kost (credit) -> winst stijgt."
+            }
           ]
         },
         {
           "omschrijving": "Waardevermindering op de 1 000 bedreigde stuks (31.12)",
           "regels": [
-            {"code": "631000", "naam": "Waardeverminderingen voorraden - toevoeging", "debet": 20000.00, "credit": null, "reden": "1 000 stuks x 20 EUR dreigen waardeloos te worden -> volledige waardevermindering als kost (debet)."},
-            {"code": "349000", "naam": "Handelsgoederen - geboekte waardeverminderingen (-)", "debet": null, "credit": 20000.00, "reden": "Min-actief naast 340000 -> credit."}
+            {
+              "code": "631000",
+              "naam": "Waardeverminderingen voorraden - toevoeging",
+              "debet": 20000.0,
+              "credit": null,
+              "reden": "1 000 stuks x 20 EUR dreigen waardeloos te worden -> volledige waardevermindering als kost (debet)."
+            },
+            {
+              "code": "349000",
+              "naam": "Handelsgoederen - geboekte waardeverminderingen (-)",
+              "debet": null,
+              "credit": 20000.0,
+              "reden": "Min-actief naast 340000 -> credit."
+            }
           ]
         }
       ],
@@ -183,8 +398,20 @@
         {
           "omschrijving": "Inboeken eindvoorraad HG volgens FIFO (31.12) - ter info",
           "regels": [
-            {"code": "340000", "naam": "Handelsgoederen (HG)", "debet": 272000.00, "credit": null, "reden": "FIFO-eindvoorraad (800 stuks: 400x330 + 400x350) op de balans -> actief stijgt in debet."},
-            {"code": "609400", "naam": "Voorraadwijziging van handelsgoederen (HG)", "debet": null, "credit": 272000.00, "reden": "Geen beginvoorraad -> enkel inboeken eindvoorraad; voorraadtoename verlaagt de kost (credit)."}
+            {
+              "code": "340000",
+              "naam": "Handelsgoederen (HG)",
+              "debet": 272000.0,
+              "credit": null,
+              "reden": "FIFO-eindvoorraad (800 stuks: 400x330 + 400x350) op de balans -> actief stijgt in debet."
+            },
+            {
+              "code": "609400",
+              "naam": "Voorraadwijziging van handelsgoederen (HG)",
+              "debet": null,
+              "credit": 272000.0,
+              "reden": "Geen beginvoorraad -> enkel inboeken eindvoorraad; voorraadtoename verlaagt de kost (credit)."
+            }
           ]
         }
       ],
@@ -227,8 +454,20 @@
         {
           "omschrijving": "Inboeken eindvoorraad HG volgens gewogen gemiddelde (30/04)",
           "regels": [
-            {"code": "340000", "naam": "Handelsgoederen (HG)", "debet": 62700.95, "credit": null, "reden": "Eindvoorraad 4 000 stuks x 15,6752 op de balans -> actief stijgt in debet."},
-            {"code": "609400", "naam": "Voorraadwijziging van handelsgoederen (HG)", "debet": null, "credit": 62700.95, "reden": "Geen beginvoorraad -> enkel inboeken eindvoorraad; voorraadtoename verlaagt de kost (credit)."}
+            {
+              "code": "340000",
+              "naam": "Handelsgoederen (HG)",
+              "debet": 62700.95,
+              "credit": null,
+              "reden": "Eindvoorraad 4 000 stuks x 15,6752 op de balans -> actief stijgt in debet."
+            },
+            {
+              "code": "609400",
+              "naam": "Voorraadwijziging van handelsgoederen (HG)",
+              "debet": null,
+              "credit": 62700.95,
+              "reden": "Geen beginvoorraad -> enkel inboeken eindvoorraad; voorraadtoename verlaagt de kost (credit)."
+            }
           ]
         }
       ],
@@ -237,41 +476,327 @@
     }
   ],
   "flashcards": [
-    {"vraag": "In welke klasse staan de voorraadrekeningen en aan welke kant stijgen ze?", "antwoord": "Klasse 3 (vlottend actief). Het zijn actiefrekeningen: ze stijgen in debet en dalen in credit.", "type": "logica"},
-    {"vraag": "Welke rekening gebruik je voor de aankoop van handelsgoederen tijdens het jaar?", "antwoord": "604000 Aankopen van handelsgoederen (HG), in debet, voor het bedrag exclusief btw.", "type": "mar-code"},
-    {"vraag": "Wat is het verschil tussen periodieke en permanente inventaris?", "antwoord": "Bij periodieke inventaris raak je de voorraadrekening tijdens het jaar niet aan en corrigeer je ze enkel op het einde van het boekjaar via de voorraadwijziging. Bij permanente inventaris pas je de voorraadrekening bij elke aan- en verkoop onmiddellijk aan.", "type": "begrip"},
-    {"vraag": "Welke voorraadwijzigingsrekening hoort bij handelsgoederen?", "antwoord": "609400 Voorraadwijziging van handelsgoederen (HG).", "type": "mar-code"},
-    {"vraag": "Welke voorraadwijzigingsrekeningen horen bij grondstoffen en hulpstoffen?", "antwoord": "609000 voor grondstoffen en 609100 voor hulpstoffen.", "type": "mar-code"},
-    {"vraag": "Welke tegenrekening gebruik je voor de voorraadwijziging van gereed product?", "antwoord": "713000 In de voorraad gereed producten (klasse 7, opbrengst). Geen 609-rekening, want gereed product is zelf geproduceerd.", "type": "mar-code"},
-    {"vraag": "Hoe boek je het uitboeken van de begininventaris HG?", "antwoord": "609400 in debet / 340000 in credit, voor het bedrag van de beginvoorraad.", "type": "logica"},
-    {"vraag": "Hoe boek je het inboeken van de eindinventaris HG?", "antwoord": "340000 in debet / 609400 in credit, voor het bedrag van de getelde eindvoorraad.", "type": "logica"},
-    {"vraag": "Wat betekent een creditsaldo op 609400 voor het resultaat?", "antwoord": "Een creditsaldo = voorraadtoename (eind > begin): de kost daalt en de winst stijgt.", "type": "begrip"},
-    {"vraag": "Wat betekent een debetsaldo op een 609-rekening voor het resultaat?", "antwoord": "Een debetsaldo = voorraaddaling (eind < begin): de kost stijgt en de winst daalt.", "type": "begrip"},
-    {"vraag": "Welke rekeningen gebruik je voor een waardevermindering op de handelsgoederenvoorraad?", "antwoord": "631000 waardeverm op voorraden (debet, kost) tegenover 349000 Geboekte waardeverm (-) (credit, min-actief).", "type": "mar-code"},
-    {"vraag": "Wat is het effect van een waardevermindering op voorraad op het resultaat?", "antwoord": "Het is een extra kost (631000) en verlaagt dus het resultaat (de winst).", "type": "begrip"},
-    {"vraag": "Wat houdt FIFO in?", "antwoord": "First in, first out: de eerst aangekochte goederen verkoop je eerst. De eindvoorraad bestaat uit de laatst (en bij stijgende prijzen duurst) gekochte stuks.", "type": "begrip"},
-    {"vraag": "Wat houdt LIFO in?", "antwoord": "Last in, first out: de laatst aangekochte goederen verkoop je eerst. De eindvoorraad bestaat uit de oudste stuks.", "type": "begrip"},
-    {"vraag": "Welke (-)-rekeningen horen bij 300000, 310000 en 340000?", "antwoord": "309000 (grondstoffen), 319000 (hulpstoffen) en 349000 (handelsgoederen). Het zijn geboekte-waardeverminderingsrekeningen die in credit staan.", "type": "mar-code"},
-    {"vraag": "Aan welke waarde boek je de eindvoorraad in bij de voorraadwijziging als er ook een waardevermindering is?", "antwoord": "Aan de aanschaffingswaarde via de voorraadwijziging (340000); de waardevermindering boek je apart via 631000/349000, zodat de aanschaffingswaarde zichtbaar blijft.", "type": "logica"}
+    {
+      "vraag": "In welke klasse staan de voorraadrekeningen en aan welke kant stijgen ze?",
+      "antwoord": "Klasse 3 (vlottend actief). Het zijn actiefrekeningen: ze stijgen in debet en dalen in credit.",
+      "type": "logica"
+    },
+    {
+      "vraag": "Welke rekening gebruik je voor de aankoop van handelsgoederen tijdens het jaar?",
+      "antwoord": "604000 Aankopen van handelsgoederen (HG), in debet, voor het bedrag exclusief btw.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Wat is het verschil tussen periodieke en permanente inventaris?",
+      "antwoord": "Bij periodieke inventaris raak je de voorraadrekening tijdens het jaar niet aan en corrigeer je ze enkel op het einde van het boekjaar via de voorraadwijziging. Bij permanente inventaris pas je de voorraadrekening bij elke aan- en verkoop onmiddellijk aan.",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Welke voorraadwijzigingsrekening hoort bij handelsgoederen?",
+      "antwoord": "609400 Voorraadwijziging van handelsgoederen (HG).",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Welke voorraadwijzigingsrekeningen horen bij grondstoffen en hulpstoffen?",
+      "antwoord": "609000 voor grondstoffen en 609100 voor hulpstoffen.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Welke tegenrekening gebruik je voor de voorraadwijziging van gereed product?",
+      "antwoord": "713000 In de voorraad gereed producten (klasse 7, opbrengst). Geen 609-rekening, want gereed product is zelf geproduceerd.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Hoe boek je het uitboeken van de begininventaris HG?",
+      "antwoord": "609400 in debet / 340000 in credit, voor het bedrag van de beginvoorraad.",
+      "type": "logica"
+    },
+    {
+      "vraag": "Hoe boek je het inboeken van de eindinventaris HG?",
+      "antwoord": "340000 in debet / 609400 in credit, voor het bedrag van de getelde eindvoorraad.",
+      "type": "logica"
+    },
+    {
+      "vraag": "Wat betekent een creditsaldo op 609400 voor het resultaat?",
+      "antwoord": "Een creditsaldo = voorraadtoename (eind > begin): de kost daalt en de winst stijgt.",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Wat betekent een debetsaldo op een 609-rekening voor het resultaat?",
+      "antwoord": "Een debetsaldo = voorraaddaling (eind < begin): de kost stijgt en de winst daalt.",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Welke rekeningen gebruik je voor een waardevermindering op de handelsgoederenvoorraad?",
+      "antwoord": "631000 waardeverm op voorraden (debet, kost) tegenover 349000 Geboekte waardeverm (-) (credit, min-actief).",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Wat is het effect van een waardevermindering op voorraad op het resultaat?",
+      "antwoord": "Het is een extra kost (631000) en verlaagt dus het resultaat (de winst).",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Wat houdt FIFO in?",
+      "antwoord": "First in, first out: de eerst aangekochte goederen verkoop je eerst. De eindvoorraad bestaat uit de laatst (en bij stijgende prijzen duurst) gekochte stuks.",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Wat houdt LIFO in?",
+      "antwoord": "Last in, first out: de laatst aangekochte goederen verkoop je eerst. De eindvoorraad bestaat uit de oudste stuks.",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Welke (-)-rekeningen horen bij 300000, 310000 en 340000?",
+      "antwoord": "309000 (grondstoffen), 319000 (hulpstoffen) en 349000 (handelsgoederen). Het zijn geboekte-waardeverminderingsrekeningen die in credit staan.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Aan welke waarde boek je de eindvoorraad in bij de voorraadwijziging als er ook een waardevermindering is?",
+      "antwoord": "Aan de aanschaffingswaarde via de voorraadwijziging (340000); de waardevermindering boek je apart via 631000/349000, zodat de aanschaffingswaarde zichtbaar blijft.",
+      "type": "logica"
+    }
   ],
   "veelgemaakteFouten": [
-    {"fout": "Een waardevermindering rechtstreeks op de voorraadrekening 340000 in credit boeken.", "correctie": "Gebruik de aparte min-rekening 349000 (credit) tegenover de kost 631000 (debet), zodat de aanschaffingswaarde op 340000 zichtbaar blijft."},
-    {"fout": "Het betaalde voorschot van 120 000 EUR als bedrag exclusief btw behandelen.", "correctie": "120 000 is het totaal incl. btw. Deel eerst door 1,21: 99 173,55 op 360000 Vooruitbetalingen en 20 826,45 btw op 411590; 440000 credit 120 000."},
-    {"fout": "De betaling per cheque rechtstreeks op 550000 boeken.", "correctie": "Een uitgeschreven (nog niet geïnde) bankcheque boek je op de min-rekening 550001 Bank - uitgeschreven cheques (-), in credit."},
-    {"fout": "De voorraadwijziging aan het brutobedrag van begin- of eindvoorraad boeken.", "correctie": "Bij een voorraadtoename volstaat het netto-verschil: 340000 debet / 609400 credit voor (eindvoorraad - beginvoorraad). De fiche boekt bv. 100 000 (400 000 - 300 000)."},
-    {"fout": "Denken dat een voorraadtoename de winst verlaagt.", "correctie": "Een voorraadtoename (eind > begin) verlaagt de kost en verhoogt dus de winst; een voorraaddaling doet het omgekeerde."},
-    {"fout": "De indirecte/algemene kosten verplicht in de vervaardigingsprijs opnemen.", "correctie": "De indirecte (administratie- en algemene) kosten zijn facultatief: vervaardigingsprijs = 400 000 mét of 370 000 zonder die 30 000."},
-    {"fout": "FIFO en LIFO door elkaar halen bij het waarderen van de eindvoorraad.", "correctie": "Bij FIFO blijven de jongste stuks in voorraad, bij LIFO de oudste. Bij stijgende prijzen geeft FIFO een hogere eindvoorraad (en winst) dan LIFO."},
-    {"fout": "Bij het gewogen gemiddelde maar één keer een gemiddelde berekenen.", "correctie": "Herbereken de gemiddelde eenheidsprijs na ELKE aankoop (15,4375 -> 16,7713 -> 15,6752). Verkopen gaan telkens aan de op dat moment geldende gemiddelde prijs."}
+    {
+      "fout": "Een waardevermindering rechtstreeks op de voorraadrekening 340000 in credit boeken.",
+      "correctie": "Gebruik de aparte min-rekening 349000 (credit) tegenover de kost 631000 (debet), zodat de aanschaffingswaarde op 340000 zichtbaar blijft."
+    },
+    {
+      "fout": "Het betaalde voorschot van 120 000 EUR als bedrag exclusief btw behandelen.",
+      "correctie": "120 000 is het totaal incl. btw. Deel eerst door 1,21: 99 173,55 op 360000 Vooruitbetalingen en 20 826,45 btw op 411590; 440000 credit 120 000."
+    },
+    {
+      "fout": "De betaling per cheque rechtstreeks op 550000 boeken.",
+      "correctie": "Een uitgeschreven (nog niet geïnde) bankcheque boek je op de min-rekening 550001 Bank - uitgeschreven cheques (-), in credit."
+    },
+    {
+      "fout": "De voorraadwijziging aan het brutobedrag van begin- of eindvoorraad boeken.",
+      "correctie": "Bij een voorraadtoename volstaat het netto-verschil: 340000 debet / 609400 credit voor (eindvoorraad - beginvoorraad). De fiche boekt bv. 100 000 (400 000 - 300 000)."
+    },
+    {
+      "fout": "Denken dat een voorraadtoename de winst verlaagt.",
+      "correctie": "Een voorraadtoename (eind > begin) verlaagt de kost en verhoogt dus de winst; een voorraaddaling doet het omgekeerde."
+    },
+    {
+      "fout": "De indirecte/algemene kosten verplicht in de vervaardigingsprijs opnemen.",
+      "correctie": "De indirecte (administratie- en algemene) kosten zijn facultatief: vervaardigingsprijs = 400 000 mét of 370 000 zonder die 30 000."
+    },
+    {
+      "fout": "FIFO en LIFO door elkaar halen bij het waarderen van de eindvoorraad.",
+      "correctie": "Bij FIFO blijven de jongste stuks in voorraad, bij LIFO de oudste. Bij stijgende prijzen geeft FIFO een hogere eindvoorraad (en winst) dan LIFO."
+    },
+    {
+      "fout": "Bij het gewogen gemiddelde maar één keer een gemiddelde berekenen.",
+      "correctie": "Herbereken de gemiddelde eenheidsprijs na ELKE aankoop (15,4375 -> 16,7713 -> 15,6752). Verkopen gaan telkens aan de op dat moment geldende gemiddelde prijs."
+    }
   ],
   "controlevragen": [
-    {"vraag": "Welke rekeningen gebruik je voor een waardevermindering op de handelsgoederenvoorraad en wat is het effect op het resultaat?", "antwoord": "631000 Waardeverminderingen voorraden - toevoeging (debet) tegenover 349000 Handelsgoederen - geboekte waardeverminderingen (credit). Het is een kost en verlaagt het resultaat."},
-    {"vraag": "Hoe boek je een voorschotfactuur van 120 000 EUR (incl. 21% btw) en de betaling per uitgeschreven bankcheque?", "antwoord": "Factuur: 360000 debet 99 173,55 + 411590 debet 20 826,45 / 440000 credit 120 000. Betaling: 440000 debet 120 000 / 550001 credit 120 000."},
-    {"vraag": "Beginvoorraad 300 000, eindvoorraad 20 000 stuks à 20 EUR. Hoe boek je de voorraadwijziging?", "antwoord": "Eindvoorraad = 400 000; toename = 400 000 - 300 000 = 100 000. Boeking: 340000 debet 100 000 / 609400 credit 100 000 (winst +100 000)."},
-    {"vraag": "Wat is de formule voor de vervaardigingsprijs van een zelf geproduceerd goed?", "antwoord": "Vervaardigingsprijs = aanschaffingsprijs grondstoffen + directe kosten + (facultatief) indirecte kosten. Voorbeeld: 250 000 + 120 000 + (30 000) = 400 000 (of 370 000 zonder de indirecte kosten)."},
-    {"vraag": "Een onderneming koopt 22 000 stuks en verkoopt er 18 000. Hoeveel stuks zitten in de eindvoorraad?", "antwoord": "22 000 - 18 000 = 4 000 stuks."},
-    {"vraag": "Geef de eindvoorraadwaarde van de april_oefening volgens FIFO, LIFO en gewogen gemiddelde (4 000 stuks).", "antwoord": "FIFO = 70 800,00 EUR; LIFO = 56 100,00 EUR; gewogen gemiddelde = 62 700,95 EUR (4 000 x 15,6752)."},
-    {"vraag": "Wat is het bedrijfsresultaat van Oefening 2 volgens FIFO en volgens LIFO?", "antwoord": "FIFO: Verkopen 918 000 + EV 272 000 - BV 0 - Aankopen 916 000 = 274 000. LIFO: 918 000 + 259 000 - 0 - 916 000 = 261 000."},
-    {"vraag": "Geeft FIFO of LIFO de hoogste eindvoorraadwaarde bij stijgende aankoopprijzen, en waarom?", "antwoord": "FIFO, omdat bij FIFO de laatst (en dus duurst) gekochte stuks in voorraad blijven, terwijl bij LIFO de oudere, goedkopere stuks in voorraad blijven."}
+    {
+      "vraag": "Welke rekeningen gebruik je voor een waardevermindering op de handelsgoederenvoorraad en wat is het effect op het resultaat?",
+      "antwoord": "631000 Waardeverminderingen voorraden - toevoeging (debet) tegenover 349000 Handelsgoederen - geboekte waardeverminderingen (credit). Het is een kost en verlaagt het resultaat."
+    },
+    {
+      "vraag": "Hoe boek je een voorschotfactuur van 120 000 EUR (incl. 21% btw) en de betaling per uitgeschreven bankcheque?",
+      "antwoord": "Factuur: 360000 debet 99 173,55 + 411590 debet 20 826,45 / 440000 credit 120 000. Betaling: 440000 debet 120 000 / 550001 credit 120 000."
+    },
+    {
+      "vraag": "Beginvoorraad 300 000, eindvoorraad 20 000 stuks à 20 EUR. Hoe boek je de voorraadwijziging?",
+      "antwoord": "Eindvoorraad = 400 000; toename = 400 000 - 300 000 = 100 000. Boeking: 340000 debet 100 000 / 609400 credit 100 000 (winst +100 000)."
+    },
+    {
+      "vraag": "Wat is de formule voor de vervaardigingsprijs van een zelf geproduceerd goed?",
+      "antwoord": "Vervaardigingsprijs = aanschaffingsprijs grondstoffen + directe kosten + (facultatief) indirecte kosten. Voorbeeld: 250 000 + 120 000 + (30 000) = 400 000 (of 370 000 zonder de indirecte kosten)."
+    },
+    {
+      "vraag": "Een onderneming koopt 22 000 stuks en verkoopt er 18 000. Hoeveel stuks zitten in de eindvoorraad?",
+      "antwoord": "22 000 - 18 000 = 4 000 stuks."
+    },
+    {
+      "vraag": "Geef de eindvoorraadwaarde van de april_oefening volgens FIFO, LIFO en gewogen gemiddelde (4 000 stuks).",
+      "antwoord": "FIFO = 70 800,00 EUR; LIFO = 56 100,00 EUR; gewogen gemiddelde = 62 700,95 EUR (4 000 x 15,6752)."
+    },
+    {
+      "vraag": "Wat is het bedrijfsresultaat van Oefening 2 volgens FIFO en volgens LIFO?",
+      "antwoord": "FIFO: Verkopen 918 000 + EV 272 000 - BV 0 - Aankopen 916 000 = 274 000. LIFO: 918 000 + 259 000 - 0 - 916 000 = 261 000."
+    },
+    {
+      "vraag": "Geeft FIFO of LIFO de hoogste eindvoorraadwaarde bij stijgende aankoopprijzen, en waarom?",
+      "antwoord": "FIFO, omdat bij FIFO de laatst (en dus duurst) gekochte stuks in voorraad blijven, terwijl bij LIFO de oudere, goedkopere stuks in voorraad blijven."
+    }
+  ],
+  "cursus": {
+    "vindplaats": "Deel IV, Hoofdstuk 6 - Voorraden en bestellingen in uitvoering (p. 411-432)",
+    "kernpunten": "## Wettelijke basis en indeling (KB WVV)\n\nHet boek vertrekt niet van de boekingstechniek maar van de **wetgeving**. De voorraadrekeningen staan in **klasse 3, groepen 30 t.e.m. 37** van het MAR (p. 413). De wetgever onderscheidt **'voorraden'** (aangekochte: grond- en hulpstoffen, handelsgoederen, onroerende goederen bestemd voor verkoop; geproduceerde: goederen in bewerking, gereed product; en vooruitbetalingen) van **'bestellingen in uitvoering'** (p. 411).\n\n- **Grondstoffen (30)** maken een **essentieel** bestanddeel uit van het eindproduct; **hulpstoffen (31)** zijn van **ondergeschikt** belang. Verpakkingsmateriaal dat afzonderlijk wordt aangerekend en niet teruggenomen wordt, hoort bij de hulpstoffen (p. 413).\n- **Goederen in bewerking (32)**: bij inventarisatie nog niet afgewerkt. **Gereed product (33)**: zelf geproduceerd en verkoopbaar. **Handelsgoederen (34)**: aangekocht om zonder of na lichte bewerking door te verkopen (p. 413).\n- **Bestellingen in uitvoering (37)** volgens **art. 3:89 KB WVV**: onderhanden werk, goederen in bewerking en dienstprestaties die op bestelling voor rekening van een derde worden gemaakt en nog niet geleverd/opgeleverd zijn, **tenzij het om seriewerk of standaarddienstprestaties gaat** (p. 414).\n\n## Aanschaffingswaarde en vervaardigingsprijs (art. 3:20, 3:21, 3:47 KB WVV)\n\nHet boek (p. 414-415) preciseert wat **aanschaffingswaarde** betekent:\n- a) een **vast bedrag** voor klein materieel en bestendig hernieuwde grond-/hulpstoffen van te verwaarlozen waarde (**art. 3:20**);\n- b) de **aanschaffingsprijs**; bij activa met **identieke technische of juridische kenmerken** mag men kiezen tussen individualisering, gewogen gemiddelde, FIFO of LIFO (**art. 3:21**);\n- c) de **vervaardigingsprijs** voor zelf geproduceerde voorraden (**art. 3:47, §2**), eventueel met **intercalaire interesten** (rente op vreemd vermogen) - maar enkel als productie/uitvoering **meer dan één jaar** bestrijkt (**art. 3:16, 2de lid**, p. 415).\n\n## Bestellingen in uitvoering: twee winstmethoden (art. 3:49)\n\nDit ontbreekt volledig in de bestaande samenvatting. Bestellingen in uitvoering worden gewaardeerd tegen vervaardigingsprijs, eventueel vermeerderd met de **als verworven te beschouwen winst** naarmate de werkzaamheden vorderen (**art. 3:49**, p. 415):\n- **Percentage of completion method**: winst stelselmatig toevoegen in functie van de vordering.\n- **Completed contract method**: winst pas op het einde als verworven beschouwen (voorzichtigheidsprincipe).\n\nBestellingen mogen rechtstreeks worden **gecompenseerd** met ontvangen vooruitbetalingen (debetsaldo = bestelling in uitvoering; creditsaldo = ontvangen vooruitbetaling); bij begin van elk boekjaar wordt de saldering teruggeboekt.\n\n## Waardeverminderingen, aanvullende en terugneming (art. 3:25, 3:27, 3:47, 3:48, 3:50)\n\nDe **lagere-marktwaarderegel** is een toepassing van het **voorzichtigheidsprincipe**: grond-/hulpstoffen, gereed product, handelsgoederen en onroerende goederen bestemd voor verkoop worden gewaardeerd tegen aanschaffingswaarde **of lagere marktwaarde** (**art. 3:47, §1**, p. 416). Voor **goederen in bewerking** (art. 3:48) en **bestellingen in uitvoering** (art. 3:50) geldt de test: vervaardigingsprijs + nog te maken kosten > nettoverkoopprijs/contractprijs -> waardevermindering.\n\nNuances die het boek benadrukt:\n- **Aanvullende** waardeverminderingen (art. 3:48, 2de lid) houden rekening met evolutie van realisatie-/marktwaarde of risico's eigen aan de activiteit.\n- **Terugneming** (art. 3:27): een geboekte waardevermindering mag **niet gehandhaafd** blijven als ze hoger is dan vereist; geboekt via **349000 debet / 631100 (Terugneming) credit** (p. 424).\n- **Voorzieningen** (art. 3:49, laatste lid) bij **ontoereikende** waardevermindering op bestellingen in uitvoering.\n- De lagere marktwaarde **mag niet behouden** blijven als de marktwaarde achteraf weer hoger is (geen 'bevriezing' van de lage waarde).\n\n## Jaarrekening: drie schema's (p. 425-429)\n\nIn het **volledige schema** worden de voorraadcategorieen apart getoond (grond- en hulpstoffen, goederen in bewerking, gereed product, handelsgoederen ...). In het **verkorte schema** en het **microschema** staat alles samen onder code **30/36 'Voorraden'** plus **37 'Bestellingen in uitvoering'** (p. 428). De gekozen waarderingstechniek (FIFO/LIFO/...) moet verplicht in de toelichting (staat VOL-kap 6.19 / VKT-kap 6.8 / MIC-kap 6.5) worden vermeld. De toevoeging en terugneming van waardeverminderingen verschijnen in staat VOL-kap 6.10.",
+    "begrippen": [
+      {
+        "term": "Voorraden vs. bestellingen in uitvoering",
+        "uitleg": "Voorraden zijn aangekochte of geproduceerde goederen; bestellingen in uitvoering hebben betrekking op diensten, prestaties en goederen die bij voorafgaande bestelling door de klant qua eigenschappen en prijs zijn gedefinieerd (p. 411)."
+      },
+      {
+        "term": "Grondstof vs. hulpstof",
+        "uitleg": "Een grondstof (rek. 30) is een essentieel bestanddeel van het te vervaardigen eindproduct; een hulpstof (rek. 31) is in het productieproces van ondergeschikt belang. Afzonderlijk aangerekend, niet teruggenomen verpakkingsmateriaal hoort bij de hulpstoffen (p. 413)."
+      },
+      {
+        "term": "Goederen in bewerking",
+        "uitleg": "De waarde van goederen of prestaties die bij inventarisatie nog niet afgewerkt waren (rek. 32), bv. deeg dat nog tot brood wordt verwerkt (p. 413)."
+      },
+      {
+        "term": "Bestellingen in uitvoering (art. 3:89 KB WVV)",
+        "uitleg": "Onderhanden werk, goederen in bewerking en dienstprestaties die op bestelling voor rekening van een derde gemaakt/uitgevoerd worden en nog niet (op)geleverd zijn, tenzij het om seriewerk of een standaardtype dienstprestatie gaat (rek. 37, p. 414)."
+      },
+      {
+        "term": "Aanschaffingswaarde",
+        "uitleg": "Naargelang het geval: een vast bedrag (art. 3:20), de aanschaffingsprijs (art. 3:21) of de vervaardigingsprijs (art. 3:47, §2). Het is de basiswaarde waartegen voorraden in het actief worden opgenomen (p. 414-415)."
+      },
+      {
+        "term": "Vervaardigingsprijs",
+        "uitleg": "De waarderingsbasis voor zelf geproduceerde voorraden (goederen in bewerking, gereed product): aanschaffingsprijs van de grond-/hulpstoffen plus directe en (facultatief) indirecte productiekosten (art. 3:47, §2, p. 415-416)."
+      },
+      {
+        "term": "Intercalaire interesten",
+        "uitleg": "Rente op vreemd vermogen dat de productie financiert, mag slechts in de vervaardigingsprijs worden opgenomen voor zover de productie/uitvoering meer dan één jaar bestrijkt en de rente op de normale productieperiode betrekking heeft (art. 3:16, 2de lid, p. 415)."
+      },
+      {
+        "term": "Voorzichtigheidsprincipe (lagere marktwaarde)",
+        "uitleg": "Voorraden worden gewaardeerd tegen aanschaffingswaarde of tegen de lagere marktwaarde op balansdatum; is de marktwaarde lager, dan moet die lagere waarde worden gebruikt (art. 3:47, §1, p. 416, 423)."
+      },
+      {
+        "term": "Aanvullende waardevermindering",
+        "uitleg": "Extra waardevermindering (art. 3:48, 2de lid) om rekening te houden met de evolutie van de realisatie- of marktwaarde of met risico's inherent aan de aard van de producten of de gevoerde activiteit (p. 416)."
+      },
+      {
+        "term": "Terugneming van waardevermindering (art. 3:27)",
+        "uitleg": "Een eerder geboekte waardevermindering mag niet worden gehandhaafd voor zover ze hoger is dan vereist volgens een actuele beoordeling; ze wordt geheel of gedeeltelijk teruggenomen via 349000 / 631100 (p. 424)."
+      },
+      {
+        "term": "Percentage of completion method",
+        "uitleg": "Waarderingsmethode voor bestellingen in uitvoering waarbij de winst stelselmatig wordt toegevoegd naarmate de werkzaamheden vorderen (art. 3:49, p. 415)."
+      },
+      {
+        "term": "Completed contract method",
+        "uitleg": "Waarderingsmethode waarbij de winst van een bestelling in uitvoering pas op het einde van de werkzaamheden als verworven wordt beschouwd; toepassing van het voorzichtigheidsprincipe (art. 3:49, p. 415)."
+      },
+      {
+        "term": "Compensatie met ontvangen vooruitbetalingen",
+        "uitleg": "Bestellingen in uitvoering mogen per overeenkomst rechtstreeks gecompenseerd worden met ontvangen vooruitbetalingen: een debetsaldo verschijnt als bestelling in uitvoering, een creditsaldo als ontvangen vooruitbetaling; bij begin van elk boekjaar wordt de saldering teruggeboekt (art. 3:49, p. 415)."
+      },
+      {
+        "term": "Geboekte waardeverminderingen (-)-rekening",
+        "uitleg": "Correctierekening (309000, 319000, 329000, 349000, 369000, 379000) die in min op de aanschaffingswaarde van de bijbehorende voorraadrekening staat, zodat de aanschaffingswaarde zichtbaar blijft (p. 412, 423-424)."
+      }
+    ]
+  },
+  "meerkeuze": [
+    {
+      "vraag": "In welke MAR-klasse en groepen vinden we de rekeningen voor voorraden en bestellingen in uitvoering terug?",
+      "opties": [
+        "Klasse 2, groepen 20 t.e.m. 28",
+        "Klasse 3, groepen 30 t.e.m. 37",
+        "Klasse 4, groepen 40 t.e.m. 41",
+        "Klasse 6, groepen 60 t.e.m. 64"
+      ],
+      "juist": 1,
+      "uitleg": "Het boek (p. 413) plaatst de voorraadrekeningen in klasse 3, groepen 30 (grondstoffen) t.e.m. 37 (bestellingen in uitvoering). Klasse 2 zijn de vaste activa, klasse 4 de vorderingen/schulden, klasse 6 de kosten."
+    },
+    {
+      "vraag": "Wat is het verschil tussen een grondstof en een hulpstof?",
+      "opties": [
+        "Een grondstof wordt aangekocht, een hulpstof zelf geproduceerd",
+        "Een grondstof is een essentieel bestanddeel van het eindproduct, een hulpstof is in het productieproces van ondergeschikt belang",
+        "Een grondstof staat in het vast actief, een hulpstof in het vlottend actief",
+        "Een grondstof wordt gewaardeerd tegen vervaardigingsprijs, een hulpstof tegen marktwaarde"
+      ],
+      "juist": 1,
+      "uitleg": "Volgens p. 413 maakt de grondstof (rek. 30) een essentieel bestanddeel uit van het eindproduct, terwijl de hulpstof (rek. 31) van ondergeschikt belang is. Beide worden aangekocht en staan beide in het vlottend actief, dus de andere opties zijn fout."
+    },
+    {
+      "vraag": "Bij activa met identieke technische of juridische kenmerken laat art. 3:21 KB WVV welke waarderingstechnieken toe?",
+      "opties": [
+        "Enkel de individuele prijs",
+        "Enkel FIFO of LIFO",
+        "Individuele prijs, gewogen gemiddelde, FIFO of LIFO",
+        "Enkel de marktwaarde op balansdatum"
+      ],
+      "juist": 2,
+      "uitleg": "Art. 3:21 KB WVV (p. 414) geeft de keuze tussen individualisering van de prijs, de methode van gewogen gemiddelde prijzen, FIFO (eerst in - eerst uit) en LIFO (laatst in - eerst uit). De andere opties zijn onvolledig of onjuist."
+    },
+    {
+      "vraag": "Wanneer mag de rente op vreemd vermogen (intercalaire interesten) in de vervaardigingsprijs van voorraden worden opgenomen?",
+      "opties": [
+        "Altijd, ongeacht de productieduur",
+        "Nooit, rente is steeds een financiële kost",
+        "Enkel voor zover de productie of uitvoering meer dan één jaar bestrijkt en op de normale productieperiode betrekking heeft",
+        "Enkel bij handelsgoederen"
+      ],
+      "juist": 2,
+      "uitleg": "Art. 3:16, 2de lid KB WVV (p. 415) staat opname van die rente slechts toe als de productie/uitvoering meer dan één jaar bestrijkt en de rente op de normale productieperiode betrekking heeft. Bij handelsgoederen is er geen eigen productie, dus optie 4 is fout."
+    },
+    {
+      "vraag": "Een onderneming voegt de winst van een bestelling in uitvoering stelselmatig toe naarmate de werkzaamheden vorderen. Welke methode hanteert ze?",
+      "opties": [
+        "Completed contract method",
+        "Percentage of completion method",
+        "Gewogen gemiddelde methode",
+        "LIFO-methode"
+      ],
+      "juist": 1,
+      "uitleg": "Volgens art. 3:49 KB WVV (p. 415) waardeert wie de winst stelselmatig toevoegt in functie van de vordering volgens de 'percentage of completion method'. Wie pas op het einde de winst als verworven beschouwt, gebruikt de 'completed contract method'. FIFO/LIFO en gewogen gemiddelde slaan op voorraadwaardering, niet op bestellingen in uitvoering."
+    },
+    {
+      "vraag": "Hoe moet een voorraad gewaardeerd worden als de marktwaarde op balansdatum lager is dan de aanschaffingswaarde?",
+      "opties": [
+        "Aan de aanschaffingswaarde, want die is bewezen",
+        "Aan het gemiddelde van aanschaffingswaarde en marktwaarde",
+        "Aan de lagere marktwaarde, uit voorzichtigheidsprincipe",
+        "Aan de hoogste van beide waarden"
+      ],
+      "juist": 2,
+      "uitleg": "Art. 3:47, §1 KB WVV (p. 416, 423) verplicht de waardering tegen de lagere marktwaarde als toepassing van het voorzichtigheidsprincipe. Een gemiddelde of de hoogste waarde nemen is niet toegestaan."
+    },
+    {
+      "vraag": "Bij een kwaliteitscontrole stelt bv SUPER GAME vast dat 500 games (aangekocht aan 44 EUR/stuk) onverkoopbaar zijn en herleidt hun waarde tot nul. Welke boeking maakt zij (p. 423-424)?",
+      "opties": [
+        "6310 Waardeverminderingen op voorraden - toevoeging 22 000 / 349 Geboekte waardeverminderingen 22 000",
+        "340 Handelsgoederen 22 000 / 6094 Voorraadwijzigingen 22 000",
+        "6094 Voorraadwijzigingen 22 000 / 340 Handelsgoederen 22 000",
+        "631 Waardeverminderingen 22 000 / 440 Leveranciers 22 000"
+      ],
+      "juist": 0,
+      "uitleg": "500 x 44 = 22 000 EUR. Het boek (p. 424) debiteert 6310 'Waardeverminderingen op voorraden - toevoeging' (een extra bedrijfskost) en crediteert de correctierekening 349 'Handelsgoederen - geboekte waardeverminderingen'. De voorraadwijziging (6094/340) dient om de aanschaffingswaarde naar de eindvoorraad te brengen, niet voor een waardevermindering."
+    },
+    {
+      "vraag": "Een eerder geboekte waardevermindering op handelsgoederen blijkt het volgende boekjaar te hoog. Hoe boekt men de terugneming (art. 3:27 KB WVV)?",
+      "opties": [
+        "349 Geboekte waardeverminderingen (debet) / 6311 Waardeverminderingen op voorraden - terugneming (credit)",
+        "6310 Waardeverminderingen - toevoeging (debet) / 349 Geboekte waardeverminderingen (credit)",
+        "340 Handelsgoederen (debet) / 760 Terugneming (credit)",
+        "6311 Terugneming (debet) / 340 Handelsgoederen (credit)"
+      ],
+      "juist": 0,
+      "uitleg": "Bij een gunstiger evolutie wordt de waardevermindering teruggenomen door 349 'Handelsgoederen - geboekte waardeverminderingen' te debiteren en 6311 'Waardeverminderingen op voorraden - terugneming (-)' te crediteren (p. 424). Optie 2 is net de oorspronkelijke toevoeging."
+    },
+    {
+      "vraag": "In de balans volgens het verkorte schema en het microschema worden de voorraden hoe gepresenteerd?",
+      "opties": [
+        "Per categorie afzonderlijk (grond- en hulpstoffen, gereed product, handelsgoederen ...)",
+        "Samengevoegd onder één post 'Voorraden' (code 30/36), naast 'Bestellingen in uitvoering' (37), zonder onderscheid per categorie",
+        "Volledig weggelaten, enkel in de toelichting",
+        "Enkel als gereed product en handelsgoederen"
+      ],
+      "juist": 1,
+      "uitleg": "Het boek (p. 428) stelt dat in het verkorte schema en het microschema geen onderscheid wordt gemaakt tussen de categorieen: alles staat samen onder 'Voorraden' (code 30/36) met daarnaast 'Bestellingen in uitvoering' (37). Het volledige schema toont wél elke categorie apart."
+    },
+    {
+      "vraag": "Voor zelf geproduceerde goederen in bewerking en gereed product geldt als waarderingsbasis:",
+      "opties": [
+        "De aanschaffingsprijs van handelsgoederen",
+        "De vervaardigingsprijs, of de lagere marktwaarde op balansdatum",
+        "Steeds de contractprijs",
+        "De aanschaffingswaarde verhoogd met de verworven winst"
+      ],
+      "juist": 1,
+      "uitleg": "Goederen in bewerking en gereed product worden gewaardeerd tegen vervaardigingsprijs, of tegen de lagere marktprijs op balansdatum (p. 416, 424, art. 3:47, §2). De verworven winst (optie 4) geldt enkel voor bestellingen in uitvoering (art. 3:49)."
+    }
   ]
 }

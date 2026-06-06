@@ -11,76 +11,244 @@
     "Vastrentende effecten en aandelen als geldbelegging (klasse 5) en als FVA (klasse 28) boeken, met aankoopkosten op 659000 en roerende voorheffing op 670000.",
     "Termijndeposito's (530000/531000/532000) en interne overboekingen tussen kas en bank correct verwerken via de overbruggingsrekening 580000, die na de twee boekingen op nul staat."
   ],
-  "samenvatting": "## Financiële vaste activa, geldbeleggingen & liquide middelen\n\nDit thema gaat over geld dat de onderneming heeft *uitgezet* of *aanhoudt*. De grote vraag is telkens: **hoe lang en met welke bedoeling**? Dat bepaalt de klasse: duurzaam/strategisch = **klasse 28 (FVA)**, tijdelijk belegd = **klasse 50-53 (geldbeleggingen)**, direct beschikbaar = **klasse 54-58 (liquide middelen)**.\n\n### 1. Deelnemingsverhoudingen herkennen (oefening 1 van de fiche)\n\nEen onderneming kan via aandelen een **rechtstreekse** band hebben (ze bezit zelf de aandelen) én een **onrechtstreekse** band (via een tussenliggende onderneming). Voor de kwalificatie tel je beide samen:\n\n- **Dochteronderneming / verbonden onderneming:** je hebt de **controle** (meestal > 50% van de stemrechten, eventueel rechtstreeks + onrechtstreeks). Boek je op de **280000-reeks** (*Deelnemingen in verbonden ondernemingen*).\n- **Deelnemingsverhouding:** je hebt **minstens 10%** (een duurzame band zonder controle). Boek je op de **282000-reeks** (*Deelnemingen waarmee een deelnemingsverhouding bestaat*).\n- Heb je rechtstreeks 30% van M in B en daarnaast onrechtstreeks 30% via C, dan tel je samen → > 50% → **verbonden onderneming**. Heb je rechtstreeks 8% en onrechtstreeks 20%, dan kom je samen aan 28% → **deelnemingsverhouding** (≥ 10%, geen controle).\n\n### 2. De 280-/282-reeks en haar subrekeningen\n\nVoor élke deelneming bestaat dezelfde set rekeningen (xx = 80 voor verbonden, 82 voor deelnemingsverhouding):\n\n- **280000 / 282000** — aanschaffingswaarde (debet, het actief).\n- **280100 / 282100** — *Nog te storten bedragen (-)* (credit): het deel van het opgevraagd kapitaal dat je nog moet volstorten.\n- **280800 / 282800** — *Geboekte meerwaarden* (debet): de geboekte herwaardering bovenop de aanschaffingswaarde.\n- **280900 / 282900** — *Geboekte waardeverminderingen (-)* (credit): de duurzame waardedaling.\n- **281000** — *Vorderingen op verbonden ondernemingen*; **283000** — *Vorderingen op rekening* (een lening die je op lange termijn aan zo'n onderneming toekent).\n\n**Aankoop met nog te storten kapitaal:** bv. je tekent in op een kapitaalverhoging voor 1.250.000 EUR maar het kapitaal is nog niet volgestort:\n1. `280000 debet 1.250.000 / 280100 credit 1.250.000` (je verwerft de deelneming, maar moet nog storten).\n2. Bij elke volstorting: `280100 debet / 550000 credit`.\n\n### 3. Herwaarderingsmeerwaarde en waardevermindering\n\n- **Herwaarderingsmeerwaarde** (duurzame, vaststaande waardestijging): `280800 (of 282800) debet / 122000 Herwaarderingsmeerwaarden op FVA credit`. Het eigen vermogen stijgt.\n- **Waardevermindering** (duurzame waardedaling): `661000 Waardeverminderingen op FVA debet / 280900 (of 282900) credit`. De terugneming gebeurt via `761000`.\n- **Fiscaal voordeligste registratie:** wil je een participatie herwaarderen waarop al een waardevermindering geboekt staat, dan **neem je eerst de waardevermindering terug** (28x900 debet / 122000 credit) en boek je pas het overschot als geboekte meerwaarde (28x800 debet / 122000 credit). Vóór een verkoop draai je de herwaarderingsmeerwaarde altijd eerst terug (`122000 / 28x800`).\n\n### 4. Realisatie (verkoop) van een deelneming\n\nBij verkoop crediteer je de deelneming tegen de **aanschaffingswaarde** en boek je het verschil met de verkoopprijs als meer- of minderwaarde:\n- Verkoop boven aanschaffingswaarde → **meerwaarde** op **763000 Meerwaarden op de realisatie van FVA** (opbrengst, credit).\n- Verkoop onder aanschaffingswaarde → **minderwaarde** op **663000 Minderwaarden op de realisatie van vaste activa** (kost, debet).\n\n### 5. Vastrentende effecten en geldbeleggingen\n\n**Vastrentende effecten** (obligaties, kasbons): als **permanente belegging (FVA)** op **285200 Vastrentende effecten**. De aankoopkosten mag je **activeren** (mee in de aanschaffingswaarde) óf apart boeken op **659000 Aankoopkosten effecten** — de fiche vraagt beide varianten.\n\n**Aandelen als geldbelegging (510000)** koop je voor de korte termijn. De **roerende voorheffing** op de financiële opbrengst boek je op **670000 Belastingen** (verschuldigde voorheffingen), de netto-opbrengst op **751000 Opbrengsten uit vlottende activa**. Een waardevermindering boek je via **651000** (kost) / **519000** (-)-rekening.\n\n### 6. Termijndeposito's en liquide middelen (klasse 53-58)\n\n**Termijndeposito's** op basis van de looptijd: **530000** (> 1 jaar), **531000** (> 1 maand en < 1 jaar), **532000** (ten hoogste 1 maand). Plaatsen en vrijval lopen via de overbruggingsrekening **580000 Interne overboekingen**.\n\n**Interne overboekingen (580000):** elke keer dat geld tussen kas (570000) en bank (550000) beweegt, of tussen rekeningen, gebruik je 580000 als tussenrekening. Voorbeeld: 750 EUR uit de kas naar de bank → `580000 debet 750 / 570000 credit 750` (kasstuk), daarna `550000 debet 750 / 580000 credit 750` (rekeninguittreksel). Na beide boekingen staat **580000 op nul** — dat is de controle.\n\n### Samengevat\n\n- **Deelnemingsverhouding** = rechtstreeks + onrechtstreeks ≥ 10% (282-reeks); **verbonden onderneming** = controle/> 50% (280-reeks).\n- Aankoop niet-volgestort → werk met **nog te storten bedragen** (280100/282100).\n- **Herwaardering** → 28x800 / 122000; **waardevermindering** → 661000 / 28x900. Vóór verkoop herwaardering terugdraaien.\n- **Verkoop** → crediteer tegen aanschaffingswaarde, verschil = meerwaarde (763000) of minderwaarde (663000).\n- **Termijndeposito's** 530/531/532 op looptijd; **alle transferten via 580000**, dat nadien op nul staat."
-,
+  "samenvatting": "## Financiële vaste activa, geldbeleggingen & liquide middelen\n\nDit thema gaat over geld dat de onderneming heeft *uitgezet* of *aanhoudt*. De grote vraag is telkens: **hoe lang en met welke bedoeling**? Dat bepaalt de klasse: duurzaam/strategisch = **klasse 28 (FVA)**, tijdelijk belegd = **klasse 50-53 (geldbeleggingen)**, direct beschikbaar = **klasse 54-58 (liquide middelen)**.\n\n### 1. Deelnemingsverhoudingen herkennen (oefening 1 van de fiche)\n\nEen onderneming kan via aandelen een **rechtstreekse** band hebben (ze bezit zelf de aandelen) én een **onrechtstreekse** band (via een tussenliggende onderneming). Voor de kwalificatie tel je beide samen:\n\n- **Dochteronderneming / verbonden onderneming:** je hebt de **controle** (meestal > 50% van de stemrechten, eventueel rechtstreeks + onrechtstreeks). Boek je op de **280000-reeks** (*Deelnemingen in verbonden ondernemingen*).\n- **Deelnemingsverhouding:** je hebt **minstens 10%** (een duurzame band zonder controle). Boek je op de **282000-reeks** (*Deelnemingen waarmee een deelnemingsverhouding bestaat*).\n- Heb je rechtstreeks 30% van M in B en daarnaast onrechtstreeks 30% via C, dan tel je samen → > 50% → **verbonden onderneming**. Heb je rechtstreeks 8% en onrechtstreeks 20%, dan kom je samen aan 28% → **deelnemingsverhouding** (≥ 10%, geen controle).\n\n### 2. De 280-/282-reeks en haar subrekeningen\n\nVoor élke deelneming bestaat dezelfde set rekeningen (xx = 80 voor verbonden, 82 voor deelnemingsverhouding):\n\n- **280000 / 282000** — aanschaffingswaarde (debet, het actief).\n- **280100 / 282100** — *Nog te storten bedragen (-)* (credit): het deel van het opgevraagd kapitaal dat je nog moet volstorten.\n- **280800 / 282800** — *Geboekte meerwaarden* (debet): de geboekte herwaardering bovenop de aanschaffingswaarde.\n- **280900 / 282900** — *Geboekte waardeverminderingen (-)* (credit): de duurzame waardedaling.\n- **281000** — *Vorderingen op verbonden ondernemingen*; **283000** — *Vorderingen op rekening* (een lening die je op lange termijn aan zo'n onderneming toekent).\n\n**Aankoop met nog te storten kapitaal:** bv. je tekent in op een kapitaalverhoging voor 1.250.000 EUR maar het kapitaal is nog niet volgestort:\n1. `280000 debet 1.250.000 / 280100 credit 1.250.000` (je verwerft de deelneming, maar moet nog storten).\n2. Bij elke volstorting: `280100 debet / 550000 credit`.\n\n### 3. Herwaarderingsmeerwaarde en waardevermindering\n\n- **Herwaarderingsmeerwaarde** (duurzame, vaststaande waardestijging): `280800 (of 282800) debet / 122000 Herwaarderingsmeerwaarden op FVA credit`. Het eigen vermogen stijgt.\n- **Waardevermindering** (duurzame waardedaling): `661000 Waardeverminderingen op FVA debet / 280900 (of 282900) credit`. De terugneming gebeurt via `761000`.\n- **Fiscaal voordeligste registratie:** wil je een participatie herwaarderen waarop al een waardevermindering geboekt staat, dan **neem je eerst de waardevermindering terug** (28x900 debet / 122000 credit) en boek je pas het overschot als geboekte meerwaarde (28x800 debet / 122000 credit). Vóór een verkoop draai je de herwaarderingsmeerwaarde altijd eerst terug (`122000 / 28x800`).\n\n### 4. Realisatie (verkoop) van een deelneming\n\nBij verkoop crediteer je de deelneming tegen de **aanschaffingswaarde** en boek je het verschil met de verkoopprijs als meer- of minderwaarde:\n- Verkoop boven aanschaffingswaarde → **meerwaarde** op **763000 Meerwaarden op de realisatie van FVA** (opbrengst, credit).\n- Verkoop onder aanschaffingswaarde → **minderwaarde** op **663000 Minderwaarden op de realisatie van vaste activa** (kost, debet).\n\n### 5. Vastrentende effecten en geldbeleggingen\n\n**Vastrentende effecten** (obligaties, kasbons): als **permanente belegging (FVA)** op **285200 Vastrentende effecten**. De aankoopkosten mag je **activeren** (mee in de aanschaffingswaarde) óf apart boeken op **659000 Aankoopkosten effecten** — de fiche vraagt beide varianten.\n\n**Aandelen als geldbelegging (510000)** koop je voor de korte termijn. De **roerende voorheffing** op de financiële opbrengst boek je op **670000 Belastingen** (verschuldigde voorheffingen), de netto-opbrengst op **751000 Opbrengsten uit vlottende activa**. Een waardevermindering boek je via **651000** (kost) / **519000** (-)-rekening.\n\n### 6. Termijndeposito's en liquide middelen (klasse 53-58)\n\n**Termijndeposito's** op basis van de looptijd: **530000** (> 1 jaar), **531000** (> 1 maand en < 1 jaar), **532000** (ten hoogste 1 maand). Plaatsen en vrijval lopen via de overbruggingsrekening **580000 Interne overboekingen**.\n\n**Interne overboekingen (580000):** elke keer dat geld tussen kas (570000) en bank (550000) beweegt, of tussen rekeningen, gebruik je 580000 als tussenrekening. Voorbeeld: 750 EUR uit de kas naar de bank → `580000 debet 750 / 570000 credit 750` (kasstuk), daarna `550000 debet 750 / 580000 credit 750` (rekeninguittreksel). Na beide boekingen staat **580000 op nul** — dat is de controle.\n\n### Samengevat\n\n- **Deelnemingsverhouding** = rechtstreeks + onrechtstreeks ≥ 10% (282-reeks); **verbonden onderneming** = controle/> 50% (280-reeks).\n- Aankoop niet-volgestort → werk met **nog te storten bedragen** (280100/282100).\n- **Herwaardering** → 28x800 / 122000; **waardevermindering** → 661000 / 28x900. Vóór verkoop herwaardering terugdraaien.\n- **Verkoop** → crediteer tegen aanschaffingswaarde, verschil = meerwaarde (763000) of minderwaarde (663000).\n- **Termijndeposito's** 530/531/532 op looptijd; **alle transferten via 580000**, dat nadien op nul staat.",
   "kernrekeningen": [
-    {"code": "280000", "naam": "Deelnemingen in verbonden ondernemingen", "natuur": "debet", "wanneer": "Aanschaffingswaarde van een deelneming in een verbonden onderneming/dochteronderneming (controle, meestal > 50%). Subrekeningen: 280100 nog te storten, 280800 geboekte meerwaarden, 280900 geboekte waardeverminderingen."},
-    {"code": "282000", "naam": "Deelnemingen deelnemingsverhouding", "natuur": "debet", "wanneer": "Aanschaffingswaarde van een deelneming waarmee een deelnemingsverhouding bestaat (≥ 10%, geen controle). Subrekeningen: 282100, 282800, 282900."},
-    {"code": "280100", "naam": "Nog te storten bedragen (-)", "natuur": "credit", "wanneer": "Het nog niet volgestorte deel van een deelneming in een verbonden onderneming. (-)-rekening, credit. Bij volstorting: 280100 debet / 550000 credit. Voor deelnemingsverhouding: 282100."},
-    {"code": "281000", "naam": "Vorderingen op verbonden ondernemingen", "natuur": "debet", "wanneer": "Een lening op lange termijn aan een verbonden onderneming/dochter. Voor een deelnemingsverhouding: 283000 Vorderingen op rekening."},
-    {"code": "122000", "naam": "HWMW op financiële vaste activa", "natuur": "credit", "wanneer": "Herwaarderingsmeerwaarde op een FVA (eigen vermogen). Tegenpost van 280800/282800. Terugdraaien vóór verkoop: 122000 debet / 28x800 credit."},
-    {"code": "661000", "naam": "waardeverm op financiële vaste activa (toevoeging)", "natuur": "debet", "wanneer": "Toevoeging van een waardevermindering op een FVA (kost). Tegenpost: 280900/282900. Terugneming via 761000."},
-    {"code": "763000", "naam": "Meerwaarden op de realisatie van", "natuur": "credit", "wanneer": "Meerwaarde bij verkoop van een financieel vast actief (verkoopprijs hoger dan aanschaffingswaarde). De fiche noemt dit 'Meerwaarden op realisatie van FVA'."},
-    {"code": "285200", "naam": "Vastrentende effecten", "natuur": "debet", "wanneer": "Vastrentende effecten (obligaties, kasbons) als permanente belegging. Aankoopkosten activeren in de aanschaffingswaarde of apart op 659000."},
-    {"code": "659000", "naam": "Aankoopkosten effecten", "natuur": "debet", "wanneer": "Aankoopkosten van effecten wanneer ze NIET geactiveerd worden in de aanschaffingswaarde (financiële kost)."},
-    {"code": "510000", "naam": "Aandelen", "natuur": "debet", "wanneer": "Aandelen als geldbelegging (klasse 5, korte termijn). Waardevermindering via 519000; opbrengst (na roerende voorheffing) via 751000."},
-    {"code": "519000", "naam": "Geboekte waardeverm (-)", "natuur": "credit", "wanneer": "Geboekte waardevermindering op aandelen-geldbeleggingen (510000). (-)-rekening, credit. Tegenpost van de kost 651000."},
-    {"code": "531000", "naam": "Termijndeposito's > 1 maand en < 1 jaar", "natuur": "debet", "wanneer": "Termijndeposito met looptijd tussen 1 maand en 1 jaar. Varianten: 530000 (> 1 jaar), 532000 (ten hoogste 1 maand). Plaatsing en vrijval via 580000."},
-    {"code": "670000", "naam": "Belastingen", "natuur": "debet", "wanneer": "De ingehouden roerende voorheffing op financiële opbrengsten (de fiche noemt deze rekening 'Verschuldigde voorheffingen'). Debet voor het ingehouden bedrag."},
-    {"code": "751000", "naam": "Opbrengsten uit vlottende activa", "natuur": "credit", "wanneer": "Bruto-interest/dividend op een geldbelegging (termijndeposito, kasbon, belegde aandelen). Opbrengst → credit."},
-    {"code": "750000", "naam": "Opbrengsten uit financiële vaste activa", "natuur": "credit", "wanneer": "Interest/dividend op een financieel vast actief (bv. interest op een lening aan een dochter, 281000). Opbrengst → credit."},
-    {"code": "580000", "naam": "Interne overboekingen", "natuur": "debet", "wanneer": "Overbruggingsrekening voor alle transferten (kas ↔ bank, plaatsing/vrijval termijndeposito, stortingen bij meerdere banken). Staat na de twee boekingen op nul."},
-    {"code": "550000", "naam": "Kredietinstellingen", "natuur": "debet", "wanneer": "De bankrekening (liquide middel). Debet bij ontvangst, credit bij betaling. Verwante rekeningen: 570000 kas."}
+    {
+      "code": "280000",
+      "naam": "Deelnemingen in verbonden ondernemingen",
+      "natuur": "debet",
+      "wanneer": "Aanschaffingswaarde van een deelneming in een verbonden onderneming/dochteronderneming (controle, meestal > 50%). Subrekeningen: 280100 nog te storten, 280800 geboekte meerwaarden, 280900 geboekte waardeverminderingen."
+    },
+    {
+      "code": "282000",
+      "naam": "Deelnemingen deelnemingsverhouding",
+      "natuur": "debet",
+      "wanneer": "Aanschaffingswaarde van een deelneming waarmee een deelnemingsverhouding bestaat (≥ 10%, geen controle). Subrekeningen: 282100, 282800, 282900."
+    },
+    {
+      "code": "280100",
+      "naam": "Nog te storten bedragen (-)",
+      "natuur": "credit",
+      "wanneer": "Het nog niet volgestorte deel van een deelneming in een verbonden onderneming. (-)-rekening, credit. Bij volstorting: 280100 debet / 550000 credit. Voor deelnemingsverhouding: 282100."
+    },
+    {
+      "code": "281000",
+      "naam": "Vorderingen op verbonden ondernemingen",
+      "natuur": "debet",
+      "wanneer": "Een lening op lange termijn aan een verbonden onderneming/dochter. Voor een deelnemingsverhouding: 283000 Vorderingen op rekening."
+    },
+    {
+      "code": "122000",
+      "naam": "HWMW op financiële vaste activa",
+      "natuur": "credit",
+      "wanneer": "Herwaarderingsmeerwaarde op een FVA (eigen vermogen). Tegenpost van 280800/282800. Terugdraaien vóór verkoop: 122000 debet / 28x800 credit."
+    },
+    {
+      "code": "661000",
+      "naam": "waardeverm op financiële vaste activa (toevoeging)",
+      "natuur": "debet",
+      "wanneer": "Toevoeging van een waardevermindering op een FVA (kost). Tegenpost: 280900/282900. Terugneming via 761000."
+    },
+    {
+      "code": "763000",
+      "naam": "Meerwaarden op de realisatie van",
+      "natuur": "credit",
+      "wanneer": "Meerwaarde bij verkoop van een financieel vast actief (verkoopprijs hoger dan aanschaffingswaarde). De fiche noemt dit 'Meerwaarden op realisatie van FVA'."
+    },
+    {
+      "code": "285200",
+      "naam": "Vastrentende effecten",
+      "natuur": "debet",
+      "wanneer": "Vastrentende effecten (obligaties, kasbons) als permanente belegging. Aankoopkosten activeren in de aanschaffingswaarde of apart op 659000."
+    },
+    {
+      "code": "659000",
+      "naam": "Aankoopkosten effecten",
+      "natuur": "debet",
+      "wanneer": "Aankoopkosten van effecten wanneer ze NIET geactiveerd worden in de aanschaffingswaarde (financiële kost)."
+    },
+    {
+      "code": "510000",
+      "naam": "Aandelen",
+      "natuur": "debet",
+      "wanneer": "Aandelen als geldbelegging (klasse 5, korte termijn). Waardevermindering via 519000; opbrengst (na roerende voorheffing) via 751000."
+    },
+    {
+      "code": "519000",
+      "naam": "Geboekte waardeverm (-)",
+      "natuur": "credit",
+      "wanneer": "Geboekte waardevermindering op aandelen-geldbeleggingen (510000). (-)-rekening, credit. Tegenpost van de kost 651000."
+    },
+    {
+      "code": "531000",
+      "naam": "Termijndeposito's > 1 maand en < 1 jaar",
+      "natuur": "debet",
+      "wanneer": "Termijndeposito met looptijd tussen 1 maand en 1 jaar. Varianten: 530000 (> 1 jaar), 532000 (ten hoogste 1 maand). Plaatsing en vrijval via 580000."
+    },
+    {
+      "code": "670000",
+      "naam": "Belastingen",
+      "natuur": "debet",
+      "wanneer": "De ingehouden roerende voorheffing op financiële opbrengsten (de fiche noemt deze rekening 'Verschuldigde voorheffingen'). Debet voor het ingehouden bedrag."
+    },
+    {
+      "code": "751000",
+      "naam": "Opbrengsten uit vlottende activa",
+      "natuur": "credit",
+      "wanneer": "Bruto-interest/dividend op een geldbelegging (termijndeposito, kasbon, belegde aandelen). Opbrengst → credit."
+    },
+    {
+      "code": "750000",
+      "naam": "Opbrengsten uit financiële vaste activa",
+      "natuur": "credit",
+      "wanneer": "Interest/dividend op een financieel vast actief (bv. interest op een lening aan een dochter, 281000). Opbrengst → credit."
+    },
+    {
+      "code": "580000",
+      "naam": "Interne overboekingen",
+      "natuur": "debet",
+      "wanneer": "Overbruggingsrekening voor alle transferten (kas ↔ bank, plaatsing/vrijval termijndeposito, stortingen bij meerdere banken). Staat na de twee boekingen op nul."
+    },
+    {
+      "code": "550000",
+      "naam": "Kredietinstellingen",
+      "natuur": "debet",
+      "wanneer": "De bankrekening (liquide middel). Debet bij ontvangst, credit bij betaling. Verwante rekeningen: 570000 kas."
+    }
   ],
   "boekingsschemas": [
     {
       "titel": "Deelneming kopen met nog te storten kapitaal",
       "situatie": "De onderneming tekent in op een kapitaalverhoging van een verbonden onderneming; het kapitaal is nog niet volgestort.",
       "regels": [
-        {"code": "280000", "naam": "Deelnemingen in verbonden ondernemingen", "kant": "debet", "bedrag": "volledige aanschaffingswaarde", "toelichting": "Het financieel vast actief komt voor de volle aanschaffingswaarde in de boeken → debet."},
-        {"code": "280100", "naam": "Nog te storten bedragen (-)", "kant": "credit", "bedrag": "nog niet gestort deel", "toelichting": "(-)-rekening voor het kapitaal dat nog moet volgestort worden. Bij volstorting: 280100 debet / 550000 credit."}
+        {
+          "code": "280000",
+          "naam": "Deelnemingen in verbonden ondernemingen",
+          "kant": "debet",
+          "bedrag": "volledige aanschaffingswaarde",
+          "toelichting": "Het financieel vast actief komt voor de volle aanschaffingswaarde in de boeken → debet."
+        },
+        {
+          "code": "280100",
+          "naam": "Nog te storten bedragen (-)",
+          "kant": "credit",
+          "bedrag": "nog niet gestort deel",
+          "toelichting": "(-)-rekening voor het kapitaal dat nog moet volgestort worden. Bij volstorting: 280100 debet / 550000 credit."
+        }
       ]
     },
     {
       "titel": "Herwaarderingsmeerwaarde op een FVA boeken",
       "situatie": "De raad van bestuur stelt een duurzame, vaststaande meerwaarde op een deelneming vast.",
       "regels": [
-        {"code": "280800", "naam": "Geboekte meerwaarden", "kant": "debet", "bedrag": "herwaardering", "toelichting": "De geboekte meerwaarde verhoogt de boekwaarde van de deelneming → debet (282800 bij deelnemingsverhouding)."},
-        {"code": "122000", "naam": "HWMW op financiële vaste activa", "kant": "credit", "bedrag": "herwaardering", "toelichting": "De tegenwaarde komt in het eigen vermogen als herwaarderingsmeerwaarde → credit."}
+        {
+          "code": "280800",
+          "naam": "Geboekte meerwaarden",
+          "kant": "debet",
+          "bedrag": "herwaardering",
+          "toelichting": "De geboekte meerwaarde verhoogt de boekwaarde van de deelneming → debet (282800 bij deelnemingsverhouding)."
+        },
+        {
+          "code": "122000",
+          "naam": "HWMW op financiële vaste activa",
+          "kant": "credit",
+          "bedrag": "herwaardering",
+          "toelichting": "De tegenwaarde komt in het eigen vermogen als herwaarderingsmeerwaarde → credit."
+        }
       ]
     },
     {
       "titel": "Waardevermindering op een FVA boeken",
       "situatie": "De waarde van een deelneming daalt duurzaam (bv. door zware verliezen bij de deelneming).",
       "regels": [
-        {"code": "661000", "naam": "waardeverm op financiële vaste activa (toevoeging)", "kant": "debet", "bedrag": "waardedaling", "toelichting": "De waardevermindering op een FVA is een financiële kost → debet."},
-        {"code": "280900", "naam": "Geboekte waardeverm (-)", "kant": "credit", "bedrag": "waardedaling", "toelichting": "(-)-rekening die de deelneming corrigeert → credit (282900 bij deelnemingsverhouding)."}
+        {
+          "code": "661000",
+          "naam": "waardeverm op financiële vaste activa (toevoeging)",
+          "kant": "debet",
+          "bedrag": "waardedaling",
+          "toelichting": "De waardevermindering op een FVA is een financiële kost → debet."
+        },
+        {
+          "code": "280900",
+          "naam": "Geboekte waardeverm (-)",
+          "kant": "credit",
+          "bedrag": "waardedaling",
+          "toelichting": "(-)-rekening die de deelneming corrigeert → credit (282900 bij deelnemingsverhouding)."
+        }
       ]
     },
     {
       "titel": "Verkoop van een deelneming met meerwaarde",
       "situatie": "De deelneming wordt verkocht boven haar aanschaffingswaarde (na het terugdraaien van een eventuele herwaarderingsmeerwaarde).",
       "regels": [
-        {"code": "550000", "naam": "Kredietinstellingen", "kant": "debet", "bedrag": "verkoopprijs", "toelichting": "De bank ontvangt de volledige verkoopprijs → debet. (Soms via 416000 Diverse vorderingen als nog niet ontvangen.)"},
-        {"code": "280000", "naam": "Deelnemingen in verbonden ondernemingen", "kant": "credit", "bedrag": "aanschaffingswaarde", "toelichting": "De deelneming verlaat het actief tegen haar aanschaffingswaarde → credit."},
-        {"code": "763000", "naam": "Meerwaarden op de realisatie van", "kant": "credit", "bedrag": "verkoopprijs − aanschaffingswaarde", "toelichting": "Het positieve verschil is een meerwaarde op de realisatie van FVA → opbrengst → credit."}
+        {
+          "code": "550000",
+          "naam": "Kredietinstellingen",
+          "kant": "debet",
+          "bedrag": "verkoopprijs",
+          "toelichting": "De bank ontvangt de volledige verkoopprijs → debet. (Soms via 416000 Diverse vorderingen als nog niet ontvangen.)"
+        },
+        {
+          "code": "280000",
+          "naam": "Deelnemingen in verbonden ondernemingen",
+          "kant": "credit",
+          "bedrag": "aanschaffingswaarde",
+          "toelichting": "De deelneming verlaat het actief tegen haar aanschaffingswaarde → credit."
+        },
+        {
+          "code": "763000",
+          "naam": "Meerwaarden op de realisatie van",
+          "kant": "credit",
+          "bedrag": "verkoopprijs − aanschaffingswaarde",
+          "toelichting": "Het positieve verschil is een meerwaarde op de realisatie van FVA → opbrengst → credit."
+        }
       ]
     },
     {
       "titel": "Termijndeposito plaatsen via 580000",
       "situatie": "Geld van de bankrekening wordt op een termijnrekening geplaatst; het loopt over de overbruggingsrekening.",
       "regels": [
-        {"code": "580000", "naam": "Interne overboekingen", "kant": "debet", "bedrag": "bedrag", "toelichting": "Boeking 1 (bankuittreksel): geld verlaat de bank → 550000 credit, 580000 debet. Boeking 2: 53x debet / 580000 credit. Daarna staat 580000 op nul."},
-        {"code": "550000", "naam": "Kredietinstellingen", "kant": "credit", "bedrag": "bedrag", "toelichting": "De bankrekening daalt bij de plaatsing → credit."}
+        {
+          "code": "580000",
+          "naam": "Interne overboekingen",
+          "kant": "debet",
+          "bedrag": "bedrag",
+          "toelichting": "Boeking 1 (bankuittreksel): geld verlaat de bank → 550000 credit, 580000 debet. Boeking 2: 53x debet / 580000 credit. Daarna staat 580000 op nul."
+        },
+        {
+          "code": "550000",
+          "naam": "Kredietinstellingen",
+          "kant": "credit",
+          "bedrag": "bedrag",
+          "toelichting": "De bankrekening daalt bij de plaatsing → credit."
+        }
       ]
     },
     {
       "titel": "Roerende voorheffing op een financiële opbrengst",
       "situatie": "Een geldbelegging (termijndeposito/kasbon/aandeel) brengt interest of dividend op; de bank houdt 30% roerende voorheffing in.",
       "regels": [
-        {"code": "550000", "naam": "Kredietinstellingen", "kant": "debet", "bedrag": "netto-opbrengst", "toelichting": "De bank ontvangt de netto-opbrengst (bruto − roerende voorheffing) → debet."},
-        {"code": "670000", "naam": "Belastingen", "kant": "debet", "bedrag": "roerende voorheffing", "toelichting": "De ingehouden roerende voorheffing (30%) is een belasting/voorheffing → debet."},
-        {"code": "751000", "naam": "Opbrengsten uit vlottende activa", "kant": "credit", "bedrag": "bruto-opbrengst", "toelichting": "De volledige bruto-opbrengst van de geldbelegging → opbrengst → credit."}
+        {
+          "code": "550000",
+          "naam": "Kredietinstellingen",
+          "kant": "debet",
+          "bedrag": "netto-opbrengst",
+          "toelichting": "De bank ontvangt de netto-opbrengst (bruto − roerende voorheffing) → debet."
+        },
+        {
+          "code": "670000",
+          "naam": "Belastingen",
+          "kant": "debet",
+          "bedrag": "roerende voorheffing",
+          "toelichting": "De ingehouden roerende voorheffing (30%) is een belasting/voorheffing → debet."
+        },
+        {
+          "code": "751000",
+          "naam": "Opbrengsten uit vlottende activa",
+          "kant": "credit",
+          "bedrag": "bruto-opbrengst",
+          "toelichting": "De volledige bruto-opbrengst van de geldbelegging → opbrengst → credit."
+        }
       ]
     }
   ],
@@ -121,44 +289,122 @@
         {
           "omschrijving": "31.12.20x1 — Waardevermindering 30% op deelneming DE ROOS (deelnemingsverhouding)",
           "regels": [
-            {"code": "661000", "naam": "waardeverm op financiële vaste activa (toevoeging)", "debet": 60000.00, "credit": null, "reden": "200.000 × 30% = 60.000. Waardevermindering op FVA → kost → debet. Fiche-code 661."},
-            {"code": "282900", "naam": "Geboekte waardeverm deelnemingsverhouding(-)", "debet": null, "credit": 60000.00, "reden": "(-)-rekening die de deelneming met deelnemingsverhouding (DE ROOS) corrigeert → credit. Fiche-code 2829."}
+            {
+              "code": "661000",
+              "naam": "waardeverm op financiële vaste activa (toevoeging)",
+              "debet": 60000.0,
+              "credit": null,
+              "reden": "200.000 × 30% = 60.000. Waardevermindering op FVA → kost → debet. Fiche-code 661."
+            },
+            {
+              "code": "282900",
+              "naam": "Geboekte waardeverm deelnemingsverhouding(-)",
+              "debet": null,
+              "credit": 60000.0,
+              "reden": "(-)-rekening die de deelneming met deelnemingsverhouding (DE ROOS) corrigeert → credit. Fiche-code 2829."
+            }
           ]
         },
         {
           "omschrijving": "31.12.20x1 — Herwaarderingsmeerwaarde 40% op deelneming DE TULP (verbonden onderneming)",
           "regels": [
-            {"code": "280800", "naam": "Geboekte meerwaarden", "debet": 200000.00, "credit": null, "reden": "500.000 × 40% = 200.000. Geboekte meerwaarde verhoogt de deelneming in de verbonden onderneming → debet. Fiche-code 2808."},
-            {"code": "122000", "naam": "HWMW op financiële vaste activa", "debet": null, "credit": 200000.00, "reden": "Herwaarderingsmeerwaarde in het eigen vermogen → credit. Fiche-code 122."}
+            {
+              "code": "280800",
+              "naam": "Geboekte meerwaarden",
+              "debet": 200000.0,
+              "credit": null,
+              "reden": "500.000 × 40% = 200.000. Geboekte meerwaarde verhoogt de deelneming in de verbonden onderneming → debet. Fiche-code 2808."
+            },
+            {
+              "code": "122000",
+              "naam": "HWMW op financiële vaste activa",
+              "debet": null,
+              "credit": 200000.0,
+              "reden": "Herwaarderingsmeerwaarde in het eigen vermogen → credit. Fiche-code 122."
+            }
           ]
         },
         {
           "omschrijving": "31.12.20x4 — Herwaardering DE ROOS, deel 1: terugneming van de geboekte waardevermindering (meest geringe fiscale impact)",
           "regels": [
-            {"code": "282900", "naam": "Geboekte waardeverm deelnemingsverhouding(-)", "debet": 60000.00, "credit": null, "reden": "De eerder geboekte waardevermindering van 60.000 wordt teruggenomen via het eigen vermogen → (-)-rekening debet. Fiche-code 2829."},
-            {"code": "122000", "naam": "HWMW op financiële vaste activa", "debet": null, "credit": 60000.00, "reden": "Terugneming komt fiscaal voordelig in de herwaarderingsmeerwaarde → credit. Fiche-code 122."}
+            {
+              "code": "282900",
+              "naam": "Geboekte waardeverm deelnemingsverhouding(-)",
+              "debet": 60000.0,
+              "credit": null,
+              "reden": "De eerder geboekte waardevermindering van 60.000 wordt teruggenomen via het eigen vermogen → (-)-rekening debet. Fiche-code 2829."
+            },
+            {
+              "code": "122000",
+              "naam": "HWMW op financiële vaste activa",
+              "debet": null,
+              "credit": 60000.0,
+              "reden": "Terugneming komt fiscaal voordelig in de herwaarderingsmeerwaarde → credit. Fiche-code 122."
+            }
           ]
         },
         {
           "omschrijving": "31.12.20x4 — Herwaardering DE ROOS, deel 2: overschot als geboekte meerwaarde",
           "regels": [
-            {"code": "282800", "naam": "Geboekte meerwaarden", "debet": 40000.00, "credit": null, "reden": "100.000 herwaardering − 60.000 reeds via terugneming = 40.000 → geboekte meerwaarde op de deelneming → debet. Fiche-code 2828."},
-            {"code": "122000", "naam": "HWMW op financiële vaste activa", "debet": null, "credit": 40000.00, "reden": "Herwaarderingsmeerwaarde in het eigen vermogen → credit. Fiche-code 122."}
+            {
+              "code": "282800",
+              "naam": "Geboekte meerwaarden",
+              "debet": 40000.0,
+              "credit": null,
+              "reden": "100.000 herwaardering − 60.000 reeds via terugneming = 40.000 → geboekte meerwaarde op de deelneming → debet. Fiche-code 2828."
+            },
+            {
+              "code": "122000",
+              "naam": "HWMW op financiële vaste activa",
+              "debet": null,
+              "credit": 40000.0,
+              "reden": "Herwaarderingsmeerwaarde in het eigen vermogen → credit. Fiche-code 122."
+            }
           ]
         },
         {
           "omschrijving": "31.12.20x5 — Terugneming herwaarderingsmeerwaarde DE TULP vóór verkoop",
           "regels": [
-            {"code": "122000", "naam": "HWMW op financiële vaste activa", "debet": 200000.00, "credit": null, "reden": "De herwaarderingsmeerwaarde wordt teruggedraaid vóór de realisatie → eigen vermogen daalt → debet. Fiche-code 122."},
-            {"code": "280800", "naam": "Geboekte meerwaarden", "debet": null, "credit": 200000.00, "reden": "De geboekte meerwaarde op de verbonden onderneming wordt afgeboekt → credit. Fiche-code 2808."}
+            {
+              "code": "122000",
+              "naam": "HWMW op financiële vaste activa",
+              "debet": 200000.0,
+              "credit": null,
+              "reden": "De herwaarderingsmeerwaarde wordt teruggedraaid vóór de realisatie → eigen vermogen daalt → debet. Fiche-code 122."
+            },
+            {
+              "code": "280800",
+              "naam": "Geboekte meerwaarden",
+              "debet": null,
+              "credit": 200000.0,
+              "reden": "De geboekte meerwaarde op de verbonden onderneming wordt afgeboekt → credit. Fiche-code 2808."
+            }
           ]
         },
         {
           "omschrijving": "31.12.20x5 — Verkoop alle aandelen DE TULP voor 600.000 EUR",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 600000.00, "credit": null, "reden": "De bank ontvangt de verkoopprijs → debet. Fiche-code 5500."},
-            {"code": "280000", "naam": "Deelnemingen in verbonden ondernemingen", "debet": null, "credit": 500000.00, "reden": "De deelneming verlaat het actief tegen haar aanschaffingswaarde → credit. Fiche-code 2800."},
-            {"code": "763000", "naam": "Meerwaarden op de realisatie van", "debet": null, "credit": 100000.00, "reden": "600.000 − 500.000 = 100.000 meerwaarde op de realisatie van FVA → opbrengst → credit. Fiche-code 7631."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 600000.0,
+              "credit": null,
+              "reden": "De bank ontvangt de verkoopprijs → debet. Fiche-code 5500."
+            },
+            {
+              "code": "280000",
+              "naam": "Deelnemingen in verbonden ondernemingen",
+              "debet": null,
+              "credit": 500000.0,
+              "reden": "De deelneming verlaat het actief tegen haar aanschaffingswaarde → credit. Fiche-code 2800."
+            },
+            {
+              "code": "763000",
+              "naam": "Meerwaarden op de realisatie van",
+              "debet": null,
+              "credit": 100000.0,
+              "reden": "600.000 − 500.000 = 100.000 meerwaarde op de realisatie van FVA → opbrengst → credit. Fiche-code 7631."
+            }
           ]
         }
       ],
@@ -180,15 +426,39 @@
         {
           "omschrijving": "06.03 — BU/22: lening van 125.000 EUR aan dochter",
           "regels": [
-            {"code": "281000", "naam": "Vorderingen op verbonden ondernemingen", "debet": 125000.00, "credit": null, "reden": "Een lening op lange termijn aan een dochter = vordering op een verbonden onderneming (FVA) → debet. Fiche-code 2810."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 125000.00, "reden": "De bank betaalt de lening uit → credit. Fiche-code 5500."}
+            {
+              "code": "281000",
+              "naam": "Vorderingen op verbonden ondernemingen",
+              "debet": 125000.0,
+              "credit": null,
+              "reden": "Een lening op lange termijn aan een dochter = vordering op een verbonden onderneming (FVA) → debet. Fiche-code 2810."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 125000.0,
+              "reden": "De bank betaalt de lening uit → credit. Fiche-code 5500."
+            }
           ]
         },
         {
           "omschrijving": "07.09 — BU/72: ontvangst van 6.250 EUR interesten",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 6250.00, "credit": null, "reden": "De bank ontvangt de interest → debet. Fiche-code 5500."},
-            {"code": "750000", "naam": "Opbrengsten uit financiële vaste activa", "debet": null, "credit": 6250.00, "reden": "Interest op een vordering uit een FVA → opbrengst uit financiële vaste activa → credit. Fiche-code 750."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 6250.0,
+              "credit": null,
+              "reden": "De bank ontvangt de interest → debet. Fiche-code 5500."
+            },
+            {
+              "code": "750000",
+              "naam": "Opbrengsten uit financiële vaste activa",
+              "debet": null,
+              "credit": 6250.0,
+              "reden": "Interest op een vordering uit een FVA → opbrengst uit financiële vaste activa → credit. Fiche-code 750."
+            }
           ]
         }
       ],
@@ -211,16 +481,46 @@
         {
           "omschrijving": "12.06 — Variant 1: aankoopkosten GEACTIVEERD",
           "regels": [
-            {"code": "285200", "naam": "Vastrentende effecten", "debet": 25256.25, "credit": null, "reden": "Aanschaffingswaarde inclusief de geactiveerde aankoopkosten (25.000 + 256,25) → debet. Fiche-code 2852."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 25256.25, "reden": "De bank betaalt het totaal → credit. Fiche-code 5500."}
+            {
+              "code": "285200",
+              "naam": "Vastrentende effecten",
+              "debet": 25256.25,
+              "credit": null,
+              "reden": "Aanschaffingswaarde inclusief de geactiveerde aankoopkosten (25.000 + 256,25) → debet. Fiche-code 2852."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 25256.25,
+              "reden": "De bank betaalt het totaal → credit. Fiche-code 5500."
+            }
           ]
         },
         {
           "omschrijving": "12.06 — Variant 2: aankoopkosten NIET geactiveerd",
           "regels": [
-            {"code": "285200", "naam": "Vastrentende effecten", "debet": 25000.00, "credit": null, "reden": "Aanschaffingswaarde zonder kosten → debet. Fiche-code 2852."},
-            {"code": "659000", "naam": "Aankoopkosten effecten", "debet": 256.25, "credit": null, "reden": "De aankoopkosten apart als financiële kost → debet. Fiche-code 659."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 25256.25, "reden": "De bank betaalt het totaal (effecten + kosten) → credit. Fiche-code 5500."}
+            {
+              "code": "285200",
+              "naam": "Vastrentende effecten",
+              "debet": 25000.0,
+              "credit": null,
+              "reden": "Aanschaffingswaarde zonder kosten → debet. Fiche-code 2852."
+            },
+            {
+              "code": "659000",
+              "naam": "Aankoopkosten effecten",
+              "debet": 256.25,
+              "credit": null,
+              "reden": "De aankoopkosten apart als financiële kost → debet. Fiche-code 659."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 25256.25,
+              "reden": "De bank betaalt het totaal (effecten + kosten) → credit. Fiche-code 5500."
+            }
           ]
         }
       ],
@@ -245,43 +545,115 @@
         {
           "omschrijving": "a) Inschrijving kapitaalverhoging nv Martens (60%, nog te storten)",
           "regels": [
-            {"code": "280000", "naam": "Deelnemingen in verbonden ondernemingen", "debet": 1250000.00, "credit": null, "reden": "60% van de aandelen = controle → verbonden onderneming; volledige aanschaffingswaarde → debet. Fiche-code 2800."},
-            {"code": "280100", "naam": "Nog te storten bedragen (-)", "debet": null, "credit": 1250000.00, "reden": "Het kapitaal is nog niet volgestort → (-)-rekening → credit. Fiche-code 2801."}
+            {
+              "code": "280000",
+              "naam": "Deelnemingen in verbonden ondernemingen",
+              "debet": 1250000.0,
+              "credit": null,
+              "reden": "60% van de aandelen = controle → verbonden onderneming; volledige aanschaffingswaarde → debet. Fiche-code 2800."
+            },
+            {
+              "code": "280100",
+              "naam": "Nog te storten bedragen (-)",
+              "debet": null,
+              "credit": 1250000.0,
+              "reden": "Het kapitaal is nog niet volgestort → (-)-rekening → credit. Fiche-code 2801."
+            }
           ]
         },
         {
           "omschrijving": "b) BU/32 — 60% volgestort",
           "regels": [
-            {"code": "280100", "naam": "Nog te storten bedragen (-)", "debet": 750000.00, "credit": null, "reden": "1.250.000 × 60% = 750.000 wordt volgestort → de (-)-rekening daalt → debet. Fiche-code 2801."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 750000.00, "reden": "De bank betaalt de volstorting → credit. Fiche-code 5500."}
+            {
+              "code": "280100",
+              "naam": "Nog te storten bedragen (-)",
+              "debet": 750000.0,
+              "credit": null,
+              "reden": "1.250.000 × 60% = 750.000 wordt volgestort → de (-)-rekening daalt → debet. Fiche-code 2801."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 750000.0,
+              "reden": "De bank betaalt de volstorting → credit. Fiche-code 5500."
+            }
           ]
         },
         {
           "omschrijving": "c) BU/33 — resterend bedrag volgestort",
           "regels": [
-            {"code": "280100", "naam": "Nog te storten bedragen (-)", "debet": 500000.00, "credit": null, "reden": "Resterend 1.250.000 − 750.000 = 500.000 volgestort → debet. Fiche-code 2801."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 500000.00, "reden": "De bank betaalt het saldo → credit. Fiche-code 5500."}
+            {
+              "code": "280100",
+              "naam": "Nog te storten bedragen (-)",
+              "debet": 500000.0,
+              "credit": null,
+              "reden": "Resterend 1.250.000 − 750.000 = 500.000 volgestort → debet. Fiche-code 2801."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 500000.0,
+              "reden": "De bank betaalt het saldo → credit. Fiche-code 5500."
+            }
           ]
         },
         {
           "omschrijving": "d) Vaststaande meerwaarde 250.000 EUR",
           "regels": [
-            {"code": "280800", "naam": "Geboekte meerwaarden", "debet": 250000.00, "credit": null, "reden": "Vaststaande meerwaarde verhoogt de boekwaarde van de deelneming → debet. Fiche-code 2808."},
-            {"code": "122000", "naam": "HWMW op financiële vaste activa", "debet": null, "credit": 250000.00, "reden": "Herwaarderingsmeerwaarde in het eigen vermogen → credit. Fiche-code 122."}
+            {
+              "code": "280800",
+              "naam": "Geboekte meerwaarden",
+              "debet": 250000.0,
+              "credit": null,
+              "reden": "Vaststaande meerwaarde verhoogt de boekwaarde van de deelneming → debet. Fiche-code 2808."
+            },
+            {
+              "code": "122000",
+              "naam": "HWMW op financiële vaste activa",
+              "debet": null,
+              "credit": 250000.0,
+              "reden": "Herwaarderingsmeerwaarde in het eigen vermogen → credit. Fiche-code 122."
+            }
           ]
         },
         {
           "omschrijving": "e) Terugneming herwaarderingsmeerwaarde vóór de waardevermindering",
           "regels": [
-            {"code": "122000", "naam": "HWMW op financiële vaste activa", "debet": 250000.00, "credit": null, "reden": "De herwaarderingsmeerwaarde wordt teruggedraaid omdat de waarde drastisch afneemt → debet. Fiche-code 122."},
-            {"code": "280800", "naam": "Geboekte meerwaarden", "debet": null, "credit": 250000.00, "reden": "De geboekte meerwaarde op de deelneming wordt afgeboekt → credit. Fiche-code 2808."}
+            {
+              "code": "122000",
+              "naam": "HWMW op financiële vaste activa",
+              "debet": 250000.0,
+              "credit": null,
+              "reden": "De herwaarderingsmeerwaarde wordt teruggedraaid omdat de waarde drastisch afneemt → debet. Fiche-code 122."
+            },
+            {
+              "code": "280800",
+              "naam": "Geboekte meerwaarden",
+              "debet": null,
+              "credit": 250000.0,
+              "reden": "De geboekte meerwaarde op de deelneming wordt afgeboekt → credit. Fiche-code 2808."
+            }
           ]
         },
         {
           "omschrijving": "e) Waardevermindering 500.000 EUR (boekwaarde gehalveerd)",
           "regels": [
-            {"code": "661000", "naam": "waardeverm op financiële vaste activa (toevoeging)", "debet": 500000.00, "credit": null, "reden": "De boekwaarde van 1.000.000 (na volstorting) wordt gehalveerd → waardevermindering 500.000 → kost → debet. Fiche-code 661."},
-            {"code": "280900", "naam": "Geboekte waardeverm (-)", "debet": null, "credit": 500000.00, "reden": "(-)-rekening die de deelneming in de verbonden onderneming corrigeert → credit. Fiche-code 2809."}
+            {
+              "code": "661000",
+              "naam": "waardeverm op financiële vaste activa (toevoeging)",
+              "debet": 500000.0,
+              "credit": null,
+              "reden": "De boekwaarde van 1.000.000 (na volstorting) wordt gehalveerd → waardevermindering 500.000 → kost → debet. Fiche-code 661."
+            },
+            {
+              "code": "280900",
+              "naam": "Geboekte waardeverm (-)",
+              "debet": null,
+              "credit": 500000.0,
+              "reden": "(-)-rekening die de deelneming in de verbonden onderneming corrigeert → credit. Fiche-code 2809."
+            }
           ]
         }
       ],
@@ -305,44 +677,122 @@
         {
           "omschrijving": "a) Inschrijving kapitaalverhoging Beta (40%, nog te storten)",
           "regels": [
-            {"code": "282000", "naam": "Deelnemingen deelnemingsverhouding", "debet": 37500.00, "credit": null, "reden": "40% = deelnemingsverhouding → 282-reeks; aanschaffingswaarde → debet. Fiche-code 2820."},
-            {"code": "282100", "naam": "Nog te storten bedragen (-)", "debet": null, "credit": 37500.00, "reden": "Nog te storten kapitaal → (-)-rekening → credit. Fiche-code 2821."}
+            {
+              "code": "282000",
+              "naam": "Deelnemingen deelnemingsverhouding",
+              "debet": 37500.0,
+              "credit": null,
+              "reden": "40% = deelnemingsverhouding → 282-reeks; aanschaffingswaarde → debet. Fiche-code 2820."
+            },
+            {
+              "code": "282100",
+              "naam": "Nog te storten bedragen (-)",
+              "debet": null,
+              "credit": 37500.0,
+              "reden": "Nog te storten kapitaal → (-)-rekening → credit. Fiche-code 2821."
+            }
           ]
         },
         {
           "omschrijving": "a) Volledige volstorting via de bank",
           "regels": [
-            {"code": "282100", "naam": "Nog te storten bedragen (-)", "debet": 37500.00, "credit": null, "reden": "Het kapitaal wordt volledig volgestort → de (-)-rekening daalt → debet. Fiche-code 2821."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 37500.00, "reden": "De bank betaalt de volstorting → credit. Fiche-code 5500."}
+            {
+              "code": "282100",
+              "naam": "Nog te storten bedragen (-)",
+              "debet": 37500.0,
+              "credit": null,
+              "reden": "Het kapitaal wordt volledig volgestort → de (-)-rekening daalt → debet. Fiche-code 2821."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 37500.0,
+              "reden": "De bank betaalt de volstorting → credit. Fiche-code 5500."
+            }
           ]
         },
         {
           "omschrijving": "b) Lening van 375.000 EUR aan nv Beta",
           "regels": [
-            {"code": "283000", "naam": "Vorderingen op rekening", "debet": 375000.00, "credit": null, "reden": "Lening aan een onderneming met deelnemingsverhouding = vordering op rekening (FVA) → debet. Fiche-code 2830."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 375000.00, "reden": "De bank schrijft de lening over → credit. Fiche-code 5500."}
+            {
+              "code": "283000",
+              "naam": "Vorderingen op rekening",
+              "debet": 375000.0,
+              "credit": null,
+              "reden": "Lening aan een onderneming met deelnemingsverhouding = vordering op rekening (FVA) → debet. Fiche-code 2830."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 375000.0,
+              "reden": "De bank schrijft de lening over → credit. Fiche-code 5500."
+            }
           ]
         },
         {
           "omschrijving": "c) Herwaardering deelneming met 62.500 EUR",
           "regels": [
-            {"code": "282800", "naam": "Geboekte meerwaarden", "debet": 62500.00, "credit": null, "reden": "Geboekte meerwaarde verhoogt de deelneming met deelnemingsverhouding → debet. Fiche-code 2828."},
-            {"code": "122000", "naam": "HWMW op financiële vaste activa", "debet": null, "credit": 62500.00, "reden": "Herwaarderingsmeerwaarde in het eigen vermogen → credit. Fiche-code 122."}
+            {
+              "code": "282800",
+              "naam": "Geboekte meerwaarden",
+              "debet": 62500.0,
+              "credit": null,
+              "reden": "Geboekte meerwaarde verhoogt de deelneming met deelnemingsverhouding → debet. Fiche-code 2828."
+            },
+            {
+              "code": "122000",
+              "naam": "HWMW op financiële vaste activa",
+              "debet": null,
+              "credit": 62500.0,
+              "reden": "Herwaarderingsmeerwaarde in het eigen vermogen → credit. Fiche-code 122."
+            }
           ]
         },
         {
           "omschrijving": "d) Terugneming herwaarderingsmeerwaarde vóór verkoop",
           "regels": [
-            {"code": "122000", "naam": "HWMW op financiële vaste activa", "debet": 62500.00, "credit": null, "reden": "De herwaarderingsmeerwaarde wordt teruggedraaid vóór de realisatie → debet. Fiche-code 122."},
-            {"code": "282800", "naam": "Geboekte meerwaarden", "debet": null, "credit": 62500.00, "reden": "De geboekte meerwaarde wordt afgeboekt → credit. Fiche-code 2828."}
+            {
+              "code": "122000",
+              "naam": "HWMW op financiële vaste activa",
+              "debet": 62500.0,
+              "credit": null,
+              "reden": "De herwaarderingsmeerwaarde wordt teruggedraaid vóór de realisatie → debet. Fiche-code 122."
+            },
+            {
+              "code": "282800",
+              "naam": "Geboekte meerwaarden",
+              "debet": null,
+              "credit": 62500.0,
+              "reden": "De geboekte meerwaarde wordt afgeboekt → credit. Fiche-code 2828."
+            }
           ]
         },
         {
           "omschrijving": "d) Verkoop deelneming voor 525.000 EUR",
           "regels": [
-            {"code": "416000", "naam": "Diverse vorderingen", "debet": 525000.00, "credit": null, "reden": "De verkoopprijs wordt een diverse vordering (nog te ontvangen) → debet. Fiche-code 416."},
-            {"code": "282000", "naam": "Deelnemingen deelnemingsverhouding", "debet": null, "credit": 37500.00, "reden": "De deelneming verlaat het actief tegen haar aanschaffingswaarde → credit. Fiche-code 2820."},
-            {"code": "763000", "naam": "Meerwaarden op de realisatie van", "debet": null, "credit": 487500.00, "reden": "525.000 − 37.500 = 487.500 meerwaarde op de realisatie van FVA → opbrengst → credit. Fiche-code 7631."}
+            {
+              "code": "416000",
+              "naam": "Diverse vorderingen",
+              "debet": 525000.0,
+              "credit": null,
+              "reden": "De verkoopprijs wordt een diverse vordering (nog te ontvangen) → debet. Fiche-code 416."
+            },
+            {
+              "code": "282000",
+              "naam": "Deelnemingen deelnemingsverhouding",
+              "debet": null,
+              "credit": 37500.0,
+              "reden": "De deelneming verlaat het actief tegen haar aanschaffingswaarde → credit. Fiche-code 2820."
+            },
+            {
+              "code": "763000",
+              "naam": "Meerwaarden op de realisatie van",
+              "debet": null,
+              "credit": 487500.0,
+              "reden": "525.000 − 37.500 = 487.500 meerwaarde op de realisatie van FVA → opbrengst → credit. Fiche-code 7631."
+            }
           ]
         }
       ],
@@ -367,51 +817,141 @@
         {
           "omschrijving": "01.02 — BU/5: 50.000 EUR van de bank naar de termijnrekening (interne overboeking)",
           "regels": [
-            {"code": "580000", "naam": "Interne overboekingen", "debet": 50000.00, "credit": null, "reden": "Overbruggingsrekening: het geld verlaat de bank → debet. Fiche-code 58."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 50000.00, "reden": "De bankrekening daalt → credit. Fiche-code 5500."}
+            {
+              "code": "580000",
+              "naam": "Interne overboekingen",
+              "debet": 50000.0,
+              "credit": null,
+              "reden": "Overbruggingsrekening: het geld verlaat de bank → debet. Fiche-code 58."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 50000.0,
+              "reden": "De bankrekening daalt → credit. Fiche-code 5500."
+            }
           ]
         },
         {
           "omschrijving": "02.02 — TU/1: plaatsing op termijnrekening 6 maanden",
           "regels": [
-            {"code": "531000", "naam": "Termijndeposito's > 1 maand en < 1 jaar", "debet": 50000.00, "credit": null, "reden": "Looptijd 6 maanden → tussen 1 maand en 1 jaar → 531000; de geldbelegging komt in het actief → debet. Fiche-code 531."},
-            {"code": "580000", "naam": "Interne overboekingen", "debet": null, "credit": 50000.00, "reden": "De overbruggingsrekening wordt afgesloten → credit. Fiche-code 58."}
+            {
+              "code": "531000",
+              "naam": "Termijndeposito's > 1 maand en < 1 jaar",
+              "debet": 50000.0,
+              "credit": null,
+              "reden": "Looptijd 6 maanden → tussen 1 maand en 1 jaar → 531000; de geldbelegging komt in het actief → debet. Fiche-code 531."
+            },
+            {
+              "code": "580000",
+              "naam": "Interne overboekingen",
+              "debet": null,
+              "credit": 50000.0,
+              "reden": "De overbruggingsrekening wordt afgesloten → credit. Fiche-code 58."
+            }
           ]
         },
         {
           "omschrijving": "10.02 — BU/25: aankoop 150 aandelen COLRUYT (kosten geactiveerd)",
           "regels": [
-            {"code": "510000", "naam": "Aandelen", "debet": 7817.70, "credit": null, "reden": "150 × 51,50 = 7.725, + 1,2% geactiveerde kosten → 7.725 × 1,012 = 7.817,70 → debet. Fiche-code 5100."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 7817.70, "reden": "De bank betaalt aankoop + kosten → credit. Fiche-code 5500."}
+            {
+              "code": "510000",
+              "naam": "Aandelen",
+              "debet": 7817.7,
+              "credit": null,
+              "reden": "150 × 51,50 = 7.725, + 1,2% geactiveerde kosten → 7.725 × 1,012 = 7.817,70 → debet. Fiche-code 5100."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 7817.7,
+              "reden": "De bank betaalt aankoop + kosten → credit. Fiche-code 5500."
+            }
           ]
         },
         {
           "omschrijving": "01.07 — TU/6: sluiting termijnrekening (interne overboeking)",
           "regels": [
-            {"code": "580000", "naam": "Interne overboekingen", "debet": 50000.00, "credit": null, "reden": "Het deposito vervalt en gaat onderweg naar de bank → debet. Fiche-code 58."},
-            {"code": "531000", "naam": "Termijndeposito's > 1 maand en < 1 jaar", "debet": null, "credit": 50000.00, "reden": "De termijnrekening wordt gesloten → de geldbelegging verlaat het actief → credit. Fiche-code 531."}
+            {
+              "code": "580000",
+              "naam": "Interne overboekingen",
+              "debet": 50000.0,
+              "credit": null,
+              "reden": "Het deposito vervalt en gaat onderweg naar de bank → debet. Fiche-code 58."
+            },
+            {
+              "code": "531000",
+              "naam": "Termijndeposito's > 1 maand en < 1 jaar",
+              "debet": null,
+              "credit": 50000.0,
+              "reden": "De termijnrekening wordt gesloten → de geldbelegging verlaat het actief → credit. Fiche-code 531."
+            }
           ]
         },
         {
           "omschrijving": "01.07 — BU/65: belegd bedrag terug op de bankrekening",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 50000.00, "credit": null, "reden": "Het kapitaal komt terug op de bank → debet. Fiche-code 5500."},
-            {"code": "580000", "naam": "Interne overboekingen", "debet": null, "credit": 50000.00, "reden": "De overbruggingsrekening komt op nul → credit. Fiche-code 58."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 50000.0,
+              "credit": null,
+              "reden": "Het kapitaal komt terug op de bank → debet. Fiche-code 5500."
+            },
+            {
+              "code": "580000",
+              "naam": "Interne overboekingen",
+              "debet": null,
+              "credit": 50000.0,
+              "reden": "De overbruggingsrekening komt op nul → credit. Fiche-code 58."
+            }
           ]
         },
         {
           "omschrijving": "02.07 — BU/66: ontvangst nettorente",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 131.25, "credit": null, "reden": "Netto-interest = 187,50 − 56,25 RV = 131,25 op de bank → debet. Fiche-code 5500."},
-            {"code": "670000", "naam": "Belastingen", "debet": 56.25, "credit": null, "reden": "Ingehouden roerende voorheffing 30% van 187,50 = 56,25 (fiche: 'Verschuldigde voorheffingen') → debet. Fiche-code 6700."},
-            {"code": "751000", "naam": "Opbrengsten uit vlottende activa", "debet": null, "credit": 187.50, "reden": "Brutorente = 50.000 × 0,75% × 6/12 = 187,50 → opbrengst uit vlottende activa → credit. Fiche-code 751."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 131.25,
+              "credit": null,
+              "reden": "Netto-interest = 187,50 − 56,25 RV = 131,25 op de bank → debet. Fiche-code 5500."
+            },
+            {
+              "code": "670000",
+              "naam": "Belastingen",
+              "debet": 56.25,
+              "credit": null,
+              "reden": "Ingehouden roerende voorheffing 30% van 187,50 = 56,25 (fiche: 'Verschuldigde voorheffingen') → debet. Fiche-code 6700."
+            },
+            {
+              "code": "751000",
+              "naam": "Opbrengsten uit vlottende activa",
+              "debet": null,
+              "credit": 187.5,
+              "reden": "Brutorente = 50.000 × 0,75% × 6/12 = 187,50 → opbrengst uit vlottende activa → credit. Fiche-code 751."
+            }
           ]
         },
         {
           "omschrijving": "31.12 — Waardevermindering aandelen COLRUYT (inventaris 20x1)",
           "regels": [
-            {"code": "651000", "naam": "waardeverm op vlottende", "debet": 1067.70, "credit": null, "reden": "Aanschaffingswaarde 7.817,70 − beurswaarde 150 × 45 = 6.750 → waardedaling 1.067,70 → financiële kost → debet. Fiche-code 6510."},
-            {"code": "519000", "naam": "Geboekte waardeverm (-)", "debet": null, "credit": 1067.70, "reden": "(-)-rekening die de aandelen (510000) corrigeert → credit. Fiche-code 519."}
+            {
+              "code": "651000",
+              "naam": "waardeverm op vlottende",
+              "debet": 1067.7,
+              "credit": null,
+              "reden": "Aanschaffingswaarde 7.817,70 − beurswaarde 150 × 45 = 6.750 → waardedaling 1.067,70 → financiële kost → debet. Fiche-code 6510."
+            },
+            {
+              "code": "519000",
+              "naam": "Geboekte waardeverm (-)",
+              "debet": null,
+              "credit": 1067.7,
+              "reden": "(-)-rekening die de aandelen (510000) corrigeert → credit. Fiche-code 519."
+            }
           ]
         }
       ],
@@ -434,17 +974,53 @@
         {
           "omschrijving": "01.01.20x2 — BU/1: aankoop kasbon 1 jaar",
           "regels": [
-            {"code": "285200", "naam": "Vastrentende effecten", "debet": 10000.00, "credit": null, "reden": "Een kasbon = vastrentend effect; de fiche boekt dit op rekening 520 (Vastrentende effecten - aanschaffingswaarde). Aanschaffingswaarde → debet. Fiche-code 520."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 10000.00, "reden": "De bank betaalt de kasbon → credit. Fiche-code 5500."}
+            {
+              "code": "285200",
+              "naam": "Vastrentende effecten",
+              "debet": 10000.0,
+              "credit": null,
+              "reden": "Een kasbon = vastrentend effect; de fiche boekt dit op rekening 520 (Vastrentende effecten - aanschaffingswaarde). Aanschaffingswaarde → debet. Fiche-code 520."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 10000.0,
+              "reden": "De bank betaalt de kasbon → credit. Fiche-code 5500."
+            }
           ]
         },
         {
           "omschrijving": "31.12.20x2 — BU/200: terugbetaling kasbon en inning nettorente",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 10028.00, "credit": null, "reden": "Kapitaal 10.000 + nettorente 28 = 10.028 op de bank → debet. Fiche-code 5500."},
-            {"code": "670000", "naam": "Belastingen", "debet": 12.00, "credit": null, "reden": "Roerende voorheffing 30% van 40 = 12 (fiche: 'Verschuldigde voorheffingen') → debet. Fiche-code 6700."},
-            {"code": "285200", "naam": "Vastrentende effecten", "debet": null, "credit": 10000.00, "reden": "De kasbon vervalt → het vastrentend effect verlaat het actief tegen de aanschaffingswaarde → credit. Fiche-code 520."},
-            {"code": "751000", "naam": "Opbrengsten uit vlottende activa", "debet": null, "credit": 40.00, "reden": "Brutorente = 28 / 0,70 = 40 → opbrengst uit vlottende activa → credit. Fiche-code 751."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 10028.0,
+              "credit": null,
+              "reden": "Kapitaal 10.000 + nettorente 28 = 10.028 op de bank → debet. Fiche-code 5500."
+            },
+            {
+              "code": "670000",
+              "naam": "Belastingen",
+              "debet": 12.0,
+              "credit": null,
+              "reden": "Roerende voorheffing 30% van 40 = 12 (fiche: 'Verschuldigde voorheffingen') → debet. Fiche-code 6700."
+            },
+            {
+              "code": "285200",
+              "naam": "Vastrentende effecten",
+              "debet": null,
+              "credit": 10000.0,
+              "reden": "De kasbon vervalt → het vastrentend effect verlaat het actief tegen de aanschaffingswaarde → credit. Fiche-code 520."
+            },
+            {
+              "code": "751000",
+              "naam": "Opbrengsten uit vlottende activa",
+              "debet": null,
+              "credit": 40.0,
+              "reden": "Brutorente = 28 / 0,70 = 40 → opbrengst uit vlottende activa → credit. Fiche-code 751."
+            }
           ]
         }
       ],
@@ -468,46 +1044,136 @@
         {
           "omschrijving": "1) BU/40 + TU/5: storting 120.000 EUR op termijnrekening 3 maanden",
           "regels": [
-            {"code": "580000", "naam": "Interne overboekingen", "debet": 120000.00, "credit": null, "reden": "Het geld verlaat de bank via de overbruggingsrekening → debet. Fiche-code 58."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 120000.00, "reden": "De bankrekening daalt → credit. Fiche-code 5500."}
+            {
+              "code": "580000",
+              "naam": "Interne overboekingen",
+              "debet": 120000.0,
+              "credit": null,
+              "reden": "Het geld verlaat de bank via de overbruggingsrekening → debet. Fiche-code 58."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 120000.0,
+              "reden": "De bankrekening daalt → credit. Fiche-code 5500."
+            }
           ]
         },
         {
           "omschrijving": "1) Plaatsing op termijnrekening 3 maanden (TU/5)",
           "regels": [
-            {"code": "531000", "naam": "Termijndeposito's > 1 maand en < 1 jaar", "debet": 120000.00, "credit": null, "reden": "Looptijd 3 maanden → tussen 1 maand en 1 jaar → 531000 → debet. Fiche-code 531."},
-            {"code": "580000", "naam": "Interne overboekingen", "debet": null, "credit": 120000.00, "reden": "De overbruggingsrekening komt op nul → credit. Fiche-code 58."}
+            {
+              "code": "531000",
+              "naam": "Termijndeposito's > 1 maand en < 1 jaar",
+              "debet": 120000.0,
+              "credit": null,
+              "reden": "Looptijd 3 maanden → tussen 1 maand en 1 jaar → 531000 → debet. Fiche-code 531."
+            },
+            {
+              "code": "580000",
+              "naam": "Interne overboekingen",
+              "debet": null,
+              "credit": 120000.0,
+              "reden": "De overbruggingsrekening komt op nul → credit. Fiche-code 58."
+            }
           ]
         },
         {
           "omschrijving": "2) BU/50: ontvangst netto-interest 2.100 EUR",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 2100.00, "credit": null, "reden": "Netto-interest op de bank → debet. Fiche-code 5500."},
-            {"code": "670000", "naam": "Belastingen", "debet": 900.00, "credit": null, "reden": "Roerende voorheffing 30%: brutorente = 2.100 / 0,70 = 3.000, RV = 900 (fiche: 'Verschuldigde voorheffingen') → debet. Fiche-code 6700."},
-            {"code": "751000", "naam": "Opbrengsten uit vlottende activa", "debet": null, "credit": 3000.00, "reden": "Brutorente 3.000 → opbrengst uit vlottende activa → credit. Fiche-code 751."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 2100.0,
+              "credit": null,
+              "reden": "Netto-interest op de bank → debet. Fiche-code 5500."
+            },
+            {
+              "code": "670000",
+              "naam": "Belastingen",
+              "debet": 900.0,
+              "credit": null,
+              "reden": "Roerende voorheffing 30%: brutorente = 2.100 / 0,70 = 3.000, RV = 900 (fiche: 'Verschuldigde voorheffingen') → debet. Fiche-code 6700."
+            },
+            {
+              "code": "751000",
+              "naam": "Opbrengsten uit vlottende activa",
+              "debet": null,
+              "credit": 3000.0,
+              "reden": "Brutorente 3.000 → opbrengst uit vlottende activa → credit. Fiche-code 751."
+            }
           ]
         },
         {
           "omschrijving": "3) BU/60: aankoop aandelen op de beurs (kosten geactiveerd)",
           "regels": [
-            {"code": "510000", "naam": "Aandelen", "debet": 101500.00, "credit": null, "reden": "Aankoop 100.000 + geactiveerde aankoopkosten 1.500 = 101.500 → debet. Fiche-code 5100."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 101500.00, "reden": "De bank betaalt aankoop + kosten → credit. Fiche-code 5500."}
+            {
+              "code": "510000",
+              "naam": "Aandelen",
+              "debet": 101500.0,
+              "credit": null,
+              "reden": "Aankoop 100.000 + geactiveerde aankoopkosten 1.500 = 101.500 → debet. Fiche-code 5100."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 101500.0,
+              "reden": "De bank betaalt aankoop + kosten → credit. Fiche-code 5500."
+            }
           ]
         },
         {
           "omschrijving": "4) Inventaris: waardevermindering aandelen",
           "regels": [
-            {"code": "651000", "naam": "waardeverm op vlottende", "debet": 13500.00, "credit": null, "reden": "Aanschaffingswaarde 101.500 − beurskoers 88.000 = 13.500 waardedaling → financiële kost → debet. Fiche-code 6510."},
-            {"code": "519000", "naam": "Geboekte waardeverm (-)", "debet": null, "credit": 13500.00, "reden": "(-)-rekening die de aandelen corrigeert → credit. Fiche-code 5190."}
+            {
+              "code": "651000",
+              "naam": "waardeverm op vlottende",
+              "debet": 13500.0,
+              "credit": null,
+              "reden": "Aanschaffingswaarde 101.500 − beurskoers 88.000 = 13.500 waardedaling → financiële kost → debet. Fiche-code 6510."
+            },
+            {
+              "code": "519000",
+              "naam": "Geboekte waardeverm (-)",
+              "debet": null,
+              "credit": 13500.0,
+              "reden": "(-)-rekening die de aandelen corrigeert → credit. Fiche-code 5190."
+            }
           ]
         },
         {
           "omschrijving": "5) BU/70: verkoop aandelen voor netto 94.000 EUR",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 94000.00, "credit": null, "reden": "De bank ontvangt het nettobedrag van de verkoop → debet. Fiche-code 5500."},
-            {"code": "519000", "naam": "Geboekte waardeverm (-)", "debet": 13500.00, "credit": null, "reden": "De geboekte waardevermindering wordt afgeboekt bij de realisatie → debet. Fiche-code 5190."},
-            {"code": "510000", "naam": "Aandelen", "debet": null, "credit": 101500.00, "reden": "De aandelen verlaten het actief tegen hun aanschaffingswaarde → credit. Fiche-code 5100."},
-            {"code": "752000", "naam": "Meerwaarden op de realisatie van vlottende activa", "debet": null, "credit": 6000.00, "reden": "Verkoop 94.000 t.o.v. nettoboekwaarde 88.000 (= 101.500 − 13.500) → meerwaarde 6.000 op de realisatie van vlottende activa → credit. Fiche-code 752."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 94000.0,
+              "credit": null,
+              "reden": "De bank ontvangt het nettobedrag van de verkoop → debet. Fiche-code 5500."
+            },
+            {
+              "code": "519000",
+              "naam": "Geboekte waardeverm (-)",
+              "debet": 13500.0,
+              "credit": null,
+              "reden": "De geboekte waardevermindering wordt afgeboekt bij de realisatie → debet. Fiche-code 5190."
+            },
+            {
+              "code": "510000",
+              "naam": "Aandelen",
+              "debet": null,
+              "credit": 101500.0,
+              "reden": "De aandelen verlaten het actief tegen hun aanschaffingswaarde → credit. Fiche-code 5100."
+            },
+            {
+              "code": "752000",
+              "naam": "Meerwaarden op de realisatie van vlottende activa",
+              "debet": null,
+              "credit": 6000.0,
+              "reden": "Verkoop 94.000 t.o.v. nettoboekwaarde 88.000 (= 101.500 − 13.500) → meerwaarde 6.000 op de realisatie van vlottende activa → credit. Fiche-code 752."
+            }
           ]
         }
       ],
@@ -532,18 +1198,60 @@
         {
           "omschrijving": "Plaatsing van de speciën op deposito's en kasbons (via 580000)",
           "regels": [
-            {"code": "530000", "naam": "Termoijndeposito's > 1 jaar", "debet": 2500.00, "credit": null, "reden": "TU/12: 20 maanden → meer dan 1 jaar → 530000 → debet. Fiche-code 530."},
-            {"code": "532000", "naam": "Op ten hoogste één maand", "debet": 6250.00, "credit": null, "reden": "TU/5: 1 maand → ten hoogste 1 maand → 532000 → debet. Fiche-code 532."},
-            {"code": "531000", "naam": "Termijndeposito's > 1 maand en < 1 jaar", "debet": 5000.00, "credit": null, "reden": "TU/10: 8 maanden → tussen 1 maand en 1 jaar → 531000 → debet. Fiche-code 531."},
-            {"code": "285200", "naam": "Vastrentende effecten", "debet": 12500.00, "credit": null, "reden": "Kasbon KBC 6 maanden = vastrentend effect → debet. Fiche-code 520."},
-            {"code": "580000", "naam": "Interne overboekingen", "debet": null, "credit": 26250.00, "reden": "Het totaal van de plaatsingen loopt via de overbruggingsrekening → credit. Fiche-code 58."}
+            {
+              "code": "530000",
+              "naam": "Termoijndeposito's > 1 jaar",
+              "debet": 2500.0,
+              "credit": null,
+              "reden": "TU/12: 20 maanden → meer dan 1 jaar → 530000 → debet. Fiche-code 530."
+            },
+            {
+              "code": "532000",
+              "naam": "Op ten hoogste één maand",
+              "debet": 6250.0,
+              "credit": null,
+              "reden": "TU/5: 1 maand → ten hoogste 1 maand → 532000 → debet. Fiche-code 532."
+            },
+            {
+              "code": "531000",
+              "naam": "Termijndeposito's > 1 maand en < 1 jaar",
+              "debet": 5000.0,
+              "credit": null,
+              "reden": "TU/10: 8 maanden → tussen 1 maand en 1 jaar → 531000 → debet. Fiche-code 531."
+            },
+            {
+              "code": "285200",
+              "naam": "Vastrentende effecten",
+              "debet": 12500.0,
+              "credit": null,
+              "reden": "Kasbon KBC 6 maanden = vastrentend effect → debet. Fiche-code 520."
+            },
+            {
+              "code": "580000",
+              "naam": "Interne overboekingen",
+              "debet": null,
+              "credit": 26250.0,
+              "reden": "Het totaal van de plaatsingen loopt via de overbruggingsrekening → credit. Fiche-code 58."
+            }
           ]
         },
         {
           "omschrijving": "Tegenboeking: speciën verlaten de kas",
           "regels": [
-            {"code": "580000", "naam": "Interne overboekingen", "debet": 26250.00, "credit": null, "reden": "De overbruggingsrekening sluit aan op de kasbeweging → debet. Fiche-code 58."},
-            {"code": "570000", "naam": "Kas – contanten (570-576)", "debet": null, "credit": 26250.00, "reden": "De volledige 26.250 EUR speciën verlaat de kas → credit. Fiche-code 570."}
+            {
+              "code": "580000",
+              "naam": "Interne overboekingen",
+              "debet": 26250.0,
+              "credit": null,
+              "reden": "De overbruggingsrekening sluit aan op de kasbeweging → debet. Fiche-code 58."
+            },
+            {
+              "code": "570000",
+              "naam": "Kas – contanten (570-576)",
+              "debet": null,
+              "credit": 26250.0,
+              "reden": "De volledige 26.250 EUR speciën verlaat de kas → credit. Fiche-code 570."
+            }
           ]
         }
       ],
@@ -566,29 +1274,77 @@
         {
           "omschrijving": "Stortingsbewijzen: 24.500 EUR speciën verlaten de kas",
           "regels": [
-            {"code": "580000", "naam": "Interne overboekingen", "debet": 24500.00, "credit": null, "reden": "Het totaal van de drie stortingen loopt via de overbruggingsrekening → debet. Fiche-code 58."},
-            {"code": "570000", "naam": "Kas – contanten (570-576)", "debet": null, "credit": 24500.00, "reden": "5.000 + 15.000 + 4.500 = 24.500 verlaat de kas → credit. Fiche-code 570."}
+            {
+              "code": "580000",
+              "naam": "Interne overboekingen",
+              "debet": 24500.0,
+              "credit": null,
+              "reden": "Het totaal van de drie stortingen loopt via de overbruggingsrekening → debet. Fiche-code 58."
+            },
+            {
+              "code": "570000",
+              "naam": "Kas – contanten (570-576)",
+              "debet": null,
+              "credit": 24500.0,
+              "reden": "5.000 + 15.000 + 4.500 = 24.500 verlaat de kas → credit. Fiche-code 570."
+            }
           ]
         },
         {
           "omschrijving": "Rekeninguittreksel Belfius: creditering 5.000 EUR",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 5000.00, "credit": null, "reden": "De zichtrekening Belfius wordt gecrediteerd → debet op de bankrekening. Fiche-code 5500 (Bank Belfius)."},
-            {"code": "580000", "naam": "Interne overboekingen", "debet": null, "credit": 5000.00, "reden": "De overbruggingsrekening daalt → credit. Fiche-code 58."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 5000.0,
+              "credit": null,
+              "reden": "De zichtrekening Belfius wordt gecrediteerd → debet op de bankrekening. Fiche-code 5500 (Bank Belfius)."
+            },
+            {
+              "code": "580000",
+              "naam": "Interne overboekingen",
+              "debet": null,
+              "credit": 5000.0,
+              "reden": "De overbruggingsrekening daalt → credit. Fiche-code 58."
+            }
           ]
         },
         {
           "omschrijving": "Rekeninguittreksel KBC: creditering 15.000 EUR",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 15000.00, "credit": null, "reden": "De zichtrekening KBC wordt gecrediteerd → debet. Fiche-code 5510 (Bank KBC)."},
-            {"code": "580000", "naam": "Interne overboekingen", "debet": null, "credit": 15000.00, "reden": "De overbruggingsrekening daalt → credit. Fiche-code 58."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 15000.0,
+              "credit": null,
+              "reden": "De zichtrekening KBC wordt gecrediteerd → debet. Fiche-code 5510 (Bank KBC)."
+            },
+            {
+              "code": "580000",
+              "naam": "Interne overboekingen",
+              "debet": null,
+              "credit": 15000.0,
+              "reden": "De overbruggingsrekening daalt → credit. Fiche-code 58."
+            }
           ]
         },
         {
           "omschrijving": "Rekeninguittreksel ING: creditering 4.500 EUR",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 4500.00, "credit": null, "reden": "De zichtrekening ING wordt gecrediteerd → debet. Fiche-code 5520 (Bank ING)."},
-            {"code": "580000", "naam": "Interne overboekingen", "debet": null, "credit": 4500.00, "reden": "De overbruggingsrekening komt op nul → credit. Fiche-code 58."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 4500.0,
+              "credit": null,
+              "reden": "De zichtrekening ING wordt gecrediteerd → debet. Fiche-code 5520 (Bank ING)."
+            },
+            {
+              "code": "580000",
+              "naam": "Interne overboekingen",
+              "debet": null,
+              "credit": 4500.0,
+              "reden": "De overbruggingsrekening komt op nul → credit. Fiche-code 58."
+            }
           ]
         }
       ],
@@ -597,41 +1353,327 @@
     }
   ],
   "flashcards": [
-    {"vraag": "Wat bepaalt of een belegging in klasse 28 (FVA) of in klasse 50-53 (geldbelegging) staat?", "antwoord": "De termijn en de bedoeling: duurzaam/strategisch (lange termijn) = klasse 28; tijdelijk overtollig geld dat je belegt = klasse 50-53.", "type": "begrip"},
-    {"vraag": "Op welke rekening staat een deelneming in een verbonden onderneming?", "antwoord": "280000 Deelnemingen in verbonden ondernemingen (debet, financieel vast actief).", "type": "mar-code"},
-    {"vraag": "Hoe boek je een borgtocht die je in contanten betaalt?", "antwoord": "288000 Borgtochten betaald in contanten (debet) / 550000 Kredietinstellingen (credit). Het is een vordering, geen kost.", "type": "logica"},
-    {"vraag": "Op welke rekening boek je belegde aandelen (geldbelegging)?", "antwoord": "510000 Aandelen (debet bij aankoop, credit tegen boekwaarde bij verkoop).", "type": "mar-code"},
-    {"vraag": "Welke rekeningen onderscheiden termijndeposito's en op basis waarvan?", "antwoord": "Op basis van de looptijd: 530000 (> 1 jaar), 531000 (> 1 maand en < 1 jaar), 532000 (ten hoogste 1 maand).", "type": "mar-code"},
-    {"vraag": "Waar boek je de meerwaarde bij verkoop van een geldbelegging?", "antwoord": "752000 Meerwaarden op de realisatie van vlottende activa (opbrengst, credit).", "type": "mar-code"},
-    {"vraag": "Waar boek je de minderwaarde bij verkoop van een geldbelegging?", "antwoord": "652000 Minderwaarden op realisatie van (kost, debet).", "type": "mar-code"},
-    {"vraag": "Hoe boek je een waardevermindering op belegde aandelen?", "antwoord": "651000 waardeverm op vlottende (debet, kost) / 519000 Geboekte waardeverm (-) (credit, (-)-rekening).", "type": "logica"},
-    {"vraag": "Hoe neem je een eerder geboekte waardevermindering op een geldbelegging terug?", "antwoord": "519000 Geboekte waardeverm (-) (debet) / 651100 Terugneming (-) (credit, vermindert de kost).", "type": "logica"},
-    {"vraag": "Wat is het verschil tussen 750000 en 751000?", "antwoord": "750000 = opbrengsten uit financiële VASTE activa (klasse 28); 751000 = opbrengsten uit VLOTTENDE activa (geldbeleggingen, klasse 5). Beide credit.", "type": "mar-code"},
-    {"vraag": "Waarvoor dient rekening 580000 Interne overboekingen?", "antwoord": "Als overbruggingsrekening bij transferten tussen kas en bank; ze staat na de twee boekingen weer op nul.", "type": "begrip"},
-    {"vraag": "Boek de overbrenging van € 500 cash naar de bank (twee stappen).", "antwoord": "Stap 1 (kasstuk): 580000 debet 500 / 570000 credit 500. Stap 2 (uittreksel): 550000 debet 500 / 580000 credit 500.", "type": "logica"},
-    {"vraag": "Op welke rekening boek je makelaarskosten bij de aankoop van effecten?", "antwoord": "659000 Aankoopkosten effecten (financiële kost, debet). Ze worden NIET bij de aandelen geactiveerd.", "type": "mar-code"},
-    {"vraag": "Tegen welke waarde crediteer je 510000 (of 280000) bij verkoop?", "antwoord": "Tegen de BOEKWAARDE, niet tegen de verkoopprijs. Het verschil is de meer- of minderwaarde.", "type": "logica"},
-    {"vraag": "Welke rekening gebruik je voor vastrentende effecten in deze MAR-lijst?", "antwoord": "285200 Vastrentende effecten. Er is in deze lijst geen rekening 520000.", "type": "mar-code"},
-    {"vraag": "Hoe boek je het bezit van een postchequerekening?", "antwoord": "560000 Postcheque en girodienst (debet, liquide middel), met dezelfde logica als de bankrekening 550000.", "type": "mar-code"}
+    {
+      "vraag": "Wat bepaalt of een belegging in klasse 28 (FVA) of in klasse 50-53 (geldbelegging) staat?",
+      "antwoord": "De termijn en de bedoeling: duurzaam/strategisch (lange termijn) = klasse 28; tijdelijk overtollig geld dat je belegt = klasse 50-53.",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Op welke rekening staat een deelneming in een verbonden onderneming?",
+      "antwoord": "280000 Deelnemingen in verbonden ondernemingen (debet, financieel vast actief).",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Hoe boek je een borgtocht die je in contanten betaalt?",
+      "antwoord": "288000 Borgtochten betaald in contanten (debet) / 550000 Kredietinstellingen (credit). Het is een vordering, geen kost.",
+      "type": "logica"
+    },
+    {
+      "vraag": "Op welke rekening boek je belegde aandelen (geldbelegging)?",
+      "antwoord": "510000 Aandelen (debet bij aankoop, credit tegen boekwaarde bij verkoop).",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Welke rekeningen onderscheiden termijndeposito's en op basis waarvan?",
+      "antwoord": "Op basis van de looptijd: 530000 (> 1 jaar), 531000 (> 1 maand en < 1 jaar), 532000 (ten hoogste 1 maand).",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Waar boek je de meerwaarde bij verkoop van een geldbelegging?",
+      "antwoord": "752000 Meerwaarden op de realisatie van vlottende activa (opbrengst, credit).",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Waar boek je de minderwaarde bij verkoop van een geldbelegging?",
+      "antwoord": "652000 Minderwaarden op realisatie van (kost, debet).",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Hoe boek je een waardevermindering op belegde aandelen?",
+      "antwoord": "651000 waardeverm op vlottende (debet, kost) / 519000 Geboekte waardeverm (-) (credit, (-)-rekening).",
+      "type": "logica"
+    },
+    {
+      "vraag": "Hoe neem je een eerder geboekte waardevermindering op een geldbelegging terug?",
+      "antwoord": "519000 Geboekte waardeverm (-) (debet) / 651100 Terugneming (-) (credit, vermindert de kost).",
+      "type": "logica"
+    },
+    {
+      "vraag": "Wat is het verschil tussen 750000 en 751000?",
+      "antwoord": "750000 = opbrengsten uit financiële VASTE activa (klasse 28); 751000 = opbrengsten uit VLOTTENDE activa (geldbeleggingen, klasse 5). Beide credit.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Waarvoor dient rekening 580000 Interne overboekingen?",
+      "antwoord": "Als overbruggingsrekening bij transferten tussen kas en bank; ze staat na de twee boekingen weer op nul.",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Boek de overbrenging van € 500 cash naar de bank (twee stappen).",
+      "antwoord": "Stap 1 (kasstuk): 580000 debet 500 / 570000 credit 500. Stap 2 (uittreksel): 550000 debet 500 / 580000 credit 500.",
+      "type": "logica"
+    },
+    {
+      "vraag": "Op welke rekening boek je makelaarskosten bij de aankoop van effecten?",
+      "antwoord": "659000 Aankoopkosten effecten (financiële kost, debet). Ze worden NIET bij de aandelen geactiveerd.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Tegen welke waarde crediteer je 510000 (of 280000) bij verkoop?",
+      "antwoord": "Tegen de BOEKWAARDE, niet tegen de verkoopprijs. Het verschil is de meer- of minderwaarde.",
+      "type": "logica"
+    },
+    {
+      "vraag": "Welke rekening gebruik je voor vastrentende effecten in deze MAR-lijst?",
+      "antwoord": "285200 Vastrentende effecten. Er is in deze lijst geen rekening 520000.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Hoe boek je het bezit van een postchequerekening?",
+      "antwoord": "560000 Postcheque en girodienst (debet, liquide middel), met dezelfde logica als de bankrekening 550000.",
+      "type": "mar-code"
+    }
   ],
   "veelgemaakteFouten": [
-    {"fout": "De onrechtstreekse participaties vergeten bij het bepalen van de financiële verhouding.", "correctie": "Tel rechtstreekse én onrechtstreekse deelname samen. M bezit 30% van B rechtstreeks + 30% via C → > 50% → verbonden onderneming, niet zomaar een deelnemingsverhouding."},
-    {"fout": "De 280-reeks (verbonden onderneming) en de 282-reeks (deelnemingsverhouding) door elkaar gebruiken.", "correctie": "Controle / > 50% = verbonden onderneming → 280-reeks (280000/280100/280800/280900). Minstens 10% zonder controle = deelnemingsverhouding → 282-reeks (282000/282100/282800/282900)."},
-    {"fout": "Bij een niet-volgestorte aankoop het volledige bedrag meteen op de bank crediteren.", "correctie": "Boek de deelneming voor de volle aanschaffingswaarde tegenover 'nog te storten bedragen' (280100/282100); pas bij elke volstorting boek je 280100/282100 debet / 550000 credit."},
-    {"fout": "Een herwaarderingsmeerwaarde laten staan bij de verkoop van een deelneming.", "correctie": "Draai de herwaarderingsmeerwaarde eerst terug (122000 / 28x800) en bereken de meerwaarde t.o.v. de zuivere aanschaffingswaarde. De realisatiemeerwaarde komt op 763000 (FVA), de minderwaarde op 663000."},
-    {"fout": "De roerende voorheffing op interest/dividend vergeten of het netto- met het brutobedrag verwarren.", "correctie": "De volledige BRUTO-opbrengst komt op 751000; de 30% roerende voorheffing op 670000 (verschuldigde voorheffingen). Reken bruto terug uit netto: bruto = netto / 0,70."},
-    {"fout": "Aankoopkosten van effecten altijd op dezelfde manier behandelen.", "correctie": "De fiche vraagt beide varianten: ofwel geactiveerd (mee in de aanschaffingswaarde op 285200/510000), ofwel apart op 659000 Aankoopkosten effecten. Dit beïnvloedt de boekwaarde."},
-    {"fout": "Het verkeerde deposito-nummer kiezen.", "correctie": "Kies op basis van de LOOPTIJD: 530000 > 1 jaar, 531000 tussen 1 maand en 1 jaar, 532000 ten hoogste 1 maand. Een kasbon is geen deposito maar een vastrentend effect."},
-    {"fout": "Geld van kas naar bank (of tussen banken) rechtstreeks boeken zonder 580000.", "correctie": "Gebruik de overbruggingsrekening 580000 omdat het kasstuk/stortingsbewijs en het rekeninguittreksel op verschillende dagen binnenkomen; 580000 staat nadien op nul."}
+    {
+      "fout": "De onrechtstreekse participaties vergeten bij het bepalen van de financiële verhouding.",
+      "correctie": "Tel rechtstreekse én onrechtstreekse deelname samen. M bezit 30% van B rechtstreeks + 30% via C → > 50% → verbonden onderneming, niet zomaar een deelnemingsverhouding."
+    },
+    {
+      "fout": "De 280-reeks (verbonden onderneming) en de 282-reeks (deelnemingsverhouding) door elkaar gebruiken.",
+      "correctie": "Controle / > 50% = verbonden onderneming → 280-reeks (280000/280100/280800/280900). Minstens 10% zonder controle = deelnemingsverhouding → 282-reeks (282000/282100/282800/282900)."
+    },
+    {
+      "fout": "Bij een niet-volgestorte aankoop het volledige bedrag meteen op de bank crediteren.",
+      "correctie": "Boek de deelneming voor de volle aanschaffingswaarde tegenover 'nog te storten bedragen' (280100/282100); pas bij elke volstorting boek je 280100/282100 debet / 550000 credit."
+    },
+    {
+      "fout": "Een herwaarderingsmeerwaarde laten staan bij de verkoop van een deelneming.",
+      "correctie": "Draai de herwaarderingsmeerwaarde eerst terug (122000 / 28x800) en bereken de meerwaarde t.o.v. de zuivere aanschaffingswaarde. De realisatiemeerwaarde komt op 763000 (FVA), de minderwaarde op 663000."
+    },
+    {
+      "fout": "De roerende voorheffing op interest/dividend vergeten of het netto- met het brutobedrag verwarren.",
+      "correctie": "De volledige BRUTO-opbrengst komt op 751000; de 30% roerende voorheffing op 670000 (verschuldigde voorheffingen). Reken bruto terug uit netto: bruto = netto / 0,70."
+    },
+    {
+      "fout": "Aankoopkosten van effecten altijd op dezelfde manier behandelen.",
+      "correctie": "De fiche vraagt beide varianten: ofwel geactiveerd (mee in de aanschaffingswaarde op 285200/510000), ofwel apart op 659000 Aankoopkosten effecten. Dit beïnvloedt de boekwaarde."
+    },
+    {
+      "fout": "Het verkeerde deposito-nummer kiezen.",
+      "correctie": "Kies op basis van de LOOPTIJD: 530000 > 1 jaar, 531000 tussen 1 maand en 1 jaar, 532000 ten hoogste 1 maand. Een kasbon is geen deposito maar een vastrentend effect."
+    },
+    {
+      "fout": "Geld van kas naar bank (of tussen banken) rechtstreeks boeken zonder 580000.",
+      "correctie": "Gebruik de overbruggingsrekening 580000 omdat het kasstuk/stortingsbewijs en het rekeninguittreksel op verschillende dagen binnenkomen; 580000 staat nadien op nul."
+    }
   ],
   "controlevragen": [
-    {"vraag": "Wanneer spreek je van een deelnemingsverhouding en wanneer van een verbonden onderneming?", "antwoord": "Een deelnemingsverhouding is een duurzame band van minstens 10% (rechtstreeks + onrechtstreeks) zonder controle → 282-reeks. Een verbonden onderneming is er bij controle (meestal > 50%) → 280-reeks; een dochteronderneming is daar een voorbeeld van."},
-    {"vraag": "Hoe boek je de aankoop van een deelneming waarvan het kapitaal nog niet volgestort is?", "antwoord": "280000 (of 282000) debet voor de volle aanschaffingswaarde / 280100 (of 282100) Nog te storten bedragen credit. Bij volstorting: 280100/282100 debet / 550000 credit."},
-    {"vraag": "Hoe registreer je een herwaardering van 100.000 op een deelneming waarop al 60.000 waardevermindering geboekt staat, met de geringste fiscale impact?", "antwoord": "Eerst de waardevermindering van 60.000 terugnemen via het eigen vermogen (28x900 debet / 122000 credit), daarna het overschot van 40.000 als geboekte meerwaarde (28x800 debet / 122000 credit)."},
-    {"vraag": "Hoe bepaal je de meerwaarde bij de verkoop van een deelneming?", "antwoord": "Eerst de herwaarderingsmeerwaarde terugdraaien (122000 / 28x800), dan de deelneming crediteren tegen de aanschaffingswaarde; het positieve verschil met de verkoopprijs is de meerwaarde op 763000 (FVA)."},
-    {"vraag": "Hoe boek je netto-interest van 2.100 EUR op een termijnrekening (30% roerende voorheffing)?", "antwoord": "Brutorente = 2.100 / 0,70 = 3.000; RV = 900. 550000 debet 2.100 + 670000 debet 900 / 751000 credit 3.000."},
-    {"vraag": "Welke deposito-rekening gebruik je voor looptijden van 1 maand, 8 maanden en 20 maanden?", "antwoord": "1 maand → 532000 (ten hoogste 1 maand); 8 maanden → 531000 (tussen 1 maand en 1 jaar); 20 maanden → 530000 (> 1 jaar)."},
-    {"vraag": "Hoe verwerk je een storting van 24.500 EUR cash, verdeeld over drie banken, met aparte stortingsbewijzen en uittreksels?", "antwoord": "Stortingsbewijzen: 580000 debet 24.500 / 570000 credit 24.500. Per bank een uittreksel: 550000 debet / 580000 credit (5.000 + 15.000 + 4.500). Daarna staat 580000 op nul."},
-    {"vraag": "Wat doe je bij de verkoop van aandelen waarop een waardevermindering geboekt staat?", "antwoord": "Boek de geboekte waardevermindering (519000) mee af aan de debetzijde, laat de aandelen (510000) eruit tegen de aanschaffingswaarde, en bepaal de meerwaarde (752000) of minderwaarde (652000) t.o.v. de nettoboekwaarde."}
+    {
+      "vraag": "Wanneer spreek je van een deelnemingsverhouding en wanneer van een verbonden onderneming?",
+      "antwoord": "Een deelnemingsverhouding is een duurzame band van minstens 10% (rechtstreeks + onrechtstreeks) zonder controle → 282-reeks. Een verbonden onderneming is er bij controle (meestal > 50%) → 280-reeks; een dochteronderneming is daar een voorbeeld van."
+    },
+    {
+      "vraag": "Hoe boek je de aankoop van een deelneming waarvan het kapitaal nog niet volgestort is?",
+      "antwoord": "280000 (of 282000) debet voor de volle aanschaffingswaarde / 280100 (of 282100) Nog te storten bedragen credit. Bij volstorting: 280100/282100 debet / 550000 credit."
+    },
+    {
+      "vraag": "Hoe registreer je een herwaardering van 100.000 op een deelneming waarop al 60.000 waardevermindering geboekt staat, met de geringste fiscale impact?",
+      "antwoord": "Eerst de waardevermindering van 60.000 terugnemen via het eigen vermogen (28x900 debet / 122000 credit), daarna het overschot van 40.000 als geboekte meerwaarde (28x800 debet / 122000 credit)."
+    },
+    {
+      "vraag": "Hoe bepaal je de meerwaarde bij de verkoop van een deelneming?",
+      "antwoord": "Eerst de herwaarderingsmeerwaarde terugdraaien (122000 / 28x800), dan de deelneming crediteren tegen de aanschaffingswaarde; het positieve verschil met de verkoopprijs is de meerwaarde op 763000 (FVA)."
+    },
+    {
+      "vraag": "Hoe boek je netto-interest van 2.100 EUR op een termijnrekening (30% roerende voorheffing)?",
+      "antwoord": "Brutorente = 2.100 / 0,70 = 3.000; RV = 900. 550000 debet 2.100 + 670000 debet 900 / 751000 credit 3.000."
+    },
+    {
+      "vraag": "Welke deposito-rekening gebruik je voor looptijden van 1 maand, 8 maanden en 20 maanden?",
+      "antwoord": "1 maand → 532000 (ten hoogste 1 maand); 8 maanden → 531000 (tussen 1 maand en 1 jaar); 20 maanden → 530000 (> 1 jaar)."
+    },
+    {
+      "vraag": "Hoe verwerk je een storting van 24.500 EUR cash, verdeeld over drie banken, met aparte stortingsbewijzen en uittreksels?",
+      "antwoord": "Stortingsbewijzen: 580000 debet 24.500 / 570000 credit 24.500. Per bank een uittreksel: 550000 debet / 580000 credit (5.000 + 15.000 + 4.500). Daarna staat 580000 op nul."
+    },
+    {
+      "vraag": "Wat doe je bij de verkoop van aandelen waarop een waardevermindering geboekt staat?",
+      "antwoord": "Boek de geboekte waardevermindering (519000) mee af aan de debetzijde, laat de aandelen (510000) eruit tegen de aanschaffingswaarde, en bepaal de meerwaarde (752000) of minderwaarde (652000) t.o.v. de nettoboekwaarde."
+    }
+  ],
+  "cursus": {
+    "vindplaats": "Deel IV — H4 Financiële vaste activa (p. 371-404) + H8 Geldbeleggingen (p. 449-462) + H9 Liquide middelen (p. 463-470)",
+    "kernpunten": "## Wettelijke grondslag en kwalificatie (WVV / KB WVV)\n\nDe bestaande samenvatting toont vooral de boekingen. Het boek vertrekt echter eerst van de **juridische definities** uit het KB WVV — die bepalen WELKE rekeningenreeks je gebruikt. Dit is de echte meerwaarde voor het examen.\n\n### Drie categorieën FVA op basis van de wet\n\n- **Deelneming** (art. 1:22 KB WVV): maatschappelijke rechten die een **duurzame en specifieke band** scheppen om invloed uit te oefenen op het beleid. Behoudens tegenbewijs vermoed vanaf **1/10 (10%)** van kapitaal, eigen vermogen of een soort aandelen (p. 373, 370).\n- **Controle** (art. 1:14): de bevoegdheid om een **beslissende invloed** uit te oefenen op de aanstelling van de meerderheid van bestuurders of op de oriëntatie van het beleid. Controle is *in rechte* (onweerlegbaar vermoed bij meerderheid van stemrechten) of *in feite* (p. 365).\n- **Verbonden onderneming** (art. 1:20): de vennootschappen waarover men controle uitoefent, die controle over haar uitoefenen, waarmee een **consortium** (art. 1:19, centrale leiding zonder kapitaalband) gevormd wordt, of die onder controle van die vennootschappen staan → reeks **280** (p. 366-368).\n- **Geassocieerde vennootschap** (art. 1:21): geen dochter, maar wel een deelneming met **invloed van betekenis**, vermoed vanaf **1/5 (20%)** van de stemrechten.\n- **Vennootschap met deelnemingsverhouding** (art. 1:23): geen verbonden onderneming, maar wel ≥ 10% rechtstreeks/onrechtstreeks → reeks **282** (p. 370-371).\n\n**Valkuil die het boek expliciet benadrukt (p. 367, 376):** tel altijd de **rechtstreekse + onrechtstreekse** controlebevoegdheid samen (art. 1:16). Zo wordt 20% rechtstreeks + 30% via een dochter samen > 50% → exclusieve controle (art. 1:17) → verbonden onderneming.\n\n## Aanschaffingswaarde en bijkomende kosten\n\nArt. 3:19, § 2 KB WVV laat een **keuze** toe: de bijkomende kosten bij aanschaffing van FVA én geldbeleggingen **mogen** ten laste van de resultatenrekening worden genomen (rekening 658/659 Aankoopkosten effecten) **of** geactiveerd worden in de aanschaffingswaarde (p. 372-373, 451). Bij **inbreng in natura** geldt de inbrengwaarde en behoren de bijkomende kosten tot de oprichtingskosten (p. 374).\n\n## Vorderingen, borgtochten en herklassering\n\nNaast aandelen omvatten FVA ook **leningen ter duurzame steun** aan de andere onderneming (281/283) — de participerende onderneming speelt dan de rol van *financier* (p. 365). Een in contanten betaalde **borgtocht** (bv. huurwaarborg langlopend contract) komt op **288000**. Het boek wijst op de **herklassering** op het einde van het voorlaatste jaar: de langlopende borgtocht (288) wordt overgeboekt naar een kortlopende vordering (418 Waarborg) wanneer terugbetaling binnen het jaar valt (p. 374-375).\n\n## Waardecorrecties — de regels achter de boekingen\n\n- **Waardevermindering** (art. 3:44, § 2): enkel bij **duurzame** minderwaarde, verantwoord door de toestand, rendabiliteit of vooruitzichten van de deelneming → 661 / 28x9. Op vorderingen: bij onzekerheid over de betaling op vervaldag, met omzetting naar **dubieuze debiteur** (28x7 debet / 28x0 credit) (p. 375-377).\n- **Herwaardering** (art. 3:35, § 1): enkel toegelaten als de waarde op een **vaststaande én duurzame** wijze boven de boekwaarde uitstijgt → 28x8 / 122 (p. 378).\n- **Terugneming** waardevermindering: 28x9 / 761. Belangrijk: art. 3:94 staat toe de terugneming als **herwaarderingsmeerwaarde** (122) te boeken — dit verklaart de fiscaal voordeligste route in de oefeningen (p. 378).\n\n## Realisatie\n\nNettoboekwaarde = saldo 28.0 (aanschaffingswaarde) + saldo 28.8 (meerwaarden) − saldo 28.9 (waardeverminderingen). Bij verkoop: meerwaarde op **763**, minderwaarde op **6631** (p. 379).\n\n## Geldbeleggingen vs. FVA — het onderscheidcriterium\n\nHet kernverschil is de **bedoeling/looptijd** (art. 3:89): geldbeleggingen zijn *tijdelijk vrij vermogen* belegd om rendement te halen, zonder duurzame band. FVA worden FVA wanneer er een duurzame band/controle is. Aandelen in verbonden ondernemingen mogen uitzonderlijk op 51 staan als beslist is ze **binnen 12 maanden** te verkopen (p. 441-442). Bij geldbeleggingen is **herwaardering wettelijk verboden** (enkel materiële en financiële vaste activa mogen geherwaardeerd worden); wel mogelijk: terugneming van eerder geboekte waardeverminderingen (max. tot 0) via 6511 (p. 453-454).\n\n## Liquide middelen en 580 Interne overboekingen\n\nLiquide middelen (54/58) worden tegen **nominale waarde** gewaardeerd; waardeverminderingen komen er slechts uitzonderlijk voor (p. 465). De debetboeking op 55 volgt steeds uit een **creditbericht** van de bank en omgekeerd. Bij een negatief saldo op balansdatum volgt overboeking naar **433** (Kredietinstellingen – schulden) (p. 463-464). Rekening **580** is de *kruispostrekening* die het tijdsverschil opvangt bij transfers tussen kas, bank en post — na de twee boekingen staat ze op nul (p. 464).",
+    "begrippen": [
+      {
+        "term": "Deelneming (art. 1:22 KB WVV)",
+        "uitleg": "Maatschappelijke rechten die ertoe strekken een duurzame en specifieke band te scheppen met een andere vennootschap om invloed uit te oefenen op de oriëntatie van haar beleid. Behoudens tegenbewijs vermoed vanaf 10% van het kapitaal, het eigen vermogen of een soort aandelen."
+      },
+      {
+        "term": "Controle (art. 1:14 KB WVV)",
+        "uitleg": "De bevoegdheid, in rechte of in feite, om een beslissende invloed uit te oefenen op de aanstelling van de meerderheid van de bestuurders/zaakvoerders of op de oriëntatie van het beleid. Onweerlegbaar vermoed bij bezit van de meerderheid van de stemrechten."
+      },
+      {
+        "term": "Verbonden onderneming (art. 1:20 KB WVV)",
+        "uitleg": "Een vennootschap waarover men controle uitoefent (dochter), die controle over haar uitoefent (moeder), waarmee ze een consortium vormt, of die onder controle van die ondernemingen staat. Geboekt in de 280-reeks."
+      },
+      {
+        "term": "Exclusieve controle (art. 1:17 KB WVV)",
+        "uitleg": "De controle die een vennootschap alleen, of samen met een van haar dochtervennootschappen, uitoefent over een andere vennootschap. Rechtstreekse en onrechtstreekse bevoegdheid worden samengeteld (art. 1:16)."
+      },
+      {
+        "term": "Consortium (art. 1:19 KB WVV)",
+        "uitleg": "Situatie waarbij vennootschappen die geen dochters van elkaar of van eenzelfde vennootschap zijn, onder centrale leiding staan (bv. dezelfde bestuursorganen). Geeft GEEN aanleiding tot registratie in de balans."
+      },
+      {
+        "term": "Vennootschap met deelnemingsverhouding (art. 1:23 KB WVV)",
+        "uitleg": "Een vennootschap die geen verbonden vennootschap is, maar waarin men (rechtstreeks of via dochters) een deelneming aanhoudt (≥ 10%, zonder controle). Geboekt in de 282-reeks."
+      },
+      {
+        "term": "Geassocieerde vennootschap (art. 1:21 KB WVV)",
+        "uitleg": "Een vennootschap, geen dochter, waarin men een deelneming bezit en een invloed van betekenis uitoefent op de oriëntatie van het beleid. Behoudens tegenbewijs vermoed vanaf 1/5 (20%) van de stemrechten."
+      },
+      {
+        "term": "Bijkomende kosten FVA (art. 3:19, §2 KB WVV)",
+        "uitleg": "De bijkomende kosten bij aanschaffing van FVA en geldbeleggingen MOGEN ten laste van de resultatenrekening worden genomen (rekening 659 Aankoopkosten effecten) of worden geactiveerd in de aanschaffingswaarde. Het is een keuze."
+      },
+      {
+        "term": "Borgtochten betaald in contanten (288)",
+        "uitleg": "Een langlopende in contanten betaalde waarborg (bv. huurwaarborg bij een meerjarig contract) wordt als FVA-vordering op 288000 geboekt. Op het einde van het voorlaatste jaar herklasseert men ze naar de kortlopende rekening 418 Waarborg."
+      },
+      {
+        "term": "Duurzame waardevermindering (art. 3:44, §2 KB WVV)",
+        "uitleg": "Op deelnemingen/aandelen wordt slechts een waardevermindering geboekt bij duurzame minderwaarde of ontwaarding, verantwoord door de toestand, rendabiliteit of vooruitzichten van de deelneming. Op vorderingen: bij onzekerheid over betaling op vervaldag."
+      },
+      {
+        "term": "Herwaardering FVA (art. 3:35, §1 KB WVV)",
+        "uitleg": "Deelnemingen/aandelen als FVA mogen worden geherwaardeerd wanneer hun waarde op een vaststaande en duurzame wijze boven de boekwaarde uitstijgt. Tegenpost: 122 Herwaarderingsmeerwaarden op FVA. Verantwoording in de toelichting."
+      },
+      {
+        "term": "Nettoboekwaarde FVA",
+        "uitleg": "Aanschaffingswaarde (saldo 28.0) + geboekte meerwaarden (saldo 28.8) − geboekte waardeverminderingen (saldo 28.9). Bij realisatie wordt het verschil met de verkoopprijs als meer- (763) of minderwaarde (6631) geboekt."
+      },
+      {
+        "term": "Overige beleggingen / geldbeleggingen (art. 3:89 KB WVV)",
+        "uitleg": "Tijdelijk vrij vermogen belegd met het oog op rendement en realiseerbaarheid (vorderingen op kredietinstellingen, termijndeposito's, met beleggingsdoel verkregen effecten zonder FVA-karakter, edele metalen) bestemd om op korte/middellange termijn opnieuw te verkopen. Code 50/53."
+      },
+      {
+        "term": "Interne overboekingen / kruispostrekening (58)",
+        "uitleg": "Het technische hulpmiddel om het tijdsverschil bij transfers tussen kassen, kredietinstellingen en/of postchequedienst boekhoudkundig te overbruggen. Na de twee samenhangende boekingen staat rekening 580000 op nul."
+      }
+    ]
+  },
+  "meerkeuze": [
+    {
+      "vraag": "Vennootschap A bezit rechtstreeks 20% van de aandelen van D en daarnaast 30% van D onrechtstreeks via haar dochter C. Hoe wordt D in de balans van A geklasseerd?",
+      "opties": [
+        "Als verbonden onderneming (280-reeks), want rechtstreekse + onrechtstreekse controle bedraagt samen 50%/meer",
+        "Als vennootschap met deelnemingsverhouding (282-reeks), want de rechtstreekse participatie blijft onder 50%",
+        "Als andere financiële vaste activa (284-reeks), want het pakket is kleiner dan 10%",
+        "Als geldbelegging (klasse 51), want het gaat om een minderheidsparticipatie"
+      ],
+      "juist": 0,
+      "uitleg": "Art. 1:16 KB WVV bepaalt dat de onrechtstreekse controlebevoegdheid (via dochter C) bij de rechtstreekse wordt geteld: 20% + 30% = 50% → exclusieve controle → verbonden onderneming → 280-reeks (p. 367). B is fout: men mag de onrechtstreekse participatie niet wegdenken. C en D zijn fout: dit is geen pakket < 10% en geen korte-termijnbelegging."
+    },
+    {
+      "vraag": "Een onderneming koopt aandelen van een onderneming waarmee een deelnemingsverhouding bestaat en kiest ervoor de aankoopkosten NIET te activeren. Op welke rekening komen die aankoopkosten?",
+      "opties": [
+        "659000 Aankoopkosten effecten (financiële kost)",
+        "282000 Deelnemingen deelnemingsverhouding (in de aanschaffingswaarde)",
+        "610000 Diensten en diverse goederen (bedrijfskost)",
+        "200000 Kosten van oprichting en kapitaalverhoging"
+      ],
+      "juist": 0,
+      "uitleg": "Art. 3:19, §2 KB WVV laat toe de bijkomende kosten ten laste van de resultatenrekening te nemen; het boek gebruikt hiervoor 658/659 Aankoopkosten effecten (p. 373). B zou de activering zijn (de andere keuze). C is fout: het is een financiële, geen bedrijfskost. D geldt enkel bij inbreng in natura, niet bij aankoop tegen contanten."
+    },
+    {
+      "vraag": "Nv DUCRO boekte een waardevermindering op een deelneming met deelnemingsverhouding wegens duurzame verliezen bij de deelneming. Welke boeking is correct?",
+      "opties": [
+        "661000 Waardeverminderingen op FVA (debet) aan 282900 Geboekte waardeverm (-) (credit)",
+        "651000 Waardeverm op vlottende (debet) aan 282900 Geboekte waardeverm (-) (credit)",
+        "282900 Geboekte waardeverm (-) (debet) aan 761000 Terugneming waardeverm op FVA (credit)",
+        "122000 HWMW op FVA (debet) aan 282800 Geboekte meerwaarden (credit)"
+      ],
+      "juist": 0,
+      "uitleg": "Een duurzame waardevermindering op FVA is een niet-recurrente financiële kost: 661 debet, met de correctierekening 28x9 in credit (p. 375-376). B gebruikt de verkeerde kostenrekening (651 hoort bij vlottende activa/geldbeleggingen). C is net de terugneming. D is een herwaardering/terugdraaiing, geen waardevermindering."
+    },
+    {
+      "vraag": "Het bestuursorgaan wil een participatie (deelnemingsverhouding) met 100.000 EUR herwaarderen; er staat al een geboekte waardevermindering van 60.000 EUR op. Wat is de fiscaal voordeligste registratie?",
+      "opties": [
+        "Eerst 60.000 terugnemen via 282900 (d) / 122000 (c), dan het saldo 40.000 boeken via 282800 (d) / 122000 (c)",
+        "Het volledige bedrag van 100.000 boeken via 282800 (d) / 761000 (c)",
+        "Het volledige bedrag van 100.000 boeken via 282800 (d) / 122000 (c)",
+        "Eerst 60.000 terugnemen via 282900 (d) / 761000 (c), dan 40.000 via 282800 (d) / 122000 (c)"
+      ],
+      "juist": 0,
+      "uitleg": "Art. 3:94 KB WVV laat toe de terugneming van een waardevermindering rechtstreeks als herwaarderingsmeerwaarde (122) te boeken; zo blijft de winst onbelast (p. 378). Eerst de bestaande waardevermindering van 60.000 terugnemen (282900 d / 122000 c), daarna het overschot van 40.000 als geboekte meerwaarde (282800 d / 122000 c). B en C negeren de bestaande waardevermindering. D boekt de terugneming via opbrengstrekening 761 in plaats van fiscaalvriendelijk via 122."
+    },
+    {
+      "vraag": "Een als FVA geboekte deelneming (verbonden onderneming) met aanschaffingswaarde 12.000 EUR wordt verkocht voor 15.000 EUR; de bank ontvangt het bedrag. Welke boeking is correct?",
+      "opties": [
+        "550000 (d) 15.000 aan 280000 (c) 12.000 en 763000 (c) 3.000",
+        "550000 (d) 15.000 aan 280000 (c) 15.000",
+        "550000 (d) 15.000 aan 280000 (c) 12.000 en 752000 (c) 3.000",
+        "550000 (d) 15.000 aan 280000 (c) 12.000 en 741000 (c) 3.000"
+      ],
+      "juist": 0,
+      "uitleg": "De deelneming verlaat het actief tegen haar aanschaffingswaarde (12.000) en het positieve verschil van 3.000 is een meerwaarde op de realisatie van FVA → 763 (p. 379). B negeert de meerwaarde en crediteert ten onrechte de aanschaffingswaarde voor de verkoopprijs. C (752) is voor vlottende activa/geldbeleggingen, niet FVA. D (741) is voor materiële vaste activa."
+    },
+    {
+      "vraag": "Een onderneming koopt obligaties als PERMANENTE belegging (FVA). Op welke rekening boekt ze de aanschaffingswaarde van deze vastrentende effecten?",
+      "opties": [
+        "285200 Vastrentende effecten",
+        "510000 Aandelen",
+        "520000 Vastrentende effecten (klasse 52, geldbelegging)",
+        "281000 Vorderingen op verbonden ondernemingen"
+      ],
+      "juist": 0,
+      "uitleg": "Vastrentende effecten aangehouden als permanente belegging horen bij de FVA op rekening 285200 (p. 372, oefening p. 396). B is fout: aandelen, geen vastrentende effecten. C (klasse 52) zou gelden als het een korte-termijn-geldbelegging was, niet een permanente belegging. D is een lening, geen effect."
+    },
+    {
+      "vraag": "Een termijnrekening op 6 maanden brengt 187,50 EUR brutorente op; de bank houdt 30% roerende voorheffing in en stort de nettorente op de zichtrekening. Welke boeking is correct?",
+      "opties": [
+        "550000 (d) 131,25 en 670000 (d) 56,25 aan 751000 (c) 187,50",
+        "550000 (d) 187,50 aan 751000 (c) 187,50",
+        "550000 (d) 131,25 en 670000 (d) 56,25 aan 750000 (c) 187,50",
+        "550000 (d) 131,25 aan 751000 (c) 131,25"
+      ],
+      "juist": 0,
+      "uitleg": "De volledige brutorente (187,50) is een opbrengst uit vlottende activa → 751 in credit; de ingehouden roerende voorheffing van 30% (56,25) is een belasting/voorheffing → 670 in debet; de bank ontvangt het netto (131,25) → 550 in debet (p. 456). B negeert de roerende voorheffing. C gebruikt 750 (opbrengsten uit FVA) i.p.v. 751 (vlottende activa). D boekt enkel het netto en negeert de bruto-opbrengst en de voorheffing."
+    },
+    {
+      "vraag": "Bij de inventaris daalt de realisatiewaarde van als geldbelegging aangehouden aandelen onder de aanschaffingswaarde. Wat schrijft het KB WVV voor?",
+      "opties": [
+        "Een waardevermindering boeken (651000 d / 519000 c), want art. 3:52 verplicht dit bij een lagere realisatiewaarde",
+        "De aandelen herwaarderen tot de aanschaffingswaarde via 122000",
+        "Niets boeken, want geldbeleggingen worden altijd tegen marktwaarde gewaardeerd",
+        "Een minderwaarde boeken op 663000 Minderwaarden op de realisatie van vaste activa"
+      ],
+      "juist": 0,
+      "uitleg": "Art. 3:52 KB WVV: op geldbeleggingen en liquide middelen worden waardeverminderingen toegepast wanneer de realisatiewaarde op balansdatum lager is dan de aanschaffingswaarde → 651 (kost) / 519 (correctierekening) (p. 444). B is fout: herwaardering is bij geldbeleggingen wettelijk verboden (enkel materiële en financiële vaste activa). C miskent het voorzichtigheidsbeginsel. D (663) geldt enkel bij effectieve realisatie/verkoop, niet bij een inventariswaardering."
+    },
+    {
+      "vraag": "Een onderneming stort 750 EUR uit de kas op de bankrekening. Welke twee boekingen zijn correct en wat is het resultaat op rekening 580000?",
+      "opties": [
+        "580000 (d) / 570000 (c) bij het kasstuk en 550000 (d) / 580000 (c) bij het bankuittreksel; daarna staat 580000 op nul",
+        "550000 (d) / 570000 (c) in één boeking; 580000 wordt niet gebruikt",
+        "570000 (d) / 580000 (c) en daarna 580000 (d) / 550000 (c); 580000 heeft een creditsaldo van 750",
+        "580000 (d) / 550000 (c) en 570000 (d) / 580000 (c); 580000 heeft een debetsaldo van 750"
+      ],
+      "juist": 0,
+      "uitleg": "De kruispostrekening 580 overbrugt het tijdsverschil tussen kasstuk en bankuittreksel (p. 464): eerst geld uit de kas (580 d / 570 c), dan ontvangst op de bank (550 d / 580 c). Na beide boekingen is 580000 saldo nul. B mag niet: kas en bank worden op verschillende documenten geboekt, vandaar de tussenrekening. C en D draaien de richting om of laten een onterecht saldo staan."
+    },
+    {
+      "vraag": "Een langlopende huurwaarborg in contanten staat op rekening 288000 Borgtochten betaald in contanten. Wat gebeurt er op het einde van het voorlaatste jaar van het contract?",
+      "opties": [
+        "Herklassering naar 418000 Waarborg, omdat de terugbetaling binnen het jaar valt",
+        "Volledige afschrijving van de borgtocht via 661000",
+        "Herklassering naar 488000 Waarborg (passief), omdat het een schuld wordt",
+        "Niets, de borgtocht blijft op 288000 tot de effectieve terugbetaling"
+      ],
+      "juist": 0,
+      "uitleg": "Op het einde van het voorlaatste jaar valt de terugbetaling binnen 12 maanden; de langlopende FVA-vordering (288) wordt geherklasseerd naar de kortlopende vordering 418 Waarborg (p. 374-375). B is fout: een borgtocht wordt niet afgeschreven. C verwart de eigen vordering met een ontvangen waarborg (488 is een schuld bij wie de waarborg ontvangt). D miskent de verplichte herklassering."
+    }
   ]
 }

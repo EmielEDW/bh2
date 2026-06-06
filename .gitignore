@@ -40,6 +40,7 @@ __pycache__/
 # - _extracted/ is afgeleide tekst uit die bronnen
 # De AFGELEIDE database (data/mar.json) blijft wel in git, zodat de site werkt.
 mar.pdf
+cursus.pdf
 /Boekhouden_2_(dag)_-_Documenten/
 _extracted/
 

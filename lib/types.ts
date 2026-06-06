@@ -86,6 +86,24 @@ export interface Controlevraag {
   antwoord: string;
 }
 
+export interface Begrip {
+  term: string;
+  uitleg: string;
+}
+
+export interface Cursus {
+  vindplaats: string;
+  kernpunten: string;
+  begrippen: Begrip[];
+}
+
+export interface MeerkeuzeVraag {
+  vraag: string;
+  opties: string[];
+  juist: number;
+  uitleg?: string;
+}
+
 export interface Thema {
   slug: string;
   titel: string;
@@ -98,4 +116,6 @@ export interface Thema {
   flashcards: Flashcard[];
   veelgemaakteFouten: FoutCorrectie[];
   controlevragen: Controlevraag[];
+  cursus?: Cursus;
+  meerkeuze: MeerkeuzeVraag[];
 }

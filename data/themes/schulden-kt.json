@@ -13,73 +13,278 @@
   ],
   "samenvatting": "## Wat zijn schulden op ten hoogste één jaar?\n\nSchulden op ten hoogste één jaar zijn bedragen die je onderneming **binnen het jaar** moet betalen. Ze staan op de **passiefzijde** van de balans in **klasse 42 tot en met 48**. Omdat het passiefrekeningen zijn geldt de basisregel: een schuld **stijgt in credit** en **daalt in debet** (bij betaling). De moeilijkheid is niet de debet/credit-logica, maar het kiezen van de **juiste rekening**.\n\n## 1. Financiële schulden op korte termijn (klasse 43)\n\nDit is de kern van de fiche 629. Wanneer een bank een **kaskrediet, voorschot of lening op vaste termijn** verleent die binnen het jaar terugbetaald wordt, ontstaat een schuld in klasse 43:\n- **430000 Kredietinstellingen – Leningen vaste termijn**: lening op vaste termijn / voorschot voor een korte periode (bv. lening op 4 maanden, voorschot op 3 weken).\n- **433000 Kredietinstellingen**: schulden in rekening-courant (negatieve zichtrekening).\n- **439000 Overige leningen**: andere kortlopende financiële schuld (bv. lening op 8 maanden).\n\nVerwar dit niet met **550000 Kredietinstellingen**: dat is de zichtrekening, een **actief** (liquide middel). De interest op deze schulden boek je op **650000 Financiële kosten** (de fiche noemt dit *rente verbonden aan schulden*).\n\n### Een kaskrediet volledig verwerken (fiche 629)\n```\nOpname:   550000 Bank r/c        @ 430000 Kredietinstellingen (lening/voorschot)\nTerugbet: 650000 Financiële kosten (interest)\n          430000 Kredietinstellingen      @ 550000 Bank r/c\n```\n\n### Negatieve zichtrekening afrekenen op 31/12\nStaat de zichtrekening (550000) negatief op de afsluitdatum, dan boek je het saldo over naar een **echte schuldrekening 433000**: `550000 Bank r/c @ 433000 Kredietinstellingen – schulden in r/c`. Bij de **heropening** (01/01) draai je die boeking terug.\n\n## 2. Handelsschulden (44)\n- **440000 Leveranciers**: dé klassieke schuld na een aankoopfactuur (incl. btw).\n- **444000 Te ontvangen facturen**: bij de **afsluiting** als de goederen/diensten al ontvangen zijn maar de **factuur nog niet binnen** is. Boek de kost (bv. 604000) tegenover 444000, **zonder btw**. Het volgende jaar draai je 444000 terug en boek je de echte factuur met btw.\n- **444100 Op te maken creditnota's**: spiegelbeeld voor een creditnota die je nog moet uitreiken of ontvangen.\n\n## 3. Schulden m.b.t. belastingen, bezoldigingen en sociale lasten (45)\n- **450000 Geraamd bedrag der belastingschulden**: de *geraamde* belasting op de winst (tegenover 670200), zolang het aanslagbiljet nog niet binnen is.\n- **451000 Te betalen B.T.W.**: het te betalen saldo van de btw-afrekening.\n- **452000 Te betalen belastingen en taksen**: de *definitief vaststaande* belasting volgens het aanslagbiljet.\n- **453000 Ingehouden voorheffingen**: de ingehouden **bedrijfsvoorheffing** op het loon én de ingehouden **roerende voorheffing** op rente.\n- **454000 Rijksdienst voor Sociale Zekerheid (RSZ)**: het volledige RSZ-bedrag = **werknemers- én werkgeversbijdrage** samen.\n- **455000 Bezoldigingen**: het **nettoloon** dat nog uitbetaald moet worden.\n- **456000 Vakantiegeld**: de schuld voor vakantiegeld.\n\n### Een loonboeking ontleden\nKost = brutoloon (**620100** arbeiders / **620200** bedienden) + werkgevers-RSZ (**621000**) + eventueel werkgeverspremie groepsverzekering (**622000**) + andere personeelskosten zoals terugbetaalde verplaatsingskosten (**623000**). Daartegenover staan de schulden: bedrijfsvoorheffing → 453000, RSZ (WN+WG) → 454000, nettoloon → 455000.\n\nVoorbeeld arbeiders (fiche 648): bruto 18.103, RSZ-WN 2.366, RSZ-WG 5.514, BV 3.633, terugbetaalde verplaatsingskosten 1.200.\n```\n620100 Bezoldigingen arbeiders   18.103,00\n623000 Andere personeelskosten    1.200,00\n   453000 Ingehouden voorheffingen   @  3.633,00\n   454000 RSZ                        @  2.366,00\n   455000 Bezoldigingen              @ 13.304,00\n621000 Werkgeversbijdragen          5.514,00\n   454000 RSZ                        @  5.514,00\n```\n\n## 4. Belasting op de winst over twee boekjaren\n- **Voorafbetaling**: `670000 Belastingen @ 550000 Bank` (het betaalde bedrag).\n- **Raming bij de afsluiting**: berekende belasting groter dan voorafbetaald → `670200 Geraamde belastingen @ 450000`; voorafbetaald groter dan berekend → `412000 Terug te vorderen belastingen @ 670100 Geactiveerde overschotten (-)`.\n- **Aanslagbiljet (volgend jaar)**: het definitief te betalen bedrag op **452000**; een tekort t.o.v. de raming is een supplement op **671000**; een teveel terug te vorderen op **412000**; een regularisatie (van geraamde schuld naar terugvordering) via **771000 Regularisering belastingen**.\n\n## 5. Diverse en andere schulden (48)\n- **489000 Andere diverse schulden**: vangnet, bv. een voorschot in r/c van de bedrijfsleider of het nettobedrag van rente aan een particulier.\n- **480000 Andere schulden** en **460000 Ontvangen vooruitbetalingen op bestellingen**: klant betaalt vooruit vóór levering (schuld).\n\n## Samengevat\n- Kaskrediet/voorschot/lening op vaste termijn → **430000**; schuld in r/c → **433000**; overige KT-lening → **439000**.\n- Loon: BV → 453000, RSZ (WN+WG) → 454000, netto → 455000.\n- Belasting geraamd → 450000, definitief → 452000, terug te vorderen → 412000, supplement → 671000, regularisatie → 771000.\n- Factuur ontvangen → 440000; goederen ontvangen maar factuur nog niet → 444000; nog uit te reiken creditnota → 444100.",
   "kernrekeningen": [
-    {"code": "430000", "naam": "Kredietinstellingen – Leningen vaste termijn", "natuur": "credit", "wanneer": "Voor een lening op vaste termijn of een voorschot in rekening-courant op korte termijn bij de bank (bv. lening op 4 maanden, voorschot op 3 weken). De fiche noteert dit als 'Kredietinstellingen – lening/voorschot'."},
-    {"code": "433000", "naam": "Kredietinstellingen", "natuur": "credit", "wanneer": "Voor schulden in rekening-courant: het negatieve saldo van de zichtrekening dat je op de afsluitdatum overboekt vanaf 550000 ('schulden in r/c')."},
-    {"code": "439000", "naam": "Overige leningen (financiële schuld KT)", "natuur": "credit", "wanneer": "Voor een andere kortlopende lening die binnen het jaar vervalt (bv. een lening op 8 maanden van een derde)."},
-    {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "natuur": "credit", "wanneer": "Voor het deel van een langetermijnschuld (klasse 17) dat binnen 12 maanden vervalt; overboeking 17.. @ 423000 bij de afsluiting."},
-    {"code": "440000", "naam": "Leveranciers", "natuur": "credit", "wanneer": "Bij ontvangst van een aankoopfactuur of de factuur van het sociaal secretariaat: de schuld incl. btw. Daalt in debet bij betaling."},
-    {"code": "444000", "naam": "Te ontvangen facturen", "natuur": "credit", "wanneer": "Bij de afsluiting wanneer goederen/diensten ontvangen zijn maar de factuur nog niet binnen is (zonder btw). Wordt het volgend jaar tegengeboekt."},
-    {"code": "444100", "naam": "Op te maken creditnota's", "natuur": "credit", "wanneer": "Spiegelbeeld van 444000 voor een nog uit te reiken/te ontvangen creditnota bij de afsluiting (zonder btw)."},
-    {"code": "450000", "naam": "Geraamd bedrag der belastingschulden", "natuur": "credit", "wanneer": "Voor de geraamde nog verschuldigde belasting op de winst (tegenover 670200), zolang het aanslagbiljet nog niet binnen is."},
-    {"code": "451000", "naam": "Te betalen B.T.W", "natuur": "credit", "wanneer": "Voor het te betalen saldo van de periodieke btw-afrekening (VBTW groter dan ABTW)."},
-    {"code": "452000", "naam": "Te betalen belastingen en taksen", "natuur": "credit", "wanneer": "Voor de definitief vaststaande te betalen belasting volgens het aanslagbiljet."},
-    {"code": "453000", "naam": "Ingehouden voorheffingen", "natuur": "credit", "wanneer": "Voor de ingehouden bedrijfsvoorheffing op lonen en de ingehouden roerende voorheffing op rente, door te storten aan de Staat."},
-    {"code": "454000", "naam": "Rijksdienst voor Sociale Zekerheid", "natuur": "credit", "wanneer": "Voor het door te storten RSZ-bedrag: werknemersbijdrage én werkgeversbijdrage samen."},
-    {"code": "455000", "naam": "Bezoldigingen", "natuur": "credit", "wanneer": "Voor het nettoloon dat nog aan het personeel uitbetaald moet worden."},
-    {"code": "456000", "naam": "Vakantiegeld", "natuur": "credit", "wanneer": "Voor de schuld inzake vakantiegeld aan het personeel."},
-    {"code": "412000", "naam": "Terug te vorderen belastingen geraamd", "natuur": "debet", "wanneer": "Wanneer de voorafbetaalde belasting groter is dan de berekende/definitieve belasting: het teveel is terug te vorderen (actief, debet)."},
-    {"code": "489000", "naam": "Andere diverse schulden", "natuur": "credit", "wanneer": "Vangnet: bv. een voorschot in r/c van de bedrijfsleider of het nettobedrag van rente aan een particulier."},
-    {"code": "460000", "naam": "Ontvangen vooruitbetalingen op bestellingen", "natuur": "credit", "wanneer": "Wanneer een klant vooruitbetaalt vóór levering; de onderneming heeft nog een leveringsverplichting (schuld)."}
+    {
+      "code": "430000",
+      "naam": "Kredietinstellingen – Leningen vaste termijn",
+      "natuur": "credit",
+      "wanneer": "Voor een lening op vaste termijn of een voorschot in rekening-courant op korte termijn bij de bank (bv. lening op 4 maanden, voorschot op 3 weken). De fiche noteert dit als 'Kredietinstellingen – lening/voorschot'."
+    },
+    {
+      "code": "433000",
+      "naam": "Kredietinstellingen",
+      "natuur": "credit",
+      "wanneer": "Voor schulden in rekening-courant: het negatieve saldo van de zichtrekening dat je op de afsluitdatum overboekt vanaf 550000 ('schulden in r/c')."
+    },
+    {
+      "code": "439000",
+      "naam": "Overige leningen (financiële schuld KT)",
+      "natuur": "credit",
+      "wanneer": "Voor een andere kortlopende lening die binnen het jaar vervalt (bv. een lening op 8 maanden van een derde)."
+    },
+    {
+      "code": "423000",
+      "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+      "natuur": "credit",
+      "wanneer": "Voor het deel van een langetermijnschuld (klasse 17) dat binnen 12 maanden vervalt; overboeking 17.. @ 423000 bij de afsluiting."
+    },
+    {
+      "code": "440000",
+      "naam": "Leveranciers",
+      "natuur": "credit",
+      "wanneer": "Bij ontvangst van een aankoopfactuur of de factuur van het sociaal secretariaat: de schuld incl. btw. Daalt in debet bij betaling."
+    },
+    {
+      "code": "444000",
+      "naam": "Te ontvangen facturen",
+      "natuur": "credit",
+      "wanneer": "Bij de afsluiting wanneer goederen/diensten ontvangen zijn maar de factuur nog niet binnen is (zonder btw). Wordt het volgend jaar tegengeboekt."
+    },
+    {
+      "code": "444100",
+      "naam": "Op te maken creditnota's",
+      "natuur": "credit",
+      "wanneer": "Spiegelbeeld van 444000 voor een nog uit te reiken/te ontvangen creditnota bij de afsluiting (zonder btw)."
+    },
+    {
+      "code": "450000",
+      "naam": "Geraamd bedrag der belastingschulden",
+      "natuur": "credit",
+      "wanneer": "Voor de geraamde nog verschuldigde belasting op de winst (tegenover 670200), zolang het aanslagbiljet nog niet binnen is."
+    },
+    {
+      "code": "451000",
+      "naam": "Te betalen B.T.W",
+      "natuur": "credit",
+      "wanneer": "Voor het te betalen saldo van de periodieke btw-afrekening (VBTW groter dan ABTW)."
+    },
+    {
+      "code": "452000",
+      "naam": "Te betalen belastingen en taksen",
+      "natuur": "credit",
+      "wanneer": "Voor de definitief vaststaande te betalen belasting volgens het aanslagbiljet."
+    },
+    {
+      "code": "453000",
+      "naam": "Ingehouden voorheffingen",
+      "natuur": "credit",
+      "wanneer": "Voor de ingehouden bedrijfsvoorheffing op lonen en de ingehouden roerende voorheffing op rente, door te storten aan de Staat."
+    },
+    {
+      "code": "454000",
+      "naam": "Rijksdienst voor Sociale Zekerheid",
+      "natuur": "credit",
+      "wanneer": "Voor het door te storten RSZ-bedrag: werknemersbijdrage én werkgeversbijdrage samen."
+    },
+    {
+      "code": "455000",
+      "naam": "Bezoldigingen",
+      "natuur": "credit",
+      "wanneer": "Voor het nettoloon dat nog aan het personeel uitbetaald moet worden."
+    },
+    {
+      "code": "456000",
+      "naam": "Vakantiegeld",
+      "natuur": "credit",
+      "wanneer": "Voor de schuld inzake vakantiegeld aan het personeel."
+    },
+    {
+      "code": "412000",
+      "naam": "Terug te vorderen belastingen geraamd",
+      "natuur": "debet",
+      "wanneer": "Wanneer de voorafbetaalde belasting groter is dan de berekende/definitieve belasting: het teveel is terug te vorderen (actief, debet)."
+    },
+    {
+      "code": "489000",
+      "naam": "Andere diverse schulden",
+      "natuur": "credit",
+      "wanneer": "Vangnet: bv. een voorschot in r/c van de bedrijfsleider of het nettobedrag van rente aan een particulier."
+    },
+    {
+      "code": "460000",
+      "naam": "Ontvangen vooruitbetalingen op bestellingen",
+      "natuur": "credit",
+      "wanneer": "Wanneer een klant vooruitbetaalt vóór levering; de onderneming heeft nog een leveringsverplichting (schuld)."
+    }
   ],
   "boekingsschemas": [
     {
       "titel": "Kaskrediet / voorschot opnemen en terugbetalen (fiche 629)",
       "situatie": "De bank verleent een lening op vaste termijn of een voorschot in r/c dat binnen het jaar terugbetaald wordt met interest.",
       "regels": [
-        {"code": "550000", "naam": "Kredietinstellingen", "kant": "debet", "bedrag": "opgenomen bedrag", "toelichting": "Opname: de zichtrekening (actief) stijgt in debet."},
-        {"code": "430000", "naam": "Kredietinstellingen – Leningen vaste termijn", "kant": "credit", "bedrag": "opgenomen bedrag", "toelichting": "De financiële schuld op KT (passief) stijgt in credit."},
-        {"code": "650000", "naam": "Financiële kosten", "kant": "debet", "bedrag": "interest", "toelichting": "Bij de terugbetaling: rente verbonden aan schulden, een financiële kost."},
-        {"code": "430000", "naam": "Kredietinstellingen – Leningen vaste termijn", "kant": "debet", "bedrag": "opgenomen bedrag", "toelichting": "Terugbetaling: de schuld daalt in debet."},
-        {"code": "550000", "naam": "Kredietinstellingen", "kant": "credit", "bedrag": "bedrag + interest", "toelichting": "De zichtrekening daalt in credit voor kapitaal + interest."}
+        {
+          "code": "550000",
+          "naam": "Kredietinstellingen",
+          "kant": "debet",
+          "bedrag": "opgenomen bedrag",
+          "toelichting": "Opname: de zichtrekening (actief) stijgt in debet."
+        },
+        {
+          "code": "430000",
+          "naam": "Kredietinstellingen – Leningen vaste termijn",
+          "kant": "credit",
+          "bedrag": "opgenomen bedrag",
+          "toelichting": "De financiële schuld op KT (passief) stijgt in credit."
+        },
+        {
+          "code": "650000",
+          "naam": "Financiële kosten",
+          "kant": "debet",
+          "bedrag": "interest",
+          "toelichting": "Bij de terugbetaling: rente verbonden aan schulden, een financiële kost."
+        },
+        {
+          "code": "430000",
+          "naam": "Kredietinstellingen – Leningen vaste termijn",
+          "kant": "debet",
+          "bedrag": "opgenomen bedrag",
+          "toelichting": "Terugbetaling: de schuld daalt in debet."
+        },
+        {
+          "code": "550000",
+          "naam": "Kredietinstellingen",
+          "kant": "credit",
+          "bedrag": "bedrag + interest",
+          "toelichting": "De zichtrekening daalt in credit voor kapitaal + interest."
+        }
       ]
     },
     {
       "titel": "Negatieve zichtrekening overboeken op 31/12 (fiche 629)",
       "situatie": "Op de afsluitdatum staat de zichtrekening (550000) negatief: dit negatieve saldo is in feite een schuld aan de bank.",
       "regels": [
-        {"code": "550000", "naam": "Kredietinstellingen", "kant": "debet", "bedrag": "negatief saldo", "toelichting": "Het debetsaldo van 550000 wordt aangezuiverd (stijgt in debet naar 0)."},
-        {"code": "433000", "naam": "Kredietinstellingen", "kant": "credit", "bedrag": "negatief saldo", "toelichting": "Schulden in rekening-courant (passief KT) stijgt in credit. Bij heropening op 01/01 draai je deze boeking terug."}
+        {
+          "code": "550000",
+          "naam": "Kredietinstellingen",
+          "kant": "debet",
+          "bedrag": "negatief saldo",
+          "toelichting": "Het debetsaldo van 550000 wordt aangezuiverd (stijgt in debet naar 0)."
+        },
+        {
+          "code": "433000",
+          "naam": "Kredietinstellingen",
+          "kant": "credit",
+          "bedrag": "negatief saldo",
+          "toelichting": "Schulden in rekening-courant (passief KT) stijgt in credit. Bij heropening op 01/01 draai je deze boeking terug."
+        }
       ]
     },
     {
       "titel": "Loonboeking arbeiders/bedienden (fiche 648)",
       "situatie": "Maandelijkse verwerking van de loonstaat van het personeel.",
       "regels": [
-        {"code": "620100", "naam": "Loon arbeider", "kant": "debet", "bedrag": "brutoloon", "toelichting": "Brutoloon (arbeiders 620100, bedienden 620200) is een loonkost."},
-        {"code": "621000", "naam": "Werkgeversbijdragen voor sociale verzekeringen", "kant": "debet", "bedrag": "RSZ werkgever", "toelichting": "Werkgevers-RSZ is een extra loonkost."},
-        {"code": "453000", "naam": "Ingehouden voorheffingen", "kant": "credit", "bedrag": "bedrijfsvoorheffing", "toelichting": "Ingehouden BV, door te storten aan de Staat (schuld)."},
-        {"code": "454000", "naam": "Rijksdienst voor Sociale Zekerheid", "kant": "credit", "bedrag": "RSZ WN + RSZ WG", "toelichting": "Volledige RSZ-schuld: werknemers- én werkgeversbijdrage."},
-        {"code": "455000", "naam": "Bezoldigingen", "kant": "credit", "bedrag": "nettoloon", "toelichting": "Nog uit te betalen nettoloon (schuld aan personeel)."}
+        {
+          "code": "620100",
+          "naam": "Loon arbeider",
+          "kant": "debet",
+          "bedrag": "brutoloon",
+          "toelichting": "Brutoloon (arbeiders 620100, bedienden 620200) is een loonkost."
+        },
+        {
+          "code": "621000",
+          "naam": "Werkgeversbijdragen voor sociale verzekeringen",
+          "kant": "debet",
+          "bedrag": "RSZ werkgever",
+          "toelichting": "Werkgevers-RSZ is een extra loonkost."
+        },
+        {
+          "code": "453000",
+          "naam": "Ingehouden voorheffingen",
+          "kant": "credit",
+          "bedrag": "bedrijfsvoorheffing",
+          "toelichting": "Ingehouden BV, door te storten aan de Staat (schuld)."
+        },
+        {
+          "code": "454000",
+          "naam": "Rijksdienst voor Sociale Zekerheid",
+          "kant": "credit",
+          "bedrag": "RSZ WN + RSZ WG",
+          "toelichting": "Volledige RSZ-schuld: werknemers- én werkgeversbijdrage."
+        },
+        {
+          "code": "455000",
+          "naam": "Bezoldigingen",
+          "kant": "credit",
+          "bedrag": "nettoloon",
+          "toelichting": "Nog uit te betalen nettoloon (schuld aan personeel)."
+        }
       ]
     },
     {
       "titel": "Belasting op de winst – raming bij de afsluiting",
       "situatie": "Bij de afsluiting vergelijk je de berekende belasting met wat al voorafbetaald is.",
       "regels": [
-        {"code": "670200", "naam": "Geraamde belastingen", "kant": "debet", "bedrag": "nog verschuldigd", "toelichting": "Berekende belasting groter dan voorafbetaald: het verschil is een geraamde kost."},
-        {"code": "450000", "naam": "Geraamd bedrag der belastingschulden", "kant": "credit", "bedrag": "nog verschuldigd", "toelichting": "Geraamde nog te betalen belastingschuld (passief)."},
-        {"code": "412000", "naam": "Terug te vorderen belastingen geraamd", "kant": "debet", "bedrag": "teveel betaald", "toelichting": "Andersom: voorafbetaald groter dan berekend → terug te vorderen (actief)."},
-        {"code": "670100", "naam": "Geactiveerde overschotten betaalde belastingen (-)", "kant": "credit", "bedrag": "teveel betaald", "toelichting": "Het geactiveerde overschot vermindert de belastingkost (creditrekening -)."}
+        {
+          "code": "670200",
+          "naam": "Geraamde belastingen",
+          "kant": "debet",
+          "bedrag": "nog verschuldigd",
+          "toelichting": "Berekende belasting groter dan voorafbetaald: het verschil is een geraamde kost."
+        },
+        {
+          "code": "450000",
+          "naam": "Geraamd bedrag der belastingschulden",
+          "kant": "credit",
+          "bedrag": "nog verschuldigd",
+          "toelichting": "Geraamde nog te betalen belastingschuld (passief)."
+        },
+        {
+          "code": "412000",
+          "naam": "Terug te vorderen belastingen geraamd",
+          "kant": "debet",
+          "bedrag": "teveel betaald",
+          "toelichting": "Andersom: voorafbetaald groter dan berekend → terug te vorderen (actief)."
+        },
+        {
+          "code": "670100",
+          "naam": "Geactiveerde overschotten betaalde belastingen (-)",
+          "kant": "credit",
+          "bedrag": "teveel betaald",
+          "toelichting": "Het geactiveerde overschot vermindert de belastingkost (creditrekening -)."
+        }
       ]
     },
     {
       "titel": "Aanslagbiljet ontvangen (volgend boekjaar)",
       "situatie": "Het aanslagbiljet stelt het definitieve bedrag vast; je sluit de raming af.",
       "regels": [
-        {"code": "671000", "naam": "Verschuldigde of gestorte belastingsupplement", "kant": "debet", "bedrag": "tekort", "toelichting": "De definitieve belasting ligt hoger dan de raming/teruggave: het supplement is een kost."},
-        {"code": "450000", "naam": "Geraamd bedrag der belastingschulden", "kant": "debet", "bedrag": "geraamde schuld", "toelichting": "De geraamde schuld wordt afgesloten (passief daalt in debet)."},
-        {"code": "412000", "naam": "Terug te vorderen belastingen geraamd", "kant": "credit", "bedrag": "geraamde teruggave", "toelichting": "Een geraamde teruggave die niet doorgaat, wordt afgesloten in credit."},
-        {"code": "452000", "naam": "Te betalen belastingen en taksen", "kant": "credit", "bedrag": "definitief te betalen", "toelichting": "Definitief vaststaande te betalen belasting volgens het aanslagbiljet."}
+        {
+          "code": "671000",
+          "naam": "Verschuldigde of gestorte belastingsupplement",
+          "kant": "debet",
+          "bedrag": "tekort",
+          "toelichting": "De definitieve belasting ligt hoger dan de raming/teruggave: het supplement is een kost."
+        },
+        {
+          "code": "450000",
+          "naam": "Geraamd bedrag der belastingschulden",
+          "kant": "debet",
+          "bedrag": "geraamde schuld",
+          "toelichting": "De geraamde schuld wordt afgesloten (passief daalt in debet)."
+        },
+        {
+          "code": "412000",
+          "naam": "Terug te vorderen belastingen geraamd",
+          "kant": "credit",
+          "bedrag": "geraamde teruggave",
+          "toelichting": "Een geraamde teruggave die niet doorgaat, wordt afgesloten in credit."
+        },
+        {
+          "code": "452000",
+          "naam": "Te betalen belastingen en taksen",
+          "kant": "credit",
+          "bedrag": "definitief te betalen",
+          "toelichting": "Definitief vaststaande te betalen belasting volgens het aanslagbiljet."
+        }
       ]
     }
   ],
@@ -99,16 +304,46 @@
         {
           "omschrijving": "1) Opname kaskrediet op 4 maanden (BU/25)",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 100000.00, "credit": null, "reden": "De zichtrekening (Bank r/c, actief) wordt gecrediteerd met 100.000; stijgt in debet. Fiche: 5500."},
-            {"code": "430000", "naam": "Kredietinstellingen – Leningen vaste termijn", "debet": null, "credit": 100000.00, "reden": "Financiële schuld op KT 'lening op 4 md' (passief) stijgt in credit. Fiche: 430."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 100000.0,
+              "credit": null,
+              "reden": "De zichtrekening (Bank r/c, actief) wordt gecrediteerd met 100.000; stijgt in debet. Fiche: 5500."
+            },
+            {
+              "code": "430000",
+              "naam": "Kredietinstellingen – Leningen vaste termijn",
+              "debet": null,
+              "credit": 100000.0,
+              "reden": "Financiële schuld op KT 'lening op 4 md' (passief) stijgt in credit. Fiche: 430."
+            }
           ]
         },
         {
           "omschrijving": "2) Terugbetaling na 4 maanden + interest (BU/45)",
           "regels": [
-            {"code": "650000", "naam": "Financiële kosten", "debet": 3500.00, "credit": null, "reden": "Interestkosten = financiële kost; fiche noemt dit 'rente verbonden aan schulden' (6500)."},
-            {"code": "430000", "naam": "Kredietinstellingen – Leningen vaste termijn", "debet": 100000.00, "credit": null, "reden": "De schuld wordt afgelost; passief daalt in debet. Fiche: 430."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 103500.00, "reden": "Betaling van kapitaal + interest via de zichtrekening; actief daalt in credit (100.000 + 3.500)."}
+            {
+              "code": "650000",
+              "naam": "Financiële kosten",
+              "debet": 3500.0,
+              "credit": null,
+              "reden": "Interestkosten = financiële kost; fiche noemt dit 'rente verbonden aan schulden' (6500)."
+            },
+            {
+              "code": "430000",
+              "naam": "Kredietinstellingen – Leningen vaste termijn",
+              "debet": 100000.0,
+              "credit": null,
+              "reden": "De schuld wordt afgelost; passief daalt in debet. Fiche: 430."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 103500.0,
+              "reden": "Betaling van kapitaal + interest via de zichtrekening; actief daalt in credit (100.000 + 3.500)."
+            }
           ]
         }
       ],
@@ -131,30 +366,84 @@
         {
           "omschrijving": "1) Toekenning voorschot op 3 weken",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 300000.00, "credit": null, "reden": "Zichtrekening (Bank r/c) stijgt in debet. Fiche: 5500."},
-            {"code": "430000", "naam": "Kredietinstellingen – Leningen vaste termijn", "debet": null, "credit": 300000.00, "reden": "Financiële schuld 'voorschot 3 weken' stijgt in credit. Fiche: 430."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 300000.0,
+              "credit": null,
+              "reden": "Zichtrekening (Bank r/c) stijgt in debet. Fiche: 5500."
+            },
+            {
+              "code": "430000",
+              "naam": "Kredietinstellingen – Leningen vaste termijn",
+              "debet": null,
+              "credit": 300000.0,
+              "reden": "Financiële schuld 'voorschot 3 weken' stijgt in credit. Fiche: 430."
+            }
           ]
         },
         {
           "omschrijving": "2) Betaling leverancier met bankcheque",
           "regels": [
-            {"code": "440000", "naam": "Leveranciers", "debet": 320000.00, "credit": null, "reden": "Handelsschuld daalt in debet. Fiche: 440."},
-            {"code": "550001", "naam": "Uitgeschreven cheques (-)", "debet": null, "credit": 320000.00, "reden": "Uitgeschreven bankcheque, nog niet afgehaald. Fiche: 5501 'Bank-uitgeschreven cheques'."}
+            {
+              "code": "440000",
+              "naam": "Leveranciers",
+              "debet": 320000.0,
+              "credit": null,
+              "reden": "Handelsschuld daalt in debet. Fiche: 440."
+            },
+            {
+              "code": "550001",
+              "naam": "Uitgeschreven cheques (-)",
+              "debet": null,
+              "credit": 320000.0,
+              "reden": "Uitgeschreven bankcheque, nog niet afgehaald. Fiche: 5501 'Bank-uitgeschreven cheques'."
+            }
           ]
         },
         {
           "omschrijving": "3) Cheque afgehaald (BU/60)",
           "regels": [
-            {"code": "550001", "naam": "Uitgeschreven cheques (-)", "debet": 320000.00, "credit": null, "reden": "De uitgeschreven cheque wordt aangezuiverd. Fiche: 5501."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 320000.00, "reden": "Zichtrekening daalt in credit nu de cheque effectief afgeschreven is. Fiche: 5500."}
+            {
+              "code": "550001",
+              "naam": "Uitgeschreven cheques (-)",
+              "debet": 320000.0,
+              "credit": null,
+              "reden": "De uitgeschreven cheque wordt aangezuiverd. Fiche: 5501."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 320000.0,
+              "reden": "Zichtrekening daalt in credit nu de cheque effectief afgeschreven is. Fiche: 5500."
+            }
           ]
         },
         {
           "omschrijving": "4) Terugbetaling voorschot na 3 weken + interest",
           "regels": [
-            {"code": "430000", "naam": "Kredietinstellingen – Leningen vaste termijn", "debet": 300000.00, "credit": null, "reden": "De schuld 'voorschot 3 weken' wordt afgelost; passief daalt in debet. Fiche: 430."},
-            {"code": "650000", "naam": "Financiële kosten", "debet": 1530.00, "credit": null, "reden": "Interest op het voorschot, 'rente verbonden aan schulden'. Fiche: 6500."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 301530.00, "reden": "Bank -300.000 -1.530 = 301.530 in credit. Fiche: 5500."}
+            {
+              "code": "430000",
+              "naam": "Kredietinstellingen – Leningen vaste termijn",
+              "debet": 300000.0,
+              "credit": null,
+              "reden": "De schuld 'voorschot 3 weken' wordt afgelost; passief daalt in debet. Fiche: 430."
+            },
+            {
+              "code": "650000",
+              "naam": "Financiële kosten",
+              "debet": 1530.0,
+              "credit": null,
+              "reden": "Interest op het voorschot, 'rente verbonden aan schulden'. Fiche: 6500."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 301530.0,
+              "reden": "Bank -300.000 -1.530 = 301.530 in credit. Fiche: 5500."
+            }
           ]
         }
       ],
@@ -177,10 +466,34 @@
         {
           "omschrijving": "Ontvangst van de gelden op BU/50",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 515000.00, "credit": null, "reden": "Totaal op de bankrekening 400.000 + 40.000 + 75.000. Fiche: 5500."},
-            {"code": "489000", "naam": "Andere diverse schulden", "debet": null, "credit": 400000.00, "reden": "Voorschot in r/c van de aandeelhouder/bedrijfsleider; diverse schuld. Fiche: 4890 'Bedrijfsleider r/c'."},
-            {"code": "174000", "naam": "Overige leningen", "debet": null, "credit": 40000.00, "reden": "Lening op 18 md = schuld op MEER dan één jaar (klasse 17). Fiche: 174 'Overige leningen op 18 md'."},
-            {"code": "439000", "naam": "Overige leningen (financiële schuld KT)", "debet": null, "credit": 75000.00, "reden": "Lening op 8 md = financiële schuld op KT. Fiche: 439 'Overige leningen op 8 md'."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 515000.0,
+              "credit": null,
+              "reden": "Totaal op de bankrekening 400.000 + 40.000 + 75.000. Fiche: 5500."
+            },
+            {
+              "code": "489000",
+              "naam": "Andere diverse schulden",
+              "debet": null,
+              "credit": 400000.0,
+              "reden": "Voorschot in r/c van de aandeelhouder/bedrijfsleider; diverse schuld. Fiche: 4890 'Bedrijfsleider r/c'."
+            },
+            {
+              "code": "174000",
+              "naam": "Overige leningen",
+              "debet": null,
+              "credit": 40000.0,
+              "reden": "Lening op 18 md = schuld op MEER dan één jaar (klasse 17). Fiche: 174 'Overige leningen op 18 md'."
+            },
+            {
+              "code": "439000",
+              "naam": "Overige leningen (financiële schuld KT)",
+              "debet": null,
+              "credit": 75000.0,
+              "reden": "Lening op 8 md = financiële schuld op KT. Fiche: 439 'Overige leningen op 8 md'."
+            }
           ]
         }
       ],
@@ -205,58 +518,160 @@
         {
           "omschrijving": "1) Interesten op leningen",
           "regels": [
-            {"code": "650000", "naam": "Financiële kosten", "debet": 1248.00, "credit": null, "reden": "Rente verbonden aan schulden. Fiche: 6500."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 1248.00, "reden": "Betaald via de bank. Fiche: 5500 Bank r/c."}
+            {
+              "code": "650000",
+              "naam": "Financiële kosten",
+              "debet": 1248.0,
+              "credit": null,
+              "reden": "Rente verbonden aan schulden. Fiche: 6500."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 1248.0,
+              "reden": "Betaald via de bank. Fiche: 5500 Bank r/c."
+            }
           ]
         },
         {
           "omschrijving": "2) Cheque privéopname",
           "regels": [
-            {"code": "550001", "naam": "Uitgeschreven cheques (-)", "debet": 5338.30, "credit": null, "reden": "Bank-uitgeschreven cheque. Fiche: 5501."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 5338.30, "reden": "Bank r/c daalt in credit. Fiche: 5500."}
+            {
+              "code": "550001",
+              "naam": "Uitgeschreven cheques (-)",
+              "debet": 5338.3,
+              "credit": null,
+              "reden": "Bank-uitgeschreven cheque. Fiche: 5501."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 5338.3,
+              "reden": "Bank r/c daalt in credit. Fiche: 5500."
+            }
           ]
         },
         {
           "omschrijving": "3) Terugbetaling lening voorafbetaling belastingen",
           "regels": [
-            {"code": "430000", "naam": "Kredietinstellingen – Leningen vaste termijn", "debet": 1000.00, "credit": null, "reden": "Kredietinstellingen – voorafbetaling belastingen; de schuld daalt in debet. Fiche: 430."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 1000.00, "reden": "Betaald via de bank. Fiche: 5500."}
+            {
+              "code": "430000",
+              "naam": "Kredietinstellingen – Leningen vaste termijn",
+              "debet": 1000.0,
+              "credit": null,
+              "reden": "Kredietinstellingen – voorafbetaling belastingen; de schuld daalt in debet. Fiche: 430."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 1000.0,
+              "reden": "Betaald via de bank. Fiche: 5500."
+            }
           ]
         },
         {
           "omschrijving": "4) Betaling leverancier Petit (8.000 CHF) met wisselresultaat",
           "regels": [
-            {"code": "440000", "naam": "Leveranciers", "debet": 5009.60, "credit": null, "reden": "Aankoopfactuur (tegenwaarde) daalt in debet. Fiche: 440."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 5000.00, "reden": "Effectieve afschrijving op de bank: 8.000 CHF × 0,625 = 5.000. Fiche: 5500."},
-            {"code": "754000", "naam": "Wisselresultaten", "debet": null, "credit": 9.60, "reden": "Positief wisselverschil 5.009,6 - 5.000 = 9,6 (opbrengst, credit). Fiche: 754."}
+            {
+              "code": "440000",
+              "naam": "Leveranciers",
+              "debet": 5009.6,
+              "credit": null,
+              "reden": "Aankoopfactuur (tegenwaarde) daalt in debet. Fiche: 440."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 5000.0,
+              "reden": "Effectieve afschrijving op de bank: 8.000 CHF × 0,625 = 5.000. Fiche: 5500."
+            },
+            {
+              "code": "754000",
+              "naam": "Wisselresultaten",
+              "debet": null,
+              "credit": 9.6,
+              "reden": "Positief wisselverschil 5.009,6 - 5.000 = 9,6 (opbrengst, credit). Fiche: 754."
+            }
           ]
         },
         {
           "omschrijving": "5) Creditrente kwartaalafrekening",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 20.30, "credit": null, "reden": "Creditrente verhoogt de bank. Fiche: 5500."},
-            {"code": "751000", "naam": "Opbrengsten uit vlottende activa", "debet": null, "credit": 20.30, "reden": "Ontvangen creditrente = financiële opbrengst. Fiche: 751."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 20.3,
+              "credit": null,
+              "reden": "Creditrente verhoogt de bank. Fiche: 5500."
+            },
+            {
+              "code": "751000",
+              "naam": "Opbrengsten uit vlottende activa",
+              "debet": null,
+              "credit": 20.3,
+              "reden": "Ontvangen creditrente = financiële opbrengst. Fiche: 751."
+            }
           ]
         },
         {
           "omschrijving": "6) Debetrente + provisie kwartaalafrekening",
           "regels": [
-            {"code": "650000", "naam": "Financiële kosten", "debet": 963.20, "credit": null, "reden": "Debetrente 842,0 + provisie 121,2 = 963,2; rente verbonden aan schulden. Fiche: 6500."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 963.20, "reden": "Afgeschreven van de bank. Fiche: 5500."}
+            {
+              "code": "650000",
+              "naam": "Financiële kosten",
+              "debet": 963.2,
+              "credit": null,
+              "reden": "Debetrente 842,0 + provisie 121,2 = 963,2; rente verbonden aan schulden. Fiche: 6500."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 963.2,
+              "reden": "Afgeschreven van de bank. Fiche: 5500."
+            }
           ]
         },
         {
           "omschrijving": "7) Afsluiting 31.12 – negatieve zichtrekening overboeken naar schuld",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 56209.20, "credit": null, "reden": "Het negatieve saldo van de zichtrekening wordt aangezuiverd. Fiche: 5500."},
-            {"code": "433000", "naam": "Kredietinstellingen", "debet": null, "credit": 56209.20, "reden": "Kredietinstellingen – schulden in r/c (passief KT) toont de schuld op de balans. Fiche: 433."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 56209.2,
+              "credit": null,
+              "reden": "Het negatieve saldo van de zichtrekening wordt aangezuiverd. Fiche: 5500."
+            },
+            {
+              "code": "433000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 56209.2,
+              "reden": "Kredietinstellingen – schulden in r/c (passief KT) toont de schuld op de balans. Fiche: 433."
+            }
           ]
         },
         {
           "omschrijving": "8) Heropening 01.01 – terugboeking",
           "regels": [
-            {"code": "433000", "naam": "Kredietinstellingen", "debet": 56209.20, "credit": null, "reden": "De schuld in r/c wordt teruggeboekt naar de zichtrekening. Fiche: 433."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 56209.20, "reden": "De zichtrekening staat opnieuw negatief in de lopende boekhouding. Fiche: 5500."}
+            {
+              "code": "433000",
+              "naam": "Kredietinstellingen",
+              "debet": 56209.2,
+              "credit": null,
+              "reden": "De schuld in r/c wordt teruggeboekt naar de zichtrekening. Fiche: 433."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 56209.2,
+              "reden": "De zichtrekening staat opnieuw negatief in de lopende boekhouding. Fiche: 5500."
+            }
           ]
         }
       ],
@@ -279,23 +694,65 @@
         {
           "omschrijving": "2025 – Te ontvangen factuur op 31/12",
           "regels": [
-            {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "debet": 2000.00, "credit": null, "reden": "De kost hoort bij 2025; klasse 6 stijgt in debet. Fiche: 604000 'Aankopen HG'."},
-            {"code": "444000", "naam": "Te ontvangen facturen", "debet": null, "credit": 2000.00, "reden": "Schuld zonder btw omdat er nog geen factuur is; passief stijgt in credit."}
+            {
+              "code": "604000",
+              "naam": "Aankopen van handelsgoederen (HG)",
+              "debet": 2000.0,
+              "credit": null,
+              "reden": "De kost hoort bij 2025; klasse 6 stijgt in debet. Fiche: 604000 'Aankopen HG'."
+            },
+            {
+              "code": "444000",
+              "naam": "Te ontvangen facturen",
+              "debet": null,
+              "credit": 2000.0,
+              "reden": "Schuld zonder btw omdat er nog geen factuur is; passief stijgt in credit."
+            }
           ]
         },
         {
           "omschrijving": "2026 – Ontvangst werkelijke factuur op 06/03",
           "regels": [
-            {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "debet": 2000.00, "credit": null, "reden": "De factuur boek je normaal; de tegenboeking corrigeert dit straks."},
-            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": 420.00, "credit": null, "reden": "Nu pas is er een factuur, dus nu pas aftrekbare btw (21% van 2.000). Fiche: 411590 'ABTW'."},
-            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 2420.00, "reden": "Handelsschuld incl. btw; passief stijgt in credit."}
+            {
+              "code": "604000",
+              "naam": "Aankopen van handelsgoederen (HG)",
+              "debet": 2000.0,
+              "credit": null,
+              "reden": "De factuur boek je normaal; de tegenboeking corrigeert dit straks."
+            },
+            {
+              "code": "411590",
+              "naam": "Aftrekbare btw (ABTW)",
+              "debet": 420.0,
+              "credit": null,
+              "reden": "Nu pas is er een factuur, dus nu pas aftrekbare btw (21% van 2.000). Fiche: 411590 'ABTW'."
+            },
+            {
+              "code": "440000",
+              "naam": "Leveranciers",
+              "debet": null,
+              "credit": 2420.0,
+              "reden": "Handelsschuld incl. btw; passief stijgt in credit."
+            }
           ]
         },
         {
           "omschrijving": "2026 – Terugboeking raming",
           "regels": [
-            {"code": "444000", "naam": "Te ontvangen facturen", "debet": 2000.00, "credit": null, "reden": "De geraamde schuld vervalt nu de echte factuur er is; passief daalt in debet."},
-            {"code": "604000", "naam": "Aankopen van handelsgoederen (HG)", "debet": null, "credit": 2000.00, "reden": "Heffing van de dubbele kost: 604000 in credit neutraliseert de kost van 2026."}
+            {
+              "code": "444000",
+              "naam": "Te ontvangen facturen",
+              "debet": 2000.0,
+              "credit": null,
+              "reden": "De geraamde schuld vervalt nu de echte factuur er is; passief daalt in debet."
+            },
+            {
+              "code": "604000",
+              "naam": "Aankopen van handelsgoederen (HG)",
+              "debet": null,
+              "credit": 2000.0,
+              "reden": "Heffing van de dubbele kost: 604000 in credit neutraliseert de kost van 2026."
+            }
           ]
         }
       ],
@@ -318,23 +775,65 @@
         {
           "omschrijving": "2025 – Op te maken creditnota op 31/12",
           "regels": [
-            {"code": "700100", "naam": "Uitgaande creditnota (UCN)", "debet": 2000.00, "credit": null, "reden": "De terugname van verkopen hoort bij 2025; UCN (omzetvermindering) staat in debet. Fiche: 700100."},
-            {"code": "444100", "naam": "Op te maken creditnota's", "debet": null, "credit": 2000.00, "reden": "Schuld zonder btw omdat de creditnota nog niet uitgereikt is; passief in credit. Fiche: 444100."}
+            {
+              "code": "700100",
+              "naam": "Uitgaande creditnota (UCN)",
+              "debet": 2000.0,
+              "credit": null,
+              "reden": "De terugname van verkopen hoort bij 2025; UCN (omzetvermindering) staat in debet. Fiche: 700100."
+            },
+            {
+              "code": "444100",
+              "naam": "Op te maken creditnota's",
+              "debet": null,
+              "credit": 2000.0,
+              "reden": "Schuld zonder btw omdat de creditnota nog niet uitgereikt is; passief in credit. Fiche: 444100."
+            }
           ]
         },
         {
           "omschrijving": "2026 – Uitgereikte creditnota op 15/02",
           "regels": [
-            {"code": "700100", "naam": "Uitgaande creditnota (UCN)", "debet": 2000.00, "credit": null, "reden": "De creditnota boek je normaal; de tegenboeking corrigeert dit straks. De fiche plaatst hier 2.000 (goederenbedrag)."},
-            {"code": "451640", "naam": "Regularisatie verschuldigde btw (RVBTW)", "debet": 420.00, "credit": null, "reden": "Te regulariseren btw op de creditnota (21% van 2.000). Fiche: 451640 'RVBTW' (op de fiche staan de bedragen 2.000 en 420 visueel verwisseld; economisch is RVBTW = 420)."},
-            {"code": "400000", "naam": "Klanten", "debet": null, "credit": 2420.00, "reden": "De vordering op de klant vermindert met 2.420 (incl. btw). Fiche: 400000."}
+            {
+              "code": "700100",
+              "naam": "Uitgaande creditnota (UCN)",
+              "debet": 2000.0,
+              "credit": null,
+              "reden": "De creditnota boek je normaal; de tegenboeking corrigeert dit straks. De fiche plaatst hier 2.000 (goederenbedrag)."
+            },
+            {
+              "code": "451640",
+              "naam": "Regularisatie verschuldigde btw (RVBTW)",
+              "debet": 420.0,
+              "credit": null,
+              "reden": "Te regulariseren btw op de creditnota (21% van 2.000). Fiche: 451640 'RVBTW' (op de fiche staan de bedragen 2.000 en 420 visueel verwisseld; economisch is RVBTW = 420)."
+            },
+            {
+              "code": "400000",
+              "naam": "Klanten",
+              "debet": null,
+              "credit": 2420.0,
+              "reden": "De vordering op de klant vermindert met 2.420 (incl. btw). Fiche: 400000."
+            }
           ]
         },
         {
           "omschrijving": "2026 – Terugboeking raming",
           "regels": [
-            {"code": "444100", "naam": "Op te maken creditnota's", "debet": 2000.00, "credit": null, "reden": "De geraamde creditnota-schuld vervalt; passief daalt in debet. Fiche: 444100."},
-            {"code": "700100", "naam": "Uitgaande creditnota (UCN)", "debet": null, "credit": 2000.00, "reden": "Neutraliseert de dubbele UCN van 2026."}
+            {
+              "code": "444100",
+              "naam": "Op te maken creditnota's",
+              "debet": 2000.0,
+              "credit": null,
+              "reden": "De geraamde creditnota-schuld vervalt; passief daalt in debet. Fiche: 444100."
+            },
+            {
+              "code": "700100",
+              "naam": "Uitgaande creditnota (UCN)",
+              "debet": null,
+              "credit": 2000.0,
+              "reden": "Neutraliseert de dubbele UCN van 2026."
+            }
           ]
         }
       ],
@@ -357,9 +856,27 @@
         {
           "omschrijving": "Ontvangst netto interest met roerende voorheffing",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 700.00, "credit": null, "reden": "Netto ontvangen op de zichtrekening. Fiche: 550000 'Bank R/C'."},
-            {"code": "670000", "naam": "Belastingen", "debet": 300.00, "credit": null, "reden": "Ingehouden roerende voorheffing als (bron)belastingkost. Fiche: 670000 'Roerende voorheffing'."},
-            {"code": "751000", "naam": "Opbrengsten uit vlottende activa", "debet": null, "credit": 1000.00, "reden": "Bruto financiële opbrengst van de belegging. Fiche: 751000."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 700.0,
+              "credit": null,
+              "reden": "Netto ontvangen op de zichtrekening. Fiche: 550000 'Bank R/C'."
+            },
+            {
+              "code": "670000",
+              "naam": "Belastingen",
+              "debet": 300.0,
+              "credit": null,
+              "reden": "Ingehouden roerende voorheffing als (bron)belastingkost. Fiche: 670000 'Roerende voorheffing'."
+            },
+            {
+              "code": "751000",
+              "naam": "Opbrengsten uit vlottende activa",
+              "debet": null,
+              "credit": 1000.0,
+              "reden": "Bruto financiële opbrengst van de belegging. Fiche: 751000."
+            }
           ]
         }
       ],
@@ -382,9 +899,27 @@
         {
           "omschrijving": "Toekenning rente op lening van familielid",
           "regels": [
-            {"code": "650000", "naam": "Financiële kosten", "debet": 2000.00, "credit": null, "reden": "Bruto rentekost = netto 1.400 + voorheffing 600. Fiche: 650000 'Rente'."},
-            {"code": "489000", "naam": "Andere diverse schulden", "debet": null, "credit": 1400.00, "reden": "Nettoschuld aan het familielid; geen leverancier of bank. Fiche: 489000 'Diverse schulden'."},
-            {"code": "453000", "naam": "Ingehouden voorheffingen", "debet": null, "credit": 600.00, "reden": "Ingehouden roerende voorheffing, door te storten aan de Staat. Fiche: 453000 'Te betalen bedrijfsvoorheffing'."}
+            {
+              "code": "650000",
+              "naam": "Financiële kosten",
+              "debet": 2000.0,
+              "credit": null,
+              "reden": "Bruto rentekost = netto 1.400 + voorheffing 600. Fiche: 650000 'Rente'."
+            },
+            {
+              "code": "489000",
+              "naam": "Andere diverse schulden",
+              "debet": null,
+              "credit": 1400.0,
+              "reden": "Nettoschuld aan het familielid; geen leverancier of bank. Fiche: 489000 'Diverse schulden'."
+            },
+            {
+              "code": "453000",
+              "naam": "Ingehouden voorheffingen",
+              "debet": null,
+              "credit": 600.0,
+              "reden": "Ingehouden roerende voorheffing, door te storten aan de Staat. Fiche: 453000 'Te betalen bedrijfsvoorheffing'."
+            }
           ]
         }
       ],
@@ -407,167 +942,473 @@
         {
           "omschrijving": "a) 1. Voorafbetaling 20N0",
           "regels": [
-            {"code": "670000", "naam": "Belastingen", "debet": 100000.00, "credit": null, "reden": "Voorafbetaling 20N0. Fiche: 670000 'Belastingen op het resultaat'."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 100000.00, "reden": "Betaald via de bank. Fiche: 550000."}
+            {
+              "code": "670000",
+              "naam": "Belastingen",
+              "debet": 100000.0,
+              "credit": null,
+              "reden": "Voorafbetaling 20N0. Fiche: 670000 'Belastingen op het resultaat'."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 100000.0,
+              "reden": "Betaald via de bank. Fiche: 550000."
+            }
           ]
         },
         {
           "omschrijving": "a) 2. Raming afsluiting 20N0 (120.000 - 100.000)",
           "regels": [
-            {"code": "670200", "naam": "Geraamde belastingen", "debet": 20000.00, "credit": null, "reden": "Berekend 120.000 > voorafbetaald 100.000 → 20.000 nog verschuldigd."},
-            {"code": "450000", "naam": "Geraamd bedrag der belastingschulden", "debet": null, "credit": 20000.00, "reden": "Geraamde belastingschuld in credit."}
+            {
+              "code": "670200",
+              "naam": "Geraamde belastingen",
+              "debet": 20000.0,
+              "credit": null,
+              "reden": "Berekend 120.000 > voorafbetaald 100.000 → 20.000 nog verschuldigd."
+            },
+            {
+              "code": "450000",
+              "naam": "Geraamd bedrag der belastingschulden",
+              "debet": null,
+              "credit": 20000.0,
+              "reden": "Geraamde belastingschuld in credit."
+            }
           ]
         },
         {
           "omschrijving": "a) 1. (20N1) Aanslagbiljet 20N0: extra 30.000",
           "regels": [
-            {"code": "671000", "naam": "Verschuldigde of gestorte belastingsupplement", "debet": 10000.00, "credit": null, "reden": "Definitief 30.000 - geraamd 20.000 = 10.000 supplement (kost)."},
-            {"code": "450000", "naam": "Geraamd bedrag der belastingschulden", "debet": 20000.00, "credit": null, "reden": "De geraamde schuld wordt afgesloten."},
-            {"code": "452000", "naam": "Te betalen belastingen en taksen", "debet": null, "credit": 30000.00, "reden": "Definitief te betalen volgens het aanslagbiljet."}
+            {
+              "code": "671000",
+              "naam": "Verschuldigde of gestorte belastingsupplement",
+              "debet": 10000.0,
+              "credit": null,
+              "reden": "Definitief 30.000 - geraamd 20.000 = 10.000 supplement (kost)."
+            },
+            {
+              "code": "450000",
+              "naam": "Geraamd bedrag der belastingschulden",
+              "debet": 20000.0,
+              "credit": null,
+              "reden": "De geraamde schuld wordt afgesloten."
+            },
+            {
+              "code": "452000",
+              "naam": "Te betalen belastingen en taksen",
+              "debet": null,
+              "credit": 30000.0,
+              "reden": "Definitief te betalen volgens het aanslagbiljet."
+            }
           ]
         },
         {
           "omschrijving": "a) 2. (20N1) Voorafbetaling 20N1",
           "regels": [
-            {"code": "670000", "naam": "Belastingen", "debet": 100000.00, "credit": null, "reden": "Voorafbetaling 20N1."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 100000.00, "reden": "Betaald via de bank."}
+            {
+              "code": "670000",
+              "naam": "Belastingen",
+              "debet": 100000.0,
+              "credit": null,
+              "reden": "Voorafbetaling 20N1."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 100000.0,
+              "reden": "Betaald via de bank."
+            }
           ]
         },
         {
           "omschrijving": "a) 3. (20N1) Raming afsluiting 20N1 (90.000 < 100.000)",
           "regels": [
-            {"code": "412000", "naam": "Terug te vorderen belastingen geraamd", "debet": 10000.00, "credit": null, "reden": "Voorafbetaald 100.000 > berekend 90.000 → 10.000 terug te vorderen."},
-            {"code": "670100", "naam": "Geactiveerde overschotten betaalde belastingen (-)", "debet": null, "credit": 10000.00, "reden": "Geactiveerd overschot vermindert de kost (creditrekening -)."}
+            {
+              "code": "412000",
+              "naam": "Terug te vorderen belastingen geraamd",
+              "debet": 10000.0,
+              "credit": null,
+              "reden": "Voorafbetaald 100.000 > berekend 90.000 → 10.000 terug te vorderen."
+            },
+            {
+              "code": "670100",
+              "naam": "Geactiveerde overschotten betaalde belastingen (-)",
+              "debet": null,
+              "credit": 10000.0,
+              "reden": "Geactiveerd overschot vermindert de kost (creditrekening -)."
+            }
           ]
         },
         {
           "omschrijving": "b) 1. Voorafbetaling 20N0",
           "regels": [
-            {"code": "670000", "naam": "Belastingen", "debet": 100000.00, "credit": null, "reden": "Voorafbetaling 20N0."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 100000.00, "reden": "Betaald via de bank."}
+            {
+              "code": "670000",
+              "naam": "Belastingen",
+              "debet": 100000.0,
+              "credit": null,
+              "reden": "Voorafbetaling 20N0."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 100000.0,
+              "reden": "Betaald via de bank."
+            }
           ]
         },
         {
           "omschrijving": "b) 2. Raming afsluiting 20N0 (80.000 < 100.000)",
           "regels": [
-            {"code": "412000", "naam": "Terug te vorderen belastingen geraamd", "debet": 20000.00, "credit": null, "reden": "Voorafbetaald 100.000 > berekend 80.000 → 20.000 terug te vorderen."},
-            {"code": "670100", "naam": "Geactiveerde overschotten betaalde belastingen (-)", "debet": null, "credit": 20000.00, "reden": "Geactiveerd overschot (creditrekening -)."}
+            {
+              "code": "412000",
+              "naam": "Terug te vorderen belastingen geraamd",
+              "debet": 20000.0,
+              "credit": null,
+              "reden": "Voorafbetaald 100.000 > berekend 80.000 → 20.000 terug te vorderen."
+            },
+            {
+              "code": "670100",
+              "naam": "Geactiveerde overschotten betaalde belastingen (-)",
+              "debet": null,
+              "credit": 20000.0,
+              "reden": "Geactiveerd overschot (creditrekening -)."
+            }
           ]
         },
         {
           "omschrijving": "b) 1. (20N1) Aanslagbiljet 20N0: extra 30.000",
           "regels": [
-            {"code": "671000", "naam": "Verschuldigde of gestorte belastingsupplement", "debet": 50000.00, "credit": null, "reden": "Geraamde teruggave 20.000 vervalt + 30.000 te betalen = 50.000 supplement."},
-            {"code": "412000", "naam": "Terug te vorderen belastingen geraamd", "debet": null, "credit": 20000.00, "reden": "De geraamde teruggave wordt afgesloten."},
-            {"code": "452000", "naam": "Te betalen belastingen en taksen", "debet": null, "credit": 30000.00, "reden": "Definitief te betalen volgens het aanslagbiljet."}
+            {
+              "code": "671000",
+              "naam": "Verschuldigde of gestorte belastingsupplement",
+              "debet": 50000.0,
+              "credit": null,
+              "reden": "Geraamde teruggave 20.000 vervalt + 30.000 te betalen = 50.000 supplement."
+            },
+            {
+              "code": "412000",
+              "naam": "Terug te vorderen belastingen geraamd",
+              "debet": null,
+              "credit": 20000.0,
+              "reden": "De geraamde teruggave wordt afgesloten."
+            },
+            {
+              "code": "452000",
+              "naam": "Te betalen belastingen en taksen",
+              "debet": null,
+              "credit": 30000.0,
+              "reden": "Definitief te betalen volgens het aanslagbiljet."
+            }
           ]
         },
         {
           "omschrijving": "b) 2. (20N1) Voorafbetaling 20N1",
           "regels": [
-            {"code": "670000", "naam": "Belastingen", "debet": 80000.00, "credit": null, "reden": "Voorafbetaling 20N1 = 80.000."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 80000.00, "reden": "Betaald via de bank."}
+            {
+              "code": "670000",
+              "naam": "Belastingen",
+              "debet": 80000.0,
+              "credit": null,
+              "reden": "Voorafbetaling 20N1 = 80.000."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 80000.0,
+              "reden": "Betaald via de bank."
+            }
           ]
         },
         {
           "omschrijving": "b) 3. (20N1) Raming afsluiting 20N1 (100.000 - 80.000)",
           "regels": [
-            {"code": "670200", "naam": "Geraamde belastingen", "debet": 20000.00, "credit": null, "reden": "Berekend 100.000 > voorafbetaald 80.000 → 20.000 nog verschuldigd."},
-            {"code": "450000", "naam": "Geraamd bedrag der belastingschulden", "debet": null, "credit": 20000.00, "reden": "Geraamde belastingschuld in credit."}
+            {
+              "code": "670200",
+              "naam": "Geraamde belastingen",
+              "debet": 20000.0,
+              "credit": null,
+              "reden": "Berekend 100.000 > voorafbetaald 80.000 → 20.000 nog verschuldigd."
+            },
+            {
+              "code": "450000",
+              "naam": "Geraamd bedrag der belastingschulden",
+              "debet": null,
+              "credit": 20000.0,
+              "reden": "Geraamde belastingschuld in credit."
+            }
           ]
         },
         {
           "omschrijving": "c) 1. Voorafbetaling 20N0",
           "regels": [
-            {"code": "670000", "naam": "Belastingen", "debet": 100000.00, "credit": null, "reden": "Voorafbetaling 20N0."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 100000.00, "reden": "Betaald via de bank."}
+            {
+              "code": "670000",
+              "naam": "Belastingen",
+              "debet": 100000.0,
+              "credit": null,
+              "reden": "Voorafbetaling 20N0."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 100000.0,
+              "reden": "Betaald via de bank."
+            }
           ]
         },
         {
           "omschrijving": "c) 2. Raming afsluiting 20N0 (80.000 < 100.000)",
           "regels": [
-            {"code": "412000", "naam": "Terug te vorderen belastingen geraamd", "debet": 20000.00, "credit": null, "reden": "Voorafbetaald 100.000 > berekend 80.000 → 20.000 terug te vorderen."},
-            {"code": "670100", "naam": "Geactiveerde overschotten betaalde belastingen (-)", "debet": null, "credit": 20000.00, "reden": "Geactiveerd overschot (creditrekening -)."}
+            {
+              "code": "412000",
+              "naam": "Terug te vorderen belastingen geraamd",
+              "debet": 20000.0,
+              "credit": null,
+              "reden": "Voorafbetaald 100.000 > berekend 80.000 → 20.000 terug te vorderen."
+            },
+            {
+              "code": "670100",
+              "naam": "Geactiveerde overschotten betaalde belastingen (-)",
+              "debet": null,
+              "credit": 20000.0,
+              "reden": "Geactiveerd overschot (creditrekening -)."
+            }
           ]
         },
         {
           "omschrijving": "c) 1. (20N1) Aanslagbiljet 20N0: extra 30.000",
           "regels": [
-            {"code": "671000", "naam": "Verschuldigde of gestorte belastingsupplement", "debet": 50000.00, "credit": null, "reden": "Geraamde teruggave 20.000 vervalt + 30.000 te betalen = 50.000 supplement."},
-            {"code": "412000", "naam": "Terug te vorderen belastingen geraamd", "debet": null, "credit": 20000.00, "reden": "De geraamde teruggave wordt afgesloten."},
-            {"code": "452000", "naam": "Te betalen belastingen en taksen", "debet": null, "credit": 30000.00, "reden": "Definitief te betalen volgens het aanslagbiljet."}
+            {
+              "code": "671000",
+              "naam": "Verschuldigde of gestorte belastingsupplement",
+              "debet": 50000.0,
+              "credit": null,
+              "reden": "Geraamde teruggave 20.000 vervalt + 30.000 te betalen = 50.000 supplement."
+            },
+            {
+              "code": "412000",
+              "naam": "Terug te vorderen belastingen geraamd",
+              "debet": null,
+              "credit": 20000.0,
+              "reden": "De geraamde teruggave wordt afgesloten."
+            },
+            {
+              "code": "452000",
+              "naam": "Te betalen belastingen en taksen",
+              "debet": null,
+              "credit": 30000.0,
+              "reden": "Definitief te betalen volgens het aanslagbiljet."
+            }
           ]
         },
         {
           "omschrijving": "c) 2. (20N1) Voorafbetaling 20N1",
           "regels": [
-            {"code": "670000", "naam": "Belastingen", "debet": 50000.00, "credit": null, "reden": "Voorafbetaling 20N1 = 50.000."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 50000.00, "reden": "Betaald via de bank."}
+            {
+              "code": "670000",
+              "naam": "Belastingen",
+              "debet": 50000.0,
+              "credit": null,
+              "reden": "Voorafbetaling 20N1 = 50.000."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 50000.0,
+              "reden": "Betaald via de bank."
+            }
           ]
         },
         {
           "omschrijving": "c) 3. (20N1) Raming afsluiting 20N1 (geen belasting verschuldigd)",
           "regels": [
-            {"code": "412000", "naam": "Terug te vorderen belastingen geraamd", "debet": 50000.00, "credit": null, "reden": "Geen belasting berekend voor 20N1 → de hele voorafbetaling 50.000 is terug te vorderen."},
-            {"code": "670100", "naam": "Geactiveerde overschotten betaalde belastingen (-)", "debet": null, "credit": 50000.00, "reden": "Geactiveerd overschot (creditrekening -)."}
+            {
+              "code": "412000",
+              "naam": "Terug te vorderen belastingen geraamd",
+              "debet": 50000.0,
+              "credit": null,
+              "reden": "Geen belasting berekend voor 20N1 → de hele voorafbetaling 50.000 is terug te vorderen."
+            },
+            {
+              "code": "670100",
+              "naam": "Geactiveerde overschotten betaalde belastingen (-)",
+              "debet": null,
+              "credit": 50000.0,
+              "reden": "Geactiveerd overschot (creditrekening -)."
+            }
           ]
         },
         {
           "omschrijving": "d) 1. Voorafbetaling 20N0",
           "regels": [
-            {"code": "670000", "naam": "Belastingen", "debet": 50000.00, "credit": null, "reden": "Voorafbetaling 20N0 = 50.000."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 50000.00, "reden": "Betaald via de bank."}
+            {
+              "code": "670000",
+              "naam": "Belastingen",
+              "debet": 50000.0,
+              "credit": null,
+              "reden": "Voorafbetaling 20N0 = 50.000."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 50000.0,
+              "reden": "Betaald via de bank."
+            }
           ]
         },
         {
           "omschrijving": "d) 2. Raming afsluiting 20N0 (90.000 - 50.000)",
           "regels": [
-            {"code": "670200", "naam": "Geraamde belastingen", "debet": 40000.00, "credit": null, "reden": "Berekend 90.000 > voorafbetaald 50.000 → 40.000 nog verschuldigd."},
-            {"code": "450000", "naam": "Geraamd bedrag der belastingschulden", "debet": null, "credit": 40000.00, "reden": "Geraamde belastingschuld in credit."}
+            {
+              "code": "670200",
+              "naam": "Geraamde belastingen",
+              "debet": 40000.0,
+              "credit": null,
+              "reden": "Berekend 90.000 > voorafbetaald 50.000 → 40.000 nog verschuldigd."
+            },
+            {
+              "code": "450000",
+              "naam": "Geraamd bedrag der belastingschulden",
+              "debet": null,
+              "credit": 40000.0,
+              "reden": "Geraamde belastingschuld in credit."
+            }
           ]
         },
         {
           "omschrijving": "d) 1. (20N1) Aanslagbiljet 20N0: 10.000 terug te vorderen",
           "regels": [
-            {"code": "450000", "naam": "Geraamd bedrag der belastingschulden", "debet": 40000.00, "credit": null, "reden": "De geraamde schuld van 40.000 wordt afgesloten."},
-            {"code": "412000", "naam": "Terug te vorderen belastingen geraamd", "debet": 10000.00, "credit": null, "reden": "Het aanslagbiljet geeft 10.000 terug te vorderen."},
-            {"code": "771000", "naam": "Regularisering belastingen", "debet": null, "credit": 50000.00, "reden": "Regularisatie-opbrengst: geraamde schuld 40.000 + teruggave 10.000 = 50.000."}
+            {
+              "code": "450000",
+              "naam": "Geraamd bedrag der belastingschulden",
+              "debet": 40000.0,
+              "credit": null,
+              "reden": "De geraamde schuld van 40.000 wordt afgesloten."
+            },
+            {
+              "code": "412000",
+              "naam": "Terug te vorderen belastingen geraamd",
+              "debet": 10000.0,
+              "credit": null,
+              "reden": "Het aanslagbiljet geeft 10.000 terug te vorderen."
+            },
+            {
+              "code": "771000",
+              "naam": "Regularisering belastingen",
+              "debet": null,
+              "credit": 50000.0,
+              "reden": "Regularisatie-opbrengst: geraamde schuld 40.000 + teruggave 10.000 = 50.000."
+            }
           ]
         },
         {
           "omschrijving": "d) 2. (20N1) Raming afsluiting 20N1 (geen voorafbetaling)",
           "regels": [
-            {"code": "670200", "naam": "Geraamde belastingen", "debet": 60000.00, "credit": null, "reden": "Berekend 60.000, geen voorafbetaling → 60.000 verschuldigd."},
-            {"code": "450000", "naam": "Geraamd bedrag der belastingschulden", "debet": null, "credit": 60000.00, "reden": "Geraamde belastingschuld in credit."}
+            {
+              "code": "670200",
+              "naam": "Geraamde belastingen",
+              "debet": 60000.0,
+              "credit": null,
+              "reden": "Berekend 60.000, geen voorafbetaling → 60.000 verschuldigd."
+            },
+            {
+              "code": "450000",
+              "naam": "Geraamd bedrag der belastingschulden",
+              "debet": null,
+              "credit": 60000.0,
+              "reden": "Geraamde belastingschuld in credit."
+            }
           ]
         },
         {
           "omschrijving": "e) 1. Voorafbetaling 20N0",
           "regels": [
-            {"code": "670000", "naam": "Belastingen", "debet": 20000.00, "credit": null, "reden": "Voorafbetaling 20N0 = 20.000."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 20000.00, "reden": "Betaald via de bank."}
+            {
+              "code": "670000",
+              "naam": "Belastingen",
+              "debet": 20000.0,
+              "credit": null,
+              "reden": "Voorafbetaling 20N0 = 20.000."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 20000.0,
+              "reden": "Betaald via de bank."
+            }
           ]
         },
         {
           "omschrijving": "e) 2. Raming afsluiting 20N0 (geen belasting berekend)",
           "regels": [
-            {"code": "412000", "naam": "Terug te vorderen belastingen geraamd", "debet": 20000.00, "credit": null, "reden": "Geen belasting berekend → de voorafbetaling 20.000 is terug te vorderen."},
-            {"code": "670100", "naam": "Geactiveerde overschotten betaalde belastingen (-)", "debet": null, "credit": 20000.00, "reden": "Geactiveerd overschot (creditrekening -)."}
+            {
+              "code": "412000",
+              "naam": "Terug te vorderen belastingen geraamd",
+              "debet": 20000.0,
+              "credit": null,
+              "reden": "Geen belasting berekend → de voorafbetaling 20.000 is terug te vorderen."
+            },
+            {
+              "code": "670100",
+              "naam": "Geactiveerde overschotten betaalde belastingen (-)",
+              "debet": null,
+              "credit": 20000.0,
+              "reden": "Geactiveerd overschot (creditrekening -)."
+            }
           ]
         },
         {
           "omschrijving": "e) 1. (20N1) Aanslagbiljet 20N0: extra 10.000",
           "regels": [
-            {"code": "671000", "naam": "Verschuldigde of gestorte belastingsupplement", "debet": 30000.00, "credit": null, "reden": "Geraamde teruggave 20.000 vervalt + 10.000 te betalen = 30.000 supplement."},
-            {"code": "412000", "naam": "Terug te vorderen belastingen geraamd", "debet": null, "credit": 20000.00, "reden": "De geraamde teruggave wordt afgesloten."},
-            {"code": "452000", "naam": "Te betalen belastingen en taksen", "debet": null, "credit": 10000.00, "reden": "Definitief te betalen volgens het aanslagbiljet."}
+            {
+              "code": "671000",
+              "naam": "Verschuldigde of gestorte belastingsupplement",
+              "debet": 30000.0,
+              "credit": null,
+              "reden": "Geraamde teruggave 20.000 vervalt + 10.000 te betalen = 30.000 supplement."
+            },
+            {
+              "code": "412000",
+              "naam": "Terug te vorderen belastingen geraamd",
+              "debet": null,
+              "credit": 20000.0,
+              "reden": "De geraamde teruggave wordt afgesloten."
+            },
+            {
+              "code": "452000",
+              "naam": "Te betalen belastingen en taksen",
+              "debet": null,
+              "credit": 10000.0,
+              "reden": "Definitief te betalen volgens het aanslagbiljet."
+            }
           ]
         },
         {
           "omschrijving": "e) 2. (20N1) Raming afsluiting 20N1 (berekening 20.000)",
           "regels": [
-            {"code": "670200", "naam": "Geraamde belastingen", "debet": 20000.00, "credit": null, "reden": "Berekend 20.000, geen voorafbetaling in 20N1 → 20.000 verschuldigd; geraamde belastingkost (klasse 6) in debet."},
-            {"code": "450000", "naam": "Geraamd bedrag der belastingschulden", "debet": null, "credit": 20000.00, "reden": "Geraamde belastingschuld 20N1 in credit (berekening 20.000)."}
+            {
+              "code": "670200",
+              "naam": "Geraamde belastingen",
+              "debet": 20000.0,
+              "credit": null,
+              "reden": "Berekend 20.000, geen voorafbetaling in 20N1 → 20.000 verschuldigd; geraamde belastingkost (klasse 6) in debet."
+            },
+            {
+              "code": "450000",
+              "naam": "Geraamd bedrag der belastingschulden",
+              "debet": null,
+              "credit": 20000.0,
+              "reden": "Geraamde belastingschuld 20N1 in credit (berekening 20.000)."
+            }
           ]
         }
       ],
@@ -590,18 +1431,60 @@
         {
           "omschrijving": "1) Loonstaat arbeiders",
           "regels": [
-            {"code": "620100", "naam": "Loon arbeider", "debet": 18103.00, "credit": null, "reden": "Brutoloon arbeiders = loonkost. Fiche: 6203 'Bezoldigingen arbeiders'."},
-            {"code": "623000", "naam": "Andere personeelskosten", "debet": 1200.00, "credit": null, "reden": "Terugbetaalde verplaatsingskosten eigen aan de werkgever. Fiche: 623."},
-            {"code": "453000", "naam": "Ingehouden voorheffingen", "debet": null, "credit": 3633.00, "reden": "Ingehouden bedrijfsvoorheffing. Fiche: 453."},
-            {"code": "454000", "naam": "Rijksdienst voor Sociale Zekerheid", "debet": null, "credit": 2366.00, "reden": "RSZ werknemers. Fiche: 454."},
-            {"code": "455000", "naam": "Bezoldigingen", "debet": null, "credit": 13304.00, "reden": "Nettoloon = 18.103 - 2.366 - 3.633 + 1.200. Fiche: 455."}
+            {
+              "code": "620100",
+              "naam": "Loon arbeider",
+              "debet": 18103.0,
+              "credit": null,
+              "reden": "Brutoloon arbeiders = loonkost. Fiche: 6203 'Bezoldigingen arbeiders'."
+            },
+            {
+              "code": "623000",
+              "naam": "Andere personeelskosten",
+              "debet": 1200.0,
+              "credit": null,
+              "reden": "Terugbetaalde verplaatsingskosten eigen aan de werkgever. Fiche: 623."
+            },
+            {
+              "code": "453000",
+              "naam": "Ingehouden voorheffingen",
+              "debet": null,
+              "credit": 3633.0,
+              "reden": "Ingehouden bedrijfsvoorheffing. Fiche: 453."
+            },
+            {
+              "code": "454000",
+              "naam": "Rijksdienst voor Sociale Zekerheid",
+              "debet": null,
+              "credit": 2366.0,
+              "reden": "RSZ werknemers. Fiche: 454."
+            },
+            {
+              "code": "455000",
+              "naam": "Bezoldigingen",
+              "debet": null,
+              "credit": 13304.0,
+              "reden": "Nettoloon = 18.103 - 2.366 - 3.633 + 1.200. Fiche: 455."
+            }
           ]
         },
         {
           "omschrijving": "2) Werkgeversbijdrage RSZ",
           "regels": [
-            {"code": "621000", "naam": "Werkgeversbijdragen voor sociale verzekeringen", "debet": 5514.00, "credit": null, "reden": "Werkgevers-RSZ = extra loonkost. Fiche: 621."},
-            {"code": "454000", "naam": "Rijksdienst voor Sociale Zekerheid", "debet": null, "credit": 5514.00, "reden": "Extra RSZ-schuld. Fiche: 454."}
+            {
+              "code": "621000",
+              "naam": "Werkgeversbijdragen voor sociale verzekeringen",
+              "debet": 5514.0,
+              "credit": null,
+              "reden": "Werkgevers-RSZ = extra loonkost. Fiche: 621."
+            },
+            {
+              "code": "454000",
+              "naam": "Rijksdienst voor Sociale Zekerheid",
+              "debet": null,
+              "credit": 5514.0,
+              "reden": "Extra RSZ-schuld. Fiche: 454."
+            }
           ]
         }
       ],
@@ -624,46 +1507,136 @@
         {
           "omschrijving": "1) Bezoldigingsstaat bedienden",
           "regels": [
-            {"code": "620200", "naam": "Bezoldiging bediende", "debet": 48000.00, "credit": null, "reden": "Brutoloon bedienden. Fiche: 6202."},
-            {"code": "453000", "naam": "Ingehouden voorheffingen", "debet": null, "credit": 8550.00, "reden": "Ingehouden bedrijfsvoorheffing. Fiche: 453."},
-            {"code": "454000", "naam": "Rijksdienst voor Sociale Zekerheid", "debet": null, "credit": 6274.00, "reden": "RSZ werknemers. Fiche: 454."},
-            {"code": "455000", "naam": "Bezoldigingen", "debet": null, "credit": 31970.00, "reden": "Nettoloon. Fiche: 455."},
-            {"code": "740000", "naam": "Andere bedrijfsopbrengsten", "debet": null, "credit": 1206.00, "reden": "Eigen premie groepsverzekering door de bediende gedragen, door de leerkracht geboekt als 'diverse opbrengst' (recuperatie). Fiche: 459 verbeterd naar 740."}
+            {
+              "code": "620200",
+              "naam": "Bezoldiging bediende",
+              "debet": 48000.0,
+              "credit": null,
+              "reden": "Brutoloon bedienden. Fiche: 6202."
+            },
+            {
+              "code": "453000",
+              "naam": "Ingehouden voorheffingen",
+              "debet": null,
+              "credit": 8550.0,
+              "reden": "Ingehouden bedrijfsvoorheffing. Fiche: 453."
+            },
+            {
+              "code": "454000",
+              "naam": "Rijksdienst voor Sociale Zekerheid",
+              "debet": null,
+              "credit": 6274.0,
+              "reden": "RSZ werknemers. Fiche: 454."
+            },
+            {
+              "code": "455000",
+              "naam": "Bezoldigingen",
+              "debet": null,
+              "credit": 31970.0,
+              "reden": "Nettoloon. Fiche: 455."
+            },
+            {
+              "code": "740000",
+              "naam": "Andere bedrijfsopbrengsten",
+              "debet": null,
+              "credit": 1206.0,
+              "reden": "Eigen premie groepsverzekering door de bediende gedragen, door de leerkracht geboekt als 'diverse opbrengst' (recuperatie). Fiche: 459 verbeterd naar 740."
+            }
           ]
         },
         {
           "omschrijving": "2) Werkgeverspremie groepsverzekering",
           "regels": [
-            {"code": "622000", "naam": "Werkgevers premies extra-legaal verzekering", "debet": 4706.00, "credit": null, "reden": "Volledige verzekeringspremie als werkgeverskost. Fiche: 622 (verbeterd van 3.500 naar 4.706)."},
-            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 4706.00, "reden": "Schuld aan de verzekeringsinstelling. Fiche: 459 verbeterd naar 440 'leverancier'."}
+            {
+              "code": "622000",
+              "naam": "Werkgevers premies extra-legaal verzekering",
+              "debet": 4706.0,
+              "credit": null,
+              "reden": "Volledige verzekeringspremie als werkgeverskost. Fiche: 622 (verbeterd van 3.500 naar 4.706)."
+            },
+            {
+              "code": "440000",
+              "naam": "Leveranciers",
+              "debet": null,
+              "credit": 4706.0,
+              "reden": "Schuld aan de verzekeringsinstelling. Fiche: 459 verbeterd naar 440 'leverancier'."
+            }
           ]
         },
         {
           "omschrijving": "3) Betaling nettoloon",
           "regels": [
-            {"code": "455000", "naam": "Bezoldigingen", "debet": 31970.00, "credit": null, "reden": "Uitbetaling nettoloon; schuld daalt in debet. Fiche: 455."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 31970.00, "reden": "Via de bank. Fiche: 5500."}
+            {
+              "code": "455000",
+              "naam": "Bezoldigingen",
+              "debet": 31970.0,
+              "credit": null,
+              "reden": "Uitbetaling nettoloon; schuld daalt in debet. Fiche: 455."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 31970.0,
+              "reden": "Via de bank. Fiche: 5500."
+            }
           ]
         },
         {
           "omschrijving": "4) Betaling RSZ (6.274 + 14.621)",
           "regels": [
-            {"code": "454000", "naam": "Rijksdienst voor Sociale Zekerheid", "debet": 20895.00, "credit": null, "reden": "Totale RSZ-schuld = 6.274 + 14.621 = 20.895. Fiche: 454."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 20895.00, "reden": "Via de bank. Fiche: 5500."}
+            {
+              "code": "454000",
+              "naam": "Rijksdienst voor Sociale Zekerheid",
+              "debet": 20895.0,
+              "credit": null,
+              "reden": "Totale RSZ-schuld = 6.274 + 14.621 = 20.895. Fiche: 454."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 20895.0,
+              "reden": "Via de bank. Fiche: 5500."
+            }
           ]
         },
         {
           "omschrijving": "5) Betaling bedrijfsvoorheffing",
           "regels": [
-            {"code": "453000", "naam": "Ingehouden voorheffingen", "debet": 8550.00, "credit": null, "reden": "Doorstorting ingehouden voorheffing. Fiche: 453."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 8550.00, "reden": "Via de bank. Fiche: 5500."}
+            {
+              "code": "453000",
+              "naam": "Ingehouden voorheffingen",
+              "debet": 8550.0,
+              "credit": null,
+              "reden": "Doorstorting ingehouden voorheffing. Fiche: 453."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 8550.0,
+              "reden": "Via de bank. Fiche: 5500."
+            }
           ]
         },
         {
           "omschrijving": "6) Betaling premie groepsverzekering",
           "regels": [
-            {"code": "440000", "naam": "Leveranciers", "debet": 4706.00, "credit": null, "reden": "Betaling aan de verzekeringsinstelling. Fiche: 459 verbeterd naar 440 'leverancier'."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 4706.00, "reden": "Via de bank. Fiche: 5500."}
+            {
+              "code": "440000",
+              "naam": "Leveranciers",
+              "debet": 4706.0,
+              "credit": null,
+              "reden": "Betaling aan de verzekeringsinstelling. Fiche: 459 verbeterd naar 440 'leverancier'."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 4706.0,
+              "reden": "Via de bank. Fiche: 5500."
+            }
           ]
         }
       ],
@@ -686,34 +1659,112 @@
         {
           "omschrijving": "1) Loonstaat",
           "regels": [
-            {"code": "620100", "naam": "Loon arbeider", "debet": 89700.00, "credit": null, "reden": "Brutoloon. Fiche: 6203 'Bezoldigingen arbeiders'."},
-            {"code": "453000", "naam": "Ingehouden voorheffingen", "debet": null, "credit": 25010.00, "reden": "Ingehouden bedrijfsvoorheffing. Fiche: 453."},
-            {"code": "454000", "naam": "Rijksdienst voor Sociale Zekerheid", "debet": null, "credit": 11724.00, "reden": "RSZ werknemers. Fiche: 454."},
-            {"code": "455000", "naam": "Bezoldigingen", "debet": null, "credit": 52966.00, "reden": "Nettoloon. Fiche: 455."}
+            {
+              "code": "620100",
+              "naam": "Loon arbeider",
+              "debet": 89700.0,
+              "credit": null,
+              "reden": "Brutoloon. Fiche: 6203 'Bezoldigingen arbeiders'."
+            },
+            {
+              "code": "453000",
+              "naam": "Ingehouden voorheffingen",
+              "debet": null,
+              "credit": 25010.0,
+              "reden": "Ingehouden bedrijfsvoorheffing. Fiche: 453."
+            },
+            {
+              "code": "454000",
+              "naam": "Rijksdienst voor Sociale Zekerheid",
+              "debet": null,
+              "credit": 11724.0,
+              "reden": "RSZ werknemers. Fiche: 454."
+            },
+            {
+              "code": "455000",
+              "naam": "Bezoldigingen",
+              "debet": null,
+              "credit": 52966.0,
+              "reden": "Nettoloon. Fiche: 455."
+            }
           ]
         },
         {
           "omschrijving": "1b) Werkgeversbijdrage RSZ",
           "regels": [
-            {"code": "621000", "naam": "Werkgeversbijdragen voor sociale verzekeringen", "debet": 27323.00, "credit": null, "reden": "Patronale RSZ-bijdrage = extra loonkost. Fiche: 621."},
-            {"code": "454000", "naam": "Rijksdienst voor Sociale Zekerheid", "debet": null, "credit": 27323.00, "reden": "Extra RSZ-schuld. Fiche: 454."}
+            {
+              "code": "621000",
+              "naam": "Werkgeversbijdragen voor sociale verzekeringen",
+              "debet": 27323.0,
+              "credit": null,
+              "reden": "Patronale RSZ-bijdrage = extra loonkost. Fiche: 621."
+            },
+            {
+              "code": "454000",
+              "naam": "Rijksdienst voor Sociale Zekerheid",
+              "debet": null,
+              "credit": 27323.0,
+              "reden": "Extra RSZ-schuld. Fiche: 454."
+            }
           ]
         },
         {
           "omschrijving": "2) Factuur sociaal secretariaat",
           "regels": [
-            {"code": "610000", "naam": "Diensten en diverse goederen", "debet": 1000.00, "credit": null, "reden": "Beheerskosten sociaal secretariaat. Fiche: 61... 'Beheerskosten sociaal secretariaat'."},
-            {"code": "411590", "naam": "Aftrekbare btw (ABTW)", "debet": 210.00, "credit": null, "reden": "Btw 21% op de beheerskosten (210). Fiche: 4110 'Btw op aankopen'."},
-            {"code": "453000", "naam": "Ingehouden voorheffingen", "debet": 25010.00, "credit": null, "reden": "Door te storten bedrijfsvoorheffing die het secretariaat int. Fiche: 453."},
-            {"code": "454000", "naam": "Rijksdienst voor Sociale Zekerheid", "debet": 39047.00, "credit": null, "reden": "Door te storten RSZ = 11.724 + 27.323 = 39.047. Fiche: 454."},
-            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 65267.00, "reden": "Globaal totaal aan het sociaal secretariaat. Fiche: 440 'Sociaal secretariaat'."}
+            {
+              "code": "610000",
+              "naam": "Diensten en diverse goederen",
+              "debet": 1000.0,
+              "credit": null,
+              "reden": "Beheerskosten sociaal secretariaat. Fiche: 61... 'Beheerskosten sociaal secretariaat'."
+            },
+            {
+              "code": "411590",
+              "naam": "Aftrekbare btw (ABTW)",
+              "debet": 210.0,
+              "credit": null,
+              "reden": "Btw 21% op de beheerskosten (210). Fiche: 4110 'Btw op aankopen'."
+            },
+            {
+              "code": "453000",
+              "naam": "Ingehouden voorheffingen",
+              "debet": 25010.0,
+              "credit": null,
+              "reden": "Door te storten bedrijfsvoorheffing die het secretariaat int. Fiche: 453."
+            },
+            {
+              "code": "454000",
+              "naam": "Rijksdienst voor Sociale Zekerheid",
+              "debet": 39047.0,
+              "credit": null,
+              "reden": "Door te storten RSZ = 11.724 + 27.323 = 39.047. Fiche: 454."
+            },
+            {
+              "code": "440000",
+              "naam": "Leveranciers",
+              "debet": null,
+              "credit": 65267.0,
+              "reden": "Globaal totaal aan het sociaal secretariaat. Fiche: 440 'Sociaal secretariaat'."
+            }
           ]
         },
         {
           "omschrijving": "3) Betaling sociaal secretariaat",
           "regels": [
-            {"code": "440000", "naam": "Leveranciers", "debet": 65267.00, "credit": null, "reden": "Betaling van de factuur; schuld daalt in debet. Fiche: 440 'Sociaal secretariaat'."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 65267.00, "reden": "Via de bank. Fiche: 550 'Bank'."}
+            {
+              "code": "440000",
+              "naam": "Leveranciers",
+              "debet": 65267.0,
+              "credit": null,
+              "reden": "Betaling van de factuur; schuld daalt in debet. Fiche: 440 'Sociaal secretariaat'."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 65267.0,
+              "reden": "Via de bank. Fiche: 550 'Bank'."
+            }
           ]
         }
       ],
@@ -722,40 +1773,323 @@
     }
   ],
   "flashcards": [
-    {"vraag": "In welke klasse staan de schulden op ten hoogste één jaar?", "antwoord": "Klasse 42 tot en met 48, aan de passiefzijde van de balans.", "type": "begrip"},
-    {"vraag": "Welke rekening gebruik je voor het deel van een langetermijnschuld dat binnen het jaar vervalt?", "antwoord": "423000 Schulden > 1 jr die binnen het jaar vervallen (via overboeking 17.. @ 423000).", "type": "mar-code"},
-    {"vraag": "Goederen ontvangen op 31/12 maar de factuur is nog niet binnen. Welke rekening?", "antwoord": "444000 Te ontvangen facturen (in credit), tegenover de kost zonder btw.", "type": "mar-code"},
-    {"vraag": "Waarom boek je geen btw bij een te ontvangen factuur (444000)?", "antwoord": "Zonder factuur is er nog geen recht op btw-aftrek; de aftrekbare btw (411590) volgt pas bij ontvangst van de werkelijke factuur.", "type": "logica"},
-    {"vraag": "Op welke rekening boek je de ingehouden bedrijfsvoorheffing op het loon?", "antwoord": "453000 Ingehouden voorheffingen.", "type": "mar-code"},
-    {"vraag": "Wat boek je op 454000 Rijksdienst voor Sociale Zekerheid?", "antwoord": "De volledige RSZ-schuld: werknemersbijdrage én werkgeversbijdrage samen.", "type": "logica"},
-    {"vraag": "Op welke rekening staat het nog uit te betalen nettoloon?", "antwoord": "455000 Bezoldigingen.", "type": "mar-code"},
-    {"vraag": "Verschil tussen 450000 en 452000?", "antwoord": "450000 = geraamde belastingschuld (biljet nog niet binnen); 452000 = definitief te betalen belasting volgens het aanslagbiljet.", "type": "begrip"},
-    {"vraag": "Op welke rekening komt het te betalen saldo van de periodieke btw-afrekening?", "antwoord": "451000 Te betalen B.T.W. (als de verschuldigde btw groter is dan de aftrekbare).", "type": "mar-code"},
-    {"vraag": "Een klant betaalt vooruit vóór de levering. Welke rekening?", "antwoord": "460000 Ontvangen vooruitbetalingen op bestellingen (een schuld, want je moet nog leveren).", "type": "mar-code"},
-    {"vraag": "Hoe stijgt en daalt een passiefrekening (schuld)?", "antwoord": "Een schuld stijgt in credit (bij ontstaan) en daalt in debet (bij betaling/afsluiting).", "type": "logica"},
-    {"vraag": "Welke rekening voor een schuld die nergens anders past, bv. nog te betalen rente aan een particulier?", "antwoord": "489000 Andere diverse schulden (of 480000 Andere schulden).", "type": "mar-code"},
-    {"vraag": "Wat is rekening 444100 Op te maken creditnota's?", "antwoord": "Het spiegelbeeld van 444000 voor een nog uit te reiken of te ontvangen creditnota bij de jaarafsluiting.", "type": "mar-code"},
-    {"vraag": "Welke rekening voor een lening op vaste termijn / kaskrediet op korte termijn bij de bank?", "antwoord": "430000 Kredietinstellingen – Leningen vaste termijn (of 433000 Kredietinstellingen voor een ander kortlopend voorschot).", "type": "mar-code"},
-    {"vraag": "Hoeveel verandert het totaal van de schuld bij de overboeking 173000 @ 423000?", "antwoord": "Niets. Het totaal blijft gelijk; enkel de presentatie verschuift van LT naar KT.", "type": "logica"},
-    {"vraag": "Op welke rekening boek je de schuld voor vakantiegeld aan het personeel?", "antwoord": "456000 Vakantiegeld.", "type": "mar-code"}
+    {
+      "vraag": "In welke klasse staan de schulden op ten hoogste één jaar?",
+      "antwoord": "Klasse 42 tot en met 48, aan de passiefzijde van de balans.",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Welke rekening gebruik je voor het deel van een langetermijnschuld dat binnen het jaar vervalt?",
+      "antwoord": "423000 Schulden > 1 jr die binnen het jaar vervallen (via overboeking 17.. @ 423000).",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Goederen ontvangen op 31/12 maar de factuur is nog niet binnen. Welke rekening?",
+      "antwoord": "444000 Te ontvangen facturen (in credit), tegenover de kost zonder btw.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Waarom boek je geen btw bij een te ontvangen factuur (444000)?",
+      "antwoord": "Zonder factuur is er nog geen recht op btw-aftrek; de aftrekbare btw (411590) volgt pas bij ontvangst van de werkelijke factuur.",
+      "type": "logica"
+    },
+    {
+      "vraag": "Op welke rekening boek je de ingehouden bedrijfsvoorheffing op het loon?",
+      "antwoord": "453000 Ingehouden voorheffingen.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Wat boek je op 454000 Rijksdienst voor Sociale Zekerheid?",
+      "antwoord": "De volledige RSZ-schuld: werknemersbijdrage én werkgeversbijdrage samen.",
+      "type": "logica"
+    },
+    {
+      "vraag": "Op welke rekening staat het nog uit te betalen nettoloon?",
+      "antwoord": "455000 Bezoldigingen.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Verschil tussen 450000 en 452000?",
+      "antwoord": "450000 = geraamde belastingschuld (biljet nog niet binnen); 452000 = definitief te betalen belasting volgens het aanslagbiljet.",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Op welke rekening komt het te betalen saldo van de periodieke btw-afrekening?",
+      "antwoord": "451000 Te betalen B.T.W. (als de verschuldigde btw groter is dan de aftrekbare).",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Een klant betaalt vooruit vóór de levering. Welke rekening?",
+      "antwoord": "460000 Ontvangen vooruitbetalingen op bestellingen (een schuld, want je moet nog leveren).",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Hoe stijgt en daalt een passiefrekening (schuld)?",
+      "antwoord": "Een schuld stijgt in credit (bij ontstaan) en daalt in debet (bij betaling/afsluiting).",
+      "type": "logica"
+    },
+    {
+      "vraag": "Welke rekening voor een schuld die nergens anders past, bv. nog te betalen rente aan een particulier?",
+      "antwoord": "489000 Andere diverse schulden (of 480000 Andere schulden).",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Wat is rekening 444100 Op te maken creditnota's?",
+      "antwoord": "Het spiegelbeeld van 444000 voor een nog uit te reiken of te ontvangen creditnota bij de jaarafsluiting.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Welke rekening voor een lening op vaste termijn / kaskrediet op korte termijn bij de bank?",
+      "antwoord": "430000 Kredietinstellingen – Leningen vaste termijn (of 433000 Kredietinstellingen voor een ander kortlopend voorschot).",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Hoeveel verandert het totaal van de schuld bij de overboeking 173000 @ 423000?",
+      "antwoord": "Niets. Het totaal blijft gelijk; enkel de presentatie verschuift van LT naar KT.",
+      "type": "logica"
+    },
+    {
+      "vraag": "Op welke rekening boek je de schuld voor vakantiegeld aan het personeel?",
+      "antwoord": "456000 Vakantiegeld.",
+      "type": "mar-code"
+    }
   ],
   "veelgemaakteFouten": [
-    {"fout": "Het opgenomen kaskrediet/voorschot zomaar op 550000 (bank) laten staan in plaats van als schuld te boeken.", "correctie": "Een opgenomen krediet/voorschot is een financiële schuld: boek 430000 (lening/voorschot vaste termijn) of 433000 (schulden in r/c). 550000 is enkel de zichtrekening (actief)."},
-    {"fout": "Bij een te ontvangen factuur (444000) of op te maken creditnota (444100) toch al btw boeken.", "correctie": "Zonder factuur/creditnota geen btw. Boek in het lopende jaar enkel de kost @ 444000 (of UCN @ 444100) zonder btw; de btw volgt pas bij het echte document."},
-    {"fout": "Op 454000 RSZ enkel het ingehouden werknemersdeel boeken.", "correctie": "De RSZ-schuld omvat zowel het werknemersdeel als de werkgeversbijdrage (621000). Tel beide samen op 454000."},
-    {"fout": "450000 en 452000 door elkaar gebruiken, of de geraamde post niet afsluiten bij het aanslagbiljet.", "correctie": "Gebruik 450000 (of 412000) zolang de belasting geraamd is; bij het aanslagbiljet sluit je die altijd af en boek je het definitieve bedrag op 452000, met 671000 (supplement) of 771000 (regularisatie) voor het verschil."},
-    {"fout": "De volledige rentekost gelijkstellen aan het netto uitbetaalde bedrag.", "correctie": "De rentekost (650000) is bruto = netto + ingehouden roerende voorheffing. De voorheffing is een door te storten bedrag (453000), het netto een schuld aan de begunstigde (bv. 489000)."},
-    {"fout": "Een ontvangen interest enkel voor het netto bedrag als opbrengst boeken.", "correctie": "Boek de opbrengst bruto (751000) en de ingehouden roerende voorheffing apart als kost (670000); het netto staat op de bank (550000)."},
-    {"fout": "Een negatieve zichtrekening op de afsluitdatum als negatief actief op 550000 laten staan.", "correctie": "Boek het negatieve saldo over naar de schuldrekening 433000 (550000 @ 433000) en draai dit terug bij de heropening (433000 @ 550000)."}
+    {
+      "fout": "Het opgenomen kaskrediet/voorschot zomaar op 550000 (bank) laten staan in plaats van als schuld te boeken.",
+      "correctie": "Een opgenomen krediet/voorschot is een financiële schuld: boek 430000 (lening/voorschot vaste termijn) of 433000 (schulden in r/c). 550000 is enkel de zichtrekening (actief)."
+    },
+    {
+      "fout": "Bij een te ontvangen factuur (444000) of op te maken creditnota (444100) toch al btw boeken.",
+      "correctie": "Zonder factuur/creditnota geen btw. Boek in het lopende jaar enkel de kost @ 444000 (of UCN @ 444100) zonder btw; de btw volgt pas bij het echte document."
+    },
+    {
+      "fout": "Op 454000 RSZ enkel het ingehouden werknemersdeel boeken.",
+      "correctie": "De RSZ-schuld omvat zowel het werknemersdeel als de werkgeversbijdrage (621000). Tel beide samen op 454000."
+    },
+    {
+      "fout": "450000 en 452000 door elkaar gebruiken, of de geraamde post niet afsluiten bij het aanslagbiljet.",
+      "correctie": "Gebruik 450000 (of 412000) zolang de belasting geraamd is; bij het aanslagbiljet sluit je die altijd af en boek je het definitieve bedrag op 452000, met 671000 (supplement) of 771000 (regularisatie) voor het verschil."
+    },
+    {
+      "fout": "De volledige rentekost gelijkstellen aan het netto uitbetaalde bedrag.",
+      "correctie": "De rentekost (650000) is bruto = netto + ingehouden roerende voorheffing. De voorheffing is een door te storten bedrag (453000), het netto een schuld aan de begunstigde (bv. 489000)."
+    },
+    {
+      "fout": "Een ontvangen interest enkel voor het netto bedrag als opbrengst boeken.",
+      "correctie": "Boek de opbrengst bruto (751000) en de ingehouden roerende voorheffing apart als kost (670000); het netto staat op de bank (550000)."
+    },
+    {
+      "fout": "Een negatieve zichtrekening op de afsluitdatum als negatief actief op 550000 laten staan.",
+      "correctie": "Boek het negatieve saldo over naar de schuldrekening 433000 (550000 @ 433000) en draai dit terug bij de heropening (433000 @ 550000)."
+    }
   ],
   "controlevragen": [
-    {"vraag": "Welke rekening gebruik je voor een kaskrediet of voorschot op vaste termijn dat de bank verleent, en hoe boek je de interest?", "antwoord": "430000 Kredietinstellingen – Leningen vaste termijn (credit bij opname, debet bij terugbetaling). De interest is een financiële kost op 650000."},
-    {"vraag": "Waar boek je het negatieve saldo van de zichtrekening op de afsluitdatum, en wat doe je bij de heropening?", "antwoord": "Op 433000 Kredietinstellingen (schulden in r/c): 550000 (debet) @ 433000 (credit). Bij de heropening op 01/01 draai je dit terug: 433000 (debet) @ 550000 (credit)."},
-    {"vraag": "Een familielid leent 40.000 EUR op 18 maanden en 75.000 EUR op 8 maanden uit. Op welke rekeningen komen die?", "antwoord": "18 maanden > 1 jaar → 174000 Overige leningen (klasse 17, LT). 8 maanden < 1 jaar → 439000 Overige leningen (financiële schuld KT)."},
-    {"vraag": "Hoe splits je het brutoloon op over de schuldrekeningen?", "antwoord": "Bedrijfsvoorheffing → 453000, RSZ (WN + WG) → 454000, nettoloon → 455000; tegenover de kosten 620100/620200 (bruto), 621000 (RSZ werkgever) en eventueel 622000/623000."},
-    {"vraag": "Hoe verwerk je een loon via een sociaal secretariaat dat de RSZ en bedrijfsvoorheffing int?", "antwoord": "De factuur debiteert 453000 (voorheffing) en 454000 (RSZ) om die schulden weg te boeken, plus 610000 beheerskosten en 411590 btw, tegenover 440000 Sociaal secretariaat (totaal). Daarna 440000 @ 550000 bij de betaling."},
-    {"vraag": "Een onderneming ontvangt 700 EUR netto interest terwijl 300 EUR roerende voorheffing werd ingehouden. Hoe boek je dit?", "antwoord": "550000 (debet 700) + 670000 (debet 300) @ 751000 (credit 1.000): de opbrengst is bruto, de voorheffing is een aparte kost."},
-    {"vraag": "Wat is het verschil tussen 444000 en 440000?", "antwoord": "440000 Leveranciers gebruik je als de factuur ontvangen is (incl. btw); 444000 Te ontvangen facturen als de goederen al ontvangen zijn maar de factuur nog niet binnen is (zonder btw)."},
-    {"vraag": "Bij de afsluiting is meer voorafbetaald dan de berekende belasting. Welke boeking maak je, en wat bij het aanslagbiljet?", "antwoord": "Raming: 412000 Terug te vorderen belastingen (debet) @ 670100 Geactiveerde overschotten (credit). Bij het aanslagbiljet sluit je 412000 af tegenover 452000 (extra te betalen, met 671000 supplement) of 771000 (regularisatie/teruggave)."}
+    {
+      "vraag": "Welke rekening gebruik je voor een kaskrediet of voorschot op vaste termijn dat de bank verleent, en hoe boek je de interest?",
+      "antwoord": "430000 Kredietinstellingen – Leningen vaste termijn (credit bij opname, debet bij terugbetaling). De interest is een financiële kost op 650000."
+    },
+    {
+      "vraag": "Waar boek je het negatieve saldo van de zichtrekening op de afsluitdatum, en wat doe je bij de heropening?",
+      "antwoord": "Op 433000 Kredietinstellingen (schulden in r/c): 550000 (debet) @ 433000 (credit). Bij de heropening op 01/01 draai je dit terug: 433000 (debet) @ 550000 (credit)."
+    },
+    {
+      "vraag": "Een familielid leent 40.000 EUR op 18 maanden en 75.000 EUR op 8 maanden uit. Op welke rekeningen komen die?",
+      "antwoord": "18 maanden > 1 jaar → 174000 Overige leningen (klasse 17, LT). 8 maanden < 1 jaar → 439000 Overige leningen (financiële schuld KT)."
+    },
+    {
+      "vraag": "Hoe splits je het brutoloon op over de schuldrekeningen?",
+      "antwoord": "Bedrijfsvoorheffing → 453000, RSZ (WN + WG) → 454000, nettoloon → 455000; tegenover de kosten 620100/620200 (bruto), 621000 (RSZ werkgever) en eventueel 622000/623000."
+    },
+    {
+      "vraag": "Hoe verwerk je een loon via een sociaal secretariaat dat de RSZ en bedrijfsvoorheffing int?",
+      "antwoord": "De factuur debiteert 453000 (voorheffing) en 454000 (RSZ) om die schulden weg te boeken, plus 610000 beheerskosten en 411590 btw, tegenover 440000 Sociaal secretariaat (totaal). Daarna 440000 @ 550000 bij de betaling."
+    },
+    {
+      "vraag": "Een onderneming ontvangt 700 EUR netto interest terwijl 300 EUR roerende voorheffing werd ingehouden. Hoe boek je dit?",
+      "antwoord": "550000 (debet 700) + 670000 (debet 300) @ 751000 (credit 1.000): de opbrengst is bruto, de voorheffing is een aparte kost."
+    },
+    {
+      "vraag": "Wat is het verschil tussen 444000 en 440000?",
+      "antwoord": "440000 Leveranciers gebruik je als de factuur ontvangen is (incl. btw); 444000 Te ontvangen facturen als de goederen al ontvangen zijn maar de factuur nog niet binnen is (zonder btw)."
+    },
+    {
+      "vraag": "Bij de afsluiting is meer voorafbetaald dan de berekende belasting. Welke boeking maak je, en wat bij het aanslagbiljet?",
+      "antwoord": "Raming: 412000 Terug te vorderen belastingen (debet) @ 670100 Geactiveerde overschotten (credit). Bij het aanslagbiljet sluit je 412000 af tegenover 452000 (extra te betalen, met 671000 supplement) of 771000 (regularisatie/teruggave)."
+    }
+  ],
+  "cursus": {
+    "vindplaats": "Deel V, Hoofdstuk 9 - Schulden op ten hoogste één jaar (p. 627-654)",
+    "kernpunten": "## Wat het boek toevoegt op de bestaande samenvatting\n\n### 1. Inhoud van de rubriek en wettelijke waardering\nHet boek (p. 627) omschrijft de rubriek ruimer dan enkel \"binnen het jaar te betalen\": er horen **drie soorten** schulden in thuis: (1) schulden met een **contractuele looptijd van ten hoogste één jaar**, (2) de **schulden op meer dan één jaar die tijdens het boekjaar vervallen**, en (3) schulden m.b.t. kosten van het boekjaar (of een vorig boekjaar) **waarvan het bedrag vrijwel vaststaat maar de titel/factuur nog ontbreekt**. Al deze schulden zijn in het MAR verspreid over de **groepen 42 t/m 48**.\n\nDe **waardering** gebeurt — net als bij de schulden op meer dan één jaar (code 17) — **aan de nominale waarde** (p. 629). Dat is het centrale waarderingsbeginsel dat de bestaande samenvatting niet expliciet noemt.\n\n### 2. Structuur van het balansschema (p. 628)\nHet balansschema kent een vaste onderverdeling die je voor de balanslezing moet kennen:\n- **A.** Schulden op meer dan één jaar die binnen het jaar vervallen — code 42\n- **B.** Financiële schulden — code 43 (1. Kredietinstellingen, 2. Overige leningen)\n- **C.** Handelsschulden — code 44 (1. Leveranciers code 440/4, 2. Te betalen wissels code 441)\n- **D.** Vooruitbetalingen op bestellingen — code 46\n- **E.** Schulden m.b.t. belastingen, bezoldigingen en sociale lasten — code 45\n- **F.** Overige schulden — code 47/48\n\n**Valkuil (p. 636):** het MAR voorziet binnen 44 in **drie** rekeningen (440, 441, 444), maar het **balansschema** splitst \"Handelsschulden\" in slechts **twee** onderrubrieken. Het saldo van 444 \"Te ontvangen facturen\" wordt op de balans **samengevoegd met 440 \"Leveranciers\"** (code 440/4).\n\n### 3. Financiële schulden (groep 43) — fijnere indeling (p. 629-632)\nHet boek onderscheidt vier rekeningen voor **Kredietinstellingen**, fijner dan de bestaande fiche:\n- **430** Leningen op rekening met vaste termijn (krediet voor een vaste termijn ≤ 1 jaar, bv. termijnkrediet, afbetalingskrediet);\n- **431** Promessen (onderschreven orderbriefjes);\n- **432** Acceptkredieten (vooral financiering internationale handel);\n- **433** Schulden in rekening-courant = de **kaskredieten / voorschotten in r/c**.\n\nKenmerkend voor het **kaskrediet** (p. 630): de toegestane **kredietlijn wordt NIET geboekt** — het is slechts een kredietbelofte. Pas de werkelijke opname/aflossing loopt over rekening 5500. Op inventarisdatum wordt een **creditsaldo** van 5500 overgeboekt naar 433 (passief), en bij de **heropening 01.01** terug naar 5500. Rekening 433 kan verder uitgesplitst worden naar de aard van de waarborg: 4330 effecten, 4331 facturen, 4332 goederen, 4333 goedgekeurde vorderingsstaten, 4334 wissel.\n\n### 4. Belastingen op het resultaat (p. 638-642) — wettelijke basis\nHet boek citeert **artikel 3:90 KB WVV**: voorafbetalingen en werkelijke voorheffingen die met de belasting verrekenbaar zijn, worden onder \"Belastingen op het resultaat\" opgenomen, **voor zover** ze niet hoger zijn dan de verschuldigde belasting; het **overschot wordt geactiveerd**. Belangrijke nuance: de voorafbetaling mag **niet als voorschot** geboekt worden, maar als **definitief betaalde belasting** in de **groep 67** (rekening 6700). Een nog verschuldigd raming-supplement boek je als **schuld (4500), niet als voorziening**. Een teveel betaald wordt een **vordering (4120)** tegenover de creditrekening 6701 \"Geactiveerde overschotten (-)\".\n\n### 5. Roerende vs. onroerende voorheffing (p. 643-644)\nEen verschil dat de fiche niet scherp stelt: de **OV (onroerende voorheffing)** wordt als kost op **640 Bedrijfsbelastingen** geboekt (geen voorafbetaling), terwijl de ingehouden/ontvangen **RV (roerende voorheffing)** onmiddellijk op **6700** komt, want ze geldt als een echte voorafbetaling/verrekenbare belasting. De onderneming ontvangt enkel het **netto** (bruto-intrest - RV) en boekt de bruto-opbrengst op 751.\n\n### 6. Lonen en sociale lasten (p. 647-650)\nKernschema van het brutoloon: **Brutoloon - RSZ-bijdrage werknemer = belastbaar loon; - bedrijfsvoorheffing = nettoloon**. Boekhoudkundig: WN-RSZ + WG-RSZ samen op **454**; BV op **453**; netto op **455**. Het **vakantiegeld** (456) wordt als **vaststaande schuld** geboekt op het einde van het jaar van de prestaties (NIET als voorziening), ook al volgt de uitbetaling pas het jaar nadien (p. 650).",
+    "begrippen": [
+      {
+        "term": "Schulden op ten hoogste één jaar",
+        "uitleg": "Alle schulden met een contractuele looptijd van ten hoogste één jaar, plus de schulden op meer dan één jaar die tijdens het boekjaar vervallen, plus schulden voor kosten waarvan het bedrag vrijwel vaststaat maar de titel nog ontbreekt. In het MAR verspreid over de groepen 42 t/m 48 (p. 627)."
+      },
+      {
+        "term": "Waardering aan nominale waarde",
+        "uitleg": "Voor de schulden op ten hoogste één jaar geldt - net als voor de schulden op meer dan één jaar (code 17) - de waardering aan de nominale waarde, d.w.z. het werkelijk verschuldigde bedrag (p. 629)."
+      },
+      {
+        "term": "Kaskrediet (voorschot in rekening-courant)",
+        "uitleg": "Krediet op korte termijn waarbij de rekeninghouder de toelating krijgt om tot een bepaald bedrag 'onder nul' te gaan op zijn zichtrekening (kredietlijn). Soepel: opname en aflossing volgen de behoeften. De toegekende kredietlijn zelf wordt niet geboekt; enkel de werkelijke opname loopt over 5500 (p. 630)."
+      },
+      {
+        "term": "Rekening 433 - Schulden in rekening-courant",
+        "uitleg": "Passiefrekening van de financiële schulden op KT waarop het creditsaldo van de zichtrekening (5500) op inventarisdatum wordt overgeboekt; toont de schuld aan de kredietinstelling in de balans (code 430/8). Bij heropening 01.01 weer terug naar 5500 (p. 631)."
+      },
+      {
+        "term": "Rekening 444 - Te ontvangen facturen",
+        "uitleg": "Schuld die je op de afsluiting boekt wanneer goederen/diensten al ontvangen zijn maar de factuur nog ontbreekt; het bedrag wordt geraamd (bv. op basis van bestelbon), ZONDER btw. Op de balans wordt het saldo samengeteld met dat van 440 'Leveranciers' (p. 635-636)."
+      },
+      {
+        "term": "Rekening 444.. - Op te maken creditnota's",
+        "uitleg": "Subrekening (4441) gebruikt op het einde van het boekjaar voor de door ons nog op te maken creditnota's m.b.t. reeds door de klant teruggezonden goederen (p. 635)."
+      },
+      {
+        "term": "Geraamd bedrag der belastingschulden (450)",
+        "uitleg": "Rekening voor de door de onderneming zelf geschatte, nog verschuldigde winstbelasting, geboekt op inventarisdatum zolang het aanslagbiljet er niet is. 'Geraamd bedrag' = schatting; 'Te betalen' = effectieve, vaststaande schuld (p. 638)."
+      },
+      {
+        "term": "Te betalen belastingen en taksen (452)",
+        "uitleg": "Rekening voor de definitief vaststaande belastingschuld zoals vastgesteld door het aanslagbiljet van de fiscus. Op dat ogenblik gebeurt een overboeking van de raming (450) naar deze vaststaande schuld (p. 638, 641)."
+      },
+      {
+        "term": "Bedrijfsvoorheffing",
+        "uitleg": "Voorschot op de door de werknemer te betalen personenbelasting, door de werkgever ingehouden op het belastbaar loon en aan de fiscus doorgestort. De onderneming boekt ze als schuld op rekening 453 'Ingehouden voorheffingen' (p. 647)."
+      },
+      {
+        "term": "Werkgeversbijdrage (patronale RSZ-bijdrage)",
+        "uitleg": "Bijdrage die de werkgever bovenop het brutoloon per personeelslid aan de RSZ verschuldigd is (ca. 25 à 30 % van het brutoloon). Geboekt als kost op 621 en als schuld op 454 'RSZ' - die laatste bevat dus zowel de werknemers- als de werkgeversbijdrage (p. 647)."
+      },
+      {
+        "term": "Rekening 453 - Ingehouden voorheffingen",
+        "uitleg": "Verzamelrekening voor zowel de door de werkgever op het loon ingehouden bedrijfsvoorheffing als de door de onderneming bij betaalbaarstelling van roerende inkomsten ingehouden roerende voorheffing, beide door te storten aan de Staat (p. 645-647)."
+      },
+      {
+        "term": "Roerende voorheffing (RV) op ontvangen intrest",
+        "uitleg": "Bronheffing die de betalende instantie (vaak de bank) inhoudt op roerende inkomsten; de onderneming ontvangt het netto en boekt de RV onmiddellijk op 6700 omdat ze als een echte voorafbetaling/verrekenbare belasting geldt (p. 643-644)."
+      },
+      {
+        "term": "Vakantiegeld (456)",
+        "uitleg": "Schuld voor het berekende vakantiegeld dat in het volgende boekjaar wordt uitbetaald maar als kost hoort bij het jaar waarin de prestaties geleverd zijn. Het boek benadrukt dat dit als VASTSTAANDE SCHULD wordt geboekt, niet als voorziening (p. 650)."
+      },
+      {
+        "term": "Artikel 3:90 KB WVV",
+        "uitleg": "Wettelijke omschrijving van 'Belastingen op het resultaat': onder belastingen van het boekjaar vallen de voorafbetalingen en werkelijke voorheffingen die met de belasting verrekenbaar zijn, voor zover ze niet hoger zijn dan de verschuldigde belasting; het overschot wordt geactiveerd (p. 639)."
+      }
+    ]
+  },
+  "meerkeuze": [
+    {
+      "vraag": "Welke rekening gebruik je om op de inventarisdatum een creditsaldo van de zichtrekening (5500) over te boeken, omdat je gebruik maakte van een kaskrediet?",
+      "opties": [
+        "430000 Kredietinstellingen - Leningen vaste termijn",
+        "433000 Kredietinstellingen (schulden in rekening-courant)",
+        "439000 Overige leningen",
+        "550000 Kredietinstellingen"
+      ],
+      "juist": 1,
+      "uitleg": "Bij een kaskrediet ('onder nul' staan op de zichtrekening) is het creditsaldo van 5500 een schuld in rekening-courant. Op inventarisdatum boek je dit over naar 433000 (p. 631). 430000 is voor leningen op vaste termijn, 439000 voor leningen bij niet-kredietinstellingen, en 550000 is de zichtrekening zelf (actief), niet de schuldrekening."
+    },
+    {
+      "vraag": "Tegen welke waarde worden de schulden op ten hoogste één jaar gewaardeerd?",
+      "opties": [
+        "Tegen de geactualiseerde (contante) waarde",
+        "Tegen de aanschaffingswaarde",
+        "Tegen de nominale waarde",
+        "Tegen de marktwaarde op afsluitdatum"
+      ],
+      "juist": 2,
+      "uitleg": "Net als bij de schulden op meer dan één jaar (code 17) geldt voor de schulden op ten hoogste één jaar de waardering aan de nominale waarde (p. 629). Actualisatie, aanschaffings- of marktwaarde zijn hier niet van toepassing."
+    },
+    {
+      "vraag": "Een onderneming ontvangt goederen op 28/12, maar de aankoopfactuur is op de afsluitdatum nog niet binnen. Hoe boek je deze verrichting op 31/12?",
+      "opties": [
+        "604000 Aankopen handelsgoederen @ 440000 Leveranciers, inclusief btw",
+        "604000 Aankopen handelsgoederen @ 444000 Te ontvangen facturen, zonder btw",
+        "Geen boeking; je wacht tot de factuur er is",
+        "604000 Aankopen handelsgoederen + 411000 @ 444000 Te ontvangen facturen, inclusief btw"
+      ],
+      "juist": 1,
+      "uitleg": "De goederen zijn ontvangen, dus de kost hoort bij het afgesloten boekjaar; daartegenover boek je de te verwachten schuld op 444000 'Te ontvangen facturen', ZONDER btw, want zonder factuur is er nog geen recht op btw-aftrek (p. 635). De btw komt pas wanneer de echte factuur binnenkomt."
+    },
+    {
+      "vraag": "Het MAR voorziet binnen de handelsschulden (groep 44) drie rekeningen. In hoeveel onderrubrieken splitst het balansschema deze rubriek?",
+      "opties": [
+        "Eén onderrubriek",
+        "Twee onderrubrieken (Leveranciers en Te betalen wissels)",
+        "Drie onderrubrieken (Leveranciers, Te betalen wissels, Te ontvangen facturen)",
+        "Vier onderrubrieken"
+      ],
+      "juist": 1,
+      "uitleg": "Het balansschema splitst de handelsschulden in slechts twee onderrubrieken: Leveranciers (code 440/4) en Te betalen wissels (code 441). Het saldo van 444 'Te ontvangen facturen' wordt op de balans samengeteld met dat van 440 'Leveranciers' (p. 636)."
+    },
+    {
+      "vraag": "Op het einde van het boekjaar blijkt dat te WEINIG winstbelasting werd voorafbetaald (raming hoger dan voorafbetaald). Welke boeking maak je op de inventarisdatum?",
+      "opties": [
+        "670200 Geraamde belastingen @ 450000 Geraamd bedrag der belastingschulden",
+        "412000 Terug te vorderen belastingen @ 670100 Geactiveerde overschotten (-)",
+        "452000 Te betalen belastingen en taksen @ 550000 Kredietinstellingen",
+        "671200 Gevormde fiscale voorzieningen @ 160000 Voorzieningen"
+      ],
+      "juist": 0,
+      "uitleg": "Het supplementair verschuldigde bedrag wordt geboekt als geraamde kost (670200) tegenover de geraamde belastingschuld 450000 - en als SCHULD, niet als voorziening (p. 640). Optie B is het geval van teveel voorafbetaald, optie C is de definitieve betaling na het aanslagbiljet, en een voorziening (D) is enkel voor betwiste aanslagen."
+    },
+    {
+      "vraag": "Een onderneming ontvangt intrest op een termijnrekening: bruto 800 EUR, waarop de bank 30 % roerende voorheffing inhoudt (240 EUR), zodat 560 EUR netto op de zichtrekening komt. Hoe boekt de onderneming dit?",
+      "opties": [
+        "5500 Bank 560 @ 751000 Opbrengsten uit vlottende activa 560",
+        "5500 Bank 560 + 6700 Belastingen 240 @ 751000 Opbrengsten uit vlottende activa 800",
+        "5500 Bank 800 @ 751000 Opbrengsten uit vlottende activa 800",
+        "5500 Bank 560 + 453000 Ingehouden voorheffingen 240 @ 751000 Opbrengsten 800"
+      ],
+      "juist": 1,
+      "uitleg": "De bruto-opbrengst (800) komt op 751 'Opbrengsten uit vlottende activa'; het netto (560) op de bank; de ingehouden RV (240) op 6700, want ze geldt als een verrekenbare voorafbetaling (p. 644). De RV is dus geen vermindering van de opbrengst (A) en niet 453 (D, dat is voor zélf ingehouden voorheffingen)."
+    },
+    {
+      "vraag": "Bij een loonboeking: waarvoor wordt de schuldrekening 454 'Rijksdienst voor Sociale Zekerheid' gecrediteerd?",
+      "opties": [
+        "Enkel voor de werknemersbijdrage RSZ",
+        "Enkel voor de werkgeversbijdrage (patronale bijdrage) RSZ",
+        "Voor de werknemersbijdrage én de werkgeversbijdrage samen",
+        "Voor de ingehouden bedrijfsvoorheffing"
+      ],
+      "juist": 2,
+      "uitleg": "Rekening 454 wordt gecrediteerd voor zowel de op het loon ingehouden werknemersbijdrage als de door de werkgever bijkomend verschuldigde patronale bijdrage; samen vormen ze de totale door te storten RSZ-schuld (p. 647). De bedrijfsvoorheffing (D) komt op 453, niet op 454."
+    },
+    {
+      "vraag": "Op het einde van het boekjaar berekent een onderneming het vakantiegeld dat ze pas volgend jaar aan de bedienden uitbetaalt. Hoe wordt dit geboekt?",
+      "opties": [
+        "Als voorziening op rekening 160000 Voorzieningen",
+        "Als vaststaande schuld op rekening 456000 Vakantiegeld",
+        "Als overlopende rekening 492000 Toe te rekenen kosten",
+        "Niet geboekt; pas bij de werkelijke uitbetaling volgend jaar"
+      ],
+      "juist": 1,
+      "uitleg": "Het berekende vakantiegeld hoort als kost bij het jaar van de prestaties en wordt op 6202 @ 456 'Vakantiegeld' geboekt. Het boek benadrukt uitdrukkelijk dat dit als VASTSTAANDE SCHULD (456) wordt geboekt en NIET als voorziening (p. 650)."
+    },
+    {
+      "vraag": "Een NV ontvangt een lening van een familielid op 8 maanden. Op welke rekening boek je deze schuld?",
+      "opties": [
+        "430000 Kredietinstellingen - Leningen vaste termijn",
+        "174000 Overige leningen (schuld op meer dan één jaar)",
+        "439000 Overige leningen (financiële schuld KT)",
+        "489000 Andere diverse schulden"
+      ],
+      "juist": 2,
+      "uitleg": "Overige leningen zijn leningen die niet bij kredietinstellingen worden aangegaan maar bij familie, vrienden, kennissen (p. 632). Een looptijd van 8 maanden valt binnen het jaar, dus klasse 43: 439000. 430000 is enkel voor kredietinstellingen; 174000 zou gelden bij een looptijd van meer dan één jaar."
+    },
+    {
+      "vraag": "Wat is het kenmerkende boekhoudkundige gevolg van de 'kredietlijn' bij een kaskrediet?",
+      "opties": [
+        "De volledige kredietlijn wordt geboekt als schuld bij de toekenning",
+        "De toegekende kredietlijn wordt niet geboekt; enkel de werkelijke opname loopt over 5500",
+        "De kredietlijn wordt geboekt op een vordering tot ze opgenomen wordt",
+        "De kredietlijn wordt op een orderrekening (klasse 0) geboekt"
+      ],
+      "juist": 1,
+      "uitleg": "De toegekende kredietlijn wordt niet geboekt: ze is slechts een kredietbelofte die pas werkelijke kredietverlening wordt op het ogenblik dat de klant het geld effectief opneemt. Alle opnames en aflossingen lopen over de rekening 5500 'Bank rekening-courant' (p. 630-632)."
+    }
   ]
 }

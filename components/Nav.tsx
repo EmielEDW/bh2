@@ -16,6 +16,7 @@ const MEER: Item[] = [
   { href: "/mar", label: "MAR-zoeker", icon: "🔢", desc: "Zoek elke rekening + debet/credit-trainer" },
   { href: "/boekingshulp", label: "Boekingshulp", icon: "🧭", desc: "Welke boeking? + journaalpost-builder" },
   { href: "/btw", label: "BTW", icon: "🧾", desc: "Rekenmachine, vakken & theorie" },
+  { href: "/begrippen", label: "Begrippenlijst", icon: "📖", desc: "Alle begrippen uit de cursus" },
 ];
 
 const EXAMEN: Item = { href: "/examen", label: "Examen", icon: "🎯" };

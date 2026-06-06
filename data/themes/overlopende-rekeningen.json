@@ -9,63 +9,192 @@
     "Concrete situaties (vooruitbetaalde huur/verzekering, spoorabonnement, verschuldigde of verkregen interest, rentesubsidie) vertalen naar de juiste overlopende rekening over meerdere boekjaren.",
     "Het verschil zien tussen de overlopende rekeningen (klasse 49) en de afsluitrekeningen 404/444 (te innen/te ontvangen facturen en op te maken/te ontvangen creditnota's) en geactiveerde intercalaire interesten."
   ],
-  "samenvatting": "## Waarom bestaan overlopende rekeningen?\n\nIn de boekhouding geldt het **toerekeningsbeginsel** (ook wel het **matchingprincipe** genoemd): een kost of opbrengst hoort thuis in het boekjaar waarin hij **economisch wordt verbruikt of verdiend**, ongeacht wanneer er betaald of gefactureerd wordt. Een betaling in december voor een verzekering of abonnement dat over volgend jaar loopt, mag de winst van dit jaar niet drukken. Omgekeerd moet interest die dit jaar al is aangegroeid maar pas volgend jaar wordt ontvangen, toch in dit jaar als opbrengst staan.\n\nDe **overlopende rekeningen** (klasse 49) zijn het gereedschap om dit op de balansdatum recht te zetten. Ze \"verschuiven\" een stukje kost of opbrengst van het ene boekjaar naar het andere.\n\n## De vier rekeningen: actief versus passief\n\nEr zijn precies **vier** overlopende rekeningen. De handigste manier om ze uit elkaar te houden is de vraag: *gaat het over een kost of een opbrengst, en zit die te vroeg of te laat geboekt?*\n\n### Actiefzijde (de onderneming heeft nog iets \"tegoed\")\n\n- **490000 Over te dragen kosten** (debet, actief). Je hebt een kost **al betaald of geboekt**, maar (een deel ervan) hoort bij **volgend** jaar. Je haalt dat deel weg uit de kosten van dit jaar en parkeert het op de actiefzijde. Voorbeelden op de fiche: vooruitbetaalde huur (Oefening 4) en een spoorabonnement (Oefening 3).\n- **491000 Verkregen opbrengsten** (debet, actief). Je hebt een opbrengst **al verdiend** in dit jaar, maar je hebt er nog **geen factuur** voor en je ontvangt het geld pas later. Je boekt de opbrengst toch al in dit jaar en zet de vordering op de actiefzijde. Voorbeelden op de fiche: aangegroeide maar nog niet vervallen interest op een belegging (Oefening 2) en een verkregen rentesubsidie (Oefening 7).\n\n### Passiefzijde (de onderneming is nog iets \"verschuldigd\")\n\n- **492000 Toe te rekenen kosten** (credit, passief). Een kost **hoort bij dit jaar** maar je hebt er nog **geen factuur** voor gekregen en je betaalt pas later. Je boekt de kost toch al in dit jaar en zet de schuld op de passiefzijde. Voorbeelden op de fiche: verschuldigde maar nog niet vervallen interest op leningen (Oefeningen 5, 7 en 9).\n- **493000 Over te dragen opbrengsten** (credit, passief). Je hebt een opbrengst **al ontvangen of gefactureerd**, maar (een deel ervan) hoort bij **volgend** jaar. Je haalt dat deel weg uit de opbrengsten van dit jaar en parkeert het op de passiefzijde. Voorbeeld op de fiche: vooruit gefactureerd onderhoudscontract (Oefening 10, bij de verkoper).\n\n> **Ezelsbruggetje:** \"Over te dragen\" = je *draagt iets over* naar volgend jaar (te vroeg geboekt: 490 kost, 493 opbrengst). \"Verkregen / toe te rekenen\" = je *trekt iets naar dit jaar toe* dat nog moet komen (te laat geboekt: 491 opbrengst, 492 kost).\n\n## Het mechanisme: twee boekingen\n\nElke overlopende rekening leeft maar even. Er zijn altijd **twee** boekingen:\n\n1. **Op het einde van het boekjaar (31/12):** je corrigeert de kost of opbrengst en zet het bedrag op de overlopende rekening.\n2. **Bij begin (heropening) van het volgende boekjaar (1/1):** je **boekt exact dezelfde boeking terug** (tegenboeking). Zo \"valt\" de kost of opbrengst automatisch in het nieuwe jaar en is de overlopende rekening weer op nul.\n\n## Pro rata berekenen\n\nDe rekenkant is bijna altijd een **pro rata temporis**: je verdeelt het totaalbedrag volgens het aantal maanden dat bij elk boekjaar hoort (de fiche rekent met maanden van gelijke lengte). Werk steeds met een tijdslijn:\n\n- Spoorabonnement van 1/6/x0 tot 31/5/x1 (12 m): 7 m in x0, 5 m in x1 -> 1.050 x 5/12 = 437,50 over te dragen.\n- Belegging met vervaldatum 1/4: bij 31/12 is 9/12 van de rente verkregen.\n- Lening 1/11/x0 met semestriele rente: bij 31/12 zijn 2 van de 6 maanden toe te rekenen.\n\n## Verwante afsluitrekeningen (niet verwarren met klasse 49)\n\nDe fiche koppelt aan dit thema ook de **afsluitrekeningen** die je gebruikt wanneer de prestatie volledig in dit jaar valt maar de **factuur of creditnota nog administratief ontbreekt**:\n\n- **444000 Te ontvangen facturen** en **404000 Te innen opbrengsten / op te stellen facturen**: prestatie geleverd/ontvangen, factuur nog niet (Oefeningen 6 en 8).\n- **444100 Op te maken creditnota's** en de inkomende/uitgaande creditnota's (ICN 604100 / UCN 700100): goederen teruggestuurd, creditnota nog niet opgesteld (Oefening 8).\n- **650300 Geactiveerde intercalaire interesten (-)**: interest tijdens de bouwfase van een investering wordt in de aanschaffingswaarde geactiveerd (Oefening 9).\n\n## Effect op balans en resultaat\n\n- **490000 en 491000** staan op de **actiefzijde** van de balans; **492000 en 493000** op de **passiefzijde**.\n- **490** haalt kost weg en **verbetert** het resultaat; **491** voegt opbrengst toe en **verbetert** het resultaat; **492** voegt kost toe en **verlaagt** het resultaat; **493** haalt opbrengst weg en **verlaagt** het resultaat. Na de correctie staat in elk boekjaar exact de kost/opbrengst die er economisch thuishoort."
-,
+  "samenvatting": "## Waarom bestaan overlopende rekeningen?\n\nIn de boekhouding geldt het **toerekeningsbeginsel** (ook wel het **matchingprincipe** genoemd): een kost of opbrengst hoort thuis in het boekjaar waarin hij **economisch wordt verbruikt of verdiend**, ongeacht wanneer er betaald of gefactureerd wordt. Een betaling in december voor een verzekering of abonnement dat over volgend jaar loopt, mag de winst van dit jaar niet drukken. Omgekeerd moet interest die dit jaar al is aangegroeid maar pas volgend jaar wordt ontvangen, toch in dit jaar als opbrengst staan.\n\nDe **overlopende rekeningen** (klasse 49) zijn het gereedschap om dit op de balansdatum recht te zetten. Ze \"verschuiven\" een stukje kost of opbrengst van het ene boekjaar naar het andere.\n\n## De vier rekeningen: actief versus passief\n\nEr zijn precies **vier** overlopende rekeningen. De handigste manier om ze uit elkaar te houden is de vraag: *gaat het over een kost of een opbrengst, en zit die te vroeg of te laat geboekt?*\n\n### Actiefzijde (de onderneming heeft nog iets \"tegoed\")\n\n- **490000 Over te dragen kosten** (debet, actief). Je hebt een kost **al betaald of geboekt**, maar (een deel ervan) hoort bij **volgend** jaar. Je haalt dat deel weg uit de kosten van dit jaar en parkeert het op de actiefzijde. Voorbeelden op de fiche: vooruitbetaalde huur (Oefening 4) en een spoorabonnement (Oefening 3).\n- **491000 Verkregen opbrengsten** (debet, actief). Je hebt een opbrengst **al verdiend** in dit jaar, maar je hebt er nog **geen factuur** voor en je ontvangt het geld pas later. Je boekt de opbrengst toch al in dit jaar en zet de vordering op de actiefzijde. Voorbeelden op de fiche: aangegroeide maar nog niet vervallen interest op een belegging (Oefening 2) en een verkregen rentesubsidie (Oefening 7).\n\n### Passiefzijde (de onderneming is nog iets \"verschuldigd\")\n\n- **492000 Toe te rekenen kosten** (credit, passief). Een kost **hoort bij dit jaar** maar je hebt er nog **geen factuur** voor gekregen en je betaalt pas later. Je boekt de kost toch al in dit jaar en zet de schuld op de passiefzijde. Voorbeelden op de fiche: verschuldigde maar nog niet vervallen interest op leningen (Oefeningen 5, 7 en 9).\n- **493000 Over te dragen opbrengsten** (credit, passief). Je hebt een opbrengst **al ontvangen of gefactureerd**, maar (een deel ervan) hoort bij **volgend** jaar. Je haalt dat deel weg uit de opbrengsten van dit jaar en parkeert het op de passiefzijde. Voorbeeld op de fiche: vooruit gefactureerd onderhoudscontract (Oefening 10, bij de verkoper).\n\n> **Ezelsbruggetje:** \"Over te dragen\" = je *draagt iets over* naar volgend jaar (te vroeg geboekt: 490 kost, 493 opbrengst). \"Verkregen / toe te rekenen\" = je *trekt iets naar dit jaar toe* dat nog moet komen (te laat geboekt: 491 opbrengst, 492 kost).\n\n## Het mechanisme: twee boekingen\n\nElke overlopende rekening leeft maar even. Er zijn altijd **twee** boekingen:\n\n1. **Op het einde van het boekjaar (31/12):** je corrigeert de kost of opbrengst en zet het bedrag op de overlopende rekening.\n2. **Bij begin (heropening) van het volgende boekjaar (1/1):** je **boekt exact dezelfde boeking terug** (tegenboeking). Zo \"valt\" de kost of opbrengst automatisch in het nieuwe jaar en is de overlopende rekening weer op nul.\n\n## Pro rata berekenen\n\nDe rekenkant is bijna altijd een **pro rata temporis**: je verdeelt het totaalbedrag volgens het aantal maanden dat bij elk boekjaar hoort (de fiche rekent met maanden van gelijke lengte). Werk steeds met een tijdslijn:\n\n- Spoorabonnement van 1/6/x0 tot 31/5/x1 (12 m): 7 m in x0, 5 m in x1 -> 1.050 x 5/12 = 437,50 over te dragen.\n- Belegging met vervaldatum 1/4: bij 31/12 is 9/12 van de rente verkregen.\n- Lening 1/11/x0 met semestriele rente: bij 31/12 zijn 2 van de 6 maanden toe te rekenen.\n\n## Verwante afsluitrekeningen (niet verwarren met klasse 49)\n\nDe fiche koppelt aan dit thema ook de **afsluitrekeningen** die je gebruikt wanneer de prestatie volledig in dit jaar valt maar de **factuur of creditnota nog administratief ontbreekt**:\n\n- **444000 Te ontvangen facturen** en **404000 Te innen opbrengsten / op te stellen facturen**: prestatie geleverd/ontvangen, factuur nog niet (Oefeningen 6 en 8).\n- **444100 Op te maken creditnota's** en de inkomende/uitgaande creditnota's (ICN 604100 / UCN 700100): goederen teruggestuurd, creditnota nog niet opgesteld (Oefening 8).\n- **650300 Geactiveerde intercalaire interesten (-)**: interest tijdens de bouwfase van een investering wordt in de aanschaffingswaarde geactiveerd (Oefening 9).\n\n## Effect op balans en resultaat\n\n- **490000 en 491000** staan op de **actiefzijde** van de balans; **492000 en 493000** op de **passiefzijde**.\n- **490** haalt kost weg en **verbetert** het resultaat; **491** voegt opbrengst toe en **verbetert** het resultaat; **492** voegt kost toe en **verlaagt** het resultaat; **493** haalt opbrengst weg en **verlaagt** het resultaat. Na de correctie staat in elk boekjaar exact de kost/opbrengst die er economisch thuishoort.",
   "kernrekeningen": [
-    {"code": "490000", "naam": "Over te dragen kosten", "natuur": "debet", "wanneer": "Een kost is al betaald/geboekt in dit jaar maar (een deel) hoort bij volgend jaar. Bv. vooruitbetaalde huur (Oef 4), spoorabonnement (Oef 3), onderhoudscontract bij de koper (Oef 10). Staat op de actiefzijde."},
-    {"code": "491000", "naam": "Verkregen opbrengsten", "natuur": "debet", "wanneer": "Een opbrengst is dit jaar verdiend maar nog niet gefactureerd/ontvangen. Bv. aangegroeide rente op een belegging (Oef 2) of een verkregen rentesubsidie (Oef 7). Staat op de actiefzijde."},
-    {"code": "492000", "naam": "Toe te rekenen kosten", "natuur": "credit", "wanneer": "Een kost hoort bij dit jaar maar is nog niet gefactureerd/betaald. Bv. verschuldigde maar nog niet vervallen interest op een lening (Oef 5, 7, 9). Staat op de passiefzijde."},
-    {"code": "493000", "naam": "Over te dragen opbrengsten", "natuur": "credit", "wanneer": "Een opbrengst is al ontvangen/gefactureerd maar (een deel) hoort bij volgend jaar. Bv. vooruit gefactureerd onderhoudscontract bij de verkoper (Oef 10). Staat op de passiefzijde."},
-    {"code": "610000", "naam": "Diensten en diverse goederen", "natuur": "debet", "wanneer": "Kostenrekening voor huurlasten, onderhoudskosten enz. Wordt bij de eindejaarscorrectie verminderd tegenover 490000 (over te dragen)."},
-    {"code": "623000", "naam": "Andere personeelskosten", "natuur": "debet", "wanneer": "Kostenrekening voor o.a. een spoorabonnement van het personeel; deel van volgend jaar wordt overgedragen via 490000 (Oef 3)."},
-    {"code": "650200", "naam": "Andere kosten van schulden", "natuur": "debet", "wanneer": "Interestkost op leningen en schulden (op de fiche 'Rente verbonden aan schulden', code 6500). Verschuldigde maar nog niet vervallen interest wordt toegerekend via 492000 (Oef 5, 7, 9)."},
-    {"code": "650300", "naam": "Geactiveerde intercalaire interesten (-)", "natuur": "credit", "wanneer": "Interest tijdens de bouw-/constructiefase van een investering wordt geactiveerd in de aanschaffingswaarde (2310...) in plaats van als kost te blijven staan (Oef 9)."},
-    {"code": "700000", "naam": "Verkopen", "natuur": "credit", "wanneer": "Opbrengstrekening voor verkopen en dienstprestaties; een vooruit gefactureerd deel wordt overgedragen via 493000 (Oef 10) of geparkeerd op 404000 (Oef 6)."},
-    {"code": "751000", "naam": "Opbrengsten uit vlottende activa", "natuur": "credit", "wanneer": "Opbrengstrekening voor rente op beleggingen/vorderingen; verdiende maar nog niet ontvangen rente wordt verkregen via 491000 (Oef 2)."},
-    {"code": "753000", "naam": "Kapitaal – en interestsubsidies", "natuur": "credit", "wanneer": "Opbrengstrekening voor een rentesubsidie; loopt parallel met de interestkost en wordt pro rata verkregen via 491000 (Oef 7)."},
-    {"code": "444000", "naam": "Te ontvangen facturen", "natuur": "credit", "wanneer": "Prestatie/levering in dit jaar ontvangen maar factuur nog niet; gebruikt bij de aankoopkant (Oef 6, 8). Geen klasse-49-rekening maar wel een afsluitrekening."},
-    {"code": "404000", "naam": "Te innen opbrengsten", "natuur": "debet", "wanneer": "Prestatie/levering in dit jaar geleverd maar factuur nog op te stellen; gebruikt bij de verkoopkant (Oef 6, 8). Afsluitrekening, geen klasse 49."},
-    {"code": "550000", "naam": "Kredietinstellingen", "natuur": "debet", "wanneer": "De bankrekening (Bank r/c) waarop de vooruitbetaling, ontvangst, opname of aflossing effectief loopt."}
+    {
+      "code": "490000",
+      "naam": "Over te dragen kosten",
+      "natuur": "debet",
+      "wanneer": "Een kost is al betaald/geboekt in dit jaar maar (een deel) hoort bij volgend jaar. Bv. vooruitbetaalde huur (Oef 4), spoorabonnement (Oef 3), onderhoudscontract bij de koper (Oef 10). Staat op de actiefzijde."
+    },
+    {
+      "code": "491000",
+      "naam": "Verkregen opbrengsten",
+      "natuur": "debet",
+      "wanneer": "Een opbrengst is dit jaar verdiend maar nog niet gefactureerd/ontvangen. Bv. aangegroeide rente op een belegging (Oef 2) of een verkregen rentesubsidie (Oef 7). Staat op de actiefzijde."
+    },
+    {
+      "code": "492000",
+      "naam": "Toe te rekenen kosten",
+      "natuur": "credit",
+      "wanneer": "Een kost hoort bij dit jaar maar is nog niet gefactureerd/betaald. Bv. verschuldigde maar nog niet vervallen interest op een lening (Oef 5, 7, 9). Staat op de passiefzijde."
+    },
+    {
+      "code": "493000",
+      "naam": "Over te dragen opbrengsten",
+      "natuur": "credit",
+      "wanneer": "Een opbrengst is al ontvangen/gefactureerd maar (een deel) hoort bij volgend jaar. Bv. vooruit gefactureerd onderhoudscontract bij de verkoper (Oef 10). Staat op de passiefzijde."
+    },
+    {
+      "code": "610000",
+      "naam": "Diensten en diverse goederen",
+      "natuur": "debet",
+      "wanneer": "Kostenrekening voor huurlasten, onderhoudskosten enz. Wordt bij de eindejaarscorrectie verminderd tegenover 490000 (over te dragen)."
+    },
+    {
+      "code": "623000",
+      "naam": "Andere personeelskosten",
+      "natuur": "debet",
+      "wanneer": "Kostenrekening voor o.a. een spoorabonnement van het personeel; deel van volgend jaar wordt overgedragen via 490000 (Oef 3)."
+    },
+    {
+      "code": "650200",
+      "naam": "Andere kosten van schulden",
+      "natuur": "debet",
+      "wanneer": "Interestkost op leningen en schulden (op de fiche 'Rente verbonden aan schulden', code 6500). Verschuldigde maar nog niet vervallen interest wordt toegerekend via 492000 (Oef 5, 7, 9)."
+    },
+    {
+      "code": "650300",
+      "naam": "Geactiveerde intercalaire interesten (-)",
+      "natuur": "credit",
+      "wanneer": "Interest tijdens de bouw-/constructiefase van een investering wordt geactiveerd in de aanschaffingswaarde (2310...) in plaats van als kost te blijven staan (Oef 9)."
+    },
+    {
+      "code": "700000",
+      "naam": "Verkopen",
+      "natuur": "credit",
+      "wanneer": "Opbrengstrekening voor verkopen en dienstprestaties; een vooruit gefactureerd deel wordt overgedragen via 493000 (Oef 10) of geparkeerd op 404000 (Oef 6)."
+    },
+    {
+      "code": "751000",
+      "naam": "Opbrengsten uit vlottende activa",
+      "natuur": "credit",
+      "wanneer": "Opbrengstrekening voor rente op beleggingen/vorderingen; verdiende maar nog niet ontvangen rente wordt verkregen via 491000 (Oef 2)."
+    },
+    {
+      "code": "753000",
+      "naam": "Kapitaal – en interestsubsidies",
+      "natuur": "credit",
+      "wanneer": "Opbrengstrekening voor een rentesubsidie; loopt parallel met de interestkost en wordt pro rata verkregen via 491000 (Oef 7)."
+    },
+    {
+      "code": "444000",
+      "naam": "Te ontvangen facturen",
+      "natuur": "credit",
+      "wanneer": "Prestatie/levering in dit jaar ontvangen maar factuur nog niet; gebruikt bij de aankoopkant (Oef 6, 8). Geen klasse-49-rekening maar wel een afsluitrekening."
+    },
+    {
+      "code": "404000",
+      "naam": "Te innen opbrengsten",
+      "natuur": "debet",
+      "wanneer": "Prestatie/levering in dit jaar geleverd maar factuur nog op te stellen; gebruikt bij de verkoopkant (Oef 6, 8). Afsluitrekening, geen klasse 49."
+    },
+    {
+      "code": "550000",
+      "naam": "Kredietinstellingen",
+      "natuur": "debet",
+      "wanneer": "De bankrekening (Bank r/c) waarop de vooruitbetaling, ontvangst, opname of aflossing effectief loopt."
+    }
   ],
   "boekingsschemas": [
     {
       "titel": "490000 Over te dragen kosten (vooruitbetaalde kost, bv. huur of spoorabonnement)",
       "situatie": "Je betaalde/boekte dit jaar een kost die (gedeeltelijk) bij volgend jaar hoort. Op 31/12 verschuif je het deel van volgend jaar naar de actiefzijde; op 1/1 (heropening) boek je terug.",
       "regels": [
-        {"code": "490000", "naam": "Over te dragen kosten", "kant": "debet", "bedrag": "deel dat bij volgend jaar hoort", "toelichting": "31/12 - actief stijgt: het vooruitbetaalde deel wordt een bezit (over te dragen)."},
-        {"code": "610000", "naam": "Diensten en diverse goederen", "kant": "credit", "bedrag": "zelfde bedrag", "toelichting": "31/12 - de kost van dit jaar wordt verlaagd met het deel dat bij volgend jaar hoort (bv. 623000 bij een abonnement)."}
+        {
+          "code": "490000",
+          "naam": "Over te dragen kosten",
+          "kant": "debet",
+          "bedrag": "deel dat bij volgend jaar hoort",
+          "toelichting": "31/12 - actief stijgt: het vooruitbetaalde deel wordt een bezit (over te dragen)."
+        },
+        {
+          "code": "610000",
+          "naam": "Diensten en diverse goederen",
+          "kant": "credit",
+          "bedrag": "zelfde bedrag",
+          "toelichting": "31/12 - de kost van dit jaar wordt verlaagd met het deel dat bij volgend jaar hoort (bv. 623000 bij een abonnement)."
+        }
       ]
     },
     {
       "titel": "493000 Over te dragen opbrengsten (vooruit gefactureerde opbrengst, bv. onderhoudscontract)",
       "situatie": "Je factureerde dit jaar een opbrengst die (gedeeltelijk) bij volgend jaar hoort. Op 31/12 verschuif je het deel van volgend jaar naar de passiefzijde; op 1/1 boek je terug.",
       "regels": [
-        {"code": "700000", "naam": "Verkopen", "kant": "debet", "bedrag": "deel dat bij volgend jaar hoort", "toelichting": "31/12 - de opbrengst van dit jaar wordt verlaagd met het deel dat bij volgend jaar hoort."},
-        {"code": "493000", "naam": "Over te dragen opbrengsten", "kant": "credit", "bedrag": "zelfde bedrag", "toelichting": "31/12 - passief stijgt: het vooruit gefactureerde deel is een schuld (over te dragen opbrengst)."}
+        {
+          "code": "700000",
+          "naam": "Verkopen",
+          "kant": "debet",
+          "bedrag": "deel dat bij volgend jaar hoort",
+          "toelichting": "31/12 - de opbrengst van dit jaar wordt verlaagd met het deel dat bij volgend jaar hoort."
+        },
+        {
+          "code": "493000",
+          "naam": "Over te dragen opbrengsten",
+          "kant": "credit",
+          "bedrag": "zelfde bedrag",
+          "toelichting": "31/12 - passief stijgt: het vooruit gefactureerde deel is een schuld (over te dragen opbrengst)."
+        }
       ]
     },
     {
       "titel": "492000 Toe te rekenen kosten (verschuldigde, nog niet vervallen interest)",
       "situatie": "Interest hoort bij dit jaar maar wordt pas volgend jaar afgerekend. Op 31/12 boek je de kost en een schuld; op 1/1 boek je terug.",
       "regels": [
-        {"code": "650200", "naam": "Andere kosten van schulden", "kant": "debet", "bedrag": "pro rata van dit jaar", "toelichting": "31/12 - de interestkost (op de fiche 'Rente verbonden aan schulden') van dit jaar wordt erkend, ook al is hij nog niet vervallen."},
-        {"code": "492000", "naam": "Toe te rekenen kosten", "kant": "credit", "bedrag": "zelfde bedrag", "toelichting": "31/12 - passief stijgt: de nog te betalen interest is een schuld."}
+        {
+          "code": "650200",
+          "naam": "Andere kosten van schulden",
+          "kant": "debet",
+          "bedrag": "pro rata van dit jaar",
+          "toelichting": "31/12 - de interestkost (op de fiche 'Rente verbonden aan schulden') van dit jaar wordt erkend, ook al is hij nog niet vervallen."
+        },
+        {
+          "code": "492000",
+          "naam": "Toe te rekenen kosten",
+          "kant": "credit",
+          "bedrag": "zelfde bedrag",
+          "toelichting": "31/12 - passief stijgt: de nog te betalen interest is een schuld."
+        }
       ]
     },
     {
       "titel": "491000 Verkregen opbrengsten (verdiende, nog niet ontvangen rente of subsidie)",
       "situatie": "Een opbrengst (rente, rentesubsidie) is dit jaar verdiend maar wordt pas volgend jaar ontvangen. Op 31/12 boek je de opbrengst en een vordering; op 1/1 boek je terug.",
       "regels": [
-        {"code": "491000", "naam": "Verkregen opbrengsten", "kant": "debet", "bedrag": "pro rata van dit jaar", "toelichting": "31/12 - actief stijgt: de nog te ontvangen rente/subsidie is een vordering."},
-        {"code": "751000", "naam": "Opbrengsten uit vlottende activa", "kant": "credit", "bedrag": "zelfde bedrag", "toelichting": "31/12 - de opbrengst van dit jaar wordt erkend (bij subsidies 753000), ook al is ze nog niet ontvangen."}
+        {
+          "code": "491000",
+          "naam": "Verkregen opbrengsten",
+          "kant": "debet",
+          "bedrag": "pro rata van dit jaar",
+          "toelichting": "31/12 - actief stijgt: de nog te ontvangen rente/subsidie is een vordering."
+        },
+        {
+          "code": "751000",
+          "naam": "Opbrengsten uit vlottende activa",
+          "kant": "credit",
+          "bedrag": "zelfde bedrag",
+          "toelichting": "31/12 - de opbrengst van dit jaar wordt erkend (bij subsidies 753000), ook al is ze nog niet ontvangen."
+        }
       ]
     },
     {
       "titel": "Heropening (tegenboeking) bij begin volgend boekjaar (1/1)",
       "situatie": "Algemeen schema: bij begin van het nieuwe boekjaar boek je de eindejaarsboeking exact omgekeerd, zodat het bedrag in het nieuwe jaar in de kost/opbrengst valt en de overlopende rekening weer op nul staat. Voorbeeld voor 490000.",
       "regels": [
-        {"code": "610000", "naam": "Diensten en diverse goederen", "kant": "debet", "bedrag": "overgedragen deel", "toelichting": "1/1 - de kost valt nu in het nieuwe boekjaar."},
-        {"code": "490000", "naam": "Over te dragen kosten", "kant": "credit", "bedrag": "zelfde bedrag", "toelichting": "1/1 - de overlopende rekening wordt afgesloten (terug op nul)."}
+        {
+          "code": "610000",
+          "naam": "Diensten en diverse goederen",
+          "kant": "debet",
+          "bedrag": "overgedragen deel",
+          "toelichting": "1/1 - de kost valt nu in het nieuwe boekjaar."
+        },
+        {
+          "code": "490000",
+          "naam": "Over te dragen kosten",
+          "kant": "credit",
+          "bedrag": "zelfde bedrag",
+          "toelichting": "1/1 - de overlopende rekening wordt afgesloten (terug op nul)."
+        }
       ]
     }
   ],
@@ -86,23 +215,65 @@
         {
           "omschrijving": "(1) Afsluiting 31/12 - verkregen rente",
           "regels": [
-            {"code": "491000", "naam": "Verkregen opbrengsten", "debet": 3750.00, "credit": null, "reden": "Actief stijgt: de 9 maanden verdiende maar nog niet ontvangen rente is een vordering (5 000 x 9/12)."},
-            {"code": "751000", "naam": "Opbrengsten uit vlottende activa", "debet": null, "credit": 3750.00, "reden": "De rente-opbrengst van dit jaar wordt erkend (fiche: 751 Opbrengsten uit vlottende activa)."}
+            {
+              "code": "491000",
+              "naam": "Verkregen opbrengsten",
+              "debet": 3750.0,
+              "credit": null,
+              "reden": "Actief stijgt: de 9 maanden verdiende maar nog niet ontvangen rente is een vordering (5 000 x 9/12)."
+            },
+            {
+              "code": "751000",
+              "naam": "Opbrengsten uit vlottende activa",
+              "debet": null,
+              "credit": 3750.0,
+              "reden": "De rente-opbrengst van dit jaar wordt erkend (fiche: 751 Opbrengsten uit vlottende activa)."
+            }
           ]
         },
         {
           "omschrijving": "(2) Heropening boekhouding 01/01",
           "regels": [
-            {"code": "751000", "naam": "Opbrengsten uit vlottende activa", "debet": 3750.00, "credit": null, "reden": "Tegenboeking: de opbrengst wordt teruggeboekt zodat de coupon later integraal in het nieuwe jaar kan worden geboekt."},
-            {"code": "491000", "naam": "Verkregen opbrengsten", "debet": null, "credit": 3750.00, "reden": "De overlopende rekening (vordering) wordt afgesloten en staat weer op nul."}
+            {
+              "code": "751000",
+              "naam": "Opbrengsten uit vlottende activa",
+              "debet": 3750.0,
+              "credit": null,
+              "reden": "Tegenboeking: de opbrengst wordt teruggeboekt zodat de coupon later integraal in het nieuwe jaar kan worden geboekt."
+            },
+            {
+              "code": "491000",
+              "naam": "Verkregen opbrengsten",
+              "debet": null,
+              "credit": 3750.0,
+              "reden": "De overlopende rekening (vordering) wordt afgesloten en staat weer op nul."
+            }
           ]
         },
         {
           "omschrijving": "(3) Ontvangst coupons 01/04 (roerende voorheffing 30 %)",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 3500.00, "credit": null, "reden": "Bank r/c: netto ontvangst van 70 % van de coupon (5 000 - 1 500)."},
-            {"code": "670000", "naam": "Belastingen", "debet": 1500.00, "credit": null, "reden": "Verschuldigde/ingehouden roerende voorheffing 30 % (fiche: 6700 Verschuldigde voorheffingen); 5 000 x 30 % = 1 500."},
-            {"code": "751000", "naam": "Opbrengsten uit vlottende activa", "debet": null, "credit": 5000.00, "reden": "De volledige bruto coupon van 5 000,00 wordt als opbrengst geboekt."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 3500.0,
+              "credit": null,
+              "reden": "Bank r/c: netto ontvangst van 70 % van de coupon (5 000 - 1 500)."
+            },
+            {
+              "code": "670000",
+              "naam": "Belastingen",
+              "debet": 1500.0,
+              "credit": null,
+              "reden": "Verschuldigde/ingehouden roerende voorheffing 30 % (fiche: 6700 Verschuldigde voorheffingen); 5 000 x 30 % = 1 500."
+            },
+            {
+              "code": "751000",
+              "naam": "Opbrengsten uit vlottende activa",
+              "debet": null,
+              "credit": 5000.0,
+              "reden": "De volledige bruto coupon van 5 000,00 wordt als opbrengst geboekt."
+            }
           ]
         }
       ],
@@ -125,22 +296,58 @@
         {
           "omschrijving": "(1) Aankoop spoorabonnement 01/06/20x0",
           "regels": [
-            {"code": "623000", "naam": "Andere personeelskosten", "debet": 1050.00, "credit": null, "reden": "De volledige prijs van het abonnement wordt eerst als personeelskost geboekt."},
-            {"code": "570000", "naam": "Kas – contanten (570-576)", "debet": null, "credit": 1050.00, "reden": "Contante betaling in specien (fiche: K/45 = kas); actief daalt."}
+            {
+              "code": "623000",
+              "naam": "Andere personeelskosten",
+              "debet": 1050.0,
+              "credit": null,
+              "reden": "De volledige prijs van het abonnement wordt eerst als personeelskost geboekt."
+            },
+            {
+              "code": "570000",
+              "naam": "Kas – contanten (570-576)",
+              "debet": null,
+              "credit": 1050.0,
+              "reden": "Contante betaling in specien (fiche: K/45 = kas); actief daalt."
+            }
           ]
         },
         {
           "omschrijving": "(2) Eindejaarscorrectie 31/12/20x0",
           "regels": [
-            {"code": "490000", "naam": "Over te dragen kosten", "debet": 437.50, "credit": null, "reden": "Actief stijgt: het deel dat bij 20x1 hoort (5 maanden) wordt een bezit. 1 050 x 5/12 = 437,50."},
-            {"code": "623000", "naam": "Andere personeelskosten", "debet": null, "credit": 437.50, "reden": "De kost van 20x0 wordt verminderd met het deel van 20x1; er blijft 612,50 (7 maanden) kost in 20x0."}
+            {
+              "code": "490000",
+              "naam": "Over te dragen kosten",
+              "debet": 437.5,
+              "credit": null,
+              "reden": "Actief stijgt: het deel dat bij 20x1 hoort (5 maanden) wordt een bezit. 1 050 x 5/12 = 437,50."
+            },
+            {
+              "code": "623000",
+              "naam": "Andere personeelskosten",
+              "debet": null,
+              "credit": 437.5,
+              "reden": "De kost van 20x0 wordt verminderd met het deel van 20x1; er blijft 612,50 (7 maanden) kost in 20x0."
+            }
           ]
         },
         {
           "omschrijving": "(3) Heropening 01/01/20x1",
           "regels": [
-            {"code": "623000", "naam": "Andere personeelskosten", "debet": 437.50, "credit": null, "reden": "De 437,50 valt nu als kost in 20x1."},
-            {"code": "490000", "naam": "Over te dragen kosten", "debet": null, "credit": 437.50, "reden": "De overlopende rekening wordt afgesloten (terug op nul)."}
+            {
+              "code": "623000",
+              "naam": "Andere personeelskosten",
+              "debet": 437.5,
+              "credit": null,
+              "reden": "De 437,50 valt nu als kost in 20x1."
+            },
+            {
+              "code": "490000",
+              "naam": "Over te dragen kosten",
+              "debet": null,
+              "credit": 437.5,
+              "reden": "De overlopende rekening wordt afgesloten (terug op nul)."
+            }
           ]
         }
       ],
@@ -163,23 +370,65 @@
         {
           "omschrijving": "Betaling huur + waarborg 01/12/20x0",
           "regels": [
-            {"code": "610000", "naam": "Diensten en diverse goederen", "debet": 3000.00, "credit": null, "reden": "Huurlasten (fiche: 61...) - de volledige huur van 3 maanden wordt eerst als kost geboekt."},
-            {"code": "288000", "naam": "Borgtochten betaald in contanten", "debet": 2000.00, "credit": null, "reden": "Waarborg is een vordering (actief), geen kost; wordt niet overgedragen."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 5000.00, "reden": "Bankoverschrijving van 3 000 + 2 000 = 5 000; actief daalt."}
+            {
+              "code": "610000",
+              "naam": "Diensten en diverse goederen",
+              "debet": 3000.0,
+              "credit": null,
+              "reden": "Huurlasten (fiche: 61...) - de volledige huur van 3 maanden wordt eerst als kost geboekt."
+            },
+            {
+              "code": "288000",
+              "naam": "Borgtochten betaald in contanten",
+              "debet": 2000.0,
+              "credit": null,
+              "reden": "Waarborg is een vordering (actief), geen kost; wordt niet overgedragen."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 5000.0,
+              "reden": "Bankoverschrijving van 3 000 + 2 000 = 5 000; actief daalt."
+            }
           ]
         },
         {
           "omschrijving": "Eindejaarscorrectie 31/12/20x0",
           "regels": [
-            {"code": "490000", "naam": "Over te dragen kosten", "debet": 2000.00, "credit": null, "reden": "Actief stijgt: huur van januari en februari 20x1 (2 maanden). 3 000 x 2/3 = 2 000."},
-            {"code": "610000", "naam": "Diensten en diverse goederen", "debet": null, "credit": 2000.00, "reden": "De huurkost van 20x0 wordt verminderd; er blijft 1 000 (december) in 20x0."}
+            {
+              "code": "490000",
+              "naam": "Over te dragen kosten",
+              "debet": 2000.0,
+              "credit": null,
+              "reden": "Actief stijgt: huur van januari en februari 20x1 (2 maanden). 3 000 x 2/3 = 2 000."
+            },
+            {
+              "code": "610000",
+              "naam": "Diensten en diverse goederen",
+              "debet": null,
+              "credit": 2000.0,
+              "reden": "De huurkost van 20x0 wordt verminderd; er blijft 1 000 (december) in 20x0."
+            }
           ]
         },
         {
           "omschrijving": "Heropening 01/01/20x1",
           "regels": [
-            {"code": "610000", "naam": "Diensten en diverse goederen", "debet": 2000.00, "credit": null, "reden": "De 2 000 valt nu als huurkost in 20x1."},
-            {"code": "490000", "naam": "Over te dragen kosten", "debet": null, "credit": 2000.00, "reden": "De overlopende rekening wordt afgesloten (terug op nul)."}
+            {
+              "code": "610000",
+              "naam": "Diensten en diverse goederen",
+              "debet": 2000.0,
+              "credit": null,
+              "reden": "De 2 000 valt nu als huurkost in 20x1."
+            },
+            {
+              "code": "490000",
+              "naam": "Over te dragen kosten",
+              "debet": null,
+              "credit": 2000.0,
+              "reden": "De overlopende rekening wordt afgesloten (terug op nul)."
+            }
           ]
         }
       ],
@@ -202,22 +451,58 @@
         {
           "omschrijving": "(a) Afsluiting 31/12/20x0 - toe te rekenen interest",
           "regels": [
-            {"code": "650200", "naam": "Andere kosten van schulden", "debet": 8333.33, "credit": null, "reden": "Interestkost van 2 maanden (fiche: 6500 Rente verbonden aan schulden); 25 000 x 2/6 = 8 333,33."},
-            {"code": "492000", "naam": "Toe te rekenen kosten", "debet": null, "credit": 8333.33, "reden": "Passief stijgt: de verschuldigde maar nog niet vervallen interest is een schuld."}
+            {
+              "code": "650200",
+              "naam": "Andere kosten van schulden",
+              "debet": 8333.33,
+              "credit": null,
+              "reden": "Interestkost van 2 maanden (fiche: 6500 Rente verbonden aan schulden); 25 000 x 2/6 = 8 333,33."
+            },
+            {
+              "code": "492000",
+              "naam": "Toe te rekenen kosten",
+              "debet": null,
+              "credit": 8333.33,
+              "reden": "Passief stijgt: de verschuldigde maar nog niet vervallen interest is een schuld."
+            }
           ]
         },
         {
           "omschrijving": "(b) Heropening volgend jaar",
           "regels": [
-            {"code": "492000", "naam": "Toe te rekenen kosten", "debet": 8333.33, "credit": null, "reden": "Tegenboeking: de overlopende rekening wordt afgesloten."},
-            {"code": "650200", "naam": "Andere kosten van schulden", "debet": null, "credit": 8333.33, "reden": "De kost wordt teruggeboekt zodat bij de betaling op 01/05 alles integraal kan worden geboekt."}
+            {
+              "code": "492000",
+              "naam": "Toe te rekenen kosten",
+              "debet": 8333.33,
+              "credit": null,
+              "reden": "Tegenboeking: de overlopende rekening wordt afgesloten."
+            },
+            {
+              "code": "650200",
+              "naam": "Andere kosten van schulden",
+              "debet": null,
+              "credit": 8333.33,
+              "reden": "De kost wordt teruggeboekt zodat bij de betaling op 01/05 alles integraal kan worden geboekt."
+            }
           ]
         },
         {
           "omschrijving": "(c) Betaling eerste semestriele rente 01/05/20x1",
           "regels": [
-            {"code": "650200", "naam": "Andere kosten van schulden", "debet": 25000.00, "credit": null, "reden": "Volledige semestriele interest (1 000 000 x 5 % x 6/12 = 25 000) wordt geboekt."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 25000.00, "reden": "Bank r/c: betaling van de semestriele rente; actief daalt."}
+            {
+              "code": "650200",
+              "naam": "Andere kosten van schulden",
+              "debet": 25000.0,
+              "credit": null,
+              "reden": "Volledige semestriele interest (1 000 000 x 5 % x 6/12 = 25 000) wordt geboekt."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 25000.0,
+              "reden": "Bank r/c: betaling van de semestriele rente; actief daalt."
+            }
           ]
         }
       ],
@@ -240,59 +525,167 @@
         {
           "omschrijving": "Organisator (1) Betaling waarborg via bankcheque",
           "regels": [
-            {"code": "288000", "naam": "Borgtochten betaald in contanten", "debet": 4000.00, "credit": null, "reden": "Langlopende waarborg is een vordering (actief)."},
-            {"code": "550001", "naam": "Uitgeschreven cheques (-)", "debet": null, "credit": 4000.00, "reden": "Betaling via bankcheque (fiche: 5501 Bank-uitgeschreven cheques)."}
+            {
+              "code": "288000",
+              "naam": "Borgtochten betaald in contanten",
+              "debet": 4000.0,
+              "credit": null,
+              "reden": "Langlopende waarborg is een vordering (actief)."
+            },
+            {
+              "code": "550001",
+              "naam": "Uitgeschreven cheques (-)",
+              "debet": null,
+              "credit": 4000.0,
+              "reden": "Betaling via bankcheque (fiche: 5501 Bank-uitgeschreven cheques)."
+            }
           ]
         },
         {
           "omschrijving": "Organisator (2) 31/12/20x2 - te ontvangen factuur",
           "regels": [
-            {"code": "610000", "naam": "Diensten en diverse goederen", "debet": 960.00, "credit": null, "reden": "Huurlasten van 16 uur december (16 x 60 = 960); prestatie hoort bij 20x2."},
-            {"code": "444000", "naam": "Te ontvangen facturen", "debet": null, "credit": 960.00, "reden": "Factuur nog niet ontvangen; schuld op 'te ontvangen facturen' (passief)."}
+            {
+              "code": "610000",
+              "naam": "Diensten en diverse goederen",
+              "debet": 960.0,
+              "credit": null,
+              "reden": "Huurlasten van 16 uur december (16 x 60 = 960); prestatie hoort bij 20x2."
+            },
+            {
+              "code": "444000",
+              "naam": "Te ontvangen facturen",
+              "debet": null,
+              "credit": 960.0,
+              "reden": "Factuur nog niet ontvangen; schuld op 'te ontvangen facturen' (passief)."
+            }
           ]
         },
         {
           "omschrijving": "Organisator (3a) 14/01 - ontvangst aankoopfactuur",
           "regels": [
-            {"code": "610000", "naam": "Diensten en diverse goederen", "debet": 960.00, "credit": null, "reden": "Huurlast op de definitieve factuur."},
-            {"code": "411000", "naam": "Terug te vorderen B.T.W", "debet": 201.60, "credit": null, "reden": "Aftrekbare btw 21 % (fiche: 4160 Btw op aankopen); 960 x 21 % = 201,60."},
-            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 1161.60, "reden": "Schuld aan de verhuurder: 960 + 201,60 = 1 161,60."}
+            {
+              "code": "610000",
+              "naam": "Diensten en diverse goederen",
+              "debet": 960.0,
+              "credit": null,
+              "reden": "Huurlast op de definitieve factuur."
+            },
+            {
+              "code": "411000",
+              "naam": "Terug te vorderen B.T.W",
+              "debet": 201.6,
+              "credit": null,
+              "reden": "Aftrekbare btw 21 % (fiche: 4160 Btw op aankopen); 960 x 21 % = 201,60."
+            },
+            {
+              "code": "440000",
+              "naam": "Leveranciers",
+              "debet": null,
+              "credit": 1161.6,
+              "reden": "Schuld aan de verhuurder: 960 + 201,60 = 1 161,60."
+            }
           ]
         },
         {
           "omschrijving": "Organisator (3b) 14/01 - terugboeken te ontvangen factuur",
           "regels": [
-            {"code": "444000", "naam": "Te ontvangen facturen", "debet": 960.00, "credit": null, "reden": "De afsluitboeking van 31/12 wordt teruggeboekt."},
-            {"code": "610000", "naam": "Diensten en diverse goederen", "debet": null, "credit": 960.00, "reden": "Tegenboeking van de op 31/12 geraamde huurlast (die nu via de factuur geboekt is)."}
+            {
+              "code": "444000",
+              "naam": "Te ontvangen facturen",
+              "debet": 960.0,
+              "credit": null,
+              "reden": "De afsluitboeking van 31/12 wordt teruggeboekt."
+            },
+            {
+              "code": "610000",
+              "naam": "Diensten en diverse goederen",
+              "debet": null,
+              "credit": 960.0,
+              "reden": "Tegenboeking van de op 31/12 geraamde huurlast (die nu via de factuur geboekt is)."
+            }
           ]
         },
         {
           "omschrijving": "Verhuurder (1) Ontvangst waarborg via cheque",
           "regels": [
-            {"code": "540000", "naam": "Te incasseren vervallen waarden", "debet": 4000.00, "credit": null, "reden": "Te incasseren cheque (fiche: 540 Te incasseren cheques)."},
-            {"code": "178000", "naam": "Borgtochten ontvangen in contanten", "debet": null, "credit": 4000.00, "reden": "Ontvangen waarborg is een schuld (passief)."}
+            {
+              "code": "540000",
+              "naam": "Te incasseren vervallen waarden",
+              "debet": 4000.0,
+              "credit": null,
+              "reden": "Te incasseren cheque (fiche: 540 Te incasseren cheques)."
+            },
+            {
+              "code": "178000",
+              "naam": "Borgtochten ontvangen in contanten",
+              "debet": null,
+              "credit": 4000.0,
+              "reden": "Ontvangen waarborg is een schuld (passief)."
+            }
           ]
         },
         {
           "omschrijving": "Verhuurder (2) 31/12/20x2 - te innen opbrengsten",
           "regels": [
-            {"code": "404000", "naam": "Te innen opbrengsten", "debet": 960.00, "credit": null, "reden": "Prestatie geleverd maar nog niet gefactureerd; vordering (actief)."},
-            {"code": "700000", "naam": "Verkopen", "debet": null, "credit": 960.00, "reden": "Opbrengst dienstprestaties van december (16 x 60 = 960) hoort bij 20x2."}
+            {
+              "code": "404000",
+              "naam": "Te innen opbrengsten",
+              "debet": 960.0,
+              "credit": null,
+              "reden": "Prestatie geleverd maar nog niet gefactureerd; vordering (actief)."
+            },
+            {
+              "code": "700000",
+              "naam": "Verkopen",
+              "debet": null,
+              "credit": 960.0,
+              "reden": "Opbrengst dienstprestaties van december (16 x 60 = 960) hoort bij 20x2."
+            }
           ]
         },
         {
           "omschrijving": "Verhuurder (3a) Facturatie - verkoopfactuur",
           "regels": [
-            {"code": "400000", "naam": "Klanten", "debet": 1161.60, "credit": null, "reden": "Vordering op de klant (fiche: 400 Handelsdebiteuren); 960 + 201,60 = 1 161,60."},
-            {"code": "700000", "naam": "Verkopen", "debet": null, "credit": 960.00, "reden": "Opbrengst dienstprestaties."},
-            {"code": "451000", "naam": "Te betalen B.T.W", "debet": null, "credit": 201.60, "reden": "Verschuldigde btw 21 % (fiche: 4510 Btw op verkopen); 960 x 21 % = 201,60."}
+            {
+              "code": "400000",
+              "naam": "Klanten",
+              "debet": 1161.6,
+              "credit": null,
+              "reden": "Vordering op de klant (fiche: 400 Handelsdebiteuren); 960 + 201,60 = 1 161,60."
+            },
+            {
+              "code": "700000",
+              "naam": "Verkopen",
+              "debet": null,
+              "credit": 960.0,
+              "reden": "Opbrengst dienstprestaties."
+            },
+            {
+              "code": "451000",
+              "naam": "Te betalen B.T.W",
+              "debet": null,
+              "credit": 201.6,
+              "reden": "Verschuldigde btw 21 % (fiche: 4510 Btw op verkopen); 960 x 21 % = 201,60."
+            }
           ]
         },
         {
           "omschrijving": "Verhuurder (3b) Terugboeken te innen opbrengsten",
           "regels": [
-            {"code": "700000", "naam": "Verkopen", "debet": 960.00, "credit": null, "reden": "Tegenboeking van de op 31/12 geraamde opbrengst (nu via de factuur geboekt)."},
-            {"code": "404000", "naam": "Te innen opbrengsten", "debet": null, "credit": 960.00, "reden": "De afsluitboeking van 31/12 wordt teruggeboekt."}
+            {
+              "code": "700000",
+              "naam": "Verkopen",
+              "debet": 960.0,
+              "credit": null,
+              "reden": "Tegenboeking van de op 31/12 geraamde opbrengst (nu via de factuur geboekt)."
+            },
+            {
+              "code": "404000",
+              "naam": "Te innen opbrengsten",
+              "debet": null,
+              "credit": 960.0,
+              "reden": "De afsluitboeking van 31/12 wordt teruggeboekt."
+            }
           ]
         }
       ],
@@ -316,129 +709,357 @@
         {
           "omschrijving": "20x0 - 01/08 opname lening",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 3000000.00, "credit": null, "reden": "Bank r/c: ontvangst van de lening."},
-            {"code": "173000", "naam": "Kredietinstellingen", "debet": null, "credit": 3000000.00, "reden": "Schuld op meer dan 1 jaar (fiche: 1730 Schulden op rekening)."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 3000000.0,
+              "credit": null,
+              "reden": "Bank r/c: ontvangst van de lening."
+            },
+            {
+              "code": "173000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 3000000.0,
+              "reden": "Schuld op meer dan 1 jaar (fiche: 1730 Schulden op rekening)."
+            }
           ]
         },
         {
           "omschrijving": "20x0 - 31/12 herklassering vervallend deel",
           "regels": [
-            {"code": "173000", "naam": "Kredietinstellingen", "debet": 1000000.00, "credit": null, "reden": "Het deel dat binnen het jaar vervalt (1 mln) wordt overgeboekt."},
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": null, "credit": 1000000.00, "reden": "Fiche: 4230 Schulden op meer dan 1j die binnen het jaar vervallen."}
+            {
+              "code": "173000",
+              "naam": "Kredietinstellingen",
+              "debet": 1000000.0,
+              "credit": null,
+              "reden": "Het deel dat binnen het jaar vervalt (1 mln) wordt overgeboekt."
+            },
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": null,
+              "credit": 1000000.0,
+              "reden": "Fiche: 4230 Schulden op meer dan 1j die binnen het jaar vervallen."
+            }
           ]
         },
         {
           "omschrijving": "20x0 - 31/12 toe te rekenen interest",
           "regels": [
-            {"code": "650200", "naam": "Andere kosten van schulden", "debet": 100000.00, "credit": null, "reden": "Interest aug-dec (fiche: 6500 Rente verbonden aan schulden); 240 000 x 5/12 = 100 000."},
-            {"code": "492000", "naam": "Toe te rekenen kosten", "debet": null, "credit": 100000.00, "reden": "Passief: verschuldigde maar nog niet vervallen interest."}
+            {
+              "code": "650200",
+              "naam": "Andere kosten van schulden",
+              "debet": 100000.0,
+              "credit": null,
+              "reden": "Interest aug-dec (fiche: 6500 Rente verbonden aan schulden); 240 000 x 5/12 = 100 000."
+            },
+            {
+              "code": "492000",
+              "naam": "Toe te rekenen kosten",
+              "debet": null,
+              "credit": 100000.0,
+              "reden": "Passief: verschuldigde maar nog niet vervallen interest."
+            }
           ]
         },
         {
           "omschrijving": "20x0 - 31/12 verkregen rentesubsidie",
           "regels": [
-            {"code": "491000", "naam": "Verkregen opbrengsten", "debet": 30000.00, "credit": null, "reden": "Actief: nog te ontvangen subsidie; 72 000 x 5/12 = 30 000."},
-            {"code": "753000", "naam": "Kapitaal – en interestsubsidies", "debet": null, "credit": 30000.00, "reden": "Opbrengst rentesubsidie (fiche: 753 Rentesubsidies); loopt parallel met de interest."}
+            {
+              "code": "491000",
+              "naam": "Verkregen opbrengsten",
+              "debet": 30000.0,
+              "credit": null,
+              "reden": "Actief: nog te ontvangen subsidie; 72 000 x 5/12 = 30 000."
+            },
+            {
+              "code": "753000",
+              "naam": "Kapitaal – en interestsubsidies",
+              "debet": null,
+              "credit": 30000.0,
+              "reden": "Opbrengst rentesubsidie (fiche: 753 Rentesubsidies); loopt parallel met de interest."
+            }
           ]
         },
         {
           "omschrijving": "20x1 - 01/01 heropening interest",
           "regels": [
-            {"code": "492000", "naam": "Toe te rekenen kosten", "debet": 100000.00, "credit": null, "reden": "Tegenboeking van de toegerekende interest."},
-            {"code": "650200", "naam": "Andere kosten van schulden", "debet": null, "credit": 100000.00, "reden": "Fiche: 6500 Rente verbonden aan schulden."}
+            {
+              "code": "492000",
+              "naam": "Toe te rekenen kosten",
+              "debet": 100000.0,
+              "credit": null,
+              "reden": "Tegenboeking van de toegerekende interest."
+            },
+            {
+              "code": "650200",
+              "naam": "Andere kosten van schulden",
+              "debet": null,
+              "credit": 100000.0,
+              "reden": "Fiche: 6500 Rente verbonden aan schulden."
+            }
           ]
         },
         {
           "omschrijving": "20x1 - 01/01 heropening rentesubsidie",
           "regels": [
-            {"code": "753000", "naam": "Kapitaal – en interestsubsidies", "debet": 30000.00, "credit": null, "reden": "Tegenboeking subsidie: de heropening keert de eindejaarsboeking van 31/12/20x0 exact om, dus opnieuw 30 000 (72 000 x 5/12)."},
-            {"code": "491000", "naam": "Verkregen opbrengsten", "debet": null, "credit": 30000.00, "reden": "De overlopende rekening (verkregen subsidie) wordt afgesloten en staat weer op nul; de subsidie valt zo in 20x1."}
+            {
+              "code": "753000",
+              "naam": "Kapitaal – en interestsubsidies",
+              "debet": 30000.0,
+              "credit": null,
+              "reden": "Tegenboeking subsidie: de heropening keert de eindejaarsboeking van 31/12/20x0 exact om, dus opnieuw 30 000 (72 000 x 5/12)."
+            },
+            {
+              "code": "491000",
+              "naam": "Verkregen opbrengsten",
+              "debet": null,
+              "credit": 30000.0,
+              "reden": "De overlopende rekening (verkregen subsidie) wordt afgesloten en staat weer op nul; de subsidie valt zo in 20x1."
+            }
           ]
         },
         {
           "omschrijving": "20x1 - 01/08 aflossing + betaling interest",
           "regels": [
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": 1000000.00, "credit": null, "reden": "Aflossing van het binnen het jaar vervallen deel (fiche: 4230)."},
-            {"code": "650200", "naam": "Andere kosten van schulden", "debet": 240000.00, "credit": null, "reden": "Volledige jaarinterest op 3 mln (fiche: 6500); 3 000 000 x 8 % = 240 000."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 1240000.00, "reden": "Bank r/c: 1 000 000 aflossing + 240 000 interest."}
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": 1000000.0,
+              "credit": null,
+              "reden": "Aflossing van het binnen het jaar vervallen deel (fiche: 4230)."
+            },
+            {
+              "code": "650200",
+              "naam": "Andere kosten van schulden",
+              "debet": 240000.0,
+              "credit": null,
+              "reden": "Volledige jaarinterest op 3 mln (fiche: 6500); 3 000 000 x 8 % = 240 000."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 1240000.0,
+              "reden": "Bank r/c: 1 000 000 aflossing + 240 000 interest."
+            }
           ]
         },
         {
           "omschrijving": "20x1 - 01/09 ontvangst rentesubsidie (vordering)",
           "regels": [
-            {"code": "416000", "naam": "Diverse vorderingen", "debet": 72000.00, "credit": null, "reden": "Vordering op de overheid (fiche: 416 Diverse vorderingen); jaarsubsidie 72 000."},
-            {"code": "753000", "naam": "Kapitaal – en interestsubsidies", "debet": null, "credit": 72000.00, "reden": "Volledige jaarsubsidie als opbrengst (fiche: 753 Rentesubsidies)."}
+            {
+              "code": "416000",
+              "naam": "Diverse vorderingen",
+              "debet": 72000.0,
+              "credit": null,
+              "reden": "Vordering op de overheid (fiche: 416 Diverse vorderingen); jaarsubsidie 72 000."
+            },
+            {
+              "code": "753000",
+              "naam": "Kapitaal – en interestsubsidies",
+              "debet": null,
+              "credit": 72000.0,
+              "reden": "Volledige jaarsubsidie als opbrengst (fiche: 753 Rentesubsidies)."
+            }
           ]
         },
         {
           "omschrijving": "20x1 - inning rentesubsidie",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 72000.00, "credit": null, "reden": "Bank r/c: ontvangst van de subsidie."},
-            {"code": "416000", "naam": "Diverse vorderingen", "debet": null, "credit": 72000.00, "reden": "De vordering wordt aangezuiverd."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 72000.0,
+              "credit": null,
+              "reden": "Bank r/c: ontvangst van de subsidie."
+            },
+            {
+              "code": "416000",
+              "naam": "Diverse vorderingen",
+              "debet": null,
+              "credit": 72000.0,
+              "reden": "De vordering wordt aangezuiverd."
+            }
           ]
         },
         {
           "omschrijving": "20x1 - 31/12 herklassering vervallend deel",
           "regels": [
-            {"code": "173000", "naam": "Kredietinstellingen", "debet": 1000000.00, "credit": null, "reden": "Fiche: 1730 Schulden op rekening."},
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": null, "credit": 1000000.00, "reden": "Fiche: 4230, binnen het jaar vervallend deel."}
+            {
+              "code": "173000",
+              "naam": "Kredietinstellingen",
+              "debet": 1000000.0,
+              "credit": null,
+              "reden": "Fiche: 1730 Schulden op rekening."
+            },
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": null,
+              "credit": 1000000.0,
+              "reden": "Fiche: 4230, binnen het jaar vervallend deel."
+            }
           ]
         },
         {
           "omschrijving": "20x1 - 31/12 toe te rekenen interest",
           "regels": [
-            {"code": "650200", "naam": "Andere kosten van schulden", "debet": 66666.67, "credit": null, "reden": "Openstaand 2 mln; 160 000 x 5/12 = 66 666,67 (fiche: 6500)."},
-            {"code": "492000", "naam": "Toe te rekenen kosten", "debet": null, "credit": 66666.67, "reden": "Passief: verschuldigde maar nog niet vervallen interest."}
+            {
+              "code": "650200",
+              "naam": "Andere kosten van schulden",
+              "debet": 66666.67,
+              "credit": null,
+              "reden": "Openstaand 2 mln; 160 000 x 5/12 = 66 666,67 (fiche: 6500)."
+            },
+            {
+              "code": "492000",
+              "naam": "Toe te rekenen kosten",
+              "debet": null,
+              "credit": 66666.67,
+              "reden": "Passief: verschuldigde maar nog niet vervallen interest."
+            }
           ]
         },
         {
           "omschrijving": "20x1 - 31/12 verkregen rentesubsidie",
           "regels": [
-            {"code": "491000", "naam": "Verkregen opbrengsten", "debet": 20000.00, "credit": null, "reden": "Actief: 2 000 000 x 60 % x 4 % = 48 000; x 5/12 = 20 000."},
-            {"code": "753000", "naam": "Kapitaal – en interestsubsidies", "debet": null, "credit": 20000.00, "reden": "Fiche: 753 Rentesubsidies."}
+            {
+              "code": "491000",
+              "naam": "Verkregen opbrengsten",
+              "debet": 20000.0,
+              "credit": null,
+              "reden": "Actief: 2 000 000 x 60 % x 4 % = 48 000; x 5/12 = 20 000."
+            },
+            {
+              "code": "753000",
+              "naam": "Kapitaal – en interestsubsidies",
+              "debet": null,
+              "credit": 20000.0,
+              "reden": "Fiche: 753 Rentesubsidies."
+            }
           ]
         },
         {
           "omschrijving": "20x2 - 01/01 heropening interest",
           "regels": [
-            {"code": "492000", "naam": "Toe te rekenen kosten", "debet": 66666.67, "credit": null, "reden": "Tegenboeking van de toegerekende interest."},
-            {"code": "650200", "naam": "Andere kosten van schulden", "debet": null, "credit": 66666.67, "reden": "Fiche: 6500 Rente verb. a/ schulden."}
+            {
+              "code": "492000",
+              "naam": "Toe te rekenen kosten",
+              "debet": 66666.67,
+              "credit": null,
+              "reden": "Tegenboeking van de toegerekende interest."
+            },
+            {
+              "code": "650200",
+              "naam": "Andere kosten van schulden",
+              "debet": null,
+              "credit": 66666.67,
+              "reden": "Fiche: 6500 Rente verb. a/ schulden."
+            }
           ]
         },
         {
           "omschrijving": "20x2 - 01/01 heropening rentesubsidie",
           "regels": [
-            {"code": "753000", "naam": "Kapitaal – en interestsubsidies", "debet": 20000.00, "credit": null, "reden": "Tegenboeking van de verkregen subsidie (20 000)."},
-            {"code": "491000", "naam": "Verkregen opbrengsten", "debet": null, "credit": 20000.00, "reden": "Fiche: 491 Verkregen opbrengsten."}
+            {
+              "code": "753000",
+              "naam": "Kapitaal – en interestsubsidies",
+              "debet": 20000.0,
+              "credit": null,
+              "reden": "Tegenboeking van de verkregen subsidie (20 000)."
+            },
+            {
+              "code": "491000",
+              "naam": "Verkregen opbrengsten",
+              "debet": null,
+              "credit": 20000.0,
+              "reden": "Fiche: 491 Verkregen opbrengsten."
+            }
           ]
         },
         {
           "omschrijving": "20x2 - 01/08 aflossing + betaling interest",
           "regels": [
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": 1000000.00, "credit": null, "reden": "Aflossing van het binnen het jaar vervallen deel (fiche: 4230)."},
-            {"code": "650200", "naam": "Andere kosten van schulden", "debet": 160000.00, "credit": null, "reden": "Jaarinterest op openstaande 2 mln (fiche: 6500); 2 000 000 x 8 % = 160 000."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 1160000.00, "reden": "Bank r/c: 1 000 000 aflossing + 160 000 interest."}
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": 1000000.0,
+              "credit": null,
+              "reden": "Aflossing van het binnen het jaar vervallen deel (fiche: 4230)."
+            },
+            {
+              "code": "650200",
+              "naam": "Andere kosten van schulden",
+              "debet": 160000.0,
+              "credit": null,
+              "reden": "Jaarinterest op openstaande 2 mln (fiche: 6500); 2 000 000 x 8 % = 160 000."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 1160000.0,
+              "reden": "Bank r/c: 1 000 000 aflossing + 160 000 interest."
+            }
           ]
         },
         {
           "omschrijving": "20x2 - 01/09 ontvangst rentesubsidie (vordering, laatste jaar)",
           "regels": [
-            {"code": "416000", "naam": "Diverse vorderingen", "debet": 48000.00, "credit": null, "reden": "Vordering op de overheid; subsidie 2de jaar = 48 000 (fiche: 416)."},
-            {"code": "753000", "naam": "Kapitaal – en interestsubsidies", "debet": null, "credit": 48000.00, "reden": "Fiche: 753 Rentesubsidies; subsidie loopt nog maar 2 jaar."}
+            {
+              "code": "416000",
+              "naam": "Diverse vorderingen",
+              "debet": 48000.0,
+              "credit": null,
+              "reden": "Vordering op de overheid; subsidie 2de jaar = 48 000 (fiche: 416)."
+            },
+            {
+              "code": "753000",
+              "naam": "Kapitaal – en interestsubsidies",
+              "debet": null,
+              "credit": 48000.0,
+              "reden": "Fiche: 753 Rentesubsidies; subsidie loopt nog maar 2 jaar."
+            }
           ]
         },
         {
           "omschrijving": "20x2 - inning rentesubsidie",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 48000.00, "credit": null, "reden": "Bank r/c: ontvangst van de laatste subsidie."},
-            {"code": "416000", "naam": "Diverse vorderingen", "debet": null, "credit": 48000.00, "reden": "De vordering wordt aangezuiverd."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 48000.0,
+              "credit": null,
+              "reden": "Bank r/c: ontvangst van de laatste subsidie."
+            },
+            {
+              "code": "416000",
+              "naam": "Diverse vorderingen",
+              "debet": null,
+              "credit": 48000.0,
+              "reden": "De vordering wordt aangezuiverd."
+            }
           ]
         },
         {
           "omschrijving": "20x2 - 31/12 herklassering vervallend deel",
           "regels": [
-            {"code": "173000", "naam": "Kredietinstellingen", "debet": 1000000.00, "credit": null, "reden": "Fiche: 1730 Schulden op rekening (laatste schijf)."},
-            {"code": "423000", "naam": "Schulden > 1 jr die binnen het jaar vervallen", "debet": null, "credit": 1000000.00, "reden": "Fiche: 4230, binnen het jaar vervallend deel."}
+            {
+              "code": "173000",
+              "naam": "Kredietinstellingen",
+              "debet": 1000000.0,
+              "credit": null,
+              "reden": "Fiche: 1730 Schulden op rekening (laatste schijf)."
+            },
+            {
+              "code": "423000",
+              "naam": "Schulden > 1 jr die binnen het jaar vervallen",
+              "debet": null,
+              "credit": 1000000.0,
+              "reden": "Fiche: 4230, binnen het jaar vervallend deel."
+            }
           ]
         }
       ],
@@ -461,29 +1082,77 @@
         {
           "omschrijving": "(1) Levering grondstoffen, factuur nog niet ontvangen",
           "regels": [
-            {"code": "600000", "naam": "Aankopen van grondstoffen", "debet": 90000.00, "credit": null, "reden": "Aankoop grondstoffen erkend in 20x0 (prestatie ontvangen)."},
-            {"code": "444000", "naam": "Te ontvangen facturen", "debet": null, "credit": 90000.00, "reden": "Factuur nog niet ontvangen; schuld op te ontvangen facturen (passief)."}
+            {
+              "code": "600000",
+              "naam": "Aankopen van grondstoffen",
+              "debet": 90000.0,
+              "credit": null,
+              "reden": "Aankoop grondstoffen erkend in 20x0 (prestatie ontvangen)."
+            },
+            {
+              "code": "444000",
+              "naam": "Te ontvangen facturen",
+              "debet": null,
+              "credit": 90000.0,
+              "reden": "Factuur nog niet ontvangen; schuld op te ontvangen facturen (passief)."
+            }
           ]
         },
         {
           "omschrijving": "(2) Goederen teruggestuurd, creditnota nog te ontvangen",
           "regels": [
-            {"code": "404000", "naam": "Te innen opbrengsten", "debet": 80000.00, "credit": null, "reden": "Vordering 'te ontvangen creditnota's' (fiche: 4040); in de MAR het dichtstbijzijnde is 404000 (vordering, debet)."},
-            {"code": "604100", "naam": "Inkomende creditnota (ICN)", "debet": null, "credit": 80000.00, "reden": "Inkomende creditnota op handelsgoederen (fiche: 6041 ICN's handelsgoederen); vermindert de aankoop."}
+            {
+              "code": "404000",
+              "naam": "Te innen opbrengsten",
+              "debet": 80000.0,
+              "credit": null,
+              "reden": "Vordering 'te ontvangen creditnota's' (fiche: 4040); in de MAR het dichtstbijzijnde is 404000 (vordering, debet)."
+            },
+            {
+              "code": "604100",
+              "naam": "Inkomende creditnota (ICN)",
+              "debet": null,
+              "credit": 80000.0,
+              "reden": "Inkomende creditnota op handelsgoederen (fiche: 6041 ICN's handelsgoederen); vermindert de aankoop."
+            }
           ]
         },
         {
           "omschrijving": "(3) Goederen naar klant Peeters, factuur nog te maken",
           "regels": [
-            {"code": "404000", "naam": "Te innen opbrengsten", "debet": 38000.00, "credit": null, "reden": "Geleverd maar nog niet gefactureerd; vordering (op te stellen factuur)."},
-            {"code": "700000", "naam": "Verkopen", "debet": null, "credit": 38000.00, "reden": "Verkoop handelsgoederen erkend in 20x0 (fiche: 7000 Verkopen handelsgoederen)."}
+            {
+              "code": "404000",
+              "naam": "Te innen opbrengsten",
+              "debet": 38000.0,
+              "credit": null,
+              "reden": "Geleverd maar nog niet gefactureerd; vordering (op te stellen factuur)."
+            },
+            {
+              "code": "700000",
+              "naam": "Verkopen",
+              "debet": null,
+              "credit": 38000.0,
+              "reden": "Verkoop handelsgoederen erkend in 20x0 (fiche: 7000 Verkopen handelsgoederen)."
+            }
           ]
         },
         {
           "omschrijving": "(4) Goederen terugontvangen van klant, creditnota op te stellen",
           "regels": [
-            {"code": "700100", "naam": "Uitgaande creditnota (UCN)", "debet": 33000.00, "credit": null, "reden": "Uitgaande creditnota op handelsgoederen (fiche: 7001 UCN's handelsgoederen); vermindert de verkoop."},
-            {"code": "444100", "naam": "Op te maken creditnota's", "debet": null, "credit": 33000.00, "reden": "Creditnota nog op te stellen; schuld op te maken creditnota's (fiche: 4440)."}
+            {
+              "code": "700100",
+              "naam": "Uitgaande creditnota (UCN)",
+              "debet": 33000.0,
+              "credit": null,
+              "reden": "Uitgaande creditnota op handelsgoederen (fiche: 7001 UCN's handelsgoederen); vermindert de verkoop."
+            },
+            {
+              "code": "444100",
+              "naam": "Op te maken creditnota's",
+              "debet": null,
+              "credit": 33000.0,
+              "reden": "Creditnota nog op te stellen; schuld op te maken creditnota's (fiche: 4440)."
+            }
           ]
         }
       ],
@@ -507,57 +1176,153 @@
         {
           "omschrijving": "20x0 - 01/03 ontvangst lening",
           "regels": [
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": 500000.00, "credit": null, "reden": "Bank r/c: ontvangst van het investeringskrediet."},
-            {"code": "173000", "naam": "Kredietinstellingen", "debet": null, "credit": 500000.00, "reden": "Schuld op meer dan 1 jaar (fiche: 1730 Schulden op rekening)."}
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": 500000.0,
+              "credit": null,
+              "reden": "Bank r/c: ontvangst van het investeringskrediet."
+            },
+            {
+              "code": "173000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 500000.0,
+              "reden": "Schuld op meer dan 1 jaar (fiche: 1730 Schulden op rekening)."
+            }
           ]
         },
         {
           "omschrijving": "20x0 - 31/12 toe te rekenen interest",
           "regels": [
-            {"code": "650200", "naam": "Andere kosten van schulden", "debet": 41666.67, "credit": null, "reden": "Interest 10 maanden (fiche: 6500 Rente verbonden aan schulden); 50 000 x 10/12 = 41 666,67."},
-            {"code": "492000", "naam": "Toe te rekenen kosten", "debet": null, "credit": 41666.67, "reden": "Passief: verschuldigde maar nog niet vervallen interest."}
+            {
+              "code": "650200",
+              "naam": "Andere kosten van schulden",
+              "debet": 41666.67,
+              "credit": null,
+              "reden": "Interest 10 maanden (fiche: 6500 Rente verbonden aan schulden); 50 000 x 10/12 = 41 666,67."
+            },
+            {
+              "code": "492000",
+              "naam": "Toe te rekenen kosten",
+              "debet": null,
+              "credit": 41666.67,
+              "reden": "Passief: verschuldigde maar nog niet vervallen interest."
+            }
           ]
         },
         {
           "omschrijving": "20x0 - 31/12 activeren intercalaire interest",
           "regels": [
-            {"code": "231000", "naam": "Machines AW", "debet": 33333.33, "credit": null, "reden": "Interest tijdens de constructiefase (01/03-01/11 = 8 maanden) wordt geactiveerd in de aanschaffingswaarde (fiche: 2310 Machines aanschaffingswaarde); 50 000 x 8/12 = 33 333,33."},
-            {"code": "650300", "naam": "Geactiveerde intercalaire interesten (-)", "debet": null, "credit": 33333.33, "reden": "De geactiveerde interest vermindert de financiele kost (fiche: 6502 Geactiveerde intercalaire intresten)."}
+            {
+              "code": "231000",
+              "naam": "Machines AW",
+              "debet": 33333.33,
+              "credit": null,
+              "reden": "Interest tijdens de constructiefase (01/03-01/11 = 8 maanden) wordt geactiveerd in de aanschaffingswaarde (fiche: 2310 Machines aanschaffingswaarde); 50 000 x 8/12 = 33 333,33."
+            },
+            {
+              "code": "650300",
+              "naam": "Geactiveerde intercalaire interesten (-)",
+              "debet": null,
+              "credit": 33333.33,
+              "reden": "De geactiveerde interest vermindert de financiele kost (fiche: 6502 Geactiveerde intercalaire intresten)."
+            }
           ]
         },
         {
           "omschrijving": "20x1 - 01/01 heropening interest",
           "regels": [
-            {"code": "492000", "naam": "Toe te rekenen kosten", "debet": 41666.67, "credit": null, "reden": "Tegenboeking van de toegerekende interest."},
-            {"code": "650200", "naam": "Andere kosten van schulden", "debet": null, "credit": 41666.67, "reden": "Fiche: 6500 Rente verbonden aan schulden."}
+            {
+              "code": "492000",
+              "naam": "Toe te rekenen kosten",
+              "debet": 41666.67,
+              "credit": null,
+              "reden": "Tegenboeking van de toegerekende interest."
+            },
+            {
+              "code": "650200",
+              "naam": "Andere kosten van schulden",
+              "debet": null,
+              "credit": 41666.67,
+              "reden": "Fiche: 6500 Rente verbonden aan schulden."
+            }
           ]
         },
         {
           "omschrijving": "20x1 - 01/03 betaling jaarinterest",
           "regels": [
-            {"code": "650200", "naam": "Andere kosten van schulden", "debet": 50000.00, "credit": null, "reden": "Volledige jaarinterest (500 000 x 10 % = 50 000) wordt op de vervaldag geboekt."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 50000.00, "reden": "Bank r/c: betaling van de interest."}
+            {
+              "code": "650200",
+              "naam": "Andere kosten van schulden",
+              "debet": 50000.0,
+              "credit": null,
+              "reden": "Volledige jaarinterest (500 000 x 10 % = 50 000) wordt op de vervaldag geboekt."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 50000.0,
+              "reden": "Bank r/c: betaling van de interest."
+            }
           ]
         },
         {
           "omschrijving": "20x1 - 31/12 toe te rekenen interest",
           "regels": [
-            {"code": "650200", "naam": "Andere kosten van schulden", "debet": 41666.67, "credit": null, "reden": "Interest 10 maanden (fiche: 6500); 50 000 x 10/12 = 41 666,67."},
-            {"code": "492000", "naam": "Toe te rekenen kosten", "debet": null, "credit": 41666.67, "reden": "Passief: nog niet vervallen interest."}
+            {
+              "code": "650200",
+              "naam": "Andere kosten van schulden",
+              "debet": 41666.67,
+              "credit": null,
+              "reden": "Interest 10 maanden (fiche: 6500); 50 000 x 10/12 = 41 666,67."
+            },
+            {
+              "code": "492000",
+              "naam": "Toe te rekenen kosten",
+              "debet": null,
+              "credit": 41666.67,
+              "reden": "Passief: nog niet vervallen interest."
+            }
           ]
         },
         {
           "omschrijving": "20x2 - 01/01 heropening interest",
           "regels": [
-            {"code": "492000", "naam": "Toe te rekenen kosten", "debet": 41666.67, "credit": null, "reden": "Tegenboeking van de toegerekende interest."},
-            {"code": "650200", "naam": "Andere kosten van schulden", "debet": null, "credit": 41666.67, "reden": "Fiche: 6500 Rente verbonden aan schulden."}
+            {
+              "code": "492000",
+              "naam": "Toe te rekenen kosten",
+              "debet": 41666.67,
+              "credit": null,
+              "reden": "Tegenboeking van de toegerekende interest."
+            },
+            {
+              "code": "650200",
+              "naam": "Andere kosten van schulden",
+              "debet": null,
+              "credit": 41666.67,
+              "reden": "Fiche: 6500 Rente verbonden aan schulden."
+            }
           ]
         },
         {
           "omschrijving": "20x2 - 01/03 betaling jaarinterest",
           "regels": [
-            {"code": "650200", "naam": "Andere kosten van schulden", "debet": 50000.00, "credit": null, "reden": "Volledige jaarinterest van 50 000 op de vervaldag."},
-            {"code": "550000", "naam": "Kredietinstellingen", "debet": null, "credit": 50000.00, "reden": "Bank r/c: betaling van de interest."}
+            {
+              "code": "650200",
+              "naam": "Andere kosten van schulden",
+              "debet": 50000.0,
+              "credit": null,
+              "reden": "Volledige jaarinterest van 50 000 op de vervaldag."
+            },
+            {
+              "code": "550000",
+              "naam": "Kredietinstellingen",
+              "debet": null,
+              "credit": 50000.0,
+              "reden": "Bank r/c: betaling van de interest."
+            }
           ]
         }
       ],
@@ -581,33 +1346,105 @@
         {
           "omschrijving": "Verkoper - 01/03 verkoopfactuur + overdracht opbrengst",
           "regels": [
-            {"code": "400000", "naam": "Klanten", "debet": 10890.00, "credit": null, "reden": "Vordering op de klant (fiche: 400 Handelsdebiteuren); 9 000 + 1 890 = 10 890."},
-            {"code": "700000", "naam": "Verkopen", "debet": null, "credit": 7500.00, "reden": "Opbrengst dienstprestaties die bij 20x0 hoort (10 maanden); 9 000 x 10/12 = 7 500. (Op de fiche wordt de volledige 9 000 geboekt op 700 en daarna 1 500 overgedragen; nettoresultaat identiek.)"},
-            {"code": "451000", "naam": "Te betalen B.T.W", "debet": null, "credit": 1890.00, "reden": "Verschuldigde btw 21 % (fiche: 4510 Btw op verkopen); 9 000 x 21 % = 1 890."},
-            {"code": "493000", "naam": "Over te dragen opbrengsten", "debet": null, "credit": 1500.00, "reden": "Het deel van 20x1 (2 maanden) wordt overgedragen; 9 000 x 2/12 = 1 500 (passief)."}
+            {
+              "code": "400000",
+              "naam": "Klanten",
+              "debet": 10890.0,
+              "credit": null,
+              "reden": "Vordering op de klant (fiche: 400 Handelsdebiteuren); 9 000 + 1 890 = 10 890."
+            },
+            {
+              "code": "700000",
+              "naam": "Verkopen",
+              "debet": null,
+              "credit": 7500.0,
+              "reden": "Opbrengst dienstprestaties die bij 20x0 hoort (10 maanden); 9 000 x 10/12 = 7 500. (Op de fiche wordt de volledige 9 000 geboekt op 700 en daarna 1 500 overgedragen; nettoresultaat identiek.)"
+            },
+            {
+              "code": "451000",
+              "naam": "Te betalen B.T.W",
+              "debet": null,
+              "credit": 1890.0,
+              "reden": "Verschuldigde btw 21 % (fiche: 4510 Btw op verkopen); 9 000 x 21 % = 1 890."
+            },
+            {
+              "code": "493000",
+              "naam": "Over te dragen opbrengsten",
+              "debet": null,
+              "credit": 1500.0,
+              "reden": "Het deel van 20x1 (2 maanden) wordt overgedragen; 9 000 x 2/12 = 1 500 (passief)."
+            }
           ]
         },
         {
           "omschrijving": "Verkoper - 01/01/20x1 heropening over te dragen opbrengst",
           "regels": [
-            {"code": "493000", "naam": "Over te dragen opbrengsten", "debet": 1500.00, "credit": null, "reden": "De overlopende rekening wordt afgesloten."},
-            {"code": "700000", "naam": "Verkopen", "debet": null, "credit": 1500.00, "reden": "De 1 500 valt nu als opbrengst in 20x1 (fiche: 700)."}
+            {
+              "code": "493000",
+              "naam": "Over te dragen opbrengsten",
+              "debet": 1500.0,
+              "credit": null,
+              "reden": "De overlopende rekening wordt afgesloten."
+            },
+            {
+              "code": "700000",
+              "naam": "Verkopen",
+              "debet": null,
+              "credit": 1500.0,
+              "reden": "De 1 500 valt nu als opbrengst in 20x1 (fiche: 700)."
+            }
           ]
         },
         {
           "omschrijving": "Koper - 01/03 aankoopfactuur + overdracht kost",
           "regels": [
-            {"code": "610000", "naam": "Diensten en diverse goederen", "debet": 7500.00, "credit": null, "reden": "Onderhoudskost die bij 20x0 hoort (10 maanden); 9 000 x 10/12 = 7 500. (Fiche boekt 9 000 op 61 en draagt 1 500 over; nettoresultaat identiek.)"},
-            {"code": "411000", "naam": "Terug te vorderen B.T.W", "debet": 1890.00, "credit": null, "reden": "Aftrekbare btw 21 % (fiche: 4110 Btw op aankopen); 9 000 x 21 % = 1 890."},
-            {"code": "490000", "naam": "Over te dragen kosten", "debet": 1500.00, "credit": null, "reden": "Het deel van 20x1 (2 maanden) wordt overgedragen; 9 000 x 2/12 = 1 500 (actief)."},
-            {"code": "440000", "naam": "Leveranciers", "debet": null, "credit": 10890.00, "reden": "Schuld aan Clean-up: 9 000 + 1 890 = 10 890."}
+            {
+              "code": "610000",
+              "naam": "Diensten en diverse goederen",
+              "debet": 7500.0,
+              "credit": null,
+              "reden": "Onderhoudskost die bij 20x0 hoort (10 maanden); 9 000 x 10/12 = 7 500. (Fiche boekt 9 000 op 61 en draagt 1 500 over; nettoresultaat identiek.)"
+            },
+            {
+              "code": "411000",
+              "naam": "Terug te vorderen B.T.W",
+              "debet": 1890.0,
+              "credit": null,
+              "reden": "Aftrekbare btw 21 % (fiche: 4110 Btw op aankopen); 9 000 x 21 % = 1 890."
+            },
+            {
+              "code": "490000",
+              "naam": "Over te dragen kosten",
+              "debet": 1500.0,
+              "credit": null,
+              "reden": "Het deel van 20x1 (2 maanden) wordt overgedragen; 9 000 x 2/12 = 1 500 (actief)."
+            },
+            {
+              "code": "440000",
+              "naam": "Leveranciers",
+              "debet": null,
+              "credit": 10890.0,
+              "reden": "Schuld aan Clean-up: 9 000 + 1 890 = 10 890."
+            }
           ]
         },
         {
           "omschrijving": "Koper - 01/01/20x1 heropening over te dragen kost",
           "regels": [
-            {"code": "610000", "naam": "Diensten en diverse goederen", "debet": 1500.00, "credit": null, "reden": "De 1 500 valt nu als onderhoudskost in 20x1 (fiche: 61)."},
-            {"code": "490000", "naam": "Over te dragen kosten", "debet": null, "credit": 1500.00, "reden": "De overlopende rekening wordt afgesloten (terug op nul)."}
+            {
+              "code": "610000",
+              "naam": "Diensten en diverse goederen",
+              "debet": 1500.0,
+              "credit": null,
+              "reden": "De 1 500 valt nu als onderhoudskost in 20x1 (fiche: 61)."
+            },
+            {
+              "code": "490000",
+              "naam": "Over te dragen kosten",
+              "debet": null,
+              "credit": 1500.0,
+              "reden": "De overlopende rekening wordt afgesloten (terug op nul)."
+            }
           ]
         }
       ],
@@ -616,42 +1453,322 @@
     }
   ],
   "flashcards": [
-    {"vraag": "Wat zegt het toerekeningsbeginsel (matchingprincipe)?", "antwoord": "Kosten en opbrengsten horen thuis in het boekjaar waarin ze economisch worden verbruikt of verdiend, niet noodzakelijk in het jaar waarin ze betaald of ontvangen worden.", "type": "begrip"},
-    {"vraag": "Welke rekening gebruik je voor een vooruitbetaalde kost (bv. verzekering) die deels bij volgend jaar hoort?", "antwoord": "490000 Over te dragen kosten (actief, debet).", "type": "mar-code"},
-    {"vraag": "Welke rekening gebruik je voor een opbrengst die dit jaar verdiend is maar nog niet gefactureerd/ontvangen (bv. niet-vervallen interest)?", "antwoord": "491000 Verkregen opbrengsten (actief, debet).", "type": "mar-code"},
-    {"vraag": "Welke rekening gebruik je voor een kost die bij dit jaar hoort maar nog niet gefactureerd/betaald is (bv. verschuldigde interest)?", "antwoord": "492000 Toe te rekenen kosten (passief, credit).", "type": "mar-code"},
-    {"vraag": "Welke rekening gebruik je voor een vooruit ontvangen opbrengst (bv. huur) die deels bij volgend jaar hoort?", "antwoord": "493000 Over te dragen opbrengsten (passief, credit).", "type": "mar-code"},
-    {"vraag": "Welke twee overlopende rekeningen staan op de ACTIEFzijde?", "antwoord": "490000 Over te dragen kosten en 491000 Verkregen opbrengsten (beide debet).", "type": "logica"},
-    {"vraag": "Welke twee overlopende rekeningen staan op de PASSIEFzijde?", "antwoord": "492000 Toe te rekenen kosten en 493000 Over te dragen opbrengsten (beide credit).", "type": "logica"},
-    {"vraag": "Wat gebeurt er met een overlopende rekening bij het begin van het volgende boekjaar?", "antwoord": "Ze wordt teruggeboekt (tegengeboekt): de eindejaarsboeking wordt exact omgekeerd, zodat de kost/opbrengst in het nieuwe jaar valt en de overlopende rekening weer op nul staat.", "type": "begrip"},
-    {"vraag": "Ezelsbruggetje: wat betekent 'over te dragen' versus 'toe te rekenen/verkregen'?", "antwoord": "'Over te dragen' (490, 493) = te vroeg geboekt, je draagt het over naar volgend jaar. 'Toe te rekenen/verkregen' (491, 492) = nog niet geboekt, je trekt het naar dit jaar toe.", "type": "logica"},
-    {"vraag": "Bij 490000: boek je het deel van DIT jaar of van VOLGEND jaar over?", "antwoord": "Het deel van VOLGEND jaar. Het deel van dit jaar blijft gewoon als kost staan.", "type": "logica"},
-    {"vraag": "Hoe bereken je het over te dragen of toe te rekenen bedrag?", "antwoord": "Pro rata temporis: totaalbedrag verdelen volgens het aantal maanden (of dagen) dat bij elk boekjaar hoort.", "type": "begrip"},
-    {"vraag": "Op welke kant boek je 610000 (kost) bij een eindejaarscorrectie met 490000?", "antwoord": "610000 in credit (de kost van dit jaar verminderen), tegenover 490000 in debet.", "type": "logica"},
-    {"vraag": "Op welke kant boek je 700000 (opbrengst) bij een eindejaarscorrectie met 493000?", "antwoord": "700000 in debet (de opbrengst van dit jaar verminderen), tegenover 493000 in credit.", "type": "logica"},
-    {"vraag": "Wat is het verschil tussen 491000 en 444000/404000 (te ontvangen / te innen facturen)?", "antwoord": "491000 verdeelt een opbrengst over twee boekjaren (bv. niet-vervallen interest). 404000/444000 gebruik je wanneer de prestatie volledig in dit jaar valt maar enkel de factuur nog ontbreekt.", "type": "begrip"},
-    {"vraag": "Welke rekening gebruik je vaak als tegenrekening bij verschuldigde interest (492000)?", "antwoord": "650200 Andere kosten van schulden (op de fiche 'Rente verbonden aan schulden', code 6500), in debet.", "type": "mar-code"},
-    {"vraag": "Welke rekening gebruik je vaak als tegenrekening bij verkregen interest op een belegging (491000)?", "antwoord": "751000 Opbrengsten uit vlottende activa, in credit.", "type": "mar-code"},
-    {"vraag": "Wat is geactiveerde intercalaire interest (Oefening 9)?", "antwoord": "Interest tijdens de bouw-/constructiefase van een investering die in de aanschaffingswaarde van het actief (bv. 231000 Machines) wordt opgenomen i.p.v. als kost te blijven staan, geboekt tegenover 650300 Geactiveerde intercalaire interesten (-).", "type": "begrip"},
-    {"vraag": "Welke rekening gebruik je voor een nog te ontvangen rentesubsidie op het einde van het jaar (Oefening 7)?", "antwoord": "491000 Verkregen opbrengsten (debet) tegenover 753000 Kapitaal- en interestsubsidies (credit); de subsidie loopt parallel met de interestkost.", "type": "mar-code"}
+    {
+      "vraag": "Wat zegt het toerekeningsbeginsel (matchingprincipe)?",
+      "antwoord": "Kosten en opbrengsten horen thuis in het boekjaar waarin ze economisch worden verbruikt of verdiend, niet noodzakelijk in het jaar waarin ze betaald of ontvangen worden.",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Welke rekening gebruik je voor een vooruitbetaalde kost (bv. verzekering) die deels bij volgend jaar hoort?",
+      "antwoord": "490000 Over te dragen kosten (actief, debet).",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Welke rekening gebruik je voor een opbrengst die dit jaar verdiend is maar nog niet gefactureerd/ontvangen (bv. niet-vervallen interest)?",
+      "antwoord": "491000 Verkregen opbrengsten (actief, debet).",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Welke rekening gebruik je voor een kost die bij dit jaar hoort maar nog niet gefactureerd/betaald is (bv. verschuldigde interest)?",
+      "antwoord": "492000 Toe te rekenen kosten (passief, credit).",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Welke rekening gebruik je voor een vooruit ontvangen opbrengst (bv. huur) die deels bij volgend jaar hoort?",
+      "antwoord": "493000 Over te dragen opbrengsten (passief, credit).",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Welke twee overlopende rekeningen staan op de ACTIEFzijde?",
+      "antwoord": "490000 Over te dragen kosten en 491000 Verkregen opbrengsten (beide debet).",
+      "type": "logica"
+    },
+    {
+      "vraag": "Welke twee overlopende rekeningen staan op de PASSIEFzijde?",
+      "antwoord": "492000 Toe te rekenen kosten en 493000 Over te dragen opbrengsten (beide credit).",
+      "type": "logica"
+    },
+    {
+      "vraag": "Wat gebeurt er met een overlopende rekening bij het begin van het volgende boekjaar?",
+      "antwoord": "Ze wordt teruggeboekt (tegengeboekt): de eindejaarsboeking wordt exact omgekeerd, zodat de kost/opbrengst in het nieuwe jaar valt en de overlopende rekening weer op nul staat.",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Ezelsbruggetje: wat betekent 'over te dragen' versus 'toe te rekenen/verkregen'?",
+      "antwoord": "'Over te dragen' (490, 493) = te vroeg geboekt, je draagt het over naar volgend jaar. 'Toe te rekenen/verkregen' (491, 492) = nog niet geboekt, je trekt het naar dit jaar toe.",
+      "type": "logica"
+    },
+    {
+      "vraag": "Bij 490000: boek je het deel van DIT jaar of van VOLGEND jaar over?",
+      "antwoord": "Het deel van VOLGEND jaar. Het deel van dit jaar blijft gewoon als kost staan.",
+      "type": "logica"
+    },
+    {
+      "vraag": "Hoe bereken je het over te dragen of toe te rekenen bedrag?",
+      "antwoord": "Pro rata temporis: totaalbedrag verdelen volgens het aantal maanden (of dagen) dat bij elk boekjaar hoort.",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Op welke kant boek je 610000 (kost) bij een eindejaarscorrectie met 490000?",
+      "antwoord": "610000 in credit (de kost van dit jaar verminderen), tegenover 490000 in debet.",
+      "type": "logica"
+    },
+    {
+      "vraag": "Op welke kant boek je 700000 (opbrengst) bij een eindejaarscorrectie met 493000?",
+      "antwoord": "700000 in debet (de opbrengst van dit jaar verminderen), tegenover 493000 in credit.",
+      "type": "logica"
+    },
+    {
+      "vraag": "Wat is het verschil tussen 491000 en 444000/404000 (te ontvangen / te innen facturen)?",
+      "antwoord": "491000 verdeelt een opbrengst over twee boekjaren (bv. niet-vervallen interest). 404000/444000 gebruik je wanneer de prestatie volledig in dit jaar valt maar enkel de factuur nog ontbreekt.",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Welke rekening gebruik je vaak als tegenrekening bij verschuldigde interest (492000)?",
+      "antwoord": "650200 Andere kosten van schulden (op de fiche 'Rente verbonden aan schulden', code 6500), in debet.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Welke rekening gebruik je vaak als tegenrekening bij verkregen interest op een belegging (491000)?",
+      "antwoord": "751000 Opbrengsten uit vlottende activa, in credit.",
+      "type": "mar-code"
+    },
+    {
+      "vraag": "Wat is geactiveerde intercalaire interest (Oefening 9)?",
+      "antwoord": "Interest tijdens de bouw-/constructiefase van een investering die in de aanschaffingswaarde van het actief (bv. 231000 Machines) wordt opgenomen i.p.v. als kost te blijven staan, geboekt tegenover 650300 Geactiveerde intercalaire interesten (-).",
+      "type": "begrip"
+    },
+    {
+      "vraag": "Welke rekening gebruik je voor een nog te ontvangen rentesubsidie op het einde van het jaar (Oefening 7)?",
+      "antwoord": "491000 Verkregen opbrengsten (debet) tegenover 753000 Kapitaal- en interestsubsidies (credit); de subsidie loopt parallel met de interestkost.",
+      "type": "mar-code"
+    }
   ],
   "veelgemaakteFouten": [
-    {"fout": "Bij 490000 het deel van DIT jaar overdragen in plaats van het deel van volgend jaar.", "correctie": "Op de overlopende rekening komt altijd het deel dat bij het ANDERE (volgende) jaar hoort. Het deel van dit jaar blijft gewoon op de kosten-/opbrengstrekening staan."},
-    {"fout": "Een overlopende rekening aan de verkeerde balanszijde plaatsen (bv. 492000 als actief boeken).", "correctie": "Onthoud: 490 en 491 = actief (debet), 492 en 493 = passief (credit). Vraag je af of de onderneming nog iets tegoed heeft (actief) of nog iets verschuldigd is (passief)."},
-    {"fout": "Vergeten de eindejaarsboeking bij begin volgend jaar terug te boeken (heropening).", "correctie": "Elke overlopende rekening kent altijd twee boekingen: de correctie op 31/12 en de exacte tegenboeking op 01/01. Anders blijft de overlopende rekening ten onrechte openstaan."},
-    {"fout": "De klasse-49-rekeningen gebruiken terwijl de prestatie volledig in één boekjaar valt (Oefening 6 en 8).", "correctie": "Als de prestatie volledig in dit jaar valt en enkel de factuur/creditnota ontbreekt, gebruik je 444000/404000 (te ontvangen/te innen facturen) of 444100 + ICN/UCN (creditnota's), niet de overlopende rekeningen 49."},
-    {"fout": "Btw pro rata berekenen bij een vooruit gefactureerd contract (Oefening 10).", "correctie": "De btw volgt steeds het VOLLEDIGE factuurbedrag (9 000 x 21 % = 1 890). Alleen de opbrengst/kost wordt over de boekjaren verdeeld via 493000/490000."},
-    {"fout": "De interest op een dalende lening elk jaar op het oorspronkelijke bedrag berekenen (Oefening 7).", "correctie": "Reken telkens op het OPENSTAANDE saldo: na elke aflossing daalt de interest (240 000 -> 160 000 -> 80 000)."},
-    {"fout": "De roerende voorheffing op de netto ontvangen rente berekenen (Oefening 2).", "correctie": "De voorheffing (30 %) wordt op de BRUTO coupon berekend; de bank ontvangt het netto bedrag en de voorheffing staat apart in debet."},
-    {"fout": "Bij een semestrieel betaalbare lening de volle jaarrente toerekenen (Oefening 5).", "correctie": "Werk eerst de halfjaarrente uit (25 000) en reken dan pro rata: op 31/12 zijn maar 2 van de 6 maanden van het lopende semester toe te rekenen (8 333,33)."}
+    {
+      "fout": "Bij 490000 het deel van DIT jaar overdragen in plaats van het deel van volgend jaar.",
+      "correctie": "Op de overlopende rekening komt altijd het deel dat bij het ANDERE (volgende) jaar hoort. Het deel van dit jaar blijft gewoon op de kosten-/opbrengstrekening staan."
+    },
+    {
+      "fout": "Een overlopende rekening aan de verkeerde balanszijde plaatsen (bv. 492000 als actief boeken).",
+      "correctie": "Onthoud: 490 en 491 = actief (debet), 492 en 493 = passief (credit). Vraag je af of de onderneming nog iets tegoed heeft (actief) of nog iets verschuldigd is (passief)."
+    },
+    {
+      "fout": "Vergeten de eindejaarsboeking bij begin volgend jaar terug te boeken (heropening).",
+      "correctie": "Elke overlopende rekening kent altijd twee boekingen: de correctie op 31/12 en de exacte tegenboeking op 01/01. Anders blijft de overlopende rekening ten onrechte openstaan."
+    },
+    {
+      "fout": "De klasse-49-rekeningen gebruiken terwijl de prestatie volledig in één boekjaar valt (Oefening 6 en 8).",
+      "correctie": "Als de prestatie volledig in dit jaar valt en enkel de factuur/creditnota ontbreekt, gebruik je 444000/404000 (te ontvangen/te innen facturen) of 444100 + ICN/UCN (creditnota's), niet de overlopende rekeningen 49."
+    },
+    {
+      "fout": "Btw pro rata berekenen bij een vooruit gefactureerd contract (Oefening 10).",
+      "correctie": "De btw volgt steeds het VOLLEDIGE factuurbedrag (9 000 x 21 % = 1 890). Alleen de opbrengst/kost wordt over de boekjaren verdeeld via 493000/490000."
+    },
+    {
+      "fout": "De interest op een dalende lening elk jaar op het oorspronkelijke bedrag berekenen (Oefening 7).",
+      "correctie": "Reken telkens op het OPENSTAANDE saldo: na elke aflossing daalt de interest (240 000 -> 160 000 -> 80 000)."
+    },
+    {
+      "fout": "De roerende voorheffing op de netto ontvangen rente berekenen (Oefening 2).",
+      "correctie": "De voorheffing (30 %) wordt op de BRUTO coupon berekend; de bank ontvangt het netto bedrag en de voorheffing staat apart in debet."
+    },
+    {
+      "fout": "Bij een semestrieel betaalbare lening de volle jaarrente toerekenen (Oefening 5).",
+      "correctie": "Werk eerst de halfjaarrente uit (25 000) en reken dan pro rata: op 31/12 zijn maar 2 van de 6 maanden van het lopende semester toe te rekenen (8 333,33)."
+    }
   ],
   "controlevragen": [
-    {"vraag": "Een spoorabonnement van 1 050 EUR (12 maanden) wordt op 01/06/20x0 gekocht. Hoeveel draag je over op 31/12/20x0 en op welke rekening?", "antwoord": "Van 01/01 tot 31/05/20x1 = 5 maanden vallen in 20x1: 1 050 x 5/12 = 437,50 op 490000 (debet) tegenover 623000 (credit)."},
-    {"vraag": "Is 492000 Toe te rekenen kosten een actief- of een passiefrekening, en aan welke kant stijgt ze?", "antwoord": "Een passiefrekening (schuld); ze stijgt in credit. Het is een kost die bij dit jaar hoort maar nog moet betaald worden."},
-    {"vraag": "Een belegging van 200 000 EUR brengt 2,5 % bruto rente op, vervaldatum 01/04. Hoeveel verkregen opbrengst boek je op 31/12 en hoeveel roerende voorheffing wordt later ingehouden?", "antwoord": "Jaarrente 200 000 x 2,5 % = 5 000; verkregen op 31/12 = 5 000 x 9/12 = 3 750 (491000). Bij ontvangst op 01/04 wordt 5 000 x 30 % = 1 500 roerende voorheffing ingehouden, de bank ontvangt 3 500."},
-    {"vraag": "Bij Snel & Wel nv loopt een lening van 1 000 000 EUR aan 5 %, semestrieel betaalbaar, opgenomen op 01/11. Hoeveel reken je toe op 31/12 en op welke rekeningen?", "antwoord": "Halfjaarrente 50 000 x 6/12 = 25 000; toe te rekenen = 25 000 x 2/6 = 8 333,33 op 650200 (debet) / 492000 (credit)."},
-    {"vraag": "Wat is het verschil tussen de afsluitrekening 444000 (te ontvangen facturen) en de overlopende rekening 492000?", "antwoord": "444000 gebruik je als de prestatie volledig in dit jaar valt maar de factuur nog ontbreekt (geen verdeling over boekjaren). 492000 verdeelt een kost over twee boekjaren (bv. nog niet vervallen interest)."},
-    {"vraag": "In Oefening 9 is de machine bedrijfsklaar op 01/11 maar de lening loopt vanaf 01/03. Welk deel van de interest wordt geactiveerd en welk deel toegerekend op 31/12?", "antwoord": "Geactiveerd (intercalair, bouwfase 01/03-01/11 = 8 m): 50 000 x 8/12 = 33 333,33 op 231000 / 650300. Toe te rekenen op 31/12 (01/03-31/12 = 10 m): 50 000 x 10/12 = 41 666,67 op 650200 / 492000."},
-    {"vraag": "Clean-up factureert op 01/03/20x0 een onderhoudscontract van 9 000 EUR + 21 % btw voor 12 maanden. Welk bedrag draag je over en op welke rekening bij de koper?", "antwoord": "Over te dragen deel (jan-feb 20x1, 2 maanden) = 9 000 x 2/12 = 1 500 op 490000 (debet, actief). De btw (1 890) blijft volledig op de factuur; ze wordt niet verdeeld."}
+    {
+      "vraag": "Een spoorabonnement van 1 050 EUR (12 maanden) wordt op 01/06/20x0 gekocht. Hoeveel draag je over op 31/12/20x0 en op welke rekening?",
+      "antwoord": "Van 01/01 tot 31/05/20x1 = 5 maanden vallen in 20x1: 1 050 x 5/12 = 437,50 op 490000 (debet) tegenover 623000 (credit)."
+    },
+    {
+      "vraag": "Is 492000 Toe te rekenen kosten een actief- of een passiefrekening, en aan welke kant stijgt ze?",
+      "antwoord": "Een passiefrekening (schuld); ze stijgt in credit. Het is een kost die bij dit jaar hoort maar nog moet betaald worden."
+    },
+    {
+      "vraag": "Een belegging van 200 000 EUR brengt 2,5 % bruto rente op, vervaldatum 01/04. Hoeveel verkregen opbrengst boek je op 31/12 en hoeveel roerende voorheffing wordt later ingehouden?",
+      "antwoord": "Jaarrente 200 000 x 2,5 % = 5 000; verkregen op 31/12 = 5 000 x 9/12 = 3 750 (491000). Bij ontvangst op 01/04 wordt 5 000 x 30 % = 1 500 roerende voorheffing ingehouden, de bank ontvangt 3 500."
+    },
+    {
+      "vraag": "Bij Snel & Wel nv loopt een lening van 1 000 000 EUR aan 5 %, semestrieel betaalbaar, opgenomen op 01/11. Hoeveel reken je toe op 31/12 en op welke rekeningen?",
+      "antwoord": "Halfjaarrente 50 000 x 6/12 = 25 000; toe te rekenen = 25 000 x 2/6 = 8 333,33 op 650200 (debet) / 492000 (credit)."
+    },
+    {
+      "vraag": "Wat is het verschil tussen de afsluitrekening 444000 (te ontvangen facturen) en de overlopende rekening 492000?",
+      "antwoord": "444000 gebruik je als de prestatie volledig in dit jaar valt maar de factuur nog ontbreekt (geen verdeling over boekjaren). 492000 verdeelt een kost over twee boekjaren (bv. nog niet vervallen interest)."
+    },
+    {
+      "vraag": "In Oefening 9 is de machine bedrijfsklaar op 01/11 maar de lening loopt vanaf 01/03. Welk deel van de interest wordt geactiveerd en welk deel toegerekend op 31/12?",
+      "antwoord": "Geactiveerd (intercalair, bouwfase 01/03-01/11 = 8 m): 50 000 x 8/12 = 33 333,33 op 231000 / 650300. Toe te rekenen op 31/12 (01/03-31/12 = 10 m): 50 000 x 10/12 = 41 666,67 op 650200 / 492000."
+    },
+    {
+      "vraag": "Clean-up factureert op 01/03/20x0 een onderhoudscontract van 9 000 EUR + 21 % btw voor 12 maanden. Welk bedrag draag je over en op welke rekening bij de koper?",
+      "antwoord": "Over te dragen deel (jan-feb 20x1, 2 maanden) = 9 000 x 2/12 = 1 500 op 490000 (debet, actief). De btw (1 890) blijft volledig op de factuur; ze wordt niet verdeeld."
+    }
+  ],
+  "cursus": {
+    "vindplaats": "Deel I, Hoofdstuk 7 'Van begin- naar eindbalans' (p. 129-156) + Deel VI 'De regularisatie- en afsluitwerkzaamheden', Hoofdstuk 1 'Soorten regularisatiewerkzaamheden' (p. 655-696)",
+    "kernpunten": "## Wettelijk kader: van proefbalans naar jaarrekening\n\nDe bestaande samenvatting vertrekt van het toerekeningsbeginsel; het boek plaatst de overlopende rekeningen echter in een ruimer **wettelijk afsluitkader**. De eindbalans mag pas opgesteld worden nadat de boekhoudkundige toestand in overeenstemming is gebracht met de **werkelijke toestand** uit de **inventaris** (p. 129, 666).\n\n- **Art. III.89. WER**: elke onderneming maakt, *omzichtig en te goeder trouw, ten minste eens per jaar* de inventaris op van alle bezittingen, vorderingen, schulden en verplichtingen (p. 129, 672).\n- **Art. III.90. WER**: *'Nadat de rekeningen in overeenstemming zijn gebracht met de gegevens van de inventaris, worden ze samengevat en beschreven in een staat, zijnde de jaarrekening'* (p. 129, 666).\n- **Art. III.88 WER**: boeken worden naar tijdsorde bijgehouden, zonder wit vak of weglating; bij correctie moet het oorspronkelijke leesbaar blijven (p. 671). Daarom verbetert men fouten met een nieuwe (rectificatie)boeking, niet door uitvegen.\n- **KB van 29 april 2019** (jaarrekening) en **art. 3:2 KB WVV**: de balans wordt opgesteld *na* de toewijzing van het resultaat (p. 139, 672).\n\n## De drie soorten regularisatiewerkzaamheden (p. 667)\n\nHet boek onderscheidt op afsluitdatum drie grote groepen boekingen. Overlopende rekeningen horen bij de tweede groep:\n\n1. **Regularisatie van de balansrekeningen** – op werkelijke waarde brengen: fouten verbeteren (*rectificatieboekingen*), wachtrekeningen 499 salderen, afschrijvingen/waardeverminderingen/voorzieningen boeken, **btw-rekeningen overboeken** (rekening met kleinste saldo naar grootste), en **herklassering** van schulden/vorderingen op meer dan 1 jaar naar de groep 42 / 40 wanneer ze binnen de volgende 12 maanden vervallen (p. 133, 665-666, 669).\n2. **Regularisatie van de resultatenrekeningen** – via de **49-groep** controleren of elke kost/opbrengst correct aan de periode is toegerekend (p. 676).\n3. **Overboeking van (sub)rekeningen** – hulprekeningen salderen naar rekeningen van hogere orde (bv. de 62-groep, of de 40-groep voor handelsvorderingen) zodat balans en resultatenrekening niet te gedetailleerd worden (p. 667, 691-692).\n\n## Anticipatie- versus uitstelboeking (p. 135-136, 685-686)\n\nHet boek gebruikt een scherp begrippenpaar dat in de bestaande samenvatting impliciet blijft:\n\n- **Anticipatieboeking** (kost/opbrengst nog niet geboekt maar hoort *wel* bij dit jaar): kost **vermeerderen** (debet 6.. tegenover credit **492**) of opbrengst vermeerderen (credit 7.. tegenover debet **491**).\n- **Uitstelboeking** (kost/opbrengst al geboekt maar hoort bij *volgend* jaar): kost **verminderen** (credit 6.. tegenover debet **490**) of opbrengst verminderen (debet 7.. tegenover credit **493**).\n\n## De twee-vragen-heuristiek van het boek (p. 679-680)\n\nOmdat de benamingen verwarrend zijn, raadt het boek een vaste werkwijze aan: bepaal eerst of een **kost (klasse 6)** of **opbrengst (klasse 7)** vermeerderd of verminderd moet worden. Stel dan:\n1. *Moet de overlopende rekening gedebiteerd of gecrediteerd worden?* → **490 en 491** worden altijd **gedebiteerd** (eerste twee = actief); **492 en 493** altijd **gecrediteerd** (passief).\n2. *Gaat het om een kost of een opbrengst?* → 490 = te debiteren kostenrek., 492 = te crediteren kostenrek., 491 = te debiteren opbrengstenrek., 493 = te crediteren opbrengstenrek.\n\n## Belangrijke valkuil: 49-groep enkel voor het pro-rata gedeelte (p. 680, 688)\n\nHet boek benadrukt expliciet dat de overlopende rekeningen **uitsluitend** dienen voor het **pro-rata gedeelte** van een kost of opbrengst dat verschoven moet worden. Staat het volledige bedrag vast maar ontbreekt enkel het document, dan gebruik je **geen** 49-rekening maar de afsluitrekeningen **404 'Te innen opbrengsten'** (actief) en **444 'Te ontvangen facturen'** (passief), met de subrekeningen **404200 'Op te stellen facturen'** en **444100 'Op te maken creditnota's'** voor nog op te stellen documenten. Daarbij wordt de kost/opbrengst *integraal* in het resultaat opgenomen. Voor leasing/constructie kan interest ook **geactiveerd** worden via **650300 Geactiveerde intercalaire interesten (-)**.\n\nTen slotte: bij een belangrijk bedrag moet de post **490/1 (activa)** en **492/3 (passiva)** in de toelichting van de jaarrekening **uitgesplitst** worden (p. 662, 696).",
+    "begrippen": [
+      {
+        "term": "Inventaris",
+        "uitleg": "Gedetailleerde staat van alle bezittingen, vorderingen, schulden en verplichtingen die elke onderneming volgens art. III.89 WER minstens eens per jaar, omzichtig en te goeder trouw, moet opmaken. De boekhouding wordt aan de inventaris aangepast, niet omgekeerd (p. 129, 666)."
+      },
+      {
+        "term": "Regularisatieboekingen",
+        "uitleg": "De boekingen op afsluitdatum die de boekhoudkundige toestand in overeenstemming brengen met de werkelijke toestand uit de inventaris, vooraleer resultatenrekening en eindbalans opgemaakt worden (p. 129)."
+      },
+      {
+        "term": "Periodiciteitsprincipe (toerekeningsbeginsel)",
+        "uitleg": "Enkel de kosten en opbrengsten die op het boekjaar betrekking hebben mogen in de resultatenrekening voorkomen; of een kost betaald of een opbrengst geïnd is, speelt geen rol (p. 134, 685)."
+      },
+      {
+        "term": "Anticipatieboeking",
+        "uitleg": "Boeking voor kosten/opbrengsten die nog niet geregistreerd zijn maar wél (gedeeltelijk) bij het afgesloten boekjaar horen; de kost wordt vermeerderd (492) of de opbrengst vermeerderd (491) (p. 135, 686)."
+      },
+      {
+        "term": "Uitstelboeking",
+        "uitleg": "Boeking voor kosten/opbrengsten die al geboekt zijn maar (gedeeltelijk) bij het volgende boekjaar horen; de kost wordt verminderd (490) of de opbrengst verminderd (493) (p. 136, 676)."
+      },
+      {
+        "term": "490 Over te dragen kosten",
+        "uitleg": "Actieve overlopende rekening (debetsaldo, code 490/1). Een reeds geboekte kost die bij volgend jaar hoort wordt eruit gehaald en als bezit geparkeerd op het actief (p. 135, 677)."
+      },
+      {
+        "term": "491 Verkregen opbrengsten",
+        "uitleg": "Actieve overlopende rekening (debetsaldo, code 490/1). Een in dit jaar verdiende maar nog niet ontvangen/gefactureerde opbrengst wordt als vordering op het actief geboekt (p. 683)."
+      },
+      {
+        "term": "492 Toe te rekenen kosten",
+        "uitleg": "Passieve overlopende rekening (creditsaldo, code 492/3). Een kost die bij dit jaar hoort maar nog niet vervallen/gefactureerd is wordt als schuld op het passief geboekt, bv. nog niet vervallen leningintrest (p. 135, 678)."
+      },
+      {
+        "term": "493 Over te dragen opbrengsten",
+        "uitleg": "Passieve overlopende rekening (creditsaldo, code 492/3). Een reeds ontvangen/gefactureerde opbrengst die bij volgend jaar hoort wordt eruit gehaald en als schuld op het passief geparkeerd (p. 685)."
+      },
+      {
+        "term": "Heropening / tegenboeking",
+        "uitleg": "Een overlopende rekening wordt enkel op het einde van het boekjaar geopend en bij het begin van het nieuwe boekjaar (01.01) onmiddellijk afgeboekt met de exact omgekeerde boeking, zodat de kost/opbrengst in het juiste jaar valt (p. 678, 686)."
+      },
+      {
+        "term": "Afsluitrekeningen 404 / 444",
+        "uitleg": "404 'Te innen opbrengsten' (actief) en 444 'Te ontvangen facturen' (passief): te gebruiken wanneer het volledige bedrag vaststaat maar het document nog ontbreekt. In tegenstelling tot de 49-groep wordt hier het integrale bedrag in het resultaat geboekt (p. 670-671, 688-690)."
+      },
+      {
+        "term": "Geactiveerde intercalaire interesten (650300)",
+        "uitleg": "Interest tijdens de constructie-/bouwfase van een investering kan in de aanschaffingswaarde geactiveerd worden in plaats van als financiële kost te blijven staan; dit gebeurt via de tegenrekening 650300 (-) (p. 666, 686, mar-codes)."
+      },
+      {
+        "term": "Wachtrekeningen (499)",
+        "uitleg": "Tijdens het boekjaar door de onderneming zelf gecreëerde rekeningen voor voorlopige boekingen; bij de jaarafsluiting worden ze gesaldeerd en naar de juiste rekening (bv. 411 of 451 voor btw) overgeboekt (p. 671, 674)."
+      },
+      {
+        "term": "Rectificatieboeking",
+        "uitleg": "Verbetering van een vastgestelde fout door een nieuwe boeking (eerst tegenboeken wat fout was, dan juist boeken), omdat art. III.88 WER verbiedt het oorspronkelijke onleesbaar te maken (p. 667, 671)."
+      }
+    ]
+  },
+  "meerkeuze": [
+    {
+      "vraag": "Wat is de juiste karakterisering van de overlopende rekeningen (49-groep) bij de afsluiting van het boekjaar?",
+      "opties": [
+        "Ze worden gebruikt om kosten en opbrengsten toe te rekenen aan de periode waarop ze betrekking hebben, ongeacht of de kosten betaald en de opbrengsten ontvangen zijn.",
+        "Ze worden enkel gebruikt voor opbrengsten, want kosten worden altijd in het jaar van betaling geboekt.",
+        "Vooruitbetaalde kosten én vooruitontvangen opbrengsten zijn altijd actiefrekeningen.",
+        "Ze worden ook gebruikt om het deel van een lening dat volgend jaar vervalt over te boeken naar een passieve overlopende rekening."
+      ],
+      "juist": 0,
+      "uitleg": "Antwoord A is de definitie uit het periodiciteitsprincipe (boek p. 134, 685; meerkeuzevraag 6, p. 154). B is fout: ook kosten worden geregulariseerd (490/492). C is fout: vooruitontvangen opbrengsten staan op het passief (493), niet op het actief. D is fout: het binnen het jaar vervallende deel van een lening gaat naar de 42-groep (4230), niet naar een overlopende rekening."
+    },
+    {
+      "vraag": "Een pas opgerichte onderneming betaalt op 1 oktober de brandverzekeringspremie voor de komende 12 maanden, bedrag 1 200 EUR. Wat is na alle nodige boekingen de toestand op 31/12?",
+      "opties": [
+        "De resultatenrekening vermeldt 1 200 EUR verzekeringskosten.",
+        "De passiefrekening 492 'Toe te rekenen kosten' vermeldt 900 EUR.",
+        "De actiefrekening 490 'Over te dragen kosten' vermeldt 900 EUR en de resultatenrekening 300 EUR verzekeringskosten.",
+        "De actiefrekening 491 'Verkregen opbrengsten' vermeldt 900 EUR."
+      ],
+      "juist": 2,
+      "uitleg": "Slechts 3 maanden (okt-dec) horen bij dit jaar: 1 200 x 3/12 = 300 EUR kost. De overige 9 maanden (1 200 x 9/12 = 900 EUR) horen bij volgend jaar en worden via een uitstelboeking naar 490 'Over te dragen kosten' (actief) overgedragen. A negeert de regularisatie; B gebruikt verkeerdelijk een passiefrekening voor een vooruitbetaalde kost; D verwart een kost met een opbrengst (boek meerkeuzevraag 8, p. 154)."
+    },
+    {
+      "vraag": "Een beroepsorganisatie int op 1 mei 20x0 voor het eerst het jaarlijks lidgeld van 480 EUR VOORAF. Wat staat er op 31/12/20x0 in de eindbalans?",
+      "opties": [
+        "De resultatenrekening vermeldt 480 EUR opbrengst.",
+        "De passiefzijde vermeldt 160 EUR onder de overlopende rekeningen.",
+        "De actiefzijde vermeldt 320 EUR onder de overlopende rekeningen.",
+        "Er is geen enkele boeking op een overlopende rekening nodig."
+      ],
+      "juist": 1,
+      "uitleg": "Van mei tot december (8 maanden) is verdiend; 4 maanden (jan-april 20x1) zijn vooruitontvangen: 480 x 4/12 = 160 EUR. Vooruitontvangen opbrengst wordt via 493 'Over te dragen opbrengsten' op het passief geparkeerd. A negeert de regularisatie; C plaatst het bedrag fout op het actief en rekent met het verkeerde aantal maanden; D miskent het toerekeningsbeginsel (boek meerkeuzevraag 10, p. 154-155)."
+    },
+    {
+      "vraag": "Op 01.11.20x0 leent een onderneming 1 miljoen EUR tegen 5 %, semestrieel betaalbaar. Welke boeking is op 31.12.20x0 vereist voor de toe te rekenen interest?",
+      "opties": [
+        "Debet 650200 Andere kosten van schulden 8 333,33 / Credit 492000 Toe te rekenen kosten 8 333,33",
+        "Debet 491000 Verkregen opbrengsten 8 333,33 / Credit 650200 Andere kosten van schulden 8 333,33",
+        "Debet 490000 Over te dragen kosten 8 333,33 / Credit 650200 Andere kosten van schulden 8 333,33",
+        "Debet 650200 Andere kosten van schulden 25 000 / Credit 492000 Toe te rekenen kosten 25 000"
+      ],
+      "juist": 0,
+      "uitleg": "Halfjaarrente = 1 000 000 x 5 % x 6/12 = 25 000; op 31/12 zijn 2 van de 6 maanden (nov-dec) verlopen: 25 000 x 2/6 = 8 333,33. Dit is een anticipatieboeking: kost vermeerderen (debet 650200) tegenover de passieve overlopende rekening 492000. B gebruikt een opbrengstenrekening; C gebruikt 490 (uitstel) i.p.v. 492; D rekent het volledige semester aan in plaats van het pro-rata van 2 maanden."
+    },
+    {
+      "vraag": "Welke rekening gebruik je wanneer goederen in december geleverd zijn maar de aankoopfactuur op 31/12 nog niet ontvangen werd, terwijl het volledige bedrag vaststaat?",
+      "opties": [
+        "490000 Over te dragen kosten",
+        "492000 Toe te rekenen kosten",
+        "444000 Te ontvangen facturen",
+        "493000 Over te dragen opbrengsten"
+      ],
+      "juist": 2,
+      "uitleg": "De prestatie valt volledig in dit boekjaar en het bedrag staat vast; enkel het document ontbreekt. Dan gebruik je de afsluitrekening 444000 'Te ontvangen facturen' (passief), niet een 49-rekening. Het boek benadrukt (p. 680, 688) dat de 49-groep enkel voor het pro-rata gedeelte dient. 490 en 492 zijn voor een verdeling over twee boekjaren; 493 betreft opbrengsten."
+    },
+    {
+      "vraag": "Hoe boek je in het MAR de overdracht van een vooruitbetaalde, reeds geboekte kost die voor een deel op het volgende boekjaar slaat (uitstelboeking op 31/12)?",
+      "opties": [
+        "Debet 490000 Over te dragen kosten / Credit kostenrekening klasse 6",
+        "Debet kostenrekening klasse 6 / Credit 492000 Toe te rekenen kosten",
+        "Debet 491000 Verkregen opbrengsten / Credit opbrengstenrekening klasse 7",
+        "Debet 493000 Over te dragen opbrengsten / Credit kostenrekening klasse 6"
+      ],
+      "juist": 0,
+      "uitleg": "Bij een uitstelboeking wordt de te hoog geboekte kost verminderd (credit klasse 6) en het overgedragen deel als bezit op het actief geboekt (debet 490000). B is een anticipatieboeking voor een kost; C is voor een verkregen opbrengst; D combineert twee onverenigbare rekeningen (boek p. 677, 686)."
+    },
+    {
+      "vraag": "Wat zegt de wetgeving over het tijdstip waarop de eindbalans wordt opgesteld?",
+      "opties": [
+        "De balans vloeit automatisch voort uit de proefbalans op 31/12.",
+        "Pas nadat de rekeningen in overeenstemming zijn gebracht met de inventaris (art. III.90 WER), en na de toewijzing van het resultaat (art. 3:2 KB WVV).",
+        "De balans wordt opgesteld vóór de regularisaties, zodat het resultaat zichtbaar blijft.",
+        "Enkel zeer kleine ondernemingen moeten een inventaris opmaken; andere ondernemingen niet."
+      ],
+      "juist": 1,
+      "uitleg": "Art. III.90 WER vereist dat de rekeningen eerst aan de inventaris worden aangepast; art. 3:2 KB WVV bepaalt dat de balans na de resultaatverwerking wordt opgesteld (boek p. 129, 139, 666, 672). A is fout: de balans volgt pas na de regularisaties. C keert de volgorde om. D is omgekeerd: alle ondernemingen moeten de inventaris opmaken; enkel de jaarrekeningverplichting valt voor zeer kleine ondernemingen weg."
+    },
+    {
+      "vraag": "Een onderneming belegt 200 000 EUR in obligaties aan 2,5 % bruto, met rentevervaldag op 01.04. Welk bedrag staat op 31.12.20x0 op rekening 491000 'Verkregen opbrengsten'?",
+      "opties": [
+        "5 000,00",
+        "1 250,00",
+        "3 750,00",
+        "1 500,00"
+      ],
+      "juist": 2,
+      "uitleg": "Jaarrente = 200 000 x 2,5 % = 5 000. Van de vorige vervaldag (01.04) tot 31.12 zijn 9 maanden verdiend maar nog niet ontvangen: 5 000 x 9/12 = 3 750 EUR (verkregen opbrengst, debet 491000). A is de volledige jaarrente; B is 3/12 (de nog niet verdiende maanden); D is de roerende voorheffing van 30 % op de bruto coupon, niet de toe te rekenen rente (boek p. 685, oefening 2)."
+    },
+    {
+      "vraag": "Welke uitspraak over de drie soorten regularisatiewerkzaamheden (Deel VI, p. 667) is juist?",
+      "opties": [
+        "Het overboeken van de btw-rekeningen en het herklasseren van langetermijnschulden zijn regularisaties van resultatenrekeningen.",
+        "Het verbeteren van fouten (rectificatieboekingen) en het salderen van wachtrekeningen 499 zijn regularisaties van balansrekeningen.",
+        "De overlopende rekeningen van de 49-groep behoren tot de regularisatie van de balansrekeningen.",
+        "Het overboeken van hulprekeningen (zoals de 62-groep) naar rekeningen van hogere orde verandert het resultaat van het boekjaar."
+      ],
+      "juist": 1,
+      "uitleg": "Het verbeteren van fouten en het salderen van wachtrekeningen horen bij de regularisatie van balansrekeningen (p. 667, 669-671). A is fout: btw-overboeking en herklassering zijn óók balansregularisaties, geen resultatenregularisaties. C is fout: de 49-groep hoort bij de regularisatie van de resultatenrekeningen. D is fout: een loutere overboeking van hulprekeningen naar hogere orde wijzigt het resultaat niet."
+    }
   ]
 }

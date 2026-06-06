@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getThemas, getThema, getRekeningen } from "@/lib/data";
 import OefenLijst from "@/components/OefenLijst";
+import MeerkeuzeQuiz from "@/components/MeerkeuzeQuiz";
 
 export function generateStaticParams() {
   return getThemas().map((t) => ({ slug: t.slug }));
@@ -42,6 +43,16 @@ export default function OefeningenThema({ params }: { params: { slug: string } }
       </div>
 
       <OefenLijst oefeningen={t.oefeningen} rekeningen={rekeningen} />
+
+      {t.meerkeuze.length > 0 && (
+        <section className="pt-2">
+          <h2 className="mb-1 text-xl font-bold text-slate-900">📝 Meerkeuzetoets</h2>
+          <p className="mb-3 text-sm text-slate-500">
+            Test je kennis met {t.meerkeuze.length} meerkeuzevragen uit de cursus.
+          </p>
+          <MeerkeuzeQuiz vragen={t.meerkeuze} />
+        </section>
+      )}
     </div>
   );
 }
