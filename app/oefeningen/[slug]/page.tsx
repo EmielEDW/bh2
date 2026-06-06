@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getThemas, getThema } from "@/lib/data";
+import { getThemas, getThema, getRekeningen } from "@/lib/data";
 import OefenLijst from "@/components/OefenLijst";
 
 export function generateStaticParams() {
@@ -15,6 +15,12 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
 export default function OefeningenThema({ params }: { params: { slug: string } }) {
   const t = getThema(params.slug);
   if (!t) notFound();
+
+  const rekeningen = getRekeningen().map((r) => ({
+    code: r.code,
+    naam: r.naam,
+    natuur: r.natuur,
+  }));
 
   return (
     <div className="space-y-5">
@@ -35,7 +41,7 @@ export default function OefeningenThema({ params }: { params: { slug: string } }
         </div>
       </div>
 
-      <OefenLijst oefeningen={t.oefeningen} />
+      <OefenLijst oefeningen={t.oefeningen} rekeningen={rekeningen} />
     </div>
   );
 }

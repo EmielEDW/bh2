@@ -1,6 +1,6 @@
 import { getRekeningen } from "@/lib/data";
 import BoekingshulpWizard from "@/components/BoekingshulpWizard";
-import JournaalpostBuilder from "@/components/JournaalpostBuilder";
+import Werkblad from "@/components/Werkblad";
 
 export const metadata = { title: "Boekingshulp — Boekhouden 2" };
 
@@ -29,10 +29,15 @@ export default function BoekingshulpPagina() {
       </section>
 
       <section>
-        <h2 className="mb-3 text-lg font-bold text-slate-900">
-          🛠️ Journaalpost-builder
+        <h2 className="mb-1 text-lg font-bold text-slate-900">
+          🛠️ Werkblad: journaalpost & T-rekeningen
         </h2>
-        <JournaalpostBuilder rekeningen={rekeningen} />
+        <p className="mb-3 text-sm text-slate-500">
+          Boek vrij en controleer of je in evenwicht bent. Schakel met de toggle tussen de
+          journaalpost- en de T-rekening-weergave. (In de oefeningen kan je dit werkblad ook
+          gebruiken én je antwoord laten verbeteren.)
+        </p>
+        <Werkblad rekeningen={rekeningen} />
       </section>
     </div>
   );

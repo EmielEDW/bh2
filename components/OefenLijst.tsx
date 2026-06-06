@@ -1,16 +1,18 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { Oefening } from "@/lib/types";
+import type { Oefening, MarRekening } from "@/lib/types";
 import OefeningKaart from "@/components/OefeningKaart";
 
 type OefeningMet = Oefening & { thema?: string };
 
 export default function OefenLijst({
   oefeningen,
+  rekeningen,
   toonThema = false,
 }: {
   oefeningen: OefeningMet[];
+  rekeningen?: Pick<MarRekening, "code" | "naam" | "natuur">[];
   toonThema?: boolean;
 }) {
   const [niveau, setNiveau] = useState<string>("");
@@ -81,6 +83,7 @@ export default function OefenLijst({
             key={o.id}
             oefening={o}
             thema={toonThema ? o.thema : undefined}
+            rekeningen={rekeningen}
             defaultOpen={modus === "correctie"}
           />
         ))}

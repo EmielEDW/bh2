@@ -1,21 +1,25 @@
 "use client";
 
 import { useState } from "react";
-import type { Oefening } from "@/lib/types";
+import type { Oefening, MarRekening } from "@/lib/types";
 import BoekingTable from "@/components/BoekingTable";
+import Werkblad from "@/components/Werkblad";
 import { NiveauBadge } from "@/components/ui";
 
 export default function OefeningKaart({
   oefening,
   thema,
+  rekeningen,
   defaultOpen = false,
 }: {
   oefening: Oefening;
   thema?: string;
+  rekeningen?: Pick<MarRekening, "code" | "naam" | "natuur">[];
   defaultOpen?: boolean;
 }) {
   const [toonStappen, setToonStappen] = useState(defaultOpen);
   const [toonOplossing, setToonOplossing] = useState(defaultOpen);
+  const [toonWerkblad, setToonWerkblad] = useState(false);
 
   return (
     <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
@@ -44,6 +48,14 @@ export default function OefeningKaart({
         >
           {toonStappen ? "Verberg stappenplan" : "💡 Toon stappenplan (hint)"}
         </button>
+        {rekeningen && rekeningen.length > 0 && (
+          <button
+            onClick={() => setToonWerkblad((s) => !s)}
+            className="rounded-lg border border-slate-300 px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-50"
+          >
+            {toonWerkblad ? "Verberg werkblad" : "🛠️ Zelf boeken"}
+          </button>
+        )}
         <button
           onClick={() => setToonOplossing((s) => !s)}
           className="rounded-lg bg-brand-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-brand-700"
@@ -51,6 +63,16 @@ export default function OefeningKaart({
           {toonOplossing ? "Verberg oplossing" : "✅ Toon oplossing & redenering"}
         </button>
       </div>
+
+      {toonWerkblad && rekeningen && (
+        <div className="mt-3">
+          <Werkblad rekeningen={rekeningen} model={oefening.boekingen} />
+          <p className="mt-1.5 text-xs text-slate-400">
+            Tip: boek hierboven zelf en klik op <strong>Verbeter</strong> om je antwoord te
+            vergelijken met de oplossing. Schakel met de toggle tussen journaalpost en T-rekeningen.
+          </p>
+        </div>
+      )}
 
       {toonStappen && oefening.stappen.length > 0 && (
         <div className="mt-3 rounded-xl border border-amber-200 bg-amber-50 p-4">
