@@ -21,7 +21,8 @@ body {
 }
 
 h1, h2, h3, h4 {
-  @apply text-slate-900;
+  /* Geen vaste kleur: koppen krijgen hun kleur via hun eigen classes,
+     zodat o.a. de witte titel in de blauwe hero wit blijft. */
   letter-spacing: -0.01em;
 }
 
