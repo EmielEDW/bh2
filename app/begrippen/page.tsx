@@ -1,5 +1,6 @@
 import { getAlleBegrippen } from "@/lib/data";
 import Begrippenlijst from "@/components/Begrippenlijst";
+import PaywallGate from "@/components/PaywallGate";
 
 export const metadata = { title: "Begrippenlijst — Boekhouden 2" };
 
@@ -7,6 +8,7 @@ export default function BegrippenPagina() {
   const begrippen = getAlleBegrippen();
 
   return (
+    <PaywallGate titel="De begrippenlijst zit in de volledige pack">
     <div className="space-y-4">
       <div>
         <h1 className="text-2xl font-bold text-slate-900">Begrippenlijst</h1>
@@ -23,5 +25,6 @@ export default function BegrippenPagina() {
         </p>
       )}
     </div>
+    </PaywallGate>
   );
 }

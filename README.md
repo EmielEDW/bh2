@@ -76,6 +76,43 @@ Elke `git push` naar `main` zorgt daarna automatisch voor een nieuwe deploy.
 
 ---
 
+## 💳 Betaalmuur, codes & e-mail (pack ontgrendelen)
+
+Thema 1-3 (samenvatting + oefeningen), de rekenmachine en de examen-tab zijn
+**gratis**. De rest ontgrendel je met een **code** (max. 2 toestellen per code). De
+flow: betalen via een **Stripe Payment Link** → een webhook pakt een ongebruikte
+code → die wordt automatisch **per e-mail (Resend)** verstuurd. Codes + toestellen
+worden bewaard in **Upstash Redis**.
+
+### 1. Env-variabelen (kopieer `.env.example` → `.env.local` en zet ze ook in Vercel)
+
+| Variabele | Waar |
+|---|---|
+| `NEXT_PUBLIC_STRIPE_PAYMENT_LINK` | Je Stripe Payment Link-URL |
+| `NEXT_PUBLIC_PRIJS` | Prijs voor weergave, bv. `€9,99` |
+| `NEXT_PUBLIC_SITE_URL` | De live URL (voor de e-mail) |
+| `STRIPE_SECRET_KEY` / `STRIPE_WEBHOOK_SECRET` | Stripe API-sleutel + webhook-secret |
+| `RESEND_API_KEY` / `RESEND_FROM` / `ADMIN_EMAIL` | Resend (geverifieerd domein) |
+| `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN` | Upstash Redis (REST) |
+
+### 2. Stripe webhook
+Maak in Stripe een webhook-endpoint aan op `https://<jouw-site>/api/stripe/webhook`
+voor het event **`checkout.session.completed`**. Kopieer de signing secret naar
+`STRIPE_WEBHOOK_SECRET`. Zet op de Payment Link "verzamel e-mailadres" aan.
+
+### 3. Codes genereren
+```bash
+node scripts/seed-codes.mjs 200      # 200 codes in Upstash + backup in _codes-backup.txt
+```
+Codes zien eruit als `BH2-XXXX-XXXX`. Raken ze op, run het script opnieuw.
+
+> ⚠️ De inhoud-afscherming is **client-side** (zoals bij vergelijkbare cursus-sites):
+> de codecontrole en het toestellimiet gebeuren server-side via Upstash, maar de
+> paginabundel bevat de content. Voldoende voor dit soort lesmateriaal; geen
+> bankkluis. De **sales-pagina** staat op `/pro` — die link je naar de klasgroep.
+
+---
+
 ## 🐙 Naar GitHub pushen
 
 De repo bestaat al: `https://github.com/EmielEDW/bh2.git`.

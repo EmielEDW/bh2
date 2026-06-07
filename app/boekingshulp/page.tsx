@@ -1,6 +1,7 @@
 import { getRekeningen } from "@/lib/data";
 import BoekingshulpWizard from "@/components/BoekingshulpWizard";
 import Werkblad from "@/components/Werkblad";
+import PaywallGate from "@/components/PaywallGate";
 
 export const metadata = { title: "Boekingshulp — Boekhouden 2" };
 
@@ -12,6 +13,7 @@ export default function BoekingshulpPagina() {
   }));
 
   return (
+    <PaywallGate titel="De boekingshulp zit in de volledige pack">
     <div className="space-y-8">
       <div>
         <h1 className="text-2xl font-bold text-slate-900">Boekingshulp</h1>
@@ -40,5 +42,6 @@ export default function BoekingshulpPagina() {
         <Werkblad rekeningen={rekeningen} />
       </section>
     </div>
+    </PaywallGate>
   );
 }

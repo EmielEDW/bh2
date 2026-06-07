@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { getThemas } from "@/lib/data";
 import { Card } from "@/components/ui";
+import LockBadge from "@/components/LockBadge";
+import { isFreeTheme } from "@/lib/access";
 
 export const metadata = { title: "Oefeningen — Boekhouden 2" };
 
@@ -29,7 +31,16 @@ export default function OefeningenOverzicht() {
           return (
             <Link key={t.slug} href={`/oefeningen/${t.slug}`}>
               <Card className="h-full lift hover:border-brand-300">
-                <h2 className="font-bold text-slate-900">{t.titel}</h2>
+                <div className="flex items-start justify-between gap-2">
+                  <h2 className="font-bold text-slate-900">{t.titel}</h2>
+                  {!isFreeTheme(t.slug) ? (
+                    <LockBadge />
+                  ) : (
+                    <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-[11px] font-semibold text-emerald-700">
+                      gratis
+                    </span>
+                  )}
+                </div>
                 <p className="mt-1 text-2xl font-extrabold text-brand-700">
                   {t.oefeningen.length}
                   <span className="ml-1 text-sm font-normal text-slate-400">

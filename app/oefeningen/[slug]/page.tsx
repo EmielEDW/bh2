@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { getThemas, getThema, getRekeningen } from "@/lib/data";
 import OefenLijst from "@/components/OefenLijst";
 import MeerkeuzeQuiz from "@/components/MeerkeuzeQuiz";
+import PaywallGate from "@/components/PaywallGate";
+import { isFreeTheme } from "@/lib/access";
 
 export function generateStaticParams() {
   return getThemas().map((t) => ({ slug: t.slug }));
@@ -24,6 +26,7 @@ export default function OefeningenThema({ params }: { params: { slug: string } }
   }));
 
   return (
+    <PaywallGate free={isFreeTheme(t.slug)} titel={`De oefeningen van "${t.titel}" zitten in de pack`}>
     <div className="space-y-5">
       <div>
         <Link href="/oefeningen" className="text-sm text-brand-600 hover:underline">
@@ -54,5 +57,6 @@ export default function OefeningenThema({ params }: { params: { slug: string } }
         </section>
       )}
     </div>
+    </PaywallGate>
   );
 }

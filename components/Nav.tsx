@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
+import { useUnlock } from "@/components/UnlockProvider";
 
 type Item = { href: string; label: string; icon: string; desc?: string };
 
@@ -23,6 +24,7 @@ const EXAMEN: Item = { href: "/examen", label: "Examen", icon: "🎯" };
 
 export default function Nav() {
   const pathname = usePathname();
+  const { unlocked, openUnlock } = useUnlock();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [meerOpen, setMeerOpen] = useState(false);
   const meerRef = useRef<HTMLDivElement>(null);
@@ -113,8 +115,9 @@ export default function Nav() {
                   >
                     <span className="text-lg leading-none">{m.icon}</span>
                     <span className="min-w-0">
-                      <span className="block text-sm font-semibold text-slate-900">
+                      <span className="flex items-center gap-1.5 text-sm font-semibold text-slate-900">
                         {m.label}
+                        {!unlocked && <span className="text-xs text-amber-500">🔒</span>}
                       </span>
                       {m.desc && (
                         <span className="block text-xs text-slate-500">{m.desc}</span>
@@ -129,6 +132,19 @@ export default function Nav() {
           <Link href={EXAMEN.href} className={linkCls(isActive(EXAMEN.href))}>
             {EXAMEN.label}
           </Link>
+
+          {!unlocked ? (
+            <Link
+              href="/pro"
+              className="ml-1 rounded-lg bg-amber-400 px-3 py-1.5 text-sm font-bold text-amber-950 shadow-sm transition hover:bg-amber-300"
+            >
+              🔓 Pro
+            </Link>
+          ) : (
+            <span className="ml-1 rounded-lg bg-emerald-50 px-2.5 py-1.5 text-xs font-semibold text-emerald-700">
+              ✓ Pro
+            </span>
+          )}
         </nav>
 
         {/* Mobile toggle */}
@@ -178,9 +194,22 @@ export default function Nav() {
               >
                 <span className="mr-1.5">{m.icon}</span>
                 {m.label}
+                {!unlocked && <span className="ml-1 text-amber-500">🔒</span>}
               </Link>
             ))}
           </div>
+          {!unlocked ? (
+            <Link
+              href="/pro"
+              className="mt-3 block rounded-lg bg-amber-400 px-3 py-2 text-center text-sm font-bold text-amber-950"
+            >
+              🔓 Ontgrendel de volledige pack
+            </Link>
+          ) : (
+            <p className="mt-3 text-center text-xs font-semibold text-emerald-600">
+              ✓ Pack ontgrendeld
+            </p>
+          )}
         </nav>
       )}
     </header>

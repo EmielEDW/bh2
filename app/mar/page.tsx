@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import { getMar } from "@/lib/data";
 import MarZoeker from "@/components/MarZoeker";
 import DebetCreditTrainer from "@/components/DebetCreditTrainer";
+import PaywallGate from "@/components/PaywallGate";
 import { Card } from "@/components/ui";
 
 export const metadata = { title: "MAR-zoeker — Boekhouden 2" };
@@ -11,6 +12,7 @@ export default function MarPagina() {
   const eigen = mar.rekeningen.filter((r) => r.custom).length;
 
   return (
+    <PaywallGate titel="De MAR-zoeker zit in de volledige pack">
     <div className="space-y-6">
       <div>
         <h1 className="text-2xl font-bold text-slate-900">MAR-zoeker</h1>
@@ -51,5 +53,6 @@ export default function MarPagina() {
         </p>
       </Card>
     </div>
+    </PaywallGate>
   );
 }

@@ -46,3 +46,6 @@ _extracted/
 
 # lokale Claude-instellingen (niet delen)
 .claude/settings.local.json
+
+# backup van gegenereerde toegangscodes (geheim)
+_codes-backup.txt

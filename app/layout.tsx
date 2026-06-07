@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
+import UnlockProvider from "@/components/UnlockProvider";
+import DraggableCalculator from "@/components/DraggableCalculator";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -23,14 +25,17 @@ export default function RootLayout({
   return (
     <html lang="nl" className={inter.variable}>
       <body>
-        <Nav />
-        <main className="mx-auto max-w-6xl px-4 py-6 md:py-8">{children}</main>
-        <footer className="border-t border-slate-200 bg-white">
-          <div className="mx-auto max-w-6xl px-4 py-6 text-center text-sm text-slate-500">
-            Studiehulp Boekhouden 2 · gebaseerd op de lesdocumenten en het ITAA
-            Rekeningenstelsel 2021 (MAR). Controleer altijd tegen je eigen cursus.
-          </div>
-        </footer>
+        <UnlockProvider>
+          <Nav />
+          <main className="mx-auto max-w-6xl px-4 py-6 md:py-8">{children}</main>
+          <footer className="border-t border-slate-200 bg-white">
+            <div className="mx-auto max-w-6xl px-4 py-6 text-center text-sm text-slate-500">
+              Studiehulp Boekhouden 2 · gebaseerd op de lesdocumenten en het ITAA
+              Rekeningenstelsel 2021 (MAR). Controleer altijd tegen je eigen cursus.
+            </div>
+          </footer>
+          <DraggableCalculator />
+        </UnlockProvider>
       </body>
     </html>
   );

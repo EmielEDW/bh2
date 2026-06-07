@@ -5,6 +5,8 @@ import Markdown from "@/components/Markdown";
 import BoekingsschemaCard from "@/components/BoekingsschemaCard";
 import Controlevragen from "@/components/Controlevragen";
 import MeerkeuzeQuiz from "@/components/MeerkeuzeQuiz";
+import PaywallGate from "@/components/PaywallGate";
+import { isFreeTheme } from "@/lib/access";
 import { NatuurBadge } from "@/components/ui";
 
 export function generateStaticParams() {
@@ -26,6 +28,7 @@ export default function ThemaPagina({ params }: { params: { slug: string } }) {
   const volgende = themas[idx + 1];
 
   return (
+    <PaywallGate free={isFreeTheme(t.slug)} titel={`Thema "${t.titel}" zit in de volledige pack`}>
     <article className="space-y-8">
       <header>
         <Link href="/samenvatting" className="text-sm text-brand-600 hover:underline">
@@ -196,5 +199,6 @@ export default function ThemaPagina({ params }: { params: { slug: string } }) {
         )}
       </nav>
     </article>
+    </PaywallGate>
   );
 }

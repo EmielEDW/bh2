@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { getThemas } from "@/lib/data";
 import { Card } from "@/components/ui";
+import LockBadge from "@/components/LockBadge";
+import { isFreeTheme } from "@/lib/access";
 
 export const metadata = { title: "Samenvatting — Boekhouden 2" };
 
@@ -25,6 +27,12 @@ export default function SamenvattingOverzicht() {
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <h2 className="font-bold text-slate-900">{t.titel}</h2>
+                {!isFreeTheme(t.slug) && <LockBadge className="ml-auto self-center" />}
+                {isFreeTheme(t.slug) && (
+                  <span className="ml-auto self-center rounded-full bg-emerald-100 px-2 py-0.5 text-[11px] font-semibold text-emerald-700">
+                    gratis
+                  </span>
+                )}
               </div>
               <p className="mt-1 text-sm text-slate-600">{t.korteOmschrijving}</p>
               <div className="mt-3 flex flex-wrap gap-1.5">

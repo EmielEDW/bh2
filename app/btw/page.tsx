@@ -3,6 +3,7 @@ import { getThema } from "@/lib/data";
 import BtwHelper from "@/components/BtwHelper";
 import Markdown from "@/components/Markdown";
 import BoekingsschemaCard from "@/components/BoekingsschemaCard";
+import PaywallGate from "@/components/PaywallGate";
 import { Card } from "@/components/ui";
 
 export const metadata = { title: "BTW — Boekhouden 2" };
@@ -70,6 +71,7 @@ export default function BtwPagina() {
   const btw = getThema("btw");
 
   return (
+    <PaywallGate titel="De BTW-tools zitten in de volledige pack">
     <div className="space-y-8">
       <div>
         <h1 className="text-2xl font-bold text-slate-900">BTW</h1>
@@ -155,5 +157,6 @@ export default function BtwPagina() {
         </Link>
       </p>
     </div>
+    </PaywallGate>
   );
 }
