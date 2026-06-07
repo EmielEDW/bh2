@@ -17,10 +17,11 @@ if (existsSync(".env.local")) {
   }
 }
 
-const url = process.env.UPSTASH_REDIS_REST_URL;
-const token = process.env.UPSTASH_REDIS_REST_TOKEN;
+const url = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL;
+const token = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN;
 if (!url || !token) {
-  console.error("❌ UPSTASH_REDIS_REST_URL en UPSTASH_REDIS_REST_TOKEN ontbreken.");
+  console.error("❌ KV_REST_API_URL en KV_REST_API_TOKEN ontbreken (of de UPSTASH_*-varianten).");
+  console.error("   Tip: makkelijker is de admin-route /api/admin/seed op de live site.");
   process.exit(1);
 }
 

@@ -84,27 +84,35 @@ flow: betalen via een **Stripe Payment Link** → een webhook pakt een ongebruik
 code → die wordt automatisch **per e-mail (Resend)** verstuurd. Codes + toestellen
 worden bewaard in **Upstash Redis**.
 
-### 1. Env-variabelen (kopieer `.env.example` → `.env.local` en zet ze ook in Vercel)
+### 1. Env-variabelen (zelfde aanpak als je andere sites — zie `.env.example`)
 
 | Variabele | Waar |
 |---|---|
-| `NEXT_PUBLIC_STRIPE_PAYMENT_LINK` | Je Stripe Payment Link-URL |
-| `NEXT_PUBLIC_PRIJS` | Prijs voor weergave, bv. `€9,99` |
-| `NEXT_PUBLIC_SITE_URL` | De live URL (voor de e-mail) |
+| `NEXT_PUBLIC_STRIPE_PAYMENT_LINK` / `NEXT_PUBLIC_PRIJS` | Stripe-link + prijsweergave (client) |
+| `SITE_URL` / `REPLY_TO_EMAIL` | Live URL + reply-to voor de e-mail |
 | `STRIPE_SECRET_KEY` / `STRIPE_WEBHOOK_SECRET` | Stripe API-sleutel + webhook-secret |
-| `RESEND_API_KEY` / `RESEND_FROM` / `ADMIN_EMAIL` | Resend (geverifieerd domein) |
-| `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN` | Upstash Redis (REST) |
+| `STRIPE_PAYMENT_LINK_ID` | (optioneel) bij gedeeld Stripe-account: `plink_…` van deze pack |
+| `RESEND_API_KEY` / `RESEND_FROM` | Resend (geverifieerd domein) |
+| `HMAC_SECRET` / `ADMIN_SECRET` / `MAX_DEVICES` | token-ondertekening / admin-routes / toestellimiet |
+| `KV_REST_API_URL` / `KV_REST_API_TOKEN` | Vercel KV (auto toegevoegd als je een KV-store koppelt) |
 
-### 2. Stripe webhook
-Maak in Stripe een webhook-endpoint aan op `https://<jouw-site>/api/stripe/webhook`
-voor het event **`checkout.session.completed`**. Kopieer de signing secret naar
-`STRIPE_WEBHOOK_SECRET`. Zet op de Payment Link "verzamel e-mailadres" aan.
+### 2. Vercel KV koppelen
+Project → **Storage** → **Create / Connect** → KV (Upstash). De `KV_*`-vars worden
+automatisch toegevoegd — net als bij je andere sites.
 
-### 3. Codes genereren
-```bash
-node scripts/seed-codes.mjs 200      # 200 codes in Upstash + backup in _codes-backup.txt
+### 3. Stripe webhook
+Webhook-endpoint op `https://<jouw-site>/api/stripe/webhook`, event
+**`checkout.session.completed`**. Signing secret → `STRIPE_WEBHOOK_SECRET`. Zet op de
+Payment Link "verzamel e-mailadres" aan, en redirect na betaling naar `/bedankt`.
+
+### 4. Codes aanmaken (geen lokaal gedoe)
+Nadat alles staat en de site gedeployed is, open je één keer in je browser:
 ```
-Codes zien eruit als `BH2-XXXX-XXXX`. Raken ze op, run het script opnieuw.
+https://<jouw-site>/api/admin/seed?secret=<ADMIN_SECRET>&count=200
+```
+→ dit maakt 200 codes (`BH2-XXXX-XXXX`) aan in KV en **toont ze in de response**
+(bewaar die als backup). Stand opvragen: `…/api/admin/stats?secret=<ADMIN_SECRET>`.
+Raken de codes op, run de seed-link opnieuw. (Alternatief lokaal: `node scripts/seed-codes.mjs 200`.)
 
 > ⚠️ De inhoud-afscherming is **client-side** (zoals bij vergelijkbare cursus-sites):
 > de codecontrole en het toestellimiet gebeuren server-side via Upstash, maar de

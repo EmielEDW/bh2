@@ -48,14 +48,40 @@ export default function UnlockProvider({ children }: { children: React.ReactNode
   const [modalOpen, setModalOpen] = useState(false);
 
   useEffect(() => {
+    let c: string | null = null;
+    let token: string | null = null;
     try {
-      const c = localStorage.getItem("bh2_code");
-      if (c && localStorage.getItem("bh2_unlocked") === "1") {
-        setUnlocked(true);
-        setCode(c);
-      }
+      c = localStorage.getItem("bh2_code");
+      token = localStorage.getItem("bh2_token");
     } catch {}
-    setReady(true);
+
+    if (c && token) {
+      // Toon meteen ontgrendeld (uit cache), en hervalideer op de achtergrond.
+      setUnlocked(true);
+      setCode(c);
+      setReady(true);
+      fetch("/api/verify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ code: c, deviceId: getDeviceId(), token }),
+      })
+        .then((r) => r.json())
+        .then((d) => {
+          if (d && d.ok === false) {
+            setUnlocked(false);
+            setCode(null);
+            try {
+              localStorage.removeItem("bh2_code");
+              localStorage.removeItem("bh2_token");
+            } catch {}
+          }
+        })
+        .catch(() => {
+          /* offline: cache vertrouwen */
+        });
+    } else {
+      setReady(true);
+    }
   }, []);
 
   const openUnlock = useCallback(() => setModalOpen(true), []);
@@ -63,18 +89,19 @@ export default function UnlockProvider({ children }: { children: React.ReactNode
     setUnlocked(false);
     setCode(null);
     try {
-      localStorage.removeItem("bh2_unlocked");
       localStorage.removeItem("bh2_code");
+      localStorage.removeItem("bh2_token");
+      localStorage.removeItem("bh2_unlocked");
     } catch {}
   }, []);
 
-  const onSuccess = useCallback((c: string) => {
+  const onSuccess = useCallback((c: string, token: string) => {
     setUnlocked(true);
     setCode(c);
     setModalOpen(false);
     try {
-      localStorage.setItem("bh2_unlocked", "1");
       localStorage.setItem("bh2_code", c);
+      localStorage.setItem("bh2_token", token);
     } catch {}
   }, []);
 
@@ -98,7 +125,7 @@ function UnlockModal({
   onSuccess,
 }: {
   onClose: () => void;
-  onSuccess: (code: string) => void;
+  onSuccess: (code: string, token: string) => void;
 }) {
   const [input, setInput] = useState("");
   const [status, setStatus] = useState<"idle" | "bezig" | "fout">("idle");
@@ -117,7 +144,7 @@ function UnlockModal({
       });
       const data = await res.json().catch(() => ({}));
       if (res.ok && data.ok) {
-        onSuccess(c);
+        onSuccess(c, data.token || "");
       } else {
         setStatus("fout");
         setFout(data.error || "Code niet geldig of het toestellimiet is bereikt.");

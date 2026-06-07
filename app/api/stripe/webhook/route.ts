@@ -6,7 +6,8 @@ import { claimCode } from "@/lib/store";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://bh2.emieldewaele.com";
+const SITE =
+  process.env.SITE_URL || process.env.NEXT_PUBLIC_SITE_URL || "https://bh2.emieldewaele.com";
 
 export async function POST(req: Request) {
   const secret = process.env.STRIPE_WEBHOOK_SECRET;
@@ -64,7 +65,8 @@ export async function POST(req: Request) {
 
 async function sendCodeEmail(email: string, code: string) {
   const apiKey = process.env.RESEND_API_KEY;
-  const from = process.env.RESEND_FROM || "Boekhouden 2 <noreply@bh2.emieldewaele.com>";
+  const from = process.env.RESEND_FROM || "Boekhouden 2 <info@emieldewaele.com>";
+  const replyTo = process.env.REPLY_TO_EMAIL || "info@emieldewaele.com";
   if (!apiKey) {
     console.error("RESEND_API_KEY ontbreekt — code voor", email, "is:", code);
     return;
@@ -73,6 +75,7 @@ async function sendCodeEmail(email: string, code: string) {
   await resend.emails.send({
     from,
     to: email,
+    replyTo,
     subject: "Je toegangscode voor Boekhouden 2 🎓",
     html: `
       <div style="font-family:system-ui,sans-serif;max-width:520px;margin:0 auto;color:#1e293b">
@@ -93,9 +96,10 @@ async function sendCodeEmail(email: string, code: string) {
 
 async function notifyAdmin(message: string) {
   const apiKey = process.env.RESEND_API_KEY;
-  const admin = process.env.ADMIN_EMAIL;
-  const from = process.env.RESEND_FROM || "Boekhouden 2 <noreply@bh2.emieldewaele.com>";
-  if (!apiKey || !admin) return;
+  const admin =
+    process.env.ADMIN_EMAIL || process.env.REPLY_TO_EMAIL || "info@emieldewaele.com";
+  const from = process.env.RESEND_FROM || "Boekhouden 2 <info@emieldewaele.com>";
+  if (!apiKey) return;
   try {
     const resend = new Resend(apiKey);
     await resend.emails.send({ from, to: admin, subject: "⚠️ BH2: codes op?", text: message });

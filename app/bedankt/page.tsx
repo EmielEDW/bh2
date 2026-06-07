@@ -20,8 +20,8 @@ export default function BedanktPagina() {
         </div>
         <p className="mt-4 text-xs text-slate-400">
           Eén code werkt op max. 2 toestellen. Geen e-mail na 10 minuten? Mail{" "}
-          <a href="mailto:emieldewaele@gmail.com" className="text-brand-600 hover:underline">
-            emieldewaele@gmail.com
+          <a href="mailto:info@emieldewaele.com" className="text-brand-600 hover:underline">
+            info@emieldewaele.com
           </a>
           .
         </p>

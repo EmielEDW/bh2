@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { verifyAndRegister } from "@/lib/store";
+import { sign } from "@/lib/token";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -20,7 +21,11 @@ export async function POST(req: Request) {
 
   try {
     const result = await verifyAndRegister(code, deviceId);
-    return NextResponse.json(result, { status: result.ok ? 200 : 403 });
+    if (!result.ok) {
+      return NextResponse.json(result, { status: 403 });
+    }
+    const token = sign(`${code}|${deviceId}`);
+    return NextResponse.json({ ok: true, token });
   } catch (e) {
     console.error("unlock error", e);
     return NextResponse.json(
