@@ -1187,30 +1187,30 @@
       "titel": "Oefening 5 (verkoop): bestelwagen Bierhandel Jupiler – afschrijven en verkopen met minderwaarde",
       "niveau": "examen",
       "context": "Bierhandel Jupiler koopt op 01/06/20x0 een bestelwagen voor € 20.000 EUR exclusief 21% btw. De levensduur is 5 jaar; er wordt lineair pro rata temporis afgeschreven. De afschrijvingen worden geboekt in 20x0, 20x1 en 20x2; op 20x3 wordt de bestelwagen verkocht voor € 1.000 EUR (excl. 21% btw).",
-      "vraag": "Stel de afschrijvingstabel op (volgens de fiche-telmethode), boek de afschrijvingen 20x0-20x2 en boek de verkoop in 20x3 met de minderwaarde.",
+      "vraag": "Stel de afschrijvingstabel op (met exacte dagen (214/365)), boek de afschrijvingen 20x0-20x2 en boek de verkoop in 20x3 met de minderwaarde.",
       "stappen": [
-        "Jaarbedrag = 20.000 / 5 = 4.000. Aankoopjaar 20x0 pro rata: de fiche-oplossing rekent € 2.246,58 (telmethode van de fiche: van 01/06 t.e.m. 31/12).",
-        "20x1 = 4.000; 20x2 = 4.000. Cumulatieve geboekte afschrijvingen op de verkoopdatum = 2.246,58 + 4.000 + 4.000 = 10.246,58.",
-        "Boekwaarde = 20.000 − 10.246,58 = 9.753,42.",
+        "Jaarbedrag = 20.000 / 5 = 4.000. Aankoopjaar 20x0 pro rata: de leerkracht rekent 4.000 × 214/365 = € 2.345,21 (exacte dagen: 01/06 t.e.m. 31/12 = 214 dagen).",
+        "20x1 = 4.000; 20x2 = 4.000. Cumulatieve geboekte afschrijvingen op de verkoopdatum = 2.345,21 + 4.000 + 4.000 = 10.345,21.",
+        "Boekwaarde = 20.000 − 10.345,21 = 9.654,79.",
         "Verkoopfactuur (excl. 707): 416000 1.210 (incl. btw) / 241000 1.000 + 451540 btw 210.",
-        "Uitboeking van de rest: 241900 geboekte afschrijvingen 10.246,58 + 663000 minderwaarde 8.753,42 / 241000 19.000 (= 20.000 AW − 1.000 al via de verkoop). Minderwaarde = boekwaarde 9.753,42 − verkoopprijs 1.000 = 8.753,42."
+        "Uitboeking van de rest: 241900 geboekte afschrijvingen 10.345,21 + 663000 minderwaarde 8.654,79 / 241000 19.000 (= 20.000 AW − 1.000 al via de verkoop). Minderwaarde = boekwaarde 9.654,79 − verkoopprijs 1.000 = 8.654,79."
       ],
       "boekingen": [
         {
-          "omschrijving": "Afschrijving 20x0 (pro rata, fiche-telmethode)",
+          "omschrijving": "Afschrijving 20x0 (pro rata in dagen 214/365)",
           "regels": [
             {
               "code": "630200",
               "naam": "Afschrijvingen op materiële vaste activa",
-              "debet": 2246.58,
+              "debet": 2345.21,
               "credit": null,
-              "reden": "Pro rata afschrijving van het aankoopjaar (fiche-telmethode)."
+              "reden": "Pro rata afschrijving van het aankoopjaar (214/365 dagen)."
             },
             {
               "code": "241900",
               "naam": "Geboekte afschrijvingen (vd aanschafwaarde)",
               "debet": null,
-              "credit": 2246.58,
+              "credit": 2345.21,
               "reden": "Cumulatieve afschrijving op rollend materieel."
             }
           ]
@@ -1285,16 +1285,16 @@
             {
               "code": "241900",
               "naam": "Geboekte afschrijvingen (vd aanschafwaarde)",
-              "debet": 10246.58,
+              "debet": 10345.21,
               "credit": null,
-              "reden": "De cumulatieve afschrijvingen (2.246,58 + 4.000 + 4.000) worden uitgeboekt."
+              "reden": "De cumulatieve afschrijvingen (2.345,21 + 4.000 + 4.000) worden uitgeboekt."
             },
             {
               "code": "663000",
               "naam": "Minderwaarden op de realisatie van vaste activa",
-              "debet": 8753.42,
+              "debet": 8654.79,
               "credit": null,
-              "reden": "Boekwaarde 9.753,42 − verkoopprijs 1.000 = 8.753,42 minderwaarde (kost)."
+              "reden": "Boekwaarde 9.654,79 − verkoopprijs 1.000 = 8.654,79 minderwaarde (kost)."
             },
             {
               "code": "241000",
@@ -1306,7 +1306,7 @@
           ]
         }
       ],
-      "eindantwoord": "Afschrijvingstabel: 20x0 = 2.246,58 / 20x1 = 4.000 / 20x2 = 4.000 (cumul 10.246,58). Boekwaarde 20x3 = 9.753,42; verkoopprijs 1.000 → minderwaarde € 8.753,42 op 663000. De uitboeking balanceert: debet 10.246,58 + 8.753,42 = 19.000 = credit.",
+      "eindantwoord": "Afschrijvingstabel: 20x0 = 2.345,21 / 20x1 = 4.000 / 20x2 = 4.000 (cumul 10.345,21). Boekwaarde 20x3 = 9.654,79; verkoopprijs 1.000 → minderwaarde € 8.654,79 op 663000. De uitboeking balanceert: debet 10.345,21 + 8.654,79 = 19.000 = credit.",
       "valkuil": "In het aankoopjaar het volledige jaarbedrag (4.000) afschrijven. Pas pro rata temporis toe volgens de telmethode die de oefening voorschrijft. En de minderwaarde berekenen op de AW i.p.v. op de boekwaarde."
     },
     {
