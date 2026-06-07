@@ -8,6 +8,20 @@
 //   bh2:code:<CODE>:devices (set)  geregistreerde device-id's voor die code
 //   bh2:code:<CODE>         (hash) { email, assignedAt }
 import { Redis } from "@upstash/redis";
+import crypto from "crypto";
+
+// Master-code: onbeperkt aantal toestellen, werkt altijd (ook zonder KV).
+// We bewaren enkel de SHA-256-hash zodat de echte code niet in de (publieke)
+// repo staat. Optioneel kan je ook MASTER_CODE als env-var zetten.
+const MASTER_HASH = "7385f52e23f03cc969c04aae4312477c26bb25a22167c3a983c8899c354b1207";
+
+export function isMaster(code: string): boolean {
+  if (!code) return false;
+  const c = code.trim().toUpperCase();
+  const envMaster = process.env.MASTER_CODE?.trim().toUpperCase();
+  if (envMaster && c === envMaster) return true;
+  return crypto.createHash("sha256").update(c).digest("hex") === MASTER_HASH;
+}
 
 let _redis: Redis | null = null;
 
@@ -34,9 +48,13 @@ export async function verifyAndRegister(
   code: string,
   deviceId: string
 ): Promise<UnlockResult> {
+  if (!code || !deviceId) return { ok: false, error: "Code of toestel ontbreekt." };
+
+  // Master-code: altijd geldig, onbeperkt aantal toestellen, geen KV nodig.
+  if (isMaster(code)) return { ok: true, devices: 0 };
+
   const redis = getRedis();
   if (!redis) return { ok: false, error: "Server niet geconfigureerd." };
-  if (!code || !deviceId) return { ok: false, error: "Code of toestel ontbreekt." };
 
   const bestaat = await redis.sismember("bh2:codes", code);
   if (!bestaat) return { ok: false, error: "Deze code bestaat niet." };
@@ -60,8 +78,10 @@ export async function verifyAndRegister(
 
 /** Read-only: bestaat de code én is dit toestel geregistreerd? (voor /api/verify) */
 export async function checkDevice(code: string, deviceId: string): Promise<boolean> {
+  if (!code || !deviceId) return false;
+  if (isMaster(code)) return true; // master blijft altijd geldig
   const redis = getRedis();
-  if (!redis || !code || !deviceId) return false;
+  if (!redis) return false;
   const bestaat = await redis.sismember("bh2:codes", code);
   if (!bestaat) return false;
   return (await redis.sismember(`bh2:code:${code}:devices`, deviceId)) === 1;
