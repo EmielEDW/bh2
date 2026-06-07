@@ -29,6 +29,14 @@ export async function POST(req: Request) {
 
   if (event.type === "checkout.session.completed") {
     const session = event.data.object as Stripe.Checkout.Session;
+
+    // Deel je één Stripe-account met je andere sites? Zet STRIPE_PAYMENT_LINK_ID
+    // (de 'plink_...'-id van DEZE pack) zodat we enkel betalingen voor BH2 verwerken.
+    const onlyLink = process.env.STRIPE_PAYMENT_LINK_ID;
+    if (onlyLink && session.payment_link && session.payment_link !== onlyLink) {
+      return NextResponse.json({ received: true, skipped: "ander product" });
+    }
+
     const email =
       session.customer_details?.email || (session.customer_email as string) || "";
 
