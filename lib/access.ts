@@ -14,6 +14,6 @@ export const STRIPE_LINK =
   process.env.NEXT_PUBLIC_STRIPE_PAYMENT_LINK || "https://buy.stripe.com/";
 
 // Prijs (enkel voor weergave op de salespagina).
-export const PRIJS = process.env.NEXT_PUBLIC_PRIJS || "€9,99";
+export const PRIJS = process.env.NEXT_PUBLIC_PRIJS || "€15";
 
 export const MAX_DEVICES = 2;
